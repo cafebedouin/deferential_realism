@@ -6,15 +6,15 @@
 
 ---
 
-## For Artists, Designers, Writers, and Makers
+## For Artists, Designers, Writers, and Makers: A Field Manual for Creativity
 
-This isn't philosophy wearing an artist costume. This is a **working aesthetic framework** for anyone who makes things under constraint.
+This document is not philosophy wearing an artist costume. It is a **working aesthetic framework—a field manual for creativity under constraint**—designed for anyone who makes things and navigates the complex interplay of limits and possibilities.
 
 **What this document provides:**
 - Language for talking about how constraints shape creative work
 - Methods for distinguishing enabling constraints from crushing ones
 - Techniques for making constraint-structure visible (or invisible) as aesthetic choice
-- Practical exercises for developing constraint-awareness
+- Practical exercises for developing constraint-awareness and strategic responses
 - Tools for navigating institutional extraction without surrendering creative integrity
 
 **Who this is for:**

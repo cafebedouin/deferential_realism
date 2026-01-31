@@ -6,7 +6,7 @@
 
 ## Start Here
 
-**[core.md](core.md)** (~3,000 words) - Compressed introduction to the framework
+**[foundations/core.md](foundations/core.md)** (~3,000 words) - Compressed introduction to the framework
 - Four constraint categories (Mountain, Rope, Noose, Scaffold)
 - Four indexical parameters (WHO, WHEN, WHERE, HOW_MUCH)
 - One worked example (carbon credits from multiple perspectives)
@@ -16,12 +16,12 @@
 **Read this first.** Everything else builds on these foundations.
 
 **Also at root level:**
-- **[quick_reference.md](quick_reference.md)** (~1,000 words) - One-page decision trees and heuristics for practitioners
-- **[glossary.md](glossary.md)** - Definitions of all framework terminology (constraint types, indices, metrics, errors)
-- **[faq.md](faq.md)** (~8,000 words) - Objections, clarifications, comparisons to other frameworks (Marxism, libertarianism, relativism, etc.)
-- **[docs/deferential_realism.md](docs/deferential_realism.md)** - Earlier gateway document (v2.0) introducing the framework
+- **[application/quick_reference.md](application/quick_reference.md)** (~1,000 words) - One-page decision trees and heuristics for practitioners
+- **[application/glossary.md](application/glossary.md)** - Definitions of all framework terminology (constraint types, indices, metrics, errors)
+- **[application/faq.md](application/faq.md)** (~8,000 words) - Objections, clarifications, comparisons to other frameworks (Marxism, libertarianism, relativism, etc.)
+- **[docs/core_concepts/deferential_realism.md](docs/core_concepts/deferential_realism.md)** - Earlier gateway document (v2.0) introducing the framework
 
-This repository is also available as a [GitBook](https://cafebedouin.gitbook.io/) for easier reading. See [`SUMMARY.md`](SUMMARY.md) for the navigation structure.
+As some point, this repository will also available as a [GitBook](https://cafebedouin.gitbook.io/) for easier reading. See [`SUMMARY.md`](SUMMARY.md) for the proposed navigation structure. I'll work on it if there is enough interest.
 
 ---
 
@@ -60,12 +60,13 @@ Four cardinal virtues of constraint-alignment:
 - **Conservation** - Preserving finite energy
 - Reality-alignment as honesty-in-practice
 
-### **[aesthetics.md](foundations/aesthetics.md)** (~4,400 words)
-Beauty of alignment vs. ugliness of fraud:
-- Elegant surrender to Mountains (beauty)
-- Grotesque forced compliance to Nooses (ugliness)
-- Well-designed Ropes that disappear
-- The aesthetics of ontological fraud
+### **[aesthetics.md](foundations/aesthetics.md)** (~7,200 words)
+A field manual for creativity as the strategic engagement with constraint-structures:
+- **Creative Limits** – Categorizes constraints to reduce extraction
+- **Aesthetic Strategies** – Discusses creative choices
+- **Institutional Navigation** – Provides techniques for art market reform and resistance
+- **Historical Analysis** – Maps art movements as specific philosophies of constraint-relationship.
+- **Paradox Containment** – Offers practical methods for navigating unresolvable creative tensions.
 
 ---
 
@@ -73,7 +74,7 @@ Beauty of alignment vs. ugliness of fraud:
 
 Located in [`application/`](application/)
 
-### **[applied_guide.md](application/applied_guide.md)** (~6,700 words)
+### **[application/applied_guide.md](application/applied_guide.md)** (~6,700 words)
 Practical classification manual:
 - Decision trees for real-world classification
 - Common misclassifications and corrections
@@ -81,19 +82,28 @@ Practical classification manual:
 - Case studies from multiple domains
 - When to act vs. investigate vs. observe
 
-### **[claims_evaluator.md](application/claims_evaluator.md)** (UKE_DR Protocol)
+### **[tools/uke_suite/claims_evaluator.md](tools/uke_suite/claims_evaluator.md)** (UKE_DR Protocol)
 Reality-check for recommendations and proposals:
 - Post-generation audit tool
 - Detects fantasy recommendations ignoring constraints
 - Prevents advocacy disguised as analysis
 - Pipeline: Draft → Claims Evaluation → Revision
 
-### **[diagnostic_evaluator.md](application/diagnostic_evaluator.md)** (Constraint Evaluator v2.0)
+### **[tools/uke_suite/diagnostic_evaluator.md](tools/uke_suite/diagnostic_evaluator.md)** (Constraint Evaluator v2.0)
 Mathematical stress testing:
 - Force narratives to survive numerical confrontation
 - Expose rationalization, hallucination, miracles
 - Gauge stance: math as resistance, not scenery
 - τ_fail boundary testing protocols
+
+### **[application/beliefs/individual_belief_battery.md](application/beliefs/individual_belief_battery.md)** (~7,500 words)
+Practical epistemology for finite agents:
+- **Tier 0 (Theory):** Universal truths independent of position
+- **Tier 1 (Practice):** Indexed beliefs for individuals
+  - Default context: moderate power, biographical timescale, mobile, national scope
+  - 50+ practical questions with Prolog specifications
+- Extensible to organizational/institutional contexts
+- Executable Prolog implementation: [`application/structural_dynamics_model/prolog/belief_battery/`](application/structural_dynamics_model/prolog/belief_battery/)
 
 ---
 
@@ -198,46 +208,26 @@ Supporting validation analysis:
 
 ---
 
-## Extensions
+## Archived & Legacy Documents
 
-Located in [`extensions/`](extensions/)
+Located in [`docs/`](docs/)
 
-### **[individual_belief_battery.md](extensions/individual_belief_battery.md)** (~7,500 words)
-Practical epistemology for finite agents:
-- **Tier 0 (Theory):** Universal truths independent of position
-- **Tier 1 (Practice):** Indexed beliefs for individuals
-  - Default context: moderate power, biographical timescale, mobile, national scope
-  - 50+ practical questions with Prolog specifications
-- Extensible to organizational/institutional contexts
-- Executable Prolog implementation: [`application/structural_dynamics_model/prolog/belief_battery/`](application/structural_dynamics_model/prolog/belief_battery/)
+These reference documents show where Deferential Realism originated, and are kept for historical purposes.
 
-**Future extensions:**
-- `organizational_belief_battery.md` - For institutions and collectives
-- `institutional_analysis.md` - Power structures and coordination mechanisms
-- `temporal_dynamics.md` - Constraint transitions over time (Rope → Tangled Rope → Noose → Zombie)
-
----
-
-## Intellectual Lineage
-
-Located in [`lineage/`](lineage/)
-
-These reference documents show where Deferential Realism originated:
-
-### **[omega_variables.md](lineage/omega_variables.md)** (~1,200 words)
+### **[docs/core_concepts/omega_variables.md](docs/core_concepts/omega_variables.md)** (~1,200 words)
 Framework for identifying reasoning blockers:
 - Three types: Empirical (Ω_E), Conceptual (Ω_C), Preference (Ω_P)
 - Distinguishes data needs from definitional needs from value judgments
 - Protocol for routing blockers to appropriate resolution
 - Structural convergence principle
 
-### **[indexical_relativity.md](lineage/indexical_relativity.md)** (~100 words)
+### **[docs/core_concepts/indexical_relativity.md](docs/core_concepts/indexical_relativity.md)** (~100 words)
 Core innovation origin:
 - Classifications relative to WHO/WHEN/WHERE/HOW_MUCH
 - Not relativism: each indexed claim is objectively true/false
 - Medieval Church example (Mountain for serf, Noose for historian, Rope for Pope)
 
-### **[mck_v1.6.md](lineage/mck_v1.6.md)** (~750 words)
+### **[docs/archive/mck_v1.6.md](docs/archive/mck_v1.6.md)** (~750 words)
 Verified Kernel protocol:
 - Grounding protocol (distinguish observable from constructed)
 - Multi-perspective mandate
@@ -245,13 +235,13 @@ Verified Kernel protocol:
 - Omega variable marking
 - Dignity and reality invariants
 
-### **[uke_protocol_framing_guide.md](lineage/uke_protocol_framing_guide.md)** (~900 words)
+### **[docs/uke/uke_protocol_framing_guide.md](docs/uke/uke_protocol_framing_guide.md)** (~900 words)
 Routing vs. truth clarification:
 - UKE metrics are routing mechanisms, not truth measurements
 - Decision interfaces for consistent comparison
 - Protocol triggering based on confidence thresholds
 
-### **[debugging_philosophy.md](lineage/debugging_philosophy.md)** (~40KB)
+### **[docs/technical/debugging_philosophy.md](docs/technical/debugging_philosophy.md)** (~40KB)
 Predecessor framework for identifying reasoning error types:
 - Systematic approach to philosophical debugging
 - Error taxonomy and correction protocols
@@ -304,7 +294,7 @@ Predecessor framework for identifying reasoning error types:
 ## How to Engage
 
 ### If the framework makes sense:
-1. Start with [`core.md`](core.md) for compression
+1. Start with [`foundations/core.md`](foundations/core.md) for compression
 2. Read [`foundations/epistemology.md`](foundations/epistemology.md) for depth
 3. Apply [`application/applied_guide.md`](application/applied_guide.md) to your domain
 4. Check [`validation/validation_report.md`](validation/validation_report.md) for empirical grounding
@@ -321,9 +311,9 @@ Predecessor framework for identifying reasoning error types:
 1. Use [`application/applied_guide.md`](application/applied_guide.md) decision trees
 2. Run the [Structural Dynamics Model](application/structural_dynamics_model/) for formal analysis
 3. Try [Narrative Transform](application/narrative_transform/) for creative constraint transposition
-4. Run [`application/claims_evaluator.md`](application/claims_evaluator.md) on recommendations to detect constraint-blindness
-5. Use [`application/diagnostic_evaluator.md`](application/diagnostic_evaluator.md) to stress-test narratives with math
-6. Adapt [`extensions/individual_belief_battery.md`](extensions/individual_belief_battery.md) to your context
+4. Run [`tools/uke_suite/claims_evaluator.md`](tools/uke_suite/claims_evaluator.md) on recommendations to detect constraint-blindness
+5. Use [`tools/uke_suite/diagnostic_evaluator.md`](tools/uke_suite/diagnostic_evaluator.md) to stress-test narratives with math
+6. Adapt [`application/beliefs/individual_belief_battery.md`](application/beliefs/individual_belief_battery.md) to your context
 
 ---
 
@@ -351,7 +341,7 @@ See [`validation/validation_report.md`](validation/validation_report.md) for com
 ## Installation
 
 ### For Reading/Study
-No installation required. Start with [`core.md`](core.md).
+No installation required. Start with [`foundations/core.md`](foundations/core.md).
 
 ### For Running the Validation Suite
 ```bash
@@ -366,12 +356,12 @@ cd application/structural_dynamics_model/scripts
 
 ### For Full LLM Pipeline (Optional)
 ```bash
-pip install -r requirements.txt
+pip install -r tools/streamlit/requirements.txt
 export ANTHROPIC_API_KEY="your-key"
 export GOOGLE_API_KEY="your-key"
 ```
 
-See [`requirements.txt`](requirements.txt) for details.
+See [`tools/streamlit/requirements.txt`](tools/streamlit/requirements.txt) for details.
 
 ---
 
