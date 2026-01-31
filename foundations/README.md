@@ -10,6 +10,10 @@ This directory contains the core philosophical architecture of Deferential Reali
 4. **[metaphysics.md](metaphysics.md)** - What constraints are made of
 5. **[ethics.md](ethics.md)** - What to do about constraints
 6. **[aesthetics.md](aesthetics.md)** - The beauty of alignment
+7. **[psychology.md](psychology.md)** - Internal constraint navigation
+8. **[sociology.md](sociology.md)** - Relational constraint dynamics
+9. **[politics.md](politics.md)** - Institutional power structures
+
 
 ## Documents
 
@@ -54,14 +58,39 @@ What to do once you've classified constraints:
 - **Conservation** - Preserving finite energy
 - Reality-alignment as honesty-in-practice
 
-### [aesthetics.md](aesthetics.md) (~4,400 words)
-**Beauty of Alignment vs. Ugliness of Fraud**
+### [aesthetics.md](aesthetics.md) (~7,200 words)
+**A Field Manual for Creativity Under Constraint**
 
-The aesthetic dimension of constraint navigation:
-- Elegant surrender to Mountains (beauty)
-- Grotesque forced compliance to Nooses (ugliness)
-- Well-designed Ropes that disappear into infrastructure
-- The aesthetics of ontological fraud (disguising Nooses as Mountains)
+Constraints foster creativity
+- **Creative Limits** – Categorizes constraints to reduce extraction
+- **Aesthetic Strategies** – Discusses creative choices
+- **Institutional Navigation** – Provides techniques for art market reform and resistance
+- **Historical Analysis** – Maps art movements as specific philosophies of constraint-relationship.
+- **Paradox Containment** – Offers practical methods for navigating unresolvable creative tensions.
+
+### [psychology.md](psychology.md) (~7,800 words)
+**The Psychology of Internal Constraints**
+
+- Applies the six-category constraint model to internal experience (biology, habits, trauma).
+- Distinguishes genuine biological limits (Substrate) from obsolete patterns (Abandoned Camps) and self-sabotage (Self-Extraction).
+- Proposes an experimental approach to self-knowledge over pure introspection.
+- Introduces containment logic for managing irresolvable internal paradoxes (e.g., autonomy vs. connection).
+
+### [sociology.md](sociology.md) (~16,500 words)
+**The Sociology of Social Constraints**
+
+- Extends the constraint ontology to interpersonal relationships, groups, and communities.
+- Introduces the concept of **Indexical Relativity**: how the same social structure (e.g., monogamy) can be a Rope for one person and a Snare for another, depending on their power position.
+- Details the **Relational Integrity Protocol** for honest communication about constraints in relationships.
+- Analyzes social patterns like family obligations, professional networking, and gender roles as Ropes, Snares, or Tangled Ropes.
+
+### [politics.md](politics.md) (~7,800 words)
+**The Politics of Institutional Constraints**
+
+- Applies the constraint ontology to formal power structures like constitutions and electoral systems.
+- Analyzes how the same institution (e.g., an electoral system) can function as a Rope (coordination) for one political actor and a Snare (extraction) for another, depending on their power.
+- Identifies and describes common "electoral topologies" like the "Bipolar Noose" and "Deadlock Labyrinth" that create predictable political dynamics.
+- Examines structural paradoxes in governance, such as the tension between a democratic mandate and constitutional limits.
 
 ## Relationship to Other Components
 
