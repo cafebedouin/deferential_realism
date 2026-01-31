@@ -1,0 +1,117 @@
+Analyzing 409 constraint files...
+
+================================================================================
+                    CORPUS ANALYSIS: Conceptual Connections                     
+================================================================================
+
+🔍 CONCEPT CLUSTERS
+--------------------------------------------------------------------------------
+  Found 43 concepts appearing in 3+ constraints:
+
+  ulysses             : 18 constraint(s)
+    - ulysses_chp14
+    - ulysses_chp09
+    - ulysses_chp12
+    ... and 15 more
+
+  theorem             : 15 constraint(s)
+    - pythagorean_theorem_geometric_constancy
+    - cap_theorem
+    - prime_number_theorem
+    ... and 12 more
+
+  law                 : 12 constraint(s)
+    - sturgeons_law
+    - law_of_diminishing_returns
+    - moores_law
+    ... and 9 more
+
+  paradox             : 11 constraint(s)
+    - burali_forte_paradox
+    - authoritarian_power_paradox
+    - russells_paradox_self_reference
+    ... and 8 more
+
+  protocol            : 11 constraint(s)
+    - openbsd_netiquette_protocol
+    - ergo_sig_usd_protocol
+    - ergo_lets_protocol
+    ... and 8 more
+
+  ergo                : 9 constraint(s)
+    - ergo_sig_usd_protocol
+    - ergo_lets_protocol
+    - ergo_nipopows
+    ... and 6 more
+
+  arbitrage           : 9 constraint(s)
+    - big_data_astrophysics_arbitrage
+    - cognitive_diversity_arbitrage
+    - personalized_nutritional_arbitrage
+    ... and 6 more
+
+  effect              : 7 constraint(s)
+    - framing_effect
+    - lindy_effect
+    - endowment_effect
+    ... and 4 more
+
+  theory              : 6 constraint(s)
+    - sylow_theorems_group_theory
+    - helsinki_bus_theory
+    - galois_theory_symmetry
+    ... and 3 more
+
+  undecidability      : 6 constraint(s)
+    - halting_problem_undecidability
+    - chaitins_omega_undecidability
+    - whitehead_problem_undecidability
+    ... and 3 more
+
+
+🎯 DOMAIN GAPS & BALANCE
+--------------------------------------------------------------------------------
+  No domain information available
+💡 SUGGESTED SCENARIOS
+--------------------------------------------------------------------------------
+  Based on concept co-occurrence patterns:
+
+  • Explore ergo + protocol in a new context (5 existing linkages)
+  • Explore collapse + mandatrophic in a new context (4 existing linkages)
+  • Explore arbitrage + cognitive in a new context (3 existing linkages)
+  • Explore burden + proof in a new context (3 existing linkages)
+  • Explore rotation + seven in a new context (3 existing linkages)
+
+  Type distribution balance:
+
+  mountain       : 143
+  tangled_rope   :   7
+  noose          :  78
+  rope           :  76
+
+  ⚠ Add more 'tangled_rope' scenarios for balance
+
+🕸️  CONCEPT NETWORK
+--------------------------------------------------------------------------------
+  Strongest conceptual connections (1152 total):
+
+  ergo                 ━━━━━→ protocol             (5)
+  collapse             ━━━━→ mandatrophic         (4)
+  arbitrage            ━━━→ cognitive            (3)
+  burden               ━━━→ proof                (3)
+  rotation             ━━━→ seven                (3)
+  arbitrage            ━━→ diversity            (2)
+  cognitive            ━━→ diversity            (2)
+  collapse             ━━→ margin               (2)
+  mandatrophic         ━━→ margin               (2)
+  fixed                ━━→ point                (2)
+  blackstone           ━━→ interest             (2)
+  match                ━━→ residency            (2)
+  mil                  ━━→ std                  (2)
+  hypothesis           ━━→ undecidability       (2)
+  problem              ━━→ undecidability       (2)
+
+  💡 These connections suggest natural clusters for future scenarios
+
+================================================================================
+

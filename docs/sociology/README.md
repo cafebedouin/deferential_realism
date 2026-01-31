@@ -1,0 +1,1 @@
+This directory contains documents that explore the sociological aspects of Deferential Realism. This includes topics such as social structures, group dynamics, and cultural influences.

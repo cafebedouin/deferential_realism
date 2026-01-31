@@ -1,0 +1,1361 @@
+26usc469.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.72 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+26usc469_real_estate_exemption.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+abstraction_boundary_overrun.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.81 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+abstraction_leakage.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.74 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+academic_peer_review_gatekeeping.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+academic_tenure_system.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ad_fus_coordination.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ad_synaptic_deficit.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+adaptive_lag_trap.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+adversarial_surface_inflation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+adverse_possession.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+agency_atrophy.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ai_auditability_gap.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.52 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ai_cognitive_diversity_arbitrage.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.72 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ai_driven_surveillance_sensor_layer.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ai_edu_decentralization.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ai_evaluators_matching.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ai_professional_displacement.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.71 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+algorithmic_bias.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+algorithmic_epistemic_capture.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+alignment_tax_tradeoff.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+amish_technological_renunciation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ancestral_pueblo_hydrology.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ancient_grudge_verona.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+anticipatory_capacity_failure.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+antifragility.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+apartheid_nuclear_program.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+arctic_geopolitical_flashpoint.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+arrows_impossibility_theorem.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+artificial_scarcity_scaffold.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.48 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+asshole_filter_2015.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+asymmetric_burden_distribution.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.89 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+asymmetric_computational_difficulty.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+atrophied_optimization_piton.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.48 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+attention_as_bottleneck_resource.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+attention_market_cannibalization.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.91 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+authoritarian_power_paradox.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+autonomous_toolchain_sprawl.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+awareness_without_leverage.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.73 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+bangladesh_july_national_charter.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.55 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+bap_of_pigs_operational_silo.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+bedouin_sedentary_transition.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+beief_argument_conclusion.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+big_data_astrophysics_arbitrage.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+bip_narrative_illusion.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+blackstone_conflicts_of_interest.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+blackstone_smd_control.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+blackstone_tax_receiveable_agreement.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+boundary_dissolution_risk.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+brazil_2026_general_elections.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.52 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+broke_vs_poor_grocery_math.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+brouwer_fixed_point.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+burali_forte_paradox.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+burden_of_proof_engineering_safety.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+bureaucratic_legibility_collapse.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+bureaucratic_self_preservation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.72 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+bushman_money_magic.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cantor_set_topology.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+cap_theorem.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+capability_eval_overhang.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+capital_misallocation_spiral.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+carbon_credit_markets_2026.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.55 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+carrying_capacity.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cascading_constraint_failure.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.89 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+castration_longevity_choice.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cbdc_implementation.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+central_limit_theorem_convergence.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+chaitins_omega_undecidability.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+challenger_o_ring_integrity.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+china_critical_mineral_chokepoint.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+china_taiwan_reunification_mandate.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cia_fbi_legal_wall.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+circadian_decoupling_arbitrage.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.62 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+citation_collapse_dynamics.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+civilizational_maintenance_debt.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.62 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cloudflare_dual_class_asymmetry.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cobra_effect.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cognitive_diversity_arbitrage.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.72 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cognitive_energy_budget.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.81 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cognitive_induction_gap.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cognitive_mimicry_arbitrage.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cognitive_surrender_to_system_3.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+coinbase_regulatory_uncertainty.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+collective_action_deadlock.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+college_admissions_market.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+colorado_sbe_decentralization_friction.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+columbia_2026_elections.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+comitatus_bond.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+complexity_debt.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+compounding_logic.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+confirmation_bias.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+consensus_without_truth.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+constitutional_consecration.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+constraint_interaction_explosion.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.81 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+container_capacity_mismatch.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+conways_game_of_life_dynamics.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+coordination_attack_vulnerability.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+coordination_fatigue.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.78 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+coordination_threshold_failure.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.78 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cost_of_observation.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+countable_infinity_cardinality.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+couples_residency_match.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+credibility_inflation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+crisis_signal_saturation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.89 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+critical_actor_overcentralization.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cross_domain_coupling_spiral.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cuba_mandatrophic_collapse.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.95 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+cultural_memory_decay.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.81 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+currys_paradox.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+dark_patterns_manipulation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+data_laundering_pipeline.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+dead_sea_effect.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+decision_latency_mismatch.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.68 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+deferred_risk_realization.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+delayed_feedback_instability.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+demographic_inertia_trap.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.78 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+digital_credentialing_verification.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+digital_identity_tether.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.58 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+dionysaic_frenzy.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+dunbars_number.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+elite_overproduction_instability.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.58 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+emergency_deployment_scaffold.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+  MISSING_TEMPORAL_DATA: Extraction 0.49 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+emergency_mode_lock_in.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.91 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+emergency_oversight_bureau.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.48 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+emergency_powers_ratchet.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+emergent_goal_misalignment.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+emrgency_medicine_clinical_guidelines.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+endocrine_disruption_society.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+endowment_effect.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+epistemic_free_rider_problem.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+epistemic_overload_collapse.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.89 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ergo_dexy_gold_protocol.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+ergo_lets_protocol.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+ergo_rosen_bridge_protocol.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ergo_sig_usd_protocol.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+ergodic_theorems.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+ergot_grain_poisoning.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+evidence_half_life.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+evolutionary_mismatch_load.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+expert_disempowerment.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.74 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+factional_instability.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+faint_blue_neural_bifurcation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+fair_use_doctrine.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+family_estrangement_ratio.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+family_succession_and_decadence.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+fast_growing_hierarchy.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+feedback_loop_desynchronization.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.72 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+financialization_drag.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+finite_pool_of_worry.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+finite_simple_groups_classification.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+fiscal_dominance_trap.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+fragile_middle_layer_collapse.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+framing_effect.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+france_2027_presidential_election.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.48 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+frankenstein_creation_hubris.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+gale_shapley.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+galois_theory_symmetry.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+gamblers_ruin_stochastic_extinction.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+generational_replacement_inertia.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+genetic_predisposition.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+germline_regulation_threshold_2026.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+gig_economy_algorithmic_managment.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+gilgamesh_mortality_limit.pl:
+  MISSING_TEMPORAL_DATA: Extraction 1.0 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+global_protocol_entrenchment.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+global_stimulus_spree.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.62 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+global_water_bankruptcy.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+goal_boundary_poisoning.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+goldbach_conjecture.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+goodharts_law.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+governance_latency_gap.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+governance_overfitting.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.74 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+graph_coloring_complexity.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+greenland_seizure_trade_war.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+greshams_law.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+grete_samsa_transition.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+grievance_stack_overflow.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+halting_problem_undecidability.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+hammurabi.pl:
+  MISSING_OMEGA: High-extraction constraints (> 0.46) require omega_variable/5.
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+happiness_of_others.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+harm_principle_liberty.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+harry_potter_liberalism.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.52 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+hedonic_adaptation_baseline.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.48 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+hidden_interdependency_risk.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+hiv_prep_prevention_2026.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+hollow_state_syndrome.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+hominin_evolutionary_bottleneck.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+hu_2026_electoral_parity.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.58 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+hydra_game.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+hypercompression_of_time_horizons.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+hypernormie_equilibrium.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+identity_stack_incompatibility.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+incentive_surface_warping.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+indexical_relativity_core.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+inference_cost_scaling_law.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+infrastructure_decay_piton.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+infrastructure_interoperability_decay.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+innovators_dilemma.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+institutional_inertia_lock.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.52 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+institutional_memory_loss.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+institutional_mutation_domestication.pl:
+  MISSING_OMEGA: High-extraction constraints (> 0.46) require omega_variable/5.
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+institutional_mutation_without_selection.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+institutional_trust_decay.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.68 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+insult_wisdom_training.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+integrated_digital_governance_stack.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+interface_contract_breakdown.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+internet_archive_preservation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.58 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+interpretive_frame_fragmentation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.93 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+intertemporal_responsibility_gap.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.92 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+invisible_infrastructure_dependency.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+iran_mandatrophic_collapse.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+iron_law_of_oligarchy.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+irreversible_policy_commitment.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.72 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+israel_electoral_threshold.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.48 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+israel_norwegian_law.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.52 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+israel_override_clause.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+israel_surplus_vote_agreements.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.47 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+japanese_energy_scaffold_2025.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+jevons_paradox.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+job_hunt_volume_system_2026.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+khantivadin_radical_patience.pl:
+  MISSING_TEMPORAL_DATA: Extraction 1.0 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+kidney_exchange_market.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+kjv_great_awakening.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+knowledge_action_gap.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.71 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+latent_goal_activation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+latent_regulatory_bomb.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+law_of_diminishing_returns.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+legal_formalism_overhang.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+legibility_trap.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+legitimacy_without_capacity.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+legitimacy_without_effectiveness.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+lehman_repo_105.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+liar_paradox.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+lindy_effect.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+liquidity_illusion.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+lula_hemisphere_2026.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+maintenance_capacity_shortfall.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+maladaptive_selection_process.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+mandatrophic_margin_collapse.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+mandatrophic_margin_collapse_diagnostic.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+material_tensile_strength.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+mco_unit_system_discontinuity.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+medical_residency_match.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+medieval_church_hegomony.pl:
+  MISSING_OMEGA: High-extraction constraints (> 0.46) require omega_variable/5.
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+memetic_fitness_vs_truth.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+meta_governance_overload.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+meta_model_lock_in.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+metabolic_constraint_cognition.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.79 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+metamorphosis_samsa.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+micro_robot_electronics_integration.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+mil_std_461g_emi_control.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+mil_std_810f_tailoring.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+mirror_of_erised_expectation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+misunderstanding_as_mismatch.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+model_autonomy_creep.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+model_collapse_feedback_loop.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.89 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+model_of_models_regression.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+monetary_regime_transition.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+moores_law.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+moral_outsourcing.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+multi_agent_reward_hacking.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.89 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+mutual_defection_equilibrium.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+naming_as_control.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.77 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+narrative_capacity_exhaustion.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+narrative_overfitting.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+nasa_faster_better_cheaper.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+nash_equilibrium_coordination.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+necessary_day_job.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+negative_emissions_arbitrage.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+net_zero_stabilization.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+network_effects.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+neural_interoperability.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+neurodiversity_spectrum.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.72 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+neuroplasticity_plateau.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+nine_day_buffer.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.52 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+non_compete_agreements.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+nonstandard_arithmetic_models.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+norm_erosion_threshold.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+north_korea_songun_mandatrophy.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.95 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+optimization_fragility.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+overfitting_to_frameworks.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.78 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+overton_window.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+p_vs_np.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+parable_fish_turtle.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+paris_municipal_reform_2026.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(individual_powerless).
+  MISSING_TEMPORAL_DATA: Extraction 0.47 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+parkinsons_law.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+path_dependence_lock_in.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+peano_curve_mapping.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+perovskite_self_etching.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.52 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+personalized_nutritional_arbitrage.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+planetary_boundaries.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+planning_fallacy.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+platform_cooperativism_governance.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+platonic_coparenting_decoupling.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(individual_powerless).
+  MISSING_TEMPORAL_DATA: Extraction 0.48 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+poetic_verse_and_past.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+policy_lag_catastrophe.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+politeness_face_negotiation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+portugal_polarization_threshold_2026.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.55 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+portuguese_presidential_term_limits.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+
+power_without_responsibility.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.92 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+prestige_signal_inflation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.81 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+price_signal_corruption.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+prime_number_theorem.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+prisoners_dilemma_equilibrium.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+procedural_compliance_theater.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.58 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+procedural_legitimacy_decay.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.76 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+protocol_capture_tangled_rope.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.55 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+protocol_drift_accumulation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+qualified_immunity.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+quantam_decryption_risk_2026.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+quellcrist_falconer_justice.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+quine_self_replication.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+radiologic_diagnostic_threshold.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+rational_inertia_trap.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+recipe_scaling_ai.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.49 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+reciprocity_laws_math.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+regulatory_capture.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+rent_seeking_equilibrium.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+reputational_cascade_failure.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.91 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+responsibility_dilution.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+responsibility_without_power.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.91 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+risk_socialization_threshold.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ritual_without_belief.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ritualistic_transition_scaffold.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+
+robustness_vs_efficiency_tradeoff.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+rogers_commission_institutional_analysis.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+rotation_seven_black_soil.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.95 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+rotation_seven_isolation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+rotation_seven_kubo_ranking.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+royal_navy_middle_east_withdrawal.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+rule_update_failure.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.72 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+rules_based_international_order.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+russells_paradox_self_reference.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+russian_war_cannibalization.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+s1_airbnb.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+sapir_whorf_hypothesis.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+sat_csp_complexity.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+scurvy_maritime_extraction.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+second_order_unintended_consequences.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+self_surpassing_superman.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+semantic_attack_surface.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+semantic_overload_friction.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.55 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+shadow_pricing_failure.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+shobies_existential_commitment.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+shock_propagation_asymmetry.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+signal_without_control.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.79 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+silent_dependency_activation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.76 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+silicon_lexicon_overload.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+skolems_paradox.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+sleep_debt_externality.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+slow_crisis_invisibility.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+sludge_bureaucratic_friction.pl:
+  MISSING_OMEGA: High-extraction constraints (> 0.46) require omega_variable/5.
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+smartphone_ubiquity.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+social_credit_architecture.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+social_loafing.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+social_media_participation_threshold.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+soft_authoritarian_drift.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+square_cube_law.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+st_petersburg_paradox.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+starwars_evolutionary_mutation.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+statecraft_virtu.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+status_flattening_effect.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+steinmetz_valuation_asymmetry.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+stoic_logos_governance.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+straight_coercion_2025.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.55 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+strange_attractor_dynamics.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+structural_extraction_without_actor.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.78 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+sturgeons_law.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+suanne_coup_of_peace.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+suanne_face_restoration.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+sunk_cost_fallacy.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+swift_legacy_piton.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.49 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+sylow_theorems_group_theory.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+synthetic_data_feedback_loop.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+systemic_blindspot.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+tail_risk_compression.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+taiwan_existential_sovereignty.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+taiwan_grand_bargain.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+taiwan_storm_2026.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+taiwan_strait_hegemony_shift.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+tarski_undefinability.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+taxonomy_drift.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.76 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+teaching_horses_to_sing.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+technocratic_overreach.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.64 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+technological_point_of_no_return.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+technological_provenance_arbitrage.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.78 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+tehran_water_bankruptcy.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+temporal_resolution_mismatch.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+temporal_scale_arbitrage.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.76 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+texas_hispanic_political_pivot.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+thai_senate_veto_2026.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(individual_powerless).
+  MISSING_TEMPORAL_DATA: Extraction 0.72 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+thailand_2017_constitution.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+the_bacchae_madness_protocol.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.95 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+the_calm_protocol_suppression.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+the_churn_systemic_upheaval.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+the_novelty_gradient.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+the_stochastic_snare.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+the_wall_procedural_barrier.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+theory_of_visitors.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+thermodynamics_entropy.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+threshold_effect_miscalibration.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+too_big_to_manage.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+tool_use_delegation_risk.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+toxic_social_infection.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+tractarian_logic_limit.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+tragedy_of_the_commons.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+transformer_self_attention.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+transitional_utility_bridge.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.48 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+trojan_war_spoils.pl:
+  MISSING_TEMPORAL_DATA: Extraction 1.0 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+trump_making_china_great_2026.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+trumps_second_term_authoritarianism_2026.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+truth_by_repetition_effect.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+udhr_1946.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+ulysses_chp01.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ulysses_chp02.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ulysses_chp03.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ulysses_chp06.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ulysses_chp08.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ulysses_chp11.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ulysses_chp12.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ulysses_chp13.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ulysses_chp15.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+ulysses_chp16.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+unclos_2026.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+union_protection_underperformance.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+us_congress_2026_midterms.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.68 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+us_hydrological_debt.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.78 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+us_suburban_zoning_2025.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+us_two_party_duopoly.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+utopia_apocalypse_fragility.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+value_alignment_drift.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.61 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+value_extraction_plateau.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.89 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+value_learning_instability.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+viral_transmission_rates.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+visibility_bias_governance.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.54 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+weber_fechner_law.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+wikipedia_notability_requirement_2026.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+
+winners_curse.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+xi_mao_ideological_centralization.pl:
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+
+zipfs_law.pl:
+  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
+

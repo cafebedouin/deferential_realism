@@ -1,0 +1,1 @@
+This directory contains documents that define the core concepts and fundamental principles of Deferential Realism.

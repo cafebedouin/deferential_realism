@@ -1,0 +1,1 @@
+This directory contains documents related to the technical implementation, design, and architecture of systems related to Deferential Realism. This may include software design, data models, and other technical specifications.

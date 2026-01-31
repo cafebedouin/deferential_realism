@@ -1,0 +1,1 @@
+This directory is a collection of documents containing raw ideas, brainstorming notes, and other preliminary thoughts that may or may not be incorporated into the main body of work. It is a space for exploration and experimentation.

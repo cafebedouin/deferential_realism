@@ -1,0 +1,46 @@
+# Windows Zone Identifier files (WSL/NTFS artifacts)
+*:Zone.Identifier
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor/IDE files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+.eggs/
+*.egg-info/
+*.egg
+
+# Prolog compiled files
+*.qlf
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*~
+packages.txt

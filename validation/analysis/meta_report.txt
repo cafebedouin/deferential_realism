@@ -1,0 +1,85 @@
+
+================================================================================
+                        META-REPORT: Test Suite Analysis                        
+================================================================================
+
+📊 TEST EXECUTION SUMMARY
+--------------------------------------------------------------------------------
+  Total Tests:    1
+  Passed:         0 (0.0%)
+  Failed:         1
+  Status:         ✗ POOR - urgent fixes needed
+
+🔴 CRITICAL ISSUES
+--------------------------------------------------------------------------------
+  Errors Found: 20 (10 unique)
+
+  Top Errors:
+    1. /home/scott/bin/structural_dynamics_model/prolog/testsets/academic_pee...
+    2. /home/scott/bin/structural_dynamics_model/prolog/testsets/academic_pee...
+    3. /home/scott/bin/structural_dynamics_model/prolog/testsets/academic_pee...
+    4. /home/scott/bin/structural_dynamics_model/prolog/testsets/academic_pee...
+    5. /home/scott/bin/structural_dynamics_model/prolog/testsets/academic_pee...
+    6. /home/scott/bin/structural_dynamics_model/prolog/testsets/academic_pee...
+    7. /home/scott/bin/structural_dynamics_model/prolog/testsets/academic_pee...
+    8. /home/scott/bin/structural_dynamics_model/prolog/testsets/academic_pee...
+    9. /home/scott/bin/structural_dynamics_model/prolog/testsets/academic_pee...
+    10. /home/scott/bin/structural_dynamics_model/prolog/testsets/academic_pee...
+
+  ⚠ FALSE MOUNTAINS (Ontological Fraud): 143
+  Constraints claiming to be unchangeable but requiring enforcement:
+    - ai_task_horizon_reliability
+    - antifragility
+    - arrows_impossibility_theorem
+    - asce_7_22_seismic_design
+    - axiom_of_choice_determinacy
+    ... and 138 more
+
+❓ EPISTEMOLOGICAL GAPS (Omegas)
+--------------------------------------------------------------------------------
+  Total Omegas: 216
+
+  CONCEPTUAL: 216
+    - system
+    - possession
+    - layer
+    ... and more
+
+  💡 Action: Review Omega Resolution Scenarios in output.txt
+
+🔗 CROSS-DOMAIN PATTERNS
+--------------------------------------------------------------------------------
+  No cross-domain isomorphisms detected
+  (This is normal if constraints are from same domain)
+
+📚 CORPUS OVERVIEW
+--------------------------------------------------------------------------------
+  Constraint Type Distribution:
+    noose          : 153
+    mountain       : 144
+    rope           :  76
+
+
+📋 DATA QUALITY
+--------------------------------------------------------------------------------
+  Total Issues: 1
+
+  Classification Mismatches: 1
+    - zipfs_law: claimed=mountain, expected=tangled_rope
+
+  Warnings: 659 (401 unique)
+
+💡 RECOMMENDATIONS
+--------------------------------------------------------------------------------
+  1. HIGH PRIORITY: Review 143 false mountains - these represent ontological fraud
+  2. Resolve 216 conceptual omegas through stakeholder interviews
+
+  🔄 NEXT STEPS:
+    1. Fix any critical errors first
+    2. Review false mountains and reclassify
+    3. Add scenarios for underrepresented domains
+    4. Resolve high-priority omegas
+    5. Re-run ./scripts/run_tests.sh to verify
+
+================================================================================
+

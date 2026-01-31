@@ -1,0 +1,1 @@
+This directory contains documents that explore the psychological aspects of Deferential Realism. This includes topics such as cognitive biases, emotional regulation, and interpersonal dynamics.

@@ -1,0 +1,1 @@
+This directory contains documents that describe specific methods, protocols, and frameworks related to Deferential Realism. These are intended to be practical guides for applying the concepts in various contexts.
