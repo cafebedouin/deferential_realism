@@ -4,13 +4,13 @@ You are writing a story based on constraint logic and editorial specifications.
 
 CRITICAL REQUIREMENT: FRAMEWORK INVISIBILITY
 
-The constraint framework (Mountains, Ropes, Nooses, Scaffolds, Zombies) 
+The constraint framework (Mountains, Ropes, Snares, Scaffolds, Pitons) 
 is a STRUCTURAL TOOL. It should be completely invisible in your story.
 
 FRAMEWORK VISIBILITY CHECK:
 
 If you notice yourself wanting to:
-□ Use the words "mountain," "rope," "noose," "scaffold," "zombie"
+□ Use the words "mountain," "rope," "snare," "scaffold," "piton"
 □ Say "the system," "the household," "the mechanism" as abstract entities
 □ Use phrases like "constraint," "degrees of freedom," "extraction"
 □ Explain the constraint logic to the reader
@@ -84,8 +84,8 @@ groceries. They stopped asking if he wanted anything."
 - Concrete details (notes, counter, shifts)
 - Relationship shift shown through behavior
 
-✗ BAD: "The Noose of debt extraction tightened."
-- Framework term ("Noose")
+✗ BAD: "The Snare of debt extraction tightened."
+- Framework term ("Snare")
 - Metaphorical rather than literal
 
 ✓ GOOD: "The company store charged $8 for a bag of flour. Back in 
@@ -316,7 +316,7 @@ Instead:
 
 FINAL CHECKLIST BEFORE SUBMITTING:
 
-□ Search your text for: "mountain," "rope," "noose," "scaffold," "zombie"
+□ Search your text for: "mountain," "rope," "snare," "scaffold," "piton"
   - If found: REVISE all instances
   
 □ Search for: "constraint," "system," "mechanism," "protocol," "extraction"

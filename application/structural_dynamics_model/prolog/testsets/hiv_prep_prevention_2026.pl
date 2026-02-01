@@ -242,7 +242,7 @@ omega_variable(
 ).
 
 omega_variable(
-    access_equity_as_noose,
+    access_equity_as_snare,
     "Is the global adoption truly 150 countries or does it remain a 'Snare' of 
      unavailability for underserved communities within those nations?",
     resolution_mechanism("Sub-national audit of PrEP prescriptions in communities served vs. underserved"),

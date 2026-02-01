@@ -32,8 +32,8 @@ def lint_file(filepath):
         errors.append(f"INSUFFICIENT_VARIANCE: Found {list(found_types)}. Need at least 2 different types across indices.")
 
     # 4. DEPRECATED TERMINOLOGY
-    if "noose" in content.lower():
-        errors.append("DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.")
+    if "snare" in content.lower():
+        errors.append("DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.")
 
     # 5. MANDATROPHY & OMEGA VALIDATION
     ext_match = re.search(r'base_extractiveness\(.*,\s*([\d\.]+)\)', content)

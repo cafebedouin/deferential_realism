@@ -49,7 +49,7 @@ to this moment, to the world, to life.
 - You are indexed to a position (power, time, environment, scale)
 - Mountains exist (biological, physical, logical necessities)
 - Ropes bind you to coordination structures
-- Some nooses may currently constrain you
+- Some snares may currently constrain you
 
 **When to emphasize:** 
 - When tempted to ignore substrate (internal mountains)
@@ -60,7 +60,7 @@ to this moment, to the world, to life.
 **Practical application:**
 "I shall not pretend I don't need sleep" (substrate)
 "I shall not pretend economic constraints don't affect me" (external mountain)
-"I shall not pretend this noose is freely chosen" (misclassified extraction)
+"I shall not pretend this snare is freely chosen" (misclassified extraction)
 
 ---
 
@@ -77,7 +77,7 @@ to this moment, to the world, to life.
 **Constraint types that bind:**
 - **Mountains**: Bind through causal necessity (gravity, metabolism, death)
 - **Ropes**: Bind through coordination structure (language, traffic rules, money)
-- **Nooses**: Bind through power asymmetry (extraction you can't yet escape)
+- **Snares**: Bind through power asymmetry (extraction you can't yet escape)
 - **Substrate**: Bind through biological/psychological necessity (sleep, temperament, trauma responses)
 - **Paradoxes**: Bind through structural irresolvability (autonomy vs. connection)
 
@@ -94,7 +94,7 @@ to this moment, to the world, to life.
 
 **When to emphasize:**
 - When denying substrate limits ("I don't really need rest")
-- When treating nooses as ropes ("this extraction is mutual")
+- When treating snares as ropes ("this extraction is mutual")
 - When avoiding attribution testing ("it's just in my head")
 
 ---
@@ -274,7 +274,7 @@ Your body ages (magma). Your commitments persist (stone). Both true. Hold both. 
 ```
 If ■C[I] (Mountain/Substrate) → Defer, build around it
 If ⊞C[I] (Rope/Negotiable) → Turn toward, test terms
-If ⊠C[I] (Noose) → Refuse, but requires power to escape
+If ⊠C[I] (Snare) → Refuse, but requires power to escape
 ```
 
 **What this refuses:**
@@ -369,7 +369,7 @@ Don't "press through" substrate violation.
 **What doesn't abide:**
 - **Detritus**: Clears once recognized as empty tomb
 - **False Mountains**: Revealed as constructed when enforcement visible
-- **Zombies**: Zero function, pure maintenance cost
+- **Pitons**: Zero function, pure maintenance cost
 - Cached fears tested and dissolved
 
 **From Empty Tombs:**
@@ -384,11 +384,11 @@ Constraints have decay rates:
 - ε(C) = enforcement requirement (0 to 1)
 - Mountains: ε ≈ 0 (no enforcement needed, persist naturally)
 - Ropes: ε ≈ 0.15 (some maintenance required)
-- Nooses: ε ≥ 0.46 (high enforcement required)
+- Snares: ε ≥ 0.46 (high enforcement required)
 
 **Over time:**
 - Zero-enforcement constraints persist (mountains/substrate)
-- High-enforcement constraints erode when power wanes (nooses)
+- High-enforcement constraints erode when power wanes (snares)
 - Detritus dissolves when attention withdrawn
 
 **What this refuses:**
@@ -414,7 +414,7 @@ You thought "I'm not a morning person" was substrate. Test for 6 months. If patt
 
 ### "Enforcement draws on power and exhausts it."
 
-**DR Translation:** Mountains need no enforcement. Nooses require enforcement. Enforcement visibility reveals constraint type.
+**DR Translation:** Mountains need no enforcement. Snares require enforcement. Enforcement visibility reveals constraint type.
 
 **DR Power-Scaling:**
 ```
@@ -422,17 +422,17 @@ You thought "I'm not a morning person" was substrate. Test for 6 months. If patt
 
 Mountains: ε ≈ 0 (no enforcement needed)
 Ropes: ε ≤ 0.15 (minimal maintenance)
-Nooses: ε ≥ 0.46 (constant enforcement required)
+Snares: ε ≥ 0.46 (constant enforcement required)
 ```
 
 **Why enforcement exhausts power:**
 - Mountains enforce themselves (gravity doesn't require police)
-- Nooses require active power maintenance (surveillance, punishment, ideology)
+- Snares require active power maintenance (surveillance, punishment, ideology)
 - Power used for enforcement can't be used elsewhere
 - Entropy: enforcement systems degrade without constant input
 
 **From DR Metaphysics:**
-"Nooses have enforcement dependency: require active maintenance through power."
+"Snares have enforcement dependency: require active maintenance through power."
 "Counterfactual illegitimacy: wouldn't exist without power asymmetries."
 
 **The exhaustion:**
@@ -442,13 +442,13 @@ Nooses: ε ≥ 0.46 (constant enforcement required)
 - Opportunity cost (resources spent on enforcement)
 
 **What this means:**
-If you see heavy enforcement → it's a noose, not a mountain
+If you see heavy enforcement → it's a snare, not a mountain
 - Mountains don't need enforcement (they're natural)
 - If it requires power to maintain → it's constructed
 - Power drain is detectable signal
 
 **What this refuses:**
-- Treating nooses as natural (FM: False Mountain)
+- Treating snares as natural (FM: False Mountain)
 - Ignoring enforcement costs
 - Assuming all binding constraints are legitimate
 
@@ -464,7 +464,7 @@ If you see heavy enforcement → it's a noose, not a mountain
 - When extraction is disguised as coordination
 
 **Practical application:**
-"This rule requires constant surveillance to maintain" → noose, not mountain
+"This rule requires constant surveillance to maintain" → snare, not mountain
 "This law needs propaganda to justify" → constructed, not natural
 "This norm persists without enforcement" → possibly mountain or successful rope
 
@@ -472,33 +472,33 @@ If you see heavy enforcement → it's a noose, not a mountain
 
 ### "Power revealed can be subverted, / and subversion is the breath of the living."
 
-**DR Translation:** Noose detection enables resistance. Resistance is navigation, not failure.
+**DR Translation:** Snare detection enables resistance. Resistance is navigation, not failure.
 
 **Power revealed:**
 - When enforcement is visible → power location is revealed
-- When noose is classified correctly → can be resisted
+- When snare is classified correctly → can be resisted
 - When false mountain is exposed → legitimacy collapses
 - Transparency about power enables counter-power
 
 **Can be subverted:**
 - Not "will automatically be subverted"
 - But "becomes subvertable once revealed"
-- Hidden nooses (naturalized) are harder to resist
-- Visible nooses (enforcement obvious) are vulnerable
+- Hidden snares (naturalized) are harder to resist
+- Visible snares (enforcement obvious) are vulnerable
 
 **DR on Subversion:**
 From tangled rope analysis: "Asymmetric scope: bind some while benefiting others."
 Recognizing the asymmetry enables:
 - Refusal (if you have power)
 - Collective action (if individually powerless)
-- Reframing (calling noose what it is)
+- Reframing (calling snare what it is)
 - Strategic resistance (finding leverage points)
 
 **Breath of the living:**
 - Subversion ≠ destruction
 - Subversion = finding play in the joints
 - Living systems adapt to constraints
-- Navigation includes working around nooses when escape impossible
+- Navigation includes working around snares when escape impossible
 
 **What this refuses:**
 - Passivity in face of extraction
@@ -510,16 +510,16 @@ Recognizing the asymmetry enables:
 - Not all constraints are natural
 - Power can be opposed
 - Classification enables strategic action
-- Even when noose can't be broken, it can be navigated
+- Even when snare can't be broken, it can be navigated
 
 **When to emphasize:**
-- When facing obvious noose (extraction disguised as coordination)
+- When facing obvious snare (extraction disguised as coordination)
 - When institutional power naturalizes itself
 - When you've correctly classified but feel powerless
 - When resistance seems impossible
 
 **Practical application:**
-Workplace noose (all extraction, no genuine coordination) → can't quit immediately (trapped) → but knowing it's a noose (not legitimate rope) enables:
+Workplace snare (all extraction, no genuine coordination) → can't quit immediately (trapped) → but knowing it's a snare (not legitimate rope) enables:
 - Setting boundaries where possible
 - Seeking alternatives strategically  
 - Not internalizing it as "just how work is"
@@ -538,13 +538,13 @@ Workplace noose (all extraction, no genuine coordination) → can't quit immedia
 - Frame-relative truth: Material frame vs. Functional frame, both real
 
 **DR Logic:**
-"Index-relative but index-objective: The same constraint can be Mountain from one index and Noose from another — both classifications are objectively true."
+"Index-relative but index-objective: The same constraint can be Mountain from one index and Snare from another — both classifications are objectively true."
 
 **Examples of many truths:**
 
 **Indexed relativity:**
 - Minimum wage is rope from institutional index (coordination)
-- Minimum wage is noose from powerless index (extraction)
+- Minimum wage is snare from powerless index (extraction)
 - Both true from their respective positions
 
 **Frame multiplicity:**
@@ -670,7 +670,7 @@ You have chronic illness (substrate). Fighting it wastes energy. Bearing it mean
 - Presence in constraint-space
 
 **To the world:**
-- External reality with its mountains, ropes, nooses
+- External reality with its mountains, ropes, snares
 - Social structures with their extraction and coordination
 - Material constraints that won't yield to will
 - The lattice of possibility-space

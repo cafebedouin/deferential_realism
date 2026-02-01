@@ -259,7 +259,7 @@ omega_variable(
     cross the threshold from Rope to Snare (The Phase Transition)?",
     resolution_mechanism("Longitudinal study of KPI health vs. actual 
     outcomes in high-pressure bureaucratic environments"),
-    impact("If Low: Almost all metrics are Nooses. If High: Metrics can 
+    impact("If Low: Almost all metrics are Snares. If High: Metrics can 
     be maintained as Ropes for longer periods."),
     confidence_without_resolution(medium)
 ).

@@ -95,7 +95,7 @@ omega_variable(ID, Type, Description).
 - `extractiveness` ≤ 0.35
 - `suppression_requirement` ≤ 0.33
 
-**Noose (⊗ C):**
+**Snare (⊗ C):**
 - `extractiveness` ≥ 0.66 **AND**
 - `suppression_requirement` ≥ 0.66
 - To recommend cutting: Define entity of type `scaffold` OR show no load-bearing dependencies
@@ -220,7 +220,7 @@ measurement(m3, my_constraint, resistance, 0, 0.10).  % NEW for v3.2
 measurement(m4, my_constraint, extractiveness, 10, 0.90).
 measurement(m5, my_constraint, suppression_requirement, 10, 0.85).
 measurement(m6, my_constraint, resistance, 10, 0.80).  % NEW for v3.2
-% This enables detection: rope -> noose (capture)
+% This enables detection: rope -> snare (capture)
 ```
 
 **Better Data (3-5 time points):**
@@ -240,7 +240,7 @@ measurement(m9, constraint_x, resistance, 10, 0.65).
 measurement(m10, constraint_x, extractiveness, 15, 0.90).
 measurement(m11, constraint_x, suppression_requirement, 15, 0.88).
 measurement(m12, constraint_x, resistance, 15, 0.85).
-% Shows gradual transformation: rope -> tangled_rope -> noose
+% Shows gradual transformation: rope -> tangled_rope -> snare
 % Shows temporal stability for signature detection
 ```
 
@@ -349,7 +349,7 @@ entity(third_party_app, structural).
 entity(migration_tool, scaffold).  % The solution
 
 constraint_claim(legacy_protocol, rope).
-constraint_metric(legacy_protocol, extractiveness, 0.85).  % Actually a noose
+constraint_metric(legacy_protocol, extractiveness, 0.85).  % Actually a snare
 
 affects_constraint(legacy_protocol, third_party_app).
 % System detects: scaffold_required
@@ -405,7 +405,7 @@ measurement(m7, constraint1, extractiveness, 20, 0.85).
 measurement(m8, constraint1, suppression_requirement, 20, 0.80).
 measurement(m9, constraint1, resistance, 20, 0.75).  % NEW for v3.2
 
-% Shows transformation: rope (T=0) → noose (T=20)
+% Shows transformation: rope (T=0) → snare (T=20)
 % Shows temporal evolution for signature detection
 ```
 

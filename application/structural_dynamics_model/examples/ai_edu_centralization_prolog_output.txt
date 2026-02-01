@@ -85,7 +85,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.56
 
   Analysis for Constraint: ai_edu_decentralization
     - Individual (Powerless): none
-    - Institutional (Manager): noose
+    - Institutional (Manager): snare
 
 [OMEGA GENERATION FROM PERSPECTIVAL GAPS]
   No perspectival gaps detected requiring Ω tracking.

@@ -476,7 +476,7 @@ Strong network (powerful): 0.40 × 0.6 = 0.24 (Rope - opportunities flow)
 
 **Pitons:**
 - Elimination (administrative cleanup)
-- Indefinite zombie (persists from inertia)
+- Indefinite piton (persists from inertia)
 
 **Lifecycle velocity varies enormously:** Technology (months), institutions (decades), constitutional structures (centuries).
 
@@ -705,9 +705,9 @@ Classification is ongoing practice, not one-time assessment.
 - Targeted reform (preserve coordination, excise extraction in Tangled Ropes)
 - Paradox navigation (contain tension without forcing collapse)
 - Relational integrity (honest about what you're doing in relationships)
-- Lifecycle awareness (anticipate degradation, honor sunsets, eliminate zombies)
+- Lifecycle awareness (anticipate degradation, honor sunsets, eliminate pitons)
 
-**The goal:** Use finite energy effectively. Don't waste it fighting unchangeable terrain (Mountains). Don't surrender it to changeable extraction (Snares). Don't destroy coordination while fighting extraction (Tangled Rope reform). Don't demand resolution of structural tensions (Containment). Don't maintain zombies (Pitons). Navigate honestly within what actually constrains you.
+**The goal:** Use finite energy effectively. Don't waste it fighting unchangeable terrain (Mountains). Don't surrender it to changeable extraction (Snares). Don't destroy coordination while fighting extraction (Tangled Rope reform). Don't demand resolution of structural tensions (Containment). Don't maintain pitons (Pitons). Navigate honestly within what actually constrains you.
 
 ---
 

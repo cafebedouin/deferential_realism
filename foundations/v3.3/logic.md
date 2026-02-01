@@ -64,7 +64,7 @@ Type(C[I]) ∈ {▲, ⟐, ⟑, ⟐⟑, ⧗, ⚠}
 - Semantics: From index I, C appears as pure extraction requiring resistance
 - Power-scaling: High extraction for powerless, may be negative for institutional
 - Examples: payday loans, non-compete clauses, rent-seeking regulations
-- **Terminology:** Previously "Noose" (⊗), now "Snare" (⟑) for climbing metaphor consistency
+- **Terminology:** Previously "Snare" (⊗), now "Snare" (⟑) for climbing metaphor consistency
 
 **Tangled Rope Operator: `⟐⟑C[I]`**
 - "C is a Tangled Rope from index I" = C both coordinates AND extracts from agent at I
@@ -90,8 +90,8 @@ Type(C[I]) ∈ {▲, ⟐, ⟑, ⟐⟑, ⧗, ⚠}
 - Formal: `⚠C ↔ χ(C, _) ≤ 0.10 ∧ ε(C) > 0.10 ∧ Cost(C) > Benefit(C) ∧ Inertia(C)`
 - Semantics: Degradation state, should be eliminated
 - Relationally defined: Cost > sum of coordination benefit + extraction yield
-- Examples: fax requirements, zombie committees, legacy system dependencies
-- **Terminology:** Previously "Zombie" (⚗), now "Piton" (⚠) for failed anchor metaphor
+- Examples: fax requirements, piton committees, legacy system dependencies
+- **Terminology:** Previously "Piton" (⚗), now "Piton" (⚠) for failed anchor metaphor
 - **Detection marker:** Not fundamental type but diagnostic for waste
 
 **Containment Operator: `⊢⊣C₁⇄C₂`**

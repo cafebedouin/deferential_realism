@@ -55,7 +55,7 @@ belief_explanation(consciousness_substrate,
 belief_classification(death_finality, mountain) :-
     belief_classification(consciousness_substrate, mountain).
 belief_explanation(death_finality,
-    'If consciousness requires substrate (T4), then death (substrate destruction) ends consciousness. Critical implication: enables urgency, blocks afterlife-based Nooses.').
+    'If consciousness requires substrate (T4), then death (substrate destruction) ends consciousness. Critical implication: enables urgency, blocks afterlife-based Snares.').
 
 % --- 3. TIER 1: PRACTICE - INDIVIDUAL (35 Questions) ---
 % Pragmatic frames based on individual context with moderate power,
@@ -83,19 +83,19 @@ belief_explanation(identity_stability,
 % P4: Life Meaning
 belief_classification(life_meaning, rope).
 belief_explanation(life_meaning,
-    'No evidence of cosmic purpose. Meaning is constructed through projects/relationships/values, not discovered. Cosmic meaning claims are often Nooses (see: Gita eternal soul enabling subjugation). Constructed meaning preserves autonomy.').
+    'No evidence of cosmic purpose. Meaning is constructed through projects/relationships/values, not discovered. Cosmic meaning claims are often Snares (see: Gita eternal soul enabling subjugation). Constructed meaning preserves autonomy.').
 
 % P5: Suffering Meaning
 belief_classification(suffering_meaning, rope).
 belief_explanation(suffering_meaning,
-    'Suffering has no inherent meaning. Can be interpreted meaningfully retrospectively (optional tool). But rejecting "suffering is meaningful" as Mountain blocks Nooses that demand suffering "for your own good."').
+    'Suffering has no inherent meaning. Can be interpreted meaningfully retrospectively (optional tool). But rejecting "suffering is meaningful" as Mountain blocks Snares that demand suffering "for your own good."').
 
 %% SECTION 3: RELATIONSHIPS & COMMITMENT (P6-P7)
 
 % P6: Relationship Meaning
 belief_classification(relationship_meaning, rope).
 belief_explanation(relationship_meaning,
-    'No inherent meaning in blood or ceremony. Investment creates value. Chosen family is valid. Functional relationships are Ropes. Extractive relationships claimed as sacred are Nooses.').
+    'No inherent meaning in blood or ceremony. Investment creates value. Chosen family is valid. Functional relationships are Ropes. Extractive relationships claimed as sacred are Snares.').
 
 % P7: Family Obligations
 belief_classification(family_obligations, varies).
@@ -131,11 +131,11 @@ belief_explanation(moral_intuitions,
 % P12: Power Structures Natural
 belief_classification(power_structures_natural, varies).
 belief_explanation(power_structures_natural,
-    'This IS the meta-question enabling all DR analysis. Most structures are Ropes or Nooses, not Mountains. Some coordination is Rope (traffic rules). Some hierarchy is Snare (claimed as natural). Apply DR framework system-by-system. Key skill: distinguishing them.').
+    'This IS the meta-question enabling all DR analysis. Most structures are Ropes or Snares, not Mountains. Some coordination is Rope (traffic rules). Some hierarchy is Snare (claimed as natural). Apply DR framework system-by-system. Key skill: distinguishing them.').
 
-% P13: Participation in Nooses
-belief_classification(participation_in_nooses, rope).
-belief_explanation(participation_in_nooses,
+% P13: Participation in Snares
+belief_classification(participation_in_snares, rope).
+belief_explanation(participation_in_snares,
     'Given moderate power and need for resources: Pure exit often impossible. Pure participation enables extraction. Rope: Strategic participation + resistance where possible. Use system resources to build power to eventually change system.').
 
 %% SECTION 7: DEATH & RISK (P14-P16)
@@ -144,7 +144,7 @@ belief_explanation(participation_in_nooses,
 belief_classification(mortality_acceptance, mountain) :- 
     belief_classification(death_finality, mountain).
 belief_explanation(mortality_acceptance,
-    'Forced by T5 (death is final). Not pragmatic choice - this is high-stakes power domain. Afterlife beliefs enable Nooses (die for the cause, sacrifice now for later). Must accept Mountain: death is final. Urgency follows necessarily.').
+    'Forced by T5 (death is final). Not pragmatic choice - this is high-stakes power domain. Afterlife beliefs enable Snares (die for the cause, sacrifice now for later). Must accept Mountain: death is final. Urgency follows necessarily.').
 
 % P15: Risk Taking
 belief_classification(risk_taking, rope).
@@ -166,7 +166,7 @@ belief_explanation(trust_default,
 % P18: Human Nature
 belief_classification(human_nature, rope).
 belief_explanation(human_nature,
-    'People are situational (empirical). Not inherently good (naive trust → exploitation) or bad (authoritarianism). Both extremes are Nooses. People respond to incentives and culture. Design systems assuming mixed motives.').
+    'People are situational (empirical). Not inherently good (naive trust → exploitation) or bad (authoritarianism). Both extremes are Snares. People respond to incentives and culture. Design systems assuming mixed motives.').
 
 % P19: Defector Punishment
 belief_classification(defector_punishment, rope).
@@ -178,7 +178,7 @@ belief_explanation(defector_punishment,
 % P20: Social Conformity
 belief_classification(social_conformity, rope).
 belief_explanation(social_conformity,
-    'Conformity is coordination mechanism. Some norms are functional Ropes (traffic, manners). Some are Nooses (oppressive expectations). Use DR recursively: distinguish Ropes from Nooses, then conform to Ropes, resist Nooses. Build power to resist effectively.').
+    'Conformity is coordination mechanism. Some norms are functional Ropes (traffic, manners). Some are Snares (oppressive expectations). Use DR recursively: distinguish Ropes from Snares, then conform to Ropes, resist Snares. Build power to resist effectively.').
 
 % P21: Gender/Sexual Identity
 belief_classification(gender_sexual_identity, mountain_and_rope).
@@ -246,12 +246,12 @@ belief_explanation(local_vs_global,
 % P32: Optimism/Pessimism
 belief_classification(optimism_pessimism, rope).
 belief_explanation(optimism_pessimism,
-    'Strategic stance for action, not truth claim (future is uncertain). Pessimism about systems (clear-eyed about Nooses). Optimism about agency (can build alternatives). Gramsci: "Pessimism of intellect, optimism of will." Pure optimism ignores threats. Pure pessimism paralyzes.').
+    'Strategic stance for action, not truth claim (future is uncertain). Pessimism about systems (clear-eyed about Snares). Optimism about agency (can build alternatives). Gramsci: "Pessimism of intellect, optimism of will." Pure optimism ignores threats. Pure pessimism paralyzes.').
 
 % P33: Cosmic Meaning
 belief_classification(cosmic_meaning, rope).
 belief_explanation(cosmic_meaning,
-    'No evidence of cosmic meaning. Human meaning-making is real and valuable even if constructed. Create meaning through projects/relationships/values. Reject cosmic meaning claims as Nooses (divine duty etc.). Connected to P4 and Gita analysis.').
+    'No evidence of cosmic meaning. Human meaning-making is real and valuable even if constructed. Create meaning through projects/relationships/values. Reject cosmic meaning claims as Snares (divine duty etc.). Connected to P4 and Gita analysis.').
 
 % P34: Having Children
 belief_classification(having_children, rope).
@@ -265,7 +265,7 @@ belief_explanation(time_allocation,
 
 % --- 4. INSTITUTIONAL NOOSE DETECTION ---
 % Common claims made by institutions to enable extraction
-% These are Type I Errors (False Mountains): Nooses claimed as Mountains
+% These are Type I Errors (False Mountains): Snares claimed as Mountains
 
 institutional_claim(eternal_soul, mountain).
 institutional_claim(cosmic_purpose, mountain).

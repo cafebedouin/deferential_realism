@@ -42,11 +42,11 @@ constraint_metric(approximate_symmetry_friction, snap_back_potential, 0.40).
 constraint_metric(approximate_symmetry_friction, extractiveness, 0.52).
 
 % NOOSE: Discrete Symmetry Obstruction (The limit where continuous calculus fails)
-constraint_claim(discrete_transformation_noose, snare).
-constraint_metric(discrete_transformation_noose, intensity, 0.96).
-constraint_metric(discrete_transformation_noose, suppression_requirement, 0.88).
-constraint_metric(discrete_transformation_noose, snap_back_potential, 0.92).
-constraint_metric(discrete_transformation_noose, extractiveness, 0.94).
+constraint_claim(discrete_transformation_snare, snare).
+constraint_metric(discrete_transformation_snare, intensity, 0.96).
+constraint_metric(discrete_transformation_snare, suppression_requirement, 0.88).
+constraint_metric(discrete_transformation_snare, snap_back_potential, 0.92).
+constraint_metric(discrete_transformation_snare, extractiveness, 0.94).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, accept_the_link_between_symmetry_and_conservation_as_invariant).
@@ -59,7 +59,7 @@ recommendation(rec_03, reform_non_conserved_quantities_via_coordinate_transforma
 affects_constraint(rec_03, approximate_symmetry_friction).
 
 recommendation(rec_04, cut_calculus_limitations_via_variational_calculus_scaffold).
-affects_constraint(rec_04, discrete_transformation_noose).
+affects_constraint(rec_04, discrete_transformation_snare).
 
 veto_actor(quantum_anomaly_observer).
 veto_exposed(quantum_anomaly_observer, rec_01).

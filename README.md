@@ -7,7 +7,7 @@
 ## Start Here
 
 **[foundations/core.md](foundations/core.md)** (~3,000 words) - Compressed introduction to the framework
-- Four constraint categories (Mountain, Rope, Noose, Scaffold)
+- Four constraint categories (Mountain, Rope, Snare, Scaffold)
 - Four indexical parameters (WHO, WHEN, WHERE, HOW_MUCH)
 - One worked example (carbon credits from multiple perspectives)
 - Strategic response patterns
@@ -55,7 +55,7 @@ Constraint-space ontology:
 ### **[ethics.md](foundations/ethics.md)** (~3,700 words)
 Four cardinal virtues of constraint-alignment:
 - **Acceptance** - Mapping Mountains accurately
-- **Resistance** - Cutting Nooses strategically
+- **Resistance** - Cutting Snares strategically
 - **Creation** - Building functional Ropes
 - **Conservation** - Preserving finite energy
 - Reality-alignment as honesty-in-practice
@@ -113,7 +113,7 @@ Located in [`application/narrative_transform/`](application/narrative_transform/
 
 A 6-stage AI pipeline for extracting constraint structures from existing stories and generating new narratives in completely different settings that preserve the underlying dynamics.
 
-**Purpose:** Demonstrate that constraint structures are transferable across contexts—the same pattern of Mountains, Ropes, and Nooses can manifest in radically different worlds.
+**Purpose:** Demonstrate that constraint structures are transferable across contexts—the same pattern of Mountains, Ropes, and Snares can manifest in radically different worlds.
 
 **Architecture:**
 - **Stage 0:** Constraint extraction (Gemini) - Identify structural dynamics in source story
@@ -225,7 +225,7 @@ Framework for identifying reasoning blockers:
 Core innovation origin:
 - Classifications relative to WHO/WHEN/WHERE/HOW_MUCH
 - Not relativism: each indexed claim is objectively true/false
-- Medieval Church example (Mountain for serf, Noose for historian, Rope for Pope)
+- Medieval Church example (Mountain for serf, Snare for historian, Rope for Pope)
 
 ### **[docs/archive/mck_v1.6.md](docs/archive/mck_v1.6.md)** (~750 words)
 Verified Kernel protocol:
@@ -258,19 +258,19 @@ Predecessor framework for identifying reasoning error types:
 
 2. Who benefits from this persisting?
    Nearly everyone → Rope (maintain, reform if needed)
-   Specific few at expense of many → Noose (expose, resist)
-   No one (everyone complains) → Zombie Rope (reform administratively)
+   Specific few at expense of many → Snare (expose, resist)
+   No one (everyone complains) → Piton (reform administratively)
 ```
 
 ### Strategic Responses
 - **Mountain:** Accept immediately, conserve energy, navigate creatively
 - **Rope:** Maintain, improve efficiency, replace if better alternative exists
-- **Noose:** Expose beneficiaries, resist strategically, dismantle where possible
+- **Snare:** Expose beneficiaries, resist strategically, dismantle where possible
 - **Scaffold:** Use temporarily, dismantle when purpose served, watch for permanence drift
 - **Tangled Rope:** Reform to preserve coordination while removing extraction
 
 ### Common Errors
-- **False fatalism:** Calling Nooses "Mountains" (unwarranted surrender)
+- **False fatalism:** Calling Snares "Mountains" (unwarranted surrender)
 - **Dangerous hubris:** Calling Mountains "Ropes" (catastrophic failure)
 - **Over-diagnosis:** Treating all inefficiency as malicious extraction
 - **Energy waste:** Fighting unchangeable reality or ignoring changeable injustice
@@ -285,7 +285,7 @@ Predecessor framework for identifying reasoning error types:
 
 2. **Energy conservation** - Finite resources demand strategic allocation. Don't waste energy fighting gravity. Don't surrender to changeable injustice.
 
-3. **Indexical relativity** - Truth is relative to position but objective within index. Same constraint can be Mountain from one index, Noose from another—both are true.
+3. **Indexical relativity** - Truth is relative to position but objective within index. Same constraint can be Mountain from one index, Snare from another—both are true.
 
 4. **Reality-alignment** - Deference to what actually constrains. Honesty-in-practice about power, extraction, coordination, and natural limits.
 

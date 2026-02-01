@@ -91,7 +91,7 @@ First action I'll take without knowing: _______________________
 
 ### 4. The Membrane Check (3 minutes)
 
-**Scan your upcoming interactions (Ropes and Nooses).**
+**Scan your upcoming interactions (Ropes and Snares).**
 
 **The Question:**
 > "Who is trying to reclassify my Mountains as their Ropes?"
@@ -103,7 +103,7 @@ First action I'll take without knowing: _______________________
 - Someone demanding you violate substrate for their convenience
 
 **The Action:** Recalibrate permeability. Set your membrane to:
-- **Impermeable** for Nooses
+- **Impermeable** for Snares
 - **Selective** for Ropes
 - **High permeability** for Mountains
 
@@ -126,7 +126,7 @@ What I'll say if they push: _______________________
 | Old Ghost/Shame | Residue (Detritus) | Test. Violate the pattern. |
 | Analysis Paralysis | Clarity Fetish | Drop. Act without knowing. |
 | Structural Tension | Paradox | Hold. Refuse to solve it. |
-| Someone demanding compliance | Potential Noose | Check: Mountain, Rope, Noose? |
+| Someone demanding compliance | Potential Snare | Check: Mountain, Rope, Snare? |
 | Discomfort but no damage | Edge of Detritus | Push slightly further. |
 | Actual harm occurring | Substrate violation | Stop immediately. This is real. |
 

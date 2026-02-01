@@ -4,7 +4,7 @@ def category_mismatch_audit(json_path, registry_path):
     # Load analysis and category registry
     with open(json_path, 'r') as f: analysis = json.load(f)
 
-    # Simple check for Narrative History vs Shadow Noose
+    # Simple check for Narrative History vs Shadow Snare
     print(f"{'DOMAIN':<40} | {'REPORTED CAT' :<20} | {'ACTUAL SIGNATURE'}")
     print("-" * 80)
 
@@ -12,7 +12,7 @@ def category_mismatch_audit(json_path, registry_path):
         repairs = record.get("repaired_vectors", [])
         sup = max([float(r['val']) for r in repairs if 'suppression' in r['metric']] + [0.0])
 
-        # If the domain is a Shadow Noose but classified as History
+        # If the domain is a Shadow Snare but classified as History
         if sup >= 0.8:
             print(f"{domain:<40} | {'EXTRACTIVE?':<20} | [CRITICAL] Hidden Extraction Detected")
 

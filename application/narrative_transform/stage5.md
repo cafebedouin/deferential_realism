@@ -66,7 +66,7 @@ Enhanced version with deepened phenomenology.
 
 **Constraint Violation:**
 - Mountains become negotiable
-- Nooses benefit everyone
+- Snares benefit everyone
 - Energy depletion doesn't matter
 - Terminal attractor avoided
 
@@ -217,9 +217,9 @@ The story needs deep naturalization to prove constraint logic is real.
 
 **Metamorphosis:**
 - Mountain: Biological transformation (irreversible)
-- Noose: Family extraction (debt to employer)
-- Rope → Zombie: Family coordination breaks down
-- Type I Error: Gregor treats Noose as Mountain
+- Snare: Family extraction (debt to employer)
+- Rope → Piton: Family coordination breaks down
+- Type I Error: Gregor treats Snare as Mountain
 - Type II Error: Gregor treats Mountain as temporary
 
 **Could Become:**
@@ -229,8 +229,8 @@ The story needs deep naturalization to prove constraint logic is real.
 
 **1984:**
 - Mountain: Surveillance state infrastructure
-- Noose: Party extraction of labor/loyalty
-- Rope → Noose: Love relationship captured by system
+- Snare: Party extraction of labor/loyalty
+- Rope → Snare: Love relationship captured by system
 - Type I Error: Winston treats Party power as negotiable
 - Type III Error: Winston treats O'Brien's approach as Rope
 

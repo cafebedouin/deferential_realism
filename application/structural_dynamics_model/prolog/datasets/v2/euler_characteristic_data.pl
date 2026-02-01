@@ -40,11 +40,11 @@ constraint_metric(curvature_coupling_friction, snap_back_potential, 0.40).
 constraint_metric(curvature_coupling_friction, extractiveness, 0.52).
 
 % Snare: Singularities and Non-Compactness Obstructions
-constraint_claim(singularity_noose, snare).
-constraint_metric(singularity_noose, intensity, 0.96).
-constraint_metric(singularity_noose, suppression_requirement, 0.88).
-constraint_metric(singularity_noose, snap_back_potential, 0.92).
-constraint_metric(singularity_noose, extractiveness, 0.94).
+constraint_claim(singularity_snare, snare).
+constraint_metric(singularity_snare, intensity, 0.96).
+constraint_metric(singularity_snare, suppression_requirement, 0.88).
+constraint_metric(singularity_snare, snap_back_potential, 0.92).
+constraint_metric(singularity_snare, extractiveness, 0.94).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, accept_invariance_as_fundamental_topological_constant).
@@ -57,7 +57,7 @@ recommendation(rec_03, reform_metric_analysis_via_triangulation_scaffold).
 affects_constraint(rec_03, curvature_coupling_friction).
 
 recommendation(rec_04, cut_topological_instability_via_genus_mapping_scaffold).
-affects_constraint(rec_04, singularity_noose).
+affects_constraint(rec_04, singularity_snare).
 
 veto_actor(non_manifold_geometry).
 veto_exposed(non_manifold_geometry, rec_04).

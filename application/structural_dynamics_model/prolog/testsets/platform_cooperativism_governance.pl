@@ -198,7 +198,7 @@ test(multi_perspective_variance) :-
  */
 omega_variable(
     capital_access_omega,
-    "Can a non-extractive Rope (Coop) scale and survive in a financial ecosystem designed for extractive Nooses (VC funding)?",
+    "Can a non-extractive Rope (Coop) scale and survive in a financial ecosystem designed for extractive Snares (VC funding)?",
     resolution_mechanism("Monitor survival and market-share rates of platform coops vs. venture-backed startups in the same sector over a 10-year period."),
     impact("If Yes: The Coop is a viable Rope for the future of work. If No: The Coop is a niche Mountain that cannot achieve systemic scale."),
     confidence_without_resolution(medium)
@@ -217,7 +217,7 @@ omega_variable(
  *
  * CONCLUSION:
  * Platform Cooperativism is an attempt to build a 'Rope' for workers in an environment
- * dominated by extractive 'Nooses'. Its success depends on whether the coordination 
+ * dominated by extractive 'Snares'. Its success depends on whether the coordination 
  * benefits of the 'Rope' (trust, lower churn, worker loyalty) can overcome the 
  * 'Mountain' of capital-access friction in a VC-dominated world.
  */

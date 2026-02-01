@@ -185,7 +185,7 @@ test(structural_fate_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(verification_barrier_noose) :-
+test(verification_barrier_snare) :-
     % A powerless individual in a biographical search for truth sees it as a Snare.
     constraint_indexing:constraint_classification(finite_simple_group_classification, snare, context(individual_powerless, biographical, constrained, local)).
 

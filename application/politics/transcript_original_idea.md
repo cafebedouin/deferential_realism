@@ -10,11 +10,11 @@ Before reading this analysis, you need three concepts from Deferential Realism�
 
 **Ropes** are coordination mechanisms that help aligned agents achieve shared goals. They require active maintenance (energy input) but produce positive-sum outcomes for participants. Example: the Pacto Histórico coalition consolidating 30+ left candidates behind Iván Cepeda. Ropes enable collective action.
 
-**Nooses** are extraction mechanisms disguised as coordination. They force asymmetric outcomes where some participants benefit at others' expense, often through suppression of alternatives. Example: Colombia's two-round runoff system mathematically punishing centrist candidates, forcing voters into binary choice. Nooses tighten when you struggle against them.
+**Snares** are extraction mechanisms disguised as coordination. They force asymmetric outcomes where some participants benefit at others' expense, often through suppression of alternatives. Example: Colombia's two-round runoff system mathematically punishing centrist candidates, forcing voters into binary choice. Snares tighten when you struggle against them.
 
-**The critical insight:** The *same structural feature* can be a Rope for powerful agents and a Noose for powerless ones. An election is a coordination mechanism (Rope) for political elites building coalitions, but becomes a strangling constraint (Noose) for voters and candidates trapped in forced binary choices.
+**The critical insight:** The *same structural feature* can be a Rope for powerful agents and a Snare for powerless ones. An election is a coordination mechanism (Rope) for political elites building coalitions, but becomes a strangling constraint (Snare) for voters and candidates trapped in forced binary choices.
 
-**The transformation rule:** Ropes become Nooses when they get captured—when the coordination mechanism starts serving the poles of power rather than enabling genuine choice. This is what's happening in Colombia's 2026 election.
+**The transformation rule:** Ropes become Snares when they get captured—when the coordination mechanism starts serving the poles of power rather than enabling genuine choice. This is what's happening in Colombia's 2026 election.
 
 ---
 
@@ -36,7 +36,7 @@ Evidence from substrate: Traditional Centro Democrático figures (Cabal, Holguí
 Justification: The substrate reveals that establishment right has fragmented so completely that an outsider lawyer with paramilitary ties commands their vote by default—this is structural vacancy, not popular mandate
 
 [KNIFE_SENTENCE]
-"Colombia's 2026 election is not a contest between left continuity and right-wing reaction—it's a constraint system demonstrating how constitutional term limits can weaponize polarization into a noose that strangles coordination itself."
+"Colombia's 2026 election is not a contest between left continuity and right-wing reaction—it's a constraint system demonstrating how constitutional term limits can weaponize polarization into a snare that strangles coordination itself."
 Defensibility: High
 Substrate evidence: Constitutional term limit (C1 Mountain) + polling compression (62% → 5.7% undecided) + centrist failure (Fajardo at 9.4% third consecutive attempt) + runoff system mathematics
 
@@ -52,17 +52,17 @@ This is backwards. The race isn't fluid—it's compressed. What forecasters read
 
 The proof is in the undecided collapse. On November 4, 2025, 62% of Colombian voters told pollsters they didn't know who they'd support—a figure so high it suggested infinite possibility space. By January 13, 2026, that number had shrunk to 5.7%. In ten weeks, 56 percentage points of "undecided" voters vanished. Standard electoral dynamics don't produce compression at that velocity. Constraint resolution does.
 
-## The Mountain Creates the Noose
+## The Mountain Creates the Snare
 
 Start with the constitutional term limit—what the formal model labels C1 (Mountain). President Gustavo Petro cannot run for reelection. This isn't negotiable; it's a hard boundary written into Colombian law after decades of institutional learning about executive power. Mountains don't care about your campaign strategy. They are cross-world invariants: no amount of political energy changes the fact that Petro's presidency terminates August 7, 2026.
 
 But Mountains don't act alone. The term limit creates a power vacuum precisely because Petro represents Colombia's first-ever left-wing presidency, elected in 2022 with 50.4% in the runoff after a polarizing campaign. His administration attempted structural reforms—pension overhaul, labor protections, "Total Peace" negotiations with armed groups. Polling shows 66.2% of Colombians now feel *more* insecure under Total Peace, not less. Petro's approval sits at 35.7% with 53.5% disapproval. The left secured historic victory, then governance exposed the gap between coalition-building (Rope) and policy implementation.
 
-The vacuum doesn't create opportunity—it creates the Noose (C2). Colombia's two-round runoff system means you need either 50%+ in the first round (rare) or to survive to the runoff and assemble a winning coalition. The mathematics punish the middle. If the first round produces a left candidate at 28% and a right candidate at 26%, the centrist at 9% becomes structurally irrelevant regardless of individual merit. The Noose functions through bipolar compression: as the field consolidates, voters face increasing pressure to align with one of two viable poles, because splitting the opposition guarantees the other pole's victory.
+The vacuum doesn't create opportunity—it creates the Snare (C2). Colombia's two-round runoff system means you need either 50%+ in the first round (rare) or to survive to the runoff and assemble a winning coalition. The mathematics punish the middle. If the first round produces a left candidate at 28% and a right candidate at 26%, the centrist at 9% becomes structurally irrelevant regardless of individual merit. The Snare functions through bipolar compression: as the field consolidates, voters face increasing pressure to align with one of two viable poles, because splitting the opposition guarantees the other pole's victory.
 
-Here's where standard forecasting models break: they treat Fajardo's 9.4% as a "floor" that could expand if he "gains traction." But Fajardo has run for president three consecutive cycles—2018 (third place), 2022 (fourth place with 4.2%), 2026 (third place projection at 9.4%). He is a former mayor of Medellín, former governor of Antioquia, and a technocratic centrist in a country where polls show "the majority of Colombians identify with the center." If structural space existed for centrist consolidation, Fajardo would have captured it by now. Instead, he's trapped at ~10% precisely because the Noose extracts viability from anyone who refuses binary alignment.
+Here's where standard forecasting models break: they treat Fajardo's 9.4% as a "floor" that could expand if he "gains traction." But Fajardo has run for president three consecutive cycles—2018 (third place), 2022 (fourth place with 4.2%), 2026 (third place projection at 9.4%). He is a former mayor of Medellín, former governor of Antioquia, and a technocratic centrist in a country where polls show "the majority of Colombians identify with the center." If structural space existed for centrist consolidation, Fajardo would have captured it by now. Instead, he's trapped at ~10% precisely because the Snare extracts viability from anyone who refuses binary alignment.
 
-The substrate shows the mechanism clearly: analysts call Fajardo's position a "technical tie" with de la Espriella in some runoff scenarios, but this misreads what's happening. The "tie" isn't competitive equilibrium—it's the Noose demonstrating that even reaching the runoff requires abandoning the center's defining characteristic (refusal of polarization) to coordinate with one pole or the other. Fajardo can't win by staying centrist; he can only become a spoiler who determines *which* pole wins.
+The substrate shows the mechanism clearly: analysts call Fajardo's position a "technical tie" with de la Espriella in some runoff scenarios, but this misreads what's happening. The "tie" isn't competitive equilibrium—it's the Snare demonstrating that even reaching the runoff requires abandoning the center's defining characteristic (refusal of polarization) to coordinate with one pole or the other. Fajardo can't win by staying centrist; he can only become a spoiler who determines *which* pole wins.
 
 ## De la Espriella is Not the Story
 
@@ -74,19 +74,19 @@ De la Espriella fills a vacuum, not through charismatic genius but through struc
 
 The substrate reveals what matters: de la Espriella commands 28% not despite being a political amateur with authoritarian tendencies but *because* the traditional right has no other viable vessel. His support base is "online circles" and voters "tired of uncertainty and less concerned about human rights." This isn't populist emergence—it's institutional default. The right needs someone, anyone, who can consolidate anti-Petro sentiment into a single candidacy, and de la Espriella happens to be standing in that slot with enough media savvy to hold it.
 
-Forecasters who model this as "de la Espriella's ceiling" miss the constraint logic. His ceiling is whatever the Noose compression delivers to the anti-left pole. If he fragments, someone else captures that 28%. If he consolidates, he could reach 35-40% in the first round not because voters love him but because the system forces binary choice. The question isn't "Can de la Espriella win?" It's "Can the Colombian right coordinate at all?" and the answer appears to be "Only around whoever's already visible."
+Forecasters who model this as "de la Espriella's ceiling" miss the constraint logic. His ceiling is whatever the Snare compression delivers to the anti-left pole. If he fragments, someone else captures that 28%. If he consolidates, he could reach 35-40% in the first round not because voters love him but because the system forces binary choice. The question isn't "Can de la Espriella win?" It's "Can the Colombian right coordinate at all?" and the answer appears to be "Only around whoever's already visible."
 
-## The Rope That Became a Noose
+## The Rope That Became a Snare
 
 Iván Cepeda represents continuity—the Pacto Histórico coalition attempting to preserve Petro's reforms through succession. He's a longtime senator, human rights advocate, and ideological successor to the historic left project. December 2025 polling from Invamer put him at 31.9%, significantly ahead of rivals. That lead compressed to 26.5% by January 2026 as de la Espriella consolidated, but Cepeda remains the left's only viable candidate.
 
 The formal model calls this the Rope (C3)—coalition-building coordination that requires active maintenance. The left successfully collapsed "over 30 candidates" into a single front around Cepeda. This is genuine organizational achievement: the Pacto Histórico has the highest party support at 21%, and "a quarter of respondents identify with the Pacto Histórico" as a durable political bloc.
 
-But here's the constraint trap: the Rope works *only if* you can keep it from being captured by the Noose. The moment your coalition-building becomes "all against the other," it stops functioning as coordination (positive-sum alignment) and starts functioning as extraction (forcing supporters into binary choice that benefits the poles). The substrate shows this happening in real-time. President Petro framed the election as "a struggle between entrenched elites and a 'powerful people' seeking to reclaim the state," implicitly positioning Cepeda as the defender against "mafioso elites." This is Noose rhetoric—defining the election as binary conflict where failure to support your pole guarantees enemy victory.
+But here's the constraint trap: the Rope works *only if* you can keep it from being captured by the Snare. The moment your coalition-building becomes "all against the other," it stops functioning as coordination (positive-sum alignment) and starts functioning as extraction (forcing supporters into binary choice that benefits the poles). The substrate shows this happening in real-time. President Petro framed the election as "a struggle between entrenched elites and a 'powerful people' seeking to reclaim the state," implicitly positioning Cepeda as the defender against "mafioso elites." This is Snare rhetoric—defining the election as binary conflict where failure to support your pole guarantees enemy victory.
 
 The danger for Cepeda isn't that he'll lose support—it's that his 26-32% represents the hard ceiling of convinced left voters, and runoff victory requires assembling additional coalition from the compressed middle. But if the campaign runs on "anti-elite" polarization, it repels exactly the moderate voters needed for 50%+ in the runoff. The Invamer poll showed Cepeda would win a runoff against de la Espriella "with a wide margin," but face a "technical tie" against Fajardo—meaning the centrist voters Cepeda needs for runoff victory are the ones least convinced by polarization rhetoric.
 
-This is the Rope-to-Noose transformation the model predicts. Coordination mechanisms that serve participants become extractive when they're embedded in a polarized binary system. Cepeda can't simultaneously run as "continuity candidate for Petro's reforms" (which motivates the base) and "bridge-builder who transcends polarization" (which wins the runoff). The constraint forces him to choose one strategy or the other, and choosing either one sacrifices what the other delivers.
+This is the Rope-to-Snare transformation the model predicts. Coordination mechanisms that serve participants become extractive when they're embedded in a polarized binary system. Cepeda can't simultaneously run as "continuity candidate for Petro's reforms" (which motivates the base) and "bridge-builder who transcends polarization" (which wins the runoff). The constraint forces him to choose one strategy or the other, and choosing either one sacrifices what the other delivers.
 
 ## What Forecasters Should Actually Track
 
@@ -98,10 +98,10 @@ Track these instead:
 Watch whether the Pacto Histórico maintains unity or fractures. If Cepeda's support drops below 24%, it signals the left coalition is decaying faster than the right's fragmentation—which means de la Espriella consolidates by default. If Cepeda holds 26-28%, the Rope is maintaining itself.
 
 **2. Undecided Conversion Direction**
-The 5.7% remaining undecided aren't meaningful swing voters—they're the last holdouts before total compression. What matters is *where* they break. If they split 60-40 toward either pole, that pole gains 1-2 percentage points—potentially decisive in a 28% vs 26.5% race. But their direction reveals which Noose narrative (anti-corruption right vs anti-elite left) is winning the compression game.
+The 5.7% remaining undecided aren't meaningful swing voters—they're the last holdouts before total compression. What matters is *where* they break. If they split 60-40 toward either pole, that pole gains 1-2 percentage points—potentially decisive in a 28% vs 26.5% race. But their direction reveals which Snare narrative (anti-corruption right vs anti-elite left) is winning the compression game.
 
 **3. Fajardo's Terminal State**
-If Fajardo drops below 8%, the Noose has fully strangled the center and the race is pure bipolar. If he somehow breaks above 12%, it means structural space opened (unlikely but diagnostic). Most likely: he stays at 9-10%, proves the Noose is active, and his voters' runoff behavior determines the winner.
+If Fajardo drops below 8%, the Snare has fully strangled the center and the race is pure bipolar. If he somehow breaks above 12%, it means structural space opened (unlikely but diagnostic). Most likely: he stays at 9-10%, proves the Snare is active, and his voters' runoff behavior determines the winner.
 
 **4. Right-Wing Primary Dynamics**
 The March 8, 2026 "Gran Consulta por Colombia" primary is the critical Rope test for the opposition. If conservatives consolidate around a single candidate (whether de la Espriella or someone else), it signals coordination capacity. If they fragment across multiple candidates, it signals institutional collapse is terminal and de la Espriella wins by being the only viable vessel.
@@ -110,27 +110,27 @@ The March 8, 2026 "Gran Consulta por Colombia" primary is the critical Rope test
 Petro can't run, but he defines what "continuity" means. If his approval stays at 35-37%, Cepeda inherits a mixed legacy. If it drops to 28-30%, Cepeda becomes unviable. If it somehow recovers to 42-45%, Cepeda coasts. This isn't about Petro's popularity—it's about whether the left's Rope (coalition) can survive being tethered to an unpopular administration.
 
 **6. Security Crisis Escalation**
-The Total Peace policy shows 66.2% of voters feeling *more* insecure and 73% believing "the government has lost territorial control to illegal armed groups." This is the substrate feeding de la Espriella's "firm military action" appeal. If violence escalates before May 31, it strengthens the right's Noose narrative. If it stabilizes, it weakens de la Espriella's core justification.
+The Total Peace policy shows 66.2% of voters feeling *more* insecure and 73% believing "the government has lost territorial control to illegal armed groups." This is the substrate feeding de la Espriella's "firm military action" appeal. If violence escalates before May 31, it strengthens the right's Snare narrative. If it stabilizes, it weakens de la Espriella's core justification.
 
 ## The Terminal Attractor
 
 The constraint model predicts convergence to "highly unstable, high-energy bipolar equilibrium." This means: the first round will likely produce Cepeda vs de la Espriella (or whoever consolidates the right), separated by 1-4 percentage points. The runoff becomes a referendum on polarization itself—left continuity vs right restoration—with centrist voters forced into a binary choice they've been resisting for a year.
 
-The mathematics favor whoever builds the better runoff coalition, but the constraint logic punishes coalition-building. The Noose has been extracting policy diversity for months, narrowing the campaign to identity conflict. By the time of the runoff, neither candidate can credibly pivot to moderation because they've spent the first round intensifying polarization to consolidate their base.
+The mathematics favor whoever builds the better runoff coalition, but the constraint logic punishes coalition-building. The Snare has been extracting policy diversity for months, narrowing the campaign to identity conflict. By the time of the runoff, neither candidate can credibly pivot to moderation because they've spent the first round intensifying polarization to consolidate their base.
 
-This creates the "unstable" equilibrium the model names: whichever pole wins the presidency will govern with 50-52% runoff support while facing a deeply hostile opposition that views their victory as existential threat. The extracted policy space (health reform, labor law, security strategy) doesn't magically return post-election. The Noose remains active because the structural constraints (two-round system, constitutional term limit creating power vacuums, fragmented party institutions) remain active.
+This creates the "unstable" equilibrium the model names: whichever pole wins the presidency will govern with 50-52% runoff support while facing a deeply hostile opposition that views their victory as existential threat. The extracted policy space (health reform, labor law, security strategy) doesn't magically return post-election. The Snare remains active because the structural constraints (two-round system, constitutional term limit creating power vacuums, fragmented party institutions) remain active.
 
 ## Why This Matters Beyond Colombia
 
 The Colombian case demonstrates a general principle about constraint systems in competitive democracies: constitutional design intended to prevent authoritarian consolidation (one-term limit) can interact with electoral mathematics (two-round runoff) to produce polarization traps that are harder to escape than the original threat.
 
-The term limit successfully prevents Petro from seeking reelection. It creates a power vacuum. The vacuum incentivizes the Noose (bipolar compression) because the runoff system punishes vote-splitting. The Noose destroys the Rope (coalition coordination) by forcing participants to choose between maintaining their coalition's purity (losing the runoff) or compromising to build runoff majority (betraying the coalition's purpose).
+The term limit successfully prevents Petro from seeking reelection. It creates a power vacuum. The vacuum incentivizes the Snare (bipolar compression) because the runoff system punishes vote-splitting. The Snare destroys the Rope (coalition coordination) by forcing participants to choose between maintaining their coalition's purity (losing the runoff) or compromising to build runoff majority (betraying the coalition's purpose).
 
 Standard forecasting treats this as "political polarization"—a cultural or psychological phenomenon driven by social media, elite rhetoric, or voter sentiment. But the substrate shows it's structural: the constraint system itself generates the polarization as an emergent property of its mathematical design. Voters aren't more polarized because they've become more extreme—they're more polarized because the system progressively eliminates non-polar positions as viable options.
 
 For forecasters, this means prediction models that don't account for constraint topology will persistently mis-estimate outcome ranges. Polling aggregation assumes campaign events move preferences within a stable possibility space. But when the possibility space itself is collapsing (undecided 62% → 5.7%), campaign events don't create outcomes—they select among the narrowing set of outcomes the constraint system still permits.
 
-The Colombian election will produce a winner. That winner will face a constraint system that weaponizes their victory into the next cycle's instability. This isn't cynicism—it's what the mathematics deliver when constitutional engineering meets electoral design in a polity with weak institutionalization and high social conflict. The Noose doesn't care who wins. It just tightens.
+The Colombian election will produce a winner. That winner will face a constraint system that weaponizes their victory into the next cycle's instability. This isn't cynicism—it's what the mathematics deliver when constitutional engineering meets electoral design in a polity with weak institutionalization and high social conflict. The Snare doesn't care who wins. It just tightens.
 
 [STAKES_ANCHOR]
 Propagation: If forecasters continue modeling Latin American elections as preference aggregation rather than constraint resolution, they will systematically underestimate the speed and severity of polarization dynamics, leading to persistent surprise at "sudden" collapses of centrist space
@@ -140,11 +140,11 @@ Placement: Final section ("Why This Matters Beyond Colombia")
 
 [QUALITY_GATES]
 Simplicity Gate: PASS - Substrate reveals genuine structural complexity (constraint interaction), not invented depth
-Counterfactual Test: PASS - Claims falsifiable by: (a) Fajardo breaking 15% (disproves Noose suppression), (b) undecided bloc stabilizing >20% (disproves compression), (c) traditional conservative consolidating (disproves institutional collapse), (d) Petro approval recovering >45% (changes Rope viability)
+Counterfactual Test: PASS - Claims falsifiable by: (a) Fajardo breaking 15% (disproves Snare suppression), (b) undecided bloc stabilizing >20% (disproves compression), (c) traditional conservative consolidating (disproves institutional collapse), (d) Petro approval recovering >45% (changes Rope viability)
 Substrate Fidelity: PASS - All major claims trace to: Prolog constraint classifications, polling data, formal model parameters, candidate background verified by web search
 Materiality: PASS - Concrete specifics anchor all abstractions (62% → 5.7% compression, Fajardo 9.4% three consecutive cycles, de la Espriella 28% vs Cabal/Holguín/Valencia 3-5% combined)
 Stakes: PASS - Specific (forecasting model failures) and consequential (resource misallocation in international policy/investment)
-Ending: Escalation - Final sentence ("The Noose doesn't care who wins. It just tightens.") escalates from immediate election to structural perpetuation
+Ending: Escalation - Final sentence ("The Snare doesn't care who wins. It just tightens.") escalates from immediate election to structural perpetuation
 
 [SUBSTRATE_TRACEABILITY]
 Major claims with substrate references:
@@ -152,18 +152,18 @@ Major claims with substrate references:
 - Claim: "Fajardo persistently stuck ~9-10% despite three consecutive cycles" → Substrate: 2018 third place, 2022 fourth (4.2%), 2026 projection (9.4% AtlasIntel)
 - Claim: "De la Espriella represents right-wing institutional collapse" → Substrate: Traditional conservatives (Cabal/Holguín/Valencia) at 3-5%, de la Espriella at 28% despite being political outsider
 - Claim: "Constitutional term limit is cross-world invariant" → Substrate: Prolog model C1 (Mountain), Article 191 Colombian constitution, Petro cannot seek reelection
-- Claim: "Two-round runoff creates mathematical Noose" → Substrate: Prolog model C2, need for 50%+ in first round or runoff coalition, punishes vote-splitting
+- Claim: "Two-round runoff creates mathematical Snare" → Substrate: Prolog model C2, need for 50%+ in first round or runoff coalition, punishes vote-splitting
 - Claim: "Pacto Histórico successfully consolidated 30+ candidates" → Substrate: Cepeda as single left candidate, 21% party support highest of any party
 - Claim: "66.2% feel more insecure under Total Peace" → Substrate: Invamer polling on security perceptions
 - Claim: "Petro approval 35.7%, disapproval 53.5%" → Substrate: AtlasIntel poll January 2026
-- Claim: "The Noose extracts policy diversity" → Substrate: Deferential Realism constraint model C2 (Noose) with suppression_score 0.35, "strangles third-way options"
+- Claim: "The Snare extracts policy diversity" → Substrate: Deferential Realism constraint model C2 (Snare) with suppression_score 0.35, "strangles third-way options"
 - Claim: "Terminal attractor is bipolar equilibrium" → Substrate: Prolog model prediction "System converges to highly unstable, high-energy Bipolar Equilibrium"
 
 ---
 
 Gemini:
 
-This analysis maps your **Mountain/Rope/Noose** framework onto global electoral systems that share the same structural "constraint topology." The most volatile systems are those that combine a **Hard Mountain** (strict term limits) with a **Mathematical Noose** (two-round runoffs), resulting in the "highly unstable bipolar equilibrium" you described in Colombia.
+This analysis maps your **Mountain/Rope/Snare** framework onto global electoral systems that share the same structural "constraint topology." The most volatile systems are those that combine a **Hard Mountain** (strict term limits) with a **Mathematical Snare** (two-round runoffs), resulting in the "highly unstable bipolar equilibrium" you described in Colombia.
 
 ---
 
@@ -172,23 +172,23 @@ This analysis maps your **Mountain/Rope/Noose** framework onto global electoral 
 France is the primary European equivalent to the Colombian constraint system, especially heading into 2027.
 
 * **The Mountain (C1):** The two-term limit. President Emmanuel Macron is constitutionally barred from a third term. This creates an immediate power vacuum and high-energy "succession entropy."
-* **The Noose (C2):** The two-round system. Historically designed to keep out "extremes," it now functions as a Noose that extracts viability from the traditional center-right and center-left. As in Colombia, the center (Macronism) is being hollowed out, forcing a binary choice between Marine Le Pen (Right) and a consolidated Left.
-* **The Rope (C3):** The "New Popular Front" (NFP). This is a classic Rope—a high-energy coordination of disparate left-wing parties (Socialists, Greens, Insoumis) that must maintain active maintenance to avoid being strangled by the Noose in the first round.
+* **The Snare (C2):** The two-round system. Historically designed to keep out "extremes," it now functions as a Snare that extracts viability from the traditional center-right and center-left. As in Colombia, the center (Macronism) is being hollowed out, forcing a binary choice between Marine Le Pen (Right) and a consolidated Left.
+* **The Rope (C3):** The "New Popular Front" (NFP). This is a classic Rope—a high-energy coordination of disparate left-wing parties (Socialists, Greens, Insoumis) that must maintain active maintenance to avoid being strangled by the Snare in the first round.
 
 ## 2. Brazil (The Bipolar Terminal Attractor)
 
 While Brazil allows non-consecutive reelection, its 2022 election demonstrated the "Terminal Attractor" state perfectly.
 
 * **The Mountain (C1):** In 2018, the Mountain was the judicial barring of Lula from running; in 2022, the Mountain was the institutional resistance to Bolsonaro's attempts to alter the voting system.
-* **The Noose (C2):** The 50%+1 runoff requirement. This mathematically forced the 2022 race into a razor-thin bipolarity (50.9% vs 49.1%). Like Colombia, the "Centrão" (the center) was not a platform but an extraction site for the two poles.
-* **The Rope (C3):** Lula’s "Big Tent" coalition. It was a Rope that required bringing in a centrist vice-president (Geraldo Alckmin) to survive the Noose, effectively turning coordination into a survival mechanism rather than policy alignment.
+* **The Snare (C2):** The 50%+1 runoff requirement. This mathematically forced the 2022 race into a razor-thin bipolarity (50.9% vs 49.1%). Like Colombia, the "Centrão" (the center) was not a platform but an extraction site for the two poles.
+* **The Rope (C3):** Lula’s "Big Tent" coalition. It was a Rope that required bringing in a centrist vice-president (Geraldo Alckmin) to survive the Snare, effectively turning coordination into a survival mechanism rather than policy alignment.
 
 ## 3. South Korea (The Single-Term Mountain)
 
-South Korea represents a variant where the Mountain is even steeper than Colombia's, but the Noose is psychological rather than mathematical.
+South Korea represents a variant where the Mountain is even steeper than Colombia's, but the Snare is psychological rather than mathematical.
 
 * **The Mountain (C1):** A strict **single 5-year term**. No reelection ever. This makes every president a "lame duck" the moment they are inaugurated, creating a permanent, high-velocity power vacuum.
-* **The Noose (C2):** Unlike Colombia, South Korea uses a **Plurality (First-Past-The-Post)** system. However, the *affective polarization* acts as a "Shadow Noose." Voters perceive a third-party vote as a total loss, forcing the system into a two-party "death match" (the DPK vs. the PPP).
+* **The Snare (C2):** Unlike Colombia, South Korea uses a **Plurality (First-Past-The-Post)** system. However, the *affective polarization* acts as a "Shadow Snare." Voters perceive a third-party vote as a total loss, forcing the system into a two-party "death match" (the DPK vs. the PPP).
 * **The Rope (C3):** "Anti-Communist" vs. "Pro-Democracy" legacy identities. These Ropes are used to whip voters into the binary poles, often through judicial "lawfare" (using the courts to eliminate the other pole's Rope).
 
 ## 4. The Philippines (The Pre-Election Rope)
@@ -196,14 +196,14 @@ South Korea represents a variant where the Mountain is even steeper than Colombi
 The Philippines mirrors the "Institutional Collapse" and "Outsider Default" patterns seen with de la Espriella.
 
 * **The Mountain (C1):** A single 6-year term. No reelection.
-* **The Noose (C2):** A plurality system (no runoff). This *should* allow for many candidates, but the constraint system forces the "Noose" to tighten *before* the election.
+* **The Snare (C2):** A plurality system (no runoff). This *should* allow for many candidates, but the constraint system forces the "Snare" to tighten *before* the election.
 * **The Rope (C3):** The "UniTeam" Alliance (2022). This was the ultimate Rope: the Marcos and Duterte dynasties coordinated to consolidate their support bases *before* the first ballot was cast. This effectively strangled all other candidates (like Leni Robredo) by making the race over before it began.
 
 ---
 
 ### Comparative Constraint Map
 
-| Country | Mountain (Hard Limit) | Noose (Compression) | Rope (Coordination) | Terminal State |
+| Country | Mountain (Hard Limit) | Snare (Compression) | Rope (Coordination) | Terminal State |
 | --- | --- | --- | --- | --- |
 | **Colombia** | One-term (C1) | Runoff Math (C2) | Pacto Histórico (C3) | Bipolar Instability |
 | **France** | Two-term (Consec) | Runoff Math | Republican Front / NFP | Hollowing of the Center |
@@ -212,7 +212,7 @@ The Philippines mirrors the "Institutional Collapse" and "Outsider Default" patt
 | **Philippines** | Single 6-year term | Pre-election Consolidation | Dynasty Alliances | Hegemonic Consolidation |
 
 **The Transformation Rule in Action:**
-In all these systems, you see the same trend: **The Noose doesn't just eliminate candidates; it eliminates the space for "Policy Deliberation."** Once the system resolves into the Bipolar Attractor, the Rope (coordination) is no longer used to build a better future, but simply to keep the Noose from closing on your neck.
+In all these systems, you see the same trend: **The Snare doesn't just eliminate candidates; it eliminates the space for "Policy Deliberation."** Once the system resolves into the Bipolar Attractor, the Rope (coordination) is no longer used to build a better future, but simply to keep the Snare from closing on your neck.
 
 Would you like me to apply this "Constraint Topology" to a specific upcoming election (e.g., France 2027) to see where the Ropes are currently fraying?
 
@@ -226,18 +226,18 @@ Ok, so we have one example of a electoral topology that crosses-countries. Now, 
 
 Gemini:
 
-If we apply the **Mountain/Rope/Noose** framework to global electoral structures, we can identify a distinct taxonomy of "Constraint Topologies." These topologies describe how the interaction of constitutional rules (Mountains), coordination mechanisms (Ropes), and mathematical traps (Nooses) predictably shapes the life cycle of a political system.
+If we apply the **Mountain/Rope/Snare** framework to global electoral structures, we can identify a distinct taxonomy of "Constraint Topologies." These topologies describe how the interaction of constitutional rules (Mountains), coordination mechanisms (Ropes), and mathematical traps (Snares) predictably shapes the life cycle of a political system.
 
 Here is a speculative taxonomy of electoral topologies:
 
 ---
 
-### 1. The Bipolar Noose (The "Colombian" Model)
+### 1. The Bipolar Snare (The "Colombian" Model)
 
 This is the topology you've already identified, characterized by high-energy compression into two hostile poles.
 
-* **Constraint Pattern:** **Hard Mountain** (Strict term limits) + **Runoff Noose** (Two-round majority system).
-* **Behavior:** The system starts with a high degree of perceived flexibility (many candidates/Ropes) but rapidly collapses as the first round approaches. The Noose "extracts" viability from the center to fuel the poles.
+* **Constraint Pattern:** **Hard Mountain** (Strict term limits) + **Runoff Snare** (Two-round majority system).
+* **Behavior:** The system starts with a high degree of perceived flexibility (many candidates/Ropes) but rapidly collapses as the first round approaches. The Snare "extracts" viability from the center to fuel the poles.
 * **Likely Inhabitants:** France, Brazil, Colombia, Chile.
 * **Terminal State:** An "unstable equilibrium" where the winner governs with a narrow mandate against a "blocked" opposition.
 
@@ -245,16 +245,16 @@ This is the topology you've already identified, characterized by high-energy com
 
 In this topology, the constraints are designed to force stability, but often result in geographic and ideological "traps."
 
-* **Constraint Pattern:** **Invisible Mountain** (No term limits, but "Safe Seats") + **Plurality Noose** (First-Past-The-Post).
-* **Behavior:** The Noose is "silent" most of the time but becomes visible through **Tactical Voting**. Voters don't vote *for* their preferred Rope; they vote *against* the pole they fear most. This creates "Wasted Vote" zones where the system is functionally a one-party state (Safe Seats), acting as a localized Mountain.
+* **Constraint Pattern:** **Invisible Mountain** (No term limits, but "Safe Seats") + **Plurality Snare** (First-Past-The-Post).
+* **Behavior:** The Snare is "silent" most of the time but becomes visible through **Tactical Voting**. Voters don't vote *for* their preferred Rope; they vote *against* the pole they fear most. This creates "Wasted Vote" zones where the system is functionally a one-party state (Safe Seats), acting as a localized Mountain.
 * **Likely Inhabitants:** United Kingdom, Canada, India.
 * **Terminal State:** "Artificial Majorities" where a party with 35% of the vote has 100% of the power, leading to periodic "voter revolts" that shatter traditional party Ropes.
 
 ### 3. The Fragmentation Marsh (The "Proportional" Model)
 
-This topology lacks a Noose but is overrun with Ropes that never quite lead anywhere.
+This topology lacks a Snare but is overrun with Ropes that never quite lead anywhere.
 
-* **Constraint Pattern:** **Flat Landscape** (No runoff Noose) + **Low-Threshold Ropes** (Proportional Representation).
+* **Constraint Pattern:** **Flat Landscape** (No runoff Snare) + **Low-Threshold Ropes** (Proportional Representation).
 * **Behavior:** There is no structural pressure to consolidate. Instead, the constraint is **Decision Paralysis**. The "Mountain" here is the **Coalition Threshold**—the mathematical necessity of getting 51% of *parties* to agree, rather than voters.
 * **Likely Inhabitants:** Israel, Belgium, Netherlands.
 * **Terminal State:** "Permanent Caretaker" governments. The system can’t move because too many Ropes are pulling in different directions, effectively turning the entire political landscape into a Marsh.
@@ -264,7 +264,7 @@ This topology lacks a Noose but is overrun with Ropes that never quite lead anyw
 Common in systems with massive executive power and singular term limits that encourage "Pre-Consolidation."
 
 * **Constraint Pattern:** **Steep Mountain** (One-and-done terms) + **Heirloom Ropes** (Political dynasties).
-* **Behavior:** Because the Mountain (the term limit) is so absolute, the Noose doesn't tighten during the election—it tightens *months before*. Powerful Ropes (dynasties) coordinate to eliminate rivals before the public even sees the ballot.
+* **Behavior:** Because the Mountain (the term limit) is so absolute, the Snare doesn't tighten during the election—it tightens *months before*. Powerful Ropes (dynasties) coordinate to eliminate rivals before the public even sees the ballot.
 * **Likely Inhabitants:** Philippines, South Korea, Mexico (historic PRI era).
 * **Terminal State:** "Hegemonic Stability" punctuated by sudden, violent systemic resets when the leading Rope snaps.
 
@@ -274,7 +274,7 @@ Common in systems with massive executive power and singular term limits that enc
 
 | Archetype | Primary Constraint | Secondary Constraint | Resulting Sentiment |
 | --- | --- | --- | --- |
-| **Bipolar Noose** | Runoff Math | Term Limits | "Choose the lesser evil." |
+| **Bipolar Snare** | Runoff Math | Term Limits | "Choose the lesser evil." |
 | **Deadlock Labyrinth** | Plurality Math | Safe Seats | "My vote doesn't count." |
 | **Fragmentation Marsh** | PR Proportionality | Coalition Logic | "Nothing ever changes." |
 | **Dynastic Anchor** | Single Term Limit | Patronage Ropes | "The game is rigged early." |
@@ -283,7 +283,7 @@ Common in systems with massive executive power and singular term limits that enc
 
 ### [The Impact of Electoral Systems on Political Stability](https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3DAitXvP9K07k)
 
-This video provides a visual breakdown of how different electoral formulas (Plurality vs. Proportional) mechanically shift the "Noose" and "Rope" dynamics in a given country.
+This video provides a visual breakdown of how different electoral formulas (Plurality vs. Proportional) mechanically shift the "Snare" and "Rope" dynamics in a given country.
 
 Would you like me to try to "plot" a specific country's recent history on a graph of these constraints to see if its topology has shifted over time?
 
@@ -293,7 +293,7 @@ User to Gemini:
 
 Can you give me a combined hypothesis table, in this form (you can add column(s) if you think I missed something) so I can use it to check this idea systematically?
 
-Archetype | Country | Mountain | Noose | Rope | Terminal State
+Archetype | Country | Mountain | Snare | Rope | Terminal State
 ================================================ 
 
 ---
@@ -306,9 +306,9 @@ I’ve added two diagnostic columns: **Compression Velocity** (how fast the syst
 
 ### Combined Hypothesis Table: Electoral Topologies
 
-| Archetype | Sample Country | Mountain (Hard Boundary) | Noose (Mathematical Trap) | Rope (Coordination) | Compression Velocity | Agent Energy | Terminal State |
+| Archetype | Sample Country | Mountain (Hard Boundary) | Snare (Mathematical Trap) | Rope (Coordination) | Compression Velocity | Agent Energy | Terminal State |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Bipolar Noose** | **Colombia / France** | Term limits (C1) | 50%+ Runoff (C2) | Multi-party Fronts (C3) | **High:** Rapid collapse of the center as the runoff nears. | **High:** Constant negotiation to prevent coalition decay. | Unstable, high-energy bipolarity. |
+| **Bipolar Snare** | **Colombia / France** | Term limits (C1) | 50%+ Runoff (C2) | Multi-party Fronts (C3) | **High:** Rapid collapse of the center as the runoff nears. | **High:** Constant negotiation to prevent coalition decay. | Unstable, high-energy bipolarity. |
 | **Deadlock Labyrinth** | **UK / USA** | Geographic Safe Seats | Plurality (FPTP) "Wasted Vote" | National Party Identity | **Low/Static:** Voters feel "trapped" years before the vote. | **Medium:** Maintenance of "Big Tent" brand loyalty. | Artificial majorities / Systemic resentment. |
 | **Frag. Marsh** | **Israel / Belgium** | Coalition % Threshold | Proportional Representation (PR) | Issue-based Factions | **Zero:** Choices remain infinite; resolution never arrives. | **Extreme:** Constant friction between tiny factions. | Permanent Caretaker / Decision paralysis. |
 | **Dynastic Anchor** | **Philippines / Mexico (PRI)** | Single Absolute Term | Pre-ballot Party Consolidation | Clientelism / Dynasties | **Instant:** The race is "won" before the first ballot. | **High (Pre-election):** Backroom deals and patronage. | Hegemonic stability with periodic "Reset" revolts. |
@@ -321,8 +321,8 @@ I’ve added two diagnostic columns: **Compression Velocity** (how fast the syst
 To verify if a country fits an archetype, look for these **Signal Indicators**:
 
 1. **For the Mountain (C1):** Does the executive have a "Stop Date"? If so, watch for the **Succession Entropy**—the degree to which the ruling party's internal Ropes begin to fray as they look for a "Lifeboat" (a new leader).
-2. **For the Noose (C2):** Look at the polling for the #3 and #4 candidates. In a **Noose** system, their support should undergo "Sudden Death" (dropping from 15% to 4% in weeks) as voters realize a vote for them is a "gift" to their least-favorite pole.
-3. **For the Rope (C3):** Check the **Coalition Half-Life**. How long does a pact last? In the **Fragmentation Marsh**, Ropes are permanent and transactional; in the **Bipolar Noose**, Ropes are temporary and existential.
+2. **For the Snare (C2):** Look at the polling for the #3 and #4 candidates. In a **Snare** system, their support should undergo "Sudden Death" (dropping from 15% to 4% in weeks) as voters realize a vote for them is a "gift" to their least-favorite pole.
+3. **For the Rope (C3):** Check the **Coalition Half-Life**. How long does a pact last? In the **Fragmentation Marsh**, Ropes are permanent and transactional; in the **Bipolar Snare**, Ropes are temporary and existential.
 4. **For the Terminal State:** Look at post-election approval. Does the winner’s honeymoon period last more than 90 days? In **Bipolar** systems, it rarely does, because the "Anti-" vote that put them in power immediately reverts to "Opponent" status.
 
 Would you like me to take a deep dive into one of these specific countries (e.g., France 2027 or UK 2029) to see which cells in this table are currently "lighting up" in the data?
@@ -341,7 +341,7 @@ I'll read through this carefully first.This is compelling work. The framework ha
 
 **What works exceptionally well:**
 
-The **constraint interaction logic** is the core insight. You're right that treating the same feature (like a runoff system) as static across contexts misses how it *transforms* depending on what other constraints are active. A two-round runoff in a stable multi-party system with no term limits behaves completely differently than in a system with strict succession deadlines. The Mountain-Rope-Noose interaction captures something real about how constitutional design creates emergent dynamics.
+The **constraint interaction logic** is the core insight. You're right that treating the same feature (like a runoff system) as static across contexts misses how it *transforms* depending on what other constraints are active. A two-round runoff in a stable multi-party system with no term limits behaves completely differently than in a system with strict succession deadlines. The Mountain-Rope-Snare interaction captures something real about how constitutional design creates emergent dynamics.
 
 The **empirical grounding** is strong. The 62%→5.7% undecided collapse in 10 weeks is genuinely diagnostic evidence. That's not normal campaign dynamics—it's a phase transition. Similarly, Fajardo's three-cycle persistence at ~9% directly falsifies the "he just needs momentum" narrative that standard models would generate.
 
@@ -351,13 +351,13 @@ The **taxonomy has predictive structure**. The claim that "Compression Velocity"
 
 **The inevitability framing may be too strong.** You write "the constraint system *itself* generates the polarization" and "campaign events don't create outcomes—they select among narrowing outcomes." But: Brazil 2022 was decided by 2.1 million votes (1.8%) in a country of 156 million voters. At that margin, Lula's decision to pick Alckmin as VP—a *choice*, not a structural necessity—plausibly determined the outcome. The constraints narrow the *range* of viable strategies, but human decisions still select within that range. Your model risks treating strategic choices as epiphenomenal when they might be genuinely causal at the margin.
 
-**The "Terminal State" predictions need sharper falsifiability.** What would it look like for a Bipolar Noose system to *not* produce "unstable, high-energy bipolarity"? If the answer is "that can't happen given the constraints," then it's not a prediction—it's a definition. You need to specify what observable outcomes would make you say "the topology changed" vs. "the model was wrong."
+**The "Terminal State" predictions need sharper falsifiability.** What would it look like for a Bipolar Snare system to *not* produce "unstable, high-energy bipolarity"? If the answer is "that can't happen given the constraints," then it's not a prediction—it's a definition. You need to specify what observable outcomes would make you say "the topology changed" vs. "the model was wrong."
 
 **The comparative cases need the same evidential depth as Colombia.** France is cited as "the archetypal pattern match," but you don't show the equivalent compression metrics. Does France show 50+ point undecided collapse? Does Macron's approval show the same trajectory as Petro's? Without that, the reader can't assess whether you're pattern-matching surface similarities or identifying genuine structural equivalence.
 
 **The Agent Energy concept needs operationalization.** You say Israel requires "Extreme" energy while the UK requires "Medium," but what's the unit of measurement? Coalition negotiation days? Party leadership challenges per term? Without a metric, this becomes a retrospective categorization rather than a predictive variable.
 
-**Biggest question:** Can you specify an *intervention* that would break the topology? If Colombia adopted ranked-choice voting, would that eliminate the Noose? If France removed term limits, would that stabilize the center? The strongest version of your framework should be able to say: "Here's exactly which constraint needs to change, and here's what dynamics would shift as a result."
+**Biggest question:** Can you specify an *intervention* that would break the topology? If Colombia adopted ranked-choice voting, would that eliminate the Snare? If France removed term limits, would that stabilize the center? The strongest version of your framework should be able to say: "Here's exactly which constraint needs to change, and here's what dynamics would shift as a result."
 
 The framework deserves serious attention. It's identifying real structure in electoral dynamics that probabilistic forecasting models miss. But to move from "insightful analysis" to "reliable forecasting tool," you need to make it more falsifiable, give it quantitative teeth, and show that it predicts *before* events unfold rather than explaining them *after*.
 
@@ -439,7 +439,7 @@ attachment:
 
 **What markets show:** Fajardo at 10% median, perfectly matching prediction
 
-**Interpretation:** This is the essay's **strongest confirmation**. Despite three consecutive presidential runs, despite being a "natural centrist" in a country that "identifies with the center," Fajardo remains trapped at exactly the predicted ceiling. The Noose is strangling the center as predicted.
+**Interpretation:** This is the essay's **strongest confirmation**. Despite three consecutive presidential runs, despite being a "natural centrist" in a country that "identifies with the center," Fajardo remains trapped at exactly the predicted ceiling. The Snare is strangling the center as predicted.
 
 **Matrix Implication:** If Fajardo breaks 15% by Feb 15, the centrist strangulation mechanism is falsified. If he stays at 8-11%, the essay's constraint logic holds.
 
@@ -508,7 +508,7 @@ This market snapshot suggests the essay may have **underestimated right-wing con
 
 ## Core Claims from the Essay
 
-**Claim 1: The Noose (Bipolar Compression)**  
+**Claim 1: The Snare (Bipolar Compression)**  
 "The undecided collapse (62% → 5.7%) demonstrates active constraint suppression forcing binary alignment"
 
 **Claim 2: Institutional Collapse on the Right**  
@@ -533,7 +533,7 @@ This market snapshot suggests the essay may have **underestimated right-wing con
 
 | Metric | Essay Prediction | Falsification Threshold | Interpretation if Threshold Met |
 |--------|-----------------|------------------------|--------------------------------|
-| Undecided % | Should continue compressing toward <10% | **>22%** stable or rising | Noose theory fails; voters retain meaningful choice space |
+| Undecided % | Should continue compressing toward <10% | **>22%** stable or rising | Snare theory fails; voters retain meaningful choice space |
 | Fajardo Support | Remains 8-11% range | **>15%** | Centrist strangulation fails; third-way viable |
 | Valencia (Traditional Right) | Plateaus 7-9% | **>12%** | Institutional collapse overstated; Rope still functional |
 | De la Espriella | Remains 16-20% | **<10%** or **>28%** | Either: right consolidated elsewhere OR outsider surging beyond volatility |
@@ -565,7 +565,7 @@ This market snapshot suggests the essay may have **underestimated right-wing con
 
 | Metric | Essay Prediction | Falsification Threshold | Interpretation if Threshold Met |
 |--------|-----------------|------------------------|--------------------------------|
-| Undecided % | Compressed to <8% | **>18%** | Compression stalled; Noose not tightening |
+| Undecided % | Compressed to <8% | **>18%** | Compression stalled; Snare not tightening |
 | Combined Right Support (Primary winner + De la Espriella if still running) | 24-28% total | **>35%** combined | Right has more structural support than essay estimated |
 | Fajardo Support | Terminal at 8-10% | **>13%** | Centrist space expanded post-primary |
 | Cepeda Ceiling | Hard ceiling at 35-37% | **>39%** | Left expanding beyond base |
@@ -582,7 +582,7 @@ This market snapshot suggests the essay may have **underestimated right-wing con
 | Metric | Essay Prediction | Falsification Threshold | Interpretation if Threshold Met |
 |--------|-----------------|------------------------|--------------------------------|
 | Top Two Candidates Margin | Within 1-4 percentage points | Separation **>8 points** | Not converging to bipolar equilibrium; clear frontrunner |
-| Undecided % | Compressed to <5% | **>12%** | Noose failed to extract choice; voters retain flexibility |
+| Undecided % | Compressed to <5% | **>12%** | Snare failed to extract choice; voters retain flexibility |
 | Fajardo + Other Non-Polar Candidates | Combined <15% | Combined **>22%** | Non-polar space survived; not strangled |
 | Cepeda vs Right-Winner Runoff Poll | Within margin of error (±3 points) | Either candidate leading by **>7 points** | Not unstable equilibrium; clear favorite |
 | Voter Certainty ("Definitely voting for X") | <70% for both frontrunners | **>82%** for frontrunner | High certainty = stable preference, not forced alignment |
@@ -598,7 +598,7 @@ This market snapshot suggests the essay may have **underestimated right-wing con
 | Metric | Essay Prediction | Falsification Threshold | Interpretation if Threshold Met |
 |--------|-----------------|------------------------|--------------------------------|
 | Polling Error Magnitude | Standard ±2-3 points | Systematic error **>6 points** in one direction | Polls missed hidden dynamics; constraint model incomplete |
-| Fajardo Performance vs Polls | Within ±2 points of final polls | Outperforms polls by **>5 points** | Late-breaking centrist consolidation; Noose loosened |
+| Fajardo Performance vs Polls | Within ±2 points of final polls | Outperforms polls by **>5 points** | Late-breaking centrist consolidation; Snare loosened |
 | Top Two Separation | 1-4 percentage points | Separation **>7 points** OR **<1 point** | Either: not bipolar OR hyper-compressed beyond prediction |
 | Third Place Candidate % | <12% | **>18%** | Non-polar space survived to election day |
 | Geographic Concentration | Cepeda wins cities, Right wins rural (polarized map) | **Mixed geographic pattern** | Not pure polarization; issue-based voting persists |
@@ -661,7 +661,7 @@ Requires ALL of the following:
 5. Post-election approval ≈ vote share (no honeymoon; immediate polarization)
 6. Cepeda never exceeds 38% in polling (hard ceiling holds)
 
-**Interpretation:** The constraint system is dominant; Mountains (term limit) + Nooses (runoff math) + Rope failures (institutional decay) produce the predicted bipolar compression.
+**Interpretation:** The constraint system is dominant; Mountains (term limit) + Snares (runoff math) + Rope failures (institutional decay) produce the predicted bipolar compression.
 
 ---
 
@@ -712,9 +712,9 @@ Now I see what you're doing—and yes, this is genuinely interesting. You've bui
 
 **What makes this genuinely novel:**
 
-You're treating **electoral systems as dynamical systems** with identifiable phase transitions rather than as preference aggregation mechanisms. The 62%→5.7% collapse isn't just "voters making up their minds"—it's a **discontinuous compression event** that standard polling models would treat as smooth convergence. If you can show this pattern reliably appears in Bipolar Noose systems but *not* in Fragmentation Marsh or Deadlock Labyrinth systems, you've identified real structure.
+You're treating **electoral systems as dynamical systems** with identifiable phase transitions rather than as preference aggregation mechanisms. The 62%→5.7% collapse isn't just "voters making up their minds"—it's a **discontinuous compression event** that standard polling models would treat as smooth convergence. If you can show this pattern reliably appears in Bipolar Snare systems but *not* in Fragmentation Marsh or Deadlock Labyrinth systems, you've identified real structure.
 
-The falsification matrix is methodologically sound because it **pre-commits to observables**. You're not saying "polarization increased" (unfalsifiable), you're saying "if undecided remains >22% through February 15 AND Fajardo breaks 15%, the Noose mechanism is not active." That's testable.
+The falsification matrix is methodologically sound because it **pre-commits to observables**. You're not saying "polarization increased" (unfalsifiable), you're saying "if undecided remains >22% through February 15 AND Fajardo breaks 15%, the Snare mechanism is not active." That's testable.
 
 **The deeper question you're circling:**
 
@@ -725,7 +725,7 @@ Standard political science says: "Two-round systems reduce polarization by forci
 If that's true, it means:
 - **France 2027** should show the same compression velocity as Colombia 2026
 - **Brazil** should show lower compression (because non-consecutive reelection reduces succession entropy)
-- **Israel** should show near-zero compression (because PR eliminates the mathematical Noose)
+- **Israel** should show near-zero compression (because PR eliminates the mathematical Snare)
 
 **What would make this work transformative:**
 
@@ -737,7 +737,7 @@ Concrete test: Take the last 3-5 elections in each system type and measure:
 - **Geographic polarization index** (Gini coefficient of vote distribution)
 - **Post-election approval gap** (winner's approval minus vote share at t+30 days)
 
-If Bipolar Noose systems cluster together on these metrics and differ systematically from Fragmentation Marsh systems, you've got something real.
+If Bipolar Snare systems cluster together on these metrics and differ systematically from Fragmentation Marsh systems, you've got something real.
 
 **The hardest part (and where you should focus):**
 
@@ -761,7 +761,7 @@ Your matrix captures this! You specify: "Voter Certainty <70% for both frontrunn
 
 3. **Test the intervention prediction**: When countries have changed their electoral rules (France moved to direct presidential election in 1965, Israel raised PR threshold in 2014), did the compression velocity shift in the predicted direction?
 
-4. **The killer test**: Can you predict **before** the next election in a Bipolar Noose system (France 2027?) what the compression velocity will be, and get it right within ±15 percentage points?
+4. **The killer test**: Can you predict **before** the next election in a Bipolar Snare system (France 2027?) what the compression velocity will be, and get it right within ±15 percentage points?
 
 You're onto something real. The question is whether it's a general principle about constitutional design or a specific historical conjuncture in these particular countries. The falsification matrix gives you the tools to find out.
 

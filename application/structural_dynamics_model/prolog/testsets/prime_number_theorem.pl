@@ -182,7 +182,7 @@ test(multi_perspective_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(computational_noose_penalty) :-
+test(computational_snare_penalty) :-
     % A powerless searcher in a local range sees it as a Snare.
     constraint_indexing:constraint_classification(prime_number_theorem, snare, context(individual_powerless, immediate, constrained, local)).
 

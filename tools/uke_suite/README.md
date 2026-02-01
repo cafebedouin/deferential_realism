@@ -466,7 +466,7 @@ UKE_P: Fast triage (90%) → CHANGE/ACCEPT/EXIT
 ```
 System/Policy
      ↓
-UKE_ORG: Constraint decomposition → Mountain/Rope/Noose/Scaffold
+UKE_ORG: Constraint decomposition → Mountain/Rope/Snare/Scaffold
      ↓
 [If viable reform path] → Generate recommendations
      ↓
@@ -709,7 +709,7 @@ This would give Claude clear routing logic without needing to search the full pr
 - **BLOCKED** - Structural constraints prevent implementation
 - **FANTASY** - Ignores fundamental constraints
 
-**Constraint ontology:** Mountain/Rope/Noose/Scaffold
+**Constraint ontology:** Mountain/Rope/Snare/Scaffold
 
 ---
 
@@ -739,7 +739,7 @@ This would give Claude clear routing logic without needing to search the full pr
 **Key innovation:** Implementation tracking - Map vs. Territory gap analysis
 
 **Mechanisms:**
-- Hybrid Decomposition (separate Mountain/Rope/Noose/Scaffold layers)
+- Hybrid Decomposition (separate Mountain/Rope/Snare/Scaffold layers)
 - Language vs. Function Audit (detect ontological fraud)
 - Domain-weighted diagnostics (Economic/Legal, Rights/Text, Tech, Physical)
 
@@ -993,7 +993,7 @@ System/Demand
      ↓
 Classification (UKE_ORG or UKE_P)
      ↓
-Mountain/Rope/Noose/Scaffold
+Mountain/Rope/Snare/Scaffold
      ↓
 Intervention Strategy or Triage
      ↓

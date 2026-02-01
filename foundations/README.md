@@ -22,7 +22,7 @@ This directory contains the core philosophical architecture of Deferential Reali
 
 The central document for understanding DR's approach to knowledge:
 - Intellectual lineage (Stoicism → Existentialism → Pragmatism → Systems Theory)
-- Four-category constraint ontology (Mountain, Rope, Noose, Scaffold)
+- Four-category constraint ontology (Mountain, Rope, Snare, Scaffold)
 - Classification methodology:
   - Six-Test Battery
   - Hybrid Decomposition Protocol
@@ -34,7 +34,7 @@ The central document for understanding DR's approach to knowledge:
 
 The formal machinery for reasoning about constraints:
 - Index structure: `I ::= (Power, Time, Exit, Scope)`
-- Modal operators: `■C[I]` (Mountain), `⊞C[I]` (Rope), `⊠C[I]` (Noose), `⊞⊠C[I]` (Tangled)
+- Modal operators: `■C[I]` (Mountain), `⊞C[I]` (Rope), `⊠C[I]` (Snare), `⊞⊠C[I]` (Tangled)
 - Inference rules and transformations
 - Contradiction resolution through indexing
 - Executable specification in Prolog
@@ -53,7 +53,7 @@ What exists and how constraints define identity:
 
 What to do once you've classified constraints:
 - **Acceptance** - Mapping Mountains accurately
-- **Resistance** - Cutting Nooses strategically
+- **Resistance** - Cutting Snares strategically
 - **Creation** - Building functional Ropes
 - **Conservation** - Preserving finite energy
 - Reality-alignment as honesty-in-practice
@@ -89,7 +89,7 @@ Constraints foster creativity
 
 - Applies the constraint ontology to formal power structures like constitutions and electoral systems.
 - Analyzes how the same institution (e.g., an electoral system) can function as a Rope (coordination) for one political actor and a Snare (extraction) for another, depending on their power.
-- Identifies and describes common "electoral topologies" like the "Bipolar Noose" and "Deadlock Labyrinth" that create predictable political dynamics.
+- Identifies and describes common "electoral topologies" like the "Bipolar Snare" and "Deadlock Labyrinth" that create predictable political dynamics.
 - Examines structural paradoxes in governance, such as the tension between a democratic mandate and constitutional limits.
 
 ## Relationship to Other Components

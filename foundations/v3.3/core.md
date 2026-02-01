@@ -170,7 +170,7 @@ Every constraint falls into one of four fundamental types, distinguished by how 
 
 **Test:** Enforcement cost > benefit? Function obsolete? Persists through inertia not power?
 
-**Examples:** Fax requirements (email era), obsolete reporting, dead letter laws, legacy systems, zombie committees.
+**Examples:** Fax requirements (email era), obsolete reporting, dead letter laws, legacy systems, piton committees.
 
 **Response:** Bypass or eliminate. No coordination value, no political resistance needed—just administrative cleanup.
 

@@ -42,11 +42,11 @@ constraint_metric(boundary_geodesic_friction, snap_back_potential, 0.40).
 constraint_metric(boundary_geodesic_friction, extractiveness, 0.52).
 
 % Snare: Dimensional Generalization Limit
-constraint_claim(higher_dimensional_extension_noose, snare).
-constraint_metric(higher_dimensional_extension_noose, intensity, 0.95).
-constraint_metric(higher_dimensional_extension_noose, suppression_requirement, 0.88).
-constraint_metric(higher_dimensional_extension_noose, snap_back_potential, 0.90).
-constraint_metric(higher_dimensional_extension_noose, extractiveness, 0.92).
+constraint_claim(higher_dimensional_extension_snare, snare).
+constraint_metric(higher_dimensional_extension_snare, intensity, 0.95).
+constraint_metric(higher_dimensional_extension_snare, suppression_requirement, 0.88).
+constraint_metric(higher_dimensional_extension_snare, snap_back_potential, 0.90).
+constraint_metric(higher_dimensional_extension_snare, extractiveness, 0.92).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, accept_the_topological_invariance_as_universal_constant).
@@ -59,7 +59,7 @@ recommendation(rec_03, reform_boundary_calculations_via_triangulation_approximat
 affects_constraint(rec_03, boundary_geodesic_friction).
 
 recommendation(rec_04, cut_dimensional_limitations_via_local_global_bridge_scaffold).
-affects_constraint(rec_04, higher_dimensional_extension_noose).
+affects_constraint(rec_04, higher_dimensional_extension_snare).
 
 veto_actor(non_orientable_surface_edge_case).
 veto_exposed(non_orientable_surface_edge_case, rec_04).

@@ -182,7 +182,7 @@ test(multi_perspective_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(non_constructive_noose_penalty) :-
+test(non_constructive_snare_penalty) :-
     % The searcher (moderate power, constrained) suffers the gap between theory and praxis.
     constraint_indexing:constraint_classification(brouwer_fixed_point, snare, context(individual_moderate, immediate, constrained, local)).
 

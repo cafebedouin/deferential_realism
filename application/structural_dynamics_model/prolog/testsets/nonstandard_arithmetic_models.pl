@@ -193,7 +193,7 @@ test(multi_perspective_variance) :-
     constraint_indexing:constraint_classification(nonstandard_arithmetic_models, Type2, context(institutional, biographical, mobile, global)),
     Type1 \= Type2.
 
-test(computability_noose_insight) :-
+test(computability_snare_insight) :-
     % Demonstrates that the Snare classification is triggered by Tennenbaum's impact
     constraint_indexing:constraint_classification(nonstandard_arithmetic_models, snare, context(individual_moderate, civilizational, constrained, global)).
 

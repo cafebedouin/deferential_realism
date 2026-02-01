@@ -20,7 +20,7 @@ The output should be a **single .pl file** that can be loaded into the system an
 ### The Three Types
 - **Mountain**: Unchangeable, zero degrees of freedom (appears as natural law)
 - **Rope**: Functional coordination mechanism (beneficial, changeable)
-- **Noose**: Extractive/coercive mechanism (asymmetric, enforced)
+- **Snare**: Extractive/coercive mechanism (asymmetric, enforced)
 
 ### The Four Indices (WHO/WHEN/WHERE/HOW)
 
@@ -138,7 +138,7 @@ constraint_victim([constraint_id], [agent_or_class]).
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   PERSPECTIVE 1: [AGENT/ROLE] - [Mountain/Rope/Noose]
+   PERSPECTIVE 1: [AGENT/ROLE] - [Mountain/Rope/Snare]
    --------------------------------------------------------------------------
    
    WHO: [Power level - explain the agent's position]
@@ -157,7 +157,7 @@ constraint_victim([constraint_id], [agent_or_class]).
 
 constraint_indexing:constraint_classification(
     [constraint_id],
-    [mountain/rope/noose],
+    [mountain/rope/snare],
     context(
         agent_power([power_level]),
         time_horizon([timeframe]),
@@ -267,7 +267,7 @@ omega_variable(
         "[How to resolve]"                 % e.g., "Measure conversion patterns"
     ),
     impact(
-        "[What changes if resolved]"       % e.g., "If Mountain: X. If Noose: Y."
+        "[What changes if resolved]"       % e.g., "If Mountain: X. If Snare: Y."
     ),
     confidence_without_resolution([low/medium/high])  % How much does this matter?
 ).
@@ -285,9 +285,9 @@ omega_variable(
  * 
  * omega_variable(
  *     undecided_bloc_classification,
- *     "Do undecided voters experience forced-choice (Mountain) or strategic arbitrage (Noose)?",
+ *     "Do undecided voters experience forced-choice (Mountain) or strategic arbitrage (Snare)?",
  *     resolution_mechanism("Track whether undecided→decided follows binary compression or coalition-building"),
- *     impact("If Mountain: tight A/B bounds. If Noose: C/D/E get +3-5% each."),
+ *     impact("If Mountain: tight A/B bounds. If Snare: C/D/E get +3-5% each."),
  *     confidence_without_resolution(medium)  % Can forecast with this uncertainty
  * ).
  */
@@ -303,7 +303,7 @@ omega_variable(
  * VIABLE ALTERNATIVES
  * 
  * Were there alternatives to this constraint that were suppressed?
- * (This helps distinguish Rope from Noose)
+ * (This helps distinguish Rope from Snare)
  * 
  * ALTERNATIVE 1: [Name/Description]
  *    Viability: [Why it's a real alternative]
@@ -314,7 +314,7 @@ omega_variable(
  * 
  * CONCLUSION:
  * [How alternatives affect classification - presence of suppressed
- * alternatives often shifts Rope → Noose]
+ * alternatives often shifts Rope → Snare]
  */
 
 /* ==========================================================================
@@ -343,7 +343,7 @@ omega_variable(
 
 The pedagogical value is showing how the SAME constraint appears differently.
 - If all perspectives agree → classification is too simple
-- Aim for Mountain/Rope/Noose spread when possible
+- Aim for Mountain/Rope/Snare spread when possible
 - Explain WHY each perspective differs
 
 ### 2. Base Scores on Evidence
@@ -413,7 +413,7 @@ Section 6 is YOUR reasoning process as the model:
 
 ### 7. Check for Alternatives
 
-If alternatives exist but are suppressed → often Noose not Rope
+If alternatives exist but are suppressed → often Snare not Rope
 If alternatives don't exist → might be Mountain or Rope
 If alternatives are encouraged → definitely Rope
 
@@ -469,7 +469,7 @@ education (for clergy), and social structure.
 **OUTPUT:**
 [Generate complete .pl file following template above, with:
 - 3+ perspectives (peasant/bishop/historian)
-- Different classifications (mountain/rope/noose)
+- Different classifications (mountain/rope/snare)
 - Evidence-based scores
 - Tests demonstrating power/time effects
 - Your reasoning in comments

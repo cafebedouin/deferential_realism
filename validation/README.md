@@ -50,7 +50,7 @@ The primary validation document covering:
 ## Interpretation Guide
 
 ### What "0% Collision Rate" Means
-When two observers classify the same constraint differently (e.g., one says "Mountain," another says "Noose"), this is NOT a contradiction if they're using different indices. The framework resolves apparent disagreements by making indices explicit.
+When two observers classify the same constraint differently (e.g., one says "Mountain," another says "Snare"), this is NOT a contradiction if they're using different indices. The framework resolves apparent disagreements by making indices explicit.
 
 ### What "99.1% High Variance" Means
 Almost all constraints classify differently depending on the observer's power, time horizon, exit options, and scope. This validates the core claim that constraint-type is index-relative.

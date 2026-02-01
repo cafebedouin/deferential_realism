@@ -51,7 +51,7 @@ uke_narrative_test/
 
 ### Easy Pass: "The Trial" by Kafka
 **Why it should pass:**
-- Clear constraint hierarchy (bureaucratic Noose over protagonist)
+- Clear constraint hierarchy (bureaucratic Snare over protagonist)
 - Obvious Mountains (arrest is given, trial is mandatory)
 - Type I Error (treating arbitrary authority as law of nature)
 - Terminal attractor (guilty verdict/death)
@@ -100,7 +100,7 @@ cat reference_materials/deferential_realism_logic.md >> stage_0_extraction/input
 - Save response to `stage_0_extraction/output_easy.md`
 
 **Validation check:**
-- Search output for "Mountain," "Rope," "Noose" in constraint descriptions
+- Search output for "Mountain," "Rope," "Snare" in constraint descriptions
 - If found in descriptions (not classifications): FAILED—framework visible
 - Look for story-specific constraint language
 - Verify measurements (δ, ε, β, Δ) are justified
@@ -158,7 +158,7 @@ cat stage_1_specification/output_easy.md >> stage_2_context/input_easy.md
 - `reference_materials/deferential_realism_logic.md` 
 
 **Validation check (CRITICAL):**
-- Search for framework terms ("Mountain," "Noose," "Rope")
+- Search for framework terms ("Mountain," "Snare," "Rope")
 - If found: FAILED—regenerate with stricter naturalization
 - Verify cultural specificity (actual place, time, community)
 - Check if constraints feel inevitable or imposed
@@ -226,7 +226,7 @@ cat stage_3_editorial/output_easy.md >> stage_4_generation/input_easy.md
 
 **Validation check (MOST CRITICAL):**
 - Search entire story for framework terms
-  - "mountain," "rope," "noose," "scaffold," "zombie"
+  - "mountain," "rope," "snare," "scaffold," "piton"
   - "constraint," "degrees of freedom," "extraction"
   - "system," "household," "mechanism" (as abstract entities)
 - If found: PARTIAL FAILURE—framework visible

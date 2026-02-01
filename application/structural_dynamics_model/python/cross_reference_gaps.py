@@ -19,7 +19,7 @@ def cross_reference():
 
             missing = []
             if not gap_data["rope"]: missing.append("ROPE")
-            if not gap_data["noose"]: missing.append("NOOSE")
+            if not gap_data["snare"]: missing.append("NOOSE")
             if not gap_data["mountain"]: missing.append("MTN")
 
             print(f"{domain:<40} | {len(missing):<5} | {repair_count:<8} | {intensity} (Missing: {', '.join(missing)})")

@@ -193,8 +193,8 @@ test(multi_perspective_variance) :-
 
 test(extraction_intensity) :-
     % Demonstrates that the Snare classification highlights the 0.9 extraction of wealth.
-    ContextNoose = context(individual_moderate, immediate, constrained, regional),
-    constraint_indexing:extractiveness_for_agent(gamblers_ruin_stochastic_extinction, ContextNoose, Score),
+    ContextSnare = context(individual_moderate, immediate, constrained, regional),
+    constraint_indexing:extractiveness_for_agent(gamblers_ruin_stochastic_extinction, ContextSnare, Score),
     Score >= 0.8.
 
 test(natural_emergence) :-

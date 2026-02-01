@@ -85,7 +85,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Analysis for Constraint: education_unbundling_implementation
     - Individual (Powerless): none
-    - Institutional (Manager): noose
+    - Institutional (Manager): snare
 
 [OMEGA GENERATION FROM PERSPECTIVAL GAPS]
   No perspectival gaps detected requiring Ω tracking.

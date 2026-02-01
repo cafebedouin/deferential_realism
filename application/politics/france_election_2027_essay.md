@@ -33,7 +33,7 @@ Substrate evidence: Identical electoral topology to Colombia (two-round 50%+) + 
 
 [CONTENT]
 
-# France 2027: The Presidential Noose
+# France 2027: The Presidential Snare
 ## Why Macron's Successor Faces Colombia's Compression Trap
 
 ## The Illusion of Choice
@@ -46,7 +46,7 @@ The proof is in the structural comparison. France 2027 has the identical elector
 
 But France has a complication Colombia lacks: the Piton. The cordon sanitaire is a coordination mechanism that has atrophied into theater. Polling shows 53% of French voters no longer view it as effective. 60% are willing to vote tactically against the far-left (La France Insoumise) rather than following the traditional "block the far-right" script. Two-thirds of voters now favor alliances between Les Républicains and Rassemblement National. The mechanism exists as institutional performance—party leaders still invoke the "republican duty" to block extremism—but it no longer coordinates voter behavior.
 
-This creates a peculiar dynamic: France 2027 will produce compression through the same mathematical Noose as Colombia 2026, but the theatrical existence of the cordon sanitaire will make it look like the compression is a "cultural shift" rather than a structural inevitability.
+This creates a peculiar dynamic: France 2027 will produce compression through the same mathematical Snare as Colombia 2026, but the theatrical existence of the cordon sanitaire will make it look like the compression is a "cultural shift" rather than a structural inevitability.
 
 ## The Mountain: Macron Cannot Run
 
@@ -62,15 +62,15 @@ Compare the succession structures:
 
 Macron's approval rating compounds the problem. At 11% (Verian) to 16% (latest polls), he shares the record for France's least popular president since the 1970s. For comparison, Petro's approval is 35.7%—still unpopular, but high enough that his coalition remains viable. Macron's 11% means Renaissance doesn't inherit a mixed legacy; it inherits toxicity. Any "continuity candidate" is tethered to an anchor.
 
-The Mountain thus creates maximum succession entropy: no institutional vehicle survives the leader's exit, and the leader's exit is mandatory. This is the precondition for compression. When power becomes vacant with no institutional mechanism for orderly transfer, the vacuum incentivizes the Noose.
+The Mountain thus creates maximum succession entropy: no institutional vehicle survives the leader's exit, and the leader's exit is mandatory. This is the precondition for compression. When power becomes vacant with no institutional mechanism for orderly transfer, the vacuum incentivizes the Snare.
 
-## The Noose: Two-Round Mathematics
+## The Snare: Two-Round Mathematics
 
 France uses the same two-round system as Colombia: you need either 50%+ in the first round (which hasn't happened in a French presidential election since direct voting began in 1965) or you advance to the runoff and build a winning coalition. The mathematics punish the middle.
 
-Here's how the Noose operates: If the first round produces Bardella at 36% and Philippe at 21%, every centrist voter who "wastes" their vote on Philippe potentially enables Bardella's victory. The two-round structure transforms individual vote choices into collective strategic calculations. Voters face escalating pressure to align with one of two viable poles because splitting the opposition guarantees the other pole's victory.
+Here's how the Snare operates: If the first round produces Bardella at 36% and Philippe at 21%, every centrist voter who "wastes" their vote on Philippe potentially enables Bardella's victory. The two-round structure transforms individual vote choices into collective strategic calculations. Voters face escalating pressure to align with one of two viable poles because splitting the opposition guarantees the other pole's victory.
 
-The Noose functions through **bipolar compression**: as the field consolidates, voters face increasing costs for maintaining non-polar positions. Supporting a third-place candidate at 18% becomes increasingly expensive as the race tightens, because your vote could be the margin that allows your least-preferred candidate to win.
+The Snare functions through **bipolar compression**: as the field consolidates, voters face increasing costs for maintaining non-polar positions. Supporting a third-place candidate at 18% becomes increasingly expensive as the race tightens, because your vote could be the margin that allows your least-preferred candidate to win.
 
 Standard forecasting models treat this compression as "voters making up their minds" or "late-breaking momentum." But the Colombia data shows it's structural. The compression happens at predictable velocity determined by the electoral mathematics, not by campaign quality or candidate appeal.
 
@@ -117,7 +117,7 @@ The Odoxa polling is diagnostic: Bardella wins all tested runoff scenarios. Agai
 
 Compare to Colombia's Abelardo de la Espriella: outsider lawyer, political amateur, polls at 28% despite zero institutional base. De la Espriella fills the slot that consolidates anti-Petro sentiment because the traditional right (Centro Democrático) has fragmented into 3-5% candidates. Bardella is France's de la Espriella: he commands the right not because voters love him, but because the system needs someone, anyone, to occupy that position, and he happens to be standing there with enough visibility and RN infrastructure to hold it.
 
-Forecasters who model this as "Bardella's ceiling" miss the constraint logic. His ceiling is whatever the Noose compression delivers to the anti-left pole. If he fragments (unlikely given RN's organizational advantage), someone else captures that 35-37%. If he consolidates—as the Noose predicts he will—he could reach 42-45% in the first round not through persuasion but through mathematical inevitability.
+Forecasters who model this as "Bardella's ceiling" miss the constraint logic. His ceiling is whatever the Snare compression delivers to the anti-left pole. If he fragments (unlikely given RN's organizational advantage), someone else captures that 35-37%. If he consolidates—as the Snare predicts he will—he could reach 42-45% in the first round not through persuasion but through mathematical inevitability.
 
 ## The Piton: The Cordon Sanitaire as Theater
 
@@ -145,7 +145,7 @@ The pattern is clear: the cordon sanitaire persists as institutional performance
 
 Why does this matter for France 2027's trajectory?
 
-**Because the Piton will mask the Noose.** Institutional elites will explain Bardella's rising support through "cordon failure" or "far-right normalization" or "cultural polarization." They'll hold press conferences about "defending republican values" and forming "unity campaigns." This theatrical performance will make it *look* like compression is a political failure rather than mathematical inevitability.
+**Because the Piton will mask the Snare.** Institutional elites will explain Bardella's rising support through "cordon failure" or "far-right normalization" or "cultural polarization." They'll hold press conferences about "defending republican values" and forming "unity campaigns." This theatrical performance will make it *look* like compression is a political failure rather than mathematical inevitability.
 
 But the substrate reveals: compression is happening because the two-round 50%+ system mathematically punishes vote-splitting, not because the cordon sanitaire failed. The cordon was already a Piton before this cycle began. Its atrophy is a symptom of compression, not a cause.
 
@@ -164,19 +164,19 @@ That 27% is structurally similar to Colombia's Cepeda at 26-32%. It represents t
 
 **The Strategic Trap:**
 
-If the left runs two separate candidates (Glucksmann and Mélenchon), the Noose strangles both. Split at 14-13%, neither reaches the runoff. Bardella and a centrist (Philippe) advance, forcing left voters into a choice between right and center-right in the second round.
+If the left runs two separate candidates (Glucksmann and Mélenchon), the Snare strangles both. Split at 14-13%, neither reaches the runoff. Bardella and a centrist (Philippe) advance, forcing left voters into a choice between right and center-right in the second round.
 
 If the left consolidates early behind one candidate, they face the "who leads" battle. Mélenchon has higher name recognition but lower runoff viability (Odoxa shows him losing to Bardella 26-74%). Glucksmann has better runoff numbers (42-58% against Bardella) but can't mobilize the LFI base. Any consolidation requires one faction to accept subordination.
 
-If the left waits until late to consolidate (hoping momentum resolves the question), the Noose is already tightening. By the time one candidate clearly leads, undecided voters are already compressing toward the poles, and the left's 27% becomes 24-25% as some voters defect to "viable" options.
+If the left waits until late to consolidate (hoping momentum resolves the question), the Snare is already tightening. By the time one candidate clearly leads, undecided voters are already compressing toward the poles, and the left's 27% becomes 24-25% as some voters defect to "viable" options.
 
 **The Runoff Viability Paradox:**
 
 The left candidate who can win the runoff (moderate socialist who attracts center voters) is not the candidate who can win the left primary (needs LFI support). The candidate who can win the left primary (Mélenchon-aligned radical) repels the center voters needed for runoff victory.
 
-This is the Rope-to-Noose transformation the model predicts. The left's coordination mechanism (coalition-building) gets captured by the binary structure. Running on "anti-fascist unity" motivates the base but repels moderates. Running on "responsible governance" attracts moderates but demoralizes the base.
+This is the Rope-to-Snare transformation the model predicts. The left's coordination mechanism (coalition-building) gets captured by the binary structure. Running on "anti-fascist unity" motivates the base but repels moderates. Running on "responsible governance" attracts moderates but demoralizes the base.
 
-The substrate shows they're aware of the trap: the primary excludes LFI deliberately, attempting to nominate someone with runoff viability. But this guarantees Mélenchon runs independently (he already announced his candidacy), splitting the left. The Noose extracts viable positions by forcing the choice between base mobilization and runoff coalition.
+The substrate shows they're aware of the trap: the primary excludes LFI deliberately, attempting to nominate someone with runoff viability. But this guarantees Mélenchon runs independently (he already announced his candidacy), splitting the left. The Snare extracts viable positions by forcing the choice between base mobilization and runoff coalition.
 
 ## What Standard Forecasting Will Miss
 
@@ -206,7 +206,7 @@ Assuming Paris validates the framework, track these for France 2027:
 
 **1. Centrist Consolidation Velocity**
 
-Philippe, Attal, Darmanin currently polling separately at 18-21%, 19%, 18%. How fast do they collapse into a single candidacy? In a Full Noose system, consolidation should begin by summer 2026 (one year before first round) as it becomes clear the division guarantees elimination.
+Philippe, Attal, Darmanin currently polling separately at 18-21%, 19%, 18%. How fast do they collapse into a single candidacy? In a Full Snare system, consolidation should begin by summer 2026 (one year before first round) as it becomes clear the division guarantees elimination.
 
 **Prediction:** By September 2026, at least two of the three will have withdrawn or merged support. By January 2027, only one centrist remains viable. If all three are still running by February 2027, the topology model is falsified—something is blocking natural compression.
 
@@ -246,7 +246,7 @@ We now have two elections with identical constraint topology happening within mo
 
 **Colombia 2026:**
 - Mountain: One-term limit (strict)
-- Noose: Two-round 50%+ system
+- Snare: Two-round 50%+ system
 - Centrist candidate: Fajardo at 9.4% (terminal)
 - Compression velocity: 5.6 points/week (final 10 weeks)
 - Left candidate: Cepeda at 26-32% (hard ceiling)
@@ -255,7 +255,7 @@ We now have two elections with identical constraint topology happening within mo
 
 **France 2027:**
 - Mountain: Two-term limit (moderate)
-- Noose: Two-round 50%+ system
+- Snare: Two-round 50%+ system
 - Centrist candidate: Philippe at 21% (predicted terminal: 24-28%)
 - Compression velocity: Predicted 4-5 points/week (final month)
 - Left candidate: Glucksmann/Mélenchon at 27% combined (predicted ceiling: 22-26%)
@@ -323,11 +323,11 @@ The difference is profound:
 
 France 2027 will reveal which view is correct. If Bardella wins 42% in the first round and 53% in the runoff, institutional elites will explain it through "far-right normalization" or "cordon sanitaire failure" or "populist appeal." They'll propose cultural solutions: better civic education, anti-extremism campaigns, unity candidates.
 
-But if the compression velocity matches Colombia's 4-5 points/week despite different culture, the simpler explanation is correct: **the two-round 50%+ system mathematically forces binary convergence**. The cordon sanitaire is a Piton—theater that masks the Noose. Voters aren't becoming more polarized; they're being compressed into polar positions by electoral mathematics.
+But if the compression velocity matches Colombia's 4-5 points/week despite different culture, the simpler explanation is correct: **the two-round 50%+ system mathematically forces binary convergence**. The cordon sanitaire is a Piton—theater that masks the Snare. Voters aren't becoming more polarized; they're being compressed into polar positions by electoral mathematics.
 
 The policy implication is radical: if you want to escape polarization, don't run unity campaigns. **Reform the electoral system.** Move to approval voting, proportional representation, or—as Paris 2026 tests—reduce majority bonuses to break winner-takes-most dynamics.
 
-France won't reform before 2027. The presidential system is constitutional bedrock. But the natural experiment will reveal whether reform is even possible, or whether two-round structures are Nooses that cannot be weakened.
+France won't reform before 2027. The presidential system is constitutional bedrock. But the natural experiment will reveal whether reform is even possible, or whether two-round structures are Snares that cannot be weakened.
 
 ## Baseline Prediction (January 2026)
 
@@ -357,7 +357,7 @@ This essay establishes the current state of thinking, not a final forecast. As o
 
 **Falsification Triggers:**
 - If compression velocity stays below 2 points/week through March 2027, topology model is wrong
-- If centrist candidate holds above 30% through February 2027, Noose isn't suppressing middle
+- If centrist candidate holds above 30% through February 2027, Snare isn't suppressing middle
 - If cordon sanitaire produces 70%+ anti-Bardella consolidation in runoff polls, Piton assessment is wrong
 - If winner achieves >55% in runoff with broad geographic coalition, not unstable equilibrium
 
@@ -385,7 +385,7 @@ Placement: Final section
 
 Simplicity Gate: PASS - Substrate reveals genuine structural equivalence (France and Colombia have identical two-round 50%+ topology), not invented similarity
 
-Counterfactual Test: PASS - Claims falsifiable by: (a) compression velocity staying below 2 points/week through March 2027 (disproves topology determinism), (b) centrist holding above 30% (disproves Noose suppression), (c) cordon sanitaire producing 70%+ consolidation (disproves Piton status), (d) winner achieving >55% runoff with broad coalition (disproves unstable equilibrium)
+Counterfactual Test: PASS - Claims falsifiable by: (a) compression velocity staying below 2 points/week through March 2027 (disproves topology determinism), (b) centrist holding above 30% (disproves Snare suppression), (c) cordon sanitaire producing 70%+ consolidation (disproves Piton status), (d) winner achieving >55% runoff with broad coalition (disproves unstable equilibrium)
 
 Substrate Fidelity: PASS - All major claims trace to: Identical electoral topology (two-round 50%+), polling data (Bardella 35-37%, centrists fragmented 18-21%), cordon sanitaire polling (53% view as ineffective, 60% willing to block LFI), Le Pen conviction status (barred unless appeal succeeds), Macron approval (11-16%)
 

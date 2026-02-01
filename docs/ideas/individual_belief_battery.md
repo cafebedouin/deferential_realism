@@ -306,7 +306,7 @@ constraint_classification(life_meaning, rope, individual_context) :-
     constructed_meaning(possible_and_valuable).
 ```
 
-**From Gita analysis:** Cosmic purpose claims can be Nooses (subjugation via "divine duty"). Constructed meaning preserves autonomy.
+**From Gita analysis:** Cosmic purpose claims can be Snares (subjugation via "divine duty"). Constructed meaning preserves autonomy.
 
 ---
 
@@ -345,7 +345,7 @@ constraint_classification(suffering_meaning, rope, individual_context) :-
     optional_interpretation(suffering, meaning_making, sometimes_useful).
 ```
 
-**Critical:** Rejecting "suffering is meaningful" as Mountain blocks Nooses (religious/political systems that demand suffering "for your own good").
+**Critical:** Rejecting "suffering is meaningful" as Mountain blocks Snares (religious/political systems that demand suffering "for your own good").
 
 ---
 
@@ -382,7 +382,7 @@ constraint_classification(relationship_meaning, rope, individual_context) :-
     % No inherent meaning in blood/ceremony
     % But: investment creates meaning
     % And: some relationships are Ropes (functional)
-    % Others are Nooses (extractive, claimed as Mountain)
+    % Others are Snares (extractive, claimed as Mountain)
     relationship_value(constructed_through_investment).
 ```
 
@@ -418,12 +418,12 @@ constraint_classification(relationship_meaning, rope, individual_context) :-
 constraint_classification(family_obligations, rope, individual_context) :-
     % Not natural Mountain
     % Often Rope (functional reciprocity)
-    % Sometimes Noose (extractive using "family" claim)
+    % Sometimes Snare (extractive using "family" claim)
     % Individual can distinguish and choose
-    evaluate_each_relationship(rope_or_noose).
+    evaluate_each_relationship(rope_or_snare).
 ```
 
-**Critical:** Rejecting family-as-Mountain blocks common Noose (abusive families claiming natural authority).
+**Critical:** Rejecting family-as-Mountain blocks common Snare (abusive families claiming natural authority).
 
 ---
 
@@ -459,10 +459,10 @@ constraint_classification(family_obligations, rope, individual_context) :-
 constraint_classification(work_value, varies_by_job, individual_context) :-
     % Work is not inherently valuable
     % Some work is Rope (chosen, meaningful, well-compensated)
-    % Some work is Noose (extractive, necessary for survival)
+    % Some work is Snare (extractive, necessary for survival)
     % Individual should distinguish
-    % And: work-as-Mountain claim is Noose (prevents questioning exploitation)
-    evaluate_each_job(rope_or_noose).
+    % And: work-as-Mountain claim is Snare (prevents questioning exploitation)
+    evaluate_each_job(rope_or_snare).
 ```
 
 ---
@@ -497,7 +497,7 @@ constraint_classification(work_value, varies_by_job, individual_context) :-
 constraint_classification(wealth_status_pursuit, rope, individual_context) :-
     % Not inherent good (not Mountain)
     % Is Rope: tools for securing autonomy
-    % But: wealth-as-Mountain is Noose (keeps you on treadmill)
+    % But: wealth-as-Mountain is Snare (keeps you on treadmill)
     % Sufficient wealth = freedom from extraction
     % Excess wealth = diminishing returns
     pursue_until(autonomy_secured, then_stop).
@@ -575,7 +575,7 @@ constraint_classification(belief_norms, context_dependent, individual_context) :
 ```prolog
 constraint_classification(moral_intuitions, rope, individual_context) :-
     % Intuitions are real (not Mountain - they vary)
-    % But useful (not Noose - they guide behavior)
+    % But useful (not Snare - they guide behavior)
     % Rope: valuable heuristics that require maintenance
     % Should examine, not blindly trust
     % But shouldn't ignore either
@@ -592,7 +592,7 @@ constraint_classification(moral_intuitions, rope, individual_context) :-
 **Scaffold-downgrade:**
 - **Accept as Mountain:** Current hierarchy/systems are inevitable
 - **Downgrade to Rope:** Current systems are constructed but functional
-- **Further downgrade to Noose:** Current systems are extractive
+- **Further downgrade to Snare:** Current systems are extractive
 
 **Cascade with Mountain:**
 - Cannot be changed
@@ -604,7 +604,7 @@ constraint_classification(moral_intuitions, rope, individual_context) :-
 - Some coordination value
 - Work within system for change
 
-**Cascade with Noose:**
+**Cascade with Snare:**
 - Should be cut/exited
 - No legitimacy
 - Resistance necessary
@@ -617,7 +617,7 @@ constraint_classification(moral_intuitions, rope, individual_context) :-
 ```prolog
 constraint_classification(current_power_structures, varies, individual_context) :-
     % Some aspects are Ropes (useful coordination)
-    % Some aspects are Nooses (extractive)
+    % Some aspects are Snares (extractive)
     % Key skill: distinguishing them
     % DR framework itself is Scaffold for making this distinction
     apply_dr_framework(system_by_system_analysis).
@@ -654,7 +654,7 @@ constraint_classification(current_power_structures, varies, individual_context) 
 
 **Provisional answer:**
 ```prolog
-constraint_classification(participation_in_nooses, rope, individual_context) :-
+constraint_classification(participation_in_snares, rope, individual_context) :-
     % Given moderate power, need resources:
     % Pure exit often impossible (need money/healthcare/etc)
     % Pure participation enables extraction
@@ -740,7 +740,7 @@ constraint_classification(mortality_acceptance, mountain, individual_context) :-
     % Given T5 (death is final) as Mountain
     % Cannot choose to believe otherwise for utility
     % Because: high-stakes, power-related domain
-    % Afterlife beliefs enable Nooses (die for the cause, sacrifice now for later)
+    % Afterlife beliefs enable Snares (die for the cause, sacrifice now for later)
     % Must accept Mountain: death is final
     % Urgency follows necessarily
     accepts(death_finality),
@@ -842,7 +842,7 @@ constraint_classification(future_planning, rope, individual_context) :-
 **Cascade with Mountain (naive trust):**
 - Get exploited repeatedly
 - "But I was trying to be good"
-- Enables Nooses (trusting authorities who extract)
+- Enables Snares (trusting authorities who extract)
 
 **Cascade with Rope (conditional trust):**
 - Start with trust, verify
@@ -878,7 +878,7 @@ constraint_classification(trust_default, rope, individual_context) :-
 **Scaffold-downgrade:**
 - **Accept as Mountain:** People are inherently good (Rousseau)
 - **Downgrade to Rope:** People are mixed (situational)
-- **Further downgrade to Noose:** People are inherently bad (Hobbes)
+- **Further downgrade to Snare:** People are inherently bad (Hobbes)
 
 **Cascade with inherent good:**
 - Bad behavior is due to systems
@@ -901,7 +901,7 @@ constraint_classification(trust_default, rope, individual_context) :-
 ```prolog
 constraint_classification(human_nature, rope, individual_context) :-
     % People are situational (empirical observation)
-    % Not inherently good or bad (both are Nooses - used to justify systems)
+    % Not inherently good or bad (both are Snares - used to justify systems)
     % "Inherently good" → naive trust → exploitation
     % "Inherently bad" → authoritarianism → control
     % Rope: people respond to incentives and culture
@@ -909,7 +909,7 @@ constraint_classification(human_nature, rope, individual_context) :-
     situational_with_mixed_motives.
 ```
 
-**Critical:** Both "inherently good" and "inherently bad" are Nooses when claimed as Mountains. The first enables exploitation ("just trust everyone"), the second enables authoritarianism ("must control everyone").
+**Critical:** Both "inherently good" and "inherently bad" are Snares when claimed as Mountains. The first enables exploitation ("just trust everyone"), the second enables authoritarianism ("must control everyone").
 
 ---
 
@@ -965,7 +965,7 @@ constraint_classification(defector_punishment, rope, individual_context) :-
 **Cascade with must conform:**
 - Suppress authentic preferences
 - Avoid all conflict
-- May enable Nooses (unjust norms)
+- May enable Snares (unjust norms)
 
 **Cascade with strategic:**
 - Conform on low-stakes
@@ -984,15 +984,15 @@ constraint_classification(defector_punishment, rope, individual_context) :-
 constraint_classification(social_conformity, rope, individual_context) :-
     % Conformity is Rope (coordination mechanism)
     % Some norms are functional Ropes (traffic rules, manners)
-    % Some norms are Nooses (oppressive expectations)
+    % Some norms are Snares (oppressive expectations)
     % Strategy: 
     %   - Conform to functional Ropes (low cost, high benefit)
-    %   - Resist Nooses (high cost, worth it)
+    %   - Resist Snares (high cost, worth it)
     %   - Build power to resist effectively
-    distinguish_ropes_from_nooses_then_choose.
+    distinguish_ropes_from_snares_then_choose.
 ```
 
-**This is DR framework applied recursively:** Use DR to distinguish which social norms are Ropes vs. Nooses, then decide whether to conform or resist.
+**This is DR framework applied recursively:** Use DR to distinguish which social norms are Ropes vs. Snares, then decide whether to conform or resist.
 
 ---
 
@@ -1069,11 +1069,11 @@ constraint_classification(cultural_religious_identity, rope, individual_context)
     % Identity is not innate (not Mountain)
     % Is constructed through participation (Rope)
     % Strategy:
-    %   - Evaluate: Is this identity Rope or Noose FOR ME?
+    %   - Evaluate: Is this identity Rope or Snare FOR ME?
     %   - If Rope (community, meaning, low cost): maintain
-    %   - If Noose (extraction, oppression): exit or reform
+    %   - If Snare (extraction, oppression): exit or reform
     %   - Can construct hybrid identity
-    % Common Noose: "You must maintain this or betray ancestors"
+    % Common Snare: "You must maintain this or betray ancestors"
     evaluate_then_choose.
 ```
 
@@ -1116,7 +1116,7 @@ constraint_classification(consumption_level, rope, individual_context) :-
     %   - Secure autonomy threshold (healthcare, housing, food security)
     %   - Beyond that: diminishing returns on happiness
     %   - Maximize autonomy, not consumption
-    %   - "More is better" is Noose (keeps you working/consuming)
+    %   - "More is better" is Snare (keeps you working/consuming)
     autonomy_threshold_then_choose.
 ```
 
@@ -1194,7 +1194,7 @@ constraint_classification(giving_obligation, rope, individual_context) :-
     %   - Threshold based on values and resources
     %   - Prefer systemic solutions (policy) over individual charity
     %   - Effective altruism is one valid Rope, not only option
-    % "Must give everything" can be Noose (guilt-based extraction)
+    % "Must give everything" can be Snare (guilt-based extraction)
     choose_level_based_on_values_and_coordination_benefits.
 ```
 
@@ -1245,7 +1245,7 @@ constraint_classification(specialization, rope, individual_context) :-
 **Scaffold-downgrade:**
 - **Accept as Mountain:** Must get degree (credential requirement)
 - **Downgrade to Rope:** Education is tool (valuable but not necessary)
-- **Further downgrade:** Education is Noose (debt trap)
+- **Further downgrade:** Education is Snare (debt trap)
 
 **Cascade with Mountain:**
 - Everyone needs college
@@ -1258,7 +1258,7 @@ constraint_classification(specialization, rope, individual_context) :-
 - Education valuable but can be self-directed
 - Choose based on field and ROI
 
-**Cascade with Noose:**
+**Cascade with Snare:**
 - Never worth it
 - Student debt is trap
 - Avoid all formal education
@@ -1270,7 +1270,7 @@ constraint_classification(specialization, rope, individual_context) :-
 constraint_classification(formal_education, rope, individual_context) :-
     % Not Mountain (not necessary for all paths)
     % Is Rope for credentialed fields (medicine, law, academia)
-    % May be Noose if:
+    % May be Snare if:
     %   - High debt for low-return field
     %   - Credential not actually required but socially expected
     % Strategy:
@@ -1315,7 +1315,7 @@ constraint_classification(curiosity_vs_practicality, rope, individual_context) :
     %   - If scarce: must prioritize practicality (survival)
     %   - If sufficient: can follow curiosity
     %   - Optimal: find intersection (paid for curious work)
-    % Pure practicality is Noose if suppresses all interest
+    % Pure practicality is Snare if suppresses all interest
     % Pure curiosity is privilege requiring independent means
     seek_intersection_or_secure_base_then_explore.
 ```
@@ -1330,7 +1330,7 @@ constraint_classification(curiosity_vs_practicality, rope, individual_context) :
 **Scaffold-downgrade:**
 - **Accept as Mountain:** Voting is civic duty (must participate)
 - **Downgrade to Rope:** Voting is strategic choice
-- **Further downgrade:** Electoral politics is Noose (don't participate)
+- **Further downgrade:** Electoral politics is Snare (don't participate)
 
 **Cascade with Mountain (duty):**
 - Must vote even if low impact
@@ -1343,7 +1343,7 @@ constraint_classification(curiosity_vs_practicality, rope, individual_context) :
 - Consider: down-ballot vs. presidential
 - Participate strategically
 
-**Cascade with Noose (exit):**
+**Cascade with Snare (exit):**
 - System is rigged
 - Participation legitimizes
 - Focus on mutual aid/alternatives
@@ -1360,7 +1360,7 @@ constraint_classification(electoral_participation, rope, individual_context) :-
     %   - Don't vote if: safe district, no time, better uses of energy
     %   - Electoral politics is one lever among many
     %   - Don't mistake voting for only political action
-    % "Duty to vote" can be Noose (guilts you into legitimizing bad system)
+    % "Duty to vote" can be Snare (guilts you into legitimizing bad system)
     strategic_participation_not_sole_strategy.
 ```
 
@@ -1403,7 +1403,7 @@ constraint_classification(direct_action, rope, individual_context) :-
     %   - Focus on mutual aid (builds dual power)
     %   - Don't guilt-trip self into burnout
     %   - Sustainable > heroic
-    % "Must constantly organize" can become Noose (activist burnout)
+    % "Must constantly organize" can become Snare (activist burnout)
     engage_sustainably_where_effective.
 ```
 
@@ -1481,7 +1481,7 @@ constraint_classification(optimism_pessimism, rope, individual_context) :-
     % Not about what's "true" (future is uncertain)
     % About what motivates effective action
     % Strategy:
-    %   - Pessimism about systems (clear-eyed about Nooses)
+    %   - Pessimism about systems (clear-eyed about Snares)
     %   - Optimism about agency (can build alternatives)
     %   - Gramsci: "Pessimism of intellect, optimism of will"
     % Pure optimism ignores threats
@@ -1524,7 +1524,7 @@ constraint_classification(cosmic_meaning, rope, individual_context) :-
     % Strategy:
     %   - Create meaning through projects, relationships, values
     %   - Accept that meaning is constructed (doesn't reduce value)
-    %   - Reject cosmic meaning claims as Nooses (divine duty, etc.)
+    %   - Reject cosmic meaning claims as Snares (divine duty, etc.)
     % From Gita analysis: cosmic purpose claims enable subjugation
     % Constructed meaning preserves autonomy
     construct_meaning_reject_cosmic_claims.
@@ -1569,8 +1569,8 @@ constraint_classification(having_children, rope, individual_context) :-
     %   - Evaluate resources and capacity
     %   - Consider world conditions (climate, etc.)
     %   - Either choice is valid
-    % "You must have children" is Noose (reproductive coercion)
-    % "You must not have children" is also Noose (forced ideology)
+    % "You must have children" is Snare (reproductive coercion)
+    % "You must not have children" is also Snare (forced ideology)
     genuine_choice_with_full_evaluation.
 ```
 
@@ -1605,7 +1605,7 @@ constraint_classification(time_allocation, rope, individual_context) :-
     %   - This is the only life
     %   - Time spent is time gone forever
     %   - Choose based on values, not shoulds
-    % "Maximize productivity" is Noose (capitalism internalized)
+    % "Maximize productivity" is Snare (capitalism internalized)
     % Strategy:
     %   - Secure resources (work)
     %   - Invest in relationships (connection)
@@ -1655,7 +1655,7 @@ constraint_classification(time_allocation, rope, individual_context) :-
 
 **SECTION 6: POWER & SYSTEMS (2)**
 - P12: Power structures natural → **Varies** (apply DR framework)
-- P13: Participation in Nooses → **Rope** (strategic with resistance)
+- P13: Participation in Snares → **Rope** (strategic with resistance)
 
 **SECTION 7: DEATH & RISK (3)**
 - P14: Mortality acceptance → **Mountain** (death is final, from T5)
@@ -1668,7 +1668,7 @@ constraint_classification(time_allocation, rope, individual_context) :-
 - P19: Punish defectors → **Rope** (enforce cooperation)
 
 **SECTION 9: IDENTITY & EXPRESSION (3)**
-- P20: Social conformity → **Rope** (distinguish Ropes from Nooses)
+- P20: Social conformity → **Rope** (distinguish Ropes from Snares)
 - P21: Gender/sexual identity → **Mountain + Rope** (core + expression)
 - P22: Cultural/religious identity → **Rope** (evaluate then choose)
 
@@ -1716,7 +1716,7 @@ constraint_classification(time_allocation, rope, individual_context) :-
 
 Key insight: Most of what feels like "deep metaphysical truth" is actually **pragmatic frame choice**.
 
-### What's Noose (When Claimed as Mountain)?
+### What's Snare (When Claimed as Mountain)?
 
 **Common patterns:**
 - Eternal soul (enables subjugation)
@@ -1743,9 +1743,9 @@ Key insight: Most of what feels like "deep metaphysical truth" is actually **pra
 2. Meaning (construct it, don't discover it)
 3. Identity (build it, don't find it)
 4. Relationships (invest to create value)
-5. All social structures (distinguish Rope from Noose, participate strategically)
+5. All social structures (distinguish Rope from Snare, participate strategically)
 
-**You reject as Noose (when claimed as Mountain):**
+**You reject as Snare (when claimed as Mountain):**
 1. Eternal soul / afterlife
 2. Cosmic purpose
 3. Natural hierarchy

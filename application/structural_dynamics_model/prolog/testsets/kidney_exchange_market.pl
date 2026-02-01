@@ -183,7 +183,7 @@ test(multi_perspective_variance) :-
  *    - Biologist (Mountain): Immutable biological laws.
  * 
  * 3. CORE INSIGHT: The kidney exchange market is a triumph of market design,
- *    turning biological 'Mountains' (incompatibility) and legal 'Nooses' (prohibition
+ *    turning biological 'Mountains' (incompatibility) and legal 'Snares' (prohibition
  *    of sales) into a life-saving 'Rope' through intelligent coordination.
  */
 

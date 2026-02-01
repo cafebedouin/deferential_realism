@@ -38,16 +38,16 @@ constraint_metric(congruence_calculation_friction, extractiveness, 0.52).
 constraint_metric(congruence_calculation_friction, suppression_requirement, 0.35).
 
 % Snare (Boxed C): ext >= 0.66, supp >= 0.46
-constraint_claim(non_abelian_simplicity_noose, snare).
-constraint_metric(non_abelian_simplicity_noose, extractiveness, 0.94).
-constraint_metric(non_abelian_simplicity_noose, suppression_requirement, 0.88).
+constraint_claim(non_abelian_simplicity_snare, snare).
+constraint_metric(non_abelian_simplicity_snare, extractiveness, 0.94).
+constraint_metric(non_abelian_simplicity_snare, suppression_requirement, 0.88).
 
 % 4. RECOMMENDATIONS & VETO POINTS
 recommendation(rec_03, 'Reform counting logic via the group_action_scaffold.').
 affects_constraint(rec_03, congruence_calculation_friction).
 
 recommendation(rec_04, 'Cut classification deadlocks via the coset_decomposition_scaffold.').
-affects_constraint(rec_04, non_abelian_simplicity_noose).
+affects_constraint(rec_04, non_abelian_simplicity_snare).
 
 veto_actor(infinite_group_specialist).
 veto_exposed(infinite_group_specialist, rec_03).

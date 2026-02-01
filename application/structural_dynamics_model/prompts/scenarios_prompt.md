@@ -16,7 +16,7 @@ Copy and paste the following into your Gemini command-line instance.
 > 3. **The REPL Loop:**
 > * **Read:** Parse a single file (e.g., `26usc469.pl`) into a temporary JSON-like internal structure.
 > * **Eval:** Run a trial "repair" to standardize it to the `constraint_data/2` fact format to resolve "Weak Import" overrides.
-> * **Print:** Generate a "Refinement Manifest" showing any classification changes (e.g., Tangled Rope  Noose).
+> * **Print:** Generate a "Refinement Manifest" showing any classification changes (e.g., Tangled Rope  Snare).
 > 
 > 
 > 4. **Safety Protocol:** You are forbidden from overwriting files without presenting a "Dry Run" report and receiving explicit confirmation.
@@ -30,7 +30,7 @@ Copy and paste the following into your Gemini command-line instance.
 ### Why this approach works from a Process POV
 
 * **Isolates the Logic:** By forcing the AI to work through the REPL, it will immediately encounter the "Weak Import" warnings you saw earlier. It will have to solve that by adjusting the `module` declarations, proving the fix works on one file before touching the other 399.
-* **Preserves Narrative "Omegas":** Because you’ve asked for a "Refinement Manifest," the AI must explain *why* it is changing a value. If a score of 0.72 forces a reclassification to Noose, the AI will alert you, allowing you to manually intervene if the narrative context (the "Omega") suggests it should stay a Tangled Rope.
+* **Preserves Narrative "Omegas":** Because you’ve asked for a "Refinement Manifest," the AI must explain *why* it is changing a value. If a score of 0.72 forces a reclassification to Snare, the AI will alert you, allowing you to manually intervene if the narrative context (the "Omega") suggests it should stay a Tangled Rope.
 * **Enables Isomorphism Discovery:** Once the first few files are standardized, you can ask the AI to write a temporary Prolog predicate in the REPL to search for "Structural Twins" across those files, providing immediate proof of the system's power.
 
 Would you like me to help you refine the **Standardized Data Schema** so that when the AI starts the refactor, it has a perfect target format to aim for?
@@ -92,7 +92,7 @@ evaluate_clash(Agent1, Agent2, Constraint) :-
 To ensure the AI understands the "Two-Directory" requirement, add this specific instruction to the previous prompt:
 
 > **Extended Mandate:** > 1. **Data Separation:** You must treat the `/corpus/` directory as read-only for data extraction and write refactored constraints there.
-> 2. **Scenario Creation:** Create a new `/scenarios/` directory. For every high-extraction constraint (), generate a corresponding scenario file that pits an `individual_powerless` agent against an `institutional` agent to test the "Masked Noose" alert.
+> 2. **Scenario Creation:** Create a new `/scenarios/` directory. For every high-extraction constraint (), generate a corresponding scenario file that pits an `individual_powerless` agent against an `institutional` agent to test the "Masked Snare" alert.
 > 3. **Validation:** After creating a scenario, run `drl_engine:evaluate_tension/3` to ensure the math accurately triggers the generated  (Omega variable) identified in the logic framework.
 
 ---
@@ -100,7 +100,7 @@ To ensure the AI understands the "Two-Directory" requirement, add this specific 
 ### 4. What This Achieves (Process POV)
 
 * **Non-Destructive Exploration:** You can create 50 different "Tax Clash" scenarios without ever changing the core data for `26usc469.pl`.
-* **Multi-Constraint Support:** In your new files, you can activate *multiple* constraints. For example, you could see how a "Property Tax" **Noose** and an "Income Tax" **Tangled Rope** interact to crush a specific agent's mobility.
+* **Multi-Constraint Support:** In your new files, you can activate *multiple* constraints. For example, you could see how a "Property Tax" **Snare** and an "Income Tax" **Tangled Rope** interact to crush a specific agent's mobility.
 * **Isomorphism at Scale:** Since the engine is centralized, you can ask: *"Find all scenarios in the /scenarios/ folder where the total tension (Kappa) exceeds 0.9."*
 
 Would you like me to generate a script that automatically populates the `/scenarios/` folder with these "First-Contact" clash files based on your existing data?

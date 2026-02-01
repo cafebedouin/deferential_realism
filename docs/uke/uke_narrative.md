@@ -42,7 +42,7 @@ UKE_Narrative translates narrative constraint logic across genres and settings w
 
 **Key Insight:** The Metamorphosis is not "about" a man becoming a bug. It's about:
 - A Mountain (biological irreversibility) × 
-- A Noose (extractive family dynamics) × 
+- A Snare (extractive family dynamics) × 
 - A Type I Error (treating changeable as unchangeable) →
 - Terminal equilibrium (energy depletion)
 
@@ -64,7 +64,7 @@ This constraint structure can be re-instantiated in:
 - ε(C) > 0 (energy needed)
 - Mutual benefit, multiple alternatives
 
-**Nooses (⊠C)**: Negative degrees of freedom, extraction
+**Snares (⊠C)**: Negative degrees of freedom, extraction
 - Asymmetric benefit (few gain, many lose)
 - Rapid snapback when enforcement stops
 - Artificial restriction
@@ -74,22 +74,22 @@ This constraint structure can be re-instantiated in:
 - Transitional function
 - Automatic termination
 
-**Zombies (⊟C)**: Function-loss persistence
+**Pitons (⊟C)**: Function-loss persistence
 - Once served purpose
 - No longer functional
 - Continues anyway
 
 ### Error Types
 
-**Type I (False Mountain)**: Treating Rope/Noose as Mountain
+**Type I (False Mountain)**: Treating Rope/Snare as Mountain
 - Consequence: Wasted agency, unnecessary suffering
 - Pattern: "This is just how things are"
 
-**Type II (Mountain Denial)**: Treating Mountain as Rope/Noose
+**Type II (Mountain Denial)**: Treating Mountain as Rope/Snare
 - Consequence: Energy depletion fighting unchangeable
 - Pattern: "I can fix this if I try harder"
 
-**Type III (Misclassified Extraction)**: Treating Noose as Rope
+**Type III (Misclassified Extraction)**: Treating Snare as Rope
 - Consequence: Participation in own exploitation
 - Pattern: "This benefits everyone"
 
@@ -142,9 +142,9 @@ the Deferential Realism framework.
 TASK: Identify each major constraint in the story and classify it:
 - Mountains (■C): What cannot change?
 - Ropes (⊞C): What requires coordination?
-- Nooses (⊠C): What extracts asymmetrically?
+- Snares (⊠C): What extracts asymmetrically?
 - Scaffolds (⊡C): What has built-in expiration?
-- Zombies (⊟C): What persists without function?
+- Pitons (⊟C): What persists without function?
 
 For each constraint, measure:
 - δ(C, Δt): Decay rate
@@ -155,14 +155,14 @@ For each constraint, measure:
 IDENTIFY ERROR PATTERNS:
 - Type I: False Mountains (treating changeable as unchangeable)
 - Type II: Mountain Denial (fighting the unchangeable)
-- Type III: Noose Misclassification (treating extraction as cooperation)
+- Type III: Snare Misclassification (treating extraction as cooperation)
 
 ---
 
 CRITICAL CONSTRAINT DESCRIPTION REQUIREMENT:
 
 DO NOT use framework terminology in your descriptions. The constraint 
-types (Mountain, Rope, Noose) are for YOUR classification only. When 
+types (Mountain, Rope, Snare) are for YOUR classification only. When 
 describing what the constraint IS, use story-specific language.
 
 GOOD CONSTRAINT EXTRACTION EXAMPLES:
@@ -173,9 +173,9 @@ Example 1 (from a story about an oracle and a paradox):
 - NOT: "The Mountain of the oracle's limitation"
 - Why good: Describes the actual logical property, not the framework label
 
-- Classification: Noose (⊠C)
+- Classification: Snare (⊠C)
 - Description: "Self-referential trap where prediction affects outcome"
-- NOT: "The Noose of the trick box"
+- NOT: "The Snare of the trick box"
 - Why good: Explains the mechanism in story terms
 
 - Error Type: Type I (False Mountain)
@@ -184,21 +184,21 @@ Example 1 (from a story about an oracle and a paradox):
 - Why good: Shows what the error IS, not what framework category it violates
 
 Example 2 (from a bureaucratic nightmare story):
-- Classification: Noose (⊠C)
+- Classification: Snare (⊠C)
 - Description: "Legal system where participation in defense validates the accusation"
-- NOT: "The Noose of the trial system"
+- NOT: "The Snare of the trial system"
 - Why good: Captures the extractive logic without framework terminology
 
 - Classification: Type I Error
 - Description: "Protagonist treats arbitrary authority as necessary law"
-- NOT: "Protagonist thinks the Noose is a Mountain"
+- NOT: "Protagonist thinks the Snare is a Mountain"
 - Why good: Describes the actual misrecognition, not the category mistake
 
 BAD CONSTRAINT EXTRACTION EXAMPLES:
 
 Example 1 (framework leakage):
 - "The biological Mountain of transformation"
-- "The Noose of family debt"
+- "The Snare of family debt"
 - "The protagonist commits Type I Error regarding the Mountain"
 Problem: Framework terminology visible in descriptions
 
@@ -212,7 +212,7 @@ Problem: Describing events, not the constraint physics that generates events
 
 OUTPUT FORMAT:
 For each constraint:
-1. Classification (Mountain/Rope/Noose/Scaffold/Zombie) with framework label
+1. Classification (Mountain/Rope/Snare/Scaffold/Piton) with framework label
 2. Description in STORY-SPECIFIC terms (no framework terminology)
 3. Measurements (δ, ε, β, Δ) with brief justification
 4. Transformation rules (how constraints evolve over narrative time)
@@ -232,7 +232,7 @@ CRITICAL REMINDERS:
 - Do NOT name the story or reference its title
 - Do NOT use framework labels in constraint descriptions
 - Focus on constraint dynamics that could exist in completely different settings
-- If you find yourself using "Mountain," "Rope," or "Noose" in descriptions, 
+- If you find yourself using "Mountain," "Rope," or "Snare" in descriptions, 
   you're leaking the framework—rephrase in story-world terms
 - The goal: someone reading your analysis should understand the logical 
   structure without knowing what story you're analyzing
@@ -247,19 +247,19 @@ C1 (Mountain): [Physical irreversibility]
 - Cross-world invariant
 - Forces: [specific mechanics]
 
-C2 (Noose): [Social extraction mechanism]
+C2 (Snare): [Social extraction mechanism]
 - δ(C2) → ∞ when enforcement stops
 - ε(C2) = high (constant maintenance)
 - β(C2, agent_A) > 0, β(C2, agent_B) < 0
 - Asymmetry: [extraction pattern]
 
 C3 (Rope): [Family coordination]
-- Initially Rope, transforms to Zombie
+- Initially Rope, transforms to Piton
 - δ(C3) > 0, requires maintenance
 - Transformation trigger: [event]
 
 ERROR STRUCTURE:
-- Type I: [agent] treats C2 (Noose) as C1 (Mountain)
+- Type I: [agent] treats C2 (Snare) as C1 (Mountain)
 - Type II: [agent] treats C1 (Mountain) as negotiable
 - Consequence chain: [energy depletion mechanics]
 
@@ -366,7 +366,7 @@ Example 1 - Physical Irreversibility (Mountain):
   - No cultural grounding
   - Screams "this is representing something else"
 
-Example 2 - Extractive System (Noose):
+Example 2 - Extractive System (Snare):
 ✓ GOOD: "Company script system: wages paid in tokens only redeemable 
   at company store, with inflated prices ensuring perpetual debt"
   - Documented historical practice (1920s American company towns)
@@ -374,7 +374,7 @@ Example 2 - Extractive System (Noose):
   - Snapback visible (miss work = eviction, no savings = trapped)
   - Feels like economic history, not theory
 
-✗ BAD: "The Noose of economic extraction"
+✗ BAD: "The Snare of economic extraction"
   - Framework term in description
   - Abstract rather than concrete
   - No specific mechanism described
@@ -414,7 +414,7 @@ Example 4 - Error Naturalization:
   says take the night shift or get out, you take it. What choice? 
   The company owns the houses, owns the store, owns the doctor. 
   Might as well own the air you breathe."
-  - Type I Error (treating Noose as Mountain) embedded in dialogue
+  - Type I Error (treating Snare as Mountain) embedded in dialogue
   - Culturally specific misrecognition (elder authority)
   - No one says "I'm making a categorization error"
   - Feels like how people actually think
@@ -519,7 +519,7 @@ OUTPUT REQUIREMENTS:
 CRITICAL QUALITY CHECKS:
 
 Before submitting, verify:
-□ Have I used ANY framework terminology? (Mountain, Rope, Noose, etc.)
+□ Have I used ANY framework terminology? (Mountain, Rope, Snare, etc.)
   - If yes: REVISE. These should not appear.
   
 □ Could this setting exist in a history book or ethnography?
@@ -544,19 +544,19 @@ in this world without ever thinking about constraint classification.
 - 2247, Europa ice mining colony
 - Two minority populations (Vietnamese + Somali) from Earth population redistribution
 - Mountain = radiation exposure from habitat breach (biological irreversibility)
-- Noose = oxygen debt from colonial contract system
+- Snare = oxygen debt from colonial contract system
 - Linguistic: Việt-Somali-English creole with space adaptation terms
 
 **Example B: Tang Dynasty (Cultural/Historical)**
 - 740 CE, Chang'an bureaucracy
 - Mountain = examination system failure (social death, no re-entry)
-- Noose = patronage network extraction
+- Snare = patronage network extraction
 - Linguistic: Classical Chinese literary style, direct translation preserving chengyu
 
 **Example C: 1920s Chicago (Noir Realism)**
 - Immigrant meatpacking district
 - Mountain = industrial accident with permanent disability
-- Noose = company script/company housing debt trap
+- Snare = company script/company housing debt trap
 - Linguistic: Polish-English code-switching with period slang
 
 ---
@@ -611,7 +611,7 @@ Example 1 - Physical Irreversibility (Mountain):
   - No cultural grounding
   - Screams "this is representing something else"
 
-Example 2 - Extractive System (Noose):
+Example 2 - Extractive System (Snare):
 ✓ GOOD: "Company script system: wages paid in tokens only redeemable 
   at company store, with inflated prices ensuring perpetual debt"
   - Documented historical practice (1920s American company towns)
@@ -619,7 +619,7 @@ Example 2 - Extractive System (Noose):
   - Snapback visible (miss work = eviction, no savings = trapped)
   - Feels like economic history, not theory
 
-✗ BAD: "The Noose of economic extraction"
+✗ BAD: "The Snare of economic extraction"
   - Framework term in description
   - Abstract rather than concrete
   - No specific mechanism described
@@ -659,7 +659,7 @@ Example 4 - Error Naturalization:
   says take the night shift or get out, you take it. What choice? 
   The company owns the houses, owns the store, owns the doctor. 
   Might as well own the air you breathe."
-  - Type I Error (treating Noose as Mountain) embedded in dialogue
+  - Type I Error (treating Snare as Mountain) embedded in dialogue
   - Culturally specific misrecognition (elder authority)
   - No one says "I'm making a categorization error"
   - Feels like how people actually think
@@ -709,7 +709,7 @@ USE Omegas for worldbuilding details that make constraints concrete and specific
 
 ✗ BAD Omega usage (these were resolved in Stage 1):
 - Ω_C: Is radiation exposure actually a Mountain constraint?
-- Ω_E: Does the Noose snap back when enforcement stops?
+- Ω_E: Does the Snare snap back when enforcement stops?
 - Ω_P: Should the story have a terminal attractor?
 
 ---
@@ -878,7 +878,7 @@ RESOLVED:
 Question: Did Chicago meatpacking plants use company script in 1923?
 Resolution: No—direct practice ended ~1910, BUT company housing with 
   inflated rent served same function. Using housing debt instead.
-Impact: Changed Noose mechanism from script to housing trap
+Impact: Changed Snare mechanism from script to housing trap
 
 Ω_C02: Polish immigration wave specification  
 Question: Which wave—1880s economic or 1900s political refugees?
@@ -918,7 +918,7 @@ Section 2 (Omega Log) is documentation showing your reasoning process.
 CRITICAL QUALITY CHECKS:
 
 Before submitting Section 1 (Context Description), verify:
-□ Have I used ANY framework terminology? (Mountain, Rope, Noose, etc.)
+□ Have I used ANY framework terminology? (Mountain, Rope, Snare, etc.)
   - If yes: REVISE. These should not appear.
   
 □ Have I used ANY Omega notation in the context description?
@@ -1021,7 +1021,7 @@ Impact: Characters navigate system strategically, not passively accepting or fut
 Ω_E05: Oxygen debt mechanics
 Question: How would oxygen allocation actually work technically?
 Resolution: Biometric tracking (wristband monitors O2 usage), allocated by shift productivity
-Impact: Makes Noose mechanism concrete—literally breathing on borrowed time
+Impact: Makes Snare mechanism concrete—literally breathing on borrowed time
 
 Ω_C06: "Surface" terminology
 Question: Would they say "surface," "downside," "ice," or something else?
@@ -1206,13 +1206,13 @@ EDITORIAL DECISIONS: [Stage 3 output]
 
 CRITICAL REQUIREMENT: FRAMEWORK INVISIBILITY
 
-The constraint framework (Mountains, Ropes, Nooses, Scaffolds, Zombies) 
+The constraint framework (Mountains, Ropes, Snares, Scaffolds, Pitons) 
 is a STRUCTURAL TOOL. It should be completely invisible in your story.
 
 FRAMEWORK VISIBILITY CHECK:
 
 If you notice yourself wanting to:
-□ Use the words "mountain," "rope," "noose," "scaffold," "zombie"
+□ Use the words "mountain," "rope," "snare," "scaffold," "piton"
 □ Say "the system," "the household," "the mechanism" as abstract entities
 □ Use phrases like "constraint," "degrees of freedom," "extraction"
 □ Explain the constraint logic to the reader
@@ -1268,8 +1268,8 @@ groceries. They stopped asking if he wanted anything."
 - Concrete details (notes, counter, shifts)
 - Relationship shift shown through behavior
 
-✗ BAD: "The Noose of debt extraction tightened."
-- Framework term ("Noose")
+✗ BAD: "The Snare of debt extraction tightened."
+- Framework term ("Snare")
 - Metaphorical rather than literal
 
 ✓ GOOD: "The company store charged $8 for a bag of flour. Back in 
@@ -1419,7 +1419,7 @@ Instead:
 
 FINAL CHECKLIST BEFORE SUBMITTING:
 
-□ Search your text for: "mountain," "rope," "noose," "scaffold," "zombie"
+□ Search your text for: "mountain," "rope," "snare," "scaffold," "piton"
   - If found: REVISE all instances
   
 □ Search for: "constraint," "system," "mechanism," "protocol," "extraction"
@@ -1523,7 +1523,7 @@ Enhanced version with deepened phenomenology.
 
 **Constraint Violation:**
 - Mountains become negotiable
-- Nooses benefit everyone
+- Snares benefit everyone
 - Energy depletion doesn't matter
 - Terminal attractor avoided
 
@@ -1674,9 +1674,9 @@ The story needs deep naturalization to prove constraint logic is real.
 
 **Metamorphosis:**
 - Mountain: Biological transformation (irreversible)
-- Noose: Family extraction (debt to employer)
-- Rope → Zombie: Family coordination breaks down
-- Type I Error: Gregor treats Noose as Mountain
+- Snare: Family extraction (debt to employer)
+- Rope → Piton: Family coordination breaks down
+- Type I Error: Gregor treats Snare as Mountain
 - Type II Error: Gregor treats Mountain as temporary
 
 **Could Become:**
@@ -1686,8 +1686,8 @@ The story needs deep naturalization to prove constraint logic is real.
 
 **1984:**
 - Mountain: Surveillance state infrastructure
-- Noose: Party extraction of labor/loyalty
-- Rope → Noose: Love relationship captured by system
+- Snare: Party extraction of labor/loyalty
+- Rope → Snare: Love relationship captured by system
 - Type I Error: Winston treats Party power as negotiable
 - Type III Error: Winston treats O'Brien's approach as Rope
 

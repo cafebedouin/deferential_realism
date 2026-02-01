@@ -226,7 +226,7 @@ CONSTRAINT-MAP:
   pharma acquisitions from China). Functional Rope solving Western 
   innovation stagnation.
 
-- ➰ Noose (Narrative): "Great Power Rivalry" frame creates artificial 
+- ➰ Snare (Narrative): "Great Power Rivalry" frame creates artificial 
   zero-sum thinking, obscuring actual flow of goods/IP.
 
 FEASIBILITY: VIABLE (analytically)
@@ -255,7 +255,7 @@ Veto Points:
 **Constraint analysis:**
 ```
 CONSTRAINT-MAP:
-- ➰ Noose (Geopolitical Friction): FDA non-reciprocity, export 
+- ➰ Snare (Geopolitical Friction): FDA non-reciprocity, export 
   controls, Biosecure Act. These are artificial constraints imposed by 
   power structures that threaten the economic Rope.
 
@@ -263,7 +263,7 @@ CONSTRAINT-MAP:
   inspect/validate Chinese data without political interference, or to 
   replace Chinese volume if link is cut.
 
-- 🧟 Zombie Rope: Pre-2020 globalization assumptions (trade brings 
+- 🧟 Piton: Pre-2020 globalization assumptions (trade brings 
   peace) are dead, yet supply chain relies on them.
 
 FEASIBILITY: BLOCKED / ASPIRATIONAL

@@ -32,7 +32,7 @@ constraint_metric(arithmetical_provability_limit, extractiveness, 0.99).
 constraint_metric(arithmetical_provability_limit, suppression_requirement, 0.46).
 
 % 4. RECOMMENDATIONS & VETO POINTS
-recommendation(rec_01, cut_noose_via_epsilon_zero_scaffold).
+recommendation(rec_01, cut_snare_via_epsilon_zero_scaffold).
 affects_constraint(rec_01, arithmetical_provability_limit).
 
 recommendation(rec_02, adopt_transfinite_induction).

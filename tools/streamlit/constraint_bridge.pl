@@ -24,7 +24,7 @@ constraint_status(Name, coordination_rope, I) :-
     narrative_ontology:constraint_claim(Name, rope),
     (narrative_ontology:constraint_metric(Name, theater_ratio, T) -> I is 1.0 - T ; I = 1.0), !.
 
-% Snare (formerly Noose)
+% Snare (formerly Snare)
 constraint_status(Name, extractive_snare, I) :-
     narrative_ontology:constraint_claim(Name, snare),
     narrative_ontology:constraint_metric(Name, extractiveness, I), !.

@@ -29,11 +29,11 @@
 /**
  * CONSTRAINT IDENTIFICATION
  * * constraint_id: capital_misallocation_spiral
- * human_readable: The Zombie Asset Loop
+ * human_readable: The Piton Asset Loop
  * domain: economic/technological
  * * SUMMARY:
  * A scenario where low interest rates or institutional mandates force capital 
- * into increasingly unproductive "zombie" assets. To prevent a crash, even 
+ * into increasingly unproductive "piton" assets. To prevent a crash, even 
  * more capital is allocated to prop up these failures, creating a recursive 
  * siphon. It functions as a Rope for short-term market stability but becomes 
  * a massive Snare for future generations who inherit a hollowed-out economy.

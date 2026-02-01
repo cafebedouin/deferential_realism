@@ -42,11 +42,11 @@ constraint_metric(sieve_method_efficiency_friction, snap_back_potential, 0.45).
 constraint_metric(sieve_method_efficiency_friction, extractiveness, 0.55).
 
 % NOOSE: Analytical Proof Obstruction (The gap between distribution and specific sums)
-constraint_claim(analytical_distribution_noose, snare).
-constraint_metric(analytical_distribution_noose, intensity, 0.98).
-constraint_metric(analytical_distribution_noose, suppression_requirement, 0.88).
-constraint_metric(analytical_distribution_noose, snap_back_potential, 0.95).
-constraint_metric(analytical_distribution_noose, extractiveness, 0.96).
+constraint_claim(analytical_distribution_snare, snare).
+constraint_metric(analytical_distribution_snare, intensity, 0.98).
+constraint_metric(analytical_distribution_snare, suppression_requirement, 0.88).
+constraint_metric(analytical_distribution_snare, snap_back_potential, 0.95).
+constraint_metric(analytical_distribution_snare, extractiveness, 0.96).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, accept_primality_axioms_as_universal_invariants).
@@ -59,7 +59,7 @@ recommendation(rec_03, reform_additive_approaches_via_sieve_theory_scaffold).
 affects_constraint(rec_03, sieve_method_efficiency_friction).
 
 recommendation(rec_04, cut_analytical_deadlocks_via_circle_method_scaffold).
-affects_constraint(rec_04, analytical_distribution_noose).
+affects_constraint(rec_04, analytical_distribution_snare).
 
 veto_actor(strict_computational_finitist).
 veto_exposed(strict_computational_finitist, rec_04).

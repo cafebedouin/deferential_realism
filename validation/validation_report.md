@@ -49,7 +49,7 @@ The Deferential Realism framework has been tested against 467 constraint scenari
 1. Identify constraint scenario
 2. Specify indices (WHO, WHEN, WHERE, HOW_MUCH)
 3. Apply six-test battery (invariance, counterfactual viability, decay rate, root cause, implementation, integration depth)
-4. Classify as Mountain, Rope, Noose, Scaffold, or Tangled Rope
+4. Classify as Mountain, Rope, Snare, Scaffold, or Tangled Rope
 5. Calculate power modifiers where applicable
 6. Record classification with justification
 
@@ -77,7 +77,7 @@ All scripts and data available for independent replication.
 **3. Pattern Mining**
 - Goal: Discover emergent categories not predicted by theory
 - Method: Cluster analysis on constraint features, look for hybrid patterns
-- Finding: Tangled Rope (Rope + Noose hybrid) discovered in 36% of corpus
+- Finding: Tangled Rope (Rope + Snare hybrid) discovered in 36% of corpus
 
 **4. Domain Pattern Analysis**
 - Goal: Identify structural differences across domains
@@ -141,7 +141,7 @@ For each constraint, generate classifications across multiple index combinations
 - Unknown/Narrative: 1.0-1.06 (lowest variance, often under-specified)
 
 ### Interpretation
-The overwhelming majority of constraints are **perspective-dependent**. What functions as a Mountain for one agent may be a Rope or Noose for another, depending on their position in the power structure, time horizon, exit options, and spatial scope.
+The overwhelming majority of constraints are **perspective-dependent**. What functions as a Mountain for one agent may be a Rope or Snare for another, depending on their position in the power structure, time horizon, exit options, and spatial scope.
 
 **This validates the core theoretical claim:** Truth is index-relative but index-objective. The high variance rate confirms that asking "What type of constraint is this?" without specifying indices is an **ambiguous question**.
 
@@ -156,14 +156,14 @@ The overwhelming majority of constraints are **perspective-dependent**. What fun
 ## Finding 3: Tangled Rope Empirically Necessary
 
 ### Hypothesis
-Most constraints will be "pure types" (Mountain, Rope, Noose, or Scaffold). Hybrid categories should be rare.
+Most constraints will be "pure types" (Mountain, Rope, Snare, or Scaffold). Hybrid categories should be rare.
 
 ### Test Outcome
 **Hypothesis rejected.** Pattern mining discovered substantial hybrid prevalence.
 
 ### Result
 **Tangled Rope prevalence: 36% of corpus (168 constraints)**
-- Hybrid structure: Rope core (genuine coordination function) + Noose layer (extractive implementation)
+- Hybrid structure: Rope core (genuine coordination function) + Snare layer (extractive implementation)
 - Cannot be explained by indexing alone
 - Most prevalent in social (42%), economic (41%), and political (38%) domains
 - Rare in technical (12%) and biological (5%) domains
@@ -172,16 +172,16 @@ Most constraints will be "pure types" (Mountain, Rope, Noose, or Scaffold). Hybr
 Many real-world constraints have **structural hybridity**:
 - Base layer: Genuine coordination problem (Mountain substrate)
 - Middle layer: Functional mechanism addressing the problem (Rope)
-- Outer layer: Extractive capture of the mechanism (Noose)
+- Outer layer: Extractive capture of the mechanism (Snare)
 
 **Example: Patent systems**
 - Mountain: Innovation requires incentives (genuine problem)
 - Rope: Temporary monopoly for inventors (coordination mechanism)
-- Noose: Patent evergreening, submarine patents, troll enforcement (extraction)
+- Snare: Patent evergreening, submarine patents, troll enforcement (extraction)
 
 This is not mere indexical variation—the same structure genuinely contains both coordination and extraction functions simultaneously. Indexing helps clarify *which aspect* you experience more strongly (powerless agents hit extraction harder; powerful agents navigate coordination benefits), but the hybrid structure persists across indices.
 
-**Implication:** Treating all "somewhat extractive coordination mechanisms" as either pure Ropes or pure Nooses generates misclassification. The Tangled Rope category is **empirically necessary**, not theoretically optional.
+**Implication:** Treating all "somewhat extractive coordination mechanisms" as either pure Ropes or pure Snares generates misclassification. The Tangled Rope category is **empirically necessary**, not theoretically optional.
 
 ### Evidence Location
 - See `validation/analysis/pattern_mining.md` for discovery methodology
@@ -228,7 +228,7 @@ Percentage of constraints that emerge naturally (Mountains):
 - Economic: 19%
 - Political: 15%
 
-**Interpretation:** Domains closer to physics/biology have higher natural constraint density. Domains centered on human coordination have higher constructed constraint density. This validates the framework's ability to distinguish substrate (Mountain) from mechanism (Rope/Noose).
+**Interpretation:** Domains closer to physics/biology have higher natural constraint density. Domains centered on human coordination have higher constructed constraint density. This validates the framework's ability to distinguish substrate (Mountain) from mechanism (Rope/Snare).
 
 ### Evidence Location
 - See `validation/analysis/corpus_analysis.txt` for domain-level statistics
@@ -251,9 +251,9 @@ Percentage of constraints that emerge naturally (Mountains):
 - Counterfactuals: Alternative systems exist or have existed elsewhere
 
 **Examples from corpus:**
-- "Pharmaceutical patents are necessary for innovation" (claimed Mountain, actually Rope with Noose elements)
+- "Pharmaceutical patents are necessary for innovation" (claimed Mountain, actually Rope with Snare elements)
 - "Hierarchical management is required for organizational efficiency" (claimed Mountain, actually constructed Rope)
-- "Market competition naturally produces optimal outcomes" (claimed Mountain, actually ideological Noose)
+- "Market competition naturally produces optimal outcomes" (claimed Mountain, actually ideological Snare)
 
 ### Scaffold Candidates
 
@@ -270,14 +270,14 @@ Percentage of constraints that emerge naturally (Mountains):
 
 **Conclusion:** Scaffold is not a distinct fundamental category—it's a temporal qualifier. Any Rope can be designated as Scaffold if explicitly temporary. The key diagnostic is **intentional impermanence** at design stage.
 
-### Zombie Ropes (Degradation State)
+### Pitons (Degradation State)
 
 **Prevalence:** Pattern detected but not separately quantified (requires longitudinal analysis)
 
 **Definition:** Ropes that no longer serve coordination function due to environmental change, persisting through bureaucratic inertia
 
 **Diagnostic markers:**
-- No clear beneficiary group (distinguishes from Noose)
+- No clear beneficiary group (distinguishes from Snare)
 - Everyone complains but it persists
 - Originally functional but context changed
 - Removal faces bureaucratic resistance, not power resistance
@@ -287,12 +287,12 @@ Percentage of constraints that emerge naturally (Mountains):
 - Professional licensing misaligned with current competence signals
 - Environmental regulations designed for obsolete industrial processes
 
-**Conclusion:** Zombie Rope is a **degradation state**, not a fundamental category. Ropes can decay into Zombies when their substrate problem changes but the mechanism persists. Response strategy differs from Nooses (reform/update vs. dismantle/resist).
+**Conclusion:** Piton is a **degradation state**, not a fundamental category. Ropes can decay into Pitons when their substrate problem changes but the mechanism persists. Response strategy differs from Snares (reform/update vs. dismantle/resist).
 
 ### Evidence Location
 - Detection pattern specifications: Would be in `DETECTION_PATTERNS.md` (not yet created, see findings above)
 - False Mountain instances tagged in `validation/data/corpus_data.json`
-- Scaffold candidates and Zombie Rope examples throughout corpus
+- Scaffold candidates and Piton examples throughout corpus
 
 ---
 
@@ -362,7 +362,7 @@ Power position is **not optional**—it's a necessary index for accurate classif
 - Power actively conceals this information where it's most vulnerable
 - Measurement-access constraint: hardest to verify precisely where verification matters most
 
-**Implication:** Confidence will be **inversely proportional to power concentration**. Mountains are easiest to verify (anyone can test gravity). Nooses are hardest (testing risks consequences from beneficiaries).
+**Implication:** Confidence will be **inversely proportional to power concentration**. Mountains are easiest to verify (anyone can test gravity). Snares are hardest (testing risks consequences from beneficiaries).
 
 **4. Power modifiers may be context-dependent**
 - Current calibration based on this corpus
@@ -376,7 +376,7 @@ Power position is **not optional**—it's a necessary index for accurate classif
 - Does not tell you *what to do* about it (that's ethics domain, not epistemology)
 - Can be used to rationalize either acceptance or resistance depending on framing
 
-**Implication:** This is a **tool**, not a worldview. Distinguishing Mountains from Nooses enables strategic action, but strategy itself requires ethical framework (see `foundations/ethics.md`).
+**Implication:** This is a **tool**, not a worldview. Distinguishing Mountains from Snares enables strategic action, but strategy itself requires ethical framework (see `foundations/ethics.md`).
 
 ---
 
@@ -385,7 +385,7 @@ Power position is **not optional**—it's a necessary index for accurate classif
 ### High Confidence (0.70-0.84)
 
 **Core framework structure:**
-- Four categories (Mountain, Rope, Noose, Scaffold) are conceptually distinct
+- Four categories (Mountain, Rope, Snare, Scaffold) are conceptually distinct
 - Four indices (WHO, WHEN, WHERE, HOW_MUCH) are structurally necessary
 - 0% collision rate within formal system
 - 99.1% variance validates indexical relativity
@@ -397,7 +397,7 @@ Power position is **not optional**—it's a necessary index for accurate classif
 
 **Threshold values:**
 - Specific cutoffs for Mountain vs. Rope (e.g., "can be changed within 50 years")
-- Specific cutoffs for Rope vs. Noose (e.g., "extraction >0.3 = Noose")
+- Specific cutoffs for Rope vs. Snare (e.g., "extraction >0.3 = Snare")
 - Power modifier magnitudes (powerless = 1.5×, institutional = -0.2×)
 
 **Rationale:** These values are **corpus-derived approximations**. They minimize classification errors in our corpus but may need adjustment for different contexts. Edge cases near thresholds will be ambiguous.
@@ -412,8 +412,8 @@ Power position is **not optional**—it's a necessary index for accurate classif
 
 **Temporal transition mechanics:**
 - How Ropes degrade into Tangled Ropes over time
-- When Tangled Ropes tip into pure Nooses
-- Zombie Rope formation dynamics
+- When Tangled Ropes tip into pure Snares
+- Piton formation dynamics
 - Permanence drift rates for Scaffolds
 
 **Rationale:** Requires longitudinal data we don't have. Current corpus is cross-sectional snapshot.
@@ -427,7 +427,7 @@ Power position is **not optional**—it's a necessary index for accurate classif
 
 **Measurement reliability in high-power contexts:**
 - Can we accurately classify constraints when power conceals information?
-- How do we know we're not misclassifying Nooses as Mountains when power is opaque?
+- How do we know we're not misclassifying Snares as Mountains when power is opaque?
 
 **Rationale:** Measurement-access constraint is fundamental. Where power is highest, verification is hardest. This creates irreducible epistemic limitation.
 
@@ -442,7 +442,7 @@ These remain unresolved and shape framework development:
 - But: detection requires seeing through naturalization, which power conceals
 - Suspect: actual prevalence higher, limited by measurement access
 
-**Ω_C1 (Conceptual):** Is Zombie Rope a distinct category or a temporal qualifier?
+**Ω_C1 (Conceptual):** Is Piton a distinct category or a temporal qualifier?
 - Current answer: temporal qualifier (degradation state of Rope)
 - Alternative: distinct category requiring separate detection protocol
 - Affects: classification methodology and response strategy

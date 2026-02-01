@@ -183,7 +183,7 @@ test(aggregation_fate_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(fat_tail_noose_penalty) :-
+test(fat_tail_snare_penalty) :-
     % A powerless agent in a global/constrained context (like VaR modeling) sees it as a Snare.
     constraint_indexing:constraint_classification(central_limit_theorem_convergence, snare, context(individual_powerless, immediate, constrained, global)).
 

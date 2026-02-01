@@ -8,7 +8,7 @@ Psychological Deferential Realism inverts this: **"What constrains me, and is th
 
 This isn't therapeutic technique—it's a claim about the ontological structure of internal experience. **Internal constraints operate by the same logic as external constraints.** A fear pattern isn't a defect that happens to limit you; it's either (a) genuine substrate contact requiring navigation, (b) historical detritus available for clearing, or (c) artificially generated scarcity from demanding certainty.
 
-**The Core Claim:** The same three-category ontology that classifies external constraints (Mountains, Ropes, Nooses) applies internally (Substrate, Negotiable Patterns, Self-Extraction). Misclassifying internal constraints creates suffering just as misclassifying external ones creates strategic error.
+**The Core Claim:** The same three-category ontology that classifies external constraints (Mountains, Ropes, Snares) applies internally (Substrate, Negotiable Patterns, Self-Extraction). Misclassifying internal constraints creates suffering just as misclassifying external ones creates strategic error.
 
 This has radical implications:
 - **No self-knowledge through introspection alone** (anti-Cartesianism)
@@ -48,7 +48,7 @@ Example: Sleep deprivation → Cognitive decline (measurable, not just "feels ba
 
 **Critical Distinction:** Substrate isn't "innate" or "unchangeable forever." Some substrate is developmental (attachment patterns can shift under specific conditions). But substrate is **currently real** and produces consequences when violated, regardless of belief about it.
 
-### B. Detritus (Internal Zombie Constraints)
+### B. Detritus (Internal Piton Constraints)
 
 **Ontological Status:** Historically necessary but functionally obsolete, maintenance-free persistence
 
@@ -96,7 +96,7 @@ Uncertainty → Demand for certainty → Inquiry blocked → Uncertainty persist
 Example: "I can't commit until I know it will work" → Never gets data → Never knows → Can't commit
 ```
 
-**The Trap of Perfect Transparency:** Stephen Dedalus (Ulysses) can see all frames clearly. The clarity doesn't save him—it creates a different trap. His intelligence becomes a noose: "he cannot not-know what he knows." The seeing becomes its own constraint.
+**The Trap of Perfect Transparency:** Stephen Dedalus (Ulysses) can see all frames clearly. The clarity doesn't save him—it creates a different trap. His intelligence becomes a snare: "he cannot not-know what he knows." The seeing becomes its own constraint.
 
 **Critical Recognition:** Clarity fetishes are the most sophisticated form of constraint. They use the language of wisdom ("I just need to understand first") to avoid the vulnerability of action. The constraint masquerades as virtue.
 
@@ -357,7 +357,7 @@ Choose emphasis per situation → Other need remains partially unmet → Revisit
 - **Why:** Coordination requires mutual benefit
 - **Example:** "We'll check in daily" → Accept if serves both parties
 
-**If Noose (Self-Extraction):**
+**If Snare (Self-Extraction):**
 - **Ethical move:** Refuse. Maintain impermeability.
 - **Why:** Extraction violates integrity
 - **Example:** "Sacrifice sleep to meet others' needs" → No
@@ -388,12 +388,12 @@ Choose emphasis per situation → Other need remains partially unmet → Revisit
 - Renegotiate when terms shift
 - Example: Relationship agreements pass through if mutually beneficial
 
-**Nooses → Impermeable**
+**Snares → Impermeable**
 - Refuse entry
 - No justification owed
 - Example: Coercive demands blocked at membrane
 
-**Ethical significance:** The intelligence is in classification, not in having "strong boundaries." A boundary that blocks substrate harms you. A boundary that admits nooses extracts from you. **Skillful boundaries classify accurately.**
+**Ethical significance:** The intelligence is in classification, not in having "strong boundaries." A boundary that blocks substrate harms you. A boundary that admits snares extracts from you. **Skillful boundaries classify accurately.**
 
 ### D. Growth Through Calibration, Not Transcendence
 
@@ -489,7 +489,7 @@ But:
 --- | --- | ---
 Mountains (gravity, laws) | Substrate (biology, trauma) | Zero degrees of freedom, defer
 Ropes (coordination) | Negotiable patterns | Positive degrees, coordinate
-Nooses (extraction) | Self-extraction | Negative degrees, refuse
+Snares (extraction) | Self-extraction | Negative degrees, refuse
 Paradoxes (trade-offs) | Irresolvable tensions | Hold without resolution
 
 **Ontological continuity:** Same three-category system applies across domains. External and internal constraints operate by identical logic.
@@ -500,7 +500,7 @@ Paradoxes (trade-offs) | Irresolvable tensions | Hold without resolution
 1. Notice claim ("this market requires X")
 2. Investigate structure (what makes it seem necessary?)
 3. Test edges (what happens if violated?)
-4. Classify (mountain, rope, noose?)
+4. Classify (mountain, rope, snare?)
 5. Navigate (defer, coordinate, refuse)
 
 **For internal constraints:**

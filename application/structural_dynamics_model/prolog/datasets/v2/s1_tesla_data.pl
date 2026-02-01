@@ -34,7 +34,7 @@ constraint_metric(lotus_glider_dependency, suppression_requirement, 0.55). % Req
 % ⊠C Verification: lotus_glider_dependency (extractiveness 0.78 >= 0.66 AND suppression 0.55 >= 0.46) = NOOSE verified.
 
 % 4. RECOMMENDATIONS & VETO POINTS
-recommendation(transition_to_fremont, remove_noose_via_inhouse_manufacturing).
+recommendation(transition_to_fremont, remove_snare_via_inhouse_manufacturing).
 affects_constraint(transition_to_fremont, lotus_glider_dependency).
 
 veto_actor(department_of_energy).

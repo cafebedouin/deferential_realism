@@ -188,7 +188,7 @@ Before selecting voice archetype, identify which terminal attractor the constrai
 
 \- Tangled Ropes (⊞⊠C) favor Negotiated Equilibrium or Seeded Possibility
 
-\- Pure Nooses (⊠C) favor Deterministic Tragedy or Revolutionary Rupture
+\- Pure Snares (⊠C) favor Deterministic Tragedy or Revolutionary Rupture
 
 \- Index variance determines whether negotiation is structurally possible
 
@@ -414,7 +414,7 @@ This produces stories where institutions act conveniently unoptimally. Feels "ga
 
 \- BIR institutional model (negotiation must be structurally possible)
 
-\- Tangled Rope or Noose as key constraint (not Mountain)
+\- Tangled Rope or Snare as key constraint (not Mountain)
 
 \- Power position: Moderate or Powerful (0.6 ≤ π ≤ 1.0)
 
@@ -1018,7 +1018,7 @@ This produces stories where institutions act conveniently unoptimally. Feels "ga
 
 \### Step 1: Review Stage 1 Specifications
 
-\- Dominant constraint types (Mountain/Rope/Noose/Tangled)?
+\- Dominant constraint types (Mountain/Rope/Snare/Tangled)?
 
 \- Institutional rationality model (PIR/BIR)?
 

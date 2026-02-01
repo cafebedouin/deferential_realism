@@ -128,7 +128,7 @@ When you encounter internal resistance:
 
 1. **What type of constraint is this?**
    - Mountain (substrate) → Defer
-   - Detritus (zombie) → Test
+   - Detritus (piton) → Test
    - Clarity fetish (certainty demand) → Drop
    - Paradox (irresolvable) → Hold
 

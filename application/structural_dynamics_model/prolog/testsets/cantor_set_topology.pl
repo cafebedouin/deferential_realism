@@ -182,7 +182,7 @@ test(measure_vs_cardinality_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(measure_zero_noose) :-
+test(measure_zero_snare) :-
     % The interval feels the "Snare" of its disappearing measure.
     constraint_indexing:constraint_classification(cantor_set_topology, snare, context(individual_powerless, immediate, constrained, local)).
 

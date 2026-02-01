@@ -7,7 +7,7 @@
 :- module(belief_audit, [
     audit/1,
     audit_all/0,
-    find_nooses/0
+    find_snares/0
 ]).
 
 :- use_module(individual_belief_battery).
@@ -34,9 +34,9 @@ audit_all :-
     forall(individual_belief_battery:belief_classification(B, rope),
            format('  [Rope]     ~w~n', [B])).
 
-%% find_nooses
+%% find_snares
 % Specifically identifies items where your "Rope" is sold as an institutional "Mountain."
-find_nooses :-
+find_snares :-
     format('~n=== EXTRACTION POINT DETECTION ===~n'),
     forall(individual_belief_battery:type_1_error(B),
            ( format('  ⚠️  ~w~n', [B]),

@@ -201,7 +201,7 @@ test(multi_perspective_variance) :-
  */
 
 omega_variable(
-    paternal_virtue_vs_physical_noose,
+    paternal_virtue_vs_physical_snare,
     "Would a benevolent upbringing and acceptance have overridden the Creature's physical 'Mountain' of deformity and the social 'Snare' of rejection, transforming him into a benevolent 'Rope' for society?",
     resolution_mechanism("Comparative narrative analysis with modern psychological developmental models on the impact of nurture versus nature; ethical thought experiments on creator responsibility."),
     impact("If yes: The tragedy is social/moral and avoidable. If no: The tragedy is biological/fate and inevitable."),

@@ -25,21 +25,21 @@ def analyze_gaps():
 
         # Check for the presence of each pillar
         has_rope = "rope" in found_types
-        has_noose = "noose" in found_types
+        has_snare = "snare" in found_types
         has_mountain = "mountain" in found_types
 
-        status = "COMPLETE" if (has_rope and has_noose and has_mountain) else "GAP"
+        status = "COMPLETE" if (has_rope and has_snare and has_mountain) else "GAP"
 
         # Color/Visual indicators for terminal
         r_mark = "✓" if has_rope else "✗"
-        n_mark = "✓" if has_noose else "✗"
+        n_mark = "✓" if has_snare else "✗"
         m_mark = "✓" if has_mountain else "✗"
 
         print(f"{domain_id:<45} |  {r_mark}   |  {n_mark}   |  {m_mark}   | {status}")
 
         results[domain_id] = {
             "rope": has_rope,
-            "noose": has_noose,
+            "snare": has_snare,
             "mountain": has_mountain,
             "is_complete": status == "COMPLETE"
         }

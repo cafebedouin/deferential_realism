@@ -173,7 +173,7 @@ constraint_indexing:constraint_classification(
 
 :- begin_tests(non_compete_tests).
 
-test(power_asymmetry_noose) :-
+test(power_asymmetry_snare) :-
     % Testing that powerless agents (workers) see a Snare.
     constraint_indexing:constraint_classification(non_compete_agreements, snare, context(individual_powerless, _, _, _)).
 

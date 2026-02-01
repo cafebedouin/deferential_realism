@@ -60,7 +60,7 @@ Before selecting voice archetype, identify which terminal attractor the constrai
 **CRITICAL:** Attractor selection must be **compatible with constraint logic**:
 - Mountains (■C) limit which attractors are reachable
 - Tangled Ropes (⊞⊠C) favor Negotiated Equilibrium or Seeded Possibility
-- Pure Nooses (⊠C) favor Deterministic Tragedy or Revolutionary Rupture
+- Pure Snares (⊠C) favor Deterministic Tragedy or Revolutionary Rupture
 - Index variance determines whether negotiation is structurally possible
 
 **Validation Check:**
@@ -250,7 +250,7 @@ When selecting Negotiated Equilibrium or Seeded Possibility, verify stability:
 
 **Unstable Pseudo-Equilibrium (Trap to Avoid):**
 - Institution makes concession but has incentive to defect later
-- "Concession" is actually delayed Noose (trap)
+- "Concession" is actually delayed Snare (trap)
 - Characters celebrate too early, reader feels manipulated
 - **Test:** Would institution choose same deal in 5 years? If no, it's unstable.
 
@@ -333,13 +333,13 @@ Use this to select appropriate attractor given constraint structure:
 | Constraint Profile | PIR Model | BIR Model | Recommended Attractors |
 |-------------------|-----------|-----------|----------------------|
 | All Mountains (■C) | Yes | Yes | Tragedy, Seeded Possibility |
-| Mountain + Nooses | Yes | N/A | Deterministic Tragedy |
-| Mountain + Nooses | N/A | Yes | Negotiated Equilibrium (if crisis), Seeded Possibility |
+| Mountain + Snares | Yes | N/A | Deterministic Tragedy |
+| Mountain + Snares | N/A | Yes | Negotiated Equilibrium (if crisis), Seeded Possibility |
 | Tangled Ropes (⊞⊠C) dominant | Yes | N/A | Tragedy (characters crushed by hybrid) |
 | Tangled Ropes (⊞⊠C) dominant | N/A | Yes | **Negotiated Equilibrium** (natural attractor) |
-| Pure Nooses, no Mountains | Yes | N/A | Tragedy or Revolutionary Rupture |
-| Pure Nooses, no Mountains | N/A | Yes | Negotiated Equilibrium or Revolutionary Rupture |
-| Zombie (⊟C) present | Either | Either | Seeded Possibility (reform after collapse) |
+| Pure Snares, no Mountains | Yes | N/A | Tragedy or Revolutionary Rupture |
+| Pure Snares, no Mountains | N/A | Yes | Negotiated Equilibrium or Revolutionary Rupture |
+| Piton (⊟C) present | Either | Either | Seeded Possibility (reform after collapse) |
 
 **Key Insights:**
 1. **Tangled Ropes + BIR = Negotiated Equilibrium** is the natural pairing
@@ -398,7 +398,7 @@ Use this to select appropriate attractor given constraint structure:
   - Experiences setbacks but finds openings
   - **ATTRACTOR COMPATIBILITY:** Negotiated Equilibrium, Revolutionary Rupture  
   - **WARNING:** Requires BIR model or crisis mechanism to justify wins
-  - **REQUIRES:** Tangled Rope or Noose (not Mountain) as key constraint
+  - **REQUIRES:** Tangled Rope or Snare (not Mountain) as key constraint
   - Use when: Constraint logic has negotiable elements, story explores "how we make things change"
 ```
 

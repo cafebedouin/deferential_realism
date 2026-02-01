@@ -30,7 +30,7 @@ Key distinction: This is NOT relativism (all opinions equally valid). Each index
 
 **Example:** The Medieval Church is simultaneously:
 - Mountain (for a serf—cannot be changed)
-- Noose (for a historian—extractive structure)
+- Snare (for a historian—extractive structure)
 - Rope (for the Pope—coordination mechanism)
 
 All three are objectively correct from their respective indices.

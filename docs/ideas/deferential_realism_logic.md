@@ -13,7 +13,7 @@ This requires different logical machinery:
 
 The goal: **Formal system for reasoning about what binds us, from where we stand.**
 
-**Key innovation:** Truth is index-relative but index-objective. The same constraint can be Mountain from one index and Noose from another—both classifications are objectively true.
+**Key innovation:** Truth is index-relative but index-objective. The same constraint can be Mountain from one index and Snare from another—both classifications are objectively true.
 
 ---
 
@@ -34,7 +34,7 @@ where:
 **Indexed Classification:**
 ```
 C[I] denotes "constraint C as experienced from index I"
-Type(C[I]) ∈ {■, ⊞, ⊠, ⊞⊠}  (Mountain, Rope, Noose, Tangled Rope)
+Type(C[I]) ∈ {■, ⊞, ⊠, ⊞⊠}  (Mountain, Rope, Snare, Tangled Rope)
 ```
 
 ### B. Core Modal Operators (Indexed)
@@ -51,8 +51,8 @@ Type(C[I]) ∈ {■, ⊞, ⊠, ⊞⊠}  (Mountain, Rope, Noose, Tangled Rope)
 - Semantics: From index I, C coordinates effectively without significant extraction
 - Power-scaling: `χ(C, I.P)` applies power modifier to base extraction
 
-**Noose Operator: `⊠C[I]`**
-- "C is a Noose from index I" = C extracts heavily from agent at I
+**Snare Operator: `⊠C[I]`**
+- "C is a Snare from index I" = C extracts heavily from agent at I
 - Formal: `⊠C[I] ↔ χ(C, I.P) ≥ 0.66 ∧ ε(C) ≥ 0.46 ∧ ¬Coord(C) ∧ Changeable(C, I.T, I.E)`
 - Semantics: From index I, C appears as pure extraction requiring resistance
 - Power-scaling: High extraction for powerless, may be negative for institutional
@@ -61,7 +61,7 @@ Type(C[I]) ∈ {■, ⊞, ⊠, ⊞⊠}  (Mountain, Rope, Noose, Tangled Rope)
 - "C is a Tangled Rope from index I" = C both coordinates AND extracts from agent at I
 - Formal: `⊞⊠C[I] ↔ 0.40 ≤ χ(C, I.P) ≤ 0.90 ∧ ε(C) ≥ 0.50 ∧ Coord(C) ∧ Asymmetric(C)`
 - Semantics: From index I, C provides genuine coordination while extracting asymmetrically
-- Power-scaling: May appear as Rope to powerful, Noose to powerless, Tangled to moderate
+- Power-scaling: May appear as Rope to powerful, Snare to powerless, Tangled to moderate
 - **Empirically validated:** 36% of analyzed constraints (168/467)
 
 ### C. Detection Pattern Operators (Non-Indexed)
@@ -80,7 +80,7 @@ These operate on constraint structure, not perspectival classification:
 - Semantics: Built-in sunset clause, designed for obsolescence
 - Orthogonal to type: Can have `⊞C[I] ∧ ⊡C(t)` (Rope with sunset)
 
-**Zombie Marker: `⊟C`**
+**Piton Marker: `⊟C`**
 - "C persists without function or beneficiaries"
 - Formal: `⊟C ↔ χ(C, _) ≤ 0.10 ∧ ε(C) > 0.10 ∧ Cost(C) > Benefit(C)`
 - Semantics: Degradation state, should be eliminated
@@ -113,7 +113,7 @@ Where `X_base(C)` is the base extraction independent of observer.
 ```
 X_base(carbon_credits) = 0.40
 
-χ(carbon_credits, powerless)     = 0.40 × 1.5  = 0.60 → Noose/Tangled
+χ(carbon_credits, powerless)     = 0.40 × 1.5  = 0.60 → Snare/Tangled
 χ(carbon_credits, moderate)      = 0.40 × 1.0  = 0.40 → Tangled threshold
 χ(carbon_credits, institutional) = 0.40 × -0.2 = -0.08 → Rope (net benefit)
 ```
@@ -167,13 +167,13 @@ Note: Some indices may perceive as more constraining, but all agree it's unchang
 ```
 If power-scaled extraction low, minimal enforcement, coordinates, and changeable from I, then Rope at I.
 
-**Rule N (Noose Identification)**
+**Rule N (Snare Identification)**
 ```
 χ(C, I.P) ≥ 0.66 ∧ ε(C) ≥ 0.46 ∧ ¬Coord(C) ∧ Changeable(C, I.T, I.E)
 ─────────────────────────────────────────────────────────────────
                       ⊠C[I]
 ```
-If power-scaled extraction high, requires enforcement, no coordination, and changeable from I, then Noose at I.
+If power-scaled extraction high, requires enforcement, no coordination, and changeable from I, then Snare at I.
 
 **Rule TR (Tangled Rope Identification)**
 ```
@@ -191,13 +191,13 @@ Claimed(■C) ∧ (ε(C) > 0.70 ∨ ∃I(χ(C, I.P) > 0.40)) ∧ CC(C)
 ```
 If claimed as Mountain but requires high enforcement OR extracts significantly from some index AND has constructed signature, then False Mountain detected.
 
-**Rule Z (Zombie Detection)**
+**Rule Z (Piton Detection)**
 ```
 ∃t(Type(C[I], t) ∈ {⊞, ⊞⊠}) ∧ ∀I(χ(C, I.P) ≤ 0.10) ∧ ε(C) > 0.10 ∧ Cost(C) > Benefit(C)
 ────────────────────────────────────────────────────────────────────────────────────────
                                   ⊟C
 ```
-If was once Rope or Tangled Rope, now has minimal extraction for all agents, but still requires enforcement and costs exceed benefits, then Zombie.
+If was once Rope or Tangled Rope, now has minimal extraction for all agents, but still requires enforcement and costs exceed benefits, then Piton.
 
 ### B. Indexical Relativity Rules
 
@@ -235,29 +235,29 @@ Analytical perspective with long time horizon provides most accurate structural 
 
 ### C. Transformation Rules (Temporal)
 
-**Rule Capture (Rope → Tangled Rope → Noose)**
+**Rule Capture (Rope → Tangled Rope → Snare)**
 ```
 ⊞C[I](t₁) ∧ Capture(C, t₁, t₂) ∧ ε(C, t₂) > ε(C, t₁) ∧ Asymmetric(C, t₂)
 ─────────────────────────────────────────────────────────────────────────
                     ⊞⊠C[I](t₂) [or ⊠C[I](t₂)]
 ```
-A Rope becomes Tangled Rope or Noose through capture as enforcement increases and benefits concentrate.
+A Rope becomes Tangled Rope or Snare through capture as enforcement increases and benefits concentrate.
 
-**Rule Degradation (Tangled Rope → Zombie)**
+**Rule Degradation (Tangled Rope → Piton)**
 ```
 ⊞⊠C[I](t₁) ∧ EnvChange(t₁, t₂) ∧ ∀I(χ(C, I.P, t₂) < 0.10) ∧ ε(C, t₂) > 0.10
 ──────────────────────────────────────────────────────────────────────────
                               ⊟C(t₂)
 ```
-A Tangled Rope becomes Zombie when extraction dries up but enforcement persists.
+A Tangled Rope becomes Piton when extraction dries up but enforcement persists.
 
-**Rule Calcification (Scaffold → Noose)**
+**Rule Calcification (Scaffold → Snare)**
 ```
 ⊡C(t) ∧ t > t_end ∧ ¬Terminated(C) ∧ ∃S(Capture(C, S))
 ──────────────────────────────────────────────────────
                     ⊠C[I](t)
 ```
-A Scaffold becomes Noose if it persists past sunset and develops concentrated beneficiaries.
+A Scaffold becomes Snare if it persists past sunset and develops concentrated beneficiaries.
 
 **Rule Discovery (False Mountain → Actual Type)**
 ```
@@ -280,9 +280,9 @@ If C₁ is necessary from all indices and logically implies C₂ which has natur
 ```
 χ(C, powerless) = x₁ ∧ χ(C, institutional) = x₂ ∧ x₁ ≥ 0.66 ∧ x₂ ≤ 0.35
 ──────────────────────────────────────────────────────────────────────────
-  ⊠C[I_powerless] ∧ ⊞C[I_institutional] (Noose for some, Rope for others)
+  ⊠C[I_powerless] ∧ ⊞C[I_institutional] (Snare for some, Rope for others)
 ```
-Same constraint can be Noose for powerless and Rope for institutional due to power-scaling.
+Same constraint can be Snare for powerless and Rope for institutional due to power-scaling.
 
 **Tangled Rope Decomposition (Hybrid Analysis)**
 ```
@@ -362,7 +362,7 @@ Error: Fight Mountain → Waste energy → Policy failure
 Cost: Resources spent on impossible, real problems neglected
 ```
 
-### C. Type III Error: Noose Misclassified as Rope
+### C. Type III Error: Snare Misclassified as Rope
 
 **Formal:**
 ```
@@ -371,7 +371,7 @@ Believe(⊞C[I]) ∧ ⊠C[I] → Maintained(Extraction) ∧ Normalized(Oppressio
 
 **Consequence Chain:**
 ```
-⊠C[I] (actual Noose from index I)
+⊠C[I] (actual Snare from index I)
   → Believe(⊞C[I]) (misclassified as Rope)
   → Maintain(C) (preserve extraction)
   → Enable(χ(C, oppressor.P) < 0) (extraction continues, beneficiaries profit)
@@ -392,7 +392,7 @@ Error: Defend as universal Rope → Maintain extraction from powerless creators
 Cost: Access denied, innovation blocked, extraction normalized
 ```
 
-### D. Type IV Error: Rope Misclassified as Noose
+### D. Type IV Error: Rope Misclassified as Snare
 
 **Formal:**
 ```
@@ -402,7 +402,7 @@ Believe(⊠C[I]) ∧ ⊞C[I] → Destroyed(Coordination) ∧ Lost(Collective_Ben
 **Consequence Chain:**
 ```
 ⊞C[I] (actual Rope from index I)
-  → Believe(⊠C[I]) (misclassified as Noose)
+  → Believe(⊠C[I]) (misclassified as Snare)
   → Cut(C) (destroy coordination)
   → Lose(Collective_Function) (coordination benefit lost)
   → Worse_Outcome (coordination problem resurfaces)
@@ -412,17 +412,17 @@ Believe(⊠C[I]) ∧ ⊞C[I] → Destroyed(Coordination) ∧ Lost(Collective_Ben
 - Destroy functional coordination
 - Lose collective benefits
 - Create coordination vacuum
-- May enable actual Noose to fill gap
+- May enable actual Snare to fill gap
 
 **Example:**
 ```
 Claimed: ⊠("Building codes"[I_developer])
 Actual: ⊞("Building codes"[I_resident])
-Error: Cut as Noose → Buildings collapse → Deaths
+Error: Cut as Snare → Buildings collapse → Deaths
 Cost: Safety coordination destroyed
 ```
 
-### E. Type V Error: Zombie Misclassified as Active Constraint
+### E. Type V Error: Piton Misclassified as Active Constraint
 
 **Formal:**
 ```
@@ -431,8 +431,8 @@ Cost: Safety coordination destroyed
 
 **Consequence Chain:**
 ```
-⊟C (actual Zombie)
-  → Believe(⊠C[I]) (misclassified as active Noose)
+⊟C (actual Piton)
+  → Believe(⊠C[I]) (misclassified as active Snare)
   → Fight(C) (waste political capital)
   → Win(Bypass_Available) (could have bypassed easily)
   → Exhausted(Resources) (opportunity cost high)
@@ -442,14 +442,14 @@ Cost: Safety coordination destroyed
 - Waste political capital on non-threat
 - Miss opportunity for easy bypass
 - Drain organizing energy
-- Neglect actual active Nooses
+- Neglect actual active Snares
 
 **Example:**
 ```
 ⊟("Fax requirement") ∧ Believe(⊠("Fax requirement"[I_powerless]))
 Error: Organize campaign against dead requirement → Waste energy
 Better: Bypass (use email, ignore fax)
-Cost: Political capital spent on zombie, not living constraints
+Cost: Political capital spent on piton, not living constraints
 ```
 
 ### F. Type VI Error: Tangled Rope Mishandled
@@ -465,7 +465,7 @@ Cost: Political capital spent on zombie, not living constraints
 - Defend coordination function → Legitimize extraction
 - Miss reform opportunity
 
-**Error B: Treat as Pure Noose**
+**Error B: Treat as Pure Snare**
 - Cut entire system → Destroy coordination benefit
 - Fight extraction → Lose collective function
 - Create worse outcome
@@ -497,7 +497,7 @@ Correct: "Hybrid - preserve price signal, cut financial rents"
 
 **Proof sketch:** Power-scaling function π(P) creates differential extraction. Combined with immutability perception varying by time horizon, same constraint appears as different types from different power-time positions.
 
-**Implication:** "Is X a Mountain or Noose?" is ill-formed without specifying index.
+**Implication:** "Is X a Mountain or Snare?" is ill-formed without specifying index.
 
 ### Theorem 2: Index Sufficiency
 ```
@@ -526,7 +526,7 @@ With π(P):    Collision_Rate(C, I₁, I₂) = 0%
 ```
 **Empirical validation:** 168/467 constraints (36%) show irreducible hybrid pattern.
 
-**Proof sketch:** Many constraints designed from inception to both coordinate AND extract. Decomposition into pure Rope + pure Noose loses explanatory power. Hybrid is primitive, not emergent.
+**Proof sketch:** Many constraints designed from inception to both coordinate AND extract. Decomposition into pure Rope + pure Snare loses explanatory power. Hybrid is primitive, not emergent.
 
 **Implication:** Four categories (not three) are empirically necessary.
 
@@ -536,7 +536,7 @@ Critical(C) ∧ Cut(C) ∧ ¬Build(⊡C') → Collapse
 ```
 **Proof sketch:** If C bears critical load (prevents worse outcome) and is cut without scaffold replacement, system collapses to worse state.
 
-**Implication:** Some Nooses and Tangled Ropes are load-bearing. Cutting requires scaffolding.
+**Implication:** Some Snares and Tangled Ropes are load-bearing. Cutting requires scaffolding.
 
 ### Theorem 6: Error Asymmetry (Indexed)
 ```
@@ -545,11 +545,11 @@ Cost(Type_I, I) ≈ Cost(Type_III, I) > Cost(Type_VI, I) > Cost(Type_V) > Cost(T
 
 **Proof sketch:** 
 - Type I (false Mountain): Surrender agency → severe loss from I's position
-- Type III (Noose as Rope): Maintain extraction → severe injustice from I's position
+- Type III (Snare as Rope): Maintain extraction → severe injustice from I's position
 - Type VI (Tangled Rope mishandled): Lose coordination OR maintain extraction → moderate to severe
-- Type V (Zombie as active): Waste capital → moderate inefficiency
-- Type II (false Rope/Noose): Waste energy → variable cost
-- Type IV (Rope as Noose): Destroy coordination → moderate to severe
+- Type V (Piton as active): Waste capital → moderate inefficiency
+- Type II (false Rope/Snare): Waste energy → variable cost
+- Type IV (Rope as Snare): Destroy coordination → moderate to severe
 
 **Implication:** When uncertain, err toward avoiding Type I and Type III errors from your index position.
 
@@ -557,7 +557,7 @@ Cost(Type_I, I) ≈ Cost(Type_III, I) > Cost(Type_VI, I) > Cost(Type_V) > Cost(T
 ```
 Power(X, Y) ↔ Control(X, Belief(Y, Type(C[I_Y])))
 ```
-**Proof sketch:** Power operates by controlling others' indexical beliefs. Make them believe their Nooses are Mountains (false necessity), or that Mountains are negotiable (dangerous hubris).
+**Proof sketch:** Power operates by controlling others' indexical beliefs. Make them believe their Snares are Mountains (false necessity), or that Mountains are negotiable (dangerous hubris).
 
 **Key insight:** Power operates indexically—controlling what type Y believes C is from Y's position.
 
@@ -608,16 +608,16 @@ Accept ≫ Surgical_Reform ≫ (Cut ∨ Exit) ≫ Maintain ≫ Bypass ≫ Carefu
 **Composition Rules:**
 ```
 Accept(■C[I]) ⊕ Cut(⊠C'[I]) = Navigate(■C) ∧ Resist(⊠C')
-  [Can accept Mountains while cutting Nooses from same index]
+  [Can accept Mountains while cutting Snares from same index]
 
 Cut(⊠C₁[I]) ⊕ Build(⊡C₂) = Safe_Transition(C₁ → ¬C₁)
-  [Cutting Noose requires Scaffold if load-bearing]
+  [Cutting Snare requires Scaffold if load-bearing]
 
 Surgical_Reform(⊞⊠C[I]) = Preserve(C_coord) ⊕ Excise(C_extract)
   [Tangled Rope requires decomposition, not simple cut or maintain]
 
 Maintain(⊞C[I]) ⊕ Bypass(⊟C') = Efficient_Coordination
-  [Keep functional Ropes, ignore Zombies]
+  [Keep functional Ropes, ignore Pitons]
 
 Accept(■C[I₁]) ∧ Cut(■C[I₂]) ≠ ⊥ when I₁ ≠ I₂
   [Can accept from one index while recognizing changeability from another]
@@ -637,15 +637,15 @@ Optimal: Minimize(E_total(I)) subject to Maximize(Agency(I))
 E(■C[I]) = 0            [Mountains need no energy to accept from any index]
 E(⊞C[I]) = O(log n)     [Ropes need occasional maintenance]
 E(⊞⊠C[I]) = O(n²)       [Tangled Ropes need complex surgical reform]
-E(⊠C[I]) = O(n)         [Nooses need active resistance, varies by power]
-E(⊟C) = O(1)            [Zombies need simple bypass]
+E(⊠C[I]) = O(n)         [Snares need active resistance, varies by power]
+E(⊟C) = O(1)            [Pitons need simple bypass]
 ```
 
 **Power-Dependent Resistance Costs:**
 ```
 E(⊠C[I_powerless]) > E(⊠C[I_moderate]) > E(⊠C[I_powerful])
 ```
-Same Noose costs more to resist from powerless position.
+Same Snare costs more to resist from powerless position.
 
 **Implication:**
 ```
@@ -742,7 +742,7 @@ Evidence(Type(C[I₁])) may contradict Belief(Type(C[I₂]))
 3. Threshold values derived from analyzed corpus (467 constraints)
    → May need refinement as corpus expands
    
-4. Temporal dynamics of transitions (Rope → Tangled → Noose → Zombie)
+4. Temporal dynamics of transitions (Rope → Tangled → Snare → Piton)
    → Understudied, predictions uncertain
 ```
 
@@ -759,11 +759,11 @@ Claim: Universal applicability (uncertain, requires external validation)
 
 ### Proof 1: Why Revolutions Often Fail (Indexed)
 
-**Claim:** Cutting load-bearing Noose without Scaffold leads to worse outcome from revolutionary index.
+**Claim:** Cutting load-bearing Snare without Scaffold leads to worse outcome from revolutionary index.
 
 **Proof:**
 ```
-1. ⊠C₁[I_revolutionary] ∧ Load_Bearing(C₁)    [Premise: C₁ is Noose from revolutionary perspective]
+1. ⊠C₁[I_revolutionary] ∧ Load_Bearing(C₁)    [Premise: C₁ is Snare from revolutionary perspective]
 2. ⊞C₁[I_institutional] ∨ ⊞⊠C₁[I_moderate]    [Same C₁ may coordinate from other indices]
 3. Cut(C₁) ∧ ¬Build(⊡C₂)                       [Premise: Cut without Scaffold]
 4. Cut(C₁) → ¬Exists(C₁)                       [Definition of Cut]
@@ -795,11 +795,11 @@ Claim: Universal applicability (uncertain, requires external validation)
 
 ### Proof 3: Why Power Naturalizes Itself (Indexical Deception)
 
-**Claim:** Nooses benefit from being misclassified as Mountains.
+**Claim:** Snares benefit from being misclassified as Mountains.
 
 **Proof:**
 ```
-1. ⊠C[I_powerless] ∧ ⊞C[I_powerful]                    [C is Noose for powerless, Rope for powerful]
+1. ⊠C[I_powerless] ∧ ⊞C[I_powerful]                    [C is Snare for powerless, Rope for powerful]
 2. ⊠C[I_powerless] → Should(Cut(C) ∨ Exit(C))         [Ethical response from powerless index]
 3. ∀I(■C) → Should(Accept(C))                          [Ethical response if Mountain from all indices]
 4. Make_Believe(∀I(■C)) → Accept(C) ∧ ¬Cut(C)         [If believe Mountain, accept it]
@@ -814,7 +814,7 @@ Claim: Universal applicability (uncertain, requires external validation)
 
 ### Proof 4: Carbon Credits as Indexical Case Study
 
-**Claim:** Carbon credits are simultaneously Mountain, Rope, Tangled Rope, and Noose from different indices.
+**Claim:** Carbon credits are simultaneously Mountain, Rope, Tangled Rope, and Snare from different indices.
 
 **Proof:**
 ```
@@ -842,14 +842,14 @@ Index I₄ = (moderate, generational, mobile, global) [activist focused on syste
   χ(C, moderate) = 0.40 × 1.0 = 0.40
   BUT recognizes higher systemic extraction from financialization
   Perceives minimal coordination relative to extraction
-  ∴ ⊠C[I₄] (classification as Noose based on systemic analysis)
+  ∴ ⊠C[I₄] (classification as Snare based on systemic analysis)
 
 ∴ ∃I₁, I₂, I₃, I₄: Type(C[I₁]) ≈ ■ ∧ Type(C[I₂]) = ⊞⊠ ∧ Type(C[I₃]) = ⊞ ∧ Type(C[I₄]) = ⊠
 ```
 
 **All four classifications are objectively true from their respective indices.**
 
-This is not contradiction—it's indexical relativity in action. The constraint genuinely functions as Mountain (to powerless consumers), Tangled Rope (to moderate businesses), Rope (to institutional beneficiaries), and Noose (to activists seeing systemic extraction).
+This is not contradiction—it's indexical relativity in action. The constraint genuinely functions as Mountain (to powerless consumers), Tangled Rope (to moderate businesses), Rope (to institutional beneficiaries), and Snare (to activists seeing systemic extraction).
 
 ---
 

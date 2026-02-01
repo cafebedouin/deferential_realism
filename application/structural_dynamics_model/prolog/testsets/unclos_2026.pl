@@ -173,7 +173,7 @@ test(multi_perspective_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(hegemonic_noose_perception) :-
+test(hegemonic_snare_perception) :-
     % Powerful agents see it as a Snare when it restricts "historic" titles.
     constraint_indexing:constraint_classification(unclos_2026, snare, context(agent_power(individual_powerful), time_horizon(immediate), exit_options(arbitrage), spatial_scope(global))).
 

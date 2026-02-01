@@ -25,8 +25,8 @@ constraint_claim(industrial_output_advantage, mountain).
 constraint_metric(industrial_output_advantage, accessibility_collapse, 0.95).
 
 % Snare: The Attrition Spiral. Confederate manpower limits and blockade constraints narrowing survival options.
-constraint_claim(manpower_attrition_noose, snare).
-constraint_metric(manpower_attrition_noose, stakes_inflation, 1.0).
+constraint_claim(manpower_attrition_snare, snare).
+constraint_metric(manpower_attrition_snare, stakes_inflation, 1.0).
 
 % Piton: Nullification Doctrine. The dead concept of state sovereignty used to justify secession while draining central C2 capability.
 constraint_claim(nullification_doctrine, piton).

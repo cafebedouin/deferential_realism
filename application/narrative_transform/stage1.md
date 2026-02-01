@@ -310,13 +310,13 @@ Transition:
     χ(C2, I_protagonist) increases from 0.72 to 0.85
     
   For I_dependent:
-    ⊞C2 → ⊟C2 (coordination function lost, becomes Zombie)
+    ⊞C2 → ⊟C2 (coordination function lost, becomes Piton)
     χ(C2, I_dependent) drops from 0.30 to 0.08
     ε(C2) remains at 0.62 (still maintained but no longer functional)
 
 Result:
-  Protagonist: Trapped in pure extraction (Noose)
-  Dependent: Lost benefit source (Zombie)
+  Protagonist: Trapped in pure extraction (Snare)
+  Dependent: Lost benefit source (Piton)
   Both worse off but from different structural failures
 
 Indexical note: Same constraint C2, different failure modes per index.
@@ -437,7 +437,7 @@ Participants: I_protagonist, I_institutional, I_revolutionary
 Classifications:
   Type(C2[I_protagonist]) = ⊞⊠C (Tangled)
   Type(C2[I_institutional]) = ⊞C (Rope)
-  Type(C2[I_revolutionary]) = ⊠C (Noose)
+  Type(C2[I_revolutionary]) = ⊠C (Snare)
 
 Optimal actions per index:
   I_protagonist: Reform(C2) to reduce extraction while preserving coordination
@@ -471,7 +471,7 @@ For I_protagonist:
   
   Inevitability from I_protagonist:
     ■C1 (Mountain) blocks escape routes
-    ⊠C2 (Noose from this index) drains energy
+    ⊠C2 (Snare from this index) drains energy
     Type I error prevents alternative search
     ∴ Only stable point is E = 0
 

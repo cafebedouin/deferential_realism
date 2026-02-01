@@ -35,11 +35,11 @@ constraint_metric(operator_boundedness_friction, suppression_requirement, 0.35).
 constraint_metric(operator_boundedness_friction, snap_back_potential, 0.40).
 constraint_metric(operator_boundedness_friction, extractiveness, 0.52).
 
-constraint_claim(completeness_requirement_noose, snare).
-constraint_metric(completeness_requirement_noose, intensity, 0.96).
-constraint_metric(completeness_requirement_noose, suppression_requirement, 0.88).
-constraint_metric(completeness_requirement_noose, snap_back_potential, 0.92).
-constraint_metric(completeness_requirement_noose, extractiveness, 0.94).
+constraint_claim(completeness_requirement_snare, snare).
+constraint_metric(completeness_requirement_snare, intensity, 0.96).
+constraint_metric(completeness_requirement_snare, suppression_requirement, 0.88).
+constraint_metric(completeness_requirement_snare, snap_back_potential, 0.92).
+constraint_metric(completeness_requirement_snare, extractiveness, 0.94).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, accept_norm_axioms_as_foundational).
@@ -52,7 +52,7 @@ recommendation(rec_03, reform_unbounded_operators_via_graph_norm_scaffolding).
 affects_constraint(rec_03, operator_boundedness_friction).
 
 recommendation(rec_04, cut_incompleteness_via_completion_scaffold).
-affects_constraint(rec_04, completeness_requirement_noose).
+affects_constraint(rec_04, completeness_requirement_snare).
 
 veto_actor(non_measurable_subset).
 veto_exposed(non_measurable_subset, rec_04).

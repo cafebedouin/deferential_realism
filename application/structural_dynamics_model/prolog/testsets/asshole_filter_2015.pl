@@ -168,7 +168,7 @@ test(power_extractiveness_scaling) :-
     constraint_indexing:extractiveness_for_agent(asshole_filter_2015, ContextTransgressor, S2),
     S1 > S2.
 
-test(enforcer_noose_logic) :-
+test(enforcer_snare_logic) :-
     % Institutional power combined with biographical horizon + constrained exit = Snare
     constraint_indexing:constraint_classification(asshole_filter_2015, snare, context(institutional, biographical, constrained, national)).
 

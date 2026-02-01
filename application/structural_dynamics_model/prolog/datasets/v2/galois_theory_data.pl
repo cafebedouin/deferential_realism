@@ -41,11 +41,11 @@ constraint_metric(radical_expression_complexity, snap_back_potential, 0.40).
 constraint_metric(radical_expression_complexity, extractiveness, 0.52).
 
 % NOOSE: Abel-Ruffini Impossibility (The terminal limit for polynomials of degree 5 or higher)
-constraint_claim(quintic_solvability_noose, snare).
-constraint_metric(quintic_solvability_noose, intensity, 0.95).
-constraint_metric(quintic_solvability_noose, suppression_requirement, 0.88).
-constraint_metric(quintic_solvability_noose, snap_back_potential, 0.92).
-constraint_metric(quintic_solvability_noose, extractiveness, 0.94).
+constraint_claim(quintic_solvability_snare, snare).
+constraint_metric(quintic_solvability_snare, intensity, 0.95).
+constraint_metric(quintic_solvability_snare, suppression_requirement, 0.88).
+constraint_metric(quintic_solvability_snare, snap_back_potential, 0.92).
+constraint_metric(quintic_solvability_snare, extractiveness, 0.94).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, accept_the_fundamental_correspondence_as_structural_invariant).
@@ -58,7 +58,7 @@ recommendation(rec_03, reform_root_analysis_via_intermediate_field_scaffold).
 affects_constraint(rec_03, radical_expression_complexity).
 
 recommendation(rec_04, cut_solvability_deadlocks_via_normal_subgroup_scaffold).
-affects_constraint(rec_04, quintic_solvability_noose).
+affects_constraint(rec_04, quintic_solvability_snare).
 
 veto_actor(non_separable_field_characteristic).
 veto_exposed(non_separable_field_characteristic, rec_02).

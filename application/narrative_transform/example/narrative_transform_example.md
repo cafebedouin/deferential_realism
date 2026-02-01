@@ -28,7 +28,7 @@ The system evolves through a phase shift where  and , identifying it as a hard b
 ### INVARIANTS:
 
 1. **State Invariant:**  (The biological change is a Mountain; it remains invariant across all accessible worlds and requires zero enforcement energy to persist).
-2. **Structural Invariant:**  (The Noose relationship is preserved until the extraction point is physically destroyed, maintaining the ratio ).
+2. **Structural Invariant:**  (The Snare relationship is preserved until the extraction point is physically destroyed, maintaining the ratio ).
 3. **Behavioral Invariant:**  (Failure to correctly classify a Mountain as a Mountain leads to terminal energy depletion through impossible resistance).
 
 ---
@@ -41,10 +41,10 @@ The system evolves through a phase shift where  and , identifying it as a hard b
 * **Step 2:** Apply **Rule M (Mountain Identification)**.
 * **Result:** Agent state is confined to a non-negotiable geometry.
 
-**Rule 2: Noose Failure ()**
+**Rule 2: Snare Failure ()**
 
 * **Step 1:** Measure  relative to available agent energy .
-* **Step 2:** If , the Noose snaps back ().
+* **Step 2:** If , the Snare snaps back ().
 * **Result:** Social extraction fails; the agent is reclassified as waste within the family coordination Rope.
 
 **Rule 3: Terminal Equilibrium**
@@ -86,7 +86,7 @@ The system evolves through a phase shift where  and , identifying it as a hard b
 ### FRAME ORIENTATION HINT:
 
 **Suggested Orientation: Constraint-Oriented**
-**Rationale:** The structure is an exploration of absolute limits where agency is nullified by the collision between artificial social Nooses and irreversible biological Mountains.
+**Rationale:** The structure is an exploration of absolute limits where agency is nullified by the collision between artificial social Snares and irreversible biological Mountains.
 
 Would you like me to **generate a similar specification for the family’s economic recovery** to see how they build new Ropes after the agent’s terminal state?
 
@@ -117,7 +117,7 @@ The system evolves through a phase shift where  and , identifying it as a hard b
 ### INVARIANTS:
 
 1. **State Invariant:**  (The biological change is a Mountain; it remains invariant across all accessible worlds and requires zero enforcement energy to persist).
-2. **Structural Invariant:**  (The Noose relationship is preserved until the extraction point is physically destroyed, maintaining the ratio ).
+2. **Structural Invariant:**  (The Snare relationship is preserved until the extraction point is physically destroyed, maintaining the ratio ).
 3. **Behavioral Invariant:**  (Failure to correctly classify a Mountain as a Mountain leads to terminal energy depletion through impossible resistance).
 
 ---
@@ -130,10 +130,10 @@ The system evolves through a phase shift where  and , identifying it as a hard b
 * **Step 2:** Apply **Rule M (Mountain Identification)**.
 * **Result:** Agent state is confined to a non-negotiable geometry.
 
-**Rule 2: Noose Failure ()**
+**Rule 2: Snare Failure ()**
 
 * **Step 1:** Measure  relative to available agent energy .
-* **Step 2:** If , the Noose snaps back ().
+* **Step 2:** If , the Snare snaps back ().
 * **Result:** Social extraction fails; the agent is reclassified as waste within the family coordination Rope.
 
 **Rule 3: Terminal Equilibrium**
@@ -175,7 +175,7 @@ The system evolves through a phase shift where  and , identifying it as a hard b
 ### FRAME ORIENTATION HINT:
 
 **Suggested Orientation: Constraint-Oriented**
-**Rationale:** The structure is an exploration of absolute limits where agency is nullified by the collision between artificial social Nooses and irreversible biological Mountains.
+**Rationale:** The structure is an exploration of absolute limits where agency is nullified by the collision between artificial social Snares and irreversible biological Mountains.
 
 [attached Deferential Realism logic and the Operation stage from uke_axiom.md]
 
@@ -186,7 +186,7 @@ Copilot:
 ## OPERATIONAL SPECIFICATION
 
 **Core Mechanism:**  
-The system describes an agent undergoing an irreversible phase shift from a socially coordinated human node to a biologically fixed “vermin” body, treated as a Mountain in constraint-space. Once this Mountain is instantiated, all downstream dynamics are governed by energy allocation and constraint-types: the agent’s biological state is non-negotiable, while family structures (Ropes/Nooses) reconfigure to route around the now non-functional node. The system deterministically converges to the agent’s termination once misclassification of the Mountain persists, driving impossible resistance and energy depletion.
+The system describes an agent undergoing an irreversible phase shift from a socially coordinated human node to a biologically fixed “vermin” body, treated as a Mountain in constraint-space. Once this Mountain is instantiated, all downstream dynamics are governed by energy allocation and constraint-types: the agent’s biological state is non-negotiable, while family structures (Ropes/Snares) reconfigure to route around the now non-functional node. The system deterministically converges to the agent’s termination once misclassification of the Mountain persists, driving impossible resistance and energy depletion.
 
 ---
 
@@ -229,7 +229,7 @@ The agent’s possible trajectories in \(\Omega\) are now strictly constrained b
 
 ---
 
-#### Rule 2: Noose failure \( (\boxtimes C_{\text{social}}) \)
+#### Rule 2: Snare failure \( (\boxtimes C_{\text{social}}) \)
 
 Let \( C_{\text{social}} \) be the family’s prior coordination structure, with the agent as an economic node (wage laborer, provider, etc.).
 
@@ -250,8 +250,8 @@ Given the biological Mountain, the energy required to maintain the old social ro
 
 **Step 2: Snap-back condition**
 
-From Noose dynamics:
-- If a Noose requires enforcement, and the agent cannot supply the required energy, then when enforcement drops:
+From Snare dynamics:
+- If a Snare requires enforcement, and the agent cannot supply the required energy, then when enforcement drops:
   \[
   \delta(C_{\text{social}}, \Delta t_{\text{stop}}) \to \infty
   \]
@@ -261,7 +261,7 @@ The agent cannot meet the required performance; the family’s extraction struct
 - **Post-failure type:** Waste/encumbrance routed around inside the family Rope (a load but not a node).
 
 **Operational consequence:**  
-The Noose (expectation of productive economic contribution) fails on this node. The family coordination Rope reorganizes around the agent as inert mass: they are not a participant in coordination, only a factor to be contained, hidden, or eventually removed.
+The Snare (expectation of productive economic contribution) fails on this node. The family coordination Rope reorganizes around the agent as inert mass: they are not a participant in coordination, only a factor to be contained, hidden, or eventually removed.
 
 ---
 
@@ -291,7 +291,7 @@ Let:
   E_{\text{family}\to\text{agent}}(t)
   \]
 
-As the Noose fails and the agent is treated as waste, we get:
+As the Snare fails and the agent is treated as waste, we get:
 
 - \(E_{\text{family}\to\text{agent}}(t) \searrow 0\) (care, food, attention, accommodation all decay).
 - The agent’s own reserves are finite. Maintaining basic survival under \(\Box C_{\text{bio}}\) (with impaired mobility, poor access to food, etc.) requires:
@@ -349,7 +349,7 @@ No additional parameters are needed; all dynamics follow from these fixed struct
 1. **State invariant: \(\Box C_{\text{bio}}\)**  
    - **Preservation mechanism:** At every step, all other transformations treat the biological state as non-negotiable. Social and energetic updates adjust around it; no rule attempts to modify or revert it. All operations are conditional on, never acting upon, \(\Box C_{\text{bio}}\).
 
-2. **Structural invariant: Noose ratio \( \varepsilon / \beta \) for social extraction**  
+2. **Structural invariant: Snare ratio \( \varepsilon / \beta \) for social extraction**  
    - **Preservation mechanism:** Until the agent is fully excluded, the family maintains the prior extraction structure: they try to sustain the expectation that the agent should be economically productive. As the agent’s contribution \(\beta(C_{\text{social}}, \text{agent})\) approaches zero or negative while enforcement cost rises, the ratio worsens but the pattern (attempted extraction) holds structurally constant, right up to the point of discarding the agent.
 
 3. **Behavioral invariant: Misclassification → terminal depletion**  
@@ -587,7 +587,7 @@ INPUT FROM STAGE 1:
 ## OPERATIONAL SPECIFICATION
 
 **Core Mechanism:**  
-The system describes an agent undergoing an irreversible phase shift from a socially coordinated human node to a biologically fixed “vermin” body, treated as a Mountain in constraint-space. Once this Mountain is instantiated, all downstream dynamics are governed by energy allocation and constraint-types: the agent’s biological state is non-negotiable, while family structures (Ropes/Nooses) reconfigure to route around the now non-functional node. The system deterministically converges to the agent’s termination once misclassification of the Mountain persists, driving impossible resistance and energy depletion.
+The system describes an agent undergoing an irreversible phase shift from a socially coordinated human node to a biologically fixed “vermin” body, treated as a Mountain in constraint-space. Once this Mountain is instantiated, all downstream dynamics are governed by energy allocation and constraint-types: the agent’s biological state is non-negotiable, while family structures (Ropes/Snares) reconfigure to route around the now non-functional node. The system deterministically converges to the agent’s termination once misclassification of the Mountain persists, driving impossible resistance and energy depletion.
 
 ---
 
@@ -630,7 +630,7 @@ The agent’s possible trajectories in \(\Omega\) are now strictly constrained b
 
 ---
 
-#### Rule 2: Noose failure \( (\boxtimes C_{\text{social}}) \)
+#### Rule 2: Snare failure \( (\boxtimes C_{\text{social}}) \)
 
 Let \( C_{\text{social}} \) be the family’s prior coordination structure, with the agent as an economic node (wage laborer, provider, etc.).
 
@@ -651,8 +651,8 @@ Given the biological Mountain, the energy required to maintain the old social ro
 
 **Step 2: Snap-back condition**
 
-From Noose dynamics:
-- If a Noose requires enforcement, and the agent cannot supply the required energy, then when enforcement drops:
+From Snare dynamics:
+- If a Snare requires enforcement, and the agent cannot supply the required energy, then when enforcement drops:
   \[
   \delta(C_{\text{social}}, \Delta t_{\text{stop}}) \to \infty
   \]
@@ -662,7 +662,7 @@ The agent cannot meet the required performance; the family’s extraction struct
 - **Post-failure type:** Waste/encumbrance routed around inside the family Rope (a load but not a node).
 
 **Operational consequence:**  
-The Noose (expectation of productive economic contribution) fails on this node. The family coordination Rope reorganizes around the agent as inert mass: they are not a participant in coordination, only a factor to be contained, hidden, or eventually removed.
+The Snare (expectation of productive economic contribution) fails on this node. The family coordination Rope reorganizes around the agent as inert mass: they are not a participant in coordination, only a factor to be contained, hidden, or eventually removed.
 
 ---
 
@@ -692,7 +692,7 @@ Let:
   E_{\text{family}\to\text{agent}}(t)
   \]
 
-As the Noose fails and the agent is treated as waste, we get:
+As the Snare fails and the agent is treated as waste, we get:
 
 - \(E_{\text{family}\to\text{agent}}(t) \searrow 0\) (care, food, attention, accommodation all decay).
 - The agent’s own reserves are finite. Maintaining basic survival under \(\Box C_{\text{bio}}\) (with impaired mobility, poor access to food, etc.) requires:
@@ -750,7 +750,7 @@ No additional parameters are needed; all dynamics follow from these fixed struct
 1. **State invariant: \(\Box C_{\text{bio}}\)**  
    - **Preservation mechanism:** At every step, all other transformations treat the biological state as non-negotiable. Social and energetic updates adjust around it; no rule attempts to modify or revert it. All operations are conditional on, never acting upon, \(\Box C_{\text{bio}}\).
 
-2. **Structural invariant: Noose ratio \( \varepsilon / \beta \) for social extraction**  
+2. **Structural invariant: Snare ratio \( \varepsilon / \beta \) for social extraction**  
    - **Preservation mechanism:** Until the agent is fully excluded, the family maintains the prior extraction structure: they try to sustain the expectation that the agent should be economically productive. As the agent’s contribution \(\beta(C_{\text{social}}, \text{agent})\) approaches zero or negative while enforcement cost rises, the ratio worsens but the pattern (attempted extraction) holds structurally constant, right up to the point of discarding the agent.
 
 3. **Behavioral invariant: Misclassification → terminal depletion**  
@@ -798,8 +798,8 @@ Let `□` (necessity) and `◇` (possibility) operate on constraints, not propos
 - Formal: `⊞C ↔ ∃w₁,w₂ ∈ W(C(w₁) ∧ ¬C(w₂)) ∧ Coord(C)`
 - Semantics: C holds in some worlds but not others, enables coordination
 
-**Noose Operator: `⊠C`**
-- "C is a Noose" = C has negative degrees of freedom (artificial restriction)
+**Snare Operator: `⊠C`**
+- "C is a Snare" = C has negative degrees of freedom (artificial restriction)
 - Formal: `⊠C ↔ Enforced(C) ∧ Asymmetric(C) ∧ SnapBack(C)`
 - Semantics: C exists only through enforcement, benefits few, collapses rapidly without maintenance
 
@@ -808,8 +808,8 @@ Let `□` (necessity) and `◇` (possibility) operate on constraints, not propos
 - Formal: `⊡C(t) ↔ ∃t_end(t < t_end ∧ ∀t' > t_end(¬C(t')))`
 - Semantics: C exists temporarily with built-in termination
 
-**Zombie Operator: `⊟C`**
-- "C is a Zombie" = C persists without function or beneficiary
+**Piton Operator: `⊟C`**
+- "C is a Piton" = C persists without function or beneficiary
 - Formal: `⊟C ↔ ∃t(Functional(C, t) ∧ ¬Functional(C, now) ∧ Persists(C))`
 - Semantics: C was once functional but no longer serves purpose
 
@@ -853,13 +853,13 @@ If decay rate is zero, no enforcement needed, and cross-world invariant, then C 
 ```
 If C requires maintenance, has alternatives, and benefits participants without asymmetric extraction, then C is a Rope.
 
-**Rule N (Noose Identification)**
+**Rule N (Snare Identification)**
 ```
 ε(C) > 0 ∧ δ(C, Δt_stop) → ∞ ∧ ∃S,T(∀x∈S(β(C,x)>0) ∧ ∀y∈T(β(C,y)<0) ∧ |S| ≪ |T|)
 ────────────────────────────────────────────────────────────────────────────────
                                   ⊠C
 ```
-If C requires enforcement, snaps back rapidly when enforcement stops, and benefits few at expense of many, then C is a Noose.
+If C requires enforcement, snaps back rapidly when enforcement stops, and benefits few at expense of many, then C is a Snare.
 
 **Rule S (Scaffold Identification)**
 ```
@@ -869,41 +869,41 @@ If C requires enforcement, snaps back rapidly when enforcement stops, and benefi
 ```
 If C requires maintenance, has automatic termination, and serves transitional function, then C is a Scaffold.
 
-**Rule Z (Zombie Identification)**
+**Rule Z (Piton Identification)**
 ```
 ∃t_past(⊞C(t_past)) ∧ ¬Functional(C, now) ∧ ∀x(β(C,x) ≈ 0) ∧ Persists(C)
 ────────────────────────────────────────────────────────────────────────
                               ⊟C
 ```
-If C was once a Rope, no longer serves function, has no clear beneficiaries, but persists, then C is a Zombie.
+If C was once a Rope, no longer serves function, has no clear beneficiaries, but persists, then C is a Piton.
 
 ### B. Transformation Rules
 
-**Rule Degradation (Rope → Noose)**
+**Rule Degradation (Rope → Snare)**
 ```
 ⊞C(t₁) ∧ Capture(C, t₁, t₂) ∧ ∃S(∀x∈S(β(C,x)|_{t₂} > β(C,x)|_{t₁}))
 ────────────────────────────────────────────────────────────────────
                           ⊠C(t₂)
 ```
-A Rope becomes a Noose through capture when beneficiaries concentrate.
+A Rope becomes a Snare through capture when beneficiaries concentrate.
 
-**Rule Obsolescence (Rope → Zombie)**
+**Rule Obsolescence (Rope → Piton)**
 ```
 ⊞C(t₁) ∧ EnvChange(t₁, t₂) ∧ ¬Functional(C, t₂) ∧ ¬Capture(C, t₁, t₂)
 ───────────────────────────────────────────────────────────────────
                           ⊟C(t₂)
 ```
-A Rope becomes a Zombie when environment changes make it non-functional without capture.
+A Rope becomes a Piton when environment changes make it non-functional without capture.
 
-**Rule Calcification (Scaffold → Noose)**
+**Rule Calcification (Scaffold → Snare)**
 ```
 ⊡C(t) ∧ t > t_end ∧ ¬Terminated(C) ∧ ∃S(∀x∈S(β(C,x) > 0))
 ──────────────────────────────────────────────────────────
                         ⊠C(t)
 ```
-A Scaffold becomes a Noose if it persists past sunset and develops beneficiaries.
+A Scaffold becomes a Snare if it persists past sunset and develops beneficiaries.
 
-**Rule Discovery (Claimed Mountain → Actual Rope/Noose)**
+**Rule Discovery (Claimed Mountain → Actual Rope/Snare)**
 ```
 Claimed(■C) ∧ (ε(C) > 0 ∨ δ(C, Δt) > 0)
 ─────────────────────────────────────────
@@ -929,13 +929,13 @@ If C₁ is necessary and logically implies C₂, then C₂ is necessary.
 ```
 Compatible Ropes can be composed into compound Ropes.
 
-**Extraction Dominance (Nooses corrupt)**
+**Extraction Dominance (Snares corrupt)**
 ```
 ⊞C₁ ∧ ⊠C₂ ∧ Embedded(C₂, C₁)
 ────────────────────────────
       ⊠(C₁ ∧ C₂)
 ```
-When a Noose is embedded in a Rope, the whole system becomes extractive.
+When a Snare is embedded in a Rope, the whole system becomes extractive.
 
 ---
 
@@ -971,7 +971,7 @@ Error: Accept hierarchy as natural → Enable extraction
 Cost: Freedom sacrificed to false necessity
 ```
 
-### B. Type II Error: False Rope/Noose (Mountain Denial)
+### B. Type II Error: False Rope/Snare (Mountain Denial)
 
 **Formal:**
 ```
@@ -1000,7 +1000,7 @@ Error: Fight Mountain → Waste energy → Policy failure
 Cost: Resources spent on impossible, real problems neglected
 ```
 
-### C. Type III Error: Noose Misclassified as Rope
+### C. Type III Error: Snare Misclassified as Rope
 
 **Formal:**
 ```
@@ -1009,7 +1009,7 @@ Believe(⊞C) ∧ ⊠C → Maintained(Extraction) ∧ Normalized(Oppression)
 
 **Consequence Chain:**
 ```
-⊠C (actual Noose)
+⊠C (actual Snare)
   → Believe(⊞C) (misclassified as Rope)
   → Maintain(C) (preserve extraction)
   → Enable(β(C, oppressor) > 0) (extraction continues)
@@ -1030,7 +1030,7 @@ Error: Defend as Rope → Maintain extraction
 Cost: Access denied, innovation blocked, extraction normalized
 ```
 
-### D. Type IV Error: Rope Misclassified as Noose
+### D. Type IV Error: Rope Misclassified as Snare
 
 **Formal:**
 ```
@@ -1040,7 +1040,7 @@ Believe(⊠C) ∧ ⊞C → Destroyed(Coordination) ∧ Created(Chaos)
 **Consequence Chain:**
 ```
 ⊞C (actual Rope)
-  → Believe(⊠C) (misclassified as Noose)
+  → Believe(⊠C) (misclassified as Snare)
   → Cut(C) (destroy coordination)
   → Coord_Failure (problem unsolved)
   → Worse_Outcome (than before)
@@ -1049,7 +1049,7 @@ Believe(⊠C) ∧ ⊞C → Destroyed(Coordination) ∧ Created(Chaos)
 **Error Cost: Moderate to Severe**
 - Destroy functional coordination
 - Create problems by removing solutions
-- Enable actual Nooses to fill vacuum
+- Enable actual Snares to fill vacuum
 - Alienate potential allies
 
 **Example:**
@@ -1060,7 +1060,7 @@ Error: Remove Rope → Coordination collapse
 Cost: Unsafe products, race to bottom, worse outcomes
 ```
 
-### E. Type V Error: Zombie Misclassified as Noose
+### E. Type V Error: Piton Misclassified as Snare
 
 **Formal:**
 ```
@@ -1069,17 +1069,17 @@ Believe(⊠C) ∧ ⊟C → Wasted(Political_Capital) ∧ Fight(Ghosts)
 
 **Consequence Chain:**
 ```
-⊟C (actual Zombie)
-  → Believe(⊠C) (misclassified as Noose)
+⊟C (actual Piton)
+  → Believe(⊠C) (misclassified as Snare)
   → Political_Fight(C) (treat as conspiracy)
   → Energy(wasted on ghost)
-  → Real_Nooses(ignored)
+  → Real_Snares(ignored)
 ```
 
 **Error Cost: Moderate (Opportunity)**
 - Waste political capital fighting inertia
 - Alienate potential allies with conspiracy theories
-- Miss actual Nooses while fighting zombies
+- Miss actual Snares while fighting pitons
 - Simple bypass becomes complex resistance
 
 **Example:**
@@ -1138,7 +1138,7 @@ V(t) pointing toward ■C ∧ ¬Intervention
 ■C → ∀attempts(Change(C) → Failure)
 ```
 
-**Nooses define enforced boundaries:**
+**Snares define enforced boundaries:**
 ```
 ⊠C → (Attempt(Cross) → Enforcement) ∧ (Stop(Enforcement) → Boundary(vanishes))
 ```
@@ -1156,15 +1156,15 @@ V(t) pointing toward ■C ∧ ¬Intervention
 ```
 ■C ∧ ⊠C' ∧ (C ⊢ ¬C') → Eventually(¬C')
 ```
-**Proof sketch:** Mountains override Nooses. If a Mountain logically contradicts a Noose, the Noose will eventually collapse (enforcement cannot overcome physics).
+**Proof sketch:** Mountains override Snares. If a Mountain logically contradicts a Snare, the Snare will eventually collapse (enforcement cannot overcome physics).
 
 **Implication:** Reality has veto power over power.
 
-### Theorem 2: Noose Instability
+### Theorem 2: Snare Instability
 ```
 ⊠C ∧ ε(C) = 0 → Rapid(¬C)
 ```
-**Proof sketch:** By definition, Nooses require enforcement. Remove enforcement (ε = 0), and C vanishes rapidly (snap-back).
+**Proof sketch:** By definition, Snares require enforcement. Remove enforcement (ε = 0), and C vanishes rapidly (snap-back).
 
 **Implication:** Extraction is unstable—it requires constant energy to maintain artificial constraints.
 
@@ -1172,17 +1172,17 @@ V(t) pointing toward ■C ∧ ¬Intervention
 ```
 ⊠C₁ ∧ Load_Bearing(C₁) ∧ Desired(¬C₁) → Requires(⊡C₂)
 ```
-**Proof sketch:** Cannot remove load-bearing Noose without replacement. Requires temporary Scaffold to prevent collapse during transition.
+**Proof sketch:** Cannot remove load-bearing Snare without replacement. Requires temporary Scaffold to prevent collapse during transition.
 
 **Implication:** Safe change requires transition management, not just removal.
 
-### Theorem 4: Zombie Inefficiency
+### Theorem 4: Piton Inefficiency
 ```
 ⊟C → (ε(C) > 0 ∧ ∀x(β(C,x) ≤ 0))
 ```
-**Proof sketch:** By definition, Zombies consume energy (maintenance) without producing benefit (no positive β). This is pure inefficiency.
+**Proof sketch:** By definition, Pitons consume energy (maintenance) without producing benefit (no positive β). This is pure inefficiency.
 
-**Implication:** Maintaining Zombies is waste—they should be deleted.
+**Implication:** Maintaining Pitons is waste—they should be deleted.
 
 ### Theorem 5: Classification Convergence
 ```
@@ -1198,10 +1198,10 @@ Cost(Type_I_Error) ≈ Cost(Type_III_Error) > Cost(Type_V_Error) > Cost(Type_II_
 ```
 **Proof sketch:** 
 - Type I (false Mountain): Surrender agency → severe
-- Type III (Noose as Rope): Maintain extraction → severe
-- Type V (Zombie as Noose): Waste political capital → moderate
+- Type III (Snare as Rope): Maintain extraction → severe
+- Type V (Piton as Snare): Waste political capital → moderate
 - Type II (false Rope): Waste energy → variable
-- Type IV (Rope as Noose): Destroy coordination → moderate to severe
+- Type IV (Rope as Snare): Destroy coordination → moderate to severe
 
 **Implication:** When uncertain, err toward avoiding Type I and Type III errors.
 
@@ -1209,7 +1209,7 @@ Cost(Type_I_Error) ≈ Cost(Type_III_Error) > Cost(Type_V_Error) > Cost(Type_II_
 ```
 Power(X, Y) ↔ Control(X, Belief(Y, Type(C)))
 ```
-**Proof sketch:** Power is the capacity to control others' beliefs about constraint-types. Make them believe Nooses are Mountains (false necessity), or Mountains are negotiable (dangerous hubris).
+**Proof sketch:** Power is the capacity to control others' beliefs about constraint-types. Make them believe Snares are Mountains (false necessity), or Mountains are negotiable (dangerous hubris).
 
 **Implication:** Power operates metaphysically by controlling classification beliefs.
 
@@ -1252,13 +1252,13 @@ Accept ≫ Build_Scaffold ≫ (Cut ∨ Exit) ≫ Maintain ≫ Bypass ≫ Reform
 **Composition Rules:**
 ```
 Accept(■C) ⊕ Cut(⊠C') = Navigate(■C) ∧ Resist(⊠C')
-  [Can accept Mountains while cutting Nooses]
+  [Can accept Mountains while cutting Snares]
 
 Cut(⊠C₁) ⊕ Build(⊡C₂) = Safe_Transition(C₁ → ¬C₁)
-  [Cutting Noose requires Scaffold if load-bearing]
+  [Cutting Snare requires Scaffold if load-bearing]
 
 Maintain(⊞C) ⊕ Bypass(⊟C') = Efficient_Coordination
-  [Keep functional Ropes, ignore Zombies]
+  [Keep functional Ropes, ignore Pitons]
 ```
 
 ### C. Energy Accounting
@@ -1274,9 +1274,9 @@ Optimal: Minimize(E_total) subject to Maximize(Agency)
 ```
 E(■C) = 0           [Mountains need no energy to accept]
 E(⊞C) = O(log n)    [Ropes need occasional maintenance]
-E(⊠C) = O(n)        [Nooses need active resistance]
+E(⊠C) = O(n)        [Snares need active resistance]
 E(⊡C) = O(n)        [Scaffolds need careful management]
-E(⊟C) = O(1)        [Zombies need simple bypass]
+E(⊟C) = O(1)        [Pitons need simple bypass]
 ```
 
 **Implication:**
@@ -1348,11 +1348,11 @@ If you don't update when reality contradicts your classification, you're not pra
 
 ### Proof 1: Why Revolutions Often Fail
 
-**Claim:** Cutting load-bearing Noose without Scaffold leads to worse outcome.
+**Claim:** Cutting load-bearing Snare without Scaffold leads to worse outcome.
 
 **Proof:**
 ```
-1. ⊠C₁ ∧ Load_Bearing(C₁)         [Premise: C₁ is load-bearing Noose]
+1. ⊠C₁ ∧ Load_Bearing(C₁)         [Premise: C₁ is load-bearing Snare]
 2. Cut(C₁) ∧ ¬Build(⊡C₂)          [Premise: Cut without Scaffold]
 3. Cut(C₁) → ¬Exists(C₁)          [Definition of Cut]
 4. Load_Bearing(C₁) ∧ ¬Exists(C₁) → Collapse [Theorem 3]
@@ -1381,12 +1381,12 @@ If you don't update when reality contradicts your classification, you're not pra
 
 ### Proof 3: Why Power Hides as Nature
 
-**Claim:** Nooses benefit from being misclassified as Mountains.
+**Claim:** Snares benefit from being misclassified as Mountains.
 
 **Proof:**
 ```
-1. ⊠C ∧ Benefit(X, C)                      [X benefits from Noose C]
-2. ⊠C → Should(Cut(C)) ∨ Should(Exit(C))  [Ethical response to Nooses]
+1. ⊠C ∧ Benefit(X, C)                      [X benefits from Snare C]
+2. ⊠C → Should(Cut(C)) ∨ Should(Exit(C))  [Ethical response to Snares]
 3. ■C → Should(Accept(C))                  [Ethical response to Mountains]
 4. Believe(■C) → Accept(C) ∧ ¬Cut(C)      [From 3]
 5. ¬Cut(C) → Continue(Benefit(X, C))      [If not cut, extraction continues]
@@ -1394,7 +1394,7 @@ If you don't update when reality contradicts your classification, you're not pra
 7. Rational(X) → Promote(Believe(■C))     [X rationally promotes false belief]
 ```
 
-**Implication:** Power has systematic incentive to naturalize itself—claim Nooses are Mountains.
+**Implication:** Power has systematic incentive to naturalize itself—claim Snares are Mountains.
 
 ---
 

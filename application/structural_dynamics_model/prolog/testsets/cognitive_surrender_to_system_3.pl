@@ -170,7 +170,7 @@ test(surrender_accuracy_signature) :-
     % This demonstrates the asymmetric extraction of the Snare.
     assertion(domain_priors:base_extractiveness(cognitive_surrender_to_system_3, 0.65)).
 
-test(moderator_shift_rope_to_noose) :-
+test(moderator_shift_rope_to_snare) :-
     % Time pressure (Study 2) reduces exit options, shifting classification to Snare.
     constraint_indexing:constraint_classification(cognitive_surrender_to_system_3, snare, context(individual_powerless, immediate, trapped, _)),
     % Incentives + Feedback (Study 3) increase "mobile" exit options (override), shifting toward Rope.

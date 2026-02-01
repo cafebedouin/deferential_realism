@@ -287,7 +287,7 @@ Example: "Must please parents" (childhood substrate) → Independence (transitio
 
 **The clearing practice:** Acknowledge what it was (functional), recognize what it is (obsolete), release without shame. The pattern served you once. It doesn't serve you now. Let it go.
 
-**Terminology note:** Previously "Detritus/Zombie constraints." "Abandoned Camps" better captures the metaphor—old base camps you established during earlier ascents, now empty and draining energy if you keep maintaining them.
+**Terminology note:** Previously "Detritus/Piton constraints." "Abandoned Camps" better captures the metaphor—old base camps you established during earlier ascents, now empty and draining energy if you keep maintaining them.
 
 ---
 

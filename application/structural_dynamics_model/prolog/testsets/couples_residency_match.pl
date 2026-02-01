@@ -170,7 +170,7 @@ constraint_indexing:constraint_classification(
 
 :- begin_tests(couples_match_tests).
 
-test(complexity_noose) :-
+test(complexity_snare) :-
     % Linked lists (trapped) = Snare
     constraint_indexing:constraint_classification(couples_residency_match, snare, context(_, _, trapped, _)).
 

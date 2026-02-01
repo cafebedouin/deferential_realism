@@ -12,14 +12,14 @@
 
 Cynicism says "everything is corrupt, nothing can change, why bother?" Deferential Realism says:
 - **Mountains exist** (some things genuinely can't change) → Accept these to conserve energy
-- **Nooses exist** (some things are extractive and changeable) → Fight these strategically
+- **Snares exist** (some things are extractive and changeable) → Fight these strategically
 - **Knowing the difference** prevents both false fatalism (giving up on changeable injustice) and dangerous hubris (fighting unchangeable reality)
 
 The framework **increases agency** by helping you spend finite energy on battles you can actually win.
 
-**Example:** "Gravity is real" (Mountain) → don't try to fly by flapping your arms. "Unjust laws are constructed" (Noose) → civil disobedience, reform advocacy, strategic resistance are all valid responses.
+**Example:** "Gravity is real" (Mountain) → don't try to fly by flapping your arms. "Unjust laws are constructed" (Snare) → civil disobedience, reform advocacy, strategic resistance are all valid responses.
 
-Cynicism collapses everything into "it's all rigged, resistance is futile." Deferential Realism distinguishes rigged systems (Nooses) from natural constraints (Mountains) precisely to enable effective resistance.
+Cynicism collapses everything into "it's all rigged, resistance is futile." Deferential Realism distinguishes rigged systems (Snares) from natural constraints (Mountains) precisely to enable effective resistance.
 
 ---
 
@@ -63,7 +63,7 @@ Cynicism collapses everything into "it's all rigged, resistance is futile." Defe
 **No. Neither markets nor governments are categorically good/bad.**
 
 **Libertarian confusion:**
-- Libertarians often call government regulations "Nooses" and market arrangements "Ropes"
+- Libertarians often call government regulations "Snares" and market arrangements "Ropes"
 - DR says: **Both can be either**, depending on actual function
 
 **Examples of libertarian misclassification:**
@@ -73,14 +73,14 @@ Cynicism collapses everything into "it's all rigged, resistance is futile." Defe
 - Environmental protection preventing tragedy of the commons
 - Basic research funding (market failure in public goods)
 
-**Markets can be Noose:**
+**Markets can be Snare:**
 - Monopoly/oligopoly power extracting rents
 - Regulatory capture by incumbents
 - Artificial scarcity through IP abuse
 
 **The framework is neutral** on government-vs.-market debates. It asks:
 - "Does this solve a genuine coordination problem?" (Rope signal)
-- "Who benefits asymmetrically?" (Noose signal)
+- "Who benefits asymmetrically?" (Snare signal)
 - "What happens when enforcement stops?" (Decay test)
 
 Both states and markets can create extractive structures. Both can create beneficial coordination. The category depends on **actual function**, not ideological labels.
@@ -105,7 +105,7 @@ Both states and markets can create extractive structures. Both can create benefi
 
 **Same structure in DR:**
 - Carbon credits are Mountain for powerless consumer (can't change, must accept)
-- Carbon credits are Noose for policy analyst (extractive structure, could be reformed)
+- Carbon credits are Snare for policy analyst (extractive structure, could be reformed)
 - Both classifications are **objectively true**
 - No contradiction because they're indexed to different positions
 
@@ -161,7 +161,7 @@ This is closer to **perspectival realism in science** than to postmodern relativ
 
 **The problem:**
 - Mountains are easiest to verify (anyone can test gravity safely)
-- Nooses are hardest to verify (testing risks consequences from beneficiaries)
+- Snares are hardest to verify (testing risks consequences from beneficiaries)
 - Where you most need accurate classification, measurement is most dangerous
 
 **Three strategies:**
@@ -171,7 +171,7 @@ This is closer to **perspectival realism in science** than to postmodern relativ
 - Compare systems across contexts (countries, organizations, time periods)
 - Learn from others' experiments rather than conducting your own
 
-**Example:** Want to know if professional licensing is Rope or Noose? Compare jurisdictions with/without requirements. What happens to quality, access, costs?
+**Example:** Want to know if professional licensing is Rope or Snare? Compare jurisdictions with/without requirements. What happens to quality, access, costs?
 
 **2. Theoretical analysis**
 - Use the Six-Test Battery (see `epistemology.md`)
@@ -204,7 +204,7 @@ This is closer to **perspectival realism in science** than to postmodern relativ
 
 **Example:**
 - "Pharmaceutical patents are necessary for innovation" → Who benefits? Patent holders. Suspect False Mountain.
-- "Drugs require testing for safety" → Who benefits? Everyone who takes drugs. Likely real constraint (Mountain substrate, even if implementation has Rope/Noose elements).
+- "Drugs require testing for safety" → Who benefits? Everyone who takes drugs. Likely real constraint (Mountain substrate, even if implementation has Rope/Snare elements).
 
 **Test 2: Historical check**
 - Ask: "When did this 'natural law' begin?"
@@ -225,7 +225,7 @@ This is closer to **perspectival realism in science** than to postmodern relativ
 - "Economic activity requires energy" → No alternative to thermodynamics. Mountain.
 
 **Framework position:**
-- False fatalism (calling Nooses "Mountains") is a **real risk**
+- False fatalism (calling Snares "Mountains") is a **real risk**
 - Self-doubt is appropriate, not paranoia
 - Use the tests systematically rather than trusting intuition
 - When uncertain, mark as Ω and investigate further
@@ -247,31 +247,31 @@ This is closer to **perspectival realism in science** than to postmodern relativ
 **Diagnostic questions:**
 
 **1. Remove the extraction—does coordination collapse?**
-- If YES → probably pure Noose disguised as Rope
+- If YES → probably pure Snare disguised as Rope
 - If NO → genuine Tangled Rope (coordination survives without extraction)
 
 **Example:**
 - Patent system: Remove evergreening/trolls (extraction) → basic IP protection still functions (coordination). Tangled Rope.
-- HOA rules that coincidentally benefit board members' properties → Remove self-dealing → does genuine coordination remain? If not, pure Noose.
+- HOA rules that coincidentally benefit board members' properties → Remove self-dealing → does genuine coordination remain? If not, pure Snare.
 
 **2. Do powerless participants get coordination benefits?**
 - If YES → likely genuine Rope with extractive capture (Tangled Rope)
-- If NO → probably pure Noose with coordination justification (False Rope)
+- If NO → probably pure Snare with coordination justification (False Rope)
 
 **Example:**
 - Carbon credits: Small businesses do get climate action (some coordination), even though they pay disproportionate costs. Tangled Rope.
-- Occupational licensing that blocks entry without improving quality: No coordination benefit for excluded workers. Noose.
+- Occupational licensing that blocks entry without improving quality: No coordination benefit for excluded workers. Snare.
 
 **3. Historical analysis: Was this functional before capture?**
 - If YES → Tangled Rope (Rope that degraded as power concentrated)
-- If NO → Noose from inception (extraction disguised as coordination)
+- If NO → Snare from inception (extraction disguised as coordination)
 
 **Example:**
 - Financial regulation: Was functional in 1930s-1980s, then captured by industry. Tangled Rope.
-- Certain professional associations: Created by incumbents to restrict entry from day one. Noose.
+- Certain professional associations: Created by incumbents to restrict entry from day one. Snare.
 
 **Practice strategy:**
-1. Start with clear cases (pure Mountains, pure Nooses)
+1. Start with clear cases (pure Mountains, pure Snares)
 2. Build intuition for coordination vs. extraction signals
 3. Graduate to ambiguous Tangled Rope classifications
 4. Accept that many real-world cases are genuinely hybrid
@@ -288,20 +288,20 @@ This is closer to **perspectival realism in science** than to postmodern relativ
 "What happens if everyone ignores this?"
 - Reality collapses → Mountain → accept
 - Coordination fails → Rope → maintain
-- Artificial scarcity ends → Noose → resist
-- Nothing changes → Zombie → reform
+- Artificial scarcity ends → Snare → resist
+- Nothing changes → Piton → reform
 
 **Step 2: Beneficiary test**
 "Who wins if this persists?"
 - Everyone → Rope
-- Specific group → Noose
-- No one → Zombie
+- Specific group → Snare
+- No one → Piton
 
 **Step 3: Act**
 - Mountain → conserve energy, navigate
 - Rope → maintain or improve
-- Noose → expose, resist when possible
-- Zombie → administrative reform
+- Snare → expose, resist when possible
+- Piton → administrative reform
 
 **That's it. Three questions, 30 seconds.**
 
@@ -333,7 +333,7 @@ Use `quick_reference.md` as decision-support tool. Keep it printed at your desk.
 
 **1. Collision evidence**
 - Same constraint requires different categories from same index
-- Example: "This is simultaneously Mountain AND Noose from powerless/biographical/trapped/national"
+- Example: "This is simultaneously Mountain AND Snare from powerless/biographical/trapped/national"
 - Would indicate four categories are insufficient
 
 **2. Pattern mining discovery**
@@ -349,7 +349,7 @@ Use `quick_reference.md` as decision-support tool. Keep it printed at your desk.
 
 **Scaffold** - Currently treated as temporal qualifier (temporary Rope), not distinct category. If permanence drift is systematic rather than exceptional, might justify elevation.
 
-**Zombie Rope** - Currently treated as degradation state (decayed Rope), not distinct category. If formation dynamics are distinct from Rope decay, might justify elevation.
+**Piton** - Currently treated as degradation state (decayed Rope), not distinct category. If formation dynamics are distinct from Rope decay, might justify elevation.
 
 **Framework position:** Start with minimal sufficient set. Add categories only when empirical evidence demands it. Four + Tangled Rope currently sufficient for 467 constraints analyzed.
 
@@ -440,9 +440,9 @@ See `validation_report.md` Finding 6 for complete calibration methodology.
 **Framework abuse potential:**
 
 **Bad faith Mountain claims:**
-- "Wealth inequality is a Mountain" → Actually constructed Noose
-- "Gender hierarchy is a Mountain" → Actually constructed Noose
-- "My power over you is a Mountain" → Actually constructed Noose
+- "Wealth inequality is a Mountain" → Actually constructed Snare
+- "Gender hierarchy is a Mountain" → Actually constructed Snare
+- "My power over you is a Mountain" → Actually constructed Snare
 
 **These are False Mountains** - constructed constraints disguised as natural. The framework **provides tools to detect this fraud** (see `quick_reference.md` Detection Patterns).
 
@@ -493,7 +493,7 @@ See `validation_report.md` Finding 6 for complete calibration methodology.
 - Give up entirely ("nothing can change")
 - Example: Fighting gravity, thermodynamics, logical necessity
 
-**2. Passivity (accepting Nooses)**
+**2. Passivity (accepting Snares)**
 - Surrender to changeable injustice
 - Accept extraction as "natural"
 - Enable perpetuation of oppression
@@ -501,12 +501,12 @@ See `validation_report.md` Finding 6 for complete calibration methodology.
 
 **Energy conservation prevents BOTH:**
 - Don't fight Mountains → conserve energy for actual battles
-- DO fight Nooses → spend conserved energy strategically
+- DO fight Snares → spend conserved energy strategically
 
 **Example - Civil Rights Movement:**
 - **Mountain:** "Humans form in-groups and out-groups" (biological tendency)
-- **Noose:** "Jim Crow laws enforcing racial segregation" (constructed extraction)
-- **Strategy:** Accept in-group psychology exists (Mountain), but **fight the legal structures** exploiting it (Noose)
+- **Snare:** "Jim Crow laws enforcing racial segregation" (constructed extraction)
+- **Strategy:** Accept in-group psychology exists (Mountain), but **fight the legal structures** exploiting it (Snare)
 - **Energy conservation:** Don't waste time trying to eliminate all human bias (impossible). Do spend time dismantling legal segregation (possible, achieved).
 
 **Framework position:**
@@ -514,7 +514,7 @@ See `validation_report.md` Finding 6 for complete calibration methodology.
 - It's **recognizing unchangeable constraints** so you can fight changeable injustice effectively
 - Energy conservation **enables sustained resistance**, not passivity
 
-**Martin Luther King Jr. understood this:** "We must accept finite disappointment, but never lose infinite hope." Mountains are finite disappointment. Changing Nooses is infinite hope.
+**Martin Luther King Jr. understood this:** "We must accept finite disappointment, but never lose infinite hope." Mountains are finite disappointment. Changing Snares is infinite hope.
 
 ---
 
@@ -573,12 +573,12 @@ See `validation_report.md` Finding 6 for complete calibration methodology.
 **Who benefits:**
 
 **1. Individuals under extractive constraints**
-- Gain vocabulary to name Nooses vs. Mountains
+- Gain vocabulary to name Snares vs. Mountains
 - Can distinguish "this is oppression" from "this is physics"
 - Enables strategic resistance instead of exhausted burnout
 
 **2. Organizations needing constraint clarity**
-- Can distinguish regulatory Ropes from regulatory Nooses
+- Can distinguish regulatory Ropes from regulatory Snares
 - Improves policy analysis and strategy
 - Reduces false fatalism ("we have no choice") in leadership
 
@@ -599,8 +599,8 @@ See `validation_report.md` Finding 6 for complete calibration methodology.
 - Open source nature (anyone can challenge, verify, falsify)
 
 **Who might oppose this framework:**
-- Those benefiting from conflating Mountains and Nooses (naturalization as control)
-- Those benefiting from conflating Nooses and Mountains (cynicism as control)
+- Those benefiting from conflating Mountains and Snares (naturalization as control)
+- Those benefiting from conflating Snares and Mountains (cynicism as control)
 - Both want ambiguity preserved
 
 **Framework position:** Clear classification **threatens power that relies on ambiguity**. If powerful actors start using this framework defensively, that's signal it's working (they're forced to drop naturalization claims, argue on merits instead).
@@ -654,7 +654,7 @@ See `validation_report.md` Finding 6 for complete calibration methodology.
 **Current known issues requiring future revision:**
 - Cross-cultural validation (may require category adjustment)
 - Temporal dynamics (Rope → Tangled Rope transitions not well specified)
-- Zombie Rope status (degradation state vs. distinct category)
+- Piton status (degradation state vs. distinct category)
 - Scaffold permanence drift (systematic pattern vs. exceptional failure)
 
 ---
@@ -708,7 +708,7 @@ These FAQs reveal a pattern: **Most objections stem from either misunderstanding
 **Actual framework logic:**
 1. Classification determines **WHAT** something is (epistemology)
 2. Ethics determines **WHAT TO DO** about it (separate domain)
-3. Some injustices are Mountains (unchangeable), some are Nooses (changeable)
+3. Some injustices are Mountains (unchangeable), some are Snares (changeable)
 4. Energy conservation means fighting the changeable ones strategically
 
 **If you still have objections not covered here:**

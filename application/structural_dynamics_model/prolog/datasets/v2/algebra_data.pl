@@ -40,11 +40,11 @@ constraint_metric(existence_vs_construction_friction, snap_back_potential, 0.40)
 constraint_metric(existence_vs_construction_friction, extractiveness, 0.52).
 
 % NOOSE: Real Field Incompleteness
-constraint_claim(real_field_limit_noose, snare).
-constraint_metric(real_field_limit_noose, intensity, 0.95).
-constraint_metric(real_field_limit_noose, suppression_requirement, 0.88).
-constraint_metric(real_field_limit_noose, snap_back_potential, 0.92).
-constraint_metric(real_field_limit_noose, extractiveness, 0.94).
+constraint_claim(real_field_limit_snare, snare).
+constraint_metric(real_field_limit_snare, intensity, 0.95).
+constraint_metric(real_field_limit_snare, suppression_requirement, 0.88).
+constraint_metric(real_field_limit_snare, snap_back_potential, 0.92).
+constraint_metric(real_field_limit_snare, extractiveness, 0.94).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, accept_the_algebraic_closure_of_complex_numbers_as_invariant).
@@ -57,7 +57,7 @@ recommendation(rec_03, reform_root_finding_logic_via_splitting_field_scaffold).
 affects_constraint(rec_03, existence_vs_construction_friction).
 
 recommendation(rec_04, cut_real_number_limitations_via_analytic_continuation_scaffold).
-affects_constraint(rec_04, real_field_limit_noose).
+affects_constraint(rec_04, real_field_limit_snare).
 
 veto_actor(strict_finitist_algebraist).
 veto_exposed(strict_finitist_algebraist, rec_04).

@@ -46,7 +46,7 @@ cat reference_materials/deferential_realism_logic.md >> stage_0_extraction/input
 ```
 
 **Validation:**
-- Search output for "Mountain"/"Rope"/"Noose" in descriptions (not classifications)
+- Search output for "Mountain"/"Rope"/"Snare" in descriptions (not classifications)
 - If found: Framework leaked, need to regenerate
 
 ### Step 2: Stage 1 (Copilot)
@@ -79,7 +79,7 @@ cat stage_1_specification/output_easy.md >> stage_2_context/input_easy.md
 ```
 
 **Validation (MOST IMPORTANT):**
-- Search for "Mountain"/"Rope"/"Noose"/"constraint" - if found, FAILED
+- Search for "Mountain"/"Rope"/"Snare"/"constraint" - if found, FAILED
 - Check cultural specificity (actual year, city, ethnic group?)
 - Verify constraints feel inevitable, not imposed
 - This is where worked_example.md failed

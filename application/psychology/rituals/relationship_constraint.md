@@ -31,7 +31,7 @@ This worked example shows the complete P-DR protocol applied to a common relatio
 
 **Result:** No clear Mountain indicators. Move to next test.
 
-### Testing for Detritus (Zombie Constraint)
+### Testing for Detritus (Piton Constraint)
 
 **Detritus indicators would be:**
 - Pattern repeats across multiple relationships
@@ -278,7 +278,7 @@ Didn't know my "need for slower pacing" was substrate until I cleared the detrit
 
 ### 5. Cleared Detritus Doesn't Mean No Limits
 
-Clearing the fear-based pattern revealed actual limits (pacing need). But these are navigable substrate, not zombie constraints.
+Clearing the fear-based pattern revealed actual limits (pacing need). But these are navigable substrate, not piton constraints.
 
 ## For Your Own Practice
 

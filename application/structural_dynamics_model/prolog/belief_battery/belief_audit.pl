@@ -9,7 +9,7 @@
     audit/1,
     audit_detailed/1,
     audit_all/0,
-    find_nooses/0,
+    find_snares/0,
     show_cascades/1,
     belief_summary/0,
     compare_to_institution/1
@@ -154,7 +154,7 @@ audit_all :-
     
     format('~n  POWER & SYSTEMS:~n'),
     forall(
-        member(B, [power_structures_natural, participation_in_nooses]),
+        member(B, [power_structures_natural, participation_in_snares]),
         format('    ⊞ ~w~n', [B])
     ),
     
@@ -202,10 +202,10 @@ audit_all :-
     
     % Extraction points
     format('~n[EXTRACTION POINT DETECTION]~n'),
-    format('Nooses commonly claimed as Mountains:~n~n'),
+    format('Snares commonly claimed as Mountains:~n~n'),
     findall(E, type_1_error(E), Errors),
     length(Errors, ErrorCount),
-    format('Found ~d institutional Nooses:~n~n', [ErrorCount]),
+    format('Found ~d institutional Snares:~n~n', [ErrorCount]),
     forall(
         type_1_error(B),
         (format('  ⚠️  ~w~n', [B]),
@@ -216,17 +216,17 @@ audit_all :-
 
 % --- 4. NOOSE DETECTION ---
 
-%% find_nooses
+%% find_snares
 % Specifically identifies extraction points
-find_nooses :-
+find_snares :-
     format('~n╔══════════════════════════════════════════════════════════════╗~n'),
     format('║           EXTRACTION POINT DETECTION                        ║~n'),
     format('╚══════════════════════════════════════════════════════════════╝~n~n'),
     
     format('Searching for Type I Errors (False Mountains)...~n~n'),
     
-    findall(B, type_1_error(B), Nooses),
-    length(Nooses, Count),
+    findall(B, type_1_error(B), Snares),
+    length(Snares, Count),
     format('Found ~d extraction mechanisms:~n~n', [Count]),
     
     forall(

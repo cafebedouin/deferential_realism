@@ -297,11 +297,11 @@ These are not universal moral duties. They are **practices that serve specific v
 
 ### Virtue 5: Maintenance (For Those Who Value Resource Stewardship)
 
-**The Value:** Strategic energy allocation (investing finite resources in functional constraints, eliminating zombies)
+**The Value:** Strategic energy allocation (investing finite resources in functional constraints, eliminating pitons)
 
 **The Practice:** Active maintenance of Ropes, monitoring for degradation, ruthless elimination of Pitons, honoring Scaffold sunsets.
 
-**Conditional statement:** IF you value effective use of finite energy, THEN maintaining functional constraints while eliminating zombies maximizes available capacity.
+**Conditional statement:** IF you value effective use of finite energy, THEN maintaining functional constraints while eliminating pitons maximizes available capacity.
 
 **The allocation framework:**
 
@@ -327,30 +327,30 @@ These are not universal moral duties. They are **practices that serve specific v
 
 **What should NOT receive maintenance:**
 
-**Pitons (zombie structures):**
-- **STOP maintaining** - Every hour on zombie = hour unavailable for living
+**Pitons (piton structures):**
+- **STOP maintaining** - Every hour on piton = hour unavailable for living
 - Recognition: Cost > benefit, function absent, only inertia remains
 - Elimination is ethical duty (opportunity cost of maintenance is harm)
 
 ### The Ethics of Piton Maintenance
 
-**Is maintaining zombies unethical?**
+**Is maintaining pitons unethical?**
 
 **The harm via opportunity cost:**
 
-**Organizational zombies:**
-- Zombie committees drain meeting time
+**Organizational pitons:**
+- Piton committees drain meeting time
 - Obsolete procedures drain workflow capacity
 - Dead letter laws drain regulatory bandwidth
-- Every resource on zombies = resource unavailable for function
+- Every resource on pitons = resource unavailable for function
 
-**Personal zombies:**
+**Personal pitons:**
 - Dead relationships drain emotional capacity
 - Abandoned Camps drain psychological energy
 - Obsolete habits drain time and attention
 - Maintaining past selves prevents present growth
 
-**Political zombies:**
+**Political pitons:**
 - Defunct institutions drain political capital
 - Obsolete electoral mechanisms waste reform energy
 - Empty rituals drain collective attention
@@ -378,7 +378,7 @@ These are not universal moral duties. They are **practices that serve specific v
 **Question:** "If this disappeared tomorrow, would I feel relief or loss?"
 
 **If relief:**
-- Structure is Piton (zombie, no function)
+- Structure is Piton (piton, no function)
 - Maintaining it is unethical (opportunity cost harm)
 - Elimination is moral duty (frees resources for function)
 - Only institutionally invested parties would mourn → their nostalgia doesn't create maintenance obligation
@@ -394,7 +394,7 @@ These are not universal moral duties. They are **practices that serve specific v
 1. **Removal cost > maintenance cost** (very rare - Pitons are usually low-maintenance)
 2. **Chesterton's fence legitimately applies** (unknown function might exist, investigation needed before removal)
 3. **Transition period needed** (planned elimination in progress, not indefinite)
-4. **Harmless zombie** (maintenance cost negligible, elimination energy better spent elsewhere)
+4. **Harmless piton** (maintenance cost negligible, elimination energy better spent elsewhere)
 
 **But default should be elimination.** Burden of proof on defenders to show function.
 
@@ -427,8 +427,8 @@ These are not universal moral duties. They are **practices that serve specific v
 - Claiming temporary → extracting under false pretenses → becomes permanent
 - This is **fraud** (claimed one thing, delivered another)
 
-**Creates zombie burden on future:**
-- Next generation inherits zombie they didn't consent to
+**Creates piton burden on future:**
+- Next generation inherits piton they didn't consent to
 - Original purpose forgotten, structure persists
 - Piton created through sunset violation
 
@@ -455,7 +455,7 @@ These are not universal moral duties. They are **practices that serve specific v
 **Thailand Senate (2017-2024):**
 - Claimed: "Temporary PM selection during transition" (Scaffold)
 - Sunset: PM power expired 2024 (partially honored)
-- **Violation:** Amendment veto retained (zombie obstruction without purpose)
+- **Violation:** Amendment veto retained (piton obstruction without purpose)
 - **Ethical breach:** Sunset partially ignored, Piton created
 
 ### The Ethics of Degradation Prevention
@@ -989,7 +989,7 @@ These are not universal moral duties. They are **practices that serve specific v
 **Honest version:** "This doesn't serve us anymore, but I'm attached to it emotionally - can we talk about letting it go?"
 
 **Why dishonesty harms:**
-- Maintains zombie at relationship cost
+- Maintains piton at relationship cost
 - Energy drain on both people
 - Prevents honest assessment
 - Blocks relationship evolution

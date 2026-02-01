@@ -281,7 +281,7 @@ This explains why same relationship structure IS Mountain/Tangled Rope/Rope/Snar
 
 **Common misclassification (Type III Error):** Treating all relationship demands as extraction. Some coordination requires mutual sacrifice. Distinguish: equal burden (Rope) vs. asymmetric burden (Snare).
 
-**Terminology note:** Previously "Noose" (execution device). "Snare" better fits climbing metaphor (trap in terrain) while maintaining the "tightening trap" concept.
+**Terminology note:** Previously "Snare" (execution device). "Snare" better fits climbing metaphor (trap in terrain) while maintaining the "tightening trap" concept.
 
 ---
 
@@ -387,7 +387,7 @@ Example: College friendship (functional during school) → Geographic distance (
 - Relief → Piton, eliminate
 - Loss → Still functional, maintain or reform
 
-**Terminology note:** Previously "Zombie" constraints. "Piton" better fits climbing metaphor (old anchor that fails under load) and captures the danger: looks like support structure, wastes energy when maintained.
+**Terminology note:** Previously "Piton" constraints. "Piton" better fits climbing metaphor (old anchor that fails under load) and captures the danger: looks like support structure, wastes energy when maintained.
 
 ---
 

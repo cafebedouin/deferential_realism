@@ -42,11 +42,11 @@ constraint_metric(convergence_speed_friction, snap_back_potential, 0.40).
 constraint_metric(convergence_speed_friction, extractiveness, 0.52).
 
 % NOOSE: Infinite Variance/Fat-Tail Obstruction (Cauchy-style distributions that break the theorem)
-constraint_claim(heavy_tail_noose, snare).
-constraint_metric(heavy_tail_noose, intensity, 0.96).
-constraint_metric(heavy_tail_noose, suppression_requirement, 0.88).
-constraint_metric(heavy_tail_noose, snap_back_potential, 0.92).
-constraint_metric(heavy_tail_noose, extractiveness, 0.94).
+constraint_claim(heavy_tail_snare, snare).
+constraint_metric(heavy_tail_snare, intensity, 0.96).
+constraint_metric(heavy_tail_snare, suppression_requirement, 0.88).
+constraint_metric(heavy_tail_snare, snap_back_potential, 0.92).
+constraint_metric(heavy_tail_snare, extractiveness, 0.94).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, accept_the_stability_of_averages_as_a_fundamental_statistical_law).
@@ -59,7 +59,7 @@ recommendation(rec_03, reform_error_bounds_via_standard_normalization_scaffold).
 affects_constraint(rec_03, convergence_speed_friction).
 
 recommendation(rec_04, cut_the_infinite_variance_limit_via_characteristic_function_scaffold).
-affects_constraint(rec_04, heavy_tail_noose).
+affects_constraint(rec_04, heavy_tail_snare).
 
 veto_actor(cauchy_distribution_practitioner).
 veto_exposed(cauchy_distribution_practitioner, rec_04).

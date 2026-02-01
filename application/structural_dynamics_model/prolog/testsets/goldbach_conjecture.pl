@@ -183,7 +183,7 @@ test(empirical_fate_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(search_difficulty_noose) :-
+test(search_difficulty_snare) :-
     % A powerless searcher in a local range sees the search as a Snare.
     constraint_indexing:constraint_classification(goldbach_conjecture, snare, context(individual_powerless, immediate, constrained, local)).
 

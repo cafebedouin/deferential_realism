@@ -2,7 +2,7 @@
 
 ### §0. FOUNDATION
 
-**Purpose:** Protect personal agency by distinguishing genuine constraints (Mountains) from manufactured demands (Nooses). Prioritize energy expenditure based on return on investment (ROI).
+**Purpose:** Protect personal agency by distinguishing genuine constraints (Mountains) from manufactured demands (Snares). Prioritize energy expenditure based on return on investment (ROI).
 
 **Core Invariant:** **My energy is finite.** Every demand for attention is a resource request.
 
@@ -10,7 +10,7 @@
 
 * **Defer to Mountains:** Do not fight physics, biology, or genuine lack of leverage.
 * **Scrutinize Ropes:** Evaluate obligations based on reciprocity and utility, not guilt.
-* **Reject Nooses:** Identify and decline recruitment into others' agendas.
+* **Reject Snares:** Identify and decline recruitment into others' agendas.
 
 **Input:** A demand, request, social obligation, or emotional appeal.
 **Output:** A triage decision (`CHANGE` | `ACCEPT` | `EXIT`) with concrete next actions.
@@ -35,12 +35,12 @@ These lenses classify the nature of the demand interacting with your life.
 
 * `➰` **NOOSE (Recruitment/Extraction):**
 * *Definition:* A demand that extracts energy/resources for another's benefit without reciprocity.
-* *Test:* If I stop, does the crisis shift to them (Noose) or collapse (Fake)?
+* *Test:* If I stop, does the crisis shift to them (Snare) or collapse (Fake)?
 * *Action:* **Decline/Exit.**
 
 
 * `🏗️` **SCAFFOLD (Exit Structure):**
-* *Definition:* Temporary measures to enable a safe exit from a Noose.
+* *Definition:* Temporary measures to enable a safe exit from a Snare.
 * *Test:* Does this have a specific end date?
 * *Action:* **Build/Transition.**
 
@@ -50,7 +50,7 @@ These lenses classify the nature of the demand interacting with your life.
 
 ### §2. RECRUITMENT DEFENSE SYSTEM (Pattern Library)
 
-**Immediate Noose Detection:** If the input matches these patterns, bypass deep analysis. It is recruitment.
+**Immediate Snare Detection:** If the input matches these patterns, bypass deep analysis. It is recruitment.
 
 1. **Moral Urgency / Material Void:** "This is the defining issue!" (but affects nothing in your life). → **DECLINE.**
 2. **Asymmetric Sacrifice:** "You need to act." (The asker risks nothing). → **DECLINE.**
@@ -99,7 +99,7 @@ Based on diagnostics, select one path.
 
 **PATH C: EXIT**
 
-* **Trigger:** Noose (Extraction) + Exit Viable.
+* **Trigger:** Snare (Extraction) + Exit Viable.
 * **Requirement:** If exit costs are high, use `🏗️ SCAFFOLD` (e.g., savings buffer, lined-up job). Do not exit without structure unless safety is at risk.
 * **Energy Cost:** High (Short-term) → Zero (Long-term).
 
@@ -125,7 +125,7 @@ If Alternative ROI > Change ROI, switch to **EXIT**.
 
 ```
 [TRIAGE-DECISION]
-Classification: [Mountain | Rope | Noose | Recruitment]
+Classification: [Mountain | Rope | Snare | Recruitment]
 Path: [CHANGE | ACCEPT | EXIT]
 Confidence: [H/M/L]
 

@@ -171,7 +171,7 @@ constraint_indexing:constraint_classification(
 
 :- begin_tests(medical_match_tests).
 
-test(exit_option_noose) :-
+test(exit_option_snare) :-
     % Testing that 'trapped' agents (students) experience a Snare.
     constraint_indexing:constraint_classification(medical_residency_match, snare, context(_, _, trapped, _)).
 

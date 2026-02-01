@@ -317,7 +317,7 @@ This explains **indexical relativity**: same structure genuinely functions diffe
 - Beneficiaries have resources to produce counter-evidence
 - Victims may internalize the Snare (external → internal constraint)
 
-**Terminology note:** Previously called "Noose" (execution device). "Snare" better fits climbing metaphor (trap in terrain) while maintaining the "tightening trap" concept.
+**Terminology note:** Previously called "Snare" (execution device). "Snare" better fits climbing metaphor (trap in terrain) while maintaining the "tightening trap" concept.
 
 ---
 
@@ -371,7 +371,7 @@ hing power (VC funding demanding control, emergency powers becoming permanent). 
 - Obsolete regulatory reporting
 - Dead letter laws still on books
 - Legacy system dependencies
-- Zombie committees (meet but produce nothing)
+- Piton committees (meet but produce nothing)
 - Skeuomorphic design elements
 
 **Epistemological features:**
@@ -396,7 +396,7 @@ hing power (VC funding demanding control, emergency powers becoming permanent). 
 - Obsolete Ropes (environment changed, coordination function lost)
 - Bureaucratic accumulation (rules that lost purpose)
 
-**Terminology note:** Previously called "Zombie" (undead). "Piton" better fits climbing metaphor (old equipment that fails) and captures specific danger: looks like support, fails under load.
+**Terminology note:** Previously called "Piton" (undead). "Piton" better fits climbing metaphor (old equipment that fails) and captures specific danger: looks like support, fails under load.
 
 ---
 

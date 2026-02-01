@@ -88,7 +88,7 @@ This framework values:
 
 1. **Accuracy over advocacy** - Classify constraints as they are, not as you wish
 2. **Indexed objectivity** - Truth varies with position but is testable within each index
-3. **Energy conservation** - Don't waste effort fighting Mountains or surrendering to Nooses
+3. **Energy conservation** - Don't waste effort fighting Mountains or surrendering to Snares
 4. **Honest uncertainty** - Mark what you don't know with Omega variables
 
 Contributions should embody these principles.

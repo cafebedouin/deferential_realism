@@ -104,7 +104,7 @@ Here is the **UKE Solo Practitioner Checklist**. This 1-page cheat sheet is desi
 **Setup:**
 
 * [ ] Return to LLM "A" (The neutral auditor).
-* [ ] Feed it your "Metabolization Notes" (e.g., "I want to cut Section 2, focus on the 'Noose' metaphor, and shorten by 50%").
+* [ ] Feed it your "Metabolization Notes" (e.g., "I want to cut Section 2, focus on the 'Snare' metaphor, and shorten by 50%").
 
 **The Prompt Seed:**
 

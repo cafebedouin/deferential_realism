@@ -155,7 +155,7 @@ class CorpusExtractor:
 
             # Extract extractiveness
             extr_match = re.search(
-                r'extractive_noose.*?Intensity:\s*([\d.]+)',
+                r'extractive_snare.*?Intensity:\s*([\d.]+)',
                 block
             )
             if extr_match:

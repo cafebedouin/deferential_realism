@@ -41,7 +41,7 @@ These categories classify the constraints affecting the recommendation.
 * `➰` **NOOSE (Extractive Constraint):**
   * *Definition:* Power structures masquerading as necessity; artificial scarcity serving narrow interests.
   * *Test:* Who benefits? What happens when enforcement stops?
-  * *Implication:* Recommendations should **remove** Nooses, but must account for power resistance.
+  * *Implication:* Recommendations should **remove** Snares, but must account for power resistance.
 
 * `🧟` **ZOMBIE ROPE (Obsolete Coordination):**
   * *Definition:* Once-functional mechanisms now useless due to changed conditions; persists through inertia.
@@ -51,7 +51,7 @@ These categories classify the constraints affecting the recommendation.
 * `🏗️` **SCAFFOLD (Transitional Structure):**
   * *Definition:* Temporary support enabling transition between constraint regimes.
   * *Test:* Does it have automatic sunset? Is it load-bearing for current system?
-  * *Implication:* Safe change requires **building Scaffolds before cutting Nooses**.
+  * *Implication:* Safe change requires **building Scaffolds before cutting Snares**.
 
 ---
 
@@ -86,18 +86,18 @@ For each recommendation, run the Six-Test Battery (abbreviated for speed):
 **T3: Decay Analysis**
 - If enforcement/maintenance stopped, what happens?
 - Does the proposal create artificial scarcity requiring perpetual enforcement?
-- Signal: High enforcement requirement → check if creating new Noose
+- Signal: High enforcement requirement → check if creating new Snare
 
 **T4: Root Cause**
 - What problem does this recommendation solve?
-- Is the problem a Mountain (real coordination challenge) or Noose (power arrangement)?
+- Is the problem a Mountain (real coordination challenge) or Snare (power arrangement)?
 - Signal: If solving fake problem → **FANTASY**
 
 **T5: Implementation Analysis**
 - **WHO BENEFITS?** (The critical question)
 - In practice, will benefits distribute broadly or concentrate?
 - Who bears costs? Who captures value?
-- Signal: If asymmetric extraction → creating new Noose; if broad benefit → viable Rope
+- Signal: If asymmetric extraction → creating new Snare; if broad benefit → viable Rope
 
 **T6: Power Mapping**
 - Who has power to implement this?
@@ -112,7 +112,7 @@ Based on constraint classification, route recommendation:
 **Path A: VIABLE** (Can happen in <2 years with current leverage)
 - All necessary actors benefit or can be compensated
 - No Mountains violated
-- Creates Rope or cuts Noose without collapse
+- Creates Rope or cuts Snare without collapse
 - Confidence: Document ready for audit
 
 **Path B: ASPIRATIONAL** (Requires catastrophe or major power shift)
@@ -247,7 +247,7 @@ Assessment: BLOCKED until catastrophe changes incentives
 
 ### §4. SCAFFOLD REQUIREMENTS (Safe Transition Planning)
 
-If recommendation involves removing a Noose or reforming a Rope, check for load-bearing status.
+If recommendation involves removing a Snare or reforming a Rope, check for load-bearing status.
 
 **The Load-Bearing Test:**
 - Does current system provide essential functions (even if extractive)?
@@ -287,7 +287,7 @@ Required Scaffold:
 - Budget: Prize funds + direct grants ($50B annually)
 ```
 
-**Critical warning:** A recommendation to remove a Noose WITHOUT specifying required Scaffold = **BLOCKED** (unsafe transition).
+**Critical warning:** A recommendation to remove a Snare WITHOUT specifying required Scaffold = **BLOCKED** (unsafe transition).
 
 ---
 
@@ -313,8 +313,8 @@ Recommendation: "[Exact quote from document]"
 CONSTRAINT-MAP:
 - Mountain: [What cannot be changed]
 - Rope: [What coordination is required]
-- Noose: [What extraction is involved]
-- Zombie: [What obsolete mechanisms exist]
+- Snare: [What extraction is involved]
+- Piton: [What obsolete mechanisms exist]
 
 FEASIBILITY-ASSESSMENT:
 Classification: [VIABLE | ASPIRATIONAL | BLOCKED | FANTASY]
@@ -390,7 +390,7 @@ Revision requirements:
 - To **UKE_P**: If systemic change blocked → route to personal agency protocol
 
 **Fracture Detection:**
-- **F37 (Ontological Fraud)**: Recommendation treats Rope/Noose as Mountain ("this is the only way")
+- **F37 (Ontological Fraud)**: Recommendation treats Rope/Snare as Mountain ("this is the only way")
 - **F38 (Dangerous Hubris)**: Recommendation treats Mountain as Rope ("we can simply abolish scarcity")
 - **F39 (Power Blindness)**: Recommendation ignores veto points and beneficiary asymmetry
 - **F40 (Scaffoldless Demolition)**: Recommendation removes load-bearing structure without transition plan
@@ -436,7 +436,7 @@ Revision requirements:
 **Recommendation:** "Abolish the UN Security Council veto system"
 
 **Analysis:**
-- Noose: Veto system concentrates power among P5 nations
+- Snare: Veto system concentrates power among P5 nations
 - Veto points: The five permanent members (who benefit from status quo)
 - Compensation: None viable (sovereignty is not tradeable)
 - Bypass: None (requires unanimous P5 consent to change charter)
@@ -459,7 +459,7 @@ Revision requirements:
 **Recommendation:** "Eliminate all agricultural subsidies immediately"
 
 **Analysis:**
-- Noose elements: Some subsidies serve narrow interests
+- Snare elements: Some subsidies serve narrow interests
 - Load-bearing: Yes (farmers depend on subsidy income, food security concerns)
 - Direct removal: Would cause farm bankruptcies, potential food supply disruption
 - **Classification: VIABLE only with Scaffold**
@@ -539,7 +539,7 @@ Do all veto holders benefit?
 - "We just need political will" → Ignoring power dynamics (likely BLOCKED)
 - "Technology will solve this" → Check for Mountain violations
 - "Establish global body like UN" → Check timelines (usually 10-20 years)
-- No Scaffold specified for Noose removal → Unsafe (require revision)
+- No Scaffold specified for Snare removal → Unsafe (require revision)
 - "Abolish/eliminate immediately" → Check load-bearing status
 
 ---

@@ -20,7 +20,7 @@ In the Bhagavad Gita, Krishna argues that Arjuna should fight in the war. The ar
 
 **If you accept these axioms:** Krishna's argument is sound. Fighting doesn't harm the eternal essence, so Arjuna's reluctance comes from confusion about what's actually at stake. The constraint is a Mountain (metaphysical necessity) that Arjuna must accept.
 
-**If you reject these axioms:** Krishna's argument is a Noose. He's using metaphysical claims Arjuna doesn't believe to extract military service in a war Arjuna wants to avoid.
+**If you reject these axioms:** Krishna's argument is a Snare. He's using metaphysical claims Arjuna doesn't believe to extract military service in a war Arjuna wants to avoid.
 
 **The ethical requirement:** You must examine which you actually believe. Not which sounds profound, not which tradition endorses, not which authority proclaims—but which you can honestly affirm as true about reality.
 
@@ -71,7 +71,7 @@ These are not universal moral duties. They are **practices that serve specific v
 
 **The practice:**
 - When you encounter claimed necessity, ask: "What's the evidence this is unchangeable?"
-- Test: If enforcement stopped, would it persist? (Mountains persist, Ropes/Nooses collapse)
+- Test: If enforcement stopped, would it persist? (Mountains persist, Ropes/Snares collapse)
 - Historical test: Has this been different in other times/places?
 - Counterfactual test: Can you imagine solving the problem differently?
 
@@ -85,7 +85,7 @@ These are not universal moral duties. They are **practices that serve specific v
 
 **The Value:** Autonomy and freedom from extraction (not having your life energy harvested by others)
 
-**The Practice:** Identify extractive structures (Nooses) that masquerade as natural necessity, and respond strategically (cut when you have power, exit when you don't, expose when you can).
+**The Practice:** Identify extractive structures (Snares) that masquerade as natural necessity, and respond strategically (cut when you have power, exit when you don't, expose when you can).
 
 **Conditional statement:** IF you value autonomy and dislike being extracted from, THEN distinguishing genuine constraints from manufactured ones enables strategic response.
 
@@ -97,13 +97,13 @@ These are not universal moral duties. They are **practices that serve specific v
 
 **Examples:**
 
-**External Nooses (political economy):**
+**External Snares (political economy):**
 - Rent-seeking regulations serving narrow interests (claimed necessary, actually extractive)
 - Artificial scarcity through IP extension far beyond incentive needs
 - "Required" credentials that serve gatekeeping, not quality
 - Policies that concentrate wealth while claiming efficiency
 
-**Internal Nooses (personal extraction):**
+**Internal Snares (personal extraction):**
 - Addiction (claims necessity, actually drains agency)
 - Toxic relationships (claim love, actually extract energy)
 - Self-destructive habits rationalized as "who I am"
@@ -115,11 +115,11 @@ These are not universal moral duties. They are **practices that serve specific v
 - Cut when you have power; exit when you don't
 - Build alternatives (Scaffolds, new Ropes) before cutting if load-bearing
 
-**The strategic benefit:** Identifying Nooses enables appropriate resistance. You stop wasting energy maintaining structures that extract from you.
+**The strategic benefit:** Identifying Snares enables appropriate resistance. You stop wasting energy maintaining structures that extract from you.
 
 **The failure mode:** Seeing extraction everywhere (paranoia) or seeing it nowhere (naivety). Both are **strategic errors**, not moral failures.
 
-**The partisan commitment:** This framework is explicitly anti-authoritarian on one point: **power masquerading as natural law is fraudulent**. Naming something as a Noose is taking a political position—you're challenging its legitimacy. This is intended, not accidental.
+**The partisan commitment:** This framework is explicitly anti-authoritarian on one point: **power masquerading as natural law is fraudulent**. Naming something as a Snare is taking a political position—you're challenging its legitimacy. This is intended, not accidental.
 
 But: This doesn't mean all power is fraudulent. Coordination requires power. Enforcement serves functions. The question is: Does this power serve extraction or coordination? And that question requires evidence, not ideology.
 
@@ -153,7 +153,7 @@ But: This doesn't mean all power is fraudulent. Coordination requires power. Enf
 - Build in revision mechanisms (assume conditions will change)
 - Test: "Does this enable agency or stifle it?"
 
-**The reciprocity test:** An ethical Rope benefits participants approximately equally (accounting for different needs). If someone consistently gains while others consistently lose, it's become a Noose, not a Rope.
+**The reciprocity test:** An ethical Rope benefits participants approximately equally (accounting for different needs). If someone consistently gains while others consistently lose, it's become a Snare, not a Rope.
 
 **The strategic benefit:** Good Ropes enable things impossible alone (language, traffic laws, money, technical standards). They create collective capacity.
 
@@ -165,7 +165,7 @@ But: This doesn't mean all power is fraudulent. Coordination requires power. Enf
 
 **The Value:** Adaptation to changing conditions (not wasting energy on obsolete structures)
 
-**The Practice:** Regular audit and retirement of structures that no longer serve their original function (Zombie Ropes).
+**The Practice:** Regular audit and retirement of structures that no longer serve their original function (Pitons).
 
 **Conditional statement:** IF you value adapting to changing conditions rather than maintaining tradition for its own sake, THEN regularly retiring obsolete structures conserves energy.
 
@@ -181,11 +181,11 @@ But: This doesn't mean all power is fraudulent. Coordination requires power. Enf
 - **Decay detection:** Distinguish "no longer useful" from "never was useful"
 - **Clean deletion:** Remove rather than rationalize-and-keep
 
-**The strategic benefit:** Zombie Ropes waste energy with no payoff. Every hour spent on vestigial processes is an hour not spent on actual problems.
+**The strategic benefit:** Pitons waste energy with no payoff. Every hour spent on vestigial processes is an hour not spent on actual problems.
 
 **The failure mode:** Deleting too quickly (discarding wisdom) or never deleting (calcifying tradition). Both are **strategic errors**.
 
-**The sunk cost principle:** Keeping something because you invested energy building it (when it no longer serves) compounds the waste. Acknowledge the loss, delete the zombie, redirect saved energy.
+**The sunk cost principle:** Keeping something because you invested energy building it (when it no longer serves) compounds the waste. Acknowledge the loss, delete the piton, redirect saved energy.
 
 **Why this is conditional:** Some people value tradition, continuity, and stability over adaptation. For them, maintaining practices even when conditions change may serve important identity or community functions. The framework doesn't claim everyone should prioritize adaptation over tradition.
 
@@ -204,7 +204,7 @@ The framework can help you:
 The framework **cannot** tell you:
 - Whether souls exist (Gita example - you must examine this yourself)
 - Whether hierarchy is natural or constructed (depends on evidence you find compelling)
-- Whether a specific constraint is Mountain or Noose (requires your judgment about evidence)
+- Whether a specific constraint is Mountain or Snare (requires your judgment about evidence)
 - What your priorities should be (autonomy vs. security, individual vs. collective, etc.)
 
 **This is a method for examining beliefs, not a set of beliefs to adopt.**
@@ -238,7 +238,7 @@ Your position in power structures shapes which constraints you can change and wh
 - Powerless consumer: Mountain (cannot change, must pay higher prices)
 - Small business: Tangled Rope (has coordination function but extracts asymmetrically)
 - Multinational corporation: Rope (can navigate strategically, sometimes profit)
-- Policy analyst: Noose (extractive structure, could be reformed)
+- Policy analyst: Snare (extractive structure, could be reformed)
 
 **All four classifications are true simultaneously** because constraint *function* varies by position.
 
@@ -259,7 +259,7 @@ These principles prevent the virtues from calcifying into rigid dogma or enablin
 
 ### A. The Ethic of the Scaffold (Transitional Care)
 
-**The principle:** When cutting a Noose or replacing a Rope, build temporary support with a **mandatory sunset clause**.
+**The principle:** When cutting a Snare or replacing a Rope, build temporary support with a **mandatory sunset clause**.
 
 **Why this matters:** Systems have momentum. People adapt to current constraints even when harmful. Sudden removal can cause collapse worse than the original problem.
 
@@ -287,7 +287,7 @@ These principles prevent the virtues from calcifying into rigid dogma or enablin
 
 **Example: Leaving toxic job**
 - Mountain: Need income (rent is due)
-- Noose: "You'll never find better" (extraction masquerading as reality)
+- Snare: "You'll never find better" (extraction masquerading as reality)
 - Scaffold: Build freelance income for 3 months before quitting
 - Transition: Gradual shift from employment to self-employment
 - Removal: Once new income is stable, cut ties completely
@@ -310,7 +310,7 @@ These principles prevent the virtues from calcifying into rigid dogma or enablin
 **The practice:**
 - Audit your own language: When you say "can't," do you mean it literally?
 - Make modality explicit: "I choose not to" vs. "I cannot"
-- Distinguish constraint type before responding: Mountain requires acceptance, Noose might require resistance, preference requires owning your choice
+- Distinguish constraint type before responding: Mountain requires acceptance, Snare might require resistance, preference requires owning your choice
 
 **Why this is ethical (conditionally):** IF you value self-knowledge and effective action, THEN modal clarity prevents self-deception. But this assumes you value truth over comfort, which not everyone does.
 
@@ -352,17 +352,17 @@ The virtues and stabilizers form a system:
 1. Examine beliefs → Know what you actually think about constraints
 2. Acceptance → Identify what cannot be changed (Mountains)
 3. Transparency → Distinguish "can't" from "won't" (Modal honesty)
-4. Resistance → Identify and respond to extraction (Nooses)
+4. Resistance → Identify and respond to extraction (Snares)
 5. Construction → Build coordination within actual limits (Ropes)
 6. Scaffold → Manage transitions safely (Transitional care)
-7. Modernization → Update as conditions change (Zombies)
+7. Modernization → Update as conditions change (Pitons)
 8. Calibration → Correct errors from feedback (Humility)
 → Return to 1 with updated understanding
 ```
 
 **Example: Career Change**
 
-1. **Examine beliefs:** Do I believe this job is draining me (Noose) or am I just tired (temporary state)?
+1. **Examine beliefs:** Do I believe this job is draining me (Snare) or am I just tired (temporary state)?
 2. **Acceptance:** Mountain = Need income, rent is due
 3. **Transparency:** "Can't afford to quit" (Mountain) vs. "scared to quit" (preference)
 4. **Resistance:** Test = Check job market, talk to others who left—is it really impossible?
@@ -371,7 +371,7 @@ The virtues and stabilizers form a system:
 7. **Calibration:** If job search takes longer than expected, update timeline
 8. **Modernization:** Update resume to current market (not 5-year-old version)
 
-**The system property:** Each principle reinforces others. Transparency without Resistance is impotent (you see the Noose but don't cut it). Resistance without Scaffolding is dangerous (you cut load-bearing structures). Acceptance without Calibration becomes dogma (you never update what you think is unchangeable).
+**The system property:** Each principle reinforces others. Transparency without Resistance is impotent (you see the Snare but don't cut it). Resistance without Scaffolding is dangerous (you cut load-bearing structures). Acceptance without Calibration becomes dogma (you never update what you think is unchangeable).
 
 ---
 
@@ -391,8 +391,8 @@ But: "Examine what you actually believe, not just what you've inherited"
 
 **2. Self-deception about constraint type leads to systematic errors**
 - Treating Mountains as Ropes → exhaustion from impossible fights
-- Treating Nooses as Mountains → unwarranted surrender to extraction
-- Treating Ropes as Nooses → destroying coordination mechanisms
+- Treating Snares as Mountains → unwarranted surrender to extraction
+- Treating Ropes as Snares → destroying coordination mechanisms
 - Treating preferences as necessities → avoiding responsibility for choices
 
 **3. Your position shapes which constraints you face**
@@ -454,13 +454,13 @@ Use these questions to examine your own constraint-set:
 - Am I building Ropes or just following them?
 - Are my personal habits (self-coordination) still serving their function?
 
-**Nooses (Extraction):**
+**Snares (Extraction):**
 - What extracts value from me while claiming necessity?
 - What am I calling "necessary" that actually serves others' interests?
-- Where am I **deploying** Nooses against others (even unconsciously)?
+- Where am I **deploying** Snares against others (even unconsciously)?
 - What addiction/compulsion/toxic pattern am I rationalizing?
 
-**Zombies (Obsolete):**
+**Pitons (Obsolete):**
 - What habits continue despite no longer serving their purpose?
 - What beliefs do I maintain despite evidence against them?
 - What relationships persist on autopilot?

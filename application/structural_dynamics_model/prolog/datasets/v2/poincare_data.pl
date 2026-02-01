@@ -40,11 +40,11 @@ constraint_metric(ricci_flow_singularity_friction, snap_back_potential, 0.40).
 constraint_metric(ricci_flow_singularity_friction, extractiveness, 0.55).
 
 % NOOSE: Geometrization Conjecture Obstruction
-constraint_claim(geometrization_completeness_noose, snare).
-constraint_metric(geometrization_completeness_noose, intensity, 0.95).
-constraint_metric(geometrization_completeness_noose, suppression_requirement, 0.88).
-constraint_metric(geometrization_completeness_noose, snap_back_potential, 0.92).
-constraint_metric(geometrization_completeness_noose, extractiveness, 0.94).
+constraint_claim(geometrization_completeness_snare, snare).
+constraint_metric(geometrization_completeness_snare, intensity, 0.95).
+constraint_metric(geometrization_completeness_snare, suppression_requirement, 0.88).
+constraint_metric(geometrization_completeness_snare, snap_back_potential, 0.92).
+constraint_metric(geometrization_completeness_snare, extractiveness, 0.94).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, accept_topological_invariants_as_unending_geometry_bases).
@@ -57,7 +57,7 @@ recommendation(rec_03, reform_manifold_evolution_via_ricci_flow_scaffold).
 affects_constraint(rec_03, ricci_flow_singularity_friction).
 
 recommendation(rec_04, cut_topological_deadlocks_via_surgery_procedure_scaffold).
-affects_constraint(rec_04, geometrization_completeness_noose).
+affects_constraint(rec_04, geometrization_completeness_snare).
 
 veto_actor(non_triangulable_manifold).
 veto_exposed(non_triangulable_manifold, rec_04).

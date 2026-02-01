@@ -462,7 +462,7 @@ Observable power position (not subjective feeling):
 - **Sunset:** When mentee achieves competence, independence
 - **Success metric:** Mentee no longer needs mentor
 - **Degradation risk:**
-  - Scaffold → Piton (sunset ignored, zombie relationship continues from guilt)
+  - Scaffold → Piton (sunset ignored, piton relationship continues from guilt)
   - Scaffold → Snare (mentor creates dependency for ego/power)
 
 **Support groups (crisis):**
@@ -539,7 +539,7 @@ Observable power position (not subjective feeling):
 - **Persistence:** "We've been friends for 20 years," sunk cost fallacy
 - **Cost:** Emotional energy, time, prevents investment in living friendships
 - **Relief test:** Would feel relief if ended, not loss
-- **FOR both parties:** Piton (zombie maintained from guilt)
+- **FOR both parties:** Piton (piton maintained from guilt)
 
 **Obsolete family rituals:**
 - **Original function:** Bonding, tradition transmission, celebration
@@ -1131,7 +1131,7 @@ Power asymmetry addressed OR structure reformed:
 - **Detection:** Support continues past function completion
 - **Prevention:** Honest sunset monitoring, celebrate independence
 
-**Scaffold → Piton (zombie support):**
+**Scaffold → Piton (piton support):**
 - Crisis passed but support continues from habit
 - Integration complete but onboarding buddy relationship persists
 - Mentee achieved competence but relationship maintained from guilt
@@ -1347,9 +1347,9 @@ Power asymmetry addressed OR structure reformed:
 - **Dismantle:** Low energy (just stop when done)
 - **Example:** Support group during crisis - invest fully, then graduate gracefully
 
-**Pitons (zombie relationships):**
+**Pitons (piton relationships):**
 - **Eliminate ruthlessly:** Stop energy investment immediately
-- **Energy:** Zero (stop feeding zombie)
+- **Energy:** Zero (stop feeding piton)
 - **Redirect:** Freed capacity for living relationships
 - **Example:** Dead friendship maintained from guilt - end it, invest in living friendships
 
@@ -1593,13 +1593,13 @@ Sociological Deferential Realism is not a theory to believe but a practice to pe
 - Treating Tangled Ropes as pure Ropes (defending extraction alongside coordination)
 - Treating Tangled Ropes as pure Snares (destroying coordination while fighting extraction)
 - Treating Scaffolds as permanent (creating dependence, blocking evolution)
-- Treating Pitons as functional (maintaining zombies from guilt)
+- Treating Pitons as functional (maintaining pitons from guilt)
 
 **The limit claim:** No framework eliminates relational complexity. Navigation is perpetual. Clarity reveals choice-points within persistent uncertainty. Structural paradoxes require containment, not resolution.
 
 **The final word:** You are finite. Your relational energy is limited. Your capacity for intimacy is bounded. Your power is position-dependent.
 
-You classify constraints. You specify indices. You acknowledge power asymmetry. You test edges. You navigate tensions. You hold paradoxes. You maintain living relationships. You eliminate zombies. You accept what remains unresolved.
+You classify constraints. You specify indices. You acknowledge power asymmetry. You test edges. You navigate tensions. You hold paradoxes. You maintain living relationships. You eliminate pitons. You accept what remains unresolved.
 
 **And somewhere in all of that, you find your people—not through illusion, but through honest map of the relational terrain.**
 

@@ -41,7 +41,7 @@ Example 1 - Physical Irreversibility (Mountain):
   - No cultural grounding
   - Screams "this is representing something else"
 
-Example 2 - Extractive System (Noose):
+Example 2 - Extractive System (Snare):
 ✓ GOOD: "Company script system: wages paid in tokens only redeemable 
   at company store, with inflated prices ensuring perpetual debt"
   - Documented historical practice (1920s American company towns)
@@ -49,7 +49,7 @@ Example 2 - Extractive System (Noose):
   - Snapback visible (miss work = eviction, no savings = trapped)
   - Feels like economic history, not theory
 
-✗ BAD: "The Noose of economic extraction"
+✗ BAD: "The Snare of economic extraction"
   - Framework term in description
   - Abstract rather than concrete
   - No specific mechanism described
@@ -89,7 +89,7 @@ Example 4 - Error Naturalization:
   says take the night shift or get out, you take it. What choice? 
   The company owns the houses, owns the store, owns the doctor. 
   Might as well own the air you breathe."
-  - Type I Error (treating Noose as Mountain) embedded in dialogue
+  - Type I Error (treating Snare as Mountain) embedded in dialogue
   - Culturally specific misrecognition (elder authority)
   - No one says "I'm making a categorization error"
   - Feels like how people actually think
@@ -194,7 +194,7 @@ OUTPUT REQUIREMENTS:
 CRITICAL QUALITY CHECKS:
 
 Before submitting, verify:
-□ Have I used ANY framework terminology? (Mountain, Rope, Noose, etc.)
+□ Have I used ANY framework terminology? (Mountain, Rope, Snare, etc.)
   - If yes: REVISE. These should not appear.
   
 □ Could this setting exist in a history book or ethnography?
@@ -212,19 +212,19 @@ Before submitting, verify:
 - 2247, Europa ice mining colony
 - Two minority populations (Vietnamese + Somali) from Earth population redistribution
 - Mountain = radiation exposure from habitat breach (biological irreversibility)
-- Noose = oxygen debt from colonial contract system
+- Snare = oxygen debt from colonial contract system
 - Linguistic: Việt-Somali-English creole with space adaptation terms
 
 **Example B: Tang Dynasty (Cultural/Historical)**
 - 740 CE, Chang'an bureaucracy
 - Mountain = examination system failure (social death, no re-entry)
-- Noose = patronage network extraction
+- Snare = patronage network extraction
 - Linguistic: Classical Chinese literary style, direct translation preserving chengyu
 
 **Example C: 1920s Chicago (Noir Realism)**
 - Immigrant meatpacking district
 - Mountain = industrial accident with permanent disability
-- Noose = company script/company housing debt trap
+- Snare = company script/company housing debt trap
 - Linguistic: Polish-English code-switching with period slang
 
 Note: These are examples. Do not use them. Come up with different ones that serve the story.
@@ -261,7 +261,7 @@ Example 1 - Physical Irreversibility (Mountain):
   - No cultural grounding
   - Screams "this is representing something else"
 
-Example 2 - Extractive System (Noose):
+Example 2 - Extractive System (Snare):
 ✓ GOOD: "Company script system: wages paid in tokens only redeemable 
   at company store, with inflated prices ensuring perpetual debt"
   - Documented historical practice (1920s American company towns)
@@ -269,7 +269,7 @@ Example 2 - Extractive System (Noose):
   - Snapback visible (miss work = eviction, no savings = trapped)
   - Feels like economic history, not theory
 
-✗ BAD: "The Noose of economic extraction"
+✗ BAD: "The Snare of economic extraction"
   - Framework term in description
   - Abstract rather than concrete
   - No specific mechanism described
@@ -309,7 +309,7 @@ Example 4 - Error Naturalization:
   says take the night shift or get out, you take it. What choice? 
   The company owns the houses, owns the store, owns the doctor. 
   Might as well own the air you breathe."
-  - Type I Error (treating Noose as Mountain) embedded in dialogue
+  - Type I Error (treating Snare as Mountain) embedded in dialogue
   - Culturally specific misrecognition (elder authority)
   - No one says "I'm making a categorization error"
   - Feels like how people actually think
@@ -389,7 +389,7 @@ USE Omegas for worldbuilding details that make constraints concrete and specific
 
 ✗ BAD Omega usage (these were resolved in Stage 1):
 - Ω_C: Is radiation exposure actually a Mountain constraint?
-- Ω_E: Does the Noose snap back when enforcement stops?
+- Ω_E: Does the Snare snap back when enforcement stops?
 - Ω_P: Should the story have a terminal attractor?
 
 ---
@@ -558,7 +558,7 @@ RESOLVED:
 Question: Did Chicago meatpacking plants use company script in 1923?
 Resolution: No—direct practice ended ~1910, BUT company housing with 
   inflated rent served same function. Using housing debt instead.
-Impact: Changed Noose mechanism from script to housing trap
+Impact: Changed Snare mechanism from script to housing trap
 
 Ω_C02: Polish immigration wave specification  
 Question: Which wave—1880s economic or 1900s political refugees?
@@ -598,7 +598,7 @@ Section 2 (Omega Log) is documentation showing your reasoning process.
 CRITICAL QUALITY CHECKS:
 
 Before submitting Section 1 (Context Description), verify:
-□ Have I used ANY framework terminology? (Mountain, Rope, Noose, etc.)
+□ Have I used ANY framework terminology? (Mountain, Rope, Snare, etc.)
   - If yes: REVISE. These should not appear.
   
 □ Have I used ANY Omega notation in the context description?
@@ -701,7 +701,7 @@ Impact: Characters navigate system strategically, not passively accepting or fut
 Ω_E05: Oxygen debt mechanics
 Question: How would oxygen allocation actually work technically?
 Resolution: Biometric tracking (wristband monitors O2 usage), allocated by shift productivity
-Impact: Makes Noose mechanism concrete—literally breathing on borrowed time
+Impact: Makes Snare mechanism concrete—literally breathing on borrowed time
 
 Ω_C06: "Surface" terminology
 Question: Would they say "surface," "downside," "ice," or something else?

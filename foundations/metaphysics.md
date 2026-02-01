@@ -294,7 +294,7 @@ This explains why same constraint genuinely IS Mountain/Tangled Rope/Rope/Snare 
 
 **Entity constitution:** Some institutions *are* Snare-patterns—extraction mechanisms maintained through power. They don't "have" extractive properties; they *are* extraction structures. Remove the power maintenance and the entity ceases to exist.
 
-**Terminology note:** Previously "Noose" (execution device). "Snare" better fits climbing metaphor (trap in terrain) while maintaining the "tightening trap" concept.
+**Terminology note:** Previously "Snare" (execution device). "Snare" better fits climbing metaphor (trap in terrain) while maintaining the "tightening trap" concept.
 
 ---
 
@@ -351,7 +351,7 @@ This explains why same constraint genuinely IS Mountain/Tangled Rope/Rope/Snare 
 - Obsolete regulatory reporting
 - Dead letter laws still on books
 - Legacy system dependencies
-- Zombie committees (meet but produce nothing)
+- Piton committees (meet but produce nothing)
 - Skeuomorphic design elements
 
 **Why this matters structurally:**
@@ -362,7 +362,7 @@ This explains why same constraint genuinely IS Mountain/Tangled Rope/Rope/Snare 
 
 **Entity constitution:** Some institutions *were* entities but have become vestigial patterns—organizational Pitons. The structure persists but the function is gone. They're institutional fossils.
 
-**Terminology note:** Previously "Zombie" (undead). "Piton" better fits climbing metaphor (old anchor that fails) and captures the specific danger: looks like support, fails under load.
+**Terminology note:** Previously "Piton" (undead). "Piton" better fits climbing metaphor (old anchor that fails) and captures the specific danger: looks like support, fails under load.
 
 ---
 

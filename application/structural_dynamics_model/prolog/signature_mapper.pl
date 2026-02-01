@@ -24,7 +24,7 @@ resolve_mapping(natural_law, mountain).
 resolve_mapping(coordination_scaffold, rope).
 % A scaffold that has decayed into a liability is a Piton
 resolve_mapping(piton_signature, piton).
-% Asymmetric, enforced, or extractive rules are Nooses
+% Asymmetric, enforced, or extractive rules are Snares
 resolve_mapping(constructed_constraint, snare).
 % Fallback for ambiguous data
 resolve_mapping(ambiguous, rope).

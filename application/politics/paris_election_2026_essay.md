@@ -11,9 +11,9 @@ risk_budget_spent: 9/15
 
 Evidence from substrate: Three months of polling (Nov-Jan) shows Bournazel stable at 13-16% despite Belliard withdrawal consolidating the left; no collapse pattern like Colombia's Fajardo
 
-Justification: Under Full Noose conditions (Colombia), centrist candidates terminal at 9-10% across multiple cycles. Bournazel's persistence at 50% higher suggests the 25% majority bonus reform eliminated the mathematical penalty for centrist positions
+Justification: Under Full Snare conditions (Colombia), centrist candidates terminal at 9-10% across multiple cycles. Bournazel's persistence at 50% higher suggests the 25% majority bonus reform eliminated the mathematical penalty for centrist positions
 
-Ω_reform_effectiveness collapsed to: "The Loi Maillard is not symbolic reform—it's a genuine Noose-breaking intervention that will produce measurably different compression dynamics than presidential races"
+Ω_reform_effectiveness collapsed to: "The Loi Maillard is not symbolic reform—it's a genuine Snare-breaking intervention that will produce measurably different compression dynamics than presidential races"
 
 Evidence from substrate: Majority bonus reduction from 50% to 25%, explicit legislative intent to "encourage political diversity" and "require coalition-building," proportional allocation increased from 50% to 75% of seats
 
@@ -38,7 +38,7 @@ This reading misses what's actually happening. The Paris race isn't fluid; it's 
 
 The proof is in the comparison. In Colombia's presidential race—happening 11 weeks after Paris's first round—the undecided vote collapsed from 62% to 5.7% in ten weeks. That's a compression velocity of 5.6 percentage points per week as voters were mathematically forced into binary choice. Paris, over the same three-month period (November to January), shows compression velocity of just 0.89 points per week. The centrist candidate in Colombia (Sergio Fajardo) has been terminally stuck at 9-10% across three consecutive election cycles. The centrist candidate in Paris (Pierre-Yves Bournazel) has held steady at 14-16% for three months and shows no collapse pattern.
 
-Same democratic culture, same two-round runoff system, same time period—yet radically different dynamics. The difference is that Paris deliberately weakened what we'll call the "Noose": the mathematical structure that punishes voters for refusing binary alignment.
+Same democratic culture, same two-round runoff system, same time period—yet radically different dynamics. The difference is that Paris deliberately weakened what we'll call the "Snare": the mathematical structure that punishes voters for refusing binary alignment.
 
 ## The Reform as Intervention
 
@@ -52,17 +52,17 @@ In August 2025, France passed the Loi Maillard, fundamentally restructuring how 
 
 The legislative record is explicit about intent. The reform was designed to "increase transparency, reduce the majority bonus, and allow smaller parties more visibility in local councils." It aimed to shift from a system that produced dominant majorities to one that "encourages political diversity" and "requires coalition-building."
 
-This wasn't random tinkering. French political engineers diagnosed an extraction problem: the old system was taking representation away from voters to manufacture artificial stability. Their solution was to reduce the mathematical penalty for supporting non-dominant positions. Whether they knew it or not, they were trying to convert a Noose (forced binary choice through extraction) into a Rope (genuine multi-party coordination).
+This wasn't random tinkering. French political engineers diagnosed an extraction problem: the old system was taking representation away from voters to manufacture artificial stability. Their solution was to reduce the mathematical penalty for supporting non-dominant positions. Whether they knew it or not, they were trying to convert a Snare (forced binary choice through extraction) into a Rope (genuine multi-party coordination).
 
 The question is: did it work?
 
-## The Mountains Don't Change, But the Noose Does
+## The Mountains Don't Change, But the Snare Does
 
-To understand what the reform actually accomplishes, you need to distinguish between different types of constraints. Some boundaries are immutable—"Mountains" that no amount of political action can move. Others are coordination mechanisms—"Ropes" that help aligned groups achieve shared goals. And some are extraction mechanisms disguised as coordination—"Nooses" that force asymmetric outcomes where some participants benefit at others' expense.
+To understand what the reform actually accomplishes, you need to distinguish between different types of constraints. Some boundaries are immutable—"Mountains" that no amount of political action can move. Others are coordination mechanisms—"Ropes" that help aligned groups achieve shared goals. And some are extraction mechanisms disguised as coordination—"Snares" that force asymmetric outcomes where some participants benefit at others' expense.
 
 In Paris 2026, the Mountain is the two-round system itself. French municipal elections require either an absolute majority (50%+) in the first round—which almost never happens—or advancing to a second-round runoff. This is constitutional bedrock, unchanged by the reform. The runoff mechanism will still operate on March 22 if no list clears 50% on March 15.
 
-What changed was the *intensity* of the Noose embedded in that two-round structure. Under the old system, the majority bonus functioned as winner-takes-most multiplication: get 30% of the vote in your sector, receive 50% of that sector's seats. This created a mathematical trap. If you were a third-place candidate at 15%, your supporters faced a brutal calculation: stay with you and guarantee your loss, or defect to a viable pole and maybe influence the outcome. The bonus magnified the winner's strength, which made vote-splitting catastrophically expensive for anyone not aligned with the top two.
+What changed was the *intensity* of the Snare embedded in that two-round structure. Under the old system, the majority bonus functioned as winner-takes-most multiplication: get 30% of the vote in your sector, receive 50% of that sector's seats. This created a mathematical trap. If you were a third-place candidate at 15%, your supporters faced a brutal calculation: stay with you and guarantee your loss, or defect to a viable pole and maybe influence the outcome. The bonus magnified the winner's strength, which made vote-splitting catastrophically expensive for anyone not aligned with the top two.
 
 The Loi Maillard reduced that multiplication factor by half. Now the first-place list gets 25% of seats as bonus, not 50%. The remaining 75% are distributed proportionally. This changes the math fundamentally. A third-place list at 15% is no longer structurally irrelevant—they'll win approximately 15% of the proportional seats (roughly 18 seats out of 122), plus potentially some bonus seats if they finish first. More importantly, their voters don't face the same binary trap. Supporting a smaller party no longer means gifting the entire system to your least-preferred option.
 
@@ -70,11 +70,11 @@ The Loi Maillard reduced that multiplication factor by half. Now the first-place
 
 Pierre-Yves Bournazel is the diagnostic test case. He's a 52-year-old former member of the National Assembly, currently a Paris city councilor, running under the Horizons (HOR) banner with backing from Renaissance (Macron's party). He represents classic centrism: pro-business but socially liberal, supportive of Macron's reforms but critical of Hidalgo's urban policies, neither hard-left nor traditional right.
 
-In a Full Noose system like Colombia's presidential race, candidates like Bournazel are structurally doomed. Colombia's Sergio Fajardo—former mayor of Medellín, former governor of Antioquia, with genuine executive experience—has run for president three times: 2018 (third place), 2022 (fourth place with 4.2%), 2026 (projected third place at 9.4%). Despite being in a country where "the majority of Colombians identify with the center," Fajardo cannot break through. The Noose extracts his viability by making every vote for him a potential gift to the pole his supporters fear most.
+In a Full Snare system like Colombia's presidential race, candidates like Bournazel are structurally doomed. Colombia's Sergio Fajardo—former mayor of Medellín, former governor of Antioquia, with genuine executive experience—has run for president three times: 2018 (third place), 2022 (fourth place with 4.2%), 2026 (projected third place at 9.4%). Despite being in a country where "the majority of Colombians identify with the center," Fajardo cannot break through. The Snare extracts his viability by making every vote for him a potential gift to the pole his supporters fear most.
 
-Bournazel, structurally identical to Fajardo (technocratic centrist in polarized environment), is polling 50% higher. Not 50% more voters—50% higher as a proportion. While Fajardo terminals at 9-10%, Bournazel holds 14-16%. The difference appears modest but is diagnostic. That extra 5-6 percentage points represents voters who, in a Full Noose system, would have already defected to a viable pole.
+Bournazel, structurally identical to Fajardo (technocratic centrist in polarized environment), is polling 50% higher. Not 50% more voters—50% higher as a proportion. While Fajardo terminals at 9-10%, Bournazel holds 14-16%. The difference appears modest but is diagnostic. That extra 5-6 percentage points represents voters who, in a Full Snare system, would have already defected to a viable pole.
 
-More telling is the trajectory. Fajardo has been stuck at 9-10% across multiple election cycles—2018, 2022, 2026. His ceiling never moves. Bournazel has been stable at 14-16% for three consecutive months (November through January) despite a major consolidation event on the left. When Green candidate David Belliard withdrew on December 17 and endorsed Grégoire, the Socialist candidate jumped from 22% to 33%. Standard Noose dynamics would predict this consolidation would trigger counter-consolidation—center-right voters would flee Bournazel to Dati (the Republicans candidate) to maintain balance. That didn't happen. Bournazel held steady. Dati didn't surge to absorb the center.
+More telling is the trajectory. Fajardo has been stuck at 9-10% across multiple election cycles—2018, 2022, 2026. His ceiling never moves. Bournazel has been stable at 14-16% for three consecutive months (November through January) despite a major consolidation event on the left. When Green candidate David Belliard withdrew on December 17 and endorsed Grégoire, the Socialist candidate jumped from 22% to 33%. Standard Snare dynamics would predict this consolidation would trigger counter-consolidation—center-right voters would flee Bournazel to Dati (the Republicans candidate) to maintain balance. That didn't happen. Bournazel held steady. Dati didn't surge to absorb the center.
 
 The stability is the signal. In Colombia, undecided voters are being extracted at 5.6 points per week—forced compression toward binary alignment. In Paris, the compression velocity over the same time period is 0.89 points per week. That's 6.3 times slower. This isn't campaign quality or candidate charisma. It's the mathematical structure of choice.
 
@@ -88,7 +88,7 @@ Here's what standard forecasting predicts versus what constraint topology predic
 
 **Standard View:** "Bournazel at 16% is in the margin of error for qualifying to the second round [needs ~14-15% to potentially advance]. He could consolidate moderate voters if he gains momentum in debates. Watch for late-breaking poll movement."
 
-**Constraint View:** "Bournazel at 16% represents the structural ceiling for centrist positions under Weakened Noose conditions. He will remain between 13-17% through March 15 because voters no longer face mathematical pressure to defect. His second-round viability against either Grégoire or Dati proves the reform eliminated winner-takes-most dynamics."
+**Constraint View:** "Bournazel at 16% represents the structural ceiling for centrist positions under Weakened Snare conditions. He will remain between 13-17% through March 15 because voters no longer face mathematical pressure to defect. His second-round viability against either Grégoire or Dati proves the reform eliminated winner-takes-most dynamics."
 
 The difference is predictive power. Standard analysis treats the current five-way distribution as unstable pre-consolidation. It expects compression. Constraint analysis treats it as the new equilibrium—multi-polar stability enabled by proportional allocation.
 
@@ -96,7 +96,7 @@ We can test this. If standard forecasting is right, we should see Bournazel coll
 
 ## The Reform's Specific Mechanisms
 
-The Loi Maillard works through three distinct mechanisms that each reduce Noose pressure:
+The Loi Maillard works through three distinct mechanisms that each reduce Snare pressure:
 
 **Mechanism 1: Proportional Dilution**
 
@@ -122,7 +122,7 @@ Under the new system, you need 5% across all 1.3 million Parisian voters. This i
 
 **Mechanism 3: Psychological De-escalation**
 
-This is the mechanism standard forecasting completely misses. The Noose operates not just mechanically (through seat allocation rules) but psychologically (through voter beliefs about wasted votes). When voters believe their preferred candidate cannot win, they face pressure to vote "strategically" for a viable alternative. This creates a self-fulfilling prophecy: minor candidates collapse because voters defect, which confirms they couldn't win, which justifies the defection.
+This is the mechanism standard forecasting completely misses. The Snare operates not just mechanically (through seat allocation rules) but psychologically (through voter beliefs about wasted votes). When voters believe their preferred candidate cannot win, they face pressure to vote "strategically" for a viable alternative. This creates a self-fulfilling prophecy: minor candidates collapse because voters defect, which confirms they couldn't win, which justifies the defection.
 
 The reform breaks this loop by making "cannot win the mayoralty" distinct from "cannot win representation." Under the old system, if your candidate couldn't plausibly finish first in your sector, your vote was genuinely wasted—it produced no representation. Under the new system, if your candidate reaches 5% citywide, you get proportional seats even if they finish third, fourth, or fifth.
 
@@ -175,7 +175,7 @@ Let's make this concrete by comparing Paris 2026 to Colombia 2026 across key met
 - Paris: Grégoire vs Dati competitive (48-50%); Bournazel vs either shows him competitive (49-51%)
 - **Interpretation: Paris maintains multi-polar viability into runoff; Colombia collapsed to binary**
 
-These aren't small differences. They're the signature of different constraint topologies. Colombia has a Full Noose (50%+ runoff requirement + one-term limit creating succession crisis). Paris has a Weakened Noose (25% bonus + 75% proportional allocation).
+These aren't small differences. They're the signature of different constraint topologies. Colombia has a Full Snare (50%+ runoff requirement + one-term limit creating succession crisis). Paris has a Weakened Snare (25% bonus + 75% proportional allocation).
 
 The critical insight is that these elections are happening *simultaneously* in similar democracies (presidential systems, two-round voting, comparable development levels, active political conflict) during the same time period. The compression velocities diverging by 5.6x is powerful evidence that electoral mathematics drives dynamics, not cultural or campaign factors.
 
@@ -187,19 +187,19 @@ Track these instead:
 
 **1. Bournazel's Floor (Critical Indicator)**
 
-If Bournazel drops below 12% by March 1, it signals the Noose is reasserting despite the reform. Voters are beginning tactical defection toward the poles. If he holds 13-17% through March 15, it confirms the reform broke the compression mechanism.
+If Bournazel drops below 12% by March 1, it signals the Snare is reasserting despite the reform. Voters are beginning tactical defection toward the poles. If he holds 13-17% through March 15, it confirms the reform broke the compression mechanism.
 
 Current status: **14-16% (stable for three months)**
 
 **2. Compression Velocity (Weekly Metric)**
 
-Calculate the week-over-week change in the gap between "decided" and "undecided" voters, and the consolidation of support into fewer candidates. If velocity stays below 1.5 points/week through March 8, the Weakened Noose prediction holds. If velocity accelerates above 2.5 points/week, Full Noose dynamics are emerging.
+Calculate the week-over-week change in the gap between "decided" and "undecided" voters, and the consolidation of support into fewer candidates. If velocity stays below 1.5 points/week through March 8, the Weakened Snare prediction holds. If velocity accelerates above 2.5 points/week, Full Snare dynamics are emerging.
 
 Current status: **0.89 points/week (Nov-Jan average)**
 
 **3. List Diversity Above 10% (Count Metric)**
 
-How many lists remain above 10% in polling through March 8? Under Weakened Noose conditions: 4-5 lists. Under Full Noose conditions: 2-3 lists maximum.
+How many lists remain above 10% in polling through March 8? Under Weakened Snare conditions: 4-5 lists. Under Full Snare conditions: 2-3 lists maximum.
 
 Current status: **4 lists (Grégoire, Dati, Bournazel, Chikirou)**
 
@@ -223,11 +223,11 @@ Current status: **Will be measurable March 22**
 
 ## The Stakes Beyond Paris
 
-Paris 2026 matters because it's a live experiment with a control case. Colombia 2026 is the control—unchanged Full Noose system showing rapid compression (5.6 points/week) and centrist strangulation (Fajardo terminal at 9.4%). Paris 2026 is the intervention—reformed Weakened Noose system showing slow compression (0.89 points/week) and centrist viability (Bournazel stable at 14-16%).
+Paris 2026 matters because it's a live experiment with a control case. Colombia 2026 is the control—unchanged Full Snare system showing rapid compression (5.6 points/week) and centrist strangulation (Fajardo terminal at 9.4%). Paris 2026 is the intervention—reformed Weakened Snare system showing slow compression (0.89 points/week) and centrist viability (Bournazel stable at 14-16%).
 
-If Paris results confirm the Weakened Noose predictions—Bournazel finishes above 13%, five lists win seats, winner requires coalition for majority—it proves that electoral topology is malleable. Constitutional engineers can design their way out of polarization traps by altering the mathematical incentives. The Noose can be weakened through mechanical reforms.
+If Paris results confirm the Weakened Snare predictions—Bournazel finishes above 13%, five lists win seats, winner requires coalition for majority—it proves that electoral topology is malleable. Constitutional engineers can design their way out of polarization traps by altering the mathematical incentives. The Snare can be weakened through mechanical reforms.
 
-If Paris results match Full Noose predictions despite the reform—Bournazel collapses below 11%, only three lists win meaningful seats, winner achieves near-majority alone—it proves the two-round structure itself is sufficient to create compression dynamics regardless of majority bonus size. The psychological pressure of potential wasted votes dominates the mechanical seat allocation rules.
+If Paris results match Full Snare predictions despite the reform—Bournazel collapses below 11%, only three lists win meaningful seats, winner achieves near-majority alone—it proves the two-round structure itself is sufficient to create compression dynamics regardless of majority bonus size. The psychological pressure of potential wasted votes dominates the mechanical seat allocation rules.
 
 Either outcome advances the theory. The first validates that we understand the causal mechanisms (bonus multiplication creates extraction). The second reveals we need refinement (perhaps the 5% threshold creates exclusion pressure, or the two-round timeline itself forces tactical consolidation).
 
@@ -235,11 +235,11 @@ Either outcome advances the theory. The first validates that we understand the c
 
 This isn't just about Paris and Colombia. It's about whether democratic systems can escape polarization traps through institutional design, or whether winner-takes-most dynamics are an emergent property of competitive elections that can't be engineered away.
 
-France will provide the second test. The 2027 presidential race—happening just 13 months after Paris—retains the Full Noose structure. Two-round system with 50%+ runoff requirement, no proportional allocation, no majority bonus reduction. It's the same system Paris just reformed away from. If the constraint topology framework is correct, France 2027 should show compression dynamics matching Colombia 2026 (4-5 points/week) despite completely different political culture and candidate set.
+France will provide the second test. The 2027 presidential race—happening just 13 months after Paris—retains the Full Snare structure. Two-round system with 50%+ runoff requirement, no proportional allocation, no majority bonus reduction. It's the same system Paris just reformed away from. If the constraint topology framework is correct, France 2027 should show compression dynamics matching Colombia 2026 (4-5 points/week) despite completely different political culture and candidate set.
 
-That's the ultimate falsification test. Three elections across two continents: Colombia 2026 (Full Noose), Paris 2026 (Weakened Noose), France 2027 (Full Noose). If the first and third show similar compression while the second shows dramatically slower compression, it's powerful evidence that electoral mathematics drives polarization dynamics more than culture, campaign quality, or candidate appeal.
+That's the ultimate falsification test. Three elections across two continents: Colombia 2026 (Full Snare), Paris 2026 (Weakened Snare), France 2027 (Full Snare). If the first and third show similar compression while the second shows dramatically slower compression, it's powerful evidence that electoral mathematics drives polarization dynamics more than culture, campaign quality, or candidate appeal.
 
-For forecasters, this means prediction models that don't account for constraint topology will persistently mis-estimate outcome ranges. They'll treat Paris's five-way stability as "pre-consolidation uncertainty" and expect compression that won't arrive. They'll explain Colombia's rapid compression through "weak institutions" or "political crisis" rather than recognizing it as the mathematical signature of a Full Noose system. They'll be surprised when France 2027 shows Colombia-like compression despite being a stable Western democracy, because they're modeling preferences rather than constraints.
+For forecasters, this means prediction models that don't account for constraint topology will persistently mis-estimate outcome ranges. They'll treat Paris's five-way stability as "pre-consolidation uncertainty" and expect compression that won't arrive. They'll explain Colombia's rapid compression through "weak institutions" or "political crisis" rather than recognizing it as the mathematical signature of a Full Snare system. They'll be surprised when France 2027 shows Colombia-like compression despite being a stable Western democracy, because they're modeling preferences rather than constraints.
 
 The constraint system doesn't care about your campaign strategy, your debate performance, or your ground game. It cares about the mathematical structure of choice. Paris 2026 is testing whether we can change that structure. We'll know the answer in seven weeks.
 
@@ -257,7 +257,7 @@ Placement: Final section
 
 Simplicity Gate: PASS - Substrate reveals genuine structural difference (majority bonus 50% → 25% changes incentive structure), not invented complexity
 
-Counterfactual Test: PASS - Claims falsifiable by: (a) Bournazel dropping below 12% by March 1 (disproves Weakened Noose), (b) compression velocity exceeding 2.5 points/week in February (disproves reform effectiveness), (c) winner achieving >75 seats alone (disproves coalition requirement), (d) only 3 lists winning seats (disproves multi-polar stability)
+Counterfactual Test: PASS - Claims falsifiable by: (a) Bournazel dropping below 12% by March 1 (disproves Weakened Snare), (b) compression velocity exceeding 2.5 points/week in February (disproves reform effectiveness), (c) winner achieving >75 seats alone (disproves coalition requirement), (d) only 3 lists winning seats (disproves multi-polar stability)
 
 Substrate Fidelity: PASS - All major claims trace to: Loi Maillard reform text (50% → 25% bonus), polling data November 2025-January 2026 (Bournazel 13-16% stable), comparison to Colombia compression (5.6 vs 0.89 points/week), second-round scenarios (Bournazel competitive)
 

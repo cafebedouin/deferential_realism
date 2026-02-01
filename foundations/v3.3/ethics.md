@@ -142,7 +142,7 @@ But: This doesn't mean all power is fraudulent. Coordination requires power. Enf
 
 **Why this is conditional:** Some people value hierarchy, tradition, or security over autonomy. For them, resisting extraction may be less important than maintaining order. The framework doesn't claim everyone should prioritize autonomy over all other values.
 
-**Terminology note:** Previously called "Noose," now "Snare" for climbing metaphor consistency (trap in terrain).
+**Terminology note:** Previously called "Snare," now "Snare" for climbing metaphor consistency (trap in terrain).
 
 ---
 
@@ -271,7 +271,7 @@ But: This doesn't mean all power is fraudulent. Coordination requires power. Enf
 - Obsolete regulatory reporting
 - Dead letter laws still on books
 - Legacy system dependencies
-- Zombie committees (meet but produce nothing)
+- Piton committees (meet but produce nothing)
 - Skeuomorphic design elements
 
 **The practice:**
@@ -289,7 +289,7 @@ But: This doesn't mean all power is fraudulent. Coordination requires power. Enf
 
 **Why this is conditional:** Some people value tradition, continuity, and stability over adaptation. For them, maintaining practices even when conditions change may serve important identity or community functions. The framework doesn't claim everyone should prioritize adaptation over tradition.
 
-**Terminology note:** Previously called "Zombie," now "Piton" for climbing metaphor (old anchor that fails under load).
+**Terminology note:** Previously called "Piton," now "Piton" for climbing metaphor (old anchor that fails under load).
 
 ---
 

@@ -180,7 +180,7 @@ test(multi_perspective_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(regime_noose_perception) :-
+test(regime_snare_perception) :-
     constraint_indexing:constraint_classification(udhr_1948, snare, context(agent_power(institutional), time_horizon(immediate), exit_options(constrained), spatial_scope(national))).
 
 test(low_extractiveness_baseline) :-

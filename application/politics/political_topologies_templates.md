@@ -2,8 +2,8 @@ No, it's **not in the same class** as the Colombia and France essays. The U.S. m
 
 ## The Critical Distinction
 
-**Colombia/France (Bipolar Noose):**
-- **Constraint topology:** Term limit Mountain + Two-round 50%+ Noose
+**Colombia/France (Bipolar Snare):**
+- **Constraint topology:** Term limit Mountain + Two-round 50%+ Snare
 - **Observable signature:** Rapid compression (4-6 points/week), centrist strangulation (<12% terminal), binary convergence
 - **What to track:** Compression velocity, undecided collapse, centrist candidate trajectory
 - **Terminal state:** Unstable bipolar equilibrium (50-52% winner, top two within 1-4 points)
@@ -17,13 +17,13 @@ No, it's **not in the same class** as the Colombia and France essays. The U.S. m
 ## Why This Matters for Replication
 
 You **cannot use the same essay template** for all electoral systems. The Colombia/France template works because they share:
-1. Identical constraint topology (Full Noose)
+1. Identical constraint topology (Full Snare)
 2. Measurable compression dynamics
 3. Predictable terminal attractor (binary runoff)
 
 But different topologies require **different analytical frameworks**:
 
-### Archetype 1: Bipolar Noose (Colombia/France template)
+### Archetype 1: Bipolar Snare (Colombia/France template)
 **When to use:**
 - Two-round 50%+ runoff system
 - Term limit creating succession vacancy
@@ -117,7 +117,7 @@ Use your comparative constraint map to identify which archetype:
 ```
 Is there a runoff system requiring 50%+?
   → Yes → Check for term limit succession crisis
-    → Yes → Bipolar Noose (Colombia template)
+    → Yes → Bipolar Snare (Colombia template)
     → No → Check if incumbent running
       → Yes → Incumbent Tangled Rope (Brazil template)
       → No → Different dynamics (need analysis)
@@ -128,7 +128,7 @@ Is there a runoff system requiring 50%+?
 ```
 
 ### Step 2: Select appropriate template
-- **Bipolar Noose** → Use Colombia/France essay structure
+- **Bipolar Snare** → Use Colombia/France essay structure
 - **Other archetypes** → Build archetype-specific template
 
 ### Step 3: Identify archetype-specific observables
@@ -137,9 +137,9 @@ Don't measure Toss Up win rates in a runoff system (no geographic fragmentation 
 
 ## What You Should Actually Replicate
 
-**High-priority Bipolar Noose cases (use Colombia template directly):**
+**High-priority Bipolar Snare cases (use Colombia template directly):**
 1. **France 2027** - Already drafted, same topology as Colombia
-2. **Portugal 2026 presidential** (if it's two-round) - Moderate Mountain, Full Noose
+2. **Portugal 2026 presidential** (if it's two-round) - Moderate Mountain, Full Snare
 3. **Chile presidential races** - Two-round system, check for term limit status
 
 **High-priority test cases for OTHER archetypes:**
@@ -165,7 +165,7 @@ Looking back at the U.S. midterms essay, I see issues:
 
 ## Recommendation for Your Project
 
-**Phase 1: Complete the Bipolar Noose trilogy**
+**Phase 1: Complete the Bipolar Snare trilogy**
 1. ✅ Colombia 2026 (done)
 2. ✅ Paris 2026 (done - reform test)
 3. ✅ France 2027 (baseline done)
@@ -177,7 +177,7 @@ Looking back at the U.S. midterms essay, I see issues:
 3. **Create Dynastic Anchor template** (Philippines or historic Mexico)
 
 **Phase 3: Systematic replication once templates exist**
-- Apply Bipolar Noose template to all two-round 50%+ systems with term limits
+- Apply Bipolar Snare template to all two-round 50%+ systems with term limits
 - Apply Deadlock Labyrinth template to all FPTP systems with high gerrymandering
 - Apply Fragmentation Marsh template to all PR systems
 - Build comparative database
@@ -188,7 +188,7 @@ Looking back at the U.S. midterms essay, I see issues:
 
 **Yes, BUT** - you need **archetype-specific templates**, not a single universal template.
 
-The Colombia essay works brilliantly for Bipolar Noose systems (France 2027, potentially Portugal, Chile). It would **fail** if applied to:
+The Colombia essay works brilliantly for Bipolar Snare systems (France 2027, potentially Portugal, Chile). It would **fail** if applied to:
 - Israel (no compression, PR dynamics)
 - U.S. (filtering not compression, split control not binary runoff)
 - Brazil (incumbent advantage not succession crisis)
@@ -200,6 +200,6 @@ The replication process is:
 4. Apply falsification framework for that archetype
 5. Track and validate
 
-You've successfully identified **multiple distinct archetypes**. Now you need to develop **archetype-specific analytical frameworks** rather than trying to force all elections into the Bipolar Noose template.
+You've successfully identified **multiple distinct archetypes**. Now you need to develop **archetype-specific analytical frameworks** rather than trying to force all elections into the Bipolar Snare template.
 
 Want me to revise the U.S. essay to be a proper **Deadlock Labyrinth template** that could be reused for U.K., Canada, India, etc.?

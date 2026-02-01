@@ -87,7 +87,7 @@ Major claims with substrate references:
 - "750,000-2.1M microschool students" → web_search index 18-1
 - "55% microschools operate under homeschool laws" → web_search index 18-1
 - "Colorado SBE regulatory friction" → colorado_sbe_decentralization_friction.pl suppression_score(0.6)
-- "Platform dependency as extractive mechanism" → ai_edu_decentralization.pl noose classification for institutional perspective
+- "Platform dependency as extractive mechanism" → ai_edu_decentralization.pl snare classification for institutional perspective
 - "85% microschool leaders less likely to participate under state curriculum mandates" → web_search index 24-1
 - "Open standards roadmap" → educational_unbundling_implementation.pl
 - "Credential legitimacy omega unresolved" → ai_edu_decentralization.pl omega_variable(credential_legitimacy_omega)

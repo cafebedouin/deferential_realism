@@ -184,7 +184,7 @@ test(symmetry_fate_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(student_frustration_noose) :-
+test(student_frustration_snare) :-
     % A moderate power agent in a constrained/biographical context sees the abstraction as a Snare.
     constraint_indexing:constraint_classification(galois_theory_symmetry, snare, context(individual_moderate, biographical, constrained, local)).
 

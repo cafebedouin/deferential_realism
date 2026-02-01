@@ -22,7 +22,7 @@ constraint_metric(founder_control, extractiveness, 0.66).
 omega_variable(mobile_revenue, empirical, missing_observable_data_on_sponsored_story_yield_in_news_feed).
 omega_variable(social_value, conceptual, ambiguous_metrics_for_open_and_connected_utility).
 
-recommendation(rec_01, remove_noose_via_independent_nominating_function).
+recommendation(rec_01, remove_snare_via_independent_nominating_function).
 affects_constraint(rec_01, founder_control).
 veto_actor(mz).
 veto_exposed(mz, rec_01).

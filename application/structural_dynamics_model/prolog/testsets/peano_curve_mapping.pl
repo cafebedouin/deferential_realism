@@ -185,7 +185,7 @@ test(perspective_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(locality_noose_penalty) :-
+test(locality_snare_penalty) :-
     % A powerless data sequence (constrained) sees the loss of locality as a Snare.
     constraint_indexing:constraint_classification(peano_curve_mapping, snare, context(individual_powerless, immediate, constrained, local)).
 

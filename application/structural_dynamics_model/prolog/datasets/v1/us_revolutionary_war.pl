@@ -25,8 +25,8 @@ constraint_claim(atlantic_logistical_limit, mountain).
 constraint_metric(atlantic_logistical_limit, accessibility_collapse, 0.98).
 
 % Snare: The Coercive Acts (Intolerable Acts). A narrowing set of legal and economic restrictions intended to crush colonial agency.
-constraint_claim(coercive_acts_noose, snare).
-constraint_metric(coercive_acts_noose, stakes_inflation, 0.95).
+constraint_claim(coercive_acts_snare, snare).
+constraint_metric(coercive_acts_snare, stakes_inflation, 0.95).
 
 % Piton: Virtual Representation. The dead concept that colonists were represented in Parliament 'in spirit,' used to maintain regulatory control.
 constraint_claim(virtual_representation_myth, piton).

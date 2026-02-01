@@ -244,7 +244,7 @@ has_asymmetric_extraction(ConstraintID) :-
    INDEXICAL GATE (v3.1)
    ========================================================================== */
 
-% Indexical Gate: Flags Mountains that are actually Shadow Nooses.
+% Indexical Gate: Flags Mountains that are actually Shadow Snares.
 check_indexical_relativity(ID) :-
     constraint_indexing:constraint_classification(ID, mountain, _),
     domain_priors:base_extractiveness(ID, E),

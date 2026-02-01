@@ -191,7 +191,7 @@ test(power_extractiveness_scaling) :-
     constraint_indexing:extractiveness_for_agent(lula_hemisphere_2026, ContextPowerful, Score2),
     Score1 > Score2.
 
-test(continental_scope_noose) :-
+test(continental_scope_snare) :-
     constraint_indexing:constraint_classification(lula_hemisphere_2026, snare, context(institutional, biographical, constrained, continental)).
 
 :- end_tests(lula_hemisphere_2026_tests).

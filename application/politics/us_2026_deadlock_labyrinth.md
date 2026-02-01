@@ -10,7 +10,7 @@ Before reading this analysis, you need three concepts from Deferential Realism�
 
 **The critical insight:** The *same structural feature* can be a Rope for powerful agents and a Snare for powerless ones. Safe seats are a coordination tool (Rope) for party leadership ensuring predictable majorities, but become a trap (Snare) for voters whose ballots have no competitive impact.
 
-**The Deadlock Labyrinth:** Unlike the Bipolar Noose (which forces rapid compression toward two candidates in runoff systems), the Deadlock Labyrinth operates through *geographical fragmentation*. Most districts/constituencies are non-competitive by design, creating "safe seats" that insulate incumbents. National sentiment can only penetrate this labyrinth in a narrow band of competitive seats, producing minimal seat changes even when public opinion shifts dramatically.
+**The Deadlock Labyrinth:** Unlike the Bipolar Snare (which forces rapid compression toward two candidates in runoff systems), the Deadlock Labyrinth operates through *geographical fragmentation*. Most districts/constituencies are non-competitive by design, creating "safe seats" that insulate incumbents. National sentiment can only penetrate this labyrinth in a narrow band of competitive seats, producing minimal seat changes even when public opinion shifts dramatically.
 
 ---
 
@@ -261,9 +261,9 @@ The 2026 U.S. midterms demonstrate a general principle about **geographical filt
 - **Canada:** Regional concentration (Bloc Québécois, Alberta Conservatives), frequent minority governments
 - **India:** Huge seat disparities from small vote swings due to FPTP + regional fragmentation
 
-The Deadlock Labyrinth differs fundamentally from the **Bipolar Noose** (Colombia, France):
+The Deadlock Labyrinth differs fundamentally from the **Bipolar Snare** (Colombia, France):
 
-| Feature | Bipolar Noose | Deadlock Labyrinth |
+| Feature | Bipolar Snare | Deadlock Labyrinth |
 |---------|--------------|-------------------|
 | **Electoral system** | Two-round runoff | Plurality FPTP |
 | **Core dynamic** | Compression (many → two) | Filtering (national → local) |

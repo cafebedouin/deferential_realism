@@ -17,7 +17,7 @@ constraint_status(Name, binding_limit, I) :-
     narrative_ontology:constraint_claim(Name, mountain),
     narrative_ontology:constraint_metric(Name, inevitability, I), !.
 
-constraint_status(Name, extractive_noose, I) :-
+constraint_status(Name, extractive_snare, I) :-
     narrative_ontology:constraint_claim(Name, snare),
     narrative_ontology:constraint_metric(Name, extractiveness, I), !.
 

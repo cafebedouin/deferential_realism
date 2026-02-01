@@ -28,7 +28,7 @@ The output should be a **single .pl file** that can be loaded into the system an
 * **Mountain**: Unchangeable/Fixed. Effective extraction . Appears as natural law or irreducible physical/logical limit. Zero degrees of freedom for all indices.
 * **Rope**: Pure Coordination. Effective extraction  and Base extraction . Solves collective action problems with minimal coercive overhead.
 * **Tangled Rope**: Hybrid Coordination/Extraction. Effective extraction  and Base extraction . Must possess BOTH a genuine coordination function AND asymmetric extraction.
-* **Snare**: Pure Extraction (formerly Noose). Effective extraction  and Base extraction . High coercion, minimal coordination benefit; existence relies on suppressing alternatives.
+* **Snare**: Pure Extraction (formerly Snare). Effective extraction  and Base extraction . High coercion, minimal coordination benefit; existence relies on suppressing alternatives.
 * **Scaffold**: Temporary Support. Coordination with a sunset clause. High suppression is tolerated only if it declines over the time horizon .
 * **Piton**: Degraded/Inertial. A former Rope or Snare where the primary function has atrophied, but the constraint remains due to institutional inertia or "theatrical" maintenance.
 

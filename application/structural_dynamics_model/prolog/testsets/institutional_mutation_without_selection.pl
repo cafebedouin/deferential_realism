@@ -29,7 +29,7 @@
 /**
  * CONSTRAINT IDENTIFICATION
  * * constraint_id: institutional_mutation_without_selection
- * human_readable: The Zombie Bureaucracy Drift
+ * human_readable: The Piton Bureaucracy Drift
  * domain: organizational/political/sociological
  * * SUMMARY:
  * A scenario where an institution's internal rules and goals mutate over time 

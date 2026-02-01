@@ -267,7 +267,7 @@ Every constraint in your work falls into one of six categories. Your aesthetic c
 - **Obsolete material requirements:** "Must use X brand paint" (when better alternatives exist)
 - **Dead medium conventions:** Following print-era constraints in digital work (arbitrary page breaks)
 - **Vestigial craft rules:** "Never use passive voice" (valuable once, now calcified dogma)
-- **Zombie collaboration structures:** Group that still meets but produces nothing
+- **Piton collaboration structures:** Group that still meets but produces nothing
 - **Legacy tool dependencies:** "I can only work in software X" (when it's no longer best for purpose)
 - **Outdated audience assumptions:** "Readers won't accept Y" (when culture has moved on)
 

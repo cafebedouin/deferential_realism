@@ -42,11 +42,11 @@ constraint_metric(convergence_rate_friction, snap_back_potential, 0.40).
 constraint_metric(convergence_rate_friction, extractiveness, 0.52).
 
 % NOOSE: Infinite Expectation/Cauchy Obstruction (Distributions where the law fails completely)
-constraint_claim(undefined_mean_noose, snare).
-constraint_metric(undefined_mean_noose, intensity, 0.96).
-constraint_metric(undefined_mean_noose, suppression_requirement, 0.88).
-constraint_metric(undefined_mean_noose, snap_back_potential, 0.92).
-constraint_metric(undefined_mean_noose, extractiveness, 0.94).
+constraint_claim(undefined_mean_snare, snare).
+constraint_metric(undefined_mean_snare, intensity, 0.96).
+constraint_metric(undefined_mean_snare, suppression_requirement, 0.88).
+constraint_metric(undefined_mean_snare, snap_back_potential, 0.92).
+constraint_metric(undefined_mean_snare, extractiveness, 0.94).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, accept_the_anchor_of_expected_value_as_a_mathematical_invariant).
@@ -59,7 +59,7 @@ recommendation(rec_03, reform_asymptotic_assumptions_via_kolmogorov_criterion_sc
 affects_constraint(rec_03, convergence_rate_friction).
 
 recommendation(rec_04, cut_the_infinite_variance_trap_via_strong_law_scaffold).
-affects_constraint(rec_04, undefined_mean_noose).
+affects_constraint(rec_04, undefined_mean_snare).
 
 veto_actor(non_integrable_distribution).
 veto_exposed(non_integrable_distribution, rec_04).

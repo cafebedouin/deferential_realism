@@ -38,15 +38,15 @@ The authoritarian resilience thesis collapsed not because China democratized, bu
 
 The system wasn't resilient. It was optimized.
 
-### The Rope-Noose-Mountain Progression in Political Systems
+### The Rope-Snare-Mountain Progression in Political Systems
 
 From the institutional center's perspective, ideological centralization functions as a rope—a coordination mechanism to unify a vast nation under a singular vision. Xi strongly disagrees with regime theories that authoritarian states are inherently fragile; as a diehard Leninist, he believes states are fragile if they lack ideological conviction, political discipline, and national unity. The mandate delivers unity. The extraction of "friction"—dissent, pluralism, independent patronage networks—appears as optimization.
 
-But for party cadres, the system operates as a noose. The anti-corruption apparatus doesn't prevent corruption; it maintains a continuous threat environment where survival depends on perfect loyalty signaling. Officials face what organizational theorists would recognize as mandatrophy: their margin for adaptive response gets extracted to meet the mandate's purity requirements. Study the Great Nation app usage becomes measurable. Party rectification sessions intensify. The degrees of freedom for independent judgment collapse to zero.
+But for party cadres, the system operates as a snare. The anti-corruption apparatus doesn't prevent corruption; it maintains a continuous threat environment where survival depends on perfect loyalty signaling. Officials face what organizational theorists would recognize as mandatrophy: their margin for adaptive response gets extracted to meet the mandate's purity requirements. Study the Great Nation app usage becomes measurable. Party rectification sessions intensify. The degrees of freedom for independent judgment collapse to zero.
 
 For citizens, the system hardens into a mountain—an unchangeable feature of reality. Social credit scores, internet filters, mandatory political courses: these aren't rules you negotiate with, they're terrain you navigate. The Firewall isn't a policy, it's physics.
 
-This three-level structure—rope at the top, noose in the middle, mountain at the bottom—is mandatrophy's signature at institutional scale.
+This three-level structure—rope at the top, snare in the middle, mountain at the bottom—is mandatrophy's signature at institutional scale.
 
 ### The Network Physics of Authoritarian Brittleness
 
@@ -60,7 +60,7 @@ More critically, ecological network research shows that networks evolved for his
 
 ### What Gets Suppressed Is What Would Save You
 
-The Deferential Realism analysis reveals the structural blindness. The constraint appears extractive (a noose) to individuals but functional (a rope) to institutions. Xi has equated personal supremacy with party supremacy, with governance reform serving to institutionalize—in the Leninist sense—a tightly disciplined instrument to govern China.
+The Deferential Realism analysis reveals the structural blindness. The constraint appears extractive (a snare) to individuals but functional (a rope) to institutions. Xi has equated personal supremacy with party supremacy, with governance reform serving to institutionalize—in the Leninist sense—a tightly disciplined instrument to govern China.
 
 But "discipline" means suppression of diagnostic sensors. The base extractiveness score of 0.75 reflects mandatory extraction of political autonomy and informational pluralism. The suppression score of 0.85 captures aggressive elimination of dissent, judicial independence, and alternative historical narratives. These aren't side effects of the system—they're its operating logic.
 
@@ -74,11 +74,11 @@ Xi's abolition of term limits in 2018 crystallizes the pattern. The two-term lim
 
 Xi extracted that margin. By demanding loyalty to himself and centralizing power in his hands, Xi has equated personal supremacy with party supremacy. From his perspective, this strengthens the state. But succession now requires either his voluntary exit (unprecedented in Leninist systems), death, or purge. There is no Hu Jintao waiting a decade as successor-apparent. The margin for orderly transition has been optimized away.
 
-The omega variable from the substrate asks: "Does removal of term limits ensure stability (rope) or guarantee future systemic collapse (noose)?" The comparative evidence is unambiguous. The same organizational causes cited for Challenger were cited seventeen years later for Columbia—and the same pattern appears in Chinese succession. Mao's concentration of power produced the chaos of the Cultural Revolution and the Gang of Four succession crisis. Deng's collective leadership norms produced three peaceful transitions. Xi's re-centralization replicates Mao's structural conditions.
+The omega variable from the substrate asks: "Does removal of term limits ensure stability (rope) or guarantee future systemic collapse (snare)?" The comparative evidence is unambiguous. The same organizational causes cited for Challenger were cited seventeen years later for Columbia—and the same pattern appears in Chinese succession. Mao's concentration of power produced the chaos of the Cultural Revolution and the Gang of Four succession crisis. Deng's collective leadership norms produced three peaceful transitions. Xi's re-centralization replicates Mao's structural conditions.
 
-The resolution mechanism: observe the post-Xi transition. If peaceful, the rope held. If chaotic, centralization was a noose. But systems theory suggests we needn't wait. The margin has been extracted. The measurement is already complete.
+The resolution mechanism: observe the post-Xi transition. If peaceful, the rope held. If chaotic, centralization was a snare. But systems theory suggests we needn't wait. The margin has been extracted. The measurement is already complete.
 
-### The Ideological Noose Tightens
+### The Ideological Snare Tightens
 
 The parallel between Mao and Xi isn't superficial. Both elevated personal ideology to constitutional status. Both eliminated political pluralism through loyalty campaigns. Both centralized decision-making to eliminate "bureaucratic resistance." The key difference: Mao used revolutionary chaos, Xi uses high-tech bureaucracy. But the mechanism is identical—extract margin for mandate.
 
@@ -118,7 +118,7 @@ The optimistic case: Xi's system maintains performance legitimacy through contin
 
 The network mathematics suggests the pessimistic case is structural, not contingent. You cannot simultaneously optimize for centralized control and maintain adaptive resilience. Large networks can either be robust to variations of their parameters, or efficient in responding to external stimuli, but not both. Xi chose efficiency. The fragility is already determined.
 
-The broader pattern: institutions across domains—NASA, lean manufacturing, authoritarian states—systematically reward margin extraction until failure becomes inevitable. We keep discovering the same error in different contexts, keep normalizing the deviation, keep tightening the noose while calling it coordination.
+The broader pattern: institutions across domains—NASA, lean manufacturing, authoritarian states—systematically reward margin extraction until failure becomes inevitable. We keep discovering the same error in different contexts, keep normalizing the deviation, keep tightening the snare while calling it coordination.
 
 The foam is still falling. We've just built bigger shuttles.
 
@@ -140,12 +140,12 @@ Ending: ESCALATION ("We've just built bigger shuttles"—pattern continues at in
 
 [SUBSTRATE_TRACEABILITY]
 - "Paradox of strength→brittleness" → Network fragility-responsiveness tradeoff + authoritarian_power_paradox.pl base_extractiveness
-- "Rope-noose-mountain" → xi_mao_ideological_centralization.pl perspectival classifications
+- "Rope-snare-mountain" → xi_mao_ideological_centralization.pl perspectival classifications
 - "Authoritarian resilience reversal" → Literature shift from Nathan 2003 to Li 2012+ decay thesis
 - "Scale-free hub vulnerability" → Network robustness theory on targeted vs random attacks
 - "Succession as margin" → xi_mao omega_succession_vacuum + Mao-Deng-Xi comparative transitions
 - "Mao-Xi parallels" → Ideological centralization patterns + Cultural Revolution→Great Rejuvenation
 - "Performance legitimacy trap" → COVID response + economic growth masking structural brittleness
-- "Brittle stability" → Network percolation sudden phase transitions + authoritarian_power_paradox noose classification
+- "Brittle stability" → Network percolation sudden phase transitions + authoritarian_power_paradox snare classification
 - "Diagnostic sensor suppression" → Suppression scores 0.85-0.9 + active_enforcement requirements
 - "Civilizational scale" → Population statistics + mandatrophy→authoritarianism pattern mapping

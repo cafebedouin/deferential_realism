@@ -25,8 +25,8 @@ constraint_claim(statutory_loss_limit, mountain).
 constraint_metric(statutory_loss_limit, accessibility_collapse, 0.95).
 
 % Snare: The Material Participation Tests. A closing circle of criteria (regular, continuous, substantial).
-constraint_claim(material_participation_noose, snare). 
-constraint_metric(material_participation_noose, stakes_inflation, 0.90).
+constraint_claim(material_participation_snare, snare). 
+constraint_metric(material_participation_snare, stakes_inflation, 0.90).
 
 % Piton: The 1986 Transition Rules. Legacy phase-in percentages that controlled behavior while dying out.
 constraint_claim(pre_enactment_phase_in, piton). 
@@ -36,7 +36,7 @@ constraint_metric(pre_enactment_phase_in, suppression, 0.70).
 recommendation(rec01, 'Allow broad grouping of unrelated business activities to meet the 500-hour participation floor.'). 
 recommendation(rec02, 'Expand the $25,000 rental loss allowance to taxpayers above the $150,000 adjusted gross income ceiling.'). 
 
-affects_constraint(rec01, material_participation_noose).
+affects_constraint(rec01, material_participation_snare).
 affects_constraint(rec02, statutory_loss_limit).
 
 veto_actor(us_treasury_system).

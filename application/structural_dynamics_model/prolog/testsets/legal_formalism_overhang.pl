@@ -35,7 +35,7 @@
  * A scenario where rigid, literalist adherence to the text of historical laws 
  * persists even after the social or technological context that gave them meaning 
  * has vanished. This "Rope" for judicial predictability acts as a "Snare" for 
- * modern subjects, whose productive agency is liquidated by "zombie laws" 
+ * modern subjects, whose productive agency is liquidated by "piton laws" 
  * that no longer map to the territory of current reality.
  * * KEY AGENTS:
  * - Modern Litigant: Subject (Powerless)

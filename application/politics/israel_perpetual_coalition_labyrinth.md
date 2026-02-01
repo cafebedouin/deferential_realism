@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-Israel's electoral system represents a **sixth distinct archetype** in the constraint topology framework: the **Perpetual Coalition Labyrinth**. Unlike the five previously documented patterns (Bipolar Noose, Deadlock Labyrinth, Incumbent Tangled Rope, Fragmentation Marsh, Dynastic Anchor), this system features:
+Israel's electoral system represents a **sixth distinct archetype** in the constraint topology framework: the **Perpetual Coalition Labyrinth**. Unlike the five previously documented patterns (Bipolar Snare, Deadlock Labyrinth, Incumbent Tangled Rope, Fragmentation Marsh, Dynastic Anchor), this system features:
 
 1. **Nationwide proportional representation** (120 seats, single constituency, closed lists)
 2. **3.25% electoral threshold** creating binary inclusion/exclusion (Tangled Rope)
@@ -846,7 +846,7 @@ Israel's electoral system confirms the **Perpetual Coalition Labyrinth** as a di
 
 ### The Six Archetypes:
 
-1. **Bipolar Noose** (Colombia 2026, France historical)
+1. **Bipolar Snare** (Colombia 2026, France historical)
    - Two-round system + term-limited + bipolar structure
    - Late compression, competitive runoff
 

@@ -8,7 +8,7 @@ GAP_REPORT = "../outputs/gap_report.json"
 # Mapping types to their standard agent perspective
 PERSPECTIVE_MAP = {
     "rope": "agent_power(institutional)",
-    "noose": "agent_power(individual_powerless)",
+    "snare": "agent_power(individual_powerless)",
     "mountain": "agent_power(analytical)"
 }
 
@@ -35,7 +35,7 @@ def inject_skeletons():
 
         # Identify missing pillars
         missing_pillars = []
-        for pillar in ["rope", "noose", "mountain"]:
+        for pillar in ["rope", "snare", "mountain"]:
             if not status[pillar]:
                 missing_pillars.append(pillar)
 

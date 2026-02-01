@@ -190,7 +190,7 @@ test(attractor_fate_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(predictability_noose_penalty) :-
+test(predictability_snare_penalty) :-
     % A powerless simulator with constrained precision sees it as a Snare.
     constraint_indexing:constraint_classification(strange_attractor_dynamics, snare, context(individual_powerless, immediate, constrained, local)).
 

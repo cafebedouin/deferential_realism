@@ -55,7 +55,7 @@
 📚 CORPUS OVERVIEW
 --------------------------------------------------------------------------------
   Constraint Type Distribution:
-    noose          : 153
+    snare          : 153
     mountain       : 144
     rope           :  76
 

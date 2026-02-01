@@ -32,7 +32,7 @@ A constructed system solving genuine coordination problems, broadly beneficial t
 
 ---
 
-### Noose
+### Snare
 A structure maintained through power that extracts value asymmetrically from the many to benefit the few. Disguised as necessary but serves specific interests.
 
 **Test:** If enforcement stops, does the constraint snap back immediately? Who actively resists transparency?
@@ -57,7 +57,7 @@ A temporary support enabling transition from one stable state to another, design
 ---
 
 ### Tangled Rope
-A hybrid constraint that provides genuine coordination benefits while also extracting value asymmetrically. Has both Rope and Noose characteristics.
+A hybrid constraint that provides genuine coordination benefits while also extracting value asymmetrically. Has both Rope and Snare characteristics.
 
 **Test:** Does it solve a real coordination problem AND concentrate benefits unfairly?
 
@@ -71,7 +71,7 @@ A hybrid constraint that provides genuine coordination benefits while also extra
 
 ---
 
-### Zombie (Rope)
+### Piton (Rope)
 A formerly functional Rope that persists through bureaucratic inertia after its purpose has ended. No clear beneficiary group—everyone complains but it continues.
 
 **Test:** Does anyone actually benefit, or does it just persist from habit?
@@ -85,7 +85,7 @@ A formerly functional Rope that persists through bureaucratic inertia after its 
 ---
 
 ### False Mountain
-A Noose misclassified as a Mountain—a constructed constraint presented as natural or inevitable. "Just how things are" when actually maintained through power.
+A Snare misclassified as a Mountain—a constructed constraint presented as natural or inevitable. "Just how things are" when actually maintained through power.
 
 **Test:** Check beneficiaries, check enforcement mechanism, check historical emergence.
 
@@ -157,7 +157,7 @@ Every constraint classification requires specifying position along four dimensio
 Measure of how much value a constraint extracts from participants. Scale 0.0-1.0.
 
 - `ε ≤ 0.15`: Low extraction (Rope range)
-- `ε ≥ 0.46`: High extraction (Noose range)
+- `ε ≥ 0.46`: High extraction (Snare range)
 
 ---
 
@@ -223,7 +223,7 @@ Value judgments that differ legitimately across stakeholders.
 ## Classification Errors
 
 ### Type I Error (False Fatalism)
-Calling a Noose a "Mountain"—surrendering agency over something that could be changed.
+Calling a Snare a "Mountain"—surrendering agency over something that could be changed.
 
 **Consequence:** Unwarranted acceptance of extractive structures.
 
@@ -237,7 +237,7 @@ Calling a Mountain a "Rope"—believing you can change something that's genuinel
 ---
 
 ### Over-diagnosis
-Treating all inefficiency as malicious extraction. Not every bad system is a Noose—some are just poorly designed Ropes or Zombies.
+Treating all inefficiency as malicious extraction. Not every bad system is a Snare—some are just poorly designed Ropes or Pitons.
 
 ---
 
@@ -263,12 +263,12 @@ The finding that four indices (WHO, WHEN, WHERE, HOW_MUCH) are sufficient to eli
 ### Indexical Relativity
 The principle that the same constraint can be different types from different indices—and both classifications are objectively true.
 
-**Example:** Medieval Church is simultaneously Mountain (for serf), Noose (for historian), and Rope (for Pope).
+**Example:** Medieval Church is simultaneously Mountain (for serf), Snare (for historian), and Rope (for Pope).
 
 ---
 
 ### Energy Conservation
-Strategic principle: finite resources demand allocation to battles that can be won. Don't fight Mountains; don't surrender to Nooses.
+Strategic principle: finite resources demand allocation to battles that can be won. Don't fight Mountains; don't surrender to Snares.
 
 ---
 
@@ -278,7 +278,7 @@ Ethical principle: deference to what actually constrains. Honesty-in-practice ab
 ---
 
 ### Structural Signature
-Objective pattern in a constraint's structure that reveals whether it emerged naturally or was constructed. Used for fraud detection (distinguishing real Mountains from disguised Nooses).
+Objective pattern in a constraint's structure that reveals whether it emerged naturally or was constructed. Used for fraud detection (distinguishing real Mountains from disguised Snares).
 
 ---
 

@@ -224,7 +224,7 @@ test(time_immutability) :-
  * uses it to move.
  * 
  * 2. THE NOOSE OF THE ELITE: It is ironic that the institutional power 
- * (ministers) felt "noosed" by their own holy book when the peasants 
+ * (ministers) felt "snared" by their own holy book when the peasants 
  * started reading it "incorrectly."
  * 
  * 3. OMEGAS 

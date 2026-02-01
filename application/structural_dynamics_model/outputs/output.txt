@@ -55664,7 +55664,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.41
 [REPAIR] Auditing vectors for: hiv_prep_prevention_2026...
   [BRIDGE] Derived constraint_claim(hiv_prep_prevention_2026, rope) from analytical classification
   [BRIDGE] Imported omega prep_resistance_evolution from module hiv_prep_prevention_2026
-  [BRIDGE] Imported omega access_equity_as_noose from module hiv_prep_prevention_2026
+  [BRIDGE] Imported omega access_equity_as_snare from module hiv_prep_prevention_2026
   [FIXED] Remapped [hiv_prep_prevention_2026]: [biotechnological_intervention] -> snare
   [FIXED] Imputed 0.5 for accessibility_collapse(organizational) at T=0
   [FIXED] Imputed 0.5 for stakes_inflation(organizational) at T=0
@@ -55814,7 +55814,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
   [moderate] 2 omega(s):
     - prep_resistance_evolution (empirical)
       Will long-term mass usage lead to HIV strains resistant to current PrEP drugs?
-    - access_equity_as_noose (empirical)
+    - access_equity_as_snare (empirical)
       Is the global adoption truly 150 countries or does it remain a 'Snare' of 
      unavailability for underserved communities within those nations?
 
@@ -55836,7 +55836,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
   │  5. Re-run classification to resolve perspectival gap
   └─
 
-  ┌─ [access_equity_as_noose] EMPIRICAL DATA COLLECTION
+  ┌─ [access_equity_as_snare] EMPIRICAL DATA COLLECTION
   │  Constraint: unknown
   │  Gap: Is the global adoption truly 150 countries or does it remain a 'Snare' of 
      unavailability for underserved communities within those nations?
@@ -55863,7 +55863,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
   - None detected.
 
 [UNRESOLVED_OMEGAS]
-  - access_equity_as_noose (empirical): Is the global adoption truly 150 countries or does it remain a 'Snare' of 
+  - access_equity_as_snare (empirical): Is the global adoption truly 150 countries or does it remain a 'Snare' of 
      unavailability for underserved communities within those nations?
   - prep_resistance_evolution (empirical): Will long-term mass usage lead to HIV strains resistant to current PrEP drugs?
 

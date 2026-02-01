@@ -117,7 +117,7 @@ If the popular vote settles at 45% Fidesz, 44% Tisza, the boundary calibration s
 
 Evidence that would confirm Beta: government-aligned and independent polls converging to ±2 points of each other in the 44-46% range for both parties, Fidesz winning 55-60 of 106 constituencies by narrow margins (500-2,000 votes), Tisza winning 40-45 constituencies by larger margins (3,000-5,000 votes) but losing the compensation bonus, final seat distribution showing Fidesz 105-115, Tisza 75-90.
 
-**Scenario Gamma (Catastrophic Fragmentation): Snare Becomes Noose**
+**Scenario Gamma (Catastrophic Fragmentation): Snare Becomes Snare**
 If Tisza's momentum stalls and smaller opposition parties re-enter despite withdrawal announcements, or if Fidesz popular vote drops to 41-42% but opposition fragments across Tisza (38%), DK (8%), Mi Hazánk (7%), the constituency races become unpredictable three-way splits. Winner compensation mechanics reward Fidesz for winning plurality in districts even with 35-38% support. Final seats: Fidesz 115-128, Tisza 55-70, others fragmented.
 
 Evidence that would confirm Gamma: government-aligned polls showing Fidesz at 48-51% (indicating their baseline holds), independent polls showing Tisza dropping to 42-44% (indicating momentum stall), Democratic Coalition or Mi Hazánk polling above 6-7% (indicating fragmentation), seat projections showing Fidesz with 120+ seats despite sub-45% national vote share.
@@ -196,7 +196,7 @@ Tisza achieves 49-51% popular vote, wins 105-115 seats, forms government. This p
 Popular vote settles at 45% Fidesz, 44% Tisza. Winner compensation + boundary calibration delivers Fidesz 100-115 seats despite tie or slight deficit. System functions as designed. Opposition claims gerrymandering; government claims they won more constituencies fairly. Both are correct within their respective frames. The Snare holds.
 
 **Outcome C: Fragmentation Collapse (10-15% probability)**
-Tisza momentum stalls, smaller parties re-enter, opposition splits votes across multiple lists. Fidesz wins 115-128 seats with 42-44% vote share. The extraction coefficient amplifies further because constituency fragmentation means Fidesz wins pluralities with 35-38% district-level support. The Snare tightens into a Noose—punishing opposition coordination failure with supermajority for minority incumbent.
+Tisza momentum stalls, smaller parties re-enter, opposition splits votes across multiple lists. Fidesz wins 115-128 seats with 42-44% vote share. The extraction coefficient amplifies further because constituency fragmentation means Fidesz wins pluralities with 35-38% district-level support. The Snare tightens into a Snare—punishing opposition coordination failure with supermajority for minority incumbent.
 
 The critical insight: in all three scenarios, the constraint system remains active. Even in Outcome A (opposition victory), the new government faces embedded institutional resistance that forces them to choose between:
 - Maintaining democratic norms (accepting judicial/media/local government constraints) → limited policy capacity

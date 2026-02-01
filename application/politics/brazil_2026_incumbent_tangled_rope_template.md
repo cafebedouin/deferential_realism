@@ -11,7 +11,7 @@
 
 ## Executive Summary
 
-The **Incumbent Tangled Rope** represents a distinct electoral topology where an incumbent executive seeking consecutive reelection presides over a pre-compressed electoral field, maintained through extractive legislative cooperation and opposition decapitation. Unlike the Bipolar Noose (where term limits force late-stage convergence) or the Deadlock Labyrinth (where barriers prevent competitive entry), the Incumbent Tangled Rope achieves stability through **front-loaded consolidation** combined with **extractive coordination mechanisms** that bind both executive and legislative branches into mutual dependence.
+The **Incumbent Tangled Rope** represents a distinct electoral topology where an incumbent executive seeking consecutive reelection presides over a pre-compressed electoral field, maintained through extractive legislative cooperation and opposition decapitation. Unlike the Bipolar Snare (where term limits force late-stage convergence) or the Deadlock Labyrinth (where barriers prevent competitive entry), the Incumbent Tangled Rope achieves stability through **front-loaded consolidation** combined with **extractive coordination mechanisms** that bind both executive and legislative branches into mutual dependence.
 
 **Core Signature:** Electoral field begins at terminal compression (≤5% undecided) 6-9 months before election, maintained by incumbent advantage rather than gradual convergence. Opposition fragmented by judicial/institutional barriers to frontrunner candidacy. Legislative cooperation purchased through budgetary extraction rather than ideological alignment.
 
@@ -24,11 +24,11 @@ The **Incumbent Tangled Rope** represents a distinct electoral topology where an
 
 ---
 
-## Section 1: Incumbent Tangled Rope ≠ Bipolar Noose
+## Section 1: Incumbent Tangled Rope ≠ Bipolar Snare
 
 ### Comparative Topology Table
 
-| Dimension | Bipolar Noose (Colombia 2026) | Incumbent Tangled Rope (Brazil 2026) |
+| Dimension | Bipolar Snare (Colombia 2026) | Incumbent Tangled Rope (Brazil 2026) |
 |-----------|-------------------------------|---------------------------------------|
 | **Compression Trigger** | Term limit forces succession crisis | Incumbent seeking reelection |
 | **Starting Undecided** | 62% (Nov 2025, 6 months out) | 2.4% (Jan 2026, 9 months out) |
@@ -43,7 +43,7 @@ The **Incumbent Tangled Rope** represents a distinct electoral topology where an
 ### Historical Validation: Same Country, Different Topology
 
 **Brazil 2022 (Lula returning after ban lifted):**
-- **Topology:** Bipolar Noose
+- **Topology:** Bipolar Snare
 - **Context:** Lula vs. incumbent Bolsonaro, both viable
 - **Undecided trajectory:** 12-13% (Jan 2022) → 4.4% (Oct 2022)
 - **Compression mechanism:** Competitive bipolarity
@@ -78,8 +78,8 @@ The **Incumbent Tangled Rope** represents a distinct electoral topology where an
 - Lead maintained across multiple polling houses over 6+ month period
 - No credible path for opposition to force first-round threshold below 50%
 
-**Contrast with Bipolar Noose:**
-- Bipolar Noose: Term-limited incumbent creates power vacuum
+**Contrast with Bipolar Snare:**
+- Bipolar Snare: Term-limited incumbent creates power vacuum
 - Incumbent Tangled Rope: Incumbent maintains power through consecutive eligibility
 - Result: Field pre-compressed by incumbent advantage rather than convergence pressure
 
@@ -112,8 +112,8 @@ The **Incumbent Tangled Rope** represents a distinct electoral topology where an
 - Low correlation between voting behavior and party manifestos
 - Centrão members switch coalitions based on access to amendments rather than policy
 
-**Contrast with Bipolar Noose:**
-- Bipolar Noose: Presidential coalition based on ideology or succession loyalty
+**Contrast with Bipolar Snare:**
+- Bipolar Snare: Presidential coalition based on ideology or succession loyalty
 - Incumbent Tangled Rope: Legislative bloc extracts resources regardless of executive identity
 - Result: Centrão operates as **constant** across administrations, not variable dependent on incumbent
 
@@ -146,8 +146,8 @@ The **Incumbent Tangled Rope** represents a distinct electoral topology where an
 - High "undecided among right-wing voters" even when total undecided is low
 - Movement maintains identity but loses mobilization capacity
 
-**Contrast with Bipolar Noose:**
-- Bipolar Noose: Opposition free to compete and consolidate
+**Contrast with Bipolar Snare:**
+- Bipolar Snare: Opposition free to compete and consolidate
 - Incumbent Tangled Rope: Opposition decapitated, fragmentation enforced by judicial barrier
 - Result: Piton creates **structural ceiling** on opposition support rather than competitive pole
 
@@ -172,9 +172,9 @@ The **Incumbent Tangled Rope** represents a distinct electoral topology where an
 - **Comparison:** Brazil 2022 (competitive race) at same interval: 12-13% undecided
 - **Implication:** Field already at terminal compression before campaign formally begins
 
-**Contrast with Bipolar Noose Compression Curve:**
+**Contrast with Bipolar Snare Compression Curve:**
 
-| Checkpoint | Bipolar Noose (Colombia) | Incumbent Tangled Rope (Brazil) |
+| Checkpoint | Bipolar Snare (Colombia) | Incumbent Tangled Rope (Brazil) |
 |------------|-------------------------|--------------------------------|
 | T-270 days | No data (pre-campaign) | No data (pre-2026 coverage) |
 | T-180 days | 62% undecided | **2.4% undecided** ← CRITICAL |
@@ -183,7 +183,7 @@ The **Incumbent Tangled Rope** represents a distinct electoral topology where an
 | Election Day | 5.7% undecided | ~2% undecided (projected) |
 
 **Mechanism Difference:**
-- **Bipolar Noose:** Undecided voters forced to choose between two poles as deadline approaches
+- **Bipolar Snare:** Undecided voters forced to choose between two poles as deadline approaches
 - **Incumbent Tangled Rope:** Incumbent advantage consolidates support *before* campaign intensifies
 - **Result:** Brazil 2026 starts where Colombia 2026 ends (≤5% undecided)
 
@@ -212,8 +212,8 @@ The **Incumbent Tangled Rope** represents a distinct electoral topology where an
 - **Lula vs. Tarcísio:** 49-45% (Lula +4)
 - **Lula vs. Zema/Ratinho/Caiado:** 49-39% (Lula +10)
 
-**Contrast with Bipolar Noose:**
-- Bipolar Noose: Runoff margin 2-4 points (razor-thin competitive)
+**Contrast with Bipolar Snare:**
+- Bipolar Snare: Runoff margin 2-4 points (razor-thin competitive)
 - Incumbent Tangled Rope: Runoff margin 4-8 points (clear but not overwhelming)
 - Deadlock Labyrinth: Runoff margin 10-20 points (structural dominance)
 
@@ -288,8 +288,8 @@ The **perspectival gap** is diagnostic of Tangled Rope topology:
 3. **Piton effect unique to decapitated opposition:** Bolsonaristas experience immobilization; rest of electorate sees "rule of law"
 4. **Snare/Rope duality:** Individual powerlessness coexists with institutional coordination
 
-**Contrast with Bipolar Noose:**
-- Bipolar Noose: All actors agree on deadline urgency (Snare universally experienced)
+**Contrast with Bipolar Snare:**
+- Bipolar Snare: All actors agree on deadline urgency (Snare universally experienced)
 - Incumbent Tangled Rope: Different actors experience different constraint types simultaneously
 - Result: Harder to mobilize against Tangled Rope because there's no shared narrative of constraint
 
@@ -304,7 +304,7 @@ An election qualifies as **Incumbent Tangled Rope** if ALL of the following hold
 1. **Incumbent Seeking Consecutive Reelection**
    - Non-consecutive reelection allowed (not term-limited)
    - Current office-holder running to maintain power
-   - NOT a designated successor (that would be succession crisis → Bipolar Noose)
+   - NOT a designated successor (that would be succession crisis → Bipolar Snare)
 
 2. **Pre-Compressed Electoral Field (≤5% undecided, 6+ months pre-election)**
    - First-round polling shows ≤5% undecided/blank/null
@@ -341,8 +341,8 @@ An Incumbent Tangled Rope is **confirmed** if:
 - Turkey 2028 (if Erdoğan runs again with opposition decapitated)
 
 **NOT Incumbent Tangled Rope:**
-- Brazil 2022 (Lula vs. Bolsonaro = Bipolar Noose, competitive bipolarity)
-- Colombia 2026 (no incumbent, term limit = Bipolar Noose)
+- Brazil 2022 (Lula vs. Bolsonaro = Bipolar Snare, competitive bipolarity)
+- Colombia 2026 (no incumbent, term limit = Bipolar Snare)
 - France 2027 (no incumbent, multi-pole = different archetype)
 - U.S. 2026 (mid-term, no executive race = Deadlock Labyrinth)
 
@@ -354,7 +354,7 @@ An Incumbent Tangled Rope is **confirmed** if:
 - Signature: Competitive runoff margin (<4 points) rather than stable 4-8 point lead
 
 **Opposition decapitated BUT no incumbent:**
-- May produce succession chaos (Bipolar Noose variant)
+- May produce succession chaos (Bipolar Snare variant)
 - Example: Russia 2024 (if Putin had been term-limited but opposition banned)
 - Signature: Power vacuum despite opposition suppression
 
@@ -452,7 +452,7 @@ An Incumbent Tangled Rope is **confirmed** if:
 | **Centrão dynamics** | Negotiates with both sides | Locked in extraction with Lula | MODERATE |
 
 **Topological Classification:**
-- **2022:** Bipolar Noose (competitive convergence between two viable poles)
+- **2022:** Bipolar Snare (competitive convergence between two viable poles)
 - **2026:** Incumbent Tangled Rope (front-loaded consolidation + extractive coordination + opposition decapitation)
 
 ### 7.2 Mechanism Comparison
@@ -487,7 +487,7 @@ An Incumbent Tangled Rope is **confirmed** if:
 - High fragmentation (30+ parties with legislative representation)
 
 **Brazil's variable factor in 2022 vs. 2026:**
-- **2022:** Both Lula AND Bolsonaro eligible → competitive bipolarity → Bipolar Noose
+- **2022:** Both Lula AND Bolsonaro eligible → competitive bipolarity → Bipolar Snare
 - **2026:** Lula eligible, Bolsonaro banned → incumbent advantage + opposition fragmentation → Incumbent Tangled Rope
 
 **Generalization:** Mountain permeability (eligibility barriers) is MORE determinative of electoral topology than party system structure or institutional design. Constraints on WHO can run shape voter behavior more than rules about HOW they run.
@@ -506,7 +506,7 @@ An Incumbent Tangled Rope is **confirmed** if:
 **1. Temporal Compression Trajectory**
 - **Available:** Single snapshot (Jan 2026: 2.4% undecided)
 - **Missing:** Mid-2025 data showing compression path from higher undecided level
-- **Needed for:** Precise compression velocity calculation, comparison to Bipolar Noose acceleration
+- **Needed for:** Precise compression velocity calculation, comparison to Bipolar Snare acceleration
 - **Workaround:** Infer from 2022 comparison that 2026 started pre-compressed
 
 **2. Centrão Quantification**
@@ -532,7 +532,7 @@ An Incumbent Tangled Rope is **confirmed** if:
 **Structural baseline sufficient for archetype identification:**
 1. ✅ Core mechanisms identified (incumbent Mountain, Centrão Rope, Bolsonaro Piton)
 2. ✅ Observable signatures documented (pre-compressed field, stable lead, moderate margin)
-3. ✅ Comparison to Bipolar Noose shows distinct dynamics
+3. ✅ Comparison to Bipolar Snare shows distinct dynamics
 4. ✅ Replication protocol established (when to apply template to new cases)
 5. ✅ Historical validation (Brazil 2022 vs. 2026 contrast)
 
@@ -584,12 +584,12 @@ An Incumbent Tangled Rope is **confirmed** if:
 
 2. **Opposition Consolidation (>40% for single challenger)**
    - Indicates decapitation strategy failed, heir successfully unified movement
-   - Would create competitive bipolarity (revert to Bipolar Noose)
+   - Would create competitive bipolarity (revert to Bipolar Snare)
    - Threshold: Any single opposition candidate polls above 40% in first round
 
 3. **Runoff Margin Collapse (<2 points)**
    - Indicates competitive race, not stable incumbent advantage
-   - Would classify as Bipolar Noose rather than Incumbent Tangled Rope
+   - Would classify as Bipolar Snare rather than Incumbent Tangled Rope
    - Threshold: Lula's runoff lead drops below 2 points in polling average
 
 4. **Centrão Defection (Share <15%)**
@@ -612,7 +612,7 @@ An Incumbent Tangled Rope is **confirmed** if:
 
 2. **Runoff Margin Compression (2-4 points)**
    - More competitive than projected but not coin-flip
-   - Would overlap with Bipolar Noose characteristics
+   - Would overlap with Bipolar Snare characteristics
 
 3. **Economic Headwinds (1-2 indicators exceed threshold)**
    - Partial stress on incumbent advantage
@@ -654,12 +654,12 @@ An Incumbent Tangled Rope is **confirmed** if:
 
 **1. Mountain Permeability > Party System Structure**
 - Brazil has same multi-party system in 2022 and 2026
-- But 2022 = Bipolar Noose (Lula + Bolsonaro eligible)
+- But 2022 = Bipolar Snare (Lula + Bolsonaro eligible)
 - And 2026 = Incumbent Tangled Rope (only Lula eligible)
 - **Lesson:** WHO can run matters more than HOW many parties exist
 
 **2. Compression Timing Varies by Mechanism**
-- Bipolar Noose: Late compression driven by deadline urgency
+- Bipolar Snare: Late compression driven by deadline urgency
 - Incumbent Tangled Rope: Early compression driven by incumbent advantage
 - Deadlock Labyrinth: No compression (barriers prevent competitive entry)
 - **Lesson:** When field consolidates tells you WHAT constraint operates
@@ -686,7 +686,7 @@ An Incumbent Tangled Rope is **confirmed** if:
 - ✅ Centrão maintains ~30-35% budget extraction share
 - ✅ Right-wing fragmentation persists (no single heir >40%)
 
-**Observable differences from Bipolar Noose:**
+**Observable differences from Bipolar Snare:**
 - ❌ No dramatic compression acceleration (already compressed)
 - ❌ No late-stage volatility surge
 - ❌ No razor-thin runoff margin (<2 points)
@@ -801,7 +801,7 @@ constraint_perspective(lula_coalition, bolsonaro_movement, rope).
 - Historical data on Centrão composition and bargaining
 
 **Comparative cases:**
-- Colombia 2026 Bipolar Noose essay (compression dynamics)
+- Colombia 2026 Bipolar Snare essay (compression dynamics)
 - France 2027 cordon sanitaire analysis (opposition barriers)
 - U.S. 2026 Deadlock Labyrinth template (structural barriers)
 

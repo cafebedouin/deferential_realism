@@ -87,7 +87,7 @@ Example from meta-report:
 The corpus analyzer shows you:
 - **Concept Clusters**: Which ideas appear together frequently
 - **Co-occurrences**: Concepts that might work well together in new scenarios
-- **Underrepresented Types**: Noose vs. Mountain vs. Rope balance
+- **Underrepresented Types**: Snare vs. Mountain vs. Rope balance
 
 Example from corpus analysis:
 ```
@@ -106,10 +106,10 @@ The reports tell you:
   Constraint Type Distribution:
     mountain: 143
     rope:     79
-    noose:    78  ← Add more!
+    snare:    78  ← Add more!
 ```
 
-**Action**: Add more `noose` (extractive trap) scenarios to balance.
+**Action**: Add more `snare` (extractive trap) scenarios to balance.
 
 ## New Python Tools
 
@@ -194,11 +194,11 @@ $ ./scripts/run_tests.sh
 # Corpus analysis shows:
 💡 SUGGESTED SCENARIOS
   • Explore ergo + protocol in a new context
-  ⚠ Add more 'noose' scenarios for balance
+  ⚠ Add more 'snare' scenarios for balance
 
 # You decide:
 1. Fix 10 false mountains by updating their metrics
-2. Add 5 new 'noose' scenarios combining ergo + protocol concepts
+2. Add 5 new 'snare' scenarios combining ergo + protocol concepts
 
 # Re-run
 $ ./scripts/run_tests.sh
@@ -215,7 +215,7 @@ $ ./scripts/run_tests.sh
 1. **Run frequently**: After adding/changing a few scenarios, run the tests
 2. **Follow recommendations**: The system prioritizes what matters most
 3. **Check concept clusters**: Great source of scenario ideas
-4. **Balance types**: Aim for roughly equal mountains/ropes/nooses
+4. **Balance types**: Aim for roughly equal mountains/ropes/snares
 5. **Fix errors first**: Data quality issues can mask real insights
 
 ## Advanced: Understanding the Pipeline

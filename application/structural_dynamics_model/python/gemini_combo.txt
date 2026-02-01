@@ -404,7 +404,7 @@ def category_mismatch_audit(json_path, registry_path):
     # Load analysis and category registry
     with open(json_path, 'r') as f: analysis = json.load(f)
 
-    # Simple check for Narrative History vs Shadow Noose
+    # Simple check for Narrative History vs Shadow Snare
     print(f"{'DOMAIN':<40} | {'REPORTED CAT' :<20} | {'ACTUAL SIGNATURE'}")
     print("-" * 80)
 
@@ -412,7 +412,7 @@ def category_mismatch_audit(json_path, registry_path):
         repairs = record.get("repaired_vectors", [])
         sup = max([float(r['val']) for r in repairs if 'suppression' in r['metric']] + [0.0])
 
-        # If the domain is a Shadow Noose but classified as History
+        # If the domain is a Shadow Snare but classified as History
         if sup >= 0.8:
             print(f"{domain:<40} | {'EXTRACTIVE?':<20} | [CRITICAL] Hidden Extraction Detected")
 
@@ -817,7 +817,7 @@ def cross_reference():
 
             missing = []
             if not gap_data["rope"]: missing.append("ROPE")
-            if not gap_data["noose"]: missing.append("NOOSE")
+            if not gap_data["snare"]: missing.append("NOOSE")
             if not gap_data["mountain"]: missing.append("MTN")
 
             print(f"{domain:<40} | {len(missing):<5} | {repair_count:<8} | {intensity} (Missing: {', '.join(missing)})")
@@ -950,7 +950,7 @@ class ConstraintData:
     file_path: str
     base_extractiveness: Optional[float] = None
     suppression_score: Optional[float] = None
-    constraint_type: Optional[str] = None  # mountain, rope, noose, tangled_rope
+    constraint_type: Optional[str] = None  # mountain, rope, snare, tangled_rope
     requires_enforcement: bool = False
     emerges_naturally: bool = False
     category: Optional[str] = None
@@ -1122,7 +1122,7 @@ def analyze_corpus(testsets_dir: Path, registry: Dict[str, str]) -> Tuple[List[C
 
 
 def compute_type_profiles(constraints: List[ConstraintData]) -> Dict[str, Dict[str, float]]:
-    """Compute average profiles by constraint type (mountain/rope/noose/tangled_rope)."""
+    """Compute average profiles by constraint type (mountain/rope/snare/tangled_rope)."""
     type_stats = defaultdict(lambda: {'extractiveness': [], 'suppression': [], 'count': 0})
 
     for c in constraints:
@@ -1229,9 +1229,9 @@ def generate_expanded_priors(
 
     lines.append("")
 
-    # Type profiles (mountain, rope, noose, tangled_rope)
+    # Type profiles (mountain, rope, snare, tangled_rope)
     lines.append("%% ============================================================================")
-    lines.append("%% 2. CONSTRAINT TYPE PROFILES (Mountain/Rope/Noose/Tangled Rope)")
+    lines.append("%% 2. CONSTRAINT TYPE PROFILES (Mountain/Rope/Snare/Tangled Rope)")
     lines.append("%% ============================================================================")
     lines.append("%% Format: type_corpus_profile(Type, [AvgExtract, AvgSuppress, StdExtract, StdSuppress, Count]).")
     lines.append("")
@@ -1723,7 +1723,7 @@ class CorpusExtractor:
 
             # Extract extractiveness
             extr_match = re.search(
-                r'extractive_noose.*?Intensity:\s*([\d.]+)',
+                r'extractive_snare.*?Intensity:\s*([\d.]+)',
                 block
             )
             if extr_match:
@@ -2262,21 +2262,21 @@ def analyze_gaps():
 
         # Check for the presence of each pillar
         has_rope = "rope" in found_types
-        has_noose = "noose" in found_types
+        has_snare = "snare" in found_types
         has_mountain = "mountain" in found_types
 
-        status = "COMPLETE" if (has_rope and has_noose and has_mountain) else "GAP"
+        status = "COMPLETE" if (has_rope and has_snare and has_mountain) else "GAP"
 
         # Color/Visual indicators for terminal
         r_mark = "✓" if has_rope else "✗"
-        n_mark = "✓" if has_noose else "✗"
+        n_mark = "✓" if has_snare else "✗"
         m_mark = "✓" if has_mountain else "✗"
 
         print(f"{domain_id:<45} |  {r_mark}   |  {n_mark}   |  {m_mark}   | {status}")
 
         results[domain_id] = {
             "rope": has_rope,
-            "noose": has_noose,
+            "snare": has_snare,
             "mountain": has_mountain,
             "is_complete": status == "COMPLETE"
         }
@@ -3940,7 +3940,7 @@ GAP_REPORT = "../outputs/gap_report.json"
 # Mapping types to their standard agent perspective
 PERSPECTIVE_MAP = {
     "rope": "agent_power(institutional)",
-    "noose": "agent_power(individual_powerless)",
+    "snare": "agent_power(individual_powerless)",
     "mountain": "agent_power(analytical)"
 }
 
@@ -3967,7 +3967,7 @@ def inject_skeletons():
 
         # Identify missing pillars
         missing_pillars = []
-        for pillar in ["rope", "noose", "mountain"]:
+        for pillar in ["rope", "snare", "mountain"]:
             if not status[pillar]:
                 missing_pillars.append(pillar)
 
@@ -4196,7 +4196,7 @@ if __name__ == '__main__':
     main()
 import json
 
-def find_shadow_nooses(json_path):
+def find_shadow_snares(json_path):
     with open(json_path, 'r') as f:
         data = json.load(f)
 
@@ -4209,13 +4209,13 @@ def find_shadow_nooses(json_path):
         sup = max([float(r['val']) for r in repairs if 'suppression' in r['metric']] + [0.0])
         stk = max([float(r['val']) for r in repairs if 'stakes' in r['metric']] + [0.0])
 
-        # A "Shadow Noose" is a domain where suppression energy > 0.7
+        # A "Shadow Snare" is a domain where suppression energy > 0.7
         if sup > 0.7 and stk > 0.7:
             status = "SHADOW NOOSE"
             print(f"{domain:<40} | {sup:<12} | {stk:<8} | {status}")
 
 if __name__ == "__main__":
-    find_shadow_nooses("../outputs/structured_analysis.json")
+    find_shadow_snares("../outputs/structured_analysis.json")
 import re
 import sys
 from pathlib import Path
@@ -4417,8 +4417,8 @@ def lint_file(filepath):
         errors.append(f"INSUFFICIENT_VARIANCE: Found {list(found_types)}. Need at least 2 different types across indices.")
 
     # 4. DEPRECATED TERMINOLOGY
-    if "noose" in content.lower():
-        errors.append("DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.")
+    if "snare" in content.lower():
+        errors.append("DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.")
 
     # 5. MANDATROPHY & OMEGA VALIDATION
     ext_match = re.search(r'base_extractiveness\(.*,\s*([\d\.]+)\)', content)

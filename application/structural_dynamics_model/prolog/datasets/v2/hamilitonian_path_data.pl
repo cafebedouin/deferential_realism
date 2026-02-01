@@ -52,7 +52,7 @@ affects_constraint(rec_02, vertex_visitation_rule).
 recommendation(rec_03, reform_search_via_dynamic_programming_scaffold).
 affects_constraint(rec_03, backtracking_inefficiency).
 
-recommendation(rec_04, cut_computational_noose_via_heuristic_pruning_scaffold).
+recommendation(rec_04, cut_computational_snare_via_heuristic_pruning_scaffold).
 affects_constraint(rec_04, np_complete_ceiling).
 
 veto_actor(brute_force_algorithm).

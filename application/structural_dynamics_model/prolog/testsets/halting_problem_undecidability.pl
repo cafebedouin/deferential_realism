@@ -187,7 +187,7 @@ test(multi_perspective_variance) :-
     constraint_indexing:constraint_classification(halting_problem_undecidability, Type2, context(institutional, biographical, mobile, global)),
     Type1 \= Type2.
 
-test(verification_noose_penalty) :-
+test(verification_snare_penalty) :-
     % Engineers experience the extraction of certainty as a Snare.
     Context = context(individual_moderate, immediate, constrained, national),
     constraint_indexing:extractiveness_for_agent(halting_problem_undecidability, Context, Score),

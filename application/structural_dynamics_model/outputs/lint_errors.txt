@@ -50,7 +50,7 @@ ai_evaluators_matching.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 ai_professional_displacement.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.71 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 algorithmic_bias.pl:
@@ -75,7 +75,7 @@ anticipatory_capacity_failure.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 antifragility.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 apartheid_nuclear_program.pl:
@@ -91,7 +91,7 @@ artificial_scarcity_scaffold.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.48 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 asshole_filter_2015.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 asymmetric_burden_distribution.pl:
@@ -155,10 +155,10 @@ broke_vs_poor_grocery_math.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 brouwer_fixed_point.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 burali_forte_paradox.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 burden_of_proof_engineering_safety.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -173,10 +173,10 @@ bushman_money_magic.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 cantor_set_topology.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 cap_theorem.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 capability_eval_overhang.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -185,11 +185,11 @@ capital_misallocation_spiral.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 carbon_credit_markets_2026.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.55 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 carrying_capacity.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 cascading_constraint_failure.pl:
@@ -199,14 +199,14 @@ castration_longevity_choice.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 cbdc_implementation.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 central_limit_theorem_convergence.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 chaitins_omega_undecidability.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 challenger_o_ring_integrity.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -215,7 +215,7 @@ china_critical_mineral_chokepoint.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 china_taiwan_reunification_mandate.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 cia_fbi_legal_wall.pl:
@@ -249,7 +249,7 @@ cognitive_mimicry_arbitrage.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 cognitive_surrender_to_system_3.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 coinbase_regulatory_uncertainty.pl:
@@ -265,10 +265,10 @@ colorado_sbe_decentralization_friction.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 columbia_2026_elections.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 comitatus_bond.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 complexity_debt.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -277,7 +277,7 @@ compounding_logic.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 confirmation_bias.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 consensus_without_truth.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -292,7 +292,7 @@ container_capacity_mismatch.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 conways_game_of_life_dynamics.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 coordination_attack_vulnerability.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -304,14 +304,14 @@ coordination_threshold_failure.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.78 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 cost_of_observation.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 countable_infinity_cardinality.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 couples_residency_match.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 credibility_inflation.pl:
@@ -333,7 +333,7 @@ cultural_memory_decay.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.81 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 currys_paradox.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 dark_patterns_manipulation.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -366,7 +366,7 @@ dionysaic_frenzy.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 dunbars_number.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 elite_overproduction_instability.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.58 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -388,14 +388,14 @@ emergent_goal_misalignment.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 emrgency_medicine_clinical_guidelines.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 endocrine_disruption_society.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 endowment_effect.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 epistemic_free_rider_problem.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -404,20 +404,20 @@ epistemic_overload_collapse.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.89 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 ergo_dexy_gold_protocol.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 ergo_lets_protocol.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 ergo_rosen_bridge_protocol.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 ergo_sig_usd_protocol.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 ergodic_theorems.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 ergot_grain_poisoning.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -438,13 +438,13 @@ faint_blue_neural_bifurcation.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 fair_use_doctrine.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 family_estrangement_ratio.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 family_succession_and_decadence.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 fast_growing_hierarchy.pl:
@@ -460,7 +460,7 @@ finite_pool_of_worry.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 finite_simple_groups_classification.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 fiscal_dominance_trap.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -475,17 +475,17 @@ france_2027_presidential_election.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.48 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 frankenstein_creation_hubris.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 gale_shapley.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 galois_theory_symmetry.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 gamblers_ruin_stochastic_extinction.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 generational_replacement_inertia.pl:
@@ -516,10 +516,10 @@ goal_boundary_poisoning.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 goldbach_conjecture.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 goodharts_law.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 governance_latency_gap.pl:
@@ -529,7 +529,7 @@ governance_overfitting.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.74 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 graph_coloring_complexity.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 greenland_seizure_trade_war.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -544,7 +544,7 @@ grievance_stack_overflow.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 halting_problem_undecidability.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 hammurabi.pl:
   MISSING_OMEGA: High-extraction constraints (> 0.46) require omega_variable/5.
@@ -566,7 +566,7 @@ hidden_interdependency_risk.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 hiv_prep_prevention_2026.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 hollow_state_syndrome.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -578,7 +578,7 @@ hu_2026_electoral_parity.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.58 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 hydra_game.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 hypercompression_of_time_horizons.pl:
@@ -594,7 +594,7 @@ incentive_surface_warping.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.86 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 indexical_relativity_core.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 inference_cost_scaling_law.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -628,7 +628,7 @@ insult_wisdom_training.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 integrated_digital_governance_stack.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 interface_contract_breakdown.pl:
@@ -650,7 +650,7 @@ iran_mandatrophic_collapse.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 iron_law_of_oligarchy.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 irreversible_policy_commitment.pl:
@@ -681,10 +681,10 @@ khantivadin_radical_patience.pl:
   MISSING_TEMPORAL_DATA: Extraction 1.0 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 kidney_exchange_market.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 kjv_great_awakening.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 knowledge_action_gap.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.71 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -696,7 +696,7 @@ latent_regulatory_bomb.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 law_of_diminishing_returns.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 legal_formalism_overhang.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -711,20 +711,20 @@ legitimacy_without_effectiveness.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 lehman_repo_105.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 liar_paradox.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 lindy_effect.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 liquidity_illusion.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 lula_hemisphere_2026.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 maintenance_capacity_shortfall.pl:
@@ -740,14 +740,14 @@ mandatrophic_margin_collapse_diagnostic.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 material_tensile_strength.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 mco_unit_system_discontinuity.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 medical_residency_match.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 medieval_church_hegomony.pl:
@@ -770,7 +770,7 @@ metamorphosis_samsa.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 micro_robot_electronics_integration.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 mil_std_461g_emi_control.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -797,7 +797,7 @@ monetary_regime_transition.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 moores_law.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 moral_outsourcing.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.84 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -848,11 +848,11 @@ nine_day_buffer.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.52 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 non_compete_agreements.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 nonstandard_arithmetic_models.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 norm_erosion_threshold.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -867,10 +867,10 @@ overfitting_to_frameworks.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.78 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 overton_window.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 p_vs_np.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 parable_fish_turtle.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -880,14 +880,14 @@ paris_municipal_reform_2026.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.47 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 parkinsons_law.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 path_dependence_lock_in.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.65 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 peano_curve_mapping.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 perovskite_self_etching.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.52 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -899,11 +899,11 @@ planetary_boundaries.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 planning_fallacy.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 platform_cooperativism_governance.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 platonic_coparenting_decoupling.pl:
   MISSING_PERSPECTIVE: Must include agent_power(individual_powerless).
@@ -934,7 +934,7 @@ price_signal_corruption.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 prime_number_theorem.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 prisoners_dilemma_equilibrium.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -952,7 +952,7 @@ protocol_drift_accumulation.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.83 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 qualified_immunity.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 quantam_decryption_risk_2026.pl:
@@ -962,7 +962,7 @@ quellcrist_falconer_justice.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 quine_self_replication.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 radiologic_diagnostic_threshold.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -974,10 +974,10 @@ recipe_scaling_ai.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.49 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 reciprocity_laws_math.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 regulatory_capture.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 rent_seeking_equilibrium.pl:
@@ -1035,11 +1035,11 @@ s1_airbnb.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 sapir_whorf_hypothesis.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 sat_csp_complexity.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 scurvy_maritime_extraction.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -1048,7 +1048,7 @@ second_order_unintended_consequences.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.85 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 self_surpassing_superman.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 semantic_attack_surface.pl:
@@ -1076,7 +1076,7 @@ silicon_lexicon_overload.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 skolems_paradox.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 sleep_debt_externality.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -1092,7 +1092,7 @@ smartphone_ubiquity.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 social_credit_architecture.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 social_loafing.pl:
@@ -1123,20 +1123,20 @@ steinmetz_valuation_asymmetry.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 stoic_logos_governance.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 straight_coercion_2025.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.55 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 strange_attractor_dynamics.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 structural_extraction_without_actor.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.78 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 sturgeons_law.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 suanne_coup_of_peace.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -1145,14 +1145,14 @@ suanne_face_restoration.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 sunk_cost_fallacy.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 swift_legacy_piton.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.49 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 sylow_theorems_group_theory.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 synthetic_data_feedback_loop.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.88 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -1173,11 +1173,11 @@ taiwan_storm_2026.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.82 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 taiwan_strait_hegemony_shift.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.9 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 tarski_undefinability.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 taxonomy_drift.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.76 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -1253,7 +1253,7 @@ tractarian_logic_limit.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 tragedy_of_the_commons.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 transformer_self_attention.pl:
@@ -1275,7 +1275,7 @@ truth_by_repetition_effect.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.87 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 udhr_1946.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 ulysses_chp01.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.8 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -1308,7 +1308,7 @@ ulysses_chp16.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.5 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 unclos_2026.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 union_protection_underperformance.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.6 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -1344,10 +1344,10 @@ visibility_bias_governance.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.54 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 weber_fechner_law.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 wikipedia_notability_requirement_2026.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
 
 winners_curse.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.7 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
@@ -1356,6 +1356,6 @@ xi_mao_ideological_centralization.pl:
   MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 
 zipfs_law.pl:
-  DEPRECATED_TERM: 'noose' has been replaced by 'snare' in v3.4.
+  DEPRECATED_TERM: 'snare' has been replaced by 'snare' in v3.4.
   MISSING_TEMPORAL_DATA: Extraction 0.75 > 0.46 requires narrative_ontology:measurement/5 facts for drift detection. Add at least 3 time points for theater_ratio and base_extractiveness.
 

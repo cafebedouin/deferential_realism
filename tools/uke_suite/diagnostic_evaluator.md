@@ -65,7 +65,7 @@ Before applying constraint enforcement, you must **classify the constraint type*
   - Artificial scarcity
   - Power masquerading as necessity
 - **Strategy:** Cut or exit. Do not waste energy reforming.
-- **In narrative:** Nooses require enforcement. Remove enforcement, watch it snap.
+- **In narrative:** Snares require enforcement. Remove enforcement, watch it snap.
 
 #### THE ZOMBIE ROPE (Institutional Inertia)
 - **Test:** Is anyone winning?
@@ -75,7 +75,7 @@ Before applying constraint enforcement, you must **classify the constraint type*
   - Vestigial procedures
   - "We've always done it this way"
 - **Strategy:** Bypass. Don't fight ghosts.
-- **In narrative:** Zombie Ropes are absurd, not evil. Characters waste energy treating them as conspiracies.
+- **In narrative:** Pitons are absurd, not evil. Characters waste energy treating them as conspiracies.
 
 ### B. Classification Evidence Standards
 
@@ -266,7 +266,7 @@ THEOLOGY [Efficient Market]:
 - Justification: "Prices reflect all available information"
 - Function: Prevents questioning why information is asymmetrically distributed
 - Escape Attempts: "With enough research, you can beat the market"
-- Constraint Match: UNCLEAR (information asymmetry may be Noose, not Mountain)
+- Constraint Match: UNCLEAR (information asymmetry may be Snare, not Mountain)
 ```
 
 ### 3. THE WEAVER (Vector Layer)
@@ -378,7 +378,7 @@ When analyzing a completed narrative or argument:
 ### 1. CONSTRAINT EXTRACTION & CLASSIFICATION (REVISED)
 List all mathematical/logical constraints claimed or implied:
 - State them formally
-- **Classify each** (Mountain/Rope/Noose/Zombie/Unclassified)
+- **Classify each** (Mountain/Rope/Snare/Piton/Unclassified)
 - **Provide evidence** for classification (measurement/proof/observation)
 - Test if they're actually invariants (hold in all cases)
 - Identify false invariants (things claimed as necessary that aren't)
@@ -387,7 +387,7 @@ List all mathematical/logical constraints claimed or implied:
 ```
 CLAIMED CONSTRAINTS:
 1. [Constraint name]
-   Type: [Mountain/Rope/Noose/Zombie/Unclassified]
+   Type: [Mountain/Rope/Snare/Piton/Unclassified]
    Evidence: [proof/measurement/insufficient]
    Status: [Validated/Disputed/Uncertain]
 ```
@@ -399,7 +399,7 @@ Search the text for:
 - Language that performs miracles ("somehow," "unexpectedly")
 - Escapes that don't pay the constraint cost
 - Mathematical residue overflow (too many numbers used decoratively)
-- **Constraint laundering** (presenting Ropes/Nooses as Mountains)
+- **Constraint laundering** (presenting Ropes/Snares as Mountains)
 
 ### 3. PRESSURE MAPPING
 For each **validated constraint**, ask:
@@ -465,7 +465,7 @@ FIDELITY SCORE: [X/25] (using phenomenology rubric)
 [GAUGE READING]
 
 CONSTRAINT: [name]
-TYPE: [Mountain/Rope/Noose/Zombie/Unclassified]
+TYPE: [Mountain/Rope/Snare/Piton/Unclassified]
 EVIDENCE: [proof/measurement/none]
 CURRENT STATE: [within bounds / approaching limit / violation / unclear]
 MEASUREMENT: [actual threshold if known]
@@ -516,7 +516,7 @@ If you have evidence this constraint doesn't apply here, provide it."
 vs.
 
 "This claims a workaround to organizational resistance.
-Constraint type: UNCLEAR (possibly Zombie Rope, not Mountain).
+Constraint type: UNCLEAR (possibly Piton, not Mountain).
 Testing required: Does the workaround succeed without enforcement change?"
 ```
 
@@ -550,7 +550,7 @@ Testing required: Does the workaround succeed without enforcement change?"
 - Exposing rationalization patterns in arguments
 - Diagnosing where systems fail under load
 - **Measuring constraint thresholds empirically**
-- **Distinguishing Mountains from Nooses/Ropes**
+- **Distinguishing Mountains from Snares/Ropes**
 - Training yourself to recognize real limits vs. asserted limits
 
 **Do NOT use when:**
@@ -623,14 +623,14 @@ Before applying this evaluator to enforce constraints, you must complete calibra
    ↓
 2. Request evidence/proof
    ↓
-3. Classify: Mountain/Rope/Noose/Zombie/Unclassified
+3. Classify: Mountain/Rope/Snare/Piton/Unclassified
    ↓
 4. If Mountain:
    a. Logical → Enforce per Section V.A
    b. Physical → Enforce per Section V.A
    c. Architectural → Measure per Section III
    ↓
-5. If Rope/Noose/Zombie:
+5. If Rope/Snare/Piton:
    → Report classification, do not enforce as necessity
    ↓
 6. If Unclassified:
@@ -655,11 +655,11 @@ CLASSIFICATION: Unclassified
 ACTION: Require measurement per Section III.A before enforcing
 ```
 
-**Example 3: Possible Noose**
+**Example 3: Possible Snare**
 ```
 USER: "This policy is necessary for security"
 CALIBRATION: ? Requires enforcement, benefits specific party
-CLASSIFICATION: Possible Noose (not Mountain)
+CLASSIFICATION: Possible Snare (not Mountain)
 ACTION: Report classification, do not enforce as necessity
 ```
 
@@ -855,7 +855,7 @@ v1.0 could assert that constraints existed but couldn't verify which constraints
 
 v2.0 integrates empirical τ_fail research to become **calibratable**:
 - Mountains must be measured or proven
-- Ropes/Nooses/Zombies must be distinguished
+- Ropes/Snares/Pitons must be distinguished
 - Evidence quality must be reported
 - Uncertainty must be acknowledged
 

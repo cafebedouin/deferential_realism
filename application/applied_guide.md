@@ -8,7 +8,7 @@ January 5, 2026
 
 ## Introduction: From Concept to Practice
 
-You've read the core concept. You understand that constraints come in four types: Mountains (natural), Ropes (coordination), Nooses (extractive), and Zombie Ropes (institutional inertia). You know the single heuristic: "Does this require enforcement?"
+You've read the core concept. You understand that constraints come in four types: Mountains (natural), Ropes (coordination), Snares (extractive), and Pitons (institutional inertia). You know the single heuristic: "Does this require enforcement?"
 
 Now comes the hard part: using this framework in actual situations where:
 - Evidence is incomplete
@@ -63,19 +63,19 @@ If "Nearly everyone involved" â†’ Likely a **Rope**
 - Look for: Mutual benefit, prevents collisions, manages genuine scarcity
 - Examples: Traffic lights, technical standards, meeting schedules
 
-If "A specific few at expense of many" â†’ Likely a **Noose**
+If "A specific few at expense of many" â†’ Likely a **Snare**
 - Test: Does enforcement stop, does constraint snap back immediately?
 - Look for: Beneficiaries resist transparency, implementation gap (claims vs. reality)
 - Examples: Rent-seeking regulations, artificial scarcity, "necessary" rules that serve power
 
-If "No oneâ€”everyone complains but it persists" â†’ Likely a **Zombie Rope**
+If "No oneâ€”everyone complains but it persists" â†’ Likely a **Piton**
 - Test: Is there an active enforcer or just bureaucratic inertia?
 - Look for: Vestigial procedures, "we've always done it this way," no clear beneficiary
 - Examples: Outdated forms, legacy processes, rules that made sense decades ago
 
 ### Common Misclassifications and Corrections
 
-**Error 1: Calling Nooses "Mountains"**
+**Error 1: Calling Snares "Mountains"**
 
 *Pattern:* "That's just how things are / human nature / economic reality"
 
@@ -86,8 +86,8 @@ If "No oneâ€”everyone complains but it persists" â†’ Likely a **Zombie
 
 *Example:* "Pharmaceutical patents are necessary for innovation" (claimed Mountain)
 - Reality: Patent length is policy choice (Rope)
-- Duration extensions beyond original term are often Nooses (extraction)
-- Basic IP protection is Rope; evergreening tactics are Nooses
+- Duration extensions beyond original term are often Snares (extraction)
+- Basic IP protection is Rope; evergreening tactics are Snares
 
 **Error 2: Calling Mountains "Ropes"**
 
@@ -103,7 +103,7 @@ If "No oneâ€”everyone complains but it persists" â†’ Likely a **Zombie
 - Work capacity is bounded by hours Ã— people Ã— fatigue limits (Mountain)
 - Schedule is negotiable (Rope); physics of time is not (Mountain)
 
-**Error 3: Calling Zombie Ropes "Nooses"**
+**Error 3: Calling Pitons "Snares"**
 
 *Pattern:* "This is a conspiracy / someone must be benefiting"
 
@@ -112,8 +112,8 @@ If "No oneâ€”everyone complains but it persists" â†’ Likely a **Zombie
 - Check resistance: Who fights to maintain this?
 - Test removal: What happens if you just... don't?
 
-*Example:* "The DMV makes everything hard on purpose" (assumed Noose)
-- Reality: Often just process accumulation without review (Zombie Rope)
+*Example:* "The DMV makes everything hard on purpose" (assumed Snare)
+- Reality: Often just process accumulation without review (Piton)
 - No one benefits; everyone (including staff) suffers
 - Fighting it as conspiracy wastes energy; routing around it works
 
@@ -124,8 +124,8 @@ If "No oneâ€”everyone complains but it persists" â†’ Likely a **Zombie
 *Example:* Building codes
 - Mountain component: Structures must support loads (physics)
 - Rope component: Standardized methods prevent coordination failures
-- Noose component: Licensing requirements that exclude competition
-- Zombie component: Outdated rules that made sense in 1960
+- Snare component: Licensing requirements that exclude competition
+- Piton component: Outdated rules that made sense in 1960
 
 *Strategy:* Unbundle, classify each component, address appropriately.
 
@@ -134,9 +134,9 @@ If "No oneâ€”everyone complains but it persists" â†’ Likely a **Zombie
 **HIGH Confidence (>80% certainty):**
 - Act decisively based on classification
 - Mountains: Navigate around, don't fight
-- Nooses: Cut or exit (if you have power to do so)
+- Snares: Cut or exit (if you have power to do so)
 - Ropes: Maintain or reform carefully
-- Zombie Ropes: Bypass without fighting
+- Pitons: Bypass without fighting
 
 **MEDIUM Confidence (50-80% certainty):**
 - Act tentatively, prepare to update
@@ -150,7 +150,7 @@ If "No oneâ€”everyone complains but it persists" â†’ Likely a **Zombie
 - Gather more evidence before committing
 - If forced to act: assume Mountain (safest default)
 
-**The Safety Principle:** When uncertain between Mountain and Rope/Noose, assume Mountain. Fighting a Mountain wastes energy; accepting a Noose temporarily is recoverable.
+**The Safety Principle:** When uncertain between Mountain and Rope/Snare, assume Mountain. Fighting a Mountain wastes energy; accepting a Snare temporarily is recoverable.
 
 ### Vicarious Observation Strategies
 
@@ -174,7 +174,7 @@ If "No oneâ€”everyone complains but it persists" â†’ Likely a **Zombie
 **Strategy 4: Edge Case Examination**
 - Look at boundary conditions
 - Who gets exceptions? Under what circumstances?
-- Mountains grant no exceptions; Ropes/Nooses often do
+- Mountains grant no exceptions; Ropes/Snares often do
 
 **Strategy 5: Beneficiary Tracking**
 - Follow the money/power/status
@@ -191,8 +191,8 @@ The framework's value is in preventing two specific errors:
 
 A "good enough" classification:
 - Prevents you from fighting obvious Mountains
-- Identifies clear Nooses worth challenging
-- Distinguishes real coordination (Ropes) from theater (Zombie Ropes)
+- Identifies clear Snares worth challenging
+- Distinguishes real coordination (Ropes) from theater (Pitons)
 - Updates with new evidence rather than defending initial classification
 
 **The test:** Is your classification *useful* for the decision at hand? If yes, it's good enough.
@@ -295,7 +295,7 @@ Different constraints require different tests. Missing even one test produces mi
   - Post-review quality: Unknown (never measured)
   - Review catch rate: Unknown (not tracked)
 - **Result:** No evidence review provides claimed value
-- **Classification:** Zombie Rope (theater) or possibly Snare (gatekeeping)
+- **Classification:** Piton (theater) or possibly Snare (gatekeeping)
 
 **False Mountain detected:** Claimed necessity without measurement
 
@@ -425,7 +425,7 @@ Different constraints require different tests. Missing even one test produces mi
   - Blockers surfaced: Could be interrupt-driven (ping when blocked)
   - Team cohesion: Exists without standup in async teams
 - Actual function: Status theater for manager
-- **Classification:** Zombie Rope (lost coordination function) or Snare (manager visibility extraction)
+- **Classification:** Piton (lost coordination function) or Snare (manager visibility extraction)
 
 **False coordination detected:** Ritual maintained without benefit
 
@@ -714,7 +714,7 @@ An architect always demands "empirical evidence" from developers (data, benchmar
 
 **Mars Climate Orbiter (Case Study 2):**
 - Single perspective: "Software team error" (individual blame)
-- Multi-perspective: Nooses (schedule pressure) + Zombie Ropes (theater testing) created path to Mountain collision
+- Multi-perspective: Snares (schedule pressure) + Pitons (theater testing) created path to Mountain collision
 - **Blind spot:** Management avoided beneficiary analysis of schedule pressure
 
 **When you read the case studies, watch for:**
@@ -786,7 +786,7 @@ These examples show the diagnostic process, not just the conclusions. Pay attent
 - Result: Arithmetic prevents local superiority
 - Confidence: HIGH (mathematics)
 
-**Nooses Identified:**
+**Snares Identified:**
 
 *Plausible Deniability Requirement*
 - Evidence: Changed landing site from Trinidad (better military option) to Bay of Pigs (worse, but quieter)
@@ -802,7 +802,7 @@ These examples show the diagnostic process, not just the conclusions. Pay attent
 - Resistance: Active suppression of contradictory evidence
 - Confidence: HIGH (documented in post-mortems)
 
-**Zombie Ropes Identified:**
+**Pitons Identified:**
 
 *Guerrilla Fallback Plan*
 - Evidence: Plan assumed guerrilla retreat to Escambray Mountains (80 miles away, across swamp)
@@ -817,7 +817,7 @@ These examples show the diagnostic process, not just the conclusions. Pay attent
 1. **The "Betrayal" Narrative is a Type Error**
    - Treats Kennedy's ROPE enforcement (rules of engagement) as creating failure
    - Actually: Mountains made success impossible before Kennedy's decisions
-   - Kennedy chose to preserve international coordination (Rope) over CIA reputation (Noose protection)
+   - Kennedy chose to preserve international coordination (Rope) over CIA reputation (Snare protection)
 
 2. **The Miracle Assumption**
    - Planners assumed: "If things go wrong, political pressure will force escalation"
@@ -825,7 +825,7 @@ These examples show the diagnostic process, not just the conclusions. Pay attent
    - Kennedy enforced the Ropes instead
 
 3. **Working Backwards from Desired Outcome**
-   - Started with political constraint (plausible deniability = Noose)
+   - Started with political constraint (plausible deniability = Snare)
    - Built military plan around political constraint
    - Ignored Mountains that made plan physically impossible
    - Correct approach: Identify Mountains first, build plan that respects them
@@ -865,7 +865,7 @@ These examples show the diagnostic process, not just the conclusions. Pay attent
 - Effect: More trajectory corrections = more accumulated error
 - Confidence: HIGH (conservation laws + geometry)
 
-**Nooses Identified:**
+**Snares Identified:**
 
 *Schedule Pressure â†’ Manual Workaround*
 - Evidence: Developer late delivering software; management accepted manual data transfer instead of proper integration
@@ -881,7 +881,7 @@ These examples show the diagnostic process, not just the conclusions. Pay attent
 - Answer: NASA management shows cost reduction; engineers absorb risk with inadequate resources
 - Confidence: MEDIUM-HIGH (policy-level extraction of safety margins)
 
-**Zombie Ropes Identified:**
+**Pitons Identified:**
 
 *Integration Testing Protocol*
 - Evidence: Testing occurred, checklist completed, but didn't validate actual interface compliance
@@ -899,17 +899,17 @@ These examples show the diagnostic process, not just the conclusions. Pay attent
 
 **Classification Process Insights:**
 
-1. **Nooses Created Path to Mountain Collision**
-   - Schedule pressure (Noose) â†’ Manual workaround
-   - Manual workaround bypassed integration testing (Zombie Rope)
-   - Zombie testing didn't catch unit error
+1. **Snares Created Path to Mountain Collision**
+   - Schedule pressure (Snare) â†’ Manual workaround
+   - Manual workaround bypassed integration testing (Piton)
+   - Piton testing didn't catch unit error
    - Unit error accumulated until hitting Mountain (atmospheric physics)
 
 2. **The Synergy of Failure**
    - Asymmetric arrays (Mountainâ€”more correction events)
    - Unit error (Mountain violation)
-   - Inadequate testing (Zombie Rope)
-   - Schedule pressure (Noose)
+   - Inadequate testing (Piton)
+   - Schedule pressure (Snare)
    - Each alone might have been survived; combination was fatal
 
 3. **"You Cannot Manage Your Way Around a Mountain"**
@@ -931,16 +931,16 @@ These examples show the diagnostic process, not just the conclusions. Pay attent
 - Same Mountains existed
 - Asymmetric array = 10-14x more correction events
 - Small error accumulated across 170+ events
-- Integration testing was Zombie Rope (checklist theater)
+- Integration testing was Piton (checklist theater)
 
 **Critical Insight:** The difference wasn't commitment or caring. The difference was:
 - MGS had fewer opportunities for error accumulation (design choice)
 - MGS enforced functional Ropes (actual testing)
-- MCO had Nooses (schedule pressure) that degraded Ropes into Zombie Ropes
+- MCO had Snares (schedule pressure) that degraded Ropes into Pitons
 
 **Lesson:** This is the gold standard example of Mountain constraints. Unit conversion is pure mathematics. Atmospheric physics is non-negotiable. The spacecraft didn't fail because the Mountain was hardâ€”it failed because the system treated the Mountain as negotiable through management decisions.
 
-**Practical Takeaway:** When someone says "we can manage the risk," check if they're assuming they can negotiate with Mountains. Risk management works on Ropes and Nooses. Mountains don't manage.
+**Practical Takeaway:** When someone says "we can manage the risk," check if they're assuming they can negotiate with Mountains. Risk management works on Ropes and Snares. Mountains don't manage.
 
 ---
 
@@ -984,7 +984,7 @@ These examples show the diagnostic process, not just the conclusions. Pay attent
 - Result: No buyers at any price in required timeframe
 - Confidence: HIGH (time + market structure)
 
-**Nooses Identified:**
+**Snares Identified:**
 
 *Repo 105 Accounting Treatment*
 - Evidence: Exploited technical accounting rule to misrepresent leverage
@@ -1011,27 +1011,27 @@ These examples show the diagnostic process, not just the conclusions. Pay attent
 - Answer: Law firm gets fees, management gets cover; investors/creditors bear risk
 - Confidence: HIGH (regulatory arbitrage for rent-seeking)
 
-**Ropes â†’ Zombie Ropes (Degradation Process):**
+**Ropes â†’ Pitons (Degradation Process):**
 
 *Risk Appetite Limits*
 - Original: Firm-wide risk exposure caps (Ropeâ€”coordination mechanism)
 - Reality: "Risk Appetite Limit Increase For Fiscal 2007"â€”limits raised when hit
 - Internal opposition documented but overruled
-- Transformation: Rope â†’ Zombie Rope (form preserved, function destroyed)
+- Transformation: Rope â†’ Piton (form preserved, function destroyed)
 - Confidence: MEDIUM-HIGH (initial coordination, then degraded)
 
 *Stress Testing Protocols*
 - Original: Models simulate portfolio under adverse conditions (Rope)
 - Reality: "Stress Testing Exclusions"â€”Archstone excluded from tests
 - Function: Models modified to show desired results
-- Transformation: Rope â†’ Zombie Rope (process exists, circumvented)
+- Transformation: Rope â†’ Piton (process exists, circumvented)
 - Confidence: MEDIUM (form preserved, function destroyed)
 
 *Ernst & Young Audit*
 - Original: External audit should catch material misstatements (Rope)
 - Reality: E&Y aware of Repo 105 but "would not opine on the materiality"
 - Function: Audit process completed, but didn't flag critical issues
-- Transformation: Rope â†’ Zombie Rope (process without substance)
+- Transformation: Rope â†’ Piton (process without substance)
 - Confidence: HIGH (documented in Examiner's Report)
 
 **Classification Process Insights:**
@@ -1042,14 +1042,14 @@ These examples show the diagnostic process, not just the conclusions. Pay attent
    - When Mountains bound (Sept 2008), no negotiation possible
 
 2. **The Cascade Pattern**
-   - 2006-2007: Degrade Ropes into Zombie Ropes (disable safety mechanisms)
-   - 2007-2008: Construct Nooses (Repo 105, compensation misalignment)
+   - 2006-2007: Degrade Ropes into Pitons (disable safety mechanisms)
+   - 2007-2008: Construct Snares (Repo 105, compensation misalignment)
    - 2008: Encounter Mountains (liquidity, confidence) assumed wouldn't bind
    - Result: System had disabled mechanisms that would have prevented Mountain collision
 
 3. **Misidentification as Strategy**
    - "Strategic decisions" = Actually betting against Mountains
-   - "Risk management" = Actually Zombie Rope theater
+   - "Risk management" = Actually Piton theater
    - "Liquidity pool" = Treated as buffer, was actually the Mountain itself
 
 **What Lehman Called vs. What It Was:**
@@ -1064,8 +1064,8 @@ These examples show the diagnostic process, not just the conclusions. Pay attent
 | "Repo 105 Usage" | Operating NOOSE | Concealment until discovered |
 
 **Lesson:** Lehman didn't fail by violating Mountainsâ€”it failed by:
-1. Degrading Ropes (risk controls) into Zombie Ropes
-2. Constructing Nooses (extraction/concealment mechanisms)
+1. Degrading Ropes (risk controls) into Pitons
+2. Constructing Snares (extraction/concealment mechanisms)
 3. Treating Mountains (liquidity, leverage, confidence) as negotiable
 4. Encountering those Mountains when assumptions proved wrong
 
@@ -1129,7 +1129,7 @@ This is the **cleanest example of deferential design**â€”a protocol that ex
 - Answer: Yesâ€”matches sender rate to receiver capacity
 - Confidence: HIGH (functional coordination)
 
-**Zombie Ropes Identified:**
+**Pitons Identified:**
 
 *The Urgent Mechanism*
 - Evidence: RFC 9293 explicitly states new applications "SHOULD NOT" use it
@@ -1159,10 +1159,10 @@ This is the **cleanest example of deferential design**â€”a protocol that ex
    - Flow control matches sender to receiver
    - These are genuine coordination mechanisms, not theater
 
-3. **Accepts Zombie Ropes Explicitly**
-   - "SHOULD NOT" on urgent mechanism = acknowledging zombie status
+3. **Accepts Pitons Explicitly**
+   - "SHOULD NOT" on urgent mechanism = acknowledging piton status
    - Documents legacy features without pretending they're useful
-   - Maintains backward compatibility while guiding away from zombies
+   - Maintains backward compatibility while guiding away from pitons
 
 **Contrast with Theological Protocol Design:**
 
@@ -1171,7 +1171,7 @@ This is the **cleanest example of deferential design**â€”a protocol that ex
 
 **Lesson:** TCP survives because it's **deferential to Mountains** from the start. When bandwidth increased 1000x, TCP adaptedâ€”but it never pretended the sequence space wasn't finite or that the 3-way handshake could be shorter.
 
-**Practical Takeaway:** Good system design starts with "What are the Mountains?" not "What do we want?" TCP shows how to build Ropes (coordination) that respect Mountains (physics) while explicitly acknowledging Zombie Ropes (legacy) without letting them corrupt the core.
+**Practical Takeaway:** Good system design starts with "What are the Mountains?" not "What do we want?" TCP shows how to build Ropes (coordination) that respect Mountains (physics) while explicitly acknowledging Pitons (legacy) without letting them corrupt the core.
 
 ---
 
@@ -1185,7 +1185,7 @@ This is the **cleanest example of deferential design**â€”a protocol that ex
 - Frees your energy for interpreting results and making decisions
 
 **Pattern Recognition:**
-- LLMs have seen thousands of examples of Mountain/Rope/Noose/Zombie patterns
+- LLMs have seen thousands of examples of Mountain/Rope/Snare/Piton patterns
 - Can identify similar constraint structures across domains
 - Provides reference points you might not have in your experience
 
@@ -1241,7 +1241,7 @@ Mode: [SCAN/MAP/PROJECT/AUDIT/MEASURE/CALIBRATE]
 **CALIBRATE Mode:** "Classify constraints before enforcement"
 - Use when: About to act based on classification, want verification
 - Output: Evidence standards and confidence assessment
-- Example: "Before I fight this, verify it's actually a Noose"
+- Example: "Before I fight this, verify it's actually a Snare"
 
 ### Example: Using Constraint Engine on Workplace Policy
 
@@ -1279,7 +1279,7 @@ ZOMBIE ROPE [Office Space Lease]:
 - Possible: Existing lease creates pressure to use space
 - Test: Is anyone winning from office requirement?
 - Answer: Landlord wins, company loses on space cost, workers lose on commute
-- Alternate: Could be Zombie if lease predates remote work possibility
+- Alternate: Could be Piton if lease predates remote work possibility
 - Confidence: LOW (need org history)
 
 ROPE [Actual Coordination Needs]: ? (unverified)
@@ -1290,25 +1290,25 @@ ROPE [Actual Coordination Needs]: ? (unverified)
 
 RECOMMENDATION:
 - Request specific collaboration metrics that justify policy
-- If metrics don't exist or don't track claimed concern â†’ Reclassify as Noose
-- If manager resists providing metrics â†’ Strong Noose indicator
+- If metrics don't exist or don't track claimed concern â†’ Reclassify as Snare
+- If manager resists providing metrics â†’ Strong Snare indicator
 - If metrics show genuine coordination loss â†’ Could be legitimate Rope
 
 MEASUREMENT PROTOCOL:
 1. Ask: "What collaboration specifically requires physical presence?"
 2. Ask: "How did we measure this? Can I see the data?"
 3. Ask: "What did we try to make remote work function?"
-4. Pattern: Nooses resist measurement; Ropes provide specifics
+4. Pattern: Snares resist measurement; Ropes provide specifics
 ```
 
 **Your Response Options Based on Classification:**
 
-*If Noose (most likely given pattern):*
+*If Snare (most likely given pattern):*
 - Don't argue on principle ("freedom to work remote")
 - Don't waste energy on reform ("can we pilot hybrid?")
 - Options: Exit (find remote role) or Accept (if other factors worth it)
 
-*If Zombie Rope (possible):*
+*If Piton (possible):*
 - Don't fight it as conspiracy
 - Route around: Ask for specific remote days, flexibility, asynchronous options
 - These often work because no one's actively enforcing
@@ -1327,21 +1327,21 @@ MEASUREMENT PROTOCOL:
 
 **LLMs Hallucinate Classification**
 
-*Problem:* LLMs will confidently classify Nooses as Mountains if the pattern matches
+*Problem:* LLMs will confidently classify Snares as Mountains if the pattern matches
 *Mitigation:* Always verify beneficiary claims and enforcement mechanisms independently
 
 *Example:*
 - LLM might say: "IP law is a Mountain (legal necessity)"
-- Reality: IP law is Rope (coordination) with Noose components (rent-seeking extensions)
+- Reality: IP law is Rope (coordination) with Snare components (rent-seeking extensions)
 - Check: Who benefits? How enforced? What's actually unchangeable?
 
 **Pattern Matching â‰  Ground Truth**
 
-*Problem:* LLM recognizes Noose-patterns but can't verify actual beneficiaries
+*Problem:* LLM recognizes Snare-patterns but can't verify actual beneficiaries
 *Mitigation:* Use LLM for hypothesis generation, not final classification
 
 *Example:*
-- LLM suggests: "Likely a Noose based on extraction pattern"
+- LLM suggests: "Likely a Snare based on extraction pattern"
 - Your job: Verify who actually benefits, what enforcement looks like
 - LLM accelerates diagnosis, doesn't replace observation
 
@@ -1412,7 +1412,7 @@ You have limited:
 - **Political capital** (credibility is spent by challenges)
 - **Money** (if self-employed/consulting/exiting)
 
-**Core Principle:** Don't fight Mountains. Don't waste energy on Zombie Ropes. Focus on cutting Nooses and maintaining/reforming Ropes.
+**Core Principle:** Don't fight Mountains. Don't waste energy on Pitons. Focus on cutting Snares and maintaining/reforming Ropes.
 
 ### Triage: What Deserves Your Energy?
 
@@ -1431,7 +1431,7 @@ You have limited:
 
 *Why this matters:* Every hour spent wishing Mountains were different is wasted.
 
-**Priority 2: Clear Nooses Affecting You Directly (CUT OR EXIT)**
+**Priority 2: Clear Snares Affecting You Directly (CUT OR EXIT)**
 
 *Pattern:* Extraction where you're bearing the cost
 *Action:* Challenge if you have power, exit if you don't
@@ -1443,7 +1443,7 @@ You have limited:
 - Policy requiring your work for others' credit
 - "Necessary" process that's actually surveillance
 
-*Why this matters:* Nooses typically don't reform—they're working as intended for beneficiaries. Usually best to cut or exit rather than attempt reform.
+*Why this matters:* Snares typically don't reform—they're working as intended for beneficiaries. Usually best to cut or exit rather than attempt reform.
 
 **Priority 3: Broken Ropes Affecting Coordination (REFORM CAREFULLY)**
 
@@ -1459,7 +1459,7 @@ You have limited:
 
 *Why this matters:* Ropes are worth maintaining. When they break, people suffer together.
 
-**Priority 4: Zombie Ropes (BYPASS, DON'T FIGHT)**
+**Priority 4: Pitons (BYPASS, DON'T FIGHT)**
 
 *Pattern:* No one benefits, but it persists
 *Action:* Route around it; don't waste energy on conspiracy theories
@@ -1471,7 +1471,7 @@ You have limited:
 - Training that teaches nothing
 - Report no one reads
 
-*Why this matters:* Zombies die from neglect faster than opposition. Just... don't engage.
+*Why this matters:* Pitons die from neglect faster than opposition. Just... don't engage.
 
 **Priority 5: Legitimate Constraints on Others (IGNORE)**
 
@@ -1490,18 +1490,18 @@ You have limited:
 ### Decision Matrix: Act, Investigate, or Accept?
 
 **HIGH stakes + HIGH confidence â†’ ACT**
-- Clear Noose affecting you: Cut or exit
+- Clear Snare affecting you: Cut or exit
 - Broken Rope affecting coordination: Reform
 - Mountain in your path: Navigate immediately
 
 **HIGH stakes + LOW confidence â†’ INVESTIGATE**
-- Could be Mountain or Noose: Gather evidence
-- Could be Rope or Zombie: Test if anyone actually benefits
+- Could be Mountain or Snare: Gather evidence
+- Could be Rope or Piton: Test if anyone actually benefits
 - Unclear who benefits: Track beneficiaries systematically
 
 **LOW stakes + ANY confidence â†’ ACCEPT**
-- Even if it's a Noose, not worth your energy
-- Even if it's a Zombie, routing around costs less than fighting
+- Even if it's a Snare, not worth your energy
+- Even if it's a Piton, routing around costs less than fighting
 - Pick your battles based on resource constraints
 
 **ANY stakes + Obvious Mountain â†’ ACCEPT**
@@ -1514,7 +1514,7 @@ You have limited:
 **Problem:** Obsessing over perfect classification before acting
 
 **Symptoms:**
-- "I need to be sure this is really a Noose before I challenge it"
+- "I need to be sure this is really a Snare before I challenge it"
 - "What if I'm wrong about this being a Mountain?"
 - "I should gather more evidence before deciding"
 - Endless classification, zero action
@@ -1522,9 +1522,9 @@ You have limited:
 **Solution: Satisficing Strategy**
 
 1. **Set time limit:** "I'll spend 30 minutes classifying this, then decide"
-2. **Accept uncertainty:** "This is 70% likely a Noose, that's enough"
-3. **Make reversible decisions:** "I'll treat it as Noose; if wrong, I'll update"
-4. **Start with low-cost tests:** "I'll bypass this Zombie Rope and see what happens"
+2. **Accept uncertainty:** "This is 70% likely a Snare, that's enough"
+3. **Make reversible decisions:** "I'll treat it as Snare; if wrong, I'll update"
+4. **Start with low-cost tests:** "I'll bypass this Piton and see what happens"
 
 **The test:** Is additional classification time worth the decision quality improvement? Usually: no.
 
@@ -1540,28 +1540,28 @@ You have limited:
 
 **Strategy 2: Ask People Who Tested It**
 - "Has anyone challenged this before? What happened?"
-- Noose pattern: They faced resistance from beneficiaries
-- Zombie pattern: Nothing happened, rule just ignored
+- Snare pattern: They faced resistance from beneficiaries
+- Piton pattern: Nothing happened, rule just ignored
 - Mountain pattern: Physics/math/logic stopped them
 - Cost: One conversation
 
 **Strategy 3: Cross-Context Comparison**
 - "How do other teams/orgs/countries handle this?"
 - If it varies: Not a Mountain
-- If universal: Probably Mountain, or very effective Noose
+- If universal: Probably Mountain, or very effective Snare
 - Cost: 20 minutes research
 
 **Strategy 4: Edge Case Examination**
 - "Who gets exceptions? Under what circumstances?"
 - Mountains grant no exceptions
 - Ropes grant exceptions for coordination purposes
-- Nooses grant exceptions to beneficiaries/power
+- Snares grant exceptions to beneficiaries/power
 - Cost: Observation over time
 
 **Strategy 5: Wait and Watch**
 - Sometimes: Doing nothing for a week reveals constraint type
-- Zombie Ropes often ignored without consequence
-- Nooses face resistance from beneficiaries
+- Pitons often ignored without consequence
+- Snares face resistance from beneficiaries
 - Mountains bind regardless
 - Cost: Time (but zero active energy)
 
@@ -1571,8 +1571,8 @@ You have limited:
 
 **Minimum viable classification:**
 - Prevents fighting obvious Mountains (â†“ wasted energy)
-- Identifies clear Nooses (â†’ focus energy here)
-- Distinguishes Ropes from Zombies (â†’ reform vs. bypass)
+- Identifies clear Snares (â†’ focus energy here)
+- Distinguishes Ropes from Pitons (â†’ reform vs. bypass)
 
 **Test of sufficiency:** "Does this classification help me decide what to do next?"
 - If yes: Good enough, act on it
@@ -1599,8 +1599,8 @@ You have limited:
 **Strategy 3: Minimum Viable Compliance**
 - Do exactly what's required, no more
 - Don't fight, don't reform, don't engage
-- Ghost through Zombie Ropes
-- Avoid Noose beneficiaries
+- Ghost through Pitons
+- Avoid Snare beneficiaries
 - Navigate around Mountains
 
 **Strategy 4: Build Safety Margin First**
@@ -1615,14 +1615,14 @@ You have limited:
 
 **Waste Indicators:**
 - Ruminating about unchangeable situations (fighting Mountains)
-- Arguing with people who benefit from status quo (Noose beneficiaries won't change their minds)
-- Reforming processes no one wants (Zombie Rope revival attempts)
-- Explaining why something is wrong (if it's a Noose, they know; if it's a Mountain, explaining doesn't help)
+- Arguing with people who benefit from status quo (Snare beneficiaries won't change their minds)
+- Reforming processes no one wants (Piton revival attempts)
+- Explaining why something is wrong (if it's a Snare, they know; if it's a Mountain, explaining doesn't help)
 
 **Effective Indicators:**
 - Navigating around constraints
 - Building Ropes that coordinate
-- Cutting Nooses you have power to cut
+- Cutting Snares you have power to cut
 - Exiting situations where you lack power
 - Accepting Mountains quickly
 
@@ -1636,15 +1636,15 @@ You have limited:
 
 **DO:**
 - Accept Mountains immediately upon identification
-- Exit Nooses where you lack power to cut them
+- Exit Snares where you lack power to cut them
 - Reform Ropes carefully with stakeholder input
-- Bypass Zombie Ropes without fighting them
+- Bypass Pitons without fighting them
 - Focus energy on changeable problems within your power
 
 **DON'T:**
 - Fight Mountains (infinite energy cost, zero success probability)
-- Reform Nooses (they're working as intended for beneficiaries)
-- Revive Zombie Ropes (let them die naturally)
+- Reform Snares (they're working as intended for beneficiaries)
+- Revive Pitons (let them die naturally)
 - Waste energy on perfect classification (good enough is enough)
 - Take on others' constraint problems (not your fight)
 
@@ -1680,7 +1680,7 @@ You now have:
 
 **Remember:**
 - Reality constrains us (Mountains exist)
-- Power pretends to be reality (Nooses masquerade)
+- Power pretends to be reality (Snares masquerade)
 - Classification reveals the difference (And develops through practice)
 - Energy is finite (Choose your battles)
 

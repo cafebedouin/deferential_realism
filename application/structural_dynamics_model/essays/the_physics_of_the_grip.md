@@ -25,7 +25,7 @@ Tarkin's grip is pure mandatrophy. The Death Star represents the ultimate centra
 
 The Emperor dissolved the Imperial Senate, eliminating the last remnants of institutional pluralism. Tarkin announced the "Doctrine of Fear"—regional governors would maintain control through the threat of planetary annihilation. From the institutional center, this looks like optimization. Eliminate the friction of political debate. Centralize decision-making. Create perfect responsiveness to central commands.
 
-It's the rope. Then it's the noose.
+It's the rope. Then it's the snare.
 
 ### The Network Physics of Fingers
 
@@ -75,7 +75,7 @@ The Empire went from senatorial representation (distributed fingers) to regional
 
 The critical insight: the star systems don't slip through *randomly*. They slip through *systematically*. The tightening creates the gaps.
 
-When you centralize all authority in the Death Star, you create binary outcomes. Either the Death Star successfully intimidates (rope), or it gets destroyed and you lose everything (noose). There's no middle ground, no graceful degradation, no adaptive response to unexpected challenges.
+When you centralize all authority in the Death Star, you create binary outcomes. Either the Death Star successfully intimidates (rope), or it gets destroyed and you lose everything (snare). There's no middle ground, no graceful degradation, no adaptive response to unexpected challenges.
 
 This is what network percolation theory predicts: robust-yet-fragile systems don't decay gradually. They maintain functionality until a critical threshold, then collapse suddenly.
 

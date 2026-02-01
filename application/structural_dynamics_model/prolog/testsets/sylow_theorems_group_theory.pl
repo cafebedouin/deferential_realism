@@ -189,7 +189,7 @@ test(subgroup_fate_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(non_simplicity_noose_penalty) :-
+test(non_simplicity_snare_penalty) :-
     % A powerless searcher in a local context sees the congruency rule as a Snare.
     constraint_indexing:constraint_classification(sylow_theorems_group_theory, snare, context(individual_powerless, immediate, constrained, local)).
 

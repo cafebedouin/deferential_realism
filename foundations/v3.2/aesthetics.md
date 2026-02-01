@@ -112,7 +112,7 @@ Every constraint in your work falls into one of four categories. Your aesthetic 
 
 **Exercise:** List three Ropes in your medium. Which have you mastered? Which are you playing with? Which are you rejecting? *Why those choices?*
 
-### C. Nooses: Constraints That Extract
+### C. Snares: Constraints That Extract
 
 **What they are:** "Rules" that claim necessity but actually serve gatekeeping, market control, or arbitrary power. They make your work worse without making it better.
 
@@ -127,37 +127,37 @@ Every constraint in your work falls into one of four categories. Your aesthetic 
 
 **The aesthetic question:** Am I fighting this constraint or accepting it as necessary?
 
-**Common pattern:** Nooses disguise themselves as Mountains or Ropes.
+**Common pattern:** Snares disguise themselves as Mountains or Ropes.
 - Claims: "This is just how the industry works" (Mountain language)
 - Reality: This is how gatekeepers extract value
 - Test: What happens if you ignore it?
   - Mountain: Work fails (novel without words doesn't communicate)
   - Rope: Work reaches different audience (self-publishing works, just different distribution)
-  - Noose: Gatekeepers get mad, but work succeeds anyway (see: every major artistic innovation)
+  - Snare: Gatekeepers get mad, but work succeeds anyway (see: every major artistic innovation)
 
 **Strategic responses:**
 
 **If you have power (established artist):**
-- Ignore the Noose, demonstrate alternatives work
+- Ignore the Snare, demonstrate alternatives work
 - Use platform to expose the extraction
 - Create alternative Ropes (new galleries, labels, publishers, movements)
 
 **If you lack power (emerging artist):**
 - Comply minimally to get through gate
 - Build skill so you can escape later
-- Network with others caught by same Noose
-- Document the extraction (art about the Noose itself)
+- Network with others caught by same Snare
+- Document the extraction (art about the Snare itself)
 
-**Examples of artists cutting Nooses:**
+**Examples of artists cutting Snares:**
 - Radiohead releasing *In Rainbows* pay-what-you-want (bypassed label)
 - Banksy remaining anonymous (bypassed gallery system's artist-as-brand)
 - Beat poets self-publishing (bypassed literary gatekeepers)
 - Early hip-hop using breaks (bypassed music industry's equipment costs)
 - Guerrilla public art (bypassed gallery/museum gatekeeping)
 
-**Critical distinction:** Don't confuse "this is hard" (Mountain) with "this is gatekept" (Noose).
+**Critical distinction:** Don't confuse "this is hard" (Mountain) with "this is gatekept" (Snare).
 - Mountain: Oil painting requires learning brush technique (skill acquisition)
-- Noose: Gallery requires MFA from specific schools (arbitrary credentialism)
+- Snare: Gallery requires MFA from specific schools (arbitrary credentialism)
 
 **Exercise:** List three constraints you work under. For each: Is this making the work better, or just making someone else money? If extraction, what's your escape route?
 
@@ -221,7 +221,7 @@ Different artistic traditions represent different philosophies of constraint-rel
 
 **The aesthetic:** **Clarity about constraint.** You see how it works.
 
-**Danger:** Can become rigid. The Mountain becomes a Noose (classical academy forbidding innovation).
+**Danger:** Can become rigid. The Mountain becomes a Snare (classical academy forbidding innovation).
 
 ### B. Romantic: Transcend the Mountain
 
@@ -240,7 +240,7 @@ Different artistic traditions represent different philosophies of constraint-rel
 
 ### C. Modernist: Accept the Mountain, Reject the Rope
 
-**Philosophy:** Medium constraints are real (Mountains). Social conventions are arbitrary (Ropes/Nooses). Keep the first, reject the second.
+**Philosophy:** Medium constraints are real (Mountains). Social conventions are arbitrary (Ropes/Snares). Keep the first, reject the second.
 
 **Examples:**
 - **Painting:** Abstract expressionism (accepts 2D flatness, rejects representation)
@@ -270,7 +270,7 @@ Different artistic traditions represent different philosophies of constraint-rel
 
 ### E. Deferential Realist: Map Constraint-Structure Accurately
 
-**Philosophy:** Some constraints are Mountains (medium), some are Ropes (coordination), some are Nooses (extraction), some are Scaffolds (temporary). Aesthetic choices emerge from accurate classification.
+**Philosophy:** Some constraints are Mountains (medium), some are Ropes (coordination), some are Snares (extraction), some are Scaffolds (temporary). Aesthetic choices emerge from accurate classification.
 
 **The aesthetic:** **Appropriate response to actual constraint-type.**
 
@@ -287,11 +287,11 @@ Different artistic traditions represent different philosophies of constraint-rel
 - Kehinde Wiley's portraits (classical composition + contemporary subjects)
 - Yo-Yo Ma's Bach interpretations (tradition + personal voice)
 
-**Noose-cutting:**
+**Snare-cutting:**
 - Guerrilla Girls (art about gallery system's gatekeeping)
 - DIY punk aesthetics (reject professional production standards)
-- Self-published authors (bypass publishing Nooses)
-- Street art (bypass gallery Nooses)
+- Self-published authors (bypass publishing Snares)
+- Street art (bypass gallery Snares)
 
 **Scaffold-using:**
 - Artists who teach (Scaffold = teaching, dissolves when students graduate)
@@ -355,9 +355,9 @@ Different artistic traditions represent different philosophies of constraint-rel
 
 **The progression:** Most great artists do all three: master tradition (1) → break specific rules (2) → create new tradition (3).
 
-### C. Exposing Nooses
+### C. Exposing Snares
 
-**Technique 1: Work-About-Noose**
+**Technique 1: Work-About-Snare**
 - Make art explicitly about the extractive constraint
 - Gatekeeping becomes subject matter
 - Meta-commentary on industry
@@ -370,7 +370,7 @@ Different artistic traditions represent different philosophies of constraint-rel
 
 **Technique 2: Deliberately Violate, Document Result**
 - Break the "rule"
-- See if work suffers (Mountain) or gatekeepers just get mad (Noose)
+- See if work suffers (Mountain) or gatekeepers just get mad (Snare)
 - Share results publicly
 - Demonstrate alternative path
 
@@ -381,7 +381,7 @@ Different artistic traditions represent different philosophies of constraint-rel
 - YouTube musicians bypassing radio
 
 **Technique 3: Build Alternative Infrastructure**
-- Create new Ropes to replace Nooses
+- Create new Ropes to replace Snares
 - Collective galleries, labels, publishers
 - Mutual aid replaces gatekeeping
 - Power redistributed
@@ -435,7 +435,7 @@ Different artistic traditions represent different philosophies of constraint-rel
 **Question 1: What type is it?**
 - Mountain: Can't be changed (medium, physics, biology)
 - Rope: Convention serving coordination
-- Noose: Gatekeeping serving extraction
+- Snare: Gatekeeping serving extraction
 - Scaffold: Temporary structure for learning
 
 **Question 2: Am I engaging it consciously?**
@@ -445,13 +445,13 @@ Different artistic traditions represent different philosophies of constraint-rel
 **Question 3: Is my engagement appropriate?**
 - Mountain: Am I accepting or fighting it? (Both valid, but different aesthetics)
 - Rope: Am I using, playing with, or creating new? (All valid at different skill levels)
-- Noose: Am I trapped or building escape route?
+- Snare: Am I trapped or building escape route?
 - Scaffold: Am I learning or calcified?
 
 **Question 4: What would change if I reclassified it?**
 - Thought it was Mountain, actually Rope → More freedom than I assumed
-- Thought it was Rope, actually Noose → I can reject this
-- Thought it was Noose, actually Mountain → Stop wasting energy fighting
+- Thought it was Rope, actually Snare → I can reject this
+- Thought it was Snare, actually Mountain → Stop wasting energy fighting
 - Thought it was permanent, actually Scaffold → Time to remove
 
 ### For Your Overall Practice:
@@ -459,7 +459,7 @@ Different artistic traditions represent different philosophies of constraint-rel
 **Question 5: Where's my energy going?**
 - Fighting Mountains → Exhausting, futile
 - Maintaining good Ropes → Sustainable, connects to community
-- Trapped by Nooses → Extractive, need escape plan
+- Trapped by Snares → Extractive, need escape plan
 - Leaning on Scaffolds → Time to graduate
 
 **Question 6: What's my constraint philosophy?**
@@ -487,7 +487,7 @@ Different artistic traditions represent different philosophies of constraint-rel
 **Constraint classification:**
 - Mountains acknowledged: Language is sequential, readers process words
 - Ropes created: Invented new formal constraints (new coordination mechanisms)
-- Nooses bypassed: Ignored "serious literature must be realistic" gatekeeping
+- Snares bypassed: Ignored "serious literature must be realistic" gatekeeping
 - Scaffolds used: Rules were temporary experiments, not permanent style
 
 **The aesthetic:** Constraint makes creativity *possible*, not impossible. Limits force invention.
@@ -501,7 +501,7 @@ Different artistic traditions represent different philosophies of constraint-rel
 **Constraint classification:**
 - Mountains revealed: Camera as physical object, natural light limits, location realities
 - Ropes rejected: Hollywood continuity editing, three-act structure, score
-- Nooses cut: Expensive production budgets, studio system
+- Snares cut: Expensive production budgets, studio system
 - Scaffolds used: Rules were temporary (10 years), designed to force innovation
 
 **The aesthetic:** Strip away production polish, reveal filmmaking as documentary of reality.
@@ -515,26 +515,26 @@ Different artistic traditions represent different philosophies of constraint-rel
 **Constraint classification:**
 - Mountain reframed: Silence doesn't exist (ambient sound is always present)
 - Rope questioned: "Music = intentional sound" (what if it's framed listening?)
-- Noose bypassed: Classical concert format maintained but subverted
+- Snare bypassed: Classical concert format maintained but subverted
 - Scaffold offered: Listeners learn to hear ambient sound as music
 
 **The aesthetic:** Context (concert hall, performer, score) turns unavoidable sound into music.
 
 **Lesson:** Sometimes the Mountain you think you're fighting is the material you should work *with*. Cage didn't fight silence; he revealed it's impossible.
 
-### Case 4: Hip-Hop (Musicians Cutting Nooses, Creating Ropes)
+### Case 4: Hip-Hop (Musicians Cutting Snares, Creating Ropes)
 
 **What they did:** Sampling, turntablism, beatboxing, MCing
 
 **Constraint classification:**
 - Mountains acknowledged: Rhythm is physical (body responds), repetition creates groove
 - Ropes created: New conventions for electronic music (sampling protocols, battle structure)
-- Nooses cut: Expensive studio recording, formal musical training, industry gatekeeping
+- Snares cut: Expensive studio recording, formal musical training, industry gatekeeping
 - Scaffolds used: Started with others' recordings (Scaffold), evolved to original production
 
 **The aesthetic:** Turn equipment limits (two turntables) into creative strength.
 
-**Lesson:** What the industry calls "lacking proper resources" (Noose framing) can be reframed as "different resources enabling different art" (Mountain acknowledgment).
+**Lesson:** What the industry calls "lacking proper resources" (Snare framing) can be reframed as "different resources enabling different art" (Mountain acknowledgment).
 
 ### Case 5: Agnes Martin (Painter Working With Hand Limits)
 
@@ -543,7 +543,7 @@ Different artistic traditions represent different philosophies of constraint-rel
 **Constraint classification:**
 - Mountain acknowledged: Human hand can't draw perfect straight lines
 - Rope respected: Grid structure from minimalism
-- Noose ignored: "Fine art requires expensive materials" (she used graphite + acrylic)
+- Snare ignored: "Fine art requires expensive materials" (she used graphite + acrylic)
 - Scaffold dissolved: Early work more expressionist, grids emerged over time
 
 **The aesthetic:** The slight imperfection is the point—human touch within geometric order.
@@ -561,7 +561,7 @@ Different artistic traditions represent different philosophies of constraint-rel
 **Step 2:** For each, classify:
 - Mountain (medium constraint)
 - Rope (convention/tradition)
-- Noose (gatekeeping/extraction)
+- Snare (gatekeeping/extraction)
 - Scaffold (temporary structure)
 
 **Step 3:** For each:
@@ -607,11 +607,11 @@ Different artistic traditions represent different philosophies of constraint-rel
 
 **Step 3:** Remove it—notice what you learned
 
-### Exercise 5: Document a Noose (1 month)
+### Exercise 5: Document a Snare (1 month)
 
 **Step 1:** Identify a gatekeeping constraint in your field
 
-**Step 2:** Make work *about* the Noose
+**Step 2:** Make work *about* the Snare
 - Make the extraction visible
 - Show who benefits
 - Propose alternatives
@@ -634,19 +634,19 @@ Different artistic traditions represent different philosophies of constraint-rel
 
 2. **Some constraints are conventions** (Ropes)—genre, tradition, shared agreements. You can follow them, play with them, reject them, or create new ones. All valid at different skill levels.
 
-3. **Some constraints are gatekeeping** (Nooses)—industry control, credentialism, market power. You can comply, bypass, expose, or replace. Know which battle you're fighting.
+3. **Some constraints are gatekeeping** (Snares)—industry control, credentialism, market power. You can comply, bypass, expose, or replace. Know which battle you're fighting.
 
 4. **Some constraints are temporary** (Scaffolds)—training structures, transition support. Use them, then graduate. Don't calcify.
 
 **The aesthetic test:**
 - Does engaging this constraint make the work better? (Mountain, good Rope)
 - Does it enable coordination with audience/tradition? (Rope)
-- Does it primarily serve gatekeepers? (Noose)
+- Does it primarily serve gatekeepers? (Snare)
 - Is it temporary support for learning? (Scaffold)
 
 **The practice:** Before accepting or fighting a constraint, classify it. Then choose your engagement consciously.
 
-**The goal:** Not to eliminate constraints (impossible), but to work with them intelligently—accepting Mountains, playing with Ropes, cutting Nooses, graduating from Scaffolds.
+**The goal:** Not to eliminate constraints (impossible), but to work with them intelligently—accepting Mountains, playing with Ropes, cutting Snares, graduating from Scaffolds.
 
 ---
 
@@ -659,13 +659,13 @@ Different artistic traditions represent different philosophies of constraint-rel
 **For artists:**
 - Mountains: Your medium's nature (paint dries, bodies have gravity, words are sequential)
 - Ropes: Your tradition's wisdom (conventions that enable communication)
-- Nooses: Your industry's gatekeeping (arbitrary rules serving extraction)
+- Snares: Your industry's gatekeeping (arbitrary rules serving extraction)
 - Scaffolds: Your learning structures (temporary supports, then graduate)
 
 **The aesthetic choice:**
 - Reveal or conceal Mountains
 - Follow, play with, or reject Ropes
-- Comply with, bypass, or expose Nooses
+- Comply with, bypass, or expose Snares
 - Use then remove Scaffolds
 
 **The practice:**

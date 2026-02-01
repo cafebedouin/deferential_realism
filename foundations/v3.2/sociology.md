@@ -11,7 +11,7 @@
 
 **Sociology extends Deferential Realism's constraint ontology into social space.** Where psychology.md handles internal constraints, this document handles **external social constraints operating between agents**.
 
-The core insight: **The same constraint can function as coordination (Rope) for one person and extraction (Noose) for another—both classifications are objectively true from their respective power positions.**
+The core insight: **The same constraint can function as coordination (Rope) for one person and extraction (Snare) for another—both classifications are objectively true from their respective power positions.**
 
 This isn't moral relativism. It's **indexed realism**: social truth is relative to position in social space, but each indexed claim is objectively verifiable.
 
@@ -148,12 +148,12 @@ Every classification requires specifying:
 
 **Example classification:**
 - **FOR both friends** [moderate/biographical/mobile/dyadic]: Rope - Coordinates emotional support, fair exchange
-- **FOR one-sided relationship** [powerless/biographical/trapped/dyadic]: Not Rope - One person gives, other takes (Noose)
+- **FOR one-sided relationship** [powerless/biographical/trapped/dyadic]: Not Rope - One person gives, other takes (Snare)
 - **FOR community** [institutional/generational/constrained/community]: Rope - Pattern sustains mutual aid networks
 
-**Common confusion:** Confusing "works for me" with "works for everyone." A structure can be Rope for those with power and Noose for those without.
+**Common confusion:** Confusing "works for me" with "works for everyone." A structure can be Rope for those with power and Snare for those without.
 
-### C. Nooses: Extractive Structures
+### C. Snares: Extractive Structures
 
 **Definition:** Constraints maintained through power that asymmetrically benefit some at others' expense.
 
@@ -176,9 +176,9 @@ Every classification requires specifying:
 **Strategic response:** **Exit** where possible. **Contain damage** where trapped. **Refuse** where you have power.
 
 **Example classification:**
-- **FOR woman in traditional relationship** [powerless/biographical/trapped/dyadic]: Noose - Expected to perform emotional labor, manage household, remember everything
+- **FOR woman in traditional relationship** [powerless/biographical/trapped/dyadic]: Snare - Expected to perform emotional labor, manage household, remember everything
 - **FOR man benefiting** [moderate/biographical/constrained/dyadic]: May not recognize structure - relationship "just works" without visible labor
-- **FOR feminist analyst** [analytical/generational/analytical/societal]: Noose - Systemic extraction pattern across millions of relationships
+- **FOR feminist analyst** [analytical/generational/analytical/societal]: Snare - Systemic extraction pattern across millions of relationships
 
 **Critical distinction:** Not all discomfort is extraction. Legitimate boundaries can feel uncomfortable to both parties. Test: Is discomfort from asymmetric burden, or from mutual limitation?
 
@@ -188,32 +188,32 @@ Every classification requires specifying:
 3. Check alternatives - Are other arrangements forbidden, shamed, or made economically impossible?
 4. Check naturalization - Is it claimed as "just natural" or "just how things are"?
 
-**Common misclassification:** Treating all relationship demands as extraction. Some coordination requires mutual sacrifice. Distinguish: equal burden (Rope) vs. asymmetric burden (Noose).
+**Common misclassification:** Treating all relationship demands as extraction. Some coordination requires mutual sacrifice. Distinguish: equal burden (Rope) vs. asymmetric burden (Snare).
 
 ### D. Tangled Ropes: Hybrid Coordination-Extraction
 
 **Definition:** Structures with genuine coordination function BUT implementation has asymmetric extraction.
 
-**Epistemic test:** Does it solve real coordination problem (Rope core)? Does it also extract asymmetrically (Noose layer)? Are both true simultaneously?
+**Epistemic test:** Does it solve real coordination problem (Rope core)? Does it also extract asymmetrically (Snare layer)? Are both true simultaneously?
 
 **Examples:**
-- **Monogamy norms** - Coordinates expectations, reduces STI transmission, clarifies parenting responsibility (Rope function) BUT suppresses alternative relationship structures, enforces gender roles, shames non-conformity (Noose layer)
-- **Professional networking** - Enables opportunity discovery, information sharing, mentorship access (Rope function) BUT privileges those with existing social capital, excludes outsiders, creates insider/outsider dynamics (Noose layer)
-- **Family caregiving expectations** - Ensures elder care happens, provides intergenerational connection (Rope function) BUT extracts unpaid labor disproportionately from women, creates economic burden without support (Noose layer)
-- **Dating market conventions** - Reduces search costs, coordinates expectations about interaction (Rope function) BUT enforces looks-based sorting, age discrimination, wealth signaling (Noose layer)
+- **Monogamy norms** - Coordinates expectations, reduces STI transmission, clarifies parenting responsibility (Rope function) BUT suppresses alternative relationship structures, enforces gender roles, shames non-conformity (Snare layer)
+- **Professional networking** - Enables opportunity discovery, information sharing, mentorship access (Rope function) BUT privileges those with existing social capital, excludes outsiders, creates insider/outsider dynamics (Snare layer)
+- **Family caregiving expectations** - Ensures elder care happens, provides intergenerational connection (Rope function) BUT extracts unpaid labor disproportionately from women, creates economic burden without support (Snare layer)
+- **Dating market conventions** - Reduces search costs, coordinates expectations about interaction (Rope function) BUT enforces looks-based sorting, age discrimination, wealth signaling (Snare layer)
 
 **Relational signature:**
 - Genuine coordination function demonstrably exists (can't dismiss as pure extraction)
 - Asymmetric benefit distribution clearly present (can't dismiss as pure coordination)
 - Requires enforcement for extraction layer (suppression of alternatives)
 - Alternative structures viable but suppressed through shame, economics, or regulation
-- Extraction level significant but not total (moderate range: between pure Rope and pure Noose)
+- Extraction level significant but not total (moderate range: between pure Rope and pure Snare)
 
 **Strategic response:** **Reform.** Preserve coordination function, excise extraction mechanism. Don't throw out coordination with the extraction.
 
 **Example classification:**
 - **FOR person with strong network** [strong/biographical/mobile/organizational]: Rope - Enables job opportunities, collaboration, mentorship
-- **FOR person without network** [powerless/biographical/trapped/organizational]: Noose - Locked out of opportunities, must build from scratch with no capital
+- **FOR person without network** [powerless/biographical/trapped/organizational]: Snare - Locked out of opportunities, must build from scratch with no capital
 - **FOR HR professional** [institutional/biographical/mobile/organizational]: Tangled Rope - Recognizes both coordination value AND inequity of access
 
 **Why this matters:** Most real-world social structures are Tangled Ropes, not pure types. Failing to see both layers leads to:
@@ -226,7 +226,7 @@ Every classification requires specifying:
 - Networking: Keep information sharing, add equitable access programs, reduce insider advantage
 - Caregiving: Keep intergenerational support, add economic support, redistribute labor more fairly
 
-**Common error:** Treating as pure Rope or pure Noose. Reality: Most structures have both layers. Nuanced response required.
+**Common error:** Treating as pure Rope or pure Snare. Reality: Most structures have both layers. Nuanced response required.
 
 ### E. Scaffolds: Temporary Support
 
@@ -264,7 +264,7 @@ Every classification requires specifying:
 
 **Test 3: Beneficiary analysis**
 - Who benefits from this being seen as "natural"?
-- If asymmetric benefit, likely constructed Noose disguised as Mountain
+- If asymmetric benefit, likely constructed Snare disguised as Mountain
 
 **Test 4: Enforcement requirement**
 - What happens if you violate it? Punishment or natural consequence?
@@ -274,7 +274,7 @@ Every classification requires specifying:
 - **"Women are naturally better at emotional labor"** 
   - Cross-cultural check: Role varies across cultures (FAIL - not Mountain)
   - Beneficiary check: Benefits men freed from labor (asymmetric)
-  - Classification: Noose disguised as Mountain through naturalization
+  - Classification: Snare disguised as Mountain through naturalization
 
 - **"Hierarchical organizations are the only way to coordinate"** 
   - Historical check: Consensus, cooperative, and flat structures exist (FAIL)
@@ -286,13 +286,13 @@ Every classification requires specifying:
   - Historical check: Recent Western invention, not universal across time (FAIL)
   - Classification: Tangled Rope (coordinates some functions BUT extracts through enforced isolation from wider support)
 
-**Harm from False Mountains:** Naturalizing constructed constraints prevents resistance, reform, and imagination of alternatives. If people believe a Noose is a Mountain, they won't look for exits.
+**Harm from False Mountains:** Naturalizing constructed constraints prevents resistance, reform, and imagination of alternatives. If people believe a Snare is a Mountain, they won't look for exits.
 
-**Response:** Expose the construction. Map beneficiaries. Demonstrate cross-cultural or historical alternatives. Reclassify as actual type (usually Noose or Tangled Rope).
+**Response:** Expose the construction. Map beneficiaries. Demonstrate cross-cultural or historical alternatives. Reclassify as actual type (usually Snare or Tangled Rope).
 
 ---
 
-### Zombie Rope (Degraded Coordination)
+### Piton (Degraded Coordination)
 
 **Pattern:** Was functional coordination solving real problem, environmental conditions changed, now persists through bureaucratic inertia rather than active enforcement or genuine function.
 
@@ -312,7 +312,7 @@ Every classification requires specifying:
 
 **Test 4: Resistance to bypass**
 - What happens if you quietly ignore it?
-- If nothing happens (no one notices, no punishment), it's a Zombie
+- If nothing happens (no one notices, no punishment), it's a Piton
 
 **Examples:**
 - **Formal dinner etiquette** 
@@ -325,7 +325,7 @@ Every classification requires specifying:
   - Problem: Coordination in era of synchronous communication
   - Status: Async messaging (email, text) solves differently
   - Maintenance: Older generation maintains through habit, younger generation bypasses
-  - Classification: Zombie in contexts where async is available
+  - Classification: Piton in contexts where async is available
 
 - **Academic department meeting structures**
   - Problem: Coordination when email/instant communication didn't exist
@@ -333,13 +333,13 @@ Every classification requires specifying:
   - Maintenance: Persists in syllabi, department bylaws
   - Response: Bypass quietly (coordinate via email, attend meetings minimally)
 
-**Key distinction from active Nooses:**
-- **Zombie**: No clear beneficiary, no active enforcement, easy to bypass if you notice it
-- **Noose**: Clear beneficiaries, active enforcement, high cost for violation
+**Key distinction from active Snares:**
+- **Piton**: No clear beneficiary, no active enforcement, easy to bypass if you notice it
+- **Snare**: Clear beneficiaries, active enforcement, high cost for violation
 
-**Harm from Zombies:** Waste energy on dead norms. Prevent adoption of better solutions. Create appearance of coordination when actual coordination happens elsewhere.
+**Harm from Pitons:** Waste energy on dead norms. Prevent adoption of better solutions. Create appearance of coordination when actual coordination happens elsewhere.
 
-**Response:** Bypass quietly. Don't organize campaigns against zombies—they collapse from neglect once enough people stop maintaining them. Save energy for actual Nooses.
+**Response:** Bypass quietly. Don't organize campaigns against pitons—they collapse from neglect once enough people stop maintaining them. Save energy for actual Snares.
 
 ---
 
@@ -371,7 +371,7 @@ Every classification requires specifying:
   - Original intent: Address specific issue, build coping skills
   - Status check: Original goals met, new goals keep appearing
   - Resistance: Therapist suggests indefinite continuation
-  - Classification: Scaffold → Noose conversion (extraction through manufactured dependence)
+  - Classification: Scaffold → Snare conversion (extraction through manufactured dependence)
 
 - **Mentor preventing mentee independence**
   - Original intent: Transfer skills, enable autonomous practice
@@ -383,7 +383,7 @@ Every classification requires specifying:
   - Original intent: Temporary community during crisis
   - Status check: Crisis passed, life stabilized
   - Resistance: "You're abandoning us," "You think you're better than us"
-  - Classification: Scaffold → Noose (community maintenance through guilt)
+  - Classification: Scaffold → Snare (community maintenance through guilt)
 
 - **Recovery program requiring permanent participation**
   - Original intent: Support during transition to sobriety
@@ -428,7 +428,7 @@ Every classification requires specifying:
 
 ## V. Indexical Synchronization
 
-**The core relational problem:** One person's Rope (necessary coordination) is another person's Noose (extractive constraint). This isn't contradiction—it's indexical relativity in action.
+**The core relational problem:** One person's Rope (necessary coordination) is another person's Snare (extractive constraint). This isn't contradiction—it's indexical relativity in action.
 
 **Example: Daily check-ins in relationship**
 
@@ -436,7 +436,7 @@ Every classification requires specifying:
 - Daily check-ins → Experienced as surveillance, autonomy loss, control
 - Emotional labor expectations → Unpaid care work, managing partner's feelings
 - Sexual availability norms → Coerced intimacy, obligatory performance
-- Classification: These structures function as Nooses (extraction from position of low power)
+- Classification: These structures function as Snares (extraction from position of low power)
 
 **Person B** [moderate/biographical/mobile/dyadic]:
 - Daily check-ins → Connection maintenance, security, caring about each other's day
@@ -460,12 +460,12 @@ Each person classifies the contested structure from their index:
 - Mountain (unchangeable from my position)
 - Rope (functional coordination from my position)
 - Tangled Rope (hybrid from my position)
-- Noose (extractive from my position)
+- Snare (extractive from my position)
 
 **Step 3: Power-gap analysis**
 Map the power differential:
 - If one experiences Mountain and other experiences Rope → Major power asymmetry revealed
-- If one experiences Noose and other experiences Rope → Extraction happening invisibly to beneficiary
+- If one experiences Snare and other experiences Rope → Extraction happening invisibly to beneficiary
 - If both experience Tangled Rope → Negotiation space exists, reform possible
 
 **Step 4: Acknowledge relational physics**
@@ -474,7 +474,7 @@ Recognize that **both classifications are true**—the constraint operates diffe
 **Step 5: Strategic coordination**
 Based on power-gap analysis:
 - If Mountain-Rope gap → Person with power must recognize their coordination is other's constraint
-- If Noose-Rope gap → Either restructure to eliminate extraction OR acknowledge structural incompatibility
+- If Snare-Rope gap → Either restructure to eliminate extraction OR acknowledge structural incompatibility
 - If Tangled Rope-Tangled Rope → Reform to preserve coordination while removing extraction
 
 **Why this matters:** Most relationship conflicts aren't value disagreements. They're **unrecognized power differentials** creating different experiences of the same structure. Making indices explicit reveals the hidden structural reality.
@@ -634,8 +634,8 @@ Example: "I see the paradox clearly. It's still operating. That's expected."
 - If demand for comfort → Clarity fetish
 
 **Sociological classification:**
-- If saying no brings job loss → Noose (external)
-- If saying no loses relationship → Mountain or Noose (depends on power)
+- If saying no brings job loss → Snare (external)
+- If saying no loses relationship → Mountain or Snare (depends on power)
 - If saying no is just uncomfortable → Neither (navigation discomfort)
 
 **Diagnostic sequence:**
@@ -650,7 +650,7 @@ Example: "I see the paradox clearly. It's still operating. That's expected."
 
 **Classification determines response:**
 - If **Rope** → Ethical to maintain, repair if strained
-- If **Noose** → Ethical to exit if possible, contain if trapped
+- If **Snare** → Ethical to exit if possible, contain if trapped
 - If **Tangled Rope** → Ethical to reform (preserve coordination, eliminate extraction)
 - If **Mountain** → Ethics focuses on navigation, not elimination
 - If **Scaffold** → Ethical to use temporarily, unethical to make permanent
@@ -666,7 +666,7 @@ Example: "I see the paradox clearly. It's still operating. That's expected."
 1. Surface claim - "This relationship isn't working"
 2. Investigate structure - What makes it not work? Asymmetric energy? Values conflict?
 3. Test edges - What happens if I set boundaries? Exit? Request change?
-4. Classify constraint - Rope needing repair? Noose to exit? Mountain to navigate?
+4. Classify constraint - Rope needing repair? Snare to exit? Mountain to navigate?
 5. Navigate appropriately - Strategy depends on classification
 
 ---
@@ -677,12 +677,12 @@ Example: "I see the paradox clearly. It's still operating. That's expected."
 
 **Dating markets:**
 - FOR high market value [strong/biographical/mobile]: Rope—efficient partner search
-- FOR low market value [powerless/biographical/trapped]: Noose—systematic rejection
+- FOR low market value [powerless/biographical/trapped]: Snare—systematic rejection
 - FOR system designer [institutional/analytical]: Tangled Rope—coordinates matching BUT extracts through looks-sorting
 
 **Job markets:**
 - FOR credentialed professional [moderate/mobile]: Rope—coordinates skills with opportunities
-- FOR non-credentialed worker [powerless/trapped]: Noose—locked out despite skills
+- FOR non-credentialed worker [powerless/trapped]: Snare—locked out despite skills
 - FOR economist [analytical]: Tangled Rope—allocates labor BUT extracts through information asymmetry
 
 ### Scaling Effects
@@ -692,7 +692,7 @@ Example: "I see the paradox clearly. It's still operating. That's expected."
 - At small group [8 people]: Tangled Rope—slow but functional
 - At organizational scale [500 people]: Breaks down—tyranny of minority
 
-**Design principle:** Coordination mechanisms must scale appropriately. Small-scale Ropes become large-scale Nooses if forced beyond natural limits.
+**Design principle:** Coordination mechanisms must scale appropriately. Small-scale Ropes become large-scale Snares if forced beyond natural limits.
 
 ---
 
@@ -731,8 +731,8 @@ Sociological Deferential Realism is not a theory to believe but a practice to pe
 **The ethical claim:** Relational integrity consists in accurate classification and honest navigation. Don't lie to yourself about what you're doing in relationship.
 
 **The practical claim:** Most relational suffering arises from misclassifying constraints:
-- Treating Nooses as Mountains (surrendering to extraction)
-- Treating Mountains as Nooses (fighting natural limits)
+- Treating Snares as Mountains (surrendering to extraction)
+- Treating Mountains as Snares (fighting natural limits)
 - Treating Tangled Ropes as pure Ropes (defending extraction)
 - Treating Scaffolds as permanent (creating dependence)
 

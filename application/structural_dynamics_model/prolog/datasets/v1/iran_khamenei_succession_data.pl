@@ -32,11 +32,11 @@ event(election_2021_raisified, managed_election, 2021, [office:presidency, vetti
 constraint_claim(elite_aging_and_mortality, mountain).
 constraint_claim(institutional_succession_ambiguity, mountain).
 
-% Nooses: Extractive structures
+% Snares: Extractive structures
 constraint_claim(irgc_economic_empire, snare).
 constraint_claim(guardian_council_candidate_disqualification, snare).
 
-% Piton Ropes: Persisting but non-functional
+% Pitons: Persisting but non-functional
 constraint_claim(assembly_of_experts_oversight, piton).
 
 /* ================================================================

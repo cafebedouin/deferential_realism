@@ -466,13 +466,13 @@ Same base extraction (e.g., ε=0.40) experienced as:
 
 Electoral systems aren't random—they exhibit **constraint topologies** that create characteristic patterns across cultures. Same topology in France and Colombia produces similar compression dynamics despite completely different political histories.
 
-### A. Bipolar Noose (Colombia, France, Brazil presidential)
+### A. Bipolar Snare (Colombia, France, Brazil presidential)
 
 **Constraint pattern:**
 - Two-round 50%+ majority requirement (electoral Mountain)
 - Term limits preventing incumbent consolidation (Mountain)
 - Multi-party first round (initial Rope flexibility)
-- Mathematical compression dynamics (Noose tightening)
+- Mathematical compression dynamics (Snare tightening)
 
 **Observable signature:**
 - Rapid centrist collapse (viable candidates compressed 9+ → 2)
@@ -931,7 +931,7 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 
 **Framework tested on:**
 - 30+ electoral systems (presidential, parliamentary, hybrid)
-- 7 validated electoral topologies (Bipolar Noose, Deadlock Labyrinth, Perpetual Coalition Labyrinth, Judicial Gatekeeping Snare, Incumbent Tangled Rope, Fragmentation Marsh tentative, Dynastic Anchor underdeveloped)
+- 7 validated electoral topologies (Bipolar Snare, Deadlock Labyrinth, Perpetual Coalition Labyrinth, Judicial Gatekeeping Snare, Incumbent Tangled Rope, Fragmentation Marsh tentative, Dynastic Anchor underdeveloped)
 - 100+ institutional constraints (constitutional rules, electoral mechanisms, governing procedures)
 - Cross-cultural validation (Colombia, France, Thailand, Israel, U.S., Brazil)
 

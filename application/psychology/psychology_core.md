@@ -75,7 +75,7 @@ How I'll defer: Block 8 hours nightly, structure work around this
 
 **Warning:** This calibration is for **capacity testing**, not for ignoring warning signs. Real substrate signals (chest pain, injury pain, severe dizziness) must be respected immediately.
 
-### 2. Detritus (Internal Zombie Constraints)
+### 2. Detritus (Internal Piton Constraints)
 
 **Definition:** Historical pattern-residue that *feels* like constraint but can be cleared without consequence.
 
@@ -197,7 +197,7 @@ No action possible
 
 **The Ulysses Pattern:**
 
-Stephen Dedalus can see all frames clearly. The clarity doesn't save him—it creates a different trap. His intelligence becomes a noose: "he cannot not-know what he knows."
+Stephen Dedalus can see all frames clearly. The clarity doesn't save him—it creates a different trap. His intelligence becomes a snare: "he cannot not-know what he knows."
 
 **The seeing itself becomes the constraint.**
 
@@ -304,7 +304,7 @@ These three categories map directly to external DR:
 |---|---|---|
 | Mountains (gravity) | Substrate (biology) | Defer, build around |
 | Ropes (coordination) | Negotiable patterns | Test, adjust terms |
-| Nooses (extraction) | Self-extraction | Refuse, block |
+| Snares (extraction) | Self-extraction | Refuse, block |
 
 **Same logic, different domain.**
 

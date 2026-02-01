@@ -221,7 +221,7 @@ test(high_extraction_asymmetry) :-
     domain_priors:base_extractiveness(regulatory_capture, E),
     E >= 0.7.
 
-test(barrier_to_entry_noose) :-
+test(barrier_to_entry_snare) :-
     % Powerless agents with constrained exits should experience a Snare.
     constraint_indexing:constraint_classification(regulatory_capture, snare, context(individual_powerless, _, constrained, _)).
 

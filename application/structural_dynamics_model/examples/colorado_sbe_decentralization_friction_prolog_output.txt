@@ -66,7 +66,7 @@ Confidence:     high
 [CONSTRAINT INVENTORY: REALITY AUDIT]
   Constraint | Claimed | Actual | Action
   ----------------------------------------------------------------------
-  colorado_sbe_decentralization_friction | mountain | noose | cut
+  colorado_sbe_decentralization_friction | mountain | snare | cut
 
 [META-LOGICAL AUDIT: ONTOLOGICAL FRAUD DETECTION]
   ! ALERT [severe]: type_1_false_mountain detected for colorado_sbe_decentralization_friction

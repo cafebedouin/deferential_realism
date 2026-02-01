@@ -41,11 +41,11 @@ constraint_metric(path_oscillation_friction, snap_back_potential, 0.40).
 constraint_metric(path_oscillation_friction, extractiveness, 0.52).
 
 % Snare: Vanishing gradients in deep architectures create a terminal obstruction.
-constraint_claim(gradient_vanishing_noose, snare).
-constraint_metric(gradient_vanishing_noose, intensity, 0.96).
-constraint_metric(gradient_vanishing_noose, suppression_requirement, 0.88).
-constraint_metric(gradient_vanishing_noose, snap_back_potential, 0.92).
-constraint_metric(gradient_vanishing_noose, extractiveness, 0.94).
+constraint_claim(gradient_vanishing_snare, snare).
+constraint_metric(gradient_vanishing_snare, intensity, 0.96).
+constraint_metric(gradient_vanishing_snare, suppression_requirement, 0.88).
+constraint_metric(gradient_vanishing_snare, snap_back_potential, 0.92).
+constraint_metric(gradient_vanishing_snare, extractiveness, 0.94).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, accept_differentiability_as_invariant_for_gradient_access).
@@ -58,7 +58,7 @@ recommendation(rec_03, reform_trajectory_via_momentum_scaffold).
 affects_constraint(rec_03, path_oscillation_friction).
 
 recommendation(rec_04, cut_vanishing_limit_via_adaptive_rate_scaffold).
-affects_constraint(rec_04, gradient_vanishing_noose).
+affects_constraint(rec_04, gradient_vanishing_snare).
 
 veto_actor(non_convex_local_optima).
 veto_exposed(non_convex_local_optima, rec_04).

@@ -1199,7 +1199,7 @@ Thailand's electoral system confirms the **Judicial Gatekeeping Snare** as a dis
 
 ### The Seven Archetypes:
 
-1. **Bipolar Noose** (Colombia 2026, France historical)
+1. **Bipolar Snare** (Colombia 2026, France historical)
    - Two-round system + term-limited + bipolar structure
    - Late compression, competitive runoff
 

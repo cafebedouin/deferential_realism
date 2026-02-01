@@ -182,7 +182,7 @@ test(perspective_shift) :-
     constraint_indexing:constraint_classification(countable_infinity_cardinality, mountain, context(individual_powerless, immediate, trapped, local)),
     constraint_indexing:constraint_classification(countable_infinity_cardinality, rope, context(institutional, biographical, mobile, global)).
 
-test(rational_enumeration_noose) :-
+test(rational_enumeration_snare) :-
     % The Rationals feel the extraction of their density via countability logic.
     constraint_indexing:constraint_classification(countable_infinity_cardinality, snare, context(individual_powerless, immediate, constrained, local)).
 

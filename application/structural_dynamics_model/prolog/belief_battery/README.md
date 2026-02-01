@@ -6,9 +6,9 @@ This is a Prolog implementation of the **Individual Practical Battery** from Def
 
 - **Mountains** (unchangeable constraints - physics, logic, death)
 - **Ropes** (strategic choices - how to live within constraints)
-- **Nooses** (extraction mechanisms claimed as Mountains)
+- **Snares** (extraction mechanisms claimed as Mountains)
 
-The system detects when institutions present constructed constraints (Nooses) as natural law (Mountains) - this is called a **Type I Error** or **False Mountain**.
+The system detects when institutions present constructed constraints (Snares) as natural law (Mountains) - this is called a **Type I Error** or **False Mountain**.
 
 ## Files
 
@@ -57,7 +57,7 @@ Institutional Claim: mountain
 
 [RATIONALE]
   Forced by T5 (death is final). Not pragmatic choice - this is 
-  high-stakes power domain. Afterlife beliefs enable Nooses 
+  high-stakes power domain. Afterlife beliefs enable Snares 
   (die for the cause, sacrifice now for later). Must accept 
   Mountain: death is final. Urgency follows necessarily.
 
@@ -104,20 +104,20 @@ Pragmatic choices (35 beliefs):
   [... continues through all 13 sections ...]
 
 [EXTRACTION POINT DETECTION]
-Nooses commonly claimed as Mountains:
+Snares commonly claimed as Mountains:
 
-Found 8 institutional Nooses:
+Found 8 institutional Snares:
 
   ⚠️  eternal_soul
       Claimed: Mountain (unchangeable)
-      Actually: Noose (extraction mechanism)
+      Actually: Snare (extraction mechanism)
 ```
 
 ### Find Extraction Points
 
 ```prolog
 % Detect Type I Errors (False Mountains)
-?- find_nooses.
+?- find_snares.
 
 ╔══════════════════════════════════════════════════════════════╗
 ║           EXTRACTION POINT DETECTION                        ║
@@ -136,7 +136,7 @@ Found 8 extraction mechanisms:
   WHY THIS MATTERS:
   If consciousness requires substrate (T4), then death (substrate 
   destruction) ends consciousness. Critical implication: enables 
-  urgency, blocks afterlife-based Nooses.
+  urgency, blocks afterlife-based Snares.
 
 ─────────────────────────────────────────────────────────────
 ⚠️  cosmic_purpose
@@ -147,10 +147,10 @@ Found 8 extraction mechanisms:
   WHY THIS MATTERS:
   No evidence of cosmic purpose. Meaning is constructed through 
   projects/relationships/values, not discovered. Cosmic meaning 
-  claims are often Nooses (see: Gita eternal soul enabling 
+  claims are often Snares (see: Gita eternal soul enabling 
   subjugation). Constructed meaning preserves autonomy.
 
-[... continues for all 8 Nooses ...]
+[... continues for all 8 Snares ...]
 ```
 
 ### Cascade Analysis
@@ -194,16 +194,16 @@ Total beliefs mapped: 40
 [YOUR POSITION]
   Classification: varies
   Reasoning: Work not inherently valuable. Some work is Rope 
-  (chosen, meaningful, well-compensated). Some work is Noose 
+  (chosen, meaningful, well-compensated). Some work is Snare 
   (extractive, necessary only for survival). "Work as dignity" 
-  claim is Noose preventing questioning of exploitation.
+  claim is Snare preventing questioning of exploitation.
 
 [INSTITUTIONAL POSITION]
   Claimed as: mountain
 
 [ANALYSIS]
   ⚠️  CONFLICT: Type I Error detected
-  This Noose is being presented as Mountain
+  This Snare is being presented as Mountain
   Effect: Enables extraction/control
   Strategy: Reject institutional framing
 ```
@@ -242,7 +242,7 @@ Total beliefs mapped: 40
 
 **Power & Systems (2)**
 - P12: Power structures natural
-- P13: Participation in Nooses
+- P13: Participation in Snares
 
 **Death & Risk (3)**
 - P14: Mortality acceptance
@@ -292,7 +292,7 @@ Total beliefs mapped: 40
 - **Everything else (~35 questions)**
 - Most "deep metaphysical truths" are pragmatic frame choices
 
-### What's Noose (When Claimed as Mountain)?
+### What's Snare (When Claimed as Mountain)?
 Common extraction mechanisms:
 - Eternal soul (enables subjugation)
 - Cosmic purpose (enables control)
@@ -326,7 +326,7 @@ This battery can be integrated with the full Deferential Realism Prolog system t
 
 1. Customize `my_context/1` to match your actual power/time/options/scope
 2. Run `audit_all` to see complete belief map
-3. Run `find_nooses` to identify extraction points
+3. Run `find_snares` to identify extraction points
 4. Use `audit_detailed/1` on beliefs you're uncertain about
 5. Apply to real decisions using full DR system
 

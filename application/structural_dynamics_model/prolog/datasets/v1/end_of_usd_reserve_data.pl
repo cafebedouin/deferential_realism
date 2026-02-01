@@ -24,8 +24,8 @@ constraint_claim(triffin_dilemma_logic, mountain).
 constraint_metric(triffin_dilemma_logic, accessibility_collapse, 0.96).
 
 % Snare: The SWIFT System. Geopolitical gatekeeping that narrows a state's options until financial isolation becomes total.
-constraint_claim(swift_sanctions_noose, snare).
-constraint_metric(swift_sanctions_noose, stakes_inflation, 0.90).
+constraint_claim(swift_sanctions_snare, snare).
+constraint_metric(swift_sanctions_snare, stakes_inflation, 0.90).
 
 % Piton: Bretton Woods Institutionalism. The legacy rules of IMF/World Bank that persist as structural shells despite shifting power centers.
 constraint_claim(bretton_woods_residual, piton).
@@ -40,7 +40,7 @@ recommendation(rec01, 'Adopt a decentralized commodity-backed clearing unit (Ban
 recommendation(rec02, 'Eliminate unilateral veto power over global payment settlement infrastructures.').
 
 affects_constraint(rec01, triffin_dilemma_logic).
-affects_constraint(rec02, swift_sanctions_noose).
+affects_constraint(rec02, swift_sanctions_snare).
 
 veto_actor(us_fed).
 veto_exposed(us_fed, rec01).

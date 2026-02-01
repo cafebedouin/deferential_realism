@@ -218,7 +218,7 @@ test(geopolitical_lock_in) :-
  * state is modeled as an energy-logistics Snare. If 90% of your oil passes 
  * through a straw controlled by another, your sovereignty is a fiction.
  * 2. REGIONAL EFFECTS: South Korea and the Philippines are modeled as 
- * "Secondary Nooses"—once Taiwan falls, their own supply lines are 
+ * "Secondary Snares"—once Taiwan falls, their own supply lines are 
  * effectively bifurcated and isolated.
  * 3. EXTRACTIVENESS (0.9): This high score reflects the "extraction" of 
  * a nation's soul; it is the ultimate loss of the power to say 'No'.

@@ -58,7 +58,7 @@ belief_classification(moral_intuitions, rope).
 
 % POWER & SYSTEMS
 belief_classification(power_structures_natural, varies).
-belief_classification(participation_in_nooses, rope).
+belief_classification(participation_in_snares, rope).
 
 % DEATH & RISK
 belief_classification(mortality_acceptance, mountain) :- 

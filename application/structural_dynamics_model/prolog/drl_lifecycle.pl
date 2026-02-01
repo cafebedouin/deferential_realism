@@ -170,7 +170,7 @@ detect_sunset_violation(C) :-
     format('    Sunset was ~w, now ~w~n', [SunsetYear, CurrentYear]).
 
 %% detect_extraction_dried_up(+ConstraintID)
-%  Extraction mechanism failed but structure persists (zombie constraint).
+%  Extraction mechanism failed but structure persists (piton constraint).
 detect_extraction_dried_up(C) :-
     safe_metric(C, extractiveness, E),
     E < 0.10,

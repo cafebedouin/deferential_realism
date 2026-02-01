@@ -52,11 +52,11 @@ constraint_metric(egypt_captivity, suppression_requirement, 0.72). % Verified: A
 recommendation(rec_reform_rituals, "Reform: Simplify Levitical protocols to restore Utility.").
 affects_constraint(rec_reform_rituals, levitical_rituals).
 
-recommendation(rec_remove_noose, 'Remove: Terminate Egyptian captivity via the defined entity(tabernacle, scaffold).').
-affects_constraint(rec_remove_noose, egypt_captivity).
+recommendation(rec_remove_snare, 'Remove: Terminate Egyptian captivity via the defined entity(tabernacle, scaffold).').
+affects_constraint(rec_remove_snare, egypt_captivity).
 
 veto_actor(pharaoh_king_of_egypt). 
-veto_exposed(pharaoh_king_of_egypt, rec_remove_noose).
+veto_exposed(pharaoh_king_of_egypt, rec_remove_snare).
 
 % --- 5. MEASUREMENTS ---
 % Vector: [Agency, Stability, Utility, Resilience]

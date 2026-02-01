@@ -57,7 +57,7 @@ theory_confidence: P(Scenario B: Dem House/GOP Senate) = 0.74
 4. Incumbent re-election rate > 96% (Neutralizing the Penalty Mountain).
 
 **PARTIAL (Theory Incomplete):** Requires 2 of:
-1. Democrats win 230+ House seats (indicating a "Noose" for the GOP).
+1. Democrats win 230+ House seats (indicating a "Snare" for the GOP).
 2. Senate remains 53-47 exactly (indicating zero geographical shift).
 
 **CONFIRMATION (Theory Holds):** Requires ALL:

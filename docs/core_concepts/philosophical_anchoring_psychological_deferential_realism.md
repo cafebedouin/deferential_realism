@@ -146,7 +146,7 @@ This is a navigation problem, not a truth problem.
 3. **Situational ethics: Context determines right action.**
    - Mountains → defer to them (acceptance)
    - Ropes → negotiate them (reciprocity)
-   - Nooses → refuse them (boundary maintenance)
+   - Snares → refuse them (boundary maintenance)
    - Paradoxes → hold them (containment)
 
 4. **Growth through calibrated risk, not reckless transcendence.**
@@ -155,7 +155,7 @@ This is a navigation problem, not a truth problem.
    - The ethical obligation is accurate classification before action
 
 5. **Refusal as moral act.**
-   - When facing extraction (nooses), refusal maintains integrity
+   - When facing extraction (snares), refusal maintains integrity
    - Boundaries are ethical when they prevent harm to substrate
    - No justification is owed to extractive demands
 
@@ -173,7 +173,7 @@ This is a navigation problem, not a truth problem.
 
 **What counts as failure morally:**
 - Misclassification + avoidance (lying to yourself about what's actually constraining you)
-- Self-extraction (treating yourself as a noose violates)
+- Self-extraction (treating yourself as a snare violates)
 - Bad faith (Sartre): Pretending constraints are other than they are
 
 **What counts as good:**
@@ -204,7 +204,7 @@ This is a navigation problem, not a truth problem.
    - Containment practice has an aesthetic dimension
 
 5. **The symbolic topology of constraint.**
-   - Mountains, ropes, nooses are not mere metaphors—they're structural models
+   - Mountains, ropes, snares are not mere metaphors—they're structural models
    - Empty tombs capture temporal form
    - String of pearls shows developmental trajectory
    - Membrane captures boundary intelligence
@@ -354,7 +354,7 @@ Traditional: Hard line between self and other. Protect by excluding.
 P-DR: Semi-permeable membrane. Selective permeability based on classification:
 - Mountains → high permeability (let through)
 - Ropes → selective (negotiate)
-- Nooses → impermeable (refuse)
+- Snares → impermeable (refuse)
 
 The intelligence isn't in having strong boundaries. It's in having **accurately calibrated** boundaries.
 
@@ -387,7 +387,7 @@ The intelligence isn't in having strong boundaries. It's in having **accurately 
 
 **Psychological Deferential Realism** is:
 
-> An applied phenomenology of constraint navigation that extends Deferential Realism's external ontology (mountains, ropes, nooses) inward to classify internal experience (substrate, detritus, clarity fetishes), using experimental epistemology (Depth Inquiry) to test constraint-claims, systematic error detection (Fracture Taxonomy) to identify misclassifications, containment protocols for irresolvable paradoxes, and membrane intelligence for boundary management—all oriented toward honest navigation within limits that cannot be transcended.
+> An applied phenomenology of constraint navigation that extends Deferential Realism's external ontology (mountains, ropes, snares) inward to classify internal experience (substrate, detritus, clarity fetishes), using experimental epistemology (Depth Inquiry) to test constraint-claims, systematic error detection (Fracture Taxonomy) to identify misclassifications, containment protocols for irresolvable paradoxes, and membrane intelligence for boundary management—all oriented toward honest navigation within limits that cannot be transcended.
 
 ---
 

@@ -36,11 +36,11 @@ constraint_metric(algorithmic_randomness_detection, suppression_requirement, 0.3
 constraint_metric(algorithmic_randomness_detection, snap_back_potential, 0.40).
 constraint_metric(algorithmic_randomness_detection, extractiveness, 0.52).
 
-constraint_claim(absolute_incomputability_noose, snare).
-constraint_metric(absolute_incomputability_noose, intensity, 0.96).
-constraint_metric(absolute_incomputability_noose, suppression_requirement, 0.88).
-constraint_metric(absolute_incomputability_noose, snap_back_potential, 0.90).
-constraint_metric(absolute_incomputability_noose, extractiveness, 0.94).
+constraint_claim(absolute_incomputability_snare, snare).
+constraint_metric(absolute_incomputability_snare, intensity, 0.96).
+constraint_metric(absolute_incomputability_snare, suppression_requirement, 0.88).
+constraint_metric(absolute_incomputability_snare, snap_back_potential, 0.90).
+constraint_metric(absolute_incomputability_snare, extractiveness, 0.94).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, maintain_reference_to_fixed_utm_standard).
@@ -50,7 +50,7 @@ recommendation(rec_02, reform_string_analysis_via_resource_bounded_complexity).
 affects_constraint(rec_02, algorithmic_randomness_detection).
 
 recommendation(rec_03, cut_the_search_for_absolute_shortest_programs_via_heuristic_scaffolding).
-affects_constraint(rec_03, absolute_incomputability_noose).
+affects_constraint(rec_03, absolute_incomputability_snare).
 
 veto_actor(halting_oracle).
 veto_exposed(halting_oracle, rec_03).

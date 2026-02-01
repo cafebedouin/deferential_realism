@@ -192,7 +192,7 @@ test(multi_perspective_variance) :-
     constraint_indexing:constraint_classification(comitatus_bond, Type2, context(agent_power(institutional), _, arbitrage, _, _, _)),
     Type1 \= Type2.
 
-test(exile_as_noose) :-
+test(exile_as_snare) :-
     % Verify that for a victim (the coward), the classification is Snare
     constraint_indexing:constraint_classification(comitatus_bond, snare, context(_, _, trapped, _, cowardly_thanes, _)).
 

@@ -41,11 +41,11 @@ constraint_metric(local_subgroup_friction, snap_back_potential, 0.40).
 constraint_metric(local_subgroup_friction, extractiveness, 0.52).
 
 % NOOSE: Uniqueness Theorem Verification (The 10,000+ page complexity wall)
-constraint_claim(proof_volume_noose, snare).
-constraint_metric(proof_volume_noose, intensity, 0.98).
-constraint_metric(proof_volume_noose, suppression_requirement, 0.90).
-constraint_metric(proof_volume_noose, snap_back_potential, 0.95).
-constraint_metric(proof_volume_noose, extractiveness, 0.97).
+constraint_claim(proof_volume_snare, snare).
+constraint_metric(proof_volume_snare, intensity, 0.98).
+constraint_metric(proof_volume_snare, suppression_requirement, 0.90).
+constraint_metric(proof_volume_snare, snap_back_potential, 0.95).
+constraint_metric(proof_volume_snare, extractiveness, 0.97).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, accept_the_solvability_of_odd_order_groups_as_foundational).
@@ -58,7 +58,7 @@ recommendation(rec_03, reform_local_structural_analysis_via_signalizer_functor_s
 affects_constraint(rec_03, local_subgroup_friction).
 
 recommendation(rec_04, cut_proof_complexity_via_inductive_step_scaffold).
-affects_constraint(rec_04, proof_volume_noose).
+affects_constraint(rec_04, proof_volume_snare).
 
 veto_actor(strict_single_volume_formalist).
 veto_exposed(strict_single_volume_formalist, rec_04).

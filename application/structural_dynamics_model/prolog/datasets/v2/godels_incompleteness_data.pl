@@ -35,11 +35,11 @@ constraint_metric(provability_predicate_complexity, suppression_requirement, 0.3
 constraint_metric(provability_predicate_complexity, snap_back_potential, 0.50).
 constraint_metric(provability_predicate_complexity, extractiveness, 0.55).
 
-constraint_claim(absolute_completeness_noose, snare).
-constraint_metric(absolute_completeness_noose, intensity, 0.98).
-constraint_metric(absolute_completeness_noose, suppression_requirement, 0.85).
-constraint_metric(absolute_completeness_noose, snap_back_potential, 0.90).
-constraint_metric(absolute_completeness_noose, extractiveness, 0.95).
+constraint_claim(absolute_completeness_snare, snare).
+constraint_metric(absolute_completeness_snare, intensity, 0.98).
+constraint_metric(absolute_completeness_snare, suppression_requirement, 0.85).
+constraint_metric(absolute_completeness_snare, snap_back_potential, 0.90).
+constraint_metric(absolute_completeness_snare, extractiveness, 0.95).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, maintain_syntactic_separation_of_object_and_metalanguage).
@@ -49,7 +49,7 @@ recommendation(rec_02, reform_axiomatic_expansions_via_transfinite_induction).
 affects_constraint(rec_02, provability_predicate_complexity).
 
 recommendation(rec_03, cut_the_expectation_of_internal_consistency_proofs).
-affects_constraint(rec_03, absolute_completeness_noose).
+affects_constraint(rec_03, absolute_completeness_snare).
 
 veto_actor(hilbert_formalist).
 veto_exposed(hilbert_formalist, rec_03).

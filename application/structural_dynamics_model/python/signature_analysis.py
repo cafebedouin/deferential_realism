@@ -1,6 +1,6 @@
 import json
 
-def find_shadow_nooses(json_path):
+def find_shadow_snares(json_path):
     with open(json_path, 'r') as f:
         data = json.load(f)
 
@@ -13,10 +13,10 @@ def find_shadow_nooses(json_path):
         sup = max([float(r['val']) for r in repairs if 'suppression' in r['metric']] + [0.0])
         stk = max([float(r['val']) for r in repairs if 'stakes' in r['metric']] + [0.0])
 
-        # A "Shadow Noose" is a domain where suppression energy > 0.7
+        # A "Shadow Snare" is a domain where suppression energy > 0.7
         if sup > 0.7 and stk > 0.7:
             status = "SHADOW NOOSE"
             print(f"{domain:<40} | {sup:<12} | {stk:<8} | {status}")
 
 if __name__ == "__main__":
-    find_shadow_nooses("../outputs/structured_analysis.json")
+    find_shadow_snares("../outputs/structured_analysis.json")

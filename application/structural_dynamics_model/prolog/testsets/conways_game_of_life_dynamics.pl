@@ -193,7 +193,7 @@ test(multi_perspective_variance) :-
     constraint_indexing:constraint_classification(conways_game_of_life_dynamics, Type2, context(institutional, biographical, mobile, global)),
     Type1 \= Type2.
 
-test(predictive_noose_insight) :-
+test(predictive_snare_insight) :-
     % Demonstrates that for the predictor, the determinism is a Snare
     constraint_indexing:constraint_classification(conways_game_of_life_dynamics, snare, context(individual_powerless, biographical, constrained, local)).
 

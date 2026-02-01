@@ -23,7 +23,7 @@ You must generate all required evidence for structural coercive intent classific
 - viable and rejected alternatives  
 - beneficiary and loser classes  
 - veto actors and veto exposure  
-- at least one constraint of each type (mountain, rope, noose, zombie)  
+- at least one constraint of each type (mountain, rope, snare, piton)  
 - constraint metrics for each constraint  
 - recommendations linked to constraints  
 

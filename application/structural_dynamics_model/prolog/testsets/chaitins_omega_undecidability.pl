@@ -187,7 +187,7 @@ test(multi_perspective_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(randomness_noose_insight) :-
+test(randomness_snare_insight) :-
     % Demonstrates that for the logician, the randomness of Omega is a Snare
     constraint_indexing:constraint_classification(chaitins_omega_undecidability, snare, context(individual_moderate, civilizational, constrained, global)).
 

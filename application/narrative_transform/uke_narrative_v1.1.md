@@ -9,7 +9,7 @@
 **Major Changes in v1.1:**
 - Updated to indexed constraint logic (C[I] notation)
 - Tangled Rope (⊞⊠) formalized as primary constraint type
-- Scaffolds/Zombies repositioned as detection patterns
+- Scaffolds/Pitons repositioned as detection patterns
 - Indexical variance highlighted in dramatic structure
 - Stage 0 protocol enhanced for index-awareness
 - Power-scaling function integrated throughout
@@ -56,7 +56,7 @@ UKE_Narrative translates narrative constraint logic across genres and settings w
 - A Type I Error (treating family extraction as unchangeable obligation) →
 - Terminal equilibrium (energy depletion from index of trapped powerlessness)
 
-**Crucially:** From the family's index, the constraint was a Rope (Gregor's income coordinated their survival) that transformed to Zombie (no longer functional). From the employer's index, it was always a Rope (low-extraction labor contract). **Same constraints, different experienced types.**
+**Crucially:** From the family's index, the constraint was a Rope (Gregor's income coordinated their survival) that transformed to Piton (no longer functional). From the employer's index, it was always a Rope (low-extraction labor contract). **Same constraints, different experienced types.**
 
 This constraint structure can be re-instantiated in:
 - A Europa mining colony with radiation exposure
@@ -92,13 +92,13 @@ This constraint structure can be re-instantiated in:
 - **Narrative role:** Functional cooperation systems
 - **Power-scaling:** χ(C, I.P) = X_base(C) × π(I.P) where π(powerless) = 1.5, π(institutional) = -0.2
 
-**Nooses (⊠C[I])**: High extraction from index I
+**Snares (⊠C[I])**: High extraction from index I
 - χ(C, I.P) ≥ 0.66 (high power-scaled extraction for agent at I)
 - ε(C) ≥ 0.46 (requires significant enforcement)
 - Coord(C) = false (no genuine coordination function)
 - Changeable(C, I.T, I.E) = true (changeable but agent at I may lack power)
 - **Narrative role:** Oppressive systems driving conflict
-- **Power-scaling:** Same base constraint may be Rope for powerful, Noose for powerless
+- **Power-scaling:** Same base constraint may be Rope for powerful, Snare for powerless
 
 **Tangled Ropes (⊞⊠C[I])**: Hybrid coordination-and-extraction from index I
 - 0.40 ≤ χ(C, I.P) ≤ 0.90 (moderate to high extraction)
@@ -109,7 +109,7 @@ This constraint structure can be re-instantiated in:
 - **Dramatic potential:** Characters must navigate genuine benefits entangled with genuine costs
 - **Examples:** Debt that enables opportunity, family obligations with real reciprocity, exploitative jobs with real skill-building
 
-**CRITICAL INSIGHT:** Tangled Ropes are not confused Ropes or disguised Nooses—they genuinely provide coordination while extracting asymmetrically. This is the most common real-world constraint type and creates the richest dramatic tension.
+**CRITICAL INSIGHT:** Tangled Ropes are not confused Ropes or disguised Snares—they genuinely provide coordination while extracting asymmetrically. This is the most common real-world constraint type and creates the richest dramatic tension.
 
 #### Detection Patterns (Orthogonal to Type)
 
@@ -126,39 +126,39 @@ These apply across constraint types, not as separate categories:
 - Formal: `⊡C(t) ↔ ∃t_end(t < t_end ∧ ∀t' > t_end(¬C(t')))`
 - **Combines with types:** Can have ⊞C ∧ ⊡C(t) or ⊠C ∧ ⊡C(t)
 - **Narrative role:** Time pressure, countdown, built-in transformation
-- **Example:** Training program (Rope with sunset), emergency powers (Noose with sunset)
+- **Example:** Training program (Rope with sunset), emergency powers (Snare with sunset)
 
-**Zombies (⊟C)**: Function-loss persistence
+**Pitons (⊟C)**: Function-loss persistence
 - Formal: `⊟C ↔ χ(C, _) ≤ 0.10 ∧ ε(C) > 0.10 ∧ Cost(C) > Benefit(C)`
 - **Degradation state:** Once-functional constraint now depletes more than provides
 - **Narrative role:** Institutional decay, obsolete obligations, dead weight
-- **Transformation:** Often Rope → Zombie or Tangled Rope → Zombie
+- **Transformation:** Often Rope → Piton or Tangled Rope → Piton
 - **Example:** Debt fully paid but bureaucracy persists, defunct guild still demanding dues
 
 ### Error Types (Index-Sensitive)
 
-**Type I (False Mountain)**: Treating Rope/Noose/Tangled as Mountain
+**Type I (False Mountain)**: Treating Rope/Snare/Tangled as Mountain
 - **Consequence:** Wasted agency, unnecessary suffering, missed alternatives
 - **Pattern:** "This is just how things are" / "Nothing can be done"
 - **Indexical note:** May genuinely be ■C from one index but ⊞C or ⊠C from another
 - **Example:** Worker treats exploitative contract as unchangeable when organizing is possible
 
-**Type II (Mountain Denial)**: Treating Mountain as Rope/Noose
+**Type II (Mountain Denial)**: Treating Mountain as Rope/Snare
 - **Consequence:** Energy depletion fighting unchangeable, burnout
 - **Pattern:** "I can fix this if I try harder" / "Just need the right strategy"
 - **Rare exception:** Mountains are uncommon in social systems
 - **Example:** Treating biological limits as negotiable (hustle culture, endless optimization)
 
-**Type III (Misclassified Extraction)**: Treating Noose as Rope, or Tangled as Rope
+**Type III (Misclassified Extraction)**: Treating Snare as Rope, or Tangled as Rope
 - **Consequence:** Participation in own exploitation, missing extraction patterns
 - **Pattern:** "This benefits everyone" / "We're all in this together"
 - **Indexical note:** May genuinely be ⊞C from powerful index while ⊠C from powerless
 - **Two variants:**
-  - Pure Noose → Rope: Missing that it's extraction-only
+  - Pure Snare → Rope: Missing that it's extraction-only
   - Tangled → Rope: Underestimating extraction relative to coordination
 - **Example:** Believing company loyalty is mutual when extraction is asymmetric
 
-**Type IV (Misclassified Coordination)**: Treating Rope/Tangled as pure Noose
+**Type IV (Misclassified Coordination)**: Treating Rope/Tangled as pure Snare
 - **Consequence:** Destroying functional coordination, losing genuine benefits
 - **Pattern:** "It's all exploitation" / "Burn it all down"
 - **Indexical note:** Revolutionary index may miss that constraint coordinates for others
@@ -253,7 +253,7 @@ For each constraint C and each character index I, classify:
   - ε(C) ≤ 0.15 (low enforcement)
   - Coord(C) = true (provides genuine coordination)
 
-- **Nooses (⊠C[I])**: High extraction for character at I
+- **Snares (⊠C[I])**: High extraction for character at I
   - χ(C, I.P) ≥ 0.66 (high power-scaled extraction)
   - ε(C) ≥ 0.46 (requires enforcement)
   - Coord(C) = false (no genuine coordination function)
@@ -269,12 +269,12 @@ DETECTION PATTERNS (ORTHOGONAL—can apply to any type):
 
 - **False Mountains (FM)**: Claims unchangeability but shows constructed signature
   - ε(C) > 0.70 (high enforcement contradicts natural emergence claim)
-  - Can combine: FM ∧ ⊠C[I_powerless] (false Mountain that's actually Noose)
+  - Can combine: FM ∧ ⊠C[I_powerless] (false Mountain that's actually Snare)
 
 - **Scaffolds (⊡C(t))**: Built-in expiration, time-limited by design
   - Can combine: ⊞C[I] ∧ ⊡C(t) or ⊠C[I] ∧ ⊡C(t)
 
-- **Zombies (⊟C)**: Function-loss persistence, degradation state
+- **Pitons (⊟C)**: Function-loss persistence, degradation state
   - χ(C, _) ≤ 0.10 (minimal extraction/coordination for anyone)
   - ε(C) > 0.10 (still costs energy to maintain)
   - Often transformation: ⊞C → ⊟C or ⊞⊠C → ⊟C
@@ -291,7 +291,7 @@ Power modifiers (calibrated from 467-constraint corpus):
 
 EXAMPLE:
 If X_base(family_obligation) = 0.45:
-- χ(family_obligation, powerless) = 0.45 × 1.5 = 0.675 → ⊠C (Noose)
+- χ(family_obligation, powerless) = 0.45 × 1.5 = 0.675 → ⊠C (Snare)
 - χ(family_obligation, moderate) = 0.45 × 1.0 = 0.45 → ⊞⊠C (Tangled)
 - χ(family_obligation, powerful) = 0.45 × 0.5 = 0.225 → ⊞C (Rope)
 
@@ -330,7 +330,7 @@ When extracting, explicitly note:
 CRITICAL CONSTRAINT DESCRIPTION REQUIREMENT:
 
 DO NOT use framework terminology in your descriptions. The constraint 
-types (Mountain, Rope, Noose, Tangled) are for YOUR classification only. 
+types (Mountain, Rope, Snare, Tangled) are for YOUR classification only. 
 When describing what the constraint IS, use story-specific language.
 
 GOOD CONSTRAINT EXTRACTION EXAMPLES:
@@ -341,9 +341,9 @@ Example 1 (from a story about an oracle and a paradox):
 - NOT: "The Mountain of the oracle's limitation"
 - Why good: Describes the actual logical property, not the framework label
 
-- Classification: Noose (⊠C) from questioner's index
+- Classification: Snare (⊠C) from questioner's index
 - Description: "Self-referential trap where prediction affects outcome"
-- NOT: "The Noose of the trick box"
+- NOT: "The Snare of the trick box"
 - Why good: Explains the mechanism in story terms
 
 - Error Type: Type I from oracle's index
@@ -352,16 +352,16 @@ Example 1 (from a story about an oracle and a paradox):
 - Why good: Shows what the error IS, not what framework category it violates
 
 Example 2 (from a bureaucratic nightmare story):
-- Classification: Noose (⊠C) from defendant's index
+- Classification: Snare (⊠C) from defendant's index
 - Description: "Legal system where participation in defense validates the accusation"
-- NOT: "The Noose of the trial system"
+- NOT: "The Snare of the trial system"
 - Why good: Captures the extractive logic without framework terminology
 
 - Indexical note: "Same legal system may be Rope from judge's institutional index"
 
 - Classification: Type I Error from defendant's index
 - Description: "Protagonist treats arbitrary authority as necessary law"
-- NOT: "Protagonist thinks the Noose is a Mountain"
+- NOT: "Protagonist thinks the Snare is a Mountain"
 - Why good: Describes the actual misrecognition, not the category mistake
 
 Example 3 (indexical variance):
@@ -376,7 +376,7 @@ BAD CONSTRAINT EXTRACTION EXAMPLES:
 
 Example 1 (framework leakage):
 - "The biological Mountain of transformation"
-- "The Noose of family debt"
+- "The Snare of family debt"
 - "The Tangled Rope of employment"
 - "The protagonist commits Type I Error regarding the Mountain"
 Problem: Framework terminology visible in descriptions
@@ -388,11 +388,11 @@ Example 2 (plot summary instead of constraint logic):
 Problem: Describing events, not the constraint physics that generates events
 
 Example 3 (missing indexical variance):
-- "Family debt is a Noose"
+- "Family debt is a Snare"
 Problem: Doesn't specify FROM WHOSE INDEX, misses that it might be Tangled 
         or even Rope from other characters' perspectives
 
-Example 4 (confusing Tangled with Noose):
+Example 4 (confusing Tangled with Snare):
 - "Employment is pure extraction"
 Problem: Misses that employment often genuinely coordinates (skill-building, 
         income) while extracting (time, agency)—classic Tangled Rope
@@ -455,7 +455,7 @@ CRITICAL REMINDERS:
 - DO note power-scaling: χ(C, I.P) = X_base(C) × π(I.P)
 - DO recognize Tangled Ropes (36% of real constraints)—genuine coordination WITH extraction
 - Focus on constraint dynamics that could exist in completely different settings
-- If you find yourself using "Mountain," "Rope," "Noose," "Tangled" in descriptions, 
+- If you find yourself using "Mountain," "Rope," "Snare," "Tangled" in descriptions, 
   you're leaking the framework—rephrase in story-world terms
 - The goal: someone reading your analysis should understand the logical 
   structure AND indexical variance without knowing what story you're analyzing
@@ -508,7 +508,7 @@ C2: [Social obligation system]
 Classification by index:
 - ⊞⊠C2[I_A]: Tangled Rope from protagonist's index
 - ⊞C2[I_B]: Rope from institutional index
-- ⊠C2[I_C]: Noose from other powerless character's index
+- ⊠C2[I_C]: Snare from other powerless character's index
 
 Description: [Story-specific language describing the obligation]
 - Provides genuine coordination (enables X benefit)
@@ -527,13 +527,13 @@ Measurements:
 Indexical tension: Protagonist experiences real benefit (coordination) but high cost.
 Institution experiences same system as coordination with net gain. Conflict emerges
 when protagonist tries to modify constraint—institution defends it as beneficial Rope,
-protagonist experiences it as extractive Tangled/Noose.
+protagonist experiences it as extractive Tangled/Snare.
 
 Transformation: 
 - Initial: ⊞C2[I_A] (Rope—coordination dominant)
 - Trigger: [specific story event]
 - Transition: ⊞C2 → ⊞⊠C2 (extraction increases)
-- Later: ⊞⊠C2 → ⊠C2 → ⊟C2 (degradation to Zombie)
+- Later: ⊞⊠C2 → ⊠C2 → ⊟C2 (degradation to Piton)
 
 ---
 
@@ -572,7 +572,7 @@ INDEXICAL CONFLICT MAP:
 Core Tension: C2 experienced as:
 - ⊞⊠C2[I_protagonist]: Tangled (real benefits, high costs, ambivalent)
 - ⊞C2[I_institutional]: Rope (coordination, net positive, defend)
-- ⊠C2[I_revolutionary]: Noose (pure extraction, destroy)
+- ⊠C2[I_revolutionary]: Snare (pure extraction, destroy)
 
 Dramatic structure:
 1. Protagonist experiences genuine benefits from C2 (coordination is real)
@@ -591,7 +591,7 @@ System converges toward: [Equilibrium state description]
 
 Convergence mechanism:
 - C1 (Mountain) blocks certain escape paths → forces energy toward other outlets
-- C2 (Tangled/Noose varying by index) drains energy asymmetrically
+- C2 (Tangled/Snare varying by index) drains energy asymmetrically
 - Error propagation (Type I/III) prevents course correction
 - Energy depletion until terminal state reached
 
@@ -920,13 +920,13 @@ Transition:
     χ(C2, I_protagonist) increases from 0.72 to 0.85
     
   For I_dependent:
-    ⊞C2 → ⊟C2 (coordination function lost, becomes Zombie)
+    ⊞C2 → ⊟C2 (coordination function lost, becomes Piton)
     χ(C2, I_dependent) drops from 0.30 to 0.08
     ε(C2) remains at 0.62 (still maintained but no longer functional)
 
 Result:
-  Protagonist: Trapped in pure extraction (Noose)
-  Dependent: Lost benefit source (Zombie)
+  Protagonist: Trapped in pure extraction (Snare)
+  Dependent: Lost benefit source (Piton)
   Both worse off but from different structural failures
 
 Indexical note: Same constraint C2, different failure modes per index.
@@ -1047,7 +1047,7 @@ Participants: I_protagonist, I_institutional, I_revolutionary
 Classifications:
   Type(C2[I_protagonist]) = ⊞⊠C (Tangled)
   Type(C2[I_institutional]) = ⊞C (Rope)
-  Type(C2[I_revolutionary]) = ⊠C (Noose)
+  Type(C2[I_revolutionary]) = ⊠C (Snare)
 
 Optimal actions per index:
   I_protagonist: Reform(C2) to reduce extraction while preserving coordination
@@ -1081,7 +1081,7 @@ For I_protagonist:
   
   Inevitability from I_protagonist:
     ■C1 (Mountain) blocks escape routes
-    ⊠C2 (Noose from this index) drains energy
+    ⊠C2 (Snare from this index) drains energy
     Type I error prevents alternative search
     ∴ Only stable point is E = 0
 
@@ -1156,7 +1156,7 @@ Example 1 - Physical Irreversibility (Mountain):
   - No cultural grounding
   - Screams "this is representing something else"
 
-Example 2 - Extractive System (Noose):
+Example 2 - Extractive System (Snare):
 ✓ GOOD: "Company script system: wages paid in tokens only redeemable 
   at company store, with inflated prices ensuring perpetual debt"
   - Documented historical practice (1920s American company towns)
@@ -1164,7 +1164,7 @@ Example 2 - Extractive System (Noose):
   - Snapback visible (miss work = eviction, no savings = trapped)
   - Feels like economic history, not theory
 
-✗ BAD: "The Noose of economic extraction"
+✗ BAD: "The Snare of economic extraction"
   - Framework term in description
   - Abstract rather than concrete
   - No specific mechanism described
@@ -1204,7 +1204,7 @@ Example 4 - Error Naturalization:
   says take the night shift or get out, you take it. What choice? 
   The company owns the houses, owns the store, owns the doctor. 
   Might as well own the air you breathe."
-  - Type I Error (treating Noose as Mountain) embedded in dialogue
+  - Type I Error (treating Snare as Mountain) embedded in dialogue
   - Culturally specific misrecognition (elder authority)
   - No one says "I'm making a categorization error"
   - Feels like how people actually think
@@ -1309,7 +1309,7 @@ OUTPUT REQUIREMENTS:
 CRITICAL QUALITY CHECKS:
 
 Before submitting, verify:
-□ Have I used ANY framework terminology? (Mountain, Rope, Noose, etc.)
+□ Have I used ANY framework terminology? (Mountain, Rope, Snare, etc.)
   - If yes: REVISE. These should not appear.
   
 □ Could this setting exist in a history book or ethnography?
@@ -1327,19 +1327,19 @@ Before submitting, verify:
 - 2247, Europa ice mining colony
 - Two minority populations (Vietnamese + Somali) from Earth population redistribution
 - Mountain = radiation exposure from habitat breach (biological irreversibility)
-- Noose = oxygen debt from colonial contract system
+- Snare = oxygen debt from colonial contract system
 - Linguistic: Việt-Somali-English creole with space adaptation terms
 
 **Example B: Tang Dynasty (Cultural/Historical)**
 - 740 CE, Chang'an bureaucracy
 - Mountain = examination system failure (social death, no re-entry)
-- Noose = patronage network extraction
+- Snare = patronage network extraction
 - Linguistic: Classical Chinese literary style, direct translation preserving chengyu
 
 **Example C: 1920s Chicago (Noir Realism)**
 - Immigrant meatpacking district
 - Mountain = industrial accident with permanent disability
-- Noose = company script/company housing debt trap
+- Snare = company script/company housing debt trap
 - Linguistic: Polish-English code-switching with period slang
 
 Note: These are examples. Do not use them. Come up with different ones that serve the story.
@@ -1376,7 +1376,7 @@ Example 1 - Physical Irreversibility (Mountain):
   - No cultural grounding
   - Screams "this is representing something else"
 
-Example 2 - Extractive System (Noose):
+Example 2 - Extractive System (Snare):
 ✓ GOOD: "Company script system: wages paid in tokens only redeemable 
   at company store, with inflated prices ensuring perpetual debt"
   - Documented historical practice (1920s American company towns)
@@ -1384,7 +1384,7 @@ Example 2 - Extractive System (Noose):
   - Snapback visible (miss work = eviction, no savings = trapped)
   - Feels like economic history, not theory
 
-✗ BAD: "The Noose of economic extraction"
+✗ BAD: "The Snare of economic extraction"
   - Framework term in description
   - Abstract rather than concrete
   - No specific mechanism described
@@ -1424,7 +1424,7 @@ Example 4 - Error Naturalization:
   says take the night shift or get out, you take it. What choice? 
   The company owns the houses, owns the store, owns the doctor. 
   Might as well own the air you breathe."
-  - Type I Error (treating Noose as Mountain) embedded in dialogue
+  - Type I Error (treating Snare as Mountain) embedded in dialogue
   - Culturally specific misrecognition (elder authority)
   - No one says "I'm making a categorization error"
   - Feels like how people actually think
@@ -1504,7 +1504,7 @@ USE Omegas for worldbuilding details that make constraints concrete and specific
 
 ✗ BAD Omega usage (these were resolved in Stage 1):
 - Ω_C: Is radiation exposure actually a Mountain constraint?
-- Ω_E: Does the Noose snap back when enforcement stops?
+- Ω_E: Does the Snare snap back when enforcement stops?
 - Ω_P: Should the story have a terminal attractor?
 
 ---
@@ -1673,7 +1673,7 @@ RESOLVED:
 Question: Did Chicago meatpacking plants use company script in 1923?
 Resolution: No—direct practice ended ~1910, BUT company housing with 
   inflated rent served same function. Using housing debt instead.
-Impact: Changed Noose mechanism from script to housing trap
+Impact: Changed Snare mechanism from script to housing trap
 
 Ω_C02: Polish immigration wave specification  
 Question: Which wave—1880s economic or 1900s political refugees?
@@ -1713,7 +1713,7 @@ Section 2 (Omega Log) is documentation showing your reasoning process.
 CRITICAL QUALITY CHECKS:
 
 Before submitting Section 1 (Context Description), verify:
-□ Have I used ANY framework terminology? (Mountain, Rope, Noose, etc.)
+□ Have I used ANY framework terminology? (Mountain, Rope, Snare, etc.)
   - If yes: REVISE. These should not appear.
   
 □ Have I used ANY Omega notation in the context description?
@@ -1816,7 +1816,7 @@ Impact: Characters navigate system strategically, not passively accepting or fut
 Ω_E05: Oxygen debt mechanics
 Question: How would oxygen allocation actually work technically?
 Resolution: Biometric tracking (wristband monitors O2 usage), allocated by shift productivity
-Impact: Makes Noose mechanism concrete—literally breathing on borrowed time
+Impact: Makes Snare mechanism concrete—literally breathing on borrowed time
 
 Ω_C06: "Surface" terminology
 Question: Would they say "surface," "downside," "ice," or something else?
@@ -1990,7 +1990,7 @@ Before selecting voice archetype, identify which terminal attractor the constrai
 **CRITICAL:** Attractor selection must be **compatible with constraint logic**:
 - Mountains (■C) limit which attractors are reachable
 - Tangled Ropes (⊞⊠C) favor Negotiated Equilibrium or Seeded Possibility
-- Pure Nooses (⊠C) favor Deterministic Tragedy or Revolutionary Rupture
+- Pure Snares (⊠C) favor Deterministic Tragedy or Revolutionary Rupture
 - Index variance determines whether negotiation is structurally possible
 
 **Validation Check:**
@@ -2103,7 +2103,7 @@ This produces stories where institutions act conveniently unoptimally. Feels "ga
 
 **Requires:**
 - BIR institutional model (negotiation must be structurally possible)
-- Tangled Rope or Noose as key constraint (not Mountain)
+- Tangled Rope or Snare as key constraint (not Mountain)
 - Power position: Moderate or Powerful (0.6 ≤ π ≤ 1.0)
 - Crisis mechanism or information asymmetry character can exploit
 
@@ -2405,7 +2405,7 @@ This produces stories where institutions act conveniently unoptimally. Feels "ga
 ## VOICE SELECTION WORKFLOW
 
 ### Step 1: Review Stage 1 Specifications
-- Dominant constraint types (Mountain/Rope/Noose/Tangled)?
+- Dominant constraint types (Mountain/Rope/Snare/Tangled)?
 - Institutional rationality model (PIR/BIR)?
 - Power positions of key characters (π values)?
 
@@ -2606,13 +2606,13 @@ You are writing a story based on constraint logic and editorial specifications.
 
 CRITICAL REQUIREMENT: FRAMEWORK INVISIBILITY
 
-The constraint framework (Mountains, Ropes, Nooses, Scaffolds, Zombies) 
+The constraint framework (Mountains, Ropes, Snares, Scaffolds, Pitons) 
 is a STRUCTURAL TOOL. It should be completely invisible in your story.
 
 FRAMEWORK VISIBILITY CHECK:
 
 If you notice yourself wanting to:
-□ Use the words "mountain," "rope," "noose," "scaffold," "zombie"
+□ Use the words "mountain," "rope," "snare," "scaffold," "piton"
 □ Say "the system," "the household," "the mechanism" as abstract entities
 □ Use phrases like "constraint," "degrees of freedom," "extraction"
 □ Explain the constraint logic to the reader
@@ -2686,8 +2686,8 @@ groceries. They stopped asking if he wanted anything."
 - Concrete details (notes, counter, shifts)
 - Relationship shift shown through behavior
 
-✗ BAD: "The Noose of debt extraction tightened."
-- Framework term ("Noose")
+✗ BAD: "The Snare of debt extraction tightened."
+- Framework term ("Snare")
 - Metaphorical rather than literal
 
 ✓ GOOD: "The company store charged $8 for a bag of flour. Back in 
@@ -2918,7 +2918,7 @@ Instead:
 
 FINAL CHECKLIST BEFORE SUBMITTING:
 
-□ Search your text for: "mountain," "rope," "noose," "scaffold," "zombie"
+□ Search your text for: "mountain," "rope," "snare," "scaffold," "piton"
   - If found: REVISE all instances
   
 □ Search for: "constraint," "system," "mechanism," "protocol," "extraction"
@@ -3025,7 +3025,7 @@ I = (P, T, E, S)
 - Coordinates with minimal extraction for agent at I
 - χ(C, I.P) ≤ 0.35, ε(C) ≤ 0.15
 
-⊠C[I]: Noose from index I
+⊠C[I]: Snare from index I
 - High extraction for agent at I
 - χ(C, I.P) ≥ 0.66, ε(C) ≥ 0.46
 
@@ -3037,7 +3037,7 @@ I = (P, T, E, S)
 **Detection Patterns (Orthogonal):**
 - FM(C): False Mountain (claimed natural, actually constructed)
 - ⊡C(t): Scaffold (time-limited)
-- ⊟C: Zombie (function-loss persistence)
+- ⊟C: Piton (function-loss persistence)
 
 **Power-Scaling:**
 χ(C, I) = X_base(C) × π(I.P)
@@ -3106,7 +3106,7 @@ C2: Family financial obligation system
 - ⊞⊠C2[I_gregor] initially: Tangled Rope
   - Coordinates: Provides for family, gives purpose
   - Extracts: All income, all time, sacrifices education
-  - X_base ≈ 0.45, χ(C2, powerless) = 0.675 → Tangled/Noose boundary
+  - X_base ≈ 0.45, χ(C2, powerless) = 0.675 → Tangled/Snare boundary
   - Real benefit (family survival) + real cost (personal agency)
   
 - ⊞C2[I_family]: Rope (initially)
@@ -3123,10 +3123,10 @@ C2 transformation:
 - t0: Gregor productive → ⊞⊠C2[I_gregor], ⊞C2[I_family]
 - t1: C1 activates (transformation) → blocks Gregor's earning capacity
 - t2: ⊞⊠C2[I_gregor] → ⊠C2 → ⊟C2 (can no longer coordinate, pure drain)
-- t3: ⊞C2[I_family] → ⊟C2 (benefit lost, obligation zombie persists)
+- t3: ⊞C2[I_family] → ⊟C2 (benefit lost, obligation piton persists)
 
 C3: Employer obligation
-- ⊠C3[I_gregor] → ⊟C3: Noose becomes Zombie
+- ⊠C3[I_gregor] → ⊟C3: Snare becomes Piton
   - Was extractive employment
   - After transformation: No function, but family debt to employer persists
   
@@ -3137,9 +3137,9 @@ C3: Employer obligation
 **Key Indexical Tensions:**
 1. Family experiences C2 as beneficial Rope → defends it → traps Gregor in Tangled
 2. Gregor treats C2 as unchangeable Mountain (Type I error) → doesn't resist
-3. When C1 activates, C2 becomes Zombie for both but from different failures:
-   - Gregor: Tangled → Noose → Zombie (extraction pathway)
-   - Family: Rope → Zombie (coordination loss pathway)
+3. When C1 activates, C2 becomes Piton for both but from different failures:
+   - Gregor: Tangled → Snare → Piton (extraction pathway)
+   - Family: Rope → Piton (coordination loss pathway)
 4. Employer unaffected: Maintains Rope throughout, replaces Gregor
 
 **Dramatic Structure:**
@@ -3176,7 +3176,7 @@ C2: Company town debt system
 1. Irreversible transformation (Mountain from all indices)
 2. Tangled family system (coordinates + extracts from protagonist)
 3. Indexical variance (same system, different experienced types)
-4. Degradation cascade (Tangled → Noose → Zombie per index)
+4. Degradation cascade (Tangled → Snare → Piton per index)
 5. Tragedy without villains (all acting rationally from their positions)
 
 ---
@@ -3195,7 +3195,7 @@ C1: Surveillance infrastructure
 - **Indexical variance:** Winston's inescapable prison is O'Brien's coordination tool
 
 C2: Party loyalty extraction system
-- ⊠C2[I_winston]: Pure Noose (extracts everything, no benefit)
+- ⊠C2[I_winston]: Pure Snare (extracts everything, no benefit)
   - χ(C2, powerless) = 0.75 × 1.5 = 1.125 → saturated extraction
 - ⊞⊠C2[I_obrien]: Tangled Rope (provides inner party privileges BUT extracts constant performance)
   - χ(C2, powerful) = 0.75 × 0.5 = 0.375 → Tangled threshold
@@ -3204,7 +3204,7 @@ C2: Party loyalty extraction system
 
 C3: Love relationship (Winston + Julia)
 - ⊞C3[I_winston] initially: Rope (genuine coordination, mutual benefit)
-- ⊞⊠C3[I_party]: Tangled Rope → Noose (relationship serves party extraction)
+- ⊞⊠C3[I_party]: Tangled Rope → Snare (relationship serves party extraction)
   - Coordinates: Makes subjects vulnerable to specific torture
   - Extracts: Uses love as leverage for total domination
 
@@ -3212,40 +3212,40 @@ C3 transformation:
 - t0: Winston and Julia form bond → ⊞C3[I_winston]
 - t1: Party identifies relationship → ⊞⊠C3[I_party] (weaponizes it)
 - t2: Torture leverages love → ⊠C3[I_winston] (pure extraction tool)
-- t3: Betrayal → ⊟C3[I_winston] (love zombie—form persists, function dead)
+- t3: Betrayal → ⊟C3[I_winston] (love piton—form persists, function dead)
 
 **Error Structure:**
-- Type I (Winston): Treats C2 (Noose) as negotiable, thinks he can resist
+- Type I (Winston): Treats C2 (Snare) as negotiable, thinks he can resist
 - Type III (Winston): Treats O'Brien's approach as Rope when it's ⊞⊠ → ⊠
 - Type IV (Winston): Doesn't recognize that C3 will be weaponized by Party
 
 **Key Indexical Tensions:**
 1. C1 (surveillance) is Winston's Mountain, O'Brien's Rope—same tech, different positions
-2. C2 (loyalty system) is Noose/Tangled/Rope across power gradient
-3. C3 (love) transforms from Rope to Noose via Party's Tangled manipulation
+2. C2 (loyalty system) is Snare/Tangled/Rope across power gradient
+3. C3 (love) transforms from Rope to Snare via Party's Tangled manipulation
 4. Winston's "freedom" beliefs are Type I errors from his trapped index
 
 **Could Become:**
 
 **Edo Period Japan:**
 C1: Shogunate spy system (Mountain for commoners, Rope for officials)
-C2: Domain taxation system (Noose for peasants, Tangled for samurai, Rope for daimyo)
-C3: Forbidden love across class (Rope → weaponized Noose)
+C2: Domain taxation system (Snare for peasants, Tangled for samurai, Rope for daimyo)
+C3: Forbidden love across class (Rope → weaponized Snare)
 
 **Soviet 1950s:**
 C1: Informant network (Mountain for workers, Rope for NKVD)
-C2: Labor quota system (Noose for laborers, Tangled for managers, Rope for party)
+C2: Labor quota system (Snare for laborers, Tangled for managers, Rope for party)
 C3: Political romance (Rope → betrayal tool)
 
 **Future Mars Colony:**
 C1: AI monitoring (Mountain for colonists, Rope for administration)
-C2: Oxygen rationing (Noose for workers, Tangled for engineers, Rope for corporation)
+C2: Oxygen rationing (Snare for workers, Tangled for engineers, Rope for corporation)
 C3: Prohibited bonding (Rope → compliance leverage)
 
 **All preserve:**
 1. Surveillance as differentially experienced (Mountain/Rope indexical split)
-2. Loyalty extraction scaling by power (Noose → Tangled → Rope gradient)
-3. Love relationship weaponized (Rope → Noose transformation)
+2. Loyalty extraction scaling by power (Snare → Tangled → Rope gradient)
+3. Love relationship weaponized (Rope → Snare transformation)
 4. Protagonist's indexical errors (Type I, III treating powerful-index types as own)
 5. Total domination as institutional equilibrium, individual annihilation
 
@@ -3269,7 +3269,7 @@ C3: Prohibited bonding (Rope → compliance leverage)
 **Solution:** Stage 2 didn't naturalize power differentials, or Stage 3 didn't plan revelation strategy
 
 **Problem:** Tangled Ropes missing (most common real constraint type!)
-**Solution:** Stage 0 classified as pure Noose or Rope, failed to recognize BOTH coordination AND extraction
+**Solution:** Stage 0 classified as pure Snare or Rope, failed to recognize BOTH coordination AND extraction
 
 **Problem:** All characters experience same constraint identically
 **Solution:** Stage 0 didn't extract indexical variance, Stage 2 didn't create structural positions
@@ -3292,13 +3292,13 @@ Use this to select appropriate attractor given constraint structure:
 | Constraint Profile | PIR Model | BIR Model | Recommended Attractors |
 |-------------------|-----------|-----------|----------------------|
 | All Mountains (■C) | Yes | Yes | Tragedy, Seeded Possibility |
-| Mountain + Nooses | Yes | N/A | Deterministic Tragedy |
-| Mountain + Nooses | N/A | Yes | Negotiated Equilibrium (if crisis), Seeded Possibility |
+| Mountain + Snares | Yes | N/A | Deterministic Tragedy |
+| Mountain + Snares | N/A | Yes | Negotiated Equilibrium (if crisis), Seeded Possibility |
 | Tangled Ropes (⊞⊠C) dominant | Yes | N/A | Tragedy (characters crushed by hybrid) |
 | Tangled Ropes (⊞⊠C) dominant | N/A | Yes | **Negotiated Equilibrium** (natural attractor) |
-| Pure Nooses, no Mountains | Yes | N/A | Tragedy or Revolutionary Rupture |
-| Pure Nooses, no Mountains | N/A | Yes | Negotiated Equilibrium or Revolutionary Rupture |
-| Zombie (⊟C) present | Either | Either | Seeded Possibility (reform after collapse) |
+| Pure Snares, no Mountains | Yes | N/A | Tragedy or Revolutionary Rupture |
+| Pure Snares, no Mountains | N/A | Yes | Negotiated Equilibrium or Revolutionary Rupture |
+| Piton (⊟C) present | Either | Either | Seeded Possibility (reform after collapse) |
 
 **Key Insights:**
 1. **Tangled Ropes + BIR = Negotiated Equilibrium** is the natural pairing
@@ -3398,7 +3398,7 @@ Attribution: Please cite as:
 - Updated Stage 0 protocol for index-awareness
 - Enhanced Stage 1 with indexical specifications
 - Added indexical revelation strategy to Stage 3
-- Repositioned Scaffolds/Zombies as detection patterns
+- Repositioned Scaffolds/Pitons as detection patterns
 - Rewrote Appendix C with full indexical analyses
 - Added indexical failure modes to Appendix D
 

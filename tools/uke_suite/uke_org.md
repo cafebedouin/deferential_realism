@@ -7,7 +7,7 @@ Here are the clean, properly formatted versions of the files.
 
 ### §0. FOUNDATION
 
-**Purpose:** Decompose systems, policies, and institutions into natural constraints (Mountains), coordination mechanisms (Ropes), and extractive structures (Nooses).
+**Purpose:** Decompose systems, policies, and institutions into natural constraints (Mountains), coordination mechanisms (Ropes), and extractive structures (Snares).
 
 **Scope:** System-level analysis. For personal agency decisions, use `UKE_P`.
 
@@ -61,7 +61,7 @@ Here are the clean, properly formatted versions of the files.
 **Gap Severity Classification:**
 * **ALIGNED:** Practice matches Text. (Rope).
 * **LATENT:** Text allows abuse, but practice is currently benign. (Drift Risk).
-* **CAPTURED:** Text claims benefit, Practice extracts value. (Noose).
+* **CAPTURED:** Text claims benefit, Practice extracts value. (Snare).
 
 ---
 
@@ -73,7 +73,7 @@ Here are the clean, properly formatted versions of the files.
 **Phase 2: Evaluate Rope** (The proposed solution).
 *Example: "Private utility company."*
 
-**Phase 3: Detect Noose** (The extraction).
+**Phase 3: Detect Snare** (The extraction).
 *Example: "Monopoly pricing with no alternative."*
 
 **Phase 4: Check Scaffold** (The transition).
@@ -91,10 +91,10 @@ Intervention Confidence is always **one level lower** than Classification Confid
 | **Mountain** | Reality | **ACCOMMODATE.** | N/A |
 | **Rope** | Functional | **MAINTAIN.** | Low |
 | **Rope** | Degrading | **REFORM.** | Medium |
-| **Noose** | Extractive | **CUT.** | High (Risk of backlash) |
+| **Snare** | Extractive | **CUT.** | High (Risk of backlash) |
 | **Load-Bearing**| Dangerous | **SCAFFOLD then CUT.** | Very High (Complexity risk) |
 
-**The Safe Removal Rule:** If a Noose is load-bearing (e.g., provides essential funding), you **MUST** specify a `Type 3: Transition Fund` Scaffold before recommending Removal.
+**The Safe Removal Rule:** If a Snare is load-bearing (e.g., provides essential funding), you **MUST** specify a `Type 3: Transition Fund` Scaffold before recommending Removal.
 
 ---
 
@@ -127,7 +127,7 @@ Gap Severity: [ALIGNED | LATENT | CAPTURED]
 
 
 [CLASSIFICATION]
-Type: [Mountain | Rope | Noose | Hybrid]
+Type: [Mountain | Rope | Snare | Hybrid]
 Dominant Feature: [Implementation | Declaration]
 Confidence: [H/M/L]
 
@@ -152,8 +152,8 @@ Intervention Confidence: [Classification Conf - 1 Level]
 
 ### APPENDIX A: QUICK REFERENCE
 
-* **Price Snap-back > 90%?** -> Noose.
-* **"Natural" language for social rules?** -> Noose.
+* **Price Snap-back > 90%?** -> Snare.
+* **"Natural" language for social rules?** -> Snare.
 * **Removable without collapse?** -> Rope.
 * **Removable with death?** -> Mountain.
 
@@ -190,7 +190,7 @@ Intervention Confidence: [Classification Conf - 1 Level]
 
 Use `UKE_ORG` when `UKE_P` returns **Path A (Change)** but you lack a strategy.
 
-* **Scenario:** You identify your workplace culture is a **Noose** (`UKE_P`).
+* **Scenario:** You identify your workplace culture is a **Snare** (`UKE_P`).
 * **Escalation:** You want to propose a specific reform policy to HR.
 * **Action:** Run `UKE_ORG` on the specific company policy to generate a robust `[CONSTRAINT-MAP]` and `[INTERVENTION-STRATEGY]` to present to leadership.
 
@@ -202,11 +202,11 @@ Use `UKE_ORG` when `UKE_P` returns **Path A (Change)** but you lack a strategy.
 
 **When to switch from Organizational to Personal Analysis:**
 
-Use `UKE_P` when `UKE_ORG` identifies a **Noose** but the Intervention Confidence is **Low** (meaning systemic change is unlikely).
+Use `UKE_P` when `UKE_ORG` identifies a **Snare** but the Intervention Confidence is **Low** (meaning systemic change is unlikely).
 
-* **Scenario:** You analyze Housing Policy (`UKE_ORG`) and find it is a captured **Noose** favoring incumbents. Intervention is blocked by politics.
+* **Scenario:** You analyze Housing Policy (`UKE_ORG`) and find it is a captured **Snare** favoring incumbents. Intervention is blocked by politics.
 * **Application:** You must now decide where to live.
-* **Action:** Run `UKE_P` to determine your individual move. Since the system is broken (Noose) and unchangeable (Low Leverage), `UKE_P` will likely recommend **Exit** or **Radical Acceptance**, saving you from burnout.
+* **Action:** Run `UKE_P` to determine your individual move. Since the system is broken (Snare) and unchangeable (Low Leverage), `UKE_P` will likely recommend **Exit** or **Radical Acceptance**, saving you from burnout.
 
 **Logic:** `UKE_ORG` says "The system is broken." `UKE_P` protects you from breaking yourself trying to fix it alone.
 
@@ -225,10 +225,10 @@ Use `UKE_P` when `UKE_ORG` identifies a **Noose** but the Intervention Confidenc
 **Step 2: UKE_ORG (Deep Dive)**
 * Test 5c: Who benefits? (Commercial real estate holders + Managers).
 * Test 2: Alternatives? (Remote work functioned for 2 years).
-* Classification: **Noose** (Extractive).
+* Classification: **Snare** (Extractive).
 
 **Step 3: UKE_P (Decision)**
-* Input: System is a confirmed Noose.
+* Input: System is a confirmed Snare.
 * Agency: I cannot change commercial real estate incentives.
 * *Result:* **EXIT** (Find remote job) or **ACCEPT** (Acknowledging it is a transaction, not a moral failing).
 

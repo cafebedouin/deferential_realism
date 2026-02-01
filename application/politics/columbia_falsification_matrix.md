@@ -68,7 +68,7 @@
 
 **What markets show:** Fajardo at 10% median, perfectly matching prediction
 
-**Interpretation:** This is the essay's **strongest confirmation**. Despite three consecutive presidential runs, despite being a "natural centrist" in a country that "identifies with the center," Fajardo remains trapped at exactly the predicted ceiling. The Noose is strangling the center as predicted.
+**Interpretation:** This is the essay's **strongest confirmation**. Despite three consecutive presidential runs, despite being a "natural centrist" in a country that "identifies with the center," Fajardo remains trapped at exactly the predicted ceiling. The Snare is strangling the center as predicted.
 
 **Matrix Implication:** If Fajardo breaks 15% by Feb 15, the centrist strangulation mechanism is falsified. If he stays at 8-11%, the essay's constraint logic holds.
 
@@ -137,7 +137,7 @@ This market snapshot suggests the essay may have **underestimated right-wing con
 
 ## Core Claims from the Essay
 
-**Claim 1: The Noose (Bipolar Compression)**  
+**Claim 1: The Snare (Bipolar Compression)**  
 "The undecided collapse (62% → 5.7%) demonstrates active constraint suppression forcing binary alignment"
 
 **Claim 2: Institutional Collapse on the Right**  
@@ -162,7 +162,7 @@ This market snapshot suggests the essay may have **underestimated right-wing con
 
 | Metric | Essay Prediction | Falsification Threshold | Interpretation if Threshold Met |
 |--------|-----------------|------------------------|--------------------------------|
-| Undecided % | Should continue compressing toward <10% | **>22%** stable or rising | Noose theory fails; voters retain meaningful choice space |
+| Undecided % | Should continue compressing toward <10% | **>22%** stable or rising | Snare theory fails; voters retain meaningful choice space |
 | Fajardo Support | Remains 8-11% range | **>15%** | Centrist strangulation fails; third-way viable |
 | Valencia (Traditional Right) | Plateaus 7-9% | **>12%** | Institutional collapse overstated; Rope still functional |
 | De la Espriella | Remains 16-20% | **<10%** or **>28%** | Either: right consolidated elsewhere OR outsider surging beyond volatility |
@@ -194,7 +194,7 @@ This market snapshot suggests the essay may have **underestimated right-wing con
 
 | Metric | Essay Prediction | Falsification Threshold | Interpretation if Threshold Met |
 |--------|-----------------|------------------------|--------------------------------|
-| Undecided % | Compressed to <8% | **>18%** | Compression stalled; Noose not tightening |
+| Undecided % | Compressed to <8% | **>18%** | Compression stalled; Snare not tightening |
 | Combined Right Support (Primary winner + De la Espriella if still running) | 24-28% total | **>35%** combined | Right has more structural support than essay estimated |
 | Fajardo Support | Terminal at 8-10% | **>13%** | Centrist space expanded post-primary |
 | Cepeda Ceiling | Hard ceiling at 35-37% | **>39%** | Left expanding beyond base |
@@ -211,7 +211,7 @@ This market snapshot suggests the essay may have **underestimated right-wing con
 | Metric | Essay Prediction | Falsification Threshold | Interpretation if Threshold Met |
 |--------|-----------------|------------------------|--------------------------------|
 | Top Two Candidates Margin | Within 1-4 percentage points | Separation **>8 points** | Not converging to bipolar equilibrium; clear frontrunner |
-| Undecided % | Compressed to <5% | **>12%** | Noose failed to extract choice; voters retain flexibility |
+| Undecided % | Compressed to <5% | **>12%** | Snare failed to extract choice; voters retain flexibility |
 | Fajardo + Other Non-Polar Candidates | Combined <15% | Combined **>22%** | Non-polar space survived; not strangled |
 | Cepeda vs Right-Winner Runoff Poll | Within margin of error (±3 points) | Either candidate leading by **>7 points** | Not unstable equilibrium; clear favorite |
 | Voter Certainty ("Definitely voting for X") | <70% for both frontrunners | **>82%** for frontrunner | High certainty = stable preference, not forced alignment |
@@ -227,7 +227,7 @@ This market snapshot suggests the essay may have **underestimated right-wing con
 | Metric | Essay Prediction | Falsification Threshold | Interpretation if Threshold Met |
 |--------|-----------------|------------------------|--------------------------------|
 | Polling Error Magnitude | Standard ±2-3 points | Systematic error **>6 points** in one direction | Polls missed hidden dynamics; constraint model incomplete |
-| Fajardo Performance vs Polls | Within ±2 points of final polls | Outperforms polls by **>5 points** | Late-breaking centrist consolidation; Noose loosened |
+| Fajardo Performance vs Polls | Within ±2 points of final polls | Outperforms polls by **>5 points** | Late-breaking centrist consolidation; Snare loosened |
 | Top Two Separation | 1-4 percentage points | Separation **>7 points** OR **<1 point** | Either: not bipolar OR hyper-compressed beyond prediction |
 | Third Place Candidate % | <12% | **>18%** | Non-polar space survived to election day |
 | Geographic Concentration | Cepeda wins cities, Right wins rural (polarized map) | **Mixed geographic pattern** | Not pure polarization; issue-based voting persists |
@@ -290,7 +290,7 @@ Requires ALL of the following:
 5. Post-election approval ≈ vote share (no honeymoon; immediate polarization)
 6. Cepeda never exceeds 38% in polling (hard ceiling holds)
 
-**Interpretation:** The constraint system is dominant; Mountains (term limit) + Nooses (runoff math) + Rope failures (institutional decay) produce the predicted bipolar compression.
+**Interpretation:** The constraint system is dominant; Mountains (term limit) + Snares (runoff math) + Rope failures (institutional decay) produce the predicted bipolar compression.
 
 ---
 

@@ -13,7 +13,7 @@ Classifications are relative to WHO, WHEN, WHERE, and HOW MUCH POWER.
 
 **Example: Medieval Church**
 - FOR serf: Mountain (unchangeable, must accept)
-- FOR historian: Noose (extractive, eventually collapsed)
+- FOR historian: Snare (extractive, eventually collapsed)
 - FOR Pope: Rope (coordination mechanism maintained by choice)
 
 All three are TRUE. Different indices, different answers.

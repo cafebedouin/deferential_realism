@@ -24,7 +24,7 @@ swipl
   Constraint | Claimed | Actual | Action
   ----------------------------------------------------------------------
   c1_term_limit | mountain | mountain | navigate
-  c2_runoff | rope | noose | replace
+  c2_runoff | rope | snare | replace
   c3_coalition | rope | tangled_rope | reform
 
 [STRUCTURAL SIGNATURE ANALYSIS]

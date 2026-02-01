@@ -26,13 +26,13 @@ The pattern is everywhere. When just-in-time production became manufacturing's "
 
 This is mandatrophy: the institutional wasting of resilience through rigid prioritization of measurable mandates over unmeasurable margins. The mandate extracts the margin to achieve "efficiency." The system transitions from flexible to brittle. Then it hits a wall.
 
-### The Rope That Becomes a Noose
+### The Rope That Becomes a Snare
 
 The constraint begins as coordination. Call it a rope: a tool for pulling disparate resources into alignment. Organizations maintain "slack resources" as buffers against uncertainty—financial reserves, excess capacity, redundant components. The mandate says: redirect these "unproductive" resources toward the target. Meet the KPI. Launch on schedule. Reduce inventory to zero.
 
 From the institutional view at 30,000 feet, this looks like optimization. Downsizing "mitigates the negative impact of absorbed slack on financial performance by eliminating inefficiencies associated with excess resources." The quarterly report improves. The efficiency metric climbs. The rope tightens into something useful.
 
-But the view from the ground is different. The operator—the person managing friction with physical reality—watches the margin disappear. Slack resources enable "repurposing and reallocation" during crises, providing "margins of maneuver" when something unexpected happens. When that slack is gone, there are no degrees of freedom left. The rope has become a noose.
+But the view from the ground is different. The operator—the person managing friction with physical reality—watches the margin disappear. Slack resources enable "repurposing and reallocation" during crises, providing "margins of maneuver" when something unexpected happens. When that slack is gone, there are no degrees of freedom left. The rope has become a snare.
 
 NASA's foam strikes illustrate the progression. Foam debris occurred "on every Space Shuttle launch to date," and sociologist Diane Vaughan termed the resulting acceptance "normalization of deviance"—the pernicious acceptance of rule violations. Each launch without catastrophic failure became evidence that the margin wasn't needed. As one NASA official explained: "When we take risk and nothing negative happens, we then tend to take more risks. We got comfortable with stuff hitting the vehicle, and we should have never gotten comfortable with that."
 
@@ -108,7 +108,7 @@ Ending: ESCALATION ("We've just normalized the strikes" - ongoing pattern, not r
 [SUBSTRATE_TRACEABILITY]
 Major claims with substrate references:
 - "Mandates measure wrong thing" → DR-AUDIT omega_extraction_blindness + Columbia management culture
-- "Rope becomes noose" → Organizational slack research (absorbed/unabsorbed) + NASA foam normalization
+- "Rope becomes snare" → Organizational slack research (absorbed/unabsorbed) + NASA foam normalization
 - "Mountain is physical constraint" → JIT brittleness research + Columbia reentry physics
 - "Measurement trap" → Slack counterfactual value + ED buffer example
 - "Self-reinforcing extraction" → Allon on lean as north star + CAIB organizational causes

@@ -34,7 +34,7 @@ Check your initial guess (before testing):
   - This is biological/structural necessity
   - Pattern is consistent across contexts and time
 
-☐ **Detritus (Zombie Constraint)**
+☐ **Detritus (Piton Constraint)**
   - This formed in response to past circumstances
   - Those circumstances no longer apply
   - Violating causes discomfort but not damage
@@ -166,7 +166,7 @@ Based on evidence, actual classification:
   - Real consequence when violated
   - Need to defer to this
 
-☐ **Detritus (Zombie) - CONFIRMED**
+☐ **Detritus (Piton) - CONFIRMED**
   - Only discomfort, no damage
   - Pattern clearable
   - Can test further

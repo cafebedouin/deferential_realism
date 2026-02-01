@@ -86,7 +86,7 @@ Analyzing 409 constraint files...
 
   mountain       : 143
   tangled_rope   :   7
-  noose          :  78
+  snare          :  78
   rope           :  76
 
   ⚠ Add more 'tangled_rope' scenarios for balance

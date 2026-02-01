@@ -35,11 +35,11 @@ constraint_metric(computational_brute_force, suppression_requirement, 0.35).
 constraint_metric(computational_brute_force, snap_back_potential, 0.40).
 constraint_metric(computational_brute_force, extractiveness, 0.62).
 
-constraint_claim(halting_limit_noose, snare).
-constraint_metric(halting_limit_noose, intensity, 0.99).
-constraint_metric(halting_limit_noose, suppression_requirement, 0.95).
-constraint_metric(halting_limit_noose, snap_back_potential, 0.90).
-constraint_metric(halting_limit_noose, extractiveness, 0.98).
+constraint_claim(halting_limit_snare, snare).
+constraint_metric(halting_limit_snare, intensity, 0.99).
+constraint_metric(halting_limit_snare, suppression_requirement, 0.95).
+constraint_metric(halting_limit_snare, snap_back_potential, 0.90).
+constraint_metric(halting_limit_snare, extractiveness, 0.98).
 
 % --- 4. Recommendations & Veto Points ---
 recommendation(rec_01, maintain_strict_adherence_to_turing_completeness).
@@ -49,7 +49,7 @@ recommendation(rec_02, reform_search_strategies_using_macro_machine_reduction).
 affects_constraint(rec_02, computational_brute_force).
 
 recommendation(rec_03, cut_reliance_on_computable_bounds_via_non_constructive_logic).
-affects_constraint(rec_03, halting_limit_noose).
+affects_constraint(rec_03, halting_limit_snare).
 
 veto_actor(godel_incompleteness_limit).
 veto_exposed(godel_incompleteness_limit, rec_03).

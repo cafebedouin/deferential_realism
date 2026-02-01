@@ -40,7 +40,7 @@
  * - Legal Defense/Plaintiff: Analytical observers who use guidelines as "Standard of Care" weapons.
  * * NARRATIVE ARC:
  * Guidelines are introduced as Ropes to reduce unnecessary testing. Under the pressure 
- * of a crowded ER, they harden into Mountains (perceived as natural law) or Nooses 
+ * of a crowded ER, they harden into Mountains (perceived as natural law) or Snares 
  * (asymmetric liability traps if deviated from).
  */
 

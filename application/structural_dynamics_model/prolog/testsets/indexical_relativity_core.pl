@@ -41,7 +41,7 @@
  * - The Analytical Historian: Experiences constraints as "Extractive Structures" (Snare/Rope).
  * * NARRATIVE ARC:
  * As an agent's power or time horizon increases, Mountains "melt" into Ropes. 
- * Conversely, as power decreases, coordination Ropes tighten into coercive Nooses 
+ * Conversely, as power decreases, coordination Ropes tighten into coercive Snares 
  * or unchangeable Mountains.
  */
 
@@ -68,7 +68,7 @@ narrative_ontology:constraint_metric(indexical_relativity_core, suppression_requ
 % Beneficiaries of understanding this:
 constraint_beneficiary(indexical_relativity_core, [analytical_observers, strategic_planners]).
 % Victims of ignoring this:
-constraint_victim(indexical_relativity_core, [those_mistaking_nooses_for_mountains]).
+constraint_victim(indexical_relativity_core, [those_mistaking_snares_for_mountains]).
 
 /* ==========================================================================
    3. INDEXED CLASSIFICATIONS (Perspectival Truth)

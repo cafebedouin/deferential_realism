@@ -170,7 +170,7 @@ constraint_indexing:constraint_classification(
 
 :- begin_tests(fair_use_tests).
 
-test(defense_cost_noose) :-
+test(defense_cost_snare) :-
     % Powerless agents see a Snare due to enforcement costs.
     constraint_indexing:constraint_classification(fair_use_doctrine, snare, context(individual_powerless, _, _, _)).
 

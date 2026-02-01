@@ -2,7 +2,7 @@
 
 ## Summary
 
-Integrated the **Tangled Rope** category into the Deferential Realism framework based on empirical validation of 467 constraints showing that 36% (168 constraints) exhibit hybrid coordination/extraction patterns that don't fit cleanly into mountain/rope/noose categories.
+Integrated the **Tangled Rope** category into the Deferential Realism framework based on empirical validation of 467 constraints showing that 36% (168 constraints) exhibit hybrid coordination/extraction patterns that don't fit cleanly into mountain/rope/snare categories.
 
 ## Changes Made
 
@@ -208,4 +208,4 @@ The Tangled Rope category is now fully integrated into the Deferential Realism f
 - ✅ Prompts (scenario generation guidance)
 - ✅ Examples (canonical reference implementations)
 
-The framework now recognizes four core constraint types: Mountain, Rope, Tangled Rope, and Noose.
+The framework now recognizes four core constraint types: Mountain, Rope, Tangled Rope, and Snare.

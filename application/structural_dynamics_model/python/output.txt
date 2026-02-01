@@ -140,7 +140,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.64
 
   Ω: omega_extraction_blindness_26usc469 (conceptual)
      Question: Constraint 26usc469 appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -317,7 +317,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.63
 
   Ω: omega_extraction_blindness_26usc469_real_estate_exemption (conceptual)
      Question: Constraint 26usc469_real_estate_exemption appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -895,7 +895,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.62
 
   Ω: omega_extraction_blindness_academic_tenure_system (conceptual)
      Question: Constraint academic_tenure_system appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -1674,7 +1674,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_adverse_possession (conceptual)
      Question: Constraint adverse_possession appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -1853,7 +1853,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.48
 
   Ω: omega_extraction_blindness_advice_as_dangerous_gift (conceptual)
      Question: Constraint advice_as_dangerous_gift appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -2375,7 +2375,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.49
 
   Ω: omega_learned_helplessness_ai_cognitive_diversity_arbitrage (conceptual)
      Question: Constraint ai_cognitive_diversity_arbitrage appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -2555,7 +2555,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.57
 
   Ω: omega_extraction_blindness_ai_driven_surveillance_sensor_layer (conceptual)
      Question: Constraint ai_driven_surveillance_sensor_layer appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -2865,7 +2865,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.63
 
   Ω: omega_extraction_blindness_ai_evaluators_matching (conceptual)
      Question: Constraint ai_evaluators_matching appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -3039,7 +3039,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.55
 
   Ω: omega_extraction_blindness_ai_professional_displacement (conceptual)
      Question: Constraint ai_professional_displacement appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -3379,7 +3379,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_algorithmic_bias (conceptual)
      Question: Constraint algorithmic_bias appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -3893,7 +3893,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.54
 
   Ω: omega_extraction_blindness_amish_technological_renunciation (conceptual)
      Question: Constraint amish_technological_renunciation appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -4638,7 +4638,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.57
 
   Ω: omega_extraction_blindness_apartheid_nuclear_program (conceptual)
      Question: Constraint apartheid_nuclear_program appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -4823,7 +4823,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.57
 
   Ω: omega_extraction_blindness_arctic_geopolitical_flashpoint (conceptual)
      Question: Constraint arctic_geopolitical_flashpoint appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -6581,7 +6581,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.43
 
   Ω: omega_extraction_blindness_automatic_enrollment_defaults (conceptual)
      Question: Constraint automatic_enrollment_defaults appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -6873,7 +6873,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_availability_heuristic (conceptual)
      Question: Constraint availability_heuristic appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -9082,7 +9082,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.45
 
   Ω: omega_extraction_blindness_biological_curiosity (conceptual)
      Question: Constraint biological_curiosity appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -9941,7 +9941,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.57
 
   Ω: omega_extraction_blindness_blackstone_smd_control (conceptual)
      Question: Constraint blackstone_smd_control appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -10673,7 +10673,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.52
 
   Ω: omega_learned_helplessness_broke_vs_poor_grocery_math (conceptual)
      Question: Constraint broke_vs_poor_grocery_math appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -11295,7 +11295,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_burali_forti_paradox (conceptual)
      Question: Constraint burali_forti_paradox appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -12850,7 +12850,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_cap_theorem (conceptual)
      Question: Constraint cap_theorem appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -13470,7 +13470,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_carrying_capacity (conceptual)
      Question: Constraint carrying_capacity appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -13914,7 +13914,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_cbdc_implementation (conceptual)
      Question: Constraint cbdc_implementation appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -14514,7 +14514,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_challenger_o_ring_integrity (conceptual)
      Question: Constraint challenger_o_ring_integrity appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -14692,7 +14692,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_china_critical_mineral_chokepoint (conceptual)
      Question: Constraint china_critical_mineral_chokepoint appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -16620,7 +16620,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.57
 
   Ω: omega_extraction_blindness_cloudflare_dual_class_asymmetry (conceptual)
      Question: Constraint cloudflare_dual_class_asymmetry appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -16797,7 +16797,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.48
 
   Ω: omega_extraction_blindness_cobra_effect (conceptual)
      Question: Constraint cobra_effect appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -17560,7 +17560,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.60
 
   Ω: omega_extraction_blindness_cognitive_surrender_to_system_3 (conceptual)
      Question: Constraint cognitive_surrender_to_system_3 appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -17896,7 +17896,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.57
 
   Ω: omega_learned_helplessness_coinbase_regulatory_uncertainty (conceptual)
      Question: Constraint coinbase_regulatory_uncertainty appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -18391,7 +18391,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
 
   Ω: omega_learned_helplessness_college_admissions_market (conceptual)
      Question: Constraint college_admissions_market appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -19130,7 +19130,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.48
 
   Ω: omega_extraction_blindness_compounding_logic (conceptual)
      Question: Constraint compounding_logic appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -19331,7 +19331,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_confirmation_bias (conceptual)
      Question: Constraint confirmation_bias appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -21469,7 +21469,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_cost_of_observation (conceptual)
      Question: Constraint cost_of_observation appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -21823,7 +21823,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_couples_residency_match (conceptual)
      Question: Constraint couples_residency_match appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -22001,7 +22001,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.46
 
   Ω: omega_learned_helplessness_cow_field_poop (conceptual)
      Question: Constraint cow_field_poop appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -22950,7 +22950,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_cuba_mandatrophic_collapse (conceptual)
      Question: Constraint cuba_mandatrophic_collapse appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -23422,7 +23422,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_currys_paradox (conceptual)
      Question: Constraint currys_paradox appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -23775,7 +23775,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.57
 
   Ω: omega_extraction_blindness_dark_patterns_manipulation (conceptual)
      Question: Constraint dark_patterns_manipulation appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -24066,7 +24066,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.48
 
   Ω: omega_learned_helplessness_dead_sea_effect (conceptual)
      Question: Constraint dead_sea_effect appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -24906,7 +24906,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_digital_credentialing_verification (conceptual)
      Question: Constraint digital_credentialing_verification appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -25541,7 +25541,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_dunbars_number (conceptual)
      Question: Constraint dunbars_number appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -26207,7 +26207,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
 
   Ω: omega_extraction_blindness_electrification_scale_2026 (conceptual)
      Question: Constraint electrification_scale_2026 appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -27355,7 +27355,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_em_clinical_guidelines (conceptual)
      Question: Constraint em_clinical_guidelines appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -27669,7 +27669,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_endowment_effect (conceptual)
      Question: Constraint endowment_effect appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -27849,7 +27849,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.45
 
   Ω: omega_extraction_blindness_epigenetics_complexity_2026 (conceptual)
      Question: Constraint epigenetics_complexity_2026 appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -28606,7 +28606,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_ergo_lets_protocol (conceptual)
      Question: Constraint ergo_lets_protocol appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -29409,7 +29409,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.45
 
   Ω: omega_extraction_blindness_ergo_storage_rent (conceptual)
      Question: Constraint ergo_storage_rent appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -29587,7 +29587,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.55
 
   Ω: omega_extraction_blindness_ergo_storage_rent_mechanism (conceptual)
      Question: Constraint ergo_storage_rent_mechanism appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -29788,7 +29788,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_ergodic_theorems (conceptual)
      Question: Constraint ergodic_theorems appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -31104,7 +31104,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.48
 
   Ω: omega_extraction_blindness_extraordinary_narrative_shift (conceptual)
      Question: Constraint extraordinary_narrative_shift appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -31608,7 +31608,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.48
 
   Ω: omega_learned_helplessness_fair_use_doctrine (conceptual)
      Question: Constraint fair_use_doctrine appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -32110,7 +32110,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.48
 
   Ω: omega_extraction_blindness_fast_growing_hierarchy (conceptual)
      Question: Constraint fast_growing_hierarchy appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -33204,7 +33204,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_fittss_law (conceptual)
      Question: Constraint fittss_law appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -33418,7 +33418,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.60
 
   Ω: omega_extraction_blindness_fmeca_procedures_1980 (conceptual)
      Question: Constraint fmeca_procedures_1980 appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -33944,7 +33944,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_framing_effect (conceptual)
      Question: Constraint framing_effect appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -34810,7 +34810,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.55
 
   Ω: omega_extraction_blindness_gale_shapley (conceptual)
      Question: Constraint gale_shapley appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -35624,7 +35624,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.55
 
   Ω: omega_learned_helplessness_generational_replacement_inertia (conceptual)
      Question: Constraint generational_replacement_inertia appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -35800,7 +35800,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.45
 
   Ω: omega_extraction_blindness_genetic_algorithms_evolution (conceptual)
      Question: Constraint genetic_algorithms_evolution appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -36001,7 +36001,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_genetic_predisposition (conceptual)
      Question: Constraint genetic_predisposition appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -36371,7 +36371,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_gig_economy_algorithmic_management (conceptual)
      Question: Constraint gig_economy_algorithmic_management appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -36748,7 +36748,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.57
 
   Ω: omega_extraction_blindness_gita_kurukshetra (conceptual)
      Question: Constraint gita_kurukshetra appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -38222,7 +38222,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_goodharts_law (conceptual)
      Question: Constraint goodharts_law appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -38829,7 +38829,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_graph_coloring_complexity (conceptual)
      Question: Constraint graph_coloring_complexity appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -39043,7 +39043,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.60
 
   Ω: omega_extraction_blindness_greenland_seizure_trade_war (conceptual)
      Question: Constraint greenland_seizure_trade_war appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -40267,7 +40267,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.45
 
   Ω: omega_extraction_blindness_hamiltonian_path_complexity (conceptual)
      Question: Constraint hamiltonian_path_complexity appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -41225,7 +41225,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_hawthorne_effect (conceptual)
      Question: Constraint hawthorne_effect appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -41543,7 +41543,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_heisenberg_uncertainty (conceptual)
      Question: Constraint heisenberg_uncertainty appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -41722,7 +41722,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.52
 
   Ω: omega_extraction_blindness_helsinki_bus_theory (conceptual)
      Question: Constraint helsinki_bus_theory appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -42770,7 +42770,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.52
 
   Ω: omega_learned_helplessness_hominin_evolutionary_bottleneck (conceptual)
      Question: Constraint hominin_evolutionary_bottleneck appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -43081,7 +43081,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_hydra_game (conceptual)
      Question: Constraint hydra_game appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -44155,7 +44155,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.43
 
   Ω: omega_learned_helplessness_information_foraging_theory (conceptual)
      Question: Constraint information_foraging_theory appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -44791,7 +44791,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_innovators_dilemma (conceptual)
      Question: Constraint innovators_dilemma appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -45768,7 +45768,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_integrated_digital_governance_stack (conceptual)
      Question: Constraint integrated_digital_governance_stack appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -46536,7 +46536,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_iran_mandatrophic_collapse (conceptual)
      Question: Constraint iran_mandatrophic_collapse appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -46739,7 +46739,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_iron_law_of_oligarchy (conceptual)
      Question: Constraint iron_law_of_oligarchy appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -47827,7 +47827,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_jevons_paradox (conceptual)
      Question: Constraint jevons_paradox appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -48138,7 +48138,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.49
 
   Ω: omega_extraction_blindness_keltner_relationship_evaluation (conceptual)
      Question: Constraint keltner_relationship_evaluation appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -48473,7 +48473,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.57
 
   Ω: omega_extraction_blindness_kidney_exchange_market (conceptual)
      Question: Constraint kidney_exchange_market appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -48676,7 +48676,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_kirby_paris_theorem (conceptual)
      Question: Constraint kirby_paris_theorem appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -50430,7 +50430,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_law_of_diminishing_returns (conceptual)
      Question: Constraint law_of_diminishing_returns appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -50608,7 +50608,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.54
 
   Ω: omega_learned_helplessness_layered_brain_processing (conceptual)
      Question: Constraint layered_brain_processing appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -51447,7 +51447,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_lehman_repo_105 (conceptual)
      Question: Constraint lehman_repo_105 appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -51816,7 +51816,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
 
   Ω: omega_extraction_blindness_lindy_effect (conceptual)
      Question: Constraint lindy_effect appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -52507,7 +52507,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_lobs_theorem (conceptual)
      Question: Constraint lobs_theorem appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -52686,7 +52686,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
 
   Ω: omega_learned_helplessness_local_vs_global_optima (conceptual)
      Question: Constraint local_vs_global_optima appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -53310,7 +53310,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_lowenheim_skolem_theorem (conceptual)
      Question: Constraint lowenheim_skolem_theorem appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -54159,7 +54159,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_mandatrophic_margin_collapse (conceptual)
      Question: Constraint mandatrophic_margin_collapse appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -54357,7 +54357,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_mandatrophy_systemic_collapse (conceptual)
      Question: Constraint mandatrophy_systemic_collapse appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -54534,7 +54534,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.48
 
   Ω: omega_extraction_blindness_optimal_stopping_marriage (conceptual)
      Question: Constraint optimal_stopping_marriage appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -55101,7 +55101,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_matching_markets_general (conceptual)
      Question: Constraint matching_markets_general appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -55302,7 +55302,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_material_tensile_strength (conceptual)
      Question: Constraint material_tensile_strength appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -55817,7 +55817,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.48
 
   Ω: omega_extraction_blindness_med_diet_consensus_2026 (conceptual)
      Question: Constraint med_diet_consensus_2026 appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -55991,7 +55991,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_medical_residency_match (conceptual)
      Question: Constraint medical_residency_match appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -57109,7 +57109,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_microbiome_symbiosis (conceptual)
      Question: Constraint microbiome_symbiosis appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -57323,7 +57323,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.60
 
   Ω: omega_extraction_blindness_mil_std_461g_emi_control (conceptual)
      Question: Constraint mil_std_461g_emi_control appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -57537,7 +57537,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.60
 
   Ω: omega_extraction_blindness_mil_std_810f_tailoring (conceptual)
      Question: Constraint mil_std_810f_tailoring appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -61080,7 +61080,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.51
 
   Ω: omega_extraction_blindness_neurodiversity_spectrum (conceptual)
      Question: Constraint neurodiversity_spectrum appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -61838,7 +61838,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_no_cloning_theorem (conceptual)
      Question: Constraint no_cloning_theorem appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -62224,7 +62224,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_non_compete_agreements (conceptual)
      Question: Constraint non_compete_agreements appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -63572,7 +63572,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_overton_window (conceptual)
      Question: Constraint overton_window appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -63770,7 +63770,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_p_vs_np (conceptual)
      Question: Constraint p_vs_np appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -63949,7 +63949,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.56
 
   Ω: omega_learned_helplessness_parable_fish_turtle (conceptual)
      Question: Constraint parable_fish_turtle appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -64124,7 +64124,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.46
 
   Ω: omega_learned_helplessness_pareto_principle (conceptual)
      Question: Constraint pareto_principle appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -64435,7 +64435,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_parkinsons_law (conceptual)
      Question: Constraint parkinsons_law appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -65566,7 +65566,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.55
 
   Ω: omega_extraction_blindness_planetary_boundaries (conceptual)
      Question: Constraint planetary_boundaries appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -65743,7 +65743,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.52
 
   Ω: omega_extraction_blindness_planetary_diet_constraint_2026 (conceptual)
      Question: Constraint planetary_diet_constraint_2026 appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -65944,7 +65944,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_planning_fallacy (conceptual)
      Question: Constraint planning_fallacy appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -66408,7 +66408,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.52
 
   Ω: omega_extraction_blindness_poetic_verse_and_past (conceptual)
      Question: Constraint poetic_verse_and_past appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -66911,7 +66911,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
 
   Ω: omega_extraction_blindness_politeness_face_negotiation (conceptual)
      Question: Constraint politeness_face_negotiation appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -68368,7 +68368,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
 
   Ω: omega_extraction_blindness_private_identity_integration (conceptual)
      Question: Constraint private_identity_integration appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -69568,7 +69568,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_qualified_immunity (conceptual)
      Question: Constraint qualified_immunity appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -70609,7 +70609,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_qwerty_vs_dvorak (conceptual)
      Question: Constraint qwerty_vs_dvorak appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -70806,7 +70806,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_radiologic_diagnostic_threshold (conceptual)
      Question: Constraint radiologic_diagnostic_threshold appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -71599,7 +71599,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_regulatory_capture (conceptual)
      Question: Constraint regulatory_capture appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -71915,7 +71915,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.43
 
   Ω: omega_learned_helplessness_relativity_physical_invariance (conceptual)
      Question: Constraint relativity_physical_invariance appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -72540,7 +72540,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_tcp_rfc9293_interoperability (conceptual)
      Question: Constraint tcp_rfc9293_interoperability appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -73747,7 +73747,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.43
 
   Ω: omega_extraction_blindness_rotation_seven_black_soil (conceptual)
      Question: Constraint rotation_seven_black_soil appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -73923,7 +73923,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_rotation_seven_isolation (conceptual)
      Question: Constraint rotation_seven_isolation appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -74099,7 +74099,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.57
 
   Ω: omega_extraction_blindness_rotation_seven_kubo_ranking (conceptual)
      Question: Constraint rotation_seven_kubo_ranking appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -74473,7 +74473,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.60
 
   Ω: omega_extraction_blindness_royal_navy_middle_east_withdrawal (conceptual)
      Question: Constraint royal_navy_middle_east_withdrawal appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -75167,7 +75167,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_russian_war_cannibalization (conceptual)
      Question: Constraint russian_war_cannibalization appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -75977,7 +75977,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_sapir_whorf_hypothesis (conceptual)
      Question: Constraint sapir_whorf_hypothesis appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -76178,7 +76178,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_sat_csp_complexity (conceptual)
      Question: Constraint sat_csp_complexity appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -77128,7 +77128,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.45
 
   Ω: omega_extraction_blindness_shannon_entropy_limit (conceptual)
      Question: Constraint shannon_entropy_limit appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -77475,7 +77475,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
 
   Ω: omega_extraction_blindness_shobies_existential_commitment (conceptual)
      Question: Constraint shobies_existential_commitment appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -77990,7 +77990,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_silicon_lexicon_overload (conceptual)
      Question: Constraint silicon_lexicon_overload appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -78166,7 +78166,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.45
 
   Ω: omega_learned_helplessness_skills_based_hiring (conceptual)
      Question: Constraint skills_based_hiring appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -78364,7 +78364,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_skolems_paradox (conceptual)
      Question: Constraint skolems_paradox appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -78764,7 +78764,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.52
 
   Ω: omega_extraction_blindness_sludge_bureaucratic_friction (conceptual)
      Question: Constraint sludge_bureaucratic_friction appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -79128,7 +79128,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_social_credit_architecture (conceptual)
      Question: Constraint social_credit_architecture appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -79327,7 +79327,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_social_loafing (conceptual)
      Question: Constraint social_loafing appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -79705,7 +79705,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.52
 
   Ω: omega_extraction_blindness_social_narrative_casting (conceptual)
      Question: Constraint social_narrative_casting appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -80132,7 +80132,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.46
 
   Ω: omega_extraction_blindness_somatic_focusing_awareness (conceptual)
      Question: Constraint somatic_focusing_awareness appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -80333,7 +80333,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_sorites_paradox (conceptual)
      Question: Constraint sorites_paradox appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -80546,7 +80546,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.60
 
   Ω: omega_learned_helplessness_south_china_sea_arbitration_2016_2026 (conceptual)
      Question: Constraint south_china_sea_arbitration_2016_2026 appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -80865,7 +80865,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_square_cube_law (conceptual)
      Question: Constraint square_cube_law appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -83005,7 +83005,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_suanne_coup_of_peace (conceptual)
      Question: Constraint suanne_coup_of_peace appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -83373,7 +83373,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_sunk_cost_fallacy (conceptual)
      Question: Constraint sunk_cost_fallacy appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -85191,7 +85191,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_tarski_undefinability (conceptual)
      Question: Constraint tarski_undefinability appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -86402,7 +86402,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.60
 
   Ω: omega_learned_helplessness_texas_hispanic_political_pivot (conceptual)
      Question: Constraint texas_hispanic_political_pivot appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -86960,7 +86960,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_the_bacchae_madness_protocol (conceptual)
      Question: Constraint the_bacchae_madness_protocol appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -87158,7 +87158,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_the_calm_protocol_suppression (conceptual)
      Question: Constraint the_calm_protocol_suppression appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -87883,7 +87883,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
 
   Ω: omega_extraction_blindness_theory_of_visitors (conceptual)
      Question: Constraint theory_of_visitors appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -88084,7 +88084,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_thermodynamics_entropy (conceptual)
      Question: Constraint thermodynamics_entropy appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -89148,7 +89148,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.46
 
   Ω: omega_extraction_blindness_trade_secret_law (conceptual)
      Question: Constraint trade_secret_law appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -89330,7 +89330,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.48
 
   Ω: omega_extraction_blindness_tragedy_of_the_commons (conceptual)
      Question: Constraint tragedy_of_the_commons appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -89886,7 +89886,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.45
 
   Ω: omega_extraction_blindness_traveling_salesperson_problem (conceptual)
      Question: Constraint traveling_salesperson_problem appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -90257,7 +90257,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.60
 
   Ω: omega_extraction_blindness_trump_making_china_great_2026 (conceptual)
      Question: Constraint trump_making_china_great_2026 appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -90950,7 +90950,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_dual_masters_dublin_1904 (conceptual)
      Question: Constraint dual_masters_dublin_1904 appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -91146,7 +91146,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_history_nightmare_1904 (conceptual)
      Question: Constraint history_nightmare_1904 appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -91340,7 +91340,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_protean_signatures_1904 (conceptual)
      Question: Constraint protean_signatures_1904 appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -91510,7 +91510,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
 
   Ω: omega_learned_helplessness_bloom_kosher_transgression (conceptual)
      Question: Constraint bloom_kosher_transgression appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -91680,7 +91680,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.55
 
   Ω: omega_learned_helplessness_bloom_secret_correspondence (conceptual)
      Question: Constraint bloom_secret_correspondence appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -91877,7 +91877,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_bloom_social_exclusion_dublin (conceptual)
      Question: Constraint bloom_social_exclusion_dublin appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -92071,7 +92071,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_bloom_aeolus_advertisement_circuit (conceptual)
      Question: Constraint bloom_aeolus_advertisement_circuit appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -92268,7 +92268,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_lestrygonian_metabolism_chp8 (conceptual)
      Question: Constraint lestrygonian_metabolism_chp8 appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -92438,7 +92438,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.52
 
   Ω: omega_learned_helplessness_stephen_shakespeare_ghost (conceptual)
      Question: Constraint stephen_shakespeare_ghost appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -92608,7 +92608,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.52
 
   Ω: omega_learned_helplessness_the_viceregal_cavalcade (conceptual)
      Question: Constraint the_viceregal_cavalcade appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -92802,7 +92802,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_bloom_acoustic_seduction_vigil (conceptual)
      Question: Constraint bloom_acoustic_seduction_vigil appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -92996,7 +92996,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_bloom_xenophobic_exclusion (conceptual)
      Question: Constraint bloom_xenophobic_exclusion appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -93190,7 +93190,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_gerty_bloom_voyeuristic_distance (conceptual)
      Question: Constraint gerty_bloom_voyeuristic_distance appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -93387,7 +93387,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_gestation_the_wombfruit (conceptual)
      Question: Constraint gestation_the_wombfruit appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -93581,7 +93581,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_nighttown_hallucinatory_vigil (conceptual)
      Question: Constraint nighttown_hallucinatory_vigil appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -93775,7 +93775,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_bloom_samaritan_paternal_care (conceptual)
      Question: Constraint bloom_samaritan_paternal_care appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -93969,7 +93969,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_bloom_ithaca_mathematical_order (conceptual)
      Question: Constraint bloom_ithaca_mathematical_order appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -94166,7 +94166,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_learned_helplessness_molly_affirmation_cycle (conceptual)
      Question: Constraint molly_affirmation_cycle appears extractive (Snare) to individuals but unchangeable (Mountain) to institutions...
-     Source: gap(noose_mountain_confusion,snare,mountain)
+     Source: gap(snare_mountain_confusion,snare,mountain)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -95313,7 +95313,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.55
 
   Ω: omega_extraction_blindness_us_two_party_duopoly (conceptual)
      Question: Constraint us_two_party_duopoly appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -95491,7 +95491,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.52
 
   Ω: omega_extraction_blindness_utopia_apocalypse_fragility (conceptual)
      Question: Constraint utopia_apocalypse_fragility appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -96033,7 +96033,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.58
 
   Ω: omega_extraction_blindness_van_der_waerden_theorem (conceptual)
      Question: Constraint van_der_waerden_theorem appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -96210,7 +96210,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.55
 
   Ω: omega_extraction_blindness_viral_transmission_rates (conceptual)
      Question: Constraint viral_transmission_rates appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -96500,7 +96500,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.50
 
   Ω: omega_extraction_blindness_weber_fechner_law (conceptual)
      Question: Constraint weber_fechner_law appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -97019,7 +97019,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_wikipedia_notability_requirement_2026 (conceptual)
      Question: Constraint wikipedia_notability_requirement_2026 appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -97197,7 +97197,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.52
 
   Ω: omega_extraction_blindness_winners_curse (conceptual)
      Question: Constraint winners_curse appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -97371,7 +97371,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.56
 
   Ω: omega_extraction_blindness_xi_mao_ideological_centralization (conceptual)
      Question: Constraint xi_mao_ideological_centralization appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]
@@ -97546,7 +97546,7 @@ Aggregate Magnitude (Kappa) at Tn: 0.53
 
   Ω: omega_extraction_blindness_zipfs_law (conceptual)
      Question: Constraint zipfs_law appears extractive (Snare) to individuals but functional (Rope) to institutions...
-     Source: gap(noose_masked_as_rope,snare,rope)
+     Source: gap(snare_masked_as_rope,snare,rope)
 
 
 [OMEGA TRIAGE & PRIORITIZATION]

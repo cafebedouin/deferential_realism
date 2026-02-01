@@ -88,19 +88,19 @@ Constraints that change type frequently based on index configuration:
 - Domain: social
 - Variance: 6.00
 - Produces 6 different types across 1 index configurations
-- Type distribution: {'rope': 1, 'noose': 1, 'mountain': 1, 'Type1': 1, 'Type2': 1, 'Type3': 1}
+- Type distribution: {'rope': 1, 'snare': 1, 'mountain': 1, 'Type1': 1, 'Type2': 1, 'Type3': 1}
 
 **2. empty_tomb_transformation**
 - Domain: religious
 - Variance: 6.00
 - Produces 6 different types across 1 index configurations
-- Type distribution: {'noose': 1, 'rope': 2, 'mountain': 1, 'T1': 1, 'T2': 1, 'T3': 1}
+- Type distribution: {'snare': 1, 'rope': 2, 'mountain': 1, 'T1': 1, 'T2': 1, 'T3': 1}
 
 **3. layered_brain_processing**
 - Domain: technological
 - Variance: 6.00
 - Produces 6 different types across 1 index configurations
-- Type distribution: {'mountain': 1, 'rope': 1, 'noose': 1, 'T1': 1, 'T2': 1, 'T3': 1}
+- Type distribution: {'mountain': 1, 'rope': 1, 'snare': 1, 'T1': 1, 'T2': 1, 'T3': 1}
 
 ## Data Completeness
 

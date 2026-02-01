@@ -193,7 +193,7 @@ test(exit_option_shift) :-
  * though it extracts "compute" and "certainty."
  * 2. PERSPECTIVES: Chose Institutional (Logic as Law), Individual (Logic as Tool), 
  * and Analytical (Logic as Conflict).
- * 3. NOOSE ARGUMENT: Usually Nooses involve coercion. Here, the "coercion" 
+ * 3. NOOSE ARGUMENT: Usually Snares involve coercion. Here, the "coercion" 
  * is the social and academic exclusion of those who suggest logic can 
  * be contradictory (Dialetheism).
  * * CONFIDENCE: High on the classification variance; Medium on the "Snare" 

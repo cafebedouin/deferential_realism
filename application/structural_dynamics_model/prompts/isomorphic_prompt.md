@@ -10,7 +10,7 @@ Copy and paste the following into your Gemini command-line instance.
 > 3. **The REPL Loop:**
 > * **Read:** Parse a single file (e.g., `26usc469.pl`) into a temporary JSON-like internal structure.
 > * **Eval:** Run a trial "repair" to standardize it to the `constraint_data/2` fact format to resolve "Weak Import" overrides.
-> * **Print:** Generate a "Refinement Manifest" showing any classification changes (e.g., Tangled Rope  Noose).
+> * **Print:** Generate a "Refinement Manifest" showing any classification changes (e.g., Tangled Rope  Snare).
 > 
 > 
 > 4. **Safety Protocol:** You are forbidden from overwriting files without presenting a "Dry Run" report and receiving explicit confirmation.

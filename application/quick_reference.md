@@ -21,15 +21,15 @@
 
 - **System collapses from reality** (not punishment) → **Mountain**
 - **Slow decay, coordination problems emerge** → **Rope**
-- **Immediate snap-back, artificial scarcity collapses** → **Noose**
-- **Nothing happens, but bureaucracy persists** → **Zombie Rope**
+- **Immediate snap-back, artificial scarcity collapses** → **Snare**
+- **Nothing happens, but bureaucracy persists** → **Piton**
 
 ### Step 2: Beneficiary Test
 **Question:** Who benefits from this persisting?
 
 - **Nearly everyone involved** → **Rope**
-- **Specific few at expense of many** → **Noose**
-- **No one (everyone complains)** → **Zombie Rope**
+- **Specific few at expense of many** → **Snare**
+- **No one (everyone complains)** → **Piton**
 
 ### Step 3: Temporality Test
 **Question:** Is this designed to be temporary?
@@ -45,10 +45,10 @@
 |------|------------|----------|---------|
 | **Mountain** | Natural constraint (physics, logic, biology) | Accept, conserve energy, navigate | Thermodynamics, need for water, 2+2=4 |
 | **Rope** | Coordination mechanism, broadly beneficial | Maintain, improve, replace if better exists | Traffic lights, TCP/IP, meeting schedules |
-| **Noose** | Extractive structure serving specific interests | Expose, resist, dismantle where possible | Rent-seeking regulations, artificial scarcity |
+| **Snare** | Extractive structure serving specific interests | Expose, resist, dismantle where possible | Rent-seeking regulations, artificial scarcity |
 | **Scaffold** | Temporary support for transition | Use temporarily, dismantle when done | Training wheels, construction scaffold |
 
-**Hybrid:** **Tangled Rope** = Rope (coordination core) + Noose (extraction layer). Reform to preserve coordination while removing extraction.
+**Hybrid:** **Tangled Rope** = Rope (coordination core) + Snare (extraction layer). Reform to preserve coordination while removing extraction.
 
 ---
 
@@ -106,7 +106,7 @@ Every classification requires specifying your position:
 ✗ Don't dismantle working coordination  
 ✗ Don't assume all constraints are oppressive
 
-### For Nooses:
+### For Snares:
 ✓ Expose beneficiaries  
 ✓ Resist strategically  
 ✓ Build alternatives  
@@ -142,7 +142,7 @@ Every classification requires specifying your position:
 
 **Response:** Challenge naturalization. Ask: When did this "natural law" begin? Who maintains it?
 
-### Zombie Rope (Institutional Inertia)
+### Piton (Institutional Inertia)
 **Signals:**
 - Everyone complains but it persists
 - No clear beneficiary group
@@ -166,7 +166,7 @@ Every classification requires specifying your position:
 
 ## Common Errors
 
-### 1. False Fatalism (calling Nooses "Mountains")
+### 1. False Fatalism (calling Snares "Mountains")
 **Pattern:** "That's just how things are / human nature / economic reality"  
 **Fix:** Check beneficiaries, check enforcement, check history  
 **Consequence:** Unwarranted surrender of agency
@@ -178,7 +178,7 @@ Every classification requires specifying your position:
 
 ### 3. Over-diagnosis (treating all inefficiency as malice)
 **Pattern:** Every coordination friction = extraction conspiracy  
-**Fix:** Check for clear beneficiary group; if none, suspect degrading Rope not Noose  
+**Fix:** Check for clear beneficiary group; if none, suspect degrading Rope not Snare  
 **Consequence:** Energy waste fighting incompetence as if it's oppression
 
 ### 4. Energy Waste (wrong battleground)
@@ -193,13 +193,13 @@ Every classification requires specifying your position:
 ### High Confidence Heuristics:
 1. **If you can't ignore it without dying/failing:** Mountain
 2. **If removal creates immediate chaos for everyone:** Rope
-3. **If specific group actively resists transparency:** Noose
+3. **If specific group actively resists transparency:** Snare
 4. **If it has explicit sunset date:** Scaffold
 
 ### Medium Confidence Flags:
 - Mixed beneficiary patterns → likely Tangled Rope
 - Claims of naturalness + clear beneficiaries → suspect False Mountain
-- Bureaucratic persistence + no winners → suspect Zombie Rope
+- Bureaucratic persistence + no winners → suspect Piton
 
 ### Low Confidence → Omega Variable:
 Mark as **Ω** (unresolved) and specify what information would resolve it:

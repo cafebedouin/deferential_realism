@@ -24,7 +24,7 @@
 ### #1911 - Which party will win control of US Congress in 2026 midterm elections?
 **Why UKE_F Applies:**
 - **C1 (Mountain):** Constitutional structure of midterms (president's party historically loses seats)
-- **C2 (Noose):** Gerrymandering + incumbency advantage suppresses competitive races
+- **C2 (Snare):** Gerrymandering + incumbency advantage suppresses competitive races
 - **C3 (Rope/Degraded):** Party discipline mechanisms, fundraising coordination
 - **Observable Effects:** Generic ballot polls, special election results, fundraising metrics, approval ratings
 - **Checkpoint Structure:** Monthly polling, quarterly fundraising, special elections as leading indicators
@@ -49,7 +49,7 @@ Standard approach treats each race independently and aggregates. Constraint appr
 ### #2088 - Who will win the 2026 Brazilian presidential election?
 **Why UKE_F Applies:**
 - **C1 (Mountain):** Brazilian two-round system (same mechanism as Colombia)
-- **C2 (Potential Noose):** If Lula barred from running (legal challenges), creates succession problem
+- **C2 (Potential Snare):** If Lula barred from running (legal challenges), creates succession problem
 - **C3 (Rope):** PT (Workers' Party) coalition dynamics
 - **Observable Effects:** Polling, legal rulings on Lula eligibility, coalition formation, Bolsonaro family positioning
 
@@ -59,7 +59,7 @@ Similar to Colombia—if Lula can't run, does PT have succession capability or d
 **Falsification Thresholds:**
 - If Lula eligible and polling <40% in first round → PT Rope is weak (inheritance problem)
 - If Bolsonaro barred and family member polling >35% → Right has succession mechanism
-- If third candidate breaks 20% → Centrist space exists (Noose not active)
+- If third candidate breaks 20% → Centrist space exists (Snare not active)
 
 **UKE_F Value:**
 Can directly port Colombia constraint model—test whether Brazilian system shows same bipolar compression, centrist strangulation, institutional collapse patterns.
@@ -68,7 +68,7 @@ Can directly port Colombia constraint model—test whether Brazilian system show
 
 ### #2089 - Will the Fidesz party list win the most seats in Hungary's 2026 parliamentary elections?
 **Why UKE_F Applies:**
-- **C1 (Snare/Noose Hybrid):** Electoral system designed by Fidesz to advantage incumbents
+- **C1 (Snare/Snare Hybrid):** Electoral system designed by Fidesz to advantage incumbents
 - **C2 (Rope/Degraded):** Opposition coordination mechanisms (can they unite or fragment?)
 - **C3 (Mountain):** EU pressure, economic constraints, demographic trends
 
@@ -77,7 +77,7 @@ Orbán has engineered electoral system to create structural advantage—gerryman
 
 **Falsification Thresholds:**
 - If opposition wins majority despite structural disadvantage → Coordination Rope stronger than Fidesz Snare
-- If Fidesz wins plurality but not majority → System is Noose (suppresses opposition but doesn't eliminate)
+- If Fidesz wins plurality but not majority → System is Snare (suppresses opposition but doesn't eliminate)
 - If Fidesz wins supermajority again → System is Mountain (opposition structurally unable to win)
 
 **UKE_F Value:**
@@ -88,7 +88,7 @@ Can model opposition coordination as measurable variable—how many parties in c
 ### #2124 - When will there next be a shutdown of the US federal government?
 **Why UKE_F Applies:**
 - **C1 (Rope/Piton Hybrid):** Budget process is coordination mechanism, but increasingly dysfunctional
-- **C2 (Noose):** Debt ceiling creates recurring hostage situations
+- **C2 (Snare):** Debt ceiling creates recurring hostage situations
 - **C3 (Mountain):** Constitutional appropriations requirement
 
 **Constraint Mechanism:**
@@ -100,7 +100,7 @@ Shutdowns occur when coordination Rope fails under strain. Predictable stress po
 **Falsification Thresholds:**
 - If shutdown occurs before May 2026 → Coordination Rope very weak (Republican caucus can't govern)
 - If no shutdown through 2026 → Coordination Rope functional (even under Trump)
-- If shutdown coincides with debt ceiling → Noose mechanism active (hostage-taking works)
+- If shutdown coincides with debt ceiling → Snare mechanism active (hostage-taking works)
 
 **UKE_F Value:**
 Standard forecasting treats shutdowns as discrete events. Constraint approach models underlying coordination capacity and tracks degradation. Can predict shutdown timing based on when coordination demand exceeds capacity.
@@ -112,7 +112,7 @@ Standard forecasting treats shutdowns as discrete events. Constraint approach mo
 ### #1953/#1954 - Russia-Ukraine ceasefire/peace agreement timing
 **Why UKE_F Might Apply:**
 - **C1 (Mountain):** Military balance, territorial control, resource depletion
-- **C2 (Rope/Noose):** Western support as coordination mechanism (if it holds) or extraction mechanism (if conditioned on concessions)
+- **C2 (Rope/Snare):** Western support as coordination mechanism (if it holds) or extraction mechanism (if conditioned on concessions)
 - **C3 (Potential Mechanism):** Trump administration pressure creates new constraint
 
 **Constraint Mechanism:**
@@ -135,7 +135,7 @@ High stochasticity—individual battlefield events, leadership health, external 
 ### #1995/#2057 - IDF withdrawal from Gaza/Lebanon timing
 **Why UKE_F Might Apply:**
 - **C1 (Mountain):** Military objectives (Hamas degradation, Hezbollah pushback)
-- **C2 (Rope/Noose):** US pressure as coordination or extraction mechanism
+- **C2 (Rope/Snare):** US pressure as coordination or extraction mechanism
 - **C3 (Domestic Constraint):** Israeli political stability (Netanyahu coalition)
 
 **Constraint Mechanism:**

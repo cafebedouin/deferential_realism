@@ -14,7 +14,7 @@ This document does NOT claim to know:
 
 This document DOES explain:
 - What we mean by "constraint" operationally
-- How Mountains/Ropes/Nooses/Scaffolds differ **structurally**
+- How Mountains/Ropes/Snares/Scaffolds differ **structurally**
 - Why these structural differences matter for classification and response
 - How the framework connects to existing philosophical traditions
 
@@ -122,7 +122,7 @@ Ropes typically address coordination problems created by Mountains. Example: Tra
 
 The structural properties (decay rate, maintenance needs, coordination function) hold regardless of metaphysical interpretation.
 
-### C. Nooses: Extractive Constraints
+### C. Snares: Extractive Constraints
 
 **Structural properties:**
 - **Rapid snap-back:** Collapse quickly when enforcement stops
@@ -150,7 +150,7 @@ The structural properties (decay rate, maintenance needs, coordination function)
 - Alternative arrangements possible and often better
 
 **Structural relationship to Ropes:**
-Nooses often disguise themselves as Ropes. Key distinction: Ropes serve coordination (mutual benefit), Nooses serve extraction (asymmetric benefit). The **implementation gap** reveals this—what it claims to do vs. what it actually does.
+Snares often disguise themselves as Ropes. Key distinction: Ropes serve coordination (mutual benefit), Snares serve extraction (asymmetric benefit). The **implementation gap** reveals this—what it claims to do vs. what it actually does.
 
 **Metaphysical interpretation left open:** Whether extraction is:
 - False consciousness (Marxist ideology)
@@ -184,12 +184,12 @@ The structural properties (snap-back rate, beneficiary patterns, enforcement nee
 
 **Why this matters structurally:**
 - Legitimacy tied to temporality
-- Calcification into permanence = becomes Noose
+- Calcification into permanence = becomes Snare
 - Requires honest timeline (not indefinite "temporary")
 - Removal is success signal, not failure
 
 **Structural relationship to other types:**
-Scaffolds manage transitions between constraint regimes. Example: Moving from Noose to Rope requires Scaffold—can't just remove extraction without supporting affected parties during adjustment.
+Scaffolds manage transitions between constraint regimes. Example: Moving from Snare to Rope requires Scaffold—can't just remove extraction without supporting affected parties during adjustment.
 
 **Metaphysical interpretation left open:** Whether temporality is:
 - Fundamental to being (Heideggerian)
@@ -200,7 +200,7 @@ Scaffolds manage transitions between constraint regimes. Example: Moving from No
 
 The structural properties (sunset clauses, purpose-driven existence, self-negation) hold regardless.
 
-### E. Zombies: Vestigial Constraints
+### E. Pitons: Vestigial Constraints
 
 **Structural properties:**
 - **Momentum without purpose:** Continue despite solving no current problem
@@ -221,12 +221,12 @@ The structural properties (sunset clauses, purpose-driven existence, self-negati
 - Legacy systems (keep because switching costs)
 
 **Why this matters structurally:**
-- Different from Nooses (no beneficiary extracting)
+- Different from Snares (no beneficiary extracting)
 - Different from Ropes (serve no coordination function)
 - Waste energy without serving any purpose
 - Removal faces bureaucratic inertia, not power resistance
 
-**Metaphysical status uncertain:** Is Zombie a fifth fundamental type, or a degradation state of Ropes? Current evidence suggests degradation state—Ropes that lost function when environment changed. But pattern is common enough (36% of corpus show Zombie features) to warrant attention.
+**Metaphysical status uncertain:** Is Piton a fifth fundamental type, or a degradation state of Ropes? Current evidence suggests degradation state—Ropes that lost function when environment changed. But pattern is common enough (36% of corpus show Piton features) to warrant attention.
 
 ---
 
@@ -244,7 +244,7 @@ The four types require **structurally different responses** because they have di
 - Serve genuine coordination function
 - Response: Maintain if functional, reform if degrading, replace if better alternative exists
 
-**Nooses:**
+**Snares:**
 - Can be removed without system collapse
 - Serve extraction, not coordination
 - Response: Expose, resist, dismantle when possible
@@ -254,16 +254,16 @@ The four types require **structurally different responses** because they have di
 - Calcification into permanence = structural failure
 - Response: Use temporarily, dismantle completely
 
-**Zombies:**
+**Pitons:**
 - Should be removed to stop energy waste
 - No power resistance, just inertia
 - Response: Delete, don't fight
 
 **The pragmatic point:** If you misclassify constraint type, you choose wrong response:
-- Fight Mountain as Noose → exhaust yourself fighting unchangeable reality
-- Accept Noose as Mountain → surrender to changeable injustice
-- Destroy Rope as Noose → collapse coordination enabling collective action
-- Maintain Zombie as Rope → waste energy on obsolete structures
+- Fight Mountain as Snare → exhaust yourself fighting unchangeable reality
+- Accept Snare as Mountain → surrender to changeable injustice
+- Destroy Rope as Snare → collapse coordination enabling collective action
+- Maintain Piton as Rope → waste energy on obsolete structures
 
 **Metaphysical neutrality:** This response logic works whether you think:
 - Constraints are fundamental (process philosophy)
@@ -284,50 +284,50 @@ How do we distinguish constraint types? Through **empirical measurement**, not m
 **Method:** Remove enforcement, observe what happens
 - Mountain: Zero decay (gravity persists without enforcement)
 - Rope: Slow decay (traffic patterns degrade gradually without lights)
-- Noose: Rapid snap-back (artificial scarcity collapses immediately)
+- Snare: Rapid snap-back (artificial scarcity collapses immediately)
 - Scaffold: Designed dissolution (sunset clause triggers)
-- Zombie: Gradual dissolution (no one maintains, eventually forgotten)
+- Piton: Gradual dissolution (no one maintains, eventually forgotten)
 
 ### Test 2: Scope
 **Method:** Check cross-cultural and historical variation
 - Mountain: Universal (all societies face thermodynamics)
 - Rope: Variable (different traffic rules work in different places)
-- Noose: Asymmetric (some groups bound, others benefit)
+- Snare: Asymmetric (some groups bound, others benefit)
 - Scaffold: Transitional (exists only during change period)
-- Zombie: Path-dependent (specific to this institution's history)
+- Piton: Path-dependent (specific to this institution's history)
 
 ### Test 3: Violation Consequences
 **Method:** What happens when violated?
 - Mountain: System failure from reality (try to fly, fall)
 - Rope: Coordination failure (collisions increase)
-- Noose: Punishment from beneficiaries (power responds)
+- Snare: Punishment from beneficiaries (power responds)
 - Scaffold: Depends—if during transition, function fails; if after, nothing
-- Zombie: Nothing (no one enforces, no one cares)
+- Piton: Nothing (no one enforces, no one cares)
 
 ### Test 4: Beneficiary Pattern
 **Method:** Who gains from constraint persisting?
 - Mountain: N/A (not maintained by agents)
 - Rope: Mutual benefit (everyone gains from coordination)
-- Noose: Asymmetric (specific groups win)
+- Snare: Asymmetric (specific groups win)
 - Scaffold: Transition-enablers (those being supported)
-- Zombie: No one (everyone complains)
+- Piton: No one (everyone complains)
 
 ### Test 5: Counterfactual Viability
 **Method:** Can underlying problem be solved differently?
 - Mountain: No alternatives (cannot solve thermodynamics differently)
 - Rope: Multiple solutions (many traffic systems work)
-- Noose: Better alternatives exist (serves extraction, not necessity)
+- Snare: Better alternatives exist (serves extraction, not necessity)
 - Scaffold: Temporary necessity only (not needed after transition)
-- Zombie: Problem no longer exists (solution outlived need)
+- Piton: Problem no longer exists (solution outlived need)
 
 **These are empirical tests, not metaphysical proofs.** They measure structural properties, not ultimate nature.
 
 **Confidence levels vary:**
 - High for Mountains (easy to test, clear results)
 - Medium for Ropes (requires observing coordination patterns)
-- Low for Nooses (power conceals extraction)
+- Low for Snares (power conceals extraction)
 - Medium for Scaffolds (sunset clauses make temporality explicit)
-- Low for Zombies (hard to prove negative—"no one benefits")
+- Low for Pitons (hard to prove negative—"no one benefits")
 
 ---
 
@@ -343,7 +343,7 @@ Example: Humans need food (biological necessity)
 **Layer 2: Rope (coordination solution)**
 Example: Agriculture, markets, distribution systems
 
-**Layer 3: Noose (extractive capture)**
+**Layer 3: Snare (extractive capture)**
 Example: Artificial scarcity through monopoly control
 
 **Why this matters:** Can acknowledge genuine problem (Layer 1) while challenging extractive implementation (Layer 3). Don't have to reject coordination (Layer 2) to resist extraction.
@@ -352,25 +352,25 @@ Example: Artificial scarcity through monopoly control
 
 Constraints can transition between types:
 
-**Rope → Tangled Rope → Noose**
+**Rope → Tangled Rope → Snare**
 - Functional coordination mechanism (Rope)
 - Power captures mechanism (Tangled Rope—hybrid)
-- Extraction dominates, coordination becomes excuse (Noose)
+- Extraction dominates, coordination becomes excuse (Snare)
 
-**Rope → Zombie**
+**Rope → Piton**
 - Functional coordination (Rope)
 - Environment changes, function no longer needed
-- Persists through inertia (Zombie)
+- Persists through inertia (Piton)
 
 **Scaffold → Rope**
 - Temporary support (Scaffold)
 - Sunset clause removed or ignored
 - Becomes permanent structure (Rope)
 
-**Scaffold → Noose**
+**Scaffold → Snare**
 - Temporary support (Scaffold)
 - Beneficiaries resist removal
-- Calcifies into extraction (Noose)
+- Calcifies into extraction (Snare)
 
 **Measurement approach:** Track trajectory through constraint-space over time. Degradation is empirically observable through changes in beneficiary patterns, decay rates, and enforcement requirements.
 
@@ -414,21 +414,21 @@ The framework's structural categories have parallels in various traditions. This
 - DR: Ropes create shared frameworks enabling action
 - Difference: DR includes decay measurement and replacement possibility
 
-### Nooses Parallel:
+### Snares Parallel:
 
 **Marx's Ideology:**
 - False consciousness serving class interests
-- DR: Nooses disguise extraction as necessity
+- DR: Snares disguise extraction as necessity
 - Difference: DR doesn't assume economic base determines all (multiple types of extraction)
 
 **Foucault's Power-Knowledge:**
 - Truth claims serve disciplinary power
-- DR: Nooses use naturalization rhetoric
+- DR: Snares use naturalization rhetoric
 - Difference: DR allows for non-power constraints (Mountains exist)
 
 **Bourdieu's Symbolic Violence:**
 - Naturalization of arbitrary social divisions
-- DR: Implementation gap reveals Noose structure
+- DR: Implementation gap reveals Snare structure
 - Difference: DR provides empirical tests (beneficiary analysis, snap-back rate)
 
 ### Scaffolds Parallel:
@@ -481,7 +481,7 @@ The framework's structural categories have parallels in various traditions. This
 ### A. The Boundary Problem
 
 Some constraints sit near category boundaries:
-- Extraction rate = 0.32, right at Rope/Noose threshold
+- Extraction rate = 0.32, right at Rope/Snare threshold
 - Short-term vs. long-term: Mountain on biographical timescale, Rope on civilizational timescale
 - Hybrid structures: Genuine coordination + extractive capture (Tangled Rope)
 
@@ -494,7 +494,7 @@ Classification requires measurement. Measurement requires access. Power limits a
 **Asymmetry:**
 - Mountains: Easy to verify (test gravity safely)
 - Ropes: Medium difficulty (observe coordination patterns)
-- Nooses: Hardest (power conceals extraction)
+- Snares: Hardest (power conceals extraction)
 
 **Implication:** Confidence inversely proportional to power concentration.
 
@@ -505,7 +505,7 @@ Classification requires measurement. Measurement requires access. Power limits a
 Constraints change over time:
 - Mountains erode on cosmic timescales (new technology sometimes converts scarcity to abundance)
 - Ropes calcify or degrade
-- Nooses collapse when power shifts
+- Snares collapse when power shifts
 - Scaffolds either dissolve or calcify
 
 **Current approach:** Track trajectory, update classifications. But dynamics are harder to measure than static properties.
@@ -548,9 +548,9 @@ Same structural properties (decay rate, enforcement needs, scope) apply across:
 Classification directly implies response:
 - Mountain → Accept, navigate
 - Rope → Maintain, reform
-- Noose → Expose, resist
+- Snare → Expose, resist
 - Scaffold → Use, dissolve
-- Zombie → Bypass
+- Piton → Bypass
 
 **Achievement:** Ontology structured for action-guidance, not just contemplation
 

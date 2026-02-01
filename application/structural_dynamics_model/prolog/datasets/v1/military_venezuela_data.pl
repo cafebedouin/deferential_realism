@@ -27,19 +27,19 @@ constraint_claim(oil_dependency_trap, mountain).
 constraint_metric(oil_dependency_trap, accessibility_collapse, 0.95).
 
 % Snare: International Financial Sanctions. A closing circle that traps the state's ability to settle accounts.
-constraint_claim(financial_sanctions_noose, snare).
-constraint_metric(financial_sanctions_noose, stakes_inflation, 0.92).
+constraint_claim(financial_sanctions_snare, snare).
+constraint_metric(financial_sanctions_snare, stakes_inflation, 0.92).
 
 % Piton: Absolute Westphalian Sovereignty. A 'dead' principle cited by the state while economic control is externalized.
-constraint_claim(zombie_sovereignty, piton).
-constraint_metric(zombie_sovereignty, suppression, 0.85).
+constraint_claim(piton_sovereignty, piton).
+constraint_metric(piton_sovereignty, suppression, 0.85).
 
 % --- 4. Recommendations & Veto Structure ---
 recommendation(rec01, 'Adopt a neutral regional mediation framework to bypass binary leadership conflicts.').
 recommendation(rec02, 'Automate humanitarian aid corridors via non-aligned international bodies to reduce elite gatekeeping.').
 
-affects_constraint(rec01, zombie_sovereignty).
-affects_constraint(rec02, financial_sanctions_noose).
+affects_constraint(rec01, piton_sovereignty).
+affects_constraint(rec02, financial_sanctions_snare).
 
 veto_actor(us_state_dept).
 veto_actor(ruling_chavista_elite).

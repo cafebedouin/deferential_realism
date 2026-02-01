@@ -34,7 +34,7 @@ constraint_metric(general_case_hardness, extractiveness, 0.99).
 constraint_metric(general_case_hardness, suppression_requirement, 0.85).
 
 % 4. RECOMMENDATIONS & VETO POINTS
-recommendation(rec_01, cut_noose_via_held_karp_scaffold).
+recommendation(rec_01, cut_snare_via_held_karp_scaffold).
 affects_constraint(rec_01, general_case_hardness).
 
 recommendation(rec_02, utilize_dynamic_programming_to_reform_search_density).

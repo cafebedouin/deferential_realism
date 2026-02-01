@@ -271,12 +271,12 @@ validate_edge_cases :-
             (narrative_ontology:constraint_metric(C, suppression_requirement, S),
              narrative_ontology:constraint_metric(C, resistance_to_change, R),
              S > 0.3, R < 0.1),
-            Zombies),
+            Pitons),
 
-    length(Zombies, ZombieCount),
-    (ZombieCount > 0
-    -> (format('  ⚠ ~w potential piton(s) detected~n', [ZombieCount]),
-        forall(member(C, Zombies),
+    length(Pitons, PitonCount),
+    (PitonCount > 0
+    -> (format('  ⚠ ~w potential piton(s) detected~n', [PitonCount]),
+        forall(member(C, Pitons),
                (narrative_ontology:constraint_metric(C, suppression_requirement, S),
                 narrative_ontology:constraint_metric(C, resistance_to_change, R),
                 format('    - ~w (S=~2f but R=~2f < 0.1)~n', [C, S, R]),

@@ -26,8 +26,8 @@ Consider a massive infrastructure project that pumps water hundreds of miles to 
 
 * **FOR individual residents [Powerless]: Mountain.** The water comes out of the tap at a fixed price and quality. You cannot personally change the pipes or the reservoir. It is a given fact of your reality that must be navigated—you either pay the bill or you have no water.
 * **FOR the city engineer [Institutional]: Rope.** A complex coordination mechanism designed to prevent disease and ensure fire safety. It is a tool that requires active maintenance and structural integrity to solve a collective problem.
-* **For golfing businesses [Institutional] / for individual residents [Powerless]:** Short-term rope / Long-term Noose. Coopt a system supplying residents with life-giving water (Rope) to sustaining ornamental desert grass, undermining long-term water supply. 
-* **FOR the future individual resident [Analytical/Historical]: Zombie.** The water system exists but no water comes out. They need to decide whether to join institutions for reform of leave.
+* **For golfing businesses [Institutional] / for individual residents [Powerless]:** Short-term rope / Long-term Snare. Coopt a system supplying residents with life-giving water (Rope) to sustaining ornamental desert grass, undermining long-term water supply. 
+* **FOR the future individual resident [Analytical/Historical]: Piton.** The water system exists but no water comes out. They need to decide whether to join institutions for reform of leave.
 
 **The Lesson:** Truth is not anchored to a single index but emerges from the intersection of many: agent, time, location, power, relation, material, and institutional context. DR treats each constraint as a multi‑dimensional object rather than a single‑label category.
 
@@ -37,11 +37,11 @@ All of the above can be **objectively true**. The "clash" is not over the facts 
 
 ## III · Unifying Principles
 
-* **Understand Constraints:** Identify the constraints that affect you: mountains, ropes, nooses and zombies (Epistemology)
+* **Understand Constraints:** Identify the constraints that affect you: mountains, ropes, snares and pitons (Epistemology)
 * **Truth is Indexed:** Truth varies with frame, understand the constraints limiting the view and agency of others (Metaphysics)
 * **Reason is Scoped:** Constraint and freedom has its own logic (Logic)
-* **The Index is Dynamic:** The rope of today can be the noose of tomorrow. Track evolution with omegas: the specific missing data, undefined term, or value conflict that stops classification or changes it. (Meta-Epistemology)
-* **Energy Conservation & Focus:** Build ropes and scaffolds, cut nooses and avoid/eliminate zombies (Ethics)
+* **The Index is Dynamic:** The rope of today can be the snare of tomorrow. Track evolution with omegas: the specific missing data, undefined term, or value conflict that stops classification or changes it. (Meta-Epistemology)
+* **Energy Conservation & Focus:** Build ropes and scaffolds, cut snares and avoid/eliminate pitons (Ethics)
 * **Elegant Alignment:** Alignment is the art of living inside the possible, and rejecting the impossible. Knowing what something is and what you can do about it, free of delusion is beautiful.
 
 ---
@@ -118,16 +118,16 @@ Example:
 **Medieval Church Doctrine (c. 1200 CE):**
 - FOR serf [powerless/biographical/trapped/local]: **Mountain** - unchangeable like gravity
 - FOR Pope [institutional/generational/fluid/global]: **Rope** - coordination mechanism requiring active maintenance
-- FOR modern historian [analytical/historical/analytical/global]: **Noose** - extractive structure that eventually collapsed
+- FOR modern historian [analytical/historical/analytical/global]: **Snare** - extractive structure that eventually collapsed
 
 All three classifications are TRUE. Different indices → different valid answers → different appropriate actions.
 
 **Why this framework matters practically:**
 
-1. **Resolves apparent contradictions** - "Is X a Mountain or a Noose?" is ill-formed without index specification
+1. **Resolves apparent contradictions** - "Is X a Mountain or a Snare?" is ill-formed without index specification
 2. **Explains persistent disagreements** - People evaluate from unstated positions, *revealing the hidden power relations that drive political conflict*
 3. **Guides strategic action** - What appears unchangeable to an individual may be reformable collectively
-4. **Prevents both fatalism and hubris** - Powerless agents shouldn't fight Mountains; powerful agents shouldn't treat Nooses as Mountains
+4. **Prevents both fatalism and hubris** - Powerless agents shouldn't fight Mountains; powerful agents shouldn't treat Snares as Mountains
 
 This converts ideological battles into empirical mapping exercises. It's epistemology *as experienced politics* - knowledge claims embedded in power structures.
 
@@ -165,7 +165,7 @@ Deferential Realism classifies constraints into five types based on their origin
 
 **Why this category is essential:** Most real-world constraints aren't pure types. Reform requires distinguishing the coordination core from extractive barnacles. "Just remove it" loses coordination benefits; "just maintain it" perpetuates extraction. Tangled Rope identifies the strategic middle path.
 
-### 4. Noose (Extractive Structures)
+### 4. Snare (Extractive Structures)
 **Definition:** Primarily extractive constraints that concentrate power/wealth with minimal coordination benefit.
 
 **Epistemic test:** If enforcement stopped, would the constraint collapse immediately?  
@@ -173,7 +173,7 @@ Deferential Realism classifies constraints into five types based on their origin
 **Strategy:** Replace (with Scaffold if load-bearing). Cut. Exit.  
 **Quantification:** κ > 0.65, Extraction > 0.65
 
-### 5. Zombie (Counterproductive Remnants)
+### 5. Piton (Counterproductive Remnants)
 **Definition:** Constraints that persist despite harming nearly all participants, maintained by inertia, switching costs, or coordination failure rather than any party's benefit.
 
 **Epistemic test:** (1) Does almost everyone involved wish it would disappear? (2) Are there obvious viable alternatives? (3) Yet it persists anyway?  
@@ -182,7 +182,7 @@ Deferential Realism classifies constraints into five types based on their origin
 - Legacy government forms requiring obsolete information nobody uses
 - Vestigial professional licensing for low-risk occupations
 - Outdated compliance procedures that add cost without safety benefit
-- Zombie meetings that accomplish nothing but continue by habit
+- Piton meetings that accomplish nothing but continue by habit
 
 **Strategy:** Bypass when possible, coordinate to remove when switching costs can be shared. Don't waste energy fighting as if it were a conspiracy - it's organizational autopilot, not malice.  
 
@@ -193,16 +193,16 @@ Deferential Realism classifies constraints into five types based on their origin
 - Technology exists and is cheaper, faster, more secure
 - Yet many regulations still require fax for "official" transmission
 - Persists due to regulatory inertia, not active beneficiary
-- Classification: Zombie (low coordination value, no beneficiary, high persistence)
+- Classification: Piton (low coordination value, no beneficiary, high persistence)
 - Action: Route around (use allowed alternatives), coordinate industry pressure for update
 
-**Why separate from Noose:** Nooses have beneficiaries actively maintaining them. Zombies persist despite *absence* of beneficiaries - pure institutional inertia or coordination failure. Confusing the two leads to fighting conspiracies that don't exist.
+**Why separate from Snare:** Snares have beneficiaries actively maintaining them. Pitons persist despite *absence* of beneficiaries - pure institutional inertia or coordination failure. Confusing the two leads to fighting conspiracies that don't exist.
 
 ---
 
 ## Multi-Level Hierarchical Analysis
 
-Constraints operate simultaneously at four levels, each requiring independent measurement. **Important:** These levels are not nested hierarchies (where individual sits "inside" class sits "inside" organization). They are simultaneous analytical perspectives with different influence on system behavior. A constraint can be Mountain at individual level while being Noose at class level - both are true at once.
+Constraints operate simultaneously at four levels, each requiring independent measurement. **Important:** These levels are not nested hierarchies (where individual sits "inside" class sits "inside" organization). They are simultaneous analytical perspectives with different influence on system behavior. A constraint can be Mountain at individual level while being Snare at class level - both are true at once.
 
 | Level | Influence Weight | What It Measures |
 |-------|-----------------|------------------|
@@ -211,7 +211,7 @@ Constraints operate simultaneously at four levels, each requiring independent me
 | **Class** | 20% | Group power positions, collective action capacity |
 | **Individual** | 10% | Personal experience, immediate navigation options |
 
-**Critical insight:** A constraint can be Mountain at individual level (cannot personally change), Rope at organizational level (maintained by institution), and Noose at class level (extracting from specific group). **Single-level analysis yields contradictory results** - you must specify which level you're analyzing.
+**Critical insight:** A constraint can be Mountain at individual level (cannot personally change), Rope at organizational level (maintained by institution), and Snare at class level (extracting from specific group). **Single-level analysis yields contradictory results** - you must specify which level you're analyzing.
 
 **Kappa (κ) - Quantifying Magnitude:**
 
@@ -347,12 +347,12 @@ International carbon trading schemes where companies buy/sell emission permits t
 | Level | Type | κ Range | Key Insight |
 |-------|------|---------|-------------|
 | **Structural** | Tangled Rope | 0.42-0.48 | Climate coordination needed, current implementation extractive |
-| **Organizational** | Rope/Noose split | 0.30-0.40 / 0.62-0.68 | Works for large firms, fails small firms |
-| **Class** | Noose (developing nations) | 0.68-0.72 | Emission permits favor historical emitters |
+| **Organizational** | Rope/Snare split | 0.30-0.40 / 0.62-0.68 | Works for large firms, fails small firms |
+| **Class** | Snare (developing nations) | 0.68-0.72 | Emission permits favor historical emitters |
 | **Individual** | Mountain | 0.12-0.18 | No personal agency, prices appear as given |
 
 **System Gradient:** Gₛᵧₛ = +0.02/year (increasing extraction)  
-**Trend:** Moving from Rope (initial design) → Tangled Rope (current) → Noose (projected)
+**Trend:** Moving from Rope (initial design) → Tangled Rope (current) → Snare (projected)
 
 ---
 
@@ -391,7 +391,7 @@ CONCLUSION: False necessity claim - policy choice presented as natural law
 - Adapt consumption where feasible
 - Support collective action politically
 
-**For Activist [Noose]:**
+**For Activist [Snare]:**
 - Document extraction mechanisms
 - Build coalition for alternative policies
 - Expose necessity claims as constructed
@@ -418,13 +418,13 @@ CONCLUSION: False necessity claim - policy choice presented as natural law
 - **Question:** Can I personally change this, or is this unchangeable from my position?
 - **Action:** Navigate (adapt consumption), support collective political action
 
-**For Activist [Noose]:**
+**For Activist [Snare]:**
 - **Virtue:** Resistance - but with Scaffold ethic (build replacement before cutting)
 - **Question:** If we remove this, what fills the vacuum? Do we cause worse harm?
 - **Action:** Design carbon tax + dividend as load-bearing alternative, transition carefully
 
 **Universal Principles (All Positions):**
-- **Anti-fraud:** Don't misclassify to serve your interests (don't call Rope "Noose" or Noose "Mountain")
+- **Anti-fraud:** Don't misclassify to serve your interests (don't call Rope "Snare" or Snare "Mountain")
 - **Energy accounting:** Allocate finite resources strategically (fight winnable battles from your position)
 - **Calibration:** Update classifications when evidence contradicts you (reality corrects, respond gracefully)
 
@@ -438,7 +438,7 @@ There is no universal truth to "Are carbon credits good?" The question is ill-fo
 - Good for large institutions (Rope)
 - Mixed for small firms (Tangled Rope - needs reform)
 - Irrelevant for individuals (Mountain - no agency)
-- Bad for climate goals (Noose - extraction without benefit)
+- Bad for climate goals (Snare - extraction without benefit)
 
 All four are simultaneously TRUE. The framework makes this explicit rather than forcing false consensus.
 
@@ -465,7 +465,7 @@ This enables **strategic precision**: preserve coordination function while remov
 **Old approach:** Classify once, act forever  
 **New approach:** Track temporal gradients (Gₛᵧₛ), predict transformations
 
-Ropes can become Tangled Ropes (coordination captures). Nooses can become Zombies (extraction stops working). The framework tracks these evolutions.
+Ropes can become Tangled Ropes (coordination captures). Snares can become Pitons (extraction stops working). The framework tracks these evolutions.
 
 ### 4. From Claimed Necessity to Testable Signatures
 
@@ -487,9 +487,9 @@ There's no view from nowhere, but there IS a systematic way to map the view from
 
 All classifications include confidence levels:
 
-- **HIGH:** Mountains (physics testable), clear Nooses (beneficiaries obvious)
+- **HIGH:** Mountains (physics testable), clear Snares (beneficiaries obvious)
 - **MEDIUM:** Ropes (coordination genuine but improvements possible), Tangled Ropes (extraction measurable but debatable)
-- **LOW:** Zombies (hard to verify no one benefits), edge cases between categories
+- **LOW:** Pitons (hard to verify no one benefits), edge cases between categories
 
 **The framework acknowledges:**
 - Measurement requires access (power limits observation)
@@ -689,7 +689,7 @@ This Core Principles document has undergone **internal testing and iterative ref
 **Answer:** Indexical relativity + complete worked example
 
 ~~10. What's the weakest part?~~  
-**Answer:** Zombie category (now strengthened)
+**Answer:** Piton category (now strengthened)
 
 ---
 

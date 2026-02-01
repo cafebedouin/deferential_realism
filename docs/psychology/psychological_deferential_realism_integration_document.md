@@ -4,7 +4,7 @@
 
 ### The Core Problem
 
-Deferential Realism provides an ontology of external constraints: gravity, laws, social coordination, market forces. It distinguishes mountains (unchangeable), ropes (coordination), and nooses (extraction). It offers methodology—Depth Inquiry—for testing constraint-claims.
+Deferential Realism provides an ontology of external constraints: gravity, laws, social coordination, market forces. It distinguishes mountains (unchangeable), ropes (coordination), and snares (extraction). It offers methodology—Depth Inquiry—for testing constraint-claims.
 
 But it lacks an **internal topology**. 
 
@@ -74,7 +74,7 @@ The Unabomber's observation: modern life consists largely of "surrogate activiti
 3. Distinguish discomfort (detritus reaction) from damage (substrate violation)
 4. Calibrate through repeated stress-testing
 
-**2. Internal Detritus (Zombie Constraints)**
+**2. Internal Detritus (Piton Constraints)**
 
 Accumulated pattern-residue that *feels* like constraint but can be cleared without consequence:
 
@@ -133,7 +133,7 @@ F07 (Premature Certainty Demand) = clarity fetish operating as fracture. The dem
 
 **From the Ulysses Document:**
 
-Stephen Dedalus can see all frames clearly. The clarity doesn't save him—it creates a different trap. His intelligence becomes a noose: "he cannot not-know what he knows." The seeing becomes its own constraint.
+Stephen Dedalus can see all frames clearly. The clarity doesn't save him—it creates a different trap. His intelligence becomes a snare: "he cannot not-know what he knows." The seeing becomes its own constraint.
 
 **The Trap of Perfect Transparency:**
 - You can see all the frames
@@ -459,7 +459,7 @@ Selective permeability based on reciprocity. Let in what serves both parties. Ke
 "We'll check in daily about schedules" = rope
 Membrane: Accept this constraint because it coordinates. If it stops serving both parties, renegotiate.
 
-**3. What you refuse (extraction—nooses)**
+**3. What you refuse (extraction—snares)**
 
 Things that take more than they give:
 - Coercive demands
@@ -471,14 +471,14 @@ Things that take more than they give:
 Impermeable. This doesn't cross the boundary.
 
 **Example:**
-"You should sacrifice your sleep to meet my needs" = noose attempting to cross
+"You should sacrifice your sleep to meet my needs" = snare attempting to cross
 Membrane: No. This violates substrate (sleep need) and extracts without reciprocity.
 
 ### The Diagnostic Question
 
 When something is trying to cross your boundary:
 
-**"Is this substrate, rope, or noose?"**
+**"Is this substrate, rope, or snare?"**
 
 **If substrate:**
 - Accept it (resistance wastes energy)
@@ -490,10 +490,10 @@ When something is trying to cross your boundary:
 - Ensure reciprocity
 - Maintain flexibility for renegotiation
 
-**If noose:**
+**If snare:**
 - Refuse
 - Maintain impermeability
-- Don't justify (nooses will argue with your reasons)
+- Don't justify (snares will argue with your reasons)
 
 ### The Boundary Check-In Protocol
 
@@ -503,12 +503,12 @@ From `boundary_check_in.md`:
 Something feels wrong. What is it?
 
 **2. Classify the constraint**
-Is this thing crossing my boundary a mountain, rope, or noose?
+Is this thing crossing my boundary a mountain, rope, or snare?
 
 **3. Check membrane permeability**
 - If mountain → should have let it through (adjust permeability)
 - If rope → negotiate explicitly (adjust terms)
-- If noose → should have blocked it (strengthen impermeability)
+- If snare → should have blocked it (strengthen impermeability)
 
 **4. Adjust membrane settings**
 Based on classification, update your permeability for this type of constraint.
@@ -523,12 +523,12 @@ From `gaslighting_guide.md`:
 Gaslighting works by **misclassifying constraints:**
 
 **"Your need for sleep is unreasonable" →**
-Attempts to reclassify substrate (biological need) as noose (unreasonable demand)
+Attempts to reclassify substrate (biological need) as snare (unreasonable demand)
 Proper classification: Mountain. Not negotiable.
 
 **"If you loved me you'd do X" →**
-Attempts to reclassify noose (coercion) as rope (mutual obligation)
-Proper classification: Noose. Refuse.
+Attempts to reclassify snare (coercion) as rope (mutual obligation)
+Proper classification: Snare. Refuse.
 
 **"Everyone does this, you're the problem" →**
 Attempts to reclassify your boundary as defect
@@ -706,7 +706,7 @@ By testing attributions systematically, you prevent attribution inversion fractu
 - **Adapt**: Let it shape your structure
 - Example: Need for sleep → structure schedule around it
 
-**If Detritus (Zombie Constraint):**
+**If Detritus (Piton Constraint):**
 - **Investigate**: When/why did this form?
 - **Test edges**: What happens if I violate it slightly?
 - **Clear if possible**: If no real consequences, release the pattern
@@ -740,7 +740,7 @@ By testing attributions systematically, you prevent attribution inversion fractu
 - Ensure reciprocity
 - Maintain flexibility
 
-**Noose → Impermeability**
+**Snare → Impermeability**
 - Refuse entry
 - Don't justify
 - Maintain boundary
@@ -838,7 +838,7 @@ Externalist diagnostic mode. Test before concluding.
 Selective permeability based on constraint classification.
 
 **Application:**
-Mountains → let through. Ropes → negotiate. Nooses → refuse.
+Mountains → let through. Ropes → negotiate. Snares → refuse.
 
 The skill is classification, not just protection.
 
@@ -988,7 +988,7 @@ Name it: Need for quality vs. need to complete. Perfect is enemy of done. Choose
 ### How This Extends DR
 
 **Deferential Realism Provides:**
-- Ontology of external constraints (mountains, ropes, nooses)
+- Ontology of external constraints (mountains, ropes, snares)
 - Methodology for testing claims (Depth Inquiry)
 - Framework for navigation (defer to what you can't change, choose frame within that)
 
@@ -1007,7 +1007,7 @@ Reality → Constraint Classification → Navigation Strategy
   ↓           ↓                            ↓
 Gravity    Mountain (defer)           Build around it
 Law        Rope (coordinate)          Negotiate terms
-Coercion   Noose (resist)             Refuse/escape
+Coercion   Snare (resist)             Refuse/escape
 ```
 
 **Internal Constraints (Psychological DR):**
@@ -1028,7 +1028,7 @@ Paradox      Containment (hold)          Choose frame, accept partial
 1. Notice claim ("this market requires X")
 2. Investigate structure (what makes it seem necessary?)
 3. Test edges (what happens if we violate it?)
-4. Classify (mountain, rope, or noose?)
+4. Classify (mountain, rope, or snare?)
 
 **For Internal Claims:**
 1. Notice claim ("I can't do public speaking")
@@ -1095,7 +1095,7 @@ Am I forcing certainty, demanding it prematurely, inverting attribution, breachi
 Defer, test, drop, or hold—based on classification.
 
 **6. Manage membrane**
-What gets through today? Mountains. What's negotiable? Ropes. What's refused? Nooses.
+What gets through today? Mountains. What's negotiable? Ropes. What's refused? Snares.
 
 **7. Document and learn**
 What did I think the constraint was? What was it actually? Update calibration.

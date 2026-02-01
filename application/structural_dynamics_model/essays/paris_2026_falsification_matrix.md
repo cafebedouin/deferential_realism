@@ -1,15 +1,15 @@
 # Paris 2026 Municipal Election: Falsification Matrix
-## Testing the Weakened Noose Hypothesis Against Observable Data
+## Testing the Weakened Snare Hypothesis Against Observable Data
 
 ---
 
 ## Core Claims from Electoral Topology Theory
 
 ### Claim 1: Reform Breaks the Compression Mechanism
-**Hypothesis:** "Reducing the majority bonus from 50% to 25% and allocating 75% of seats proportionally transforms the Noose into a Rope, allowing multi-polar stability instead of binary collapse"
+**Hypothesis:** "Reducing the majority bonus from 50% to 25% and allocating 75% of seats proportionally transforms the Snare into a Rope, allowing multi-polar stability instead of binary collapse"
 
 ### Claim 2: Centrist Viability Persists
-**Hypothesis:** "Under weakened Noose conditions, centrist candidates (Bournazel) should remain viable (>12%) through first round, unlike Full Noose systems where they terminal at 8-10%"
+**Hypothesis:** "Under weakened Snare conditions, centrist candidates (Bournazel) should remain viable (>12%) through first round, unlike Full Snare systems where they terminal at 8-10%"
 
 ### Claim 3: Low Compression Velocity
 **Hypothesis:** "Paris should show compression velocity <1.5 points/week vs. Colombia's 5.6 points/week, demonstrating that electoral mathematics drives compression, not campaign dynamics"
@@ -29,16 +29,16 @@
 
 **Data Required:** Major polling firms (Ifop, Elabe, Ipsos, Cluster17)
 
-| Metric | Weakened Noose Prediction | Full Noose Counterfactual | Falsification Threshold | Interpretation if Threshold Met |
+| Metric | Weakened Snare Prediction | Full Snare Counterfactual | Falsification Threshold | Interpretation if Threshold Met |
 |--------|---------------------------|---------------------------|-------------------------|--------------------------------|
 | **Lists Polling >10%** | 4-5 lists remain viable | Collapse to 2-3 lists | Only 2 lists >10% | Reform failed; binary compression active |
 | **Bournazel Support** | Stable 13-17% | Drops below 10% | <11% | Centrist strangulation occurring despite reform |
-| **Compression Velocity** | <1.5 points/week since Jan 9 | >3 points/week | >2.5 points/week | Topology unchanged; Noose reasserting |
+| **Compression Velocity** | <1.5 points/week since Jan 9 | >3 points/week | >2.5 points/week | Topology unchanged; Snare reasserting |
 | **Grégoire Ceiling** | 32-37% (needs coalition) | >42% (approaching majority) | >40% | Left consolidating hegemonically |
 | **Dati Support** | 24-28% (stable right pole) | >35% (absorbing center-right) | >32% | Right consolidating at center's expense |
 | **Second Round Margins** | Multiple matchups within 5 points | All scenarios >8 point spreads | All polls show >10 point margins | Binary dynamics emerging |
 
-**Critical Test:** If Bournazel drops below 11% AND only 2 lists remain above 10%, the Noose is active despite the 25% bonus reform.
+**Critical Test:** If Bournazel drops below 11% AND only 2 lists remain above 10%, the Snare is active despite the 25% bonus reform.
 
 ---
 
@@ -47,16 +47,16 @@
 
 **Data Required:** Final polling wave, voter certainty metrics, runoff scenarios
 
-| Metric | Weakened Noose Prediction | Full Noose Counterfactual | Falsification Threshold | Interpretation if Threshold Met |
+| Metric | Weakened Snare Prediction | Full Snare Counterfactual | Falsification Threshold | Interpretation if Threshold Met |
 |--------|---------------------------|---------------------------|-------------------------|--------------------------------|
-| **Lists Polling >8%** | 5-6 lists competitive | 3 lists maximum | Only 3 lists >8% | Late compression; Noose tightening |
+| **Lists Polling >8%** | 5-6 lists competitive | 3 lists maximum | Only 3 lists >8% | Late compression; Snare tightening |
 | **Bournazel Trajectory** | Stable or slight growth (14-18%) | Hemorrhaging to poles | Drops to <10% | Centrist voters forced into binary choice |
-| **Voter Certainty (Bournazel supporters)** | >60% "definitely voting for" | <45% certain (considering tactical voting) | <50% certain | Voters perceiving wasted vote; Noose psychology active |
+| **Voter Certainty (Bournazel supporters)** | >60% "definitely voting for" | <45% certain (considering tactical voting) | <50% certain | Voters perceiving wasted vote; Snare psychology active |
 | **Knafo + Mariani (Far-right) Combined** | 12-16% (fragmented) | >20% (consolidated) | >22% | Far-right consolidating despite multi-candidate field |
 | **Chikirou Support** | 10-13% (stable far-left) | <8% (absorbed by Grégoire) | <7% | Left completing bipolar consolidation |
 | **Grégoire vs Dati Second Round** | Within 3 points either way | >6 point spread | >8 point spread | Binary equilibrium forming |
 
-**Critical Test:** If Bournazel drops below 10% AND voter certainty among his supporters falls below 50%, tactical voting psychology indicates Noose still active.
+**Critical Test:** If Bournazel drops below 10% AND voter certainty among his supporters falls below 50%, tactical voting psychology indicates Snare still active.
 
 ---
 
@@ -65,16 +65,16 @@
 
 **Data Required:** Last published polls, campaign closing statements, voter mobility data
 
-| Metric | Weakened Noose Prediction | Full Noose Counterfactual | Falsification Threshold | Interpretation if Threshold Met |
+| Metric | Weakened Snare Prediction | Full Snare Counterfactual | Falsification Threshold | Interpretation if Threshold Met |
 |--------|---------------------------|---------------------------|-------------------------|--------------------------------|
 | **Lists Polling >10%** | 4-5 lists | 2 lists | 2-3 lists only | Terminal compression achieved |
 | **Bournazel Floor** | Holds 12-16% | Collapses to <8% | <10% | Centrist space extracted |
-| **Compression Velocity (Feb 28-Mar 8)** | <1 point/week | >4 points/week | >3 points/week | Late surge compression (Full Noose signature) |
+| **Compression Velocity (Feb 28-Mar 8)** | <1 point/week | >4 points/week | >3 points/week | Late surge compression (Full Snare signature) |
 | **Undecided/Unsure %** | 15-20% remaining | <8% remaining | <10% | Binary pressure forcing resolution |
 | **Runoff Scenarios Tested** | 3+ competitive pairings | Only Grégoire vs Dati matters | Only 1 runoff scenario polled | Pollsters recognize binary convergence |
 | **Geographic Polarization (Arrondissement-level)** | Diverse support across districts | Strong left/right geographic sorting | Gini coefficient >.45 | Spatial polarization indicates forced alignment |
 
-**Critical Test:** If compression velocity exceeds 3 points/week in this final week AND undecided drops below 10%, the system is exhibiting Full Noose terminal compression despite the reform.
+**Critical Test:** If compression velocity exceeds 3 points/week in this final week AND undecided drops below 10%, the system is exhibiting Full Snare terminal compression despite the reform.
 
 ---
 
@@ -83,7 +83,7 @@
 
 **Data Required:** Official results from Mairie de Paris, turnout data, arrondissement breakdowns
 
-| Metric | Weakened Noose Prediction | Full Noose Counterfactual | Falsification Threshold | Interpretation if Threshold Met |
+| Metric | Weakened Snare Prediction | Full Snare Counterfactual | Falsification Threshold | Interpretation if Threshold Met |
 |--------|---------------------------|---------------------------|-------------------------|--------------------------------|
 | **Lists Receiving >10% of Votes** | 4-5 lists | 2-3 lists maximum | Only 3 lists >10% | Reform failed; actual voting showed binary pressure |
 | **Bournazel First Round %** | 13-17% | <9% | <11% | Centrist vote collapsed on election day |
@@ -93,7 +93,7 @@
 | **Geographic Clustering (Gini)** | <.38 (diverse) | >.48 (polarized) | >.42 | Spatial sorting indicates forced binary alignment |
 | **Polling Error Magnitude** | ±2-3 points standard | >6 points systematic error | >5 points error | Late hidden movement; polls missed compression |
 
-**Critical Test:** If Bournazel finishes <11% AND only 3 lists exceed 10% AND geographic Gini >.42, the Noose remained active through voting day despite reform.
+**Critical Test:** If Bournazel finishes <11% AND only 3 lists exceed 10% AND geographic Gini >.42, the Snare remained active through voting day despite reform.
 
 ---
 
@@ -102,7 +102,7 @@
 
 **Data Required:** Final results, eliminated candidates' endorsements, seat allocation by list
 
-| Metric | Weakened Noose Prediction | Full Noose Counterfactual | Falsification Threshold | Interpretation if Threshold Met |
+| Metric | Weakened Snare Prediction | Full Snare Counterfactual | Falsification Threshold | Interpretation if Threshold Met |
 |--------|---------------------------|---------------------------|-------------------------|--------------------------------|
 | **Winner's Total Seat Count** | 55-70 seats (needs coalition) | >75 seats (near-majority alone) | >73 seats | Majority bonus still too strong; reform insufficient |
 | **Number of Lists Winning Seats** | 5-7 lists represented | 3-4 lists only | 4 or fewer lists | Binary pressure suppressed minor parties |
@@ -112,13 +112,13 @@
 | **Coalition Size Required** | 3+ parties for majority | 1-2 parties sufficient | Winner + 1 party reaches 82 seats | Majority bonus still enables hegemony |
 | **Post-Election Stability** | Complex coalition negotiations | Clear majority formed immediately | Majority announced within 48 hours | System still produces dominant winner |
 
-**Critical Test:** If winner gets >73 seats alone OR only 4 lists win seats OR winning coalition is 2 parties or fewer, the 25% bonus is still functioning as a Noose.
+**Critical Test:** If winner gets >73 seats alone OR only 4 lists win seats OR winning coalition is 2 parties or fewer, the 25% bonus is still functioning as a Snare.
 
 ---
 
 ## Compound Falsification Conditions
 
-### STRONG FALSIFICATION (Reform Failed; Noose Still Active)
+### STRONG FALSIFICATION (Reform Failed; Snare Still Active)
 **Requires THREE OR MORE of the following:**
 
 1. Bournazel finishes first round with <11% (centrist strangulation)
@@ -128,7 +128,7 @@
 5. Geographic Gini coefficient >.42 (spatial polarization)
 6. Only 4 or fewer lists win council seats (effective suppression)
 
-**Interpretation:** The two-round structure itself creates sufficient Noose pressure that reducing the majority bonus from 50% to 25% is insufficient. The Noose operates through psychological compression (wasted vote fear) not just mechanical seat allocation.
+**Interpretation:** The two-round structure itself creates sufficient Snare pressure that reducing the majority bonus from 50% to 25% is insufficient. The Snare operates through psychological compression (wasted vote fear) not just mechanical seat allocation.
 
 ---
 
@@ -141,11 +141,11 @@
 4. 5 lists win seats (moderate diversity)
 5. Compression velocity 1.8-2.5 points/week (moderate dynamics)
 
-**Interpretation:** The reform shifted the system from Full Noose → Weakened Noose, but didn't fully convert to Rope. Multi-polar stability exists but with residual binary pressure.
+**Interpretation:** The reform shifted the system from Full Snare → Weakened Snare, but didn't fully convert to Rope. Multi-polar stability exists but with residual binary pressure.
 
 ---
 
-### STRONG CONFIRMATION (Reform Succeeded; Noose Broken)
+### STRONG CONFIRMATION (Reform Succeeded; Snare Broken)
 **Requires ALL of the following:**
 
 1. Bournazel finishes first round with >13% (centrist viability maintained)
@@ -157,7 +157,7 @@
 7. Geographic Gini coefficient <.38 (diverse support)
 8. Bournazel voters split <70% to either pole in second round (no forced binary)
 
-**Interpretation:** The 25% majority bonus successfully broke the compression mechanism. Electoral mathematics no longer forces binary convergence. The system functions as a Rope (coordination) rather than Noose (extraction).
+**Interpretation:** The 25% majority bonus successfully broke the compression mechanism. Electoral mathematics no longer forces binary convergence. The system functions as a Rope (coordination) rather than Snare (extraction).
 
 ---
 
@@ -165,7 +165,7 @@
 
 ### Direct Topology Comparison
 
-| Dimension | Paris 2026 (Weakened Noose) | Colombia 2026 (Full Noose) | Expected Ratio |
+| Dimension | Paris 2026 (Weakened Snare) | Colombia 2026 (Full Snare) | Expected Ratio |
 |-----------|----------------------------|---------------------------|----------------|
 | **Compression Velocity** | <1.5 points/week | 5.6 points/week | 3.7x slower |
 | **Centrist Terminal %** | 13-17% | 9.4% | 1.5x higher |
@@ -174,7 +174,7 @@
 | **Geographic Polarization** | <.38 | >.45 | Less polarized |
 | **Voter Certainty (final week)** | >60% | >82% | Lower (more flexibility) |
 
-**Key Prediction:** If Paris shows compression velocity >2.5 points/week, it indicates the two-round structure is sufficient to create Noose dynamics regardless of majority bonus size.
+**Key Prediction:** If Paris shows compression velocity >2.5 points/week, it indicates the two-round structure is sufficient to create Snare dynamics regardless of majority bonus size.
 
 ---
 
@@ -216,14 +216,14 @@
 ## Using This Matrix
 
 ### Flag System:
-- 🟢 **Green Flag (Reform Working):** Data consistently meets Weakened Noose predictions
+- 🟢 **Green Flag (Reform Working):** Data consistently meets Weakened Snare predictions
 - 🟡 **Yellow Flag (Hybrid System):** Data shows partial compression; reform incomplete
-- 🔴 **Red Flag (Reform Failed):** Data meets Full Noose counterfactual thresholds
+- 🔴 **Red Flag (Reform Failed):** Data meets Full Snare counterfactual thresholds
 
 ### Track Cumulative Red Flags:
-- **0-1 Red Flags:** Reform robust; Noose broken
-- **2-3 Red Flags:** Reform partial; system is hybrid Weakened Noose
-- **4+ Red Flags:** Reform failed; Full Noose dynamics persist
+- **0-1 Red Flags:** Reform robust; Snare broken
+- **2-3 Red Flags:** Reform partial; system is hybrid Weakened Snare
+- **4+ Red Flags:** Reform failed; Full Snare dynamics persist
 
 ---
 
@@ -239,7 +239,7 @@ This allows **real-time comparison** of two systems with different constraint to
 → **Strong evidence** that majority bonus size determines compression velocity
 
 ### If both Paris and Colombia show >4 points/week compression:
-→ **Evidence** that two-round structure itself creates Noose regardless of majority bonus
+→ **Evidence** that two-round structure itself creates Snare regardless of majority bonus
 
 ### If Paris shows <2 points/week but Colombia shows <3 points/week:
 → **Evidence** that cultural/campaign factors dominate over topology
@@ -252,11 +252,11 @@ This allows **real-time comparison** of two systems with different constraint to
 
 ### If Paris Reform Succeeds:
 - Electoral mathematics is **causal** for compression dynamics
-- Interventions (reducing majority bonus) can **break Noose → Rope**
+- Interventions (reducing majority bonus) can **break Snare → Rope**
 - The constraint topology framework has **predictive power**
 
 ### If Paris Reform Fails:
-- Two-round structure is **sufficient** for Noose compression
+- Two-round structure is **sufficient** for Snare compression
 - Psychological effects (wasted vote fear) dominate mechanical effects
 - Reform must address **electoral system fundamentals**, not just magnitude of bonus
 
@@ -282,7 +282,7 @@ This allows **real-time comparison** of two systems with different constraint to
 ## Expected Outcome
 
 **Base Case Prediction (60% confidence):**
-- Paris shows compression velocity 0.8-1.8 points/week (Weakened Noose confirmed)
+- Paris shows compression velocity 0.8-1.8 points/week (Weakened Snare confirmed)
 - Bournazel finishes 13-16% (centrist viability maintained)
 - 5 lists exceed 10% in first round
 - Winner requires 3-party coalition for majority
@@ -293,14 +293,14 @@ This allows **real-time comparison** of two systems with different constraint to
 - Bournazel finishes 10-12% (weakened centrist)
 - 4 lists exceed 10% in first round
 - Winner requires 2-party coalition
-- **Verdict: Reform partial; two-round structure still creates moderate Noose**
+- **Verdict: Reform partial; two-round structure still creates moderate Snare**
 
 **Null Hypothesis (10% confidence):**
 - Paris shows compression velocity >4 points/week (Reform failed)
 - Bournazel finishes <10% (centrist strangled)
 - 3 lists exceed 10% in first round
 - Winner achieves near-majority alone
-- **Verdict: Reform failed; two-round structure is sufficient for Full Noose dynamics**
+- **Verdict: Reform failed; two-round structure is sufficient for Full Snare dynamics**
 
 ---
 

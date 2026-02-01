@@ -32,7 +32,7 @@ A forecast that can't be proven wrong isn't a forecast—it's a narrative. UKE_F
 **§1.1 What Qualifies as Forecastable Substrate:**
 
 **VALID INPUTS:**
-- Constraint classifications with measurable properties (Mountains, Ropes, Nooses, etc.)
+- Constraint classifications with measurable properties (Mountains, Ropes, Snares, etc.)
 - Structural mechanisms with observable consequences (compression, extraction, consolidation)
 - System states with time-dependent evolution (coalitions forming, space collapsing)
 - Power-indexed claims (different outcomes for different positions)
@@ -47,7 +47,7 @@ A forecast that can't be proven wrong isn't a forecast—it's a narrative. UKE_F
 Before building a forecast, ask: "Does the substrate claim a mechanism that produces observable effects?"
 
 **Example - PASSES:**
-- "The two-round runoff system (Noose) suppresses centrist candidates by making vote-splitting fatal"
+- "The two-round runoff system (Snare) suppresses centrist candidates by making vote-splitting fatal"
 - Observable effect: Centrist candidate polling will remain below threshold despite multiple cycles
 - Measurable: Track Fajardo % over time, set falsification threshold at >15%
 
@@ -61,7 +61,7 @@ Identify which constraints in the substrate produce time-dependent effects:
 
 From Colombia essay:
 - **C1 (Mountain): Constitutional term limit** → Produces power vacuum → Measurable via succession candidate ceiling
-- **C2 (Noose): Two-round runoff** → Produces centrist strangulation → Measurable via third-candidate polling
+- **C2 (Snare): Two-round runoff** → Produces centrist strangulation → Measurable via third-candidate polling
 - **C3 (Rope): Coalition consolidation** → Produces coordination vs fragmentation → Measurable via primary results
 - **C4 (Degraded Rope): Institutional collapse** → Produces outsider dominance → Measurable via establishment candidate support
 
@@ -94,7 +94,7 @@ For each structural claim in substrate, generate:
 **CORRECTLY CALIBRATED:**
 - Threshold is 1.5-2x beyond what normal variation would produce
 - Example: "Fajardo will remain below 12% (currently 9.4%)"
-- Rationale: If centrist strangulation is real, he can't break 12% even with campaign efforts; if he does, the Noose loosened
+- Rationale: If centrist strangulation is real, he can't break 12% even with campaign efforts; if he does, the Snare loosened
 
 **§2.3 Checkpoint Date Selection:**
 
@@ -387,7 +387,7 @@ Update Discipline: [Are updates honest about failures?]
 
 **§7.1 GOOD FORECAST (Colombia 2026):**
 
-**Claim:** "Two-round runoff system (Noose) strangles centrist candidates"
+**Claim:** "Two-round runoff system (Snare) strangles centrist candidates"
 
 **Predicted Outcome:** Fajardo remains in 8-11% range through May 31
 
@@ -399,7 +399,7 @@ Update Discipline: [Are updates honest about failures?]
 - Specific mechanism identified (runoff math punishes vote-splitting)
 - Numeric threshold beyond measurement error (15% vs current 9.4%)
 - Multiple checkpoints allow early detection
-- Clear interpretation (if false, centrist space exists; Noose loosened)
+- Clear interpretation (if false, centrist space exists; Snare loosened)
 
 **§7.2 BAD FORECAST (Unfalsifiable):**
 

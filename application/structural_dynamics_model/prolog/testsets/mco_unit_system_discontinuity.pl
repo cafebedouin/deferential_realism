@@ -227,7 +227,7 @@ test(high_extraction_signature) :-
  * * KEY DECISIONS:
  * 1. EXTRACTIVENESS (0.9): The report highlights a total loss of the 
  * spacecraft ($125M). In Deferential Realism, technical failures that 
- * destroy capital through "silent" silos are high-extraction Nooses.
+ * destroy capital through "silent" silos are high-extraction Snares.
  * 2. SUPPRESSION (0.7): I chose a high score because the error was 
  * effectively suppressed by a lack of end-to-end testing and the 
  * separation of software teams.

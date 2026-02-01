@@ -28,7 +28,7 @@ category_corpus_profile(extractive_market, [0.801, 0.707, 0.078, 0.134, 306]).  
 category_corpus_profile(unknown_novel, [0.735, 0.825, 0.015, 0.025, 3]).  % dominant: tangled_rope, enforcement_ratio: 1.0
 
 %% ============================================================================
-%% 2. CONSTRAINT TYPE PROFILES (Mountain/Rope/Noose/Tangled Rope)
+%% 2. CONSTRAINT TYPE PROFILES (Mountain/Rope/Snare/Tangled Rope)
 %% ============================================================================
 %% Format: type_corpus_profile(Type, [AvgExtract, AvgSuppress, StdExtract, StdSuppress, Count]).
 

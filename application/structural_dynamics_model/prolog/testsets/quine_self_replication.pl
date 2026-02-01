@@ -190,7 +190,7 @@ test(multi_perspective_variance) :-
     Type1 = mountain,
     Type2 = rope.
 
-test(autonomous_noose_insight) :-
+test(autonomous_snare_insight) :-
     % Demonstrates that for the defender, the self-replication is a Snare
     constraint_indexing:constraint_classification(quine_self_replication, snare, context(individual_moderate, immediate, constrained, national)).
 
