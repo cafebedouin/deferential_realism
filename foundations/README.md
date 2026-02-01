@@ -4,7 +4,7 @@
 
 ## Start Here
 
-**[foundations/core.md](foundations/core.md)** (~3,000 words) - Compressed introduction to the framework
+**[core.md](core.md)** (~3,000 words) - Compressed introduction to the framework
 - Four constraint categories (Mountain, Rope, Snare, Scaffold)
 - Four indexical parameters (WHO, WHEN, WHERE, HOW_MUCH)
 - One worked example (carbon credits from multiple perspectives)
@@ -15,7 +15,7 @@
 
 ## The Debugging Philosophy: Origin and Core Concept
 
-### **[debugging_philosophy.md](foundations/debugging_philosophy.md)** (~6,000 words)
+### **[debugging_philosophy.md](debugging_philosophy.md)** (~6,000 words)
 
 The origin of the ideas in this directory can be found in **`debugging_philosophy.md`**. This paper introduces the central thesis of the entire foundation: that many philosophical paradoxes and problems are not deep metaphysical mysteries but can be understood as engineering failures within our reasoning systems.
 
@@ -31,7 +31,7 @@ This novel application of a debugging model to philosophy shifts the focus from 
 
 ## The Litany of the Real: The Human Interface
 
-### **[litany_of_the_real.md](foundations/litany_of_the_real.md)** (~4,000 words)
+### **[litany_of_the_real.md](litany_of_the_real.md)** (~4,000 words)
 
 While the framework is built on a technical and computational chassis (with implementations in Prolog and other tools), **`litany_of_the_real.md`** serves a unique and critical function. It acts as the primary psychological interface for individuals seeking to apply Deferential Realism without direct computational support.
 
@@ -47,9 +47,9 @@ In essence, the Litany is the user-facing application that runs on the "operatin
 
 ## Philosophical Foundations
 
-Located in [`foundations/`](foundations/)
+Located in [`./`](./)
 
-### **[epistemology.md](foundations/epistemology.md)** (~7,000 words)
+### **[epistemology.md](epistemology.md)** (~7,000 words)
 The complete epistemological foundation:
 - Intellectual lineage (Stoicism → Existentialism → Pragmatism → Systems Theory)
 - Six-Test Battery methodology
@@ -58,21 +58,21 @@ The complete epistemological foundation:
 - Honest limitations and epistemic positioning
 - What makes this framework distinctive
 
-### **[logic.md](foundations/logic.md)** (~4,000 words)
+### **[logic.md](logic.md)** (~4,000 words)
 Formal operators for indexed constraint reasoning:
 - Modal logic for constraint-types
 - Inference rules and transformations
 - Contradiction resolution through indexing
 - Executable specification in Prolog
 
-### **[metaphysics.md](foundations/metaphysics.md)** (~5,600 words)
+### **[metaphysics.md](metaphysics.md)** (~5,600 words)
 Constraint-space ontology:
 - Core claim: constraints constitute entities, not vice versa
 - Structural realism
 - What exists and how constraints define identity
 - Alternative ontologies and why DR chooses this one
 
-### **[ethics.md](foundations/ethics.md)** (~3,700 words)
+### **[ethics.md](ethics.md)** (~3,700 words)
 Four cardinal virtues of constraint-alignment:
 - **Acceptance** - Mapping Mountains accurately
 - **Resistance** - Cutting Snares strategically
@@ -80,7 +80,7 @@ Four cardinal virtues of constraint-alignment:
 - **Conservation** - Preserving finite energy
 - Reality-alignment as honesty-in-practice
 
-### **[aesthetics.md](foundations/aesthetics.md)** (~7,200 words)
+### **[aesthetics.md](aesthetics.md)** (~7,200 words)
 A field manual for creativity as the strategic engagement with constraint-structures:
 - **Creative Limits** – Categorizes constraints to reduce extraction
 - **Aesthetic Strategies** – Discusses creative choices
@@ -314,18 +314,18 @@ Predecessor framework for identifying reasoning error types:
 ## How to Engage
 
 ### If the framework makes sense:
-1. Start with [`foundations/core.md`](foundations/core.md) for compression
-2. Read [`foundations/epistemology.md`](foundations/epistemology.md) for depth
+1. Start with [`core.md`](core.md) for compression
+2. Read [`epistemology.md`](epistemology.md) for depth
 3. Apply [`application/applied_guide.md`](application/applied_guide.md) to your domain
 4. Check [`validation/validation_report.md`](validation/validation_report.md) for empirical grounding
-5. Explore domain-specific foundations ([logic](foundations/logic.md), [metaphysics](foundations/metaphysics.md), [ethics](foundations/ethics.md), [aesthetics](foundations/aesthetics.md))
+5. Explore domain-specific foundations ([logic](logic.md), [metaphysics](metaphysics.md), [ethics](ethics.md), [aesthetics](aesthetics.md))
 
 ### If you have critiques:
 1. Test framework against specific constraint you care about
 2. Distinguish "I disagree with classification" from "classification method is flawed"
 3. Note whether objection applies to epistemology or to other domains
 4. Check if critique assumes universality claims the framework doesn't make
-5. See [`foundations/epistemology.md`](foundations/epistemology.md) Section VII (Known Limitations) and Section IX (Epistemic Position)
+5. See [`epistemology.md`](epistemology.md) Section VII (Known Limitations) and Section IX (Epistemic Position)
 
 ### If you want to apply it:
 1. Use [`application/applied_guide.md`](application/applied_guide.md) decision trees
@@ -361,7 +361,7 @@ See [`validation/validation_report.md`](validation/validation_report.md) for com
 ## Installation
 
 ### For Reading/Study
-No installation required. Start with [`foundations/core.md`](foundations/core.md).
+No installation required. Start with [`core.md`](core.md).
 
 ### For Running the Validation Suite
 ```bash
