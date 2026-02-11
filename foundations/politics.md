@@ -1,8 +1,8 @@
 # Deferential Realism: Politics
 ## Indexical Relativity in Institutional Space
 
-**Version 3.3 - Foundational**  
-**Date:** January 2026  
+**Version 4.0**  
+**Date:** February 2026  
 **Companion to:** psychology.md (internal space), sociology.md (relational space), epistemology.md, ethics.md, logic.md, metaphysics.md, aesthetics.md
 
 ---
@@ -11,7 +11,7 @@
 
 **Politics extends Deferential Realism's constraint ontology into formal institutional power structures.** Where psychology.md handles internal constraints and sociology.md handles relational constraints, this document handles **constraints operating through constitutions, electoral systems, and governing institutions**.
 
-The core insight: **The same electoral system can function as democratic coordination (Rope) for one actor and democratic theater (Snare) for another—both classifications are objectively true from their respective power positions.**
+The core insight: **The same electoral system can function as democratic coordination (Rope) for one actor and democratic theater (Snare) for anotherâ€”both classifications are objectively true from their respective power positions.**
 
 This isn't relativism. It's **indexed realism**: institutional truth is relative to position in power-space, but each indexed claim is objectively verifiable.
 
@@ -56,7 +56,7 @@ Consider: "Is Thailand's 2017 Constitution democratic?"
 
 **All four are objectively true from their indices.**
 
-The disagreement isn't about facts—it's about **indexical underspecification**. Without specifying WHO evaluates (power position), WHEN (time horizon), WHERE (exit options), and HOW MUCH (institutional scope), the question "Is this democratic?" collapses into equivocation.
+The disagreement isn't about factsâ€”it's about **indexical underspecification**. Without specifying WHO evaluates (power position), WHEN (time horizon), WHERE (exit options), and HOW MUCH (institutional scope), the question "Is this democratic?" collapses into equivocation.
 
 **This is why:** Most political conflicts aren't value disagreements. They're **unrecognized index differences**. One person experiences Mountain (unchangeable from their position). Another experiences Tangled Rope (sees both coordination and extraction from theirs). Both describe the same institutional structure accurately from different positions in power-space.
 
@@ -78,11 +78,11 @@ Every classification requires specifying:
 
 **Power modifiers in institutional space:**
 ```
-π(voter_powerless)      = 1.5   (extraction amplified)
-π(voter_moderate)       = 1.0   (baseline)
-π(institutional_actor)  = 0.7   (extraction reduced)
-π(institutional_designer) = 0.3 (can reshape rules)
-π(analytical)           = 1.0   (observes structure)
+Ï€(voter_powerless)      = 1.5   (extraction amplified)
+Ï€(voter_moderate)       = 1.0   (baseline)
+Ï€(institutional_actor)  = 0.7   (extraction reduced)
+Ï€(institutional_designer) = 0.3 (can reshape rules)
+Ï€(analytical)           = 1.0   (observes structure)
 ```
 
 ### WHEN - Institutional Time Horizons
@@ -112,7 +112,7 @@ Every classification requires specifying:
 - `supranational`: EU, UN, treaty systems
 - `global`: International regime (UNCLOS, WTO, climate frameworks)
 
-**Why this matters:** Coordination mechanisms that work at municipal scale may become extractive at national scale. Power-scaling effects change dramatically across scope—what's functional Rope locally becomes Tangled Rope nationally.
+**Why this matters:** Coordination mechanisms that work at municipal scale may become extractive at national scale. Power-scaling effects change dramatically across scopeâ€”what's functional Rope locally becomes Tangled Rope nationally.
 
 ---
 
@@ -126,11 +126,11 @@ Every classification requires specifying:
 
 **Examples:**
 
-**Article 112 (Thailand lèse-majesté law):**
+**Article 112 (Thailand lÃ¨se-majestÃ© law):**
 - Constitutional protection + dissolution mechanism
 - Proposing reform = party dissolution
 - Extraction: 0.04 (functions as boundary, not extraction mechanism)
-- Suppression: 0.95 (maximum—mentioning change triggers elimination)
+- Suppression: 0.95 (maximumâ€”mentioning change triggers elimination)
 - **Analytical perspective**: Mountain (unchangeable within Thai legal geometry)
 - **Progressive perspective**: Snare (predatory trap eliminating representation)
 - **Both correct from structural positions** (validates indexical framework)
@@ -214,7 +214,7 @@ Every classification requires specifying:
 - Ensures winner has majority legitimacy (>50%)
 - Prevents plurality victories (35% winning with split opposition)
 - Coordination function: Electoral consensus-building
-- But see Tangled Rope section—often extracts through compression dynamics
+- But see Tangled Rope sectionâ€”often extracts through compression dynamics
 
 **Relational signature:**
 - Solves genuine coordination problem (verifiable scarcity/collision)
@@ -239,7 +239,7 @@ Every classification requires specifying:
 - 92% of districts follow straight-party voting patterns (2020-2024)
 - Only 8% competitive (18 "Toss Up" districts in 2026)
 - Extraction of representation from voters
-- **Extraction**: 0.65 (high—votes in safe districts mathematically irrelevant)
+- **Extraction**: 0.65 (highâ€”votes in safe districts mathematically irrelevant)
 - **Suppression**: 0.75 (alternatives blocked by district boundaries)
 - **FOR party leadership**: Rope (ensures predictable seat counts, coordinates resources)
 - **FOR safe district voter**: Snare (vote cannot affect outcome, trapped)
@@ -255,8 +255,8 @@ Every classification requires specifying:
 
 **Judicial gatekeeping (Thailand 2023-2026):**
 - Elections held, winners dissolved/blocked by Constitutional Court
-- Move Forward Party: 151 seats (2023) → dissolved (2024)
-- People's Party: Expected winners (2026) → pre-emptive gatekeeping
+- Move Forward Party: 151 seats (2023) â†’ dissolved (2024)
+- People's Party: Expected winners (2026) â†’ pre-emptive gatekeeping
 - **Extraction**: 0.72 (winners cannot govern, losers rule despite losing)
 - **Suppression**: 0.85 (reform alternatives eliminated via dissolution)
 - **FOR progressive voter**: Snare (votes but outcomes reversed by courts)
@@ -278,11 +278,11 @@ Every classification requires specifying:
 - Enforcement visible (what maintains this? who resists transparency?)
 - Alternatives suppressed (viable options blocked, not just absent)
 - Snap-back potential (when enforcement stops, can dissolve rapidly)
-- Naturalization rhetoric (claims to be Mountain—"natural necessity")
+- Naturalization rhetoric (claims to be Mountainâ€”"natural necessity")
 
 **Extraction metrics:**
-- **Base extractiveness (ε)**: Asymmetric benefit flow, concentration
-- **Suppression score (σ)**: Alternative prevention, option blocking
+- **Base extractiveness (Îµ)**: Asymmetric benefit flow, concentration
+- **Suppression score (Ïƒ)**: Alternative prevention, option blocking
 - **Enforcement intensity**: Resources spent maintaining structure
 
 **Strategic response:** **Resist** when able (requires power or coalition). **Exit** when possible (change jurisdiction, opt out). **Contain** damage when trapped (minimize participation, expose extraction, build alternatives).
@@ -291,25 +291,25 @@ Every classification requires specifying:
 
 ### D. Tangled Ropes: Democratic Institutions with Extraction Layers
 
-**Definition:** Structures providing genuine coordination (Rope) while simultaneously extracting power or representation (Snare layer). Irreducibly hybrid—both functions are structurally real.
+**Definition:** Structures providing genuine coordination (Rope) while simultaneously extracting power or representation (Snare layer). Irreducibly hybridâ€”both functions are structurally real.
 
 **Epistemic test:** Does it coordinate AND extract? Can functions be separated, or are they structurally entangled?
 
 **Examples:**
 
-**Centrão budget amendments (Brazil):**
+**CentrÃ£o budget amendments (Brazil):**
 - **Coordination function**: Enables multi-party coalition governance in fragmented system (30+ parties). Without amendment leverage, executive cannot build majority.
 - **Extraction function**: Diverts R$50+ billion annually to pork-barrel projects. Budget control by unaccountable legislative bloc. Extraction: 0.45
 - **Separability**: Could reform to transparent coalition agreements WITHOUT secret amendments, but politically very difficult
-- **FOR powerless voter**: Snare (extraction amplified π=1.5 → 0.68, crosses into Snare territory)
-- **FOR Centrão leadership**: Rope (essential coordination mechanism)
+- **FOR powerless voter**: Snare (extraction amplified Ï€=1.5 â†’ 0.68, crosses into Snare territory)
+- **FOR CentrÃ£o leadership**: Rope (essential coordination mechanism)
 - **FOR analyst**: Tangled Rope (genuinely both)
 
 **Two-round majority systems (compression dynamics):**
 - **Coordination function**: Ensures electoral winner has >50% legitimacy, prevents plurality victories
-- **Extraction function**: Mathematical compression eliminates centrist viability. Forces binary choice. Colombia 2026: Viable candidates (9) → compressed to (2) in final month
+- **Extraction function**: Mathematical compression eliminates centrist viability. Forces binary choice. Colombia 2026: Viable candidates (9) â†’ compressed to (2) in final month
 - **Compression velocity**: 4-6 percentage points/week in final month
-- **Extraction**: 0.40 (moderate—coordination is real, but centrist strangulation is structural)
+- **Extraction**: 0.40 (moderateâ€”coordination is real, but centrist strangulation is structural)
 - **FOR voter preferring center-left/center-right**: Snare (options eliminated by compression)
 - **FOR voter at poles**: Rope (ensures their coalition can win majority)
 - **FOR analyst**: Tangled Rope (topology creates predictable dynamics)
@@ -317,7 +317,7 @@ Every classification requires specifying:
 **Party-list proportional representation with threshold:**
 - **Coordination function**: Prevents excessive fragmentation, ensures stable coalitions
 - **Extraction function**: Suppresses small parties just below threshold. Israel 2022: 289,000 wasted votes (Meretz 3.16%, Balad 2.91% fell below 3.25%)
-- **Extraction**: 0.38 (moderate—threshold serves stability BUT creates binary inclusion/exclusion)
+- **Extraction**: 0.38 (moderateâ€”threshold serves stability BUT creates binary inclusion/exclusion)
 - **FOR voter supporting threshold-crossing party**: Rope (proportional representation works)
 - **FOR voter supporting near-threshold party**: Snare (vote wasted if party gets 3.2% vs. 3.3%)
 
@@ -335,12 +335,12 @@ Every classification requires specifying:
 
 **Power-scaling mechanism (critical):**
 
-Same base extraction (e.g., ε=0.40) experienced as:
-- **Powerless voter**: χ(C) = 0.40 × 1.5 = 0.60 (Snare threshold)
-- **Moderate voter**: χ(C) = 0.40 × 1.0 = 0.40 (Tangled Rope)
-- **Institutional actor**: χ(C) = 0.40 × 0.7 = 0.28 (Rope experience)
+Same base extraction (e.g., Îµ=0.40) experienced as:
+- **Powerless voter**: Ï‡(C) = 0.40 Ã— 1.5 = 0.60 (Snare threshold)
+- **Moderate voter**: Ï‡(C) = 0.40 Ã— 1.0 = 0.40 (Tangled Rope)
+- **Institutional actor**: Ï‡(C) = 0.40 Ã— 0.7 = 0.28 (Rope experience)
 
-**This explains indexical relativity**: Same structure genuinely IS Rope/Tangled Rope/Snare from different power positions—not perspectivism but structural relativity based on observable power position (control over exit, enforcement, resources).
+**This explains indexical relativity**: Same structure genuinely IS Rope/Tangled Rope/Snare from different power positionsâ€”not perspectivism but structural relativity based on observable power position (control over exit, enforcement, resources).
 
 **Reform strategy:** Preserve coordination function, excise extraction layer. Don't destroy entire democratic structure. Surgical reform targets extraction mechanism while maintaining coordination capacity.
 
@@ -361,7 +361,7 @@ Same base extraction (e.g., ε=0.40) experienced as:
 - Temporary PM selection power (2019-2024)
 - Claimed purpose: "Stabilize transition to democracy"
 - Sunset: PM selection power expired 2024
-- **Degradation**: Amendment veto retained (Scaffold → Piton transformation)
+- **Degradation**: Amendment veto retained (Scaffold â†’ Piton transformation)
 - **FOR junta**: Scaffold (temporary control during transition)
 - **FOR progressive movement**: Snare (blocked winners for 5 years)
 - **Post-2024**: Piton (PM function gone, obstruction remains)
@@ -378,13 +378,13 @@ Same base extraction (e.g., ε=0.40) experienced as:
 - Adjourn after ratification
 - Single-purpose, time-limited
 - **FOR nation**: Scaffold (enables regime transition)
-- **Degradation risk**: If convention never adjourns, becomes permanent power center (Scaffold → extractive institution)
+- **Degradation risk**: If convention never adjourns, becomes permanent power center (Scaffold â†’ extractive institution)
 
 **Provisional governments:**
 - Hold power until elections organizationally possible
 - Explicit legitimacy: Temporary caretaker status
 - **FOR post-revolution society**: Scaffold (coordinates transition)
-- **Degradation path**: If provisional government delays elections indefinitely → Snare
+- **Degradation path**: If provisional government delays elections indefinitely â†’ Snare
 
 **Relational signature:**
 - Temporal limitation explicitly stated
@@ -392,7 +392,7 @@ Same base extraction (e.g., ε=0.40) experienced as:
 - Designed to phase out (not persist indefinitely)
 - Often legitimated by transitional necessity
 
-**Degradation path:** Scaffold → Piton when structure persists after function expires. Thailand Senate veto retention (obstruction without PM selection) is textbook example.
+**Degradation path:** Scaffold â†’ Piton when structure persists after function expires. Thailand Senate veto retention (obstruction without PM selection) is textbook example.
 
 **Strategic response:** **Use** during transition. **Monitor** sunset compliance. **Demand** removal when purpose served. **Resist** permanence creep.
 
@@ -409,7 +409,7 @@ Same base extraction (e.g., ε=0.40) experienced as:
 **Thailand Senate amendment veto (2024+):**
 - Lost PM selection power (2024)
 - Retained 1/3 veto on constitutional amendments
-- Theater ratio: 0.85 (very high—"checks and balances" is performance)
+- Theater ratio: 0.85 (very highâ€”"checks and balances" is performance)
 - Extraction: 0.72 (pure obstruction, no coordination)
 - **Function lost**: Was Scaffold (temporary PM selection), now pure blocking mechanism
 - **Inertia**: Elite interest preservation, not governmental function
@@ -429,7 +429,7 @@ Same base extraction (e.g., ε=0.40) experienced as:
 - Post-1991: Gridlock device preventing collective action
 - Russia/China veto blocks intervention (Syria, Ukraine)
 - U.S. veto blocks Israel accountability
-- **Function lost**: Great power coordination → obstruction of UN action
+- **Function lost**: Great power coordination â†’ obstruction of UN action
 - **Theater ratio**: 0.78 (claims "world order" but enables atrocities)
 - **FOR veto-holding power**: Rope (preserves unilateral freedom)
 - **FOR international community**: Piton (prevents collective security function)
@@ -464,7 +464,7 @@ Same base extraction (e.g., ε=0.40) experienced as:
 
 **The topology concept:** Constitutional Mountains + Electoral mathematics + Coordination mechanisms = Predictable system dynamics
 
-Electoral systems aren't random—they exhibit **constraint topologies** that create characteristic patterns across cultures. Same topology in France and Colombia produces similar compression dynamics despite completely different political histories.
+Electoral systems aren't randomâ€”they exhibit **constraint topologies** that create characteristic patterns across cultures. Same topology in France and Colombia produces similar compression dynamics despite completely different political histories.
 
 ### A. Bipolar Snare (Colombia, France, Brazil presidential)
 
@@ -475,7 +475,7 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 - Mathematical compression dynamics (Snare tightening)
 
 **Observable signature:**
-- Rapid centrist collapse (viable candidates compressed 9+ → 2)
+- Rapid centrist collapse (viable candidates compressed 9+ â†’ 2)
 - Compression velocity: 4-6 percentage points/week in final month
 - Terminal state: Binary runoff, <12% for third-place finisher
 - Unstable majoritarian governance (narrow winner, blocked opposition)
@@ -488,14 +488,14 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 5. Runoff: <52% typical margin, no governing consensus
 
 **Empirical validation:**
-- Colombia 2026: 9 viable candidates → 2 (Petro vs. Zuluaga compression)
+- Colombia 2026: 9 viable candidates â†’ 2 (Petro vs. Zuluaga compression)
 - France 2022: Macron vs. Le Pen (centrist candidates collapsed)
 - Brazil 2022: Lula vs. Bolsonaro (affective polarization, centrist irrelevance)
 
 **Indexical experience:**
 - **FOR polar voter** (left/right extremes): Rope (ensures coalition can win majority)
 - **FOR centrist voter**: Snare (options eliminated by compression mathematics)
-- **FOR analyst**: Tangled Rope (coordination function—majority legitimacy—combined with extraction—centrist strangulation)
+- **FOR analyst**: Tangled Rope (coordination functionâ€”majority legitimacyâ€”combined with extractionâ€”centrist strangulation)
 
 **Falsification threshold:** If centrist candidates maintain >15% through final week, topology breaks (compression fails). Colombia tests this May 2026.
 
@@ -514,7 +514,7 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 - Low incumbent defeat rate (>85% retention)
 - National sentiment swings produce minimal seat changes
 - Frequent split control outcomes (different parties control different chambers)
-- Artificial majorities (35% vote → 55% seats)
+- Artificial majorities (35% vote â†’ 55% seats)
 
 **Mechanism:**
 1. Gerrymandering/natural sorting creates safe seats (geographic Snare)
@@ -524,9 +524,9 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 5. Senate/regional chamber insulated by different geography
 
 **Empirical validation:**
-- U.S. 2026 midterms: Generic Ballot +5 Democrats → +8-12 House seats, GOP holds Senate
+- U.S. 2026 midterms: Generic Ballot +5 Democrats â†’ +8-12 House seats, GOP holds Senate
 - UK: "Red Wall" vs. "Blue Wall," tactical voting
-- Canada: Regional concentration (Bloc Québécois), minority governments
+- Canada: Regional concentration (Bloc QuÃ©bÃ©cois), minority governments
 
 **Indexical experience:**
 - **FOR swing district voter**: Rope (vote decisive, high campaign attention)
@@ -557,9 +557,9 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 **Mechanism:**
 1. Proportional system enables 10+ parties
 2. Threshold creates binary stakes (cross 3.25% or waste all votes)
-3. No party reaches 61 seats → coalition required
+3. No party reaches 61 seats â†’ coalition required
 4. Small parties extract disproportionate concessions (policy blackmail)
-5. Coalitions inherently unstable → government falls → new elections
+5. Coalitions inherently unstable â†’ government falls â†’ new elections
 
 **Empirical validation:**
 - Israel 2018-2022: Five elections, finally 64-seat Netanyahu coalition (required far-right inclusion)
@@ -597,10 +597,10 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 3. Courts dissolve winners or block governance
 4. Conservative coalition governs despite losing
 5. Government eventually fails (lacks legitimacy)
-6. New elections → cycle repeats
+6. New elections â†’ cycle repeats
 
 **Empirical validation:**
-- Thailand 2023-2026: Move Forward 151 seats → dissolved. Three PMs in 2.5 years.
+- Thailand 2023-2026: Move Forward 151 seats â†’ dissolved. Three PMs in 2.5 years.
 - Pakistan (historical): Frequent military + Court interventions
 
 **Indexical experience:**
@@ -618,7 +618,7 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 **Constraint pattern:**
 - Two-round system (majority requirement)
 - Incumbent eligible for reelection
-- Extractive center (Centrão budget amendments)
+- Extractive center (CentrÃ£o budget amendments)
 - Pre-compressed binary structure (affective polarization)
 
 **Observable signature:**
@@ -631,20 +631,20 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 **Mechanism:**
 1. Incumbent advantage prevents fresh succession crisis
 2. Affective polarization pre-compresses field (Lula vs. Bolsonaro legacy)
-3. Centrão extracts budget control in exchange for coalition support
+3. CentrÃ£o extracts budget control in exchange for coalition support
 4. Centrist candidates unviable from campaign start
 5. Stable binary equilibrium (no compression velocity, already compressed)
 
 **Empirical validation:**
-- Brazil 2026: Lula vs. Tarcísio binary from October 2025, centrists <9% entire campaign
+- Brazil 2026: Lula vs. TarcÃ­sio binary from October 2025, centrists <9% entire campaign
 
 **Indexical experience:**
 - **FOR polar voter**: Rope (clear binary choice, no spoiler dynamics)
 - **FOR centrist voter**: Snare (no viable alternative, forced binary)
-- **FOR Centrão**: Rope (budget extraction essential for coalition)
+- **FOR CentrÃ£o**: Rope (budget extraction essential for coalition)
 - **FOR powerless voter**: Snare (extraction amplified, budget diverted from services)
 
-**Falsification threshold:** If centrist candidate reaches >18% or if Centrão loses budget leverage, archetype breaks.
+**Falsification threshold:** If centrist candidate reaches >18% or if CentrÃ£o loses budget leverage, archetype breaks.
 
 ---
 
@@ -676,7 +676,35 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 
 **Note:** Requires more empirical validation. Proportional representation doesn't automatically create Marsh—needs additional factors (polarization, no consensus culture, weak executive).
 
+### G. Capacity Paradox (Braess's Paradox in Institutional Design)
+
+**Constraint pattern:**
+- Reform adds new institutional capacity (new regulatory option, democratic mechanism, or coordination pathway)
+- Individual actors optimize against the new option
+- Aggregate outcome worsens despite increased capacity
+
+**Observable signature:**
+- New mechanism intended as Scaffold (transitional improvement) becomes extraction pathway
+- Individual rational responses to the reform collectively degrade the system
+- Reformers confused: "We added capacity, why did things get worse?"
+
+**Mechanism:**
+1. Reform creates new option (Scaffold intent)
+2. Actors optimize individually against new option
+3. New equilibrium worse than pre-reform state
+4. Reform becomes Emergent Snare — extraction pathway that didn't exist before
+
+**Examples:**
+- Adding highway lanes increases congestion (classic Braess's Paradox)
+- Campaign finance "reform" creating super PAC loophole (intended Scaffold → Emergent Snare)
+- Regulatory option intended to streamline becomes new avenue for regulatory capture
+
+**Diagnostic value:** When a well-intentioned reform produces worse outcomes, check for Braess dynamics before assuming implementation failure. The reform may be structurally generating the problem through individual optimization against the new option. This is Emergent Snare from attempted Scaffold — a drift event type documented in `constraint_lifecycles.md`.
+
+**Cross-reference:** constraint_lifecycles.md Section III (Drift Event Taxonomy), sociology.md (game-theoretic patterns showing how individually rational choices create collective traps).
+
 ---
+
 
 ## V. Perspectival Gap Analysis: Why Same Institution Appears as Different Constraint Types
 
@@ -689,13 +717,13 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 **Swing state voter** [moderate/electoral_cycle/mobile/national]:
 - **Classification**: Rope
 - **Experience**: Vote determines outcome, campaigns compete for support, high attention/resources
-- **Extraction**: χ(EC) = 0.58 × 1.0 = 0.58 (moderate—some extraction but high influence)
+- **Extraction**: Ï‡(EC) = 0.58 Ã— 1.0 = 0.58 (moderateâ€”some extraction but high influence)
 - **Objective reality**: In Pennsylvania/Wisconsin/Michigan, individual vote has high marginal impact
 
 **Safe state voter** [powerless/electoral_cycle/trapped/national]:
 - **Classification**: Snare
 - **Experience**: Vote predetermined by state lean, zero marginal impact, no campaign attention
-- **Extraction**: χ(EC) = 0.58 × 1.5 = 0.87 (very high—vote mathematically irrelevant)
+- **Extraction**: Ï‡(EC) = 0.58 Ã— 1.5 = 0.87 (very highâ€”vote mathematically irrelevant)
 - **Objective reality**: In California/Wyoming, individual vote has near-zero marginal impact
 
 **Small state institution** [institutional/constitutional_period/constrained/regional]:
@@ -716,7 +744,7 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 - **Reality**: Elector role is ceremonial/mechanical, functionally bound to state vote
 - **Objective reality**: Constitutional geometry prevents elimination (requires 3/4 states)
 
-**All five perspectives are objectively true from their indices.** This isn't "everyone's opinion is valid"—it's that same structure genuinely functions differently based on observable power position (exit options, enforcement control, resource access, geographic location).
+**All five perspectives are objectively true from their indices.** This isn't "everyone's opinion is valid"â€”it's that same structure genuinely functions differently based on observable power position (exit options, enforcement control, resource access, geographic location).
 
 ### Diagnostic Value: Resolving "Intractable" Debates
 
@@ -742,13 +770,13 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
    - Debate shifts from "who's right" to "what should power distribution be"
    - Makes reform conversation possible (target extraction layer while preserving coordination)
 
-**This dissolves many pseudo-conflicts.** Participants aren't disagreeing about facts—they're describing different experiences of the same structure from different positions in institutional space.
+**This dissolves many pseudo-conflicts.** Participants aren't disagreeing about factsâ€”they're describing different experiences of the same structure from different positions in institutional space.
 
 ---
 
 ## VI. Integration with Other Domains
 
-### Psychology ↔ Politics
+### Psychology â†” Politics
 
 **Internalized political limits:**
 - Learned powerlessness ("my vote doesn't matter")
@@ -765,7 +793,7 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 
 ---
 
-### Sociology ↔ Politics
+### Sociology â†” Politics
 
 **Informal vs. formal power:**
 - Social norms vs. legal rules
@@ -778,14 +806,14 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 
 ---
 
-### Ethics ↔ Politics
+### Ethics â†” Politics
 
 **Classification determines response:**
-- If **Mountain** → Ethics focuses on navigation (working within constraints)
-- If **Rope** → Ethics focuses on maintenance (preserve coordination)
-- If **Tangled Rope** → Ethics focuses on reform (preserve coordination, excise extraction)
-- If **Snare** → Ethics focuses on resistance/exit (escape extraction when possible)
-- If **Piton** → Ethics focuses on elimination (prune ruthlessly)
+- If **Mountain** â†’ Ethics focuses on navigation (working within constraints)
+- If **Rope** â†’ Ethics focuses on maintenance (preserve coordination)
+- If **Tangled Rope** â†’ Ethics focuses on reform (preserve coordination, excise extraction)
+- If **Snare** â†’ Ethics focuses on resistance/exit (escape extraction when possible)
+- If **Piton** â†’ Ethics focuses on elimination (prune ruthlessly)
 
 **Energy conservation in political action:**
 - Finite advocacy resources (time, money, attention, social capital)
@@ -803,7 +831,7 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 
 ---
 
-### Epistemology ↔ Politics
+### Epistemology â†” Politics
 
 **Same Six-Test Battery methodology:**
 1. Reality enforcement? (Mountain test)
@@ -821,18 +849,20 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 5. Navigate appropriately: Reform depends on values + power position
 
 **Power-scaling effects essential:**
-- Same base extraction (ε=0.58 for Electoral College)
-- Powerless voter: χ = 0.87 (Snare)
-- Moderate voter: χ = 0.58 (Tangled Rope)
-- Institutional designer: χ = 0.40 (Rope/functional)
+- Same base extraction (Îµ=0.58 for Electoral College)
+- Powerless voter: Ï‡ = 0.87 (Snare)
+- Moderate voter: Ï‡ = 0.58 (Tangled Rope)
+- Institutional designer: Ï‡ = 0.40 (Rope/functional)
 
 **Integration:** Political epistemology IS constraint epistemology applied to institutional space.
+
+**Empirical finding (corpus audit, February 2026):** Political constraints showed the highest rate of dominant cultural narrative embedding in the corpus. When LLM parsers generated constraint stories for contested political situations (Israel-Gaza, Xi-Mao centralization), they adopted the most statistically likely English-language framing from training data, embedding editorial perspective as classification input. For contested political situations, the generating LLM's frame correlates with institutional power over media production — a finding that reinforces the framework's own claim about power-scaling as epistemological necessity. Political classification requires explicit index specification precisely because the default narrative frame is itself power-indexed. See `limitations.md` for full findings.
 
 ---
 
 ## VII. Containment in Political Space: Paradoxes Requiring Management, Not Resolution
 
-**Structural paradoxes in democratic governance cannot be resolved—only contained through institutional design and sequential attention.**
+**Structural paradoxes in democratic governance cannot be resolvedâ€”only contained through institutional design and sequential attention.**
 
 ### A. Democratic Mandate vs. Constitutional Limits
 
@@ -964,7 +994,7 @@ Electoral systems aren't random—they exhibit **constraint topologies** that cr
 
 **Requires temporal observation:**
 - Do predicted compression velocities materialize? (France 2027 test)
-- What triggers Rope → Tangled Rope transitions?
+- What triggers Rope â†’ Tangled Rope transitions?
 - Can we build predictive lifecycle models for institutions?
 
 ---
@@ -1013,7 +1043,7 @@ Political Deferential Realism is not democratic theory to believe but institutio
 
 You classify institutional constraints. You test edges. You navigate tensions. You hold paradoxes. You accept what remains unresolved.
 
-**And somewhere in all of that, you find your political home—not through illusion, but through honest map of the terrain.**
+**And somewhere in all of that, you find your political homeâ€”not through illusion, but through honest map of the terrain.**
 
 That's politics.
 
@@ -1032,6 +1062,8 @@ That's politics.
 - `metaphysics.md` - Constraint-space ontology
 - `ethics.md` - How values navigate classified constraints
 - `aesthetics.md` - Beauty of alignment vs. ugliness of fraud
+- `constraint_lifecycles.md` - Temporal dynamics, drift events, conceptual lifecycles
+- `limitations.md` - Empirical failure modes, cultural narrative embedding findings
 
 **For Practical Application:**
 - `applied_guide.md` - Decision trees, case studies, error patterns
@@ -1045,9 +1077,9 @@ That's politics.
 
 ---
 
-**Deferential Realism: Politics v3.3**  
-**January 2026**  
-**Word count: ~7,800 words**
+**Deferential Realism: Politics v4.0**  
+**February 2026**  
+**Word count: ~8,500 words**
 
 **For complete framework:**
 - Gateway: `core.md`

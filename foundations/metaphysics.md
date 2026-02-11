@@ -2,7 +2,7 @@
 
 **What Constraints Are and How They Differ Structurally**
 
-**Version 3.3 - Integrated**
+**Version 4.0**
 
 ---
 
@@ -10,7 +10,7 @@
 
 *This framework makes a metaphysical assertion that often sounds strange at first: "You are constituted by your constraints."*
 
-*For someone encountering this claim, it's natural to push back:* **"Wait—that can't be right. I'm more than just my limitations. I have an essence, a soul, a core identity that exists independent of external constraints."**
+*For someone encountering this claim, it's natural to push back:* **"Waitâ€”that can't be right. I'm more than just my limitations. I have an essence, a soul, a core identity that exists independent of external constraints."**
 
 This reaction is understandable, and the confusion is telling. It reveals two fundamentally different ways of thinking about identity and existence.
 
@@ -40,19 +40,19 @@ This framework assumes:
 - Identity is the intersection of limits, not a substance beneath them
 
 **Example questions it generates:**
-- "If skin is a constraint, does Erik exist outside of it?" (No—"Erik" requires embodiment)
-- "Would billionaire, famous, U.S. President Erik be the same as actual Erik?" (No—different constraint structure = different entity)
-- "Same Erik without your history, obligations, responsibilities—say, single without children?" (No—remove those constraints and you have a different pattern, hence different person)
+- "If skin is a constraint, does Erik exist outside of it?" (Noâ€”"Erik" requires embodiment)
+- "Would billionaire, famous, U.S. President Erik be the same as actual Erik?" (Noâ€”different constraint structure = different entity)
+- "Same Erik without your history, obligations, responsibilitiesâ€”say, single without children?" (Noâ€”remove those constraints and you have a different pattern, hence different person)
 
 ### Why This Sounds Strange
 
-The constraint model violates **substance metaphysics**—the intuition that things have an underlying nature independent of their properties or relations.
+The constraint model violates **substance metaphysics**â€”the intuition that things have an underlying nature independent of their properties or relations.
 
 **But notice:** You already accept constraint-constitution in some domains:
 
 **A corporation** exists only through its constraint structure (bylaws, contracts, ownership). Remove all constraints and there's no corporation.
 
-**A game** exists only through its rules (constraints on valid moves). Chess without rules isn't "essential chess" constrained—it's nothing.
+**A game** exists only through its rules (constraints on valid moves). Chess without rules isn't "essential chess" constrainedâ€”it's nothing.
 
 **A melody** exists only through temporal and pitch constraints. Remove the structure and you have random sounds, not "constrained melody."
 
@@ -66,11 +66,11 @@ The constraint model violates **substance metaphysics**—the intuition that thi
 
 **What it affirms:** You are the *pattern* that emerges from constraint intersection. Your agency operates *within* that pattern, not from some constraint-free essence beneath it.
 
-**Analogy:** A river doesn't exist *despite* its banks—it exists *because of* the constraints that channel water into a coherent flow. Remove all constraints and you don't have "free water," you have dispersed molecules. The river is the constrained pattern.
+**Analogy:** A river doesn't exist *despite* its banksâ€”it exists *because of* the constraints that channel water into a coherent flow. Remove all constraints and you don't have "free water," you have dispersed molecules. The river is the constrained pattern.
 
 ### You Can Reject This Model
 
-If you believe in souls, essences, or substrates that exist independent of constraints—that's fine. This framework doesn't require you to abandon substance metaphysics.
+If you believe in souls, essences, or substrates that exist independent of constraintsâ€”that's fine. This framework doesn't require you to abandon substance metaphysics.
 
 **But then notice:** The framework's classification system still works. You can say:
 
@@ -90,7 +90,7 @@ The practical utility remains. You just interpret the metaphysics differently.
 - Most entities we care about (persons, institutions, systems) are better understood as constraint-patterns than as substances
 - The framework works whether you accept this metaphysics or not
 
-**The invitation:** Try thinking this way. See if it helps. If it does, maybe that's because constraint-constitution captures something structural about how things actually work—even if it violates your intuitions about essence and identity.
+**The invitation:** Try thinking this way. See if it helps. If it does, maybe that's because constraint-constitution captures something structural about how things actually workâ€”even if it violates your intuitions about essence and identity.
 
 Now, with that framing established, let's examine what constraints actually are and how they differ structurally.
 
@@ -131,11 +131,11 @@ This document DOES explain:
 - Temporal: 24 hours/day limits what you can accomplish
 - Embodiment: Skin defines boundary between self and environment
 
-**Key insight:** Constraints operate whether or not you acknowledge them. Denying gravity doesn't let you fly. Ignoring budget doesn't create money. This is what makes them "real" operationally—they have consequences independent of belief.
+**Key insight:** Constraints operate whether or not you acknowledge them. Denying gravity doesn't let you fly. Ignoring budget doesn't create money. This is what makes them "real" operationallyâ€”they have consequences independent of belief.
 
-**What remains open:** Whether constraints "exist" in some ultimate metaphysical sense, or are features of our models, or are relations between entities, or are the fundamental stuff of reality—framework doesn't require taking a position.
+**What remains open:** Whether constraints "exist" in some ultimate metaphysical sense, or are features of our models, or are relations between entities, or are the fundamental stuff of realityâ€”framework doesn't require taking a position.
 
-**The constitution claim:** Entities are better understood as *patterns of intersecting constraints* than as substances with properties. Remove all constraints and you don't have "unconstrained entity"—you have nothing. Identity *is* the constraint pattern.
+**The constitution claim:** Entities are better understood as *patterns of intersecting constraints* than as substances with properties. Remove all constraints and you don't have "unconstrained entity"â€”you have nothing. Identity *is* the constraint pattern.
 
 ---
 
@@ -191,7 +191,7 @@ The structural properties (zero decay, universal scope, no enforcement, natural 
 - **Conditional scope:** Bind participants in specific coordination regimes
 - **Maintenance requirement:** Need social reproduction to persist
 - **Violation consequences:** Coordination failure causing mutual loss
-- **Low extraction:** Base ε(C) ≤ 0.15, benefits approximately reciprocal
+- **Low extraction:** Base Îµ(C) â‰¤ 0.15, benefits approximately reciprocal
 
 **Measurable features:**
 - Cultural variation (different solutions to same problems)
@@ -216,7 +216,7 @@ The structural properties (zero decay, universal scope, no enforcement, natural 
 
 **Entity constitution:** Many institutions *are* Rope-patterns. A corporation exists as a coordination structure (bylaws, contracts, roles). Remove the Ropes and the entity dissolves.
 
-**Degradation path:** Rope → Tangled Rope (extraction accumulates) → Piton (coordination function lost)
+**Degradation path:** Rope â†’ Tangled Rope (extraction accumulates) â†’ Piton (coordination function lost)
 
 ---
 
@@ -224,7 +224,7 @@ The structural properties (zero decay, universal scope, no enforcement, natural 
 
 **Structural properties:**
 - **Dual function:** Both coordinate AND extract (irreducible hybrid)
-- **Moderate extraction:** 0.40 ≤ ε(C) ≤ 0.90, asymmetric distribution
+- **Moderate extraction:** 0.40 â‰¤ Îµ(C) â‰¤ 0.90, asymmetric distribution
 - **Coordination core:** Genuine coordination problem solved
 - **Extraction layer:** Power-maintained rent-seeking grafted onto coordination
 - **High prevalence:** 36% of analyzed constraints (168/467)
@@ -252,20 +252,20 @@ The structural properties (zero decay, universal scope, no enforcement, natural 
 
 **Power-scaling mechanism:**
 ```
-Same base extraction ε(C) = 0.40
-Powerless experience: χ(C) = 0.40 × 1.5 = 0.60 (Snare threshold)
-Moderate experience: χ(C) = 0.40 × 1.0 = 0.40 (Tangled Rope)
-Institutional experience: χ(C) = 0.40 × (-0.2) = -0.08 (net benefit, Rope)
+Same base extraction Îµ(C) = 0.40
+Powerless experience: Ï‡(C) = 0.40 Ã— 1.5 = 0.60 (Snare threshold)
+Moderate experience: Ï‡(C) = 0.40 Ã— 1.0 = 0.40 (Tangled Rope)
+Institutional experience: Ï‡(C) = 0.40 Ã— (-0.2) = -0.08 (net benefit, Rope)
 ```
 
-This explains why same constraint genuinely IS Mountain/Tangled Rope/Rope/Snare from different indices—not perspectivism but structural relativity.
+This explains why same constraint genuinely IS Mountain/Tangled Rope/Rope/Snare from different indicesâ€”not perspectivism but structural relativity.
 
 ---
 
 ### D. Snares: Extractive Constraints
 
 **Structural properties:**
-- **High extraction:** ε(C) ≥ 0.46, concentrated benefits
+- **High extraction:** Îµ(C) â‰¥ 0.46, concentrated benefits
 - **Power maintenance:** Requires active enforcement to persist
 - **No coordination:** Claimed function is pretense or obsolete
 - **Rapid snap-back:** When enforcement stops, constraint dissolves quickly
@@ -292,7 +292,7 @@ This explains why same constraint genuinely IS Mountain/Tangled Rope/Rope/Snare 
 - Extraction is structural property, not accidental
 - Resisting requires power or exit
 
-**Entity constitution:** Some institutions *are* Snare-patterns—extraction mechanisms maintained through power. They don't "have" extractive properties; they *are* extraction structures. Remove the power maintenance and the entity ceases to exist.
+**Entity constitution:** Some institutions *are* Snare-patternsâ€”extraction mechanisms maintained through power. They don't "have" extractive properties; they *are* extraction structures. Remove the power maintenance and the entity ceases to exist.
 
 **Terminology note:** Previously "Snare" (execution device). "Snare" better fits climbing metaphor (trap in terrain) while maintaining the "tightening trap" concept.
 
@@ -323,8 +323,8 @@ This explains why same constraint genuinely IS Mountain/Tangled Rope/Rope/Snare 
 
 **Why this matters structurally:**
 - **Temporal property, not distinct constraint-type**
-- Can have ⟐C[I] ∧ ⧗C(t) (Rope with sunset)
-- Degradation if not removed: Scaffold → Piton or Scaffold → Tangled Rope
+- Can have âŸC[I] âˆ§ â§—C(t) (Rope with sunset)
+- Degradation if not removed: Scaffold â†’ Piton or Scaffold â†’ Tangled Rope
 - Hidden risk: Some "scaffolds" extract rent while entrenching power
 
 **Entity constitution:** Some entities are *defined* by temporality. A bridge loan isn't a loan with temporal property; it's a temporal financial structure. A training program isn't education with temporal property; it's a time-limited developmental support.
@@ -360,7 +360,7 @@ This explains why same constraint genuinely IS Mountain/Tangled Rope/Rope/Snare 
 - Response is administrative cleanup, not political battle
 - Different from Snares (no power defense, no beneficiaries)
 
-**Entity constitution:** Some institutions *were* entities but have become vestigial patterns—organizational Pitons. The structure persists but the function is gone. They're institutional fossils.
+**Entity constitution:** Some institutions *were* entities but have become vestigial patternsâ€”organizational Pitons. The structure persists but the function is gone. They're institutional fossils.
 
 **Terminology note:** Previously "Piton" (undead). "Piton" better fits climbing metaphor (old anchor that fails) and captures the specific danger: looks like support, fails under load.
 
@@ -371,35 +371,35 @@ This explains why same constraint genuinely IS Mountain/Tangled Rope/Rope/Snare 
 ### A. Different Response Requirements
 
 **Mountains:**
-- Cannot be changed → Navigate around
-- Violation produces reality failure → Accept and route
-- No enforcement → Testing is safe (distinguishes from False Summits)
+- Cannot be changed â†’ Navigate around
+- Violation produces reality failure â†’ Accept and route
+- No enforcement â†’ Testing is safe (distinguishes from False Summits)
 
 **Ropes:**
-- Can be changed → Maintain, refine, or replace
-- Violation produces coordination loss → Protect functional structures
-- Requires maintenance → Monitor for degradation
+- Can be changed â†’ Maintain, refine, or replace
+- Violation produces coordination loss â†’ Protect functional structures
+- Requires maintenance â†’ Monitor for degradation
 
 **Tangled Ropes:**
-- Hybrid structure → Reform (preserve coordination, excise extraction)
-- Violation of coordination → Harm
-- Violation of extraction → Liberation
-- Requires surgical precision → Most difficult response
+- Hybrid structure â†’ Reform (preserve coordination, excise extraction)
+- Violation of coordination â†’ Harm
+- Violation of extraction â†’ Liberation
+- Requires surgical precision â†’ Most difficult response
 
 **Snares:**
-- Power-maintained → Resist or exit
-- Violation produces punishment (not system failure) → Strategic resistance needed
-- Naturalization fraud → Expose False Summit claims
+- Power-maintained â†’ Resist or exit
+- Violation produces punishment (not system failure) â†’ Strategic resistance needed
+- Naturalization fraud â†’ Expose False Summit claims
 
 **Scaffolds:**
-- Temporary → Use then dismantle
-- Violation of sunset → Calcification into Piton or Tangled Rope
-- Requires discipline → Remove when purpose served
+- Temporary â†’ Use then dismantle
+- Violation of sunset â†’ Calcification into Piton or Tangled Rope
+- Requires discipline â†’ Remove when purpose served
 
 **Pitons:**
-- Obsolete → Bypass or eliminate
-- Violation produces nothing → Safe to ignore or remove
-- Administrative cleanup → No political resistance needed
+- Obsolete â†’ Bypass or eliminate
+- Violation produces nothing â†’ Safe to ignore or remove
+- Administrative cleanup â†’ No political resistance needed
 
 ### B. Different Measurement Methods
 
@@ -489,11 +489,11 @@ This explains why same constraint genuinely IS Mountain/Tangled Rope/Rope/Snare 
 ### A. Degradation Paths
 
 ```
-Rope → Tangled Rope (extraction accumulates)
-Tangled Rope → Piton (coordination function lost, extraction dried up)
-Scaffold → Piton (purpose served but not removed)
-Rope → Piton (environment changes, coordination obsolete)
-Scaffold → Tangled Rope (extraction added to temporary support)
+Rope â†’ Tangled Rope (extraction accumulates)
+Tangled Rope â†’ Piton (coordination function lost, extraction dried up)
+Scaffold â†’ Piton (purpose served but not removed)
+Rope â†’ Piton (environment changes, coordination obsolete)
+Scaffold â†’ Tangled Rope (extraction added to temporary support)
 ```
 
 **Not reversible:** Degradation is entropic. Pitons rarely become Ropes again (requires complete rebuilding).
@@ -542,7 +542,7 @@ Scaffold → Tangled Rope (extraction added to temporary support)
 
 ### A. Process Philosophy (Whitehead)
 
-**Alignment:** Entities as patterns of constraints fits process ontology—reality as patterns of activity rather than static substances.
+**Alignment:** Entities as patterns of constraints fits process ontologyâ€”reality as patterns of activity rather than static substances.
 
 **Difference:** Deferential Realism agnostic about whether process or substance is "more fundamental." Framework works either way.
 
@@ -562,7 +562,7 @@ Scaffold → Tangled Rope (extraction added to temporary support)
 
 **Alignment:** Distinguishes observable properties (structural features) from underlying mechanisms.
 
-**Difference:** More modest—doesn't claim to identify "generative mechanisms," just observable structural patterns.
+**Difference:** More modestâ€”doesn't claim to identify "generative mechanisms," just observable structural patterns.
 
 ### E. Actor-Network Theory (Latour)
 
@@ -584,7 +584,7 @@ Scaffold → Tangled Rope (extraction added to temporary support)
 
 **Question:** What makes you "you"?
 
-**Substance answer:** Your soul, essence, consciousness—some substrate that persists across change.
+**Substance answer:** Your soul, essence, consciousnessâ€”some substrate that persists across change.
 
 **Constraint answer:** You are the pattern of intersecting constraints that defines your possibility space.
 
@@ -592,13 +592,13 @@ Scaffold → Tangled Rope (extraction added to temporary support)
 
 **"If skin is a constraint, does Erik exist outside it?"**
 - No. Embodiment isn't imposed on essential Erik; embodiment constitutes Erik.
-- Remove skin (boundary constraint) and you don't have "unconstrained Erik"—you have organic dissolution.
+- Remove skin (boundary constraint) and you don't have "unconstrained Erik"â€”you have organic dissolution.
 
 **"Would billionaire, famous, U.S. President Erik be the same as actual Erik?"**
 - No. Different power position, different social constraints, different possibility space = different entity.
 - Not "same person in different circumstances" but different person (different constraint pattern).
 
-**"Same Erik without history, obligations, children—single without responsibilities?"**
+**"Same Erik without history, obligations, childrenâ€”single without responsibilities?"**
 - No. Remove those constraints and you have a structurally different pattern, hence different entity.
 - The responsibilities aren't burdens on essential Erik; they constitute who Erik is.
 
@@ -610,25 +610,25 @@ Scaffold → Tangled Rope (extraction added to temporary support)
 
 **Question:** What makes a corporation exist?
 
-**Substance answer:** Legal entity, property rights, shareholders—some substrate.
+**Substance answer:** Legal entity, property rights, shareholdersâ€”some substrate.
 
 **Constraint answer:** Corporation is a Rope-pattern (bylaws, contracts, coordination mechanisms). Remove the constraints and nothing remains.
 
-**Example:** If all contracts dissolved, all bylaws erased, all roles undefined—no "essential corporation" remains. The corporation WAS the constraint structure.
+**Example:** If all contracts dissolved, all bylaws erased, all roles undefinedâ€”no "essential corporation" remains. The corporation WAS the constraint structure.
 
-**Modern institutions:** Often Tangled Ropes—both coordinate (enable collective action) AND extract (concentrate power/wealth). Understanding them requires recognizing the hybrid structure.
+**Modern institutions:** Often Tangled Ropesâ€”both coordinate (enable collective action) AND extract (concentrate power/wealth). Understanding them requires recognizing the hybrid structure.
 
 ### C. Systems
 
 **Question:** What makes a game exist?
 
-**Substance answer:** Players, board, pieces—some material substrate.
+**Substance answer:** Players, board, piecesâ€”some material substrate.
 
 **Constraint answer:** Game is pure constraint-pattern (rules defining valid moves). Remove constraints and you have pieces, not game.
 
-**Example:** Chess without rules isn't "constrained chess"—it's nothing. The rules don't limit essential chess; they constitute chess.
+**Example:** Chess without rules isn't "constrained chess"â€”it's nothing. The rules don't limit essential chess; they constitute chess.
 
-**Social systems:** Markets, democracies, languages—all constraint-patterns. Change the rules and you have different systems, not same system under different constraints.
+**Social systems:** Markets, democracies, languagesâ€”all constraint-patterns. Change the rules and you have different systems, not same system under different constraints.
 
 ---
 
@@ -665,6 +665,12 @@ Scaffold → Tangled Rope (extraction added to temporary support)
 
 **Self-referential:** Framework itself is a constraint on thought. What type? If used as Rope (enables clearer thinking), good. If becomes Piton (calcified dogma), bad.
 
+**Implementation ontology (empirical finding, February 2026):** The constraint stories exist as Prolog facts — formal objects with defined predicates, measurable properties, and mechanical verification. This creates an implementation ontology alongside the philosophical one: constraints are not only possibility-limiters (the metaphysical claim) but also data structures with syntax requirements, namespace rules, and template compliance standards.
+
+The corpus audit revealed that the implementation ontology has its own failure modes independent of the philosophical one. A constraint can be metaphysically coherent (correctly identifies a genuine possibility-limiter) while being implementationally broken (unnamespaced predicates prevent the Prolog engine from finding its beneficiary/victim declarations). Conversely, a constraint can be implementationally perfect (passes all linter checks, resolves cleanly) while being metaphysically wrong (naturalizes a constructed system as natural law).
+
+This dual ontology — philosophical correctness versus implementation correctness — is itself a constraint on the framework. The framework must maintain both, and they require different verification methods. See `limitations.md` for full empirical findings on implementation failure modes.
+
 ---
 
 ## XI. What This Metaphysics Achieves
@@ -684,7 +690,7 @@ Scaffold → Tangled Rope (extraction added to temporary support)
 - Recognition of hybrid structures (Tangled Ropes) common in modern institutions
 - Diagnosis of obsolete structures (Pitons) wasting resources
 
-**Honest epistemic stance:** This is a working metaphysics—useful framework, not final truth. Open to revision as evidence accumulates.
+**Honest epistemic stance:** This is a working metaphysicsâ€”useful framework, not final truth. Open to revision as evidence accumulates.
 
 ---
 
@@ -709,9 +715,9 @@ That's all metaphysics needs to do.
 
 ---
 
-**Deferential Realism: Metaphysics v3.3**  
-**January 2026**  
-**Word count: ~5,900 words**
+**Deferential Realism: Metaphysics v4.0**  
+**February 2026**  
+**Word count: ~6,200 words**
 
 **For complete framework:**
 - Gateway: `core.md`

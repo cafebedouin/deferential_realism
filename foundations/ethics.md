@@ -2,8 +2,8 @@
 
 **Living Consistently With What You Actually Believe About Constraints**
 
-**Version 3.3 - Expanded**  
-**Date:** January 2026  
+**Version 4.0**  
+**Date:** February 2026  
 **Companion to:** core.md, epistemology.md, logic.md, metaphysics.md
 
 ---
@@ -26,7 +26,7 @@ In the Bhagavad Gita, Krishna argues that Arjuna should fight in the war. The ar
 
 **If you reject these axioms:** Krishna's argument is a Snare. He's using metaphysical claims Arjuna doesn't believe to extract military service in a war Arjuna wants to avoid.
 
-**The ethical requirement:** You must examine which you actually believe. Not which sounds profound, not which tradition endorses, not which authority proclaims—but which you can honestly affirm as true about reality.
+**The ethical requirement:** You must examine which you actually believe. Not which sounds profound, not which tradition endorses, not which authority proclaimsâ€”but which you can honestly affirm as true about reality.
 
 **This framework cannot tell you which to believe.** It can only insist that you examine the question, because the entire ethical analysis depends on it.
 
@@ -99,7 +99,7 @@ These are not universal moral duties. They are **practices that serve specific v
 
 **The diagnostic:**
 - **Beneficiary analysis:** Who wins systematically? Who loses?
-- **Snap-back test:** Remove enforcement—does it collapse immediately or persist?
+- **Snap-back test:** Remove enforcementâ€”does it collapse immediately or persist?
 - **Implementation gap:** Does practice diverge from stated purpose?
 - **Naturalization rhetoric:** Does it claim "this is just how things are"?
 - **Alternative suppression:** Are competing options actively blocked?
@@ -175,7 +175,7 @@ These are not universal moral duties. They are **practices that serve specific v
 **Institutional Tangled Ropes:**
 - Two-round elections (majority legitimacy + centrist compression)
 - Party-list PR with threshold (prevents fragmentation + suppresses near-threshold parties)
-- Centrão budget amendments (coalition governance + pork extraction)
+- CentrÃ£o budget amendments (coalition governance + pork extraction)
 
 **Psychological Tangled Ropes (Hybrid Patterns):**
 - Perfectionism (quality standards + impossible demands tied to worth)
@@ -190,8 +190,8 @@ These are not universal moral duties. They are **practices that serve specific v
 - Are functions separable or structurally entangled?
 
 **Step 2: Measure extraction**
-- What's base extractiveness ε? (0.40 ≤ ε ≤ 0.90 for Tangled Rope)
-- How does power-scaling affect experience? (π modifiers)
+- What's base extractiveness Îµ? (0.40 â‰¤ Îµ â‰¤ 0.90 for Tangled Rope)
+- How does power-scaling affect experience? (Ï€ modifiers)
 - Who experiences Rope vs. Snare from different positions?
 
 **Step 3: Assess separability**
@@ -204,25 +204,25 @@ These are not universal moral duties. They are **practices that serve specific v
 **If separable:**
 - Preserve coordination mechanism
 - Excise extraction layer
-- Example: Academic publishing → peer review + open access (separate functions)
+- Example: Academic publishing â†’ peer review + open access (separate functions)
 
 **If inseparable:**
 - Reduce extraction while maintaining coordination
 - Regulatory constraint on extraction
-- Example: Health insurance → coverage requirements + administrative cost caps
+- Example: Health insurance â†’ coverage requirements + administrative cost caps
 
 **If coordination lost:**
-- Recognize degradation (Tangled Rope → Snare)
+- Recognize degradation (Tangled Rope â†’ Snare)
 - Extraction persists, coordination gone
 - Treat as Snare, not Tangled Rope (resistance/exit strategies)
 
 **The strategic benefit:** Reform preserves collective capacity (coordination) while reducing individual harm (extraction). Avoids false choice between blanket acceptance and wholesale destruction.
 
 **The failure modes:**
-- **Treating Tangled Rope as pure Rope** → defend extraction, block reform
-- **Treating Tangled Rope as pure Snare** → destroy coordination, lose collective benefit
-- **Claiming inseparability when separable** → excuse for maintaining extraction
-- **Attempting separation when inseparable** → break coordination, fail to reduce extraction
+- **Treating Tangled Rope as pure Rope** â†’ defend extraction, block reform
+- **Treating Tangled Rope as pure Snare** â†’ destroy coordination, lose collective benefit
+- **Claiming inseparability when separable** â†’ excuse for maintaining extraction
+- **Attempting separation when inseparable** â†’ break coordination, fail to reduce extraction
 
 **Why this is conditional:** Some revolutionaries prefer wholesale replacement over reform. Some conservatives prefer accepting extraction over disruption. For them, surgical reform may not be valued. The framework doesn't claim everyone should prioritize reform over revolution or acceptance.
 
@@ -243,7 +243,7 @@ These are not universal moral duties. They are **practices that serve specific v
 - Cannot be solved individually
 - Mechanism actually addresses problem
 
-**2. Low extraction (ε ≤ 0.15):**
+**2. Low extraction (Îµ â‰¤ 0.15):**
 - Reciprocal benefit (participants gain approximately equally)
 - Minimal enforcement (maintained because it works)
 - Voluntary participation (in principle)
@@ -289,7 +289,7 @@ These are not universal moral duties. They are **practices that serve specific v
 - **Building opaque Ropes** (mechanisms hide true function)
 - **Building rigid Ropes** (cannot adapt when conditions change)
 - **Building Snares disguised as Ropes** (extraction from inception)
-- **Adding extraction later** (Rope → Tangled Rope degradation)
+- **Adding extraction later** (Rope â†’ Tangled Rope degradation)
 
 **Why this is conditional:** Some people value individual freedom over collective coordination, spontaneity over system, or prefer navigating without rules. For them, building coordination mechanisms may feel like unnecessary constraint. The framework doesn't claim everyone should value coordination over individual freedom.
 
@@ -317,7 +317,7 @@ These are not universal moral duties. They are **practices that serve specific v
 - Requires high maintenance (both coordination AND extraction need management)
 - Maintenance focus: Preserve coordination, starve extraction
 - Surgical precision: Don't maintain extraction while maintaining coordination
-- Reform as maintenance: Reducing ε while preserving function
+- Reform as maintenance: Reducing Îµ while preserving function
 
 **Scaffolds (temporary supports):**
 - Maintenance until sunset, then **mandatory dismantlement**
@@ -360,12 +360,12 @@ These are not universal moral duties. They are **practices that serve specific v
 
 **Sunk cost fallacy:**
 - "We invested so much" (past investment irrelevant to current utility)
-- "20 years of tradition" (duration ≠ value)
+- "20 years of tradition" (duration â‰  value)
 - "My whole career was built on this" (identity fusion blocking assessment)
 
 **Tradition worship:**
-- "This is who we are" (identity ≠ function)
-- "Respect for the past" (nostalgia ≠ maintenance obligation)
+- "This is who we are" (identity â‰  function)
+- "Respect for the past" (nostalgia â‰  maintenance obligation)
 - "We can't just abandon it" (actually, you can and should if it's dead)
 
 **Identity fusion:**
@@ -381,7 +381,7 @@ These are not universal moral duties. They are **practices that serve specific v
 - Structure is Piton (piton, no function)
 - Maintaining it is unethical (opportunity cost harm)
 - Elimination is moral duty (frees resources for function)
-- Only institutionally invested parties would mourn → their nostalgia doesn't create maintenance obligation
+- Only institutionally invested parties would mourn â†’ their nostalgia doesn't create maintenance obligation
 
 **If loss:**
 - Structure still serves function (Rope/Scaffold/even Tangled Rope)
@@ -404,7 +404,7 @@ These are not universal moral duties. They are **practices that serve specific v
 
 **The obligation structure:**
 
-**At creation (t₀):**
+**At creation (tâ‚€):**
 - Build in sunset clause (explicit completion criteria or date)
 - Make temporality part of legitimacy ("acceptable because temporary")
 - Define success metric (completion = dissolution, not continuation)
@@ -424,7 +424,7 @@ These are not universal moral duties. They are **practices that serve specific v
 
 **Betrays original legitimacy claim:**
 - Scaffold legitimate because temporary
-- Claiming temporary → extracting under false pretenses → becomes permanent
+- Claiming temporary â†’ extracting under false pretenses â†’ becomes permanent
 - This is **fraud** (claimed one thing, delivered another)
 
 **Creates piton burden on future:**
@@ -465,13 +465,13 @@ These are not universal moral duties. They are **practices that serve specific v
 **For Ropes you maintain:**
 
 **Watch for drift events:**
-- Extraction accumulation (ε creeping upward)
+- Extraction accumulation (Îµ creeping upward)
 - Metric substitution (proxy becoming goal)
 - Alternative suppression (competing coordination blocked)
 - Benefit concentration (reciprocity breaking down)
 
 **Preventive maintenance:**
-- Regular extraction audits (measure ε quarterly)
+- Regular extraction audits (measure Îµ quarterly)
 - Beneficiary analysis (who gains/loses systematically?)
 - Environment scanning (context shifts affecting function?)
 - Reform early (easier to fix Rope than Tangled Rope)
@@ -493,12 +493,12 @@ These are not universal moral duties. They are **practices that serve specific v
 **Example: Professional association**
 - Coordination: Quality standards, knowledge sharing
 - Extraction: Gatekeeping, credential rent
-- Maintenance ≠ defending extraction
+- Maintenance â‰  defending extraction
 - Reform: Maintain standards, reduce gatekeeping costs
 
 **Maintenance as transformation:**
 
-**Maintenance ≠ preservation:**
+**Maintenance â‰  preservation:**
 - Maintenance can mean controlled degradation (graceful Scaffold sunset)
 - Maintenance can mean transformation (reform to better state)
 - Maintenance is NOT always "keep exactly as is"
@@ -523,17 +523,17 @@ These are not universal moral duties. They are **practices that serve specific v
 
 **Universal paradoxes (across domains):**
 
-**Autonomy ⇄ Connection:**
+**Autonomy â‡„ Connection:**
 - Need both independence AND intimacy
 - Cannot maximize both simultaneously
 - Resolution attempts create: Isolation (pure autonomy) or Fusion (pure connection)
 
-**Security ⇄ Growth:**
+**Security â‡„ Growth:**
 - Need both stability AND challenge
 - Cannot have both fully at once
 - Resolution attempts create: Stagnation (pure security) or Chaos (pure growth)
 
-**Present ⇄ Future:**
+**Present â‡„ Future:**
 - Need both current satisfaction AND future preparation
 - Cannot optimize both simultaneously
 - Resolution attempts create: Hedonism (pure present) or Asceticism (pure future)
@@ -541,20 +541,20 @@ These are not universal moral duties. They are **practices that serve specific v
 **Domain-specific paradoxes:**
 
 **Political:**
-- Majority Rule ⇄ Minority Rights (tyranny of majority vs. tyranny of minority)
-- Representation ⇄ Expertise (electability vs. competence)
-- Stability ⇄ Accountability (long terms vs. short terms)
-- Federalism ⇄ Efficiency (decentralization vs. coordination)
+- Majority Rule â‡„ Minority Rights (tyranny of majority vs. tyranny of minority)
+- Representation â‡„ Expertise (electability vs. competence)
+- Stability â‡„ Accountability (long terms vs. short terms)
+- Federalism â‡„ Efficiency (decentralization vs. coordination)
 
 **Aesthetic:**
-- Innovation ⇄ Communication (break conventions vs. lose audience)
-- Autonomy ⇄ Audience (artistic integrity vs. commercial viability)
-- Material ⇄ Concept (pure craft vs. pure idea)
-- Vision ⇄ Collaboration (control vs. capacity)
+- Innovation â‡„ Communication (break conventions vs. lose audience)
+- Autonomy â‡„ Audience (artistic integrity vs. commercial viability)
+- Material â‡„ Concept (pure craft vs. pure idea)
+- Vision â‡„ Collaboration (control vs. capacity)
 
 **Psychological:**
-- Acceptance ⇄ Change (self-acceptance vs. growth)
-- Material frame ⇄ Functional frame (biology vs. agency)
+- Acceptance â‡„ Change (self-acceptance vs. growth)
+- Material frame â‡„ Functional frame (biology vs. agency)
 
 **The Containment Protocol (6 steps):**
 
@@ -648,10 +648,10 @@ These are not universal moral duties. They are **practices that serve specific v
 **Why classification is ethical requirement, not just epistemic virtue:**
 
 **1. Action consequences:**
-- Wrong classification → wrong response → harm
-- Treating Snare as Mountain → surrender to changeable extraction
-- Treating Mountain as Snare → waste energy fighting unchangeable
-- Treating Tangled Rope as pure type → either defend extraction OR destroy coordination
+- Wrong classification â†’ wrong response â†’ harm
+- Treating Snare as Mountain â†’ surrender to changeable extraction
+- Treating Mountain as Snare â†’ waste energy fighting unchangeable
+- Treating Tangled Rope as pure type â†’ either defend extraction OR destroy coordination
 
 **2. Resource allocation:**
 - Fighting False Mountains wastes collective energy
@@ -732,7 +732,9 @@ These are not universal moral duties. They are **practices that serve specific v
 5. **Have you actually tried alternatives?** (reveals assumption vs. knowledge)
 
 **If answer pattern = No testing + Resist evidence + You benefit + Would change for money + No alternatives tried:**
-→ **Likely dishonest False Mountain claim**
+†' **Likely dishonest False Mountain claim**
+
+**Empirical confirmation (corpus audit, February 2026):** The False Mountain problem is not only an ethical failure by human agents — it is the primary failure mode of the framework's own implementation. LLM parsers classified 252 of 594 constraint stories as Mountains where perspectives disagree; 96 had base extractiveness > 0.15, directly violating the Mountain definition. The mechanism is not strategic dishonesty but parser naturalization: the generating LLM defaults to "natural law" when a constraint feels systemic, regardless of enforcement requirements or beneficiary structure. The self-referential case (an LLM classifying AI displacement of workers as "structural market law") demonstrates that the False Mountain problem operates at every level — from individual motivated reasoning to institutional ideology to the classification system itself. See `limitations.md` for full audit.
 
 ### C. The Snare Naturalization Defense
 
@@ -776,14 +778,14 @@ These are not universal moral duties. They are **practices that serve specific v
 **2. Check beneficiaries:**
 - Who gains from Mountain claim?
 - Who loses if structure changed?
-- Asymmetric benefit distribution → Snare likely
+- Asymmetric benefit distribution â†’ Snare likely
 
 **3. Test edges (damage vs. discomfort):**
 - Violation produces objective harm? (Mountain)
 - Violation produces subjective discomfort or punishment? (Snare)
 
 **4. Expose construction:**
-- When was this created? (t₀ reveals construction)
+- When was this created? (tâ‚€ reveals construction)
 - By whom? (creators often beneficiaries)
 - For what stated purpose? (implementation gap?)
 
@@ -822,7 +824,7 @@ These are not universal moral duties. They are **practices that serve specific v
 - Serves power redistribution (powerless against powerful)
 
 **Conditions:**
-- Tangled Rope actually high-extraction (ε > 0.60)
+- Tangled Rope actually high-extraction (Îµ > 0.60)
 - Simplification doesn't prevent future reform (won't destroy what coordination exists)
 - Serves legitimate redistribution (not just power grab)
 
@@ -842,7 +844,7 @@ These are not universal moral duties. They are **practices that serve specific v
 - Self-directed only (not claiming to others)
 - Temporary framing (will reclassify when able)
 
-**Example:** "I can't leave this abusive job" (actually can't - bills due, no alternatives) → treating as Mountain reduces self-blame
+**Example:** "I can't leave this abusive job" (actually can't - bills due, no alternatives) â†’ treating as Mountain reduces self-blame
 
 **Case 4: Pedagogical simplification**
 
@@ -1019,23 +1021,23 @@ These are not universal moral duties. They are **practices that serve specific v
 **Why precision matters:**
 
 **Different types require different responses:**
-- Mountains → Accept, navigate around
-- Ropes → Maintain, refine
-- Tangled Ropes → Reform (surgical precision)
-- Snares → Resist, exit, expose
-- Scaffolds → Use temporarily, dismantle
-- Pitons → Eliminate ruthlessly
+- Mountains â†’ Accept, navigate around
+- Ropes â†’ Maintain, refine
+- Tangled Ropes â†’ Reform (surgical precision)
+- Snares â†’ Resist, exit, expose
+- Scaffolds â†’ Use temporarily, dismantle
+- Pitons â†’ Eliminate ruthlessly
 
 **Imprecision causes harm:**
-- Call Tangled Rope a Snare → destroy coordination in reform attempt
-- Call Tangled Rope a Rope → defend extraction, block reform
-- Call Piton active → waste energy fighting dead structure
-- Call Scaffold permanent → block necessary evolution
-- Call preference a Mountain → enable evasion of responsibility
+- Call Tangled Rope a Snare â†’ destroy coordination in reform attempt
+- Call Tangled Rope a Rope â†’ defend extraction, block reform
+- Call Piton active â†’ waste energy fighting dead structure
+- Call Scaffold permanent â†’ block necessary evolution
+- Call preference a Mountain â†’ enable evasion of responsibility
 
 **The framework amplifies both clarity AND confusion:**
-- Used precisely → strategic advantage
-- Used sloppily → worse than no framework
+- Used precisely â†’ strategic advantage
+- Used sloppily â†’ worse than no framework
 - Terminology gives false precision to sloppy thinking
 
 **The honesty requirement:**
@@ -1064,6 +1066,32 @@ These are not universal moral duties. They are **practices that serve specific v
 - Invite testing (empirical, not rhetorical)
 - Accept correction (Bayesian updating)
 - Don't use terms to shut down inquiry
+
+### H. Epistemic Warfare: When Classification Itself Is the Weapon
+
+**The pattern:** Some constraints extract not through material mechanisms (money, labor, access) but through epistemological ones — attacking the target's ability to accurately classify their own situation.
+
+**Four attack modes:**
+
+**1. False Summit manufacture:** Claiming a constructed system is natural law to prevent resistance. "That's just how the market works" (Mountain claim for a Snare). "It's human nature" (Mountain claim for a culturally specific Rope). "Technology makes this inevitable" (Mountain claim for a policy choice). The corpus audit confirmed this is also the default failure mode of LLM parsers — naturalization is not only a deliberate rhetorical strategy but a systematic processing bias.
+
+**2. Snare camouflage:** Presenting extraction as coordination. "We're all in this together" (Rope claim for a Tangled Rope where beneficiaries and costs are asymmetrically distributed). "This protects you" (Rope claim for a Snare that primarily protects the enforcer). "The system works for everyone" (coordination claim obscuring asymmetric extraction).
+
+**3. Classification inversion:** Calling functional Ropes "tyranny" to justify dismantling coordination. Calling Snares "freedom" to justify maintaining extraction. This operates in both political directions — progressives may attack functional Ropes as extractive, conservatives may defend extractive Snares as coordinative. The ethical test is structural (who benefits, what's enforced, what alternatives exist), not ideological.
+
+**4. Boundary reclassification:** The most sophisticated form. Systematically reframing a bounded conditional offer (Scaffold — "I'll help under these specific conditions, temporarily") as an unbounded obligation (Rope — "this is what family does"), then reframing the boundary-keeper's refusal as aggression (Snare on the boundary-keeper — "he doesn't want anything to do with me"). The reclassification is forwarded to third parties with the original evidence attached, confident it won't be read carefully. This pattern was confirmed empirically — the generating LLM reproduced narcissistic boundary reclassification faithfully, parsing the boundary-keeper as the aggressor because their measured tone read as cold affect while the boundary-attacker's distress read as victimhood.
+
+**Ethical defense:**
+
+Deferential Realism functions as an immune system against epistemic attacks by providing:
+- **Vocabulary** to name the attack ("that's a False Summit claim," "that's Snare camouflage")
+- **Tests** to verify independently (Six-Test Battery applied to the *claim*, not just the *claimed constraint*)
+- **Power analysis** to check who benefits from the classification being offered
+- **Structural check** to distinguish narrative framing from structural reality
+
+**The key test:** Apply the Six-Test Battery to the classification *itself*. Who benefits from this constraint being classified as Mountain/Rope/Snare? What enforcement maintains this classification? Would it survive if the classifier lost power? If the classification serves the classifier's interests and requires enforcement to maintain, the classification itself is a Snare — an extractive mechanism operating at the epistemic level.
+
+**Cross-reference:** `epistemology.md` Section VII.D (Epistemic Attacks as Constraint Illusion), `sociology.md` Section V (Relational Integrity Protocol).
 
 ---
 
@@ -1136,19 +1164,19 @@ These principles prevent the virtues from calcifying into rigid dogma or enablin
 
 **Bayesian updating:**
 ```
-Prior belief + New evidence → Posterior belief
+Prior belief + New evidence â†’ Posterior belief
 
 Example:
 "I thought I needed 8 hours sleep" (HIGH confidence)
 + "Functioned well on 6 hours for 3 months" (strong evidence)
-→ "I need 6-8 hours depending on stress" (revised, lower confidence)
+â†’ "I need 6-8 hours depending on stress" (revised, lower confidence)
 ```
 
 **Classification revision:**
 ```
 Initial: "This is a Mountain" (thought unchangeable)
 + Evidence: "Three people changed it successfully"
-→ Updated: "This is a Rope with high barriers" (hard to change, not impossible)
+â†’ Updated: "This is a Rope with high barriers" (hard to change, not impossible)
 ```
 
 **The humility requirement:** Are you **discovering** constraints or **defending** your prior beliefs about constraints? The first is inquiry; the second is theology.
@@ -1228,12 +1256,12 @@ The virtues and stabilizers form a system:
 1. **Examine** your beliefs about constraints (Foundation)
 2. **Classify** what you face (Six-Test Battery from epistemology.md)
 3. **Choose** appropriate virtue:
-   - Unchangeable? → Acceptance
-   - Extractive? → Resistance
-   - Hybrid? → Reform
-   - Missing? → Construction
-   - Functional? → Maintenance
-   - Paradoxical? → Containment
+   - Unchangeable? â†’ Acceptance
+   - Extractive? â†’ Resistance
+   - Hybrid? â†’ Reform
+   - Missing? â†’ Construction
+   - Functional? â†’ Maintenance
+   - Paradoxical? â†’ Containment
 4. **Stabilize** with operational principles:
    - Build Scaffolds for transitions
    - Maintain modal transparency
@@ -1241,13 +1269,13 @@ The virtues and stabilizers form a system:
 5. **Act** consistently with examined beliefs
 6. **Return to 1** (perpetual examination)
 
-**The system isn't linear—it's recursive.** You examine, classify, act, encounter new evidence, re-examine, re-classify, re-act. This is ongoing practice, not one-time setup.
+**The system isn't linearâ€”it's recursive.** You examine, classify, act, encounter new evidence, re-examine, re-classify, re-act. This is ongoing practice, not one-time setup.
 
 **The failure modes:**
-- Skip examination → act on unexamined beliefs → strategic errors
-- Skip classification → respond inappropriately → waste energy
-- Skip stabilizers → virtues calcify into dogma → lose flexibility
-- Skip updating → defend wrong classifications → compound errors
+- Skip examination â†’ act on unexamined beliefs â†’ strategic errors
+- Skip classification â†’ respond inappropriately â†’ waste energy
+- Skip stabilizers â†’ virtues calcify into dogma â†’ lose flexibility
+- Skip updating â†’ defend wrong classifications â†’ compound errors
 
 **The success pattern:**
 - Honest examination
@@ -1309,12 +1337,13 @@ Deferential Realist ethics is not a prescription for what to value. It's a metho
 
 **Lifecycle and Practice:**
 - `constraint_lifecycles.md` - Genesis, maturation, degradation, terminal states
+- `limitations.md` - Empirically confirmed failure modes, parser vulnerabilities
 - `field_manual.md` - Quick reference, decision trees
 
 ---
 
-**Deferential Realism: Ethics v3.3 - Expanded**  
-**January 2026**  
-**Word count: ~13,500 words**
+**Deferential Realism: Ethics v4.0**  
+**February 2026**  
+**Word count: ~15,000 words**
 
-**Integration with full framework - six conditional virtues, ethics of maintenance, ethics of classification accuracy, relational honesty protocols**
+**Integration with full framework - six conditional virtues, ethics of maintenance, ethics of classification accuracy, epistemic warfare defense, relational honesty protocols**

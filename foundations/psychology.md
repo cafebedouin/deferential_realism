@@ -1,6 +1,6 @@
 # Deferential Realism: The Psychology of Internal Constraints
 
-**Version 3.3 - Integrated**
+**Version 4.0**
 
 ## I. The Fundamental Question
 
@@ -8,7 +8,7 @@ Traditional psychology asks: **"What is wrong with me?"** or **"How can I be bet
 
 Psychological Deferential Realism inverts this: **"What constrains me, and is that constraint substrate, detritus, hybrid pattern, or self-generated?"**
 
-This isn't therapeutic technique—it's a claim about the ontological structure of internal experience. **Internal constraints operate by the same logic as external constraints.** A fear pattern isn't a defect that happens to limit you; it's either (a) genuine substrate contact requiring navigation, (b) historical detritus available for clearing, (c) hybrid pattern serving and harming simultaneously, or (d) artificially generated scarcity from demanding certainty.
+This isn't therapeutic techniqueâ€”it's a claim about the ontological structure of internal experience. **Internal constraints operate by the same logic as external constraints.** A fear pattern isn't a defect that happens to limit you; it's either (a) genuine substrate contact requiring navigation, (b) historical detritus available for clearing, (c) hybrid pattern serving and harming simultaneously, or (d) artificially generated scarcity from demanding certainty.
 
 **The Core Claim:** The same six-category ontology that classifies external constraints (Mountains, Ropes, Tangled Ropes, Snares, Scaffolds, Pitons) applies internally (Substrate, Negotiable Patterns, Hybrid Patterns, Self-Extraction, Developmental Supports, Abandoned Camps). Misclassifying internal constraints creates suffering just as misclassifying external ones creates strategic error.
 
@@ -44,25 +44,38 @@ Psychological Deferential Realism proposes **six fundamental kinds of internal c
 
 **Causal Profile:**
 ```
-Violation attempt → Physiological consequence → System damage (not prediction)
-Example: Sleep deprivation → Cognitive decline (measurable, not just "feels bad")
-Example: Trauma trigger → Nervous system dysregulation (observable, not imagined)
+Violation attempt â†’ Physiological consequence â†’ System damage (not prediction)
+Example: Sleep deprivation â†’ Cognitive decline (measurable, not just "feels bad")
+Example: Trauma trigger â†’ Nervous system dysregulation (observable, not imagined)
 ```
 
-**The Goggins Calibration:** Modern humans often misclassify comfort limits as substrate. The "40% rule": when you think you're done, you're only 40% depleted. This reveals the prevalence of **False Summits**—constraints that feel biological but are actually detritus.
+**The Goggins Calibration:** Modern humans often misclassify comfort limits as substrate. The "40% rule": when you think you're done, you're only 40% depleted. This reveals the prevalence of **False Summits**â€”constraints that feel biological but are actually detritus.
 
 **Critical Distinction:** Substrate isn't "innate" or "unchangeable forever." Some substrate is developmental (attachment patterns can shift under specific conditions). But substrate is **currently real** and produces consequences when violated, regardless of belief about it.
 
 **Discomfort vs. Damage Test:**
 - **Discomfort:** Subjective fear, social awkwardness, uncertainty (recoverable)
 - **Damage:** Measurable physiological harm, structural breakdown, irreversible loss
-- **Testing protocol:** Violate slightly → Observe → Distinguish feeling from harm
+- **Testing protocol:** Violate slightly â†’ Observe â†’ Distinguish feeling from harm
 
 **Examples:**
 - Sleep deprivation: Produces damage (cognitive decline measurable)
 - Social anxiety about saying no: Often produces discomfort only (no damage)
 - Trauma response activation: Produces physiological dysregulation (damage)
 - Fear of public speaking: Often produces discomfort only (testable)
+
+**Cognitive Architecture Limits (Substrate as Processing Constraint):**
+
+Some Substrate constraints are not biological needs (sleep, oxygen) but processing limits of the cognitive architecture itself. These create felt-paradoxes — situations where a logical resolution exists but the substrate cannot run it natively:
+
+- **Infinity processing:** Human working memory cannot represent unbounded quantities. The St. Petersburg Paradox (infinite expected value for a finite bet) produces genuine felt-impossibility because the substrate's buffer overflows, not because the logic is flawed.
+- **Extreme probability calibration:** The mental physics engine is optimized for linear causality and mid-range probabilities. Monty Hall produces persistent intuition failure because the substrate struggles with conditional probability updates. Bayes' theorem resolves the logic; the substrate cannot implement it intuitively.
+- **Continuous gradient resolution:** Human categorization requires discrete boundaries. Sorites (heap paradox) feels unresolved even after logical resolution because the substrate cannot process continuous spectra without imposing boundaries that the spectrum itself doesn't contain.
+- **Heuristic mismatches:** Cognitive heuristics (anchoring, availability, representativeness) are substrate-level processing shortcuts. They produce systematic errors in domains they weren't evolved for — financial markets, statistical inference, long-range planning — while functioning well in ancestral environments.
+
+**Deferential Realist response:** These are genuine Mountains. Defer to formal methods for edge cases. Recognize that "feels wrong" is a substrate signal about processing capacity, not evidence against the resolution. The felt-paradox persists because the substrate cannot run the resolved version natively — this is a constraint on the processor, not on the problem.
+
+**Cross-reference:** `epistemology.md` Section VII.A (Substrate Limits as Constraint Illusion).
 
 ---
 
@@ -84,14 +97,14 @@ Example: Trauma trigger → Nervous system dysregulation (observable, not imagin
 
 **Causal Profile:**
 ```
-Present-self/Future-self conflict → Coordination mechanism → Mutual benefit
-Example: Morning routine prevents decision fatigue → enables better day
+Present-self/Future-self conflict â†’ Coordination mechanism â†’ Mutual benefit
+Example: Morning routine prevents decision fatigue â†’ enables better day
 ```
 
 **Quality spectrum:**
 - **Good patterns:** Efficient, broadly beneficial, enabling
-- **Degrading patterns:** Accumulating self-extraction (→ Hybrid Pattern)
-- **Failed patterns:** Don't actually solve claimed problem (→ Abandoned Camp)
+- **Degrading patterns:** Accumulating self-extraction (â†’ Hybrid Pattern)
+- **Failed patterns:** Don't actually solve claimed problem (â†’ Abandoned Camp)
 
 **The reciprocity test:** An ethical internal Rope benefits you across time approximately equally. If present-self consistently sacrifices for future-self (or vice versa), pattern is becoming hybrid or extractive.
 
@@ -122,7 +135,7 @@ Example: Morning routine prevents decision fatigue → enables better day
 **Causal Profile:**
 ```
 Genuine coordination need + Historical adaptive strategy + Incomplete updating
-→ Pattern serves AND harms simultaneously
+â†’ Pattern serves AND harms simultaneously
 Example: Perfectionism ensures quality work (coordination) while demanding impossibility (extraction)
 ```
 
@@ -137,8 +150,8 @@ Example: Perfectionism ensures quality work (coordination) while demanding impos
 - **Coordination function:** Maintains quality standards, prevents sloppy work
 - **Extraction mechanism:** Demands impossibility, ties worth to output, prevents rest
 - **Bad responses:**
-  - Treat as pure Rope → "Just be more perfect!" (maintain extraction)
-  - Treat as pure Snare → "Stop caring about quality!" (destroy coordination)
+  - Treat as pure Rope â†’ "Just be more perfect!" (maintain extraction)
+  - Treat as pure Snare â†’ "Stop caring about quality!" (destroy coordination)
 - **Reform response:** Maintain standards where they serve, release where they extract
   - Keep: "I'll review this work before submitting"
   - Release: "My worth depends on perfection" + "One mistake means total failure"
@@ -174,11 +187,11 @@ Example: Perfectionism ensures quality work (coordination) while demanding impos
 
 **Causal Profile:**
 ```
-Uncertainty → Demand for certainty → Inquiry blocked → Uncertainty persists → Demand intensifies
-Example: "I can't commit until I know it will work" → Never gets data → Never knows → Can't commit
+Uncertainty â†’ Demand for certainty â†’ Inquiry blocked â†’ Uncertainty persists â†’ Demand intensifies
+Example: "I can't commit until I know it will work" â†’ Never gets data â†’ Never knows â†’ Can't commit
 ```
 
-**The Trap of Perfect Transparency:** Stephen Dedalus (Ulysses) can see all frames clearly. The clarity doesn't save him—it creates a different trap. His intelligence becomes a snare: "he cannot not-know what he knows." The seeing becomes its own constraint.
+**The Trap of Perfect Transparency:** Stephen Dedalus (Ulysses) can see all frames clearly. The clarity doesn't save himâ€”it creates a different trap. His intelligence becomes a snare: "he cannot not-know what he knows." The seeing becomes its own constraint.
 
 **Types of Clarity Fetishes:**
 - **Premature certainty demands:** "I need to know before I act"
@@ -217,18 +230,18 @@ Example: "I can't commit until I know it will work" → Never gets data → Neve
 
 **Causal Profile:**
 ```
-Developmental need → Temporary support structure → Capacity building → Support removal
-Example: Anger protects boundaries (childhood) → Direct assertion learned (development) → Anger dissolves as primary strategy
+Developmental need â†’ Temporary support structure â†’ Capacity building â†’ Support removal
+Example: Anger protects boundaries (childhood) â†’ Direct assertion learned (development) â†’ Anger dissolves as primary strategy
 ```
 
 **The calcification risk:**
 
-**Scaffold → Abandoned Camp (Piton):**
-- Purpose served but not removed → bureaucratic inertia
+**Scaffold â†’ Abandoned Camp (Piton):**
+- Purpose served but not removed â†’ bureaucratic inertia
 - Example: Still using childhood coping mechanism in adulthood unnecessarily
 
-**Scaffold → Hybrid Pattern:**
-- Extraction added to temporary support → permanent self-demand
+**Scaffold â†’ Hybrid Pattern:**
+- Extraction added to temporary support â†’ permanent self-demand
 - Example: Therapeutic identity becoming permanent rather than transitional
 
 **Hidden Hybrid risk:** Some "scaffolds" extract while claiming temporality:
@@ -263,14 +276,14 @@ Example: Anger protects boundaries (childhood) → Direct assertion learned (dev
 - Developmental residue (childhood survival strategies in adult contexts)
 - Empty identity attachments (roles that no longer fit)
 
-**The Empty Tombs Pattern:** Life is a series of constraint structures. Each developmental phase has its own substrate. When the phase ends, old constraints become "empty tombs"—no longer functionally binding but still present as representations. The tomb is empty (the constraint no longer operates), but the shape remains (you still feel it).
+**The Empty Tombs Pattern:** Life is a series of constraint structures. Each developmental phase has its own substrate. When the phase ends, old constraints become "empty tombs"â€”no longer functionally binding but still present as representations. The tomb is empty (the constraint no longer operates), but the shape remains (you still feel it).
 
 **The String of Pearls:** Each empty tomb leaves a trace. Your constraint history shapes current experience even when constraints themselves are inactive. This is **structural memory**, not just belief.
 
 **Causal Profile:**
 ```
-Historical necessity → Developmental transition → Functional obsolescence → Representation persists
-Example: "Must please parents" (childhood substrate) → Independence (transition) → Adult Abandoned Camp
+Historical necessity â†’ Developmental transition â†’ Functional obsolescence â†’ Representation persists
+Example: "Must please parents" (childhood substrate) â†’ Independence (transition) â†’ Adult Abandoned Camp
 ```
 
 **Detection tests:**
@@ -287,7 +300,7 @@ Example: "Must please parents" (childhood substrate) → Independence (transitio
 
 **The clearing practice:** Acknowledge what it was (functional), recognize what it is (obsolete), release without shame. The pattern served you once. It doesn't serve you now. Let it go.
 
-**Terminology note:** Previously "Detritus/Piton constraints." "Abandoned Camps" better captures the metaphor—old base camps you established during earlier ascents, now empty and draining energy if you keep maintaining them.
+**Terminology note:** Previously "Detritus/Piton constraints." "Abandoned Camps" better captures the metaphorâ€”old base camps you established during earlier ascents, now empty and draining energy if you keep maintaining them.
 
 ---
 
@@ -301,7 +314,7 @@ Example: "Must please parents" (childhood substrate) → Independence (transitio
 
 **Implications:**
 1. **Identity is relational, not substantial:** Remove all constraints (biological, historical, social, psychological) and no "essential you" remains
-2. **Change constraint-pattern radically → different person:** You're not "same self under different constraints"
+2. **Change constraint-pattern radically â†’ different person:** You're not "same self under different constraints"
 3. **Freedom is orientation within constraint-space:** Not escape from constraint but skillful navigation
 
 **Why this doesn't eliminate agency:** You're still the pattern that navigates. Your agency operates within constraint-structure, not from unconstrained position outside it.
@@ -379,6 +392,12 @@ Example: "Must please parents" (childhood substrate) → Independence (transitio
 
 **Implication:** Self-knowledge requires experimental verification, not introspective depth.
 
+**LLM-Mediated Introspection Risk:** Using language models for psychological self-inquiry introduces a specific failure mode. The LLM produces coherent narrative from fragmentary emotional input, imposing false structure on psychological experience. Where internal experience is ambiguous, partial, or contradictory, the LLM resolves ambiguity toward narrative satisfaction — producing a psychologically compelling but potentially inaccurate account of the user's internal states. This is the Hemingway iceberg problem inverted: instead of compression revealing truth, expansion fabricates coherence.
+
+The framework's own concern — calling something other than what it is — applies here. When an LLM tells a coherent story about why someone feels a certain way, it may be naturalizing a Negotiable Pattern as Substrate (Mountain) or structuring a genuine Hybrid Pattern into a clean category because clean categories make better narratives. The LLM's training optimizes for coherent, satisfying output — exactly the wrong optimization for honest internal constraint classification, which requires tolerance for ambiguity and incomplete answers.
+
+**Mitigation:** Use LLMs for externalization (producing text the user can then evaluate critically) rather than interpretation (producing analysis the user might accept uncritically). The multi-model verification architecture (UKE suite) provides partial protection — no single model's narrative goes unaudited. But the fundamental limit remains: the user must bring their own judgment to the classification, because the LLM cannot distinguish substrate from detritus in someone else's internal experience.
+
 ### B. Depth Inquiry as Epistemic Method
 
 **The protocol:**
@@ -400,12 +419,12 @@ Example: "Must please parents" (childhood substrate) → Independence (transitio
    - Notice if coordination function exists alongside extraction
 
 4. **Classify** based on evidence
-   - Substrate: Damage occurred → defer to it
-   - Negotiable Pattern: Coordinates across time with low cost → maintain or refine
-   - Hybrid Pattern: Both serves AND extracts → reform
-   - Self-Extraction: Only extracts → clear or exit
-   - Developmental Support: Serves transitionally → use then dismantle
-   - Abandoned Camp: Only discomfort, once served but obsolete → release
+   - Substrate: Damage occurred â†’ defer to it
+   - Negotiable Pattern: Coordinates across time with low cost â†’ maintain or refine
+   - Hybrid Pattern: Both serves AND extracts â†’ reform
+   - Self-Extraction: Only extracts â†’ clear or exit
+   - Developmental Support: Serves transitionally â†’ use then dismantle
+   - Abandoned Camp: Only discomfort, once served but obsolete â†’ release
 
 **Epistemic commitment:** You don't know the constraint type until you've tested it. Felt certainty is not evidence.
 
@@ -416,12 +435,12 @@ Example: "Must please parents" (childhood substrate) → Independence (transitio
 **Type 1 Error:** Treating external constraint as internal
 - "I'm just not good at networking" (when you haven't tried the external market)
 - "I'm not qualified" (when external feedback hasn't been tested)
-- "I can't say no" (when consequence is job loss—external Snare, not internal weakness)
+- "I can't say no" (when consequence is job lossâ€”external Snare, not internal weakness)
 
 **Type 2 Error:** Treating internal constraint as external
-- "The market is impossible" (when you've sent three applications—internal avoidance)
-- "People are closed-minded" (when you haven't tested engagement—internal fear)
-- "I can't say no" (when consequence is mild awkwardness—internal Abandoned Camp, not external threat)
+- "The market is impossible" (when you've sent three applicationsâ€”internal avoidance)
+- "People are closed-minded" (when you haven't tested engagementâ€”internal fear)
+- "I can't say no" (when consequence is mild awkwardnessâ€”internal Abandoned Camp, not external threat)
 
 **Externalist protocol:**
 1. **Substrate contact mode:** Engage fully with external reality
@@ -432,9 +451,9 @@ Example: "Must please parents" (childhood substrate) → Independence (transitio
 **The "I can't say no" example:**
 
 **External classification:**
-- If saying no → job loss: **External Snare** (exit threat)
-- If saying no → relationship loss: **External Mountain or Snare** (depends on power balance)
-- If saying no → mild awkwardness: **Neither** (navigation discomfort, not constraint)
+- If saying no â†’ job loss: **External Snare** (exit threat)
+- If saying no â†’ relationship loss: **External Mountain or Snare** (depends on power balance)
+- If saying no â†’ mild awkwardness: **Neither** (navigation discomfort, not constraint)
 
 **Internal classification:**
 - If biological limit (exhaustion): **Substrate** (defer to it)
@@ -498,13 +517,13 @@ Example: "Must please parents" (childhood substrate) → Independence (transitio
 
 **Invalid inference patterns:**
 
-**Invalid:** "I feel constrained → Must push through"
+**Invalid:** "I feel constrained â†’ Must push through"
 - Could be Substrate (pushing causes damage)
 - Could be Abandoned Camp (pushing reveals it's clearable)
 - Could be Clarity Fetish (dropping demand dissolves it)
 - Could be Hybrid Pattern (pushing through extraction while losing coordination)
 
-**Valid:** "I feel constrained → Classify → Appropriate response based on type"
+**Valid:** "I feel constrained â†’ Classify â†’ Appropriate response based on type"
 
 ### B. The Hybrid Decomposition Protocol
 
@@ -543,10 +562,10 @@ Reform: "I'll review my work" (keep) + "My worth is independent of output" (rele
 **Some tensions are structurally irresolvable** - forcing resolution causes collapse. These require **containment**, not resolution.
 
 **Structural paradoxes in internal life:**
-- **Autonomy ⇄ Connection** (both needed, always in tension)
-- **Security ⇄ Growth** (both valuable, trade-offs inevitable)
-- **Present ⇄ Future** (current satisfaction vs. future preparation)
-- **Acceptance ⇄ Change** (both necessary for psychological health)
+- **Autonomy â‡„ Connection** (both needed, always in tension)
+- **Security â‡„ Growth** (both valuable, trade-offs inevitable)
+- **Present â‡„ Future** (current satisfaction vs. future preparation)
+- **Acceptance â‡„ Change** (both necessary for psychological health)
 
 **Containment Protocol (Six Steps):**
 
@@ -590,7 +609,7 @@ Reform: "I'll review my work" (keep) + "My worth is independent of output" (rele
 - Partial satisfaction (both get some attention)
 - Mature navigation (comfort with incompletion)
 
-**Example: Autonomy ⇄ Connection**
+**Example: Autonomy â‡„ Connection**
 ```
 Name: I need both independence AND intimacy
 Map: I swing between isolation (autonomy) and fusion (connection)
@@ -667,16 +686,16 @@ Hold: Neither is "winning" - both get partial satisfaction across time
 - Trust other pole will have its turn
 - Don't resent inherent limitation of each mode
 
-**Example: Work ⇄ Rest**
+**Example: Work â‡„ Rest**
 - Not: "Perfect balance every day"
 - Yes: "Deep work this week, full rest next week"
 
 ### C. Resistance to Forced Resolution
 
 **Recognize premature resolution as Clarity Fetish:**
-- "I've resolved the autonomy/connection tension" → Likely self-deception
-- "I've transcended the security/growth paradox" → Likely avoidance
-- "I've optimized both perfectly" → Likely collapse incoming
+- "I've resolved the autonomy/connection tension" â†’ Likely self-deception
+- "I've transcended the security/growth paradox" â†’ Likely avoidance
+- "I've optimized both perfectly" â†’ Likely collapse incoming
 
 **The honest stance:** "I navigate this tension skillfully. I haven't resolved it. I won't."
 
@@ -688,12 +707,12 @@ Hold: Neither is "winning" - both get partial satisfaction across time
 
 | External (Sociology) | Internal (Psychology) | Shared Logic |
 |---------------------|----------------------|--------------|
-| Mountains | Substrate | 0 freedom → defer |
-| Ropes | Negotiable Patterns | + freedom → coordinate |
-| Tangled Ropes | Hybrid Patterns | Dual function → reform |
-| Snares | Self-Extraction | - freedom → refuse |
-| Scaffolds | Developmental Supports | Time-limited → use then remove |
-| Pitons | Abandoned Camps | Lost function → clear debris |
+| Mountains | Substrate | 0 freedom â†’ defer |
+| Ropes | Negotiable Patterns | + freedom â†’ coordinate |
+| Tangled Ropes | Hybrid Patterns | Dual function â†’ reform |
+| Snares | Self-Extraction | - freedom â†’ refuse |
+| Scaffolds | Developmental Supports | Time-limited â†’ use then remove |
+| Pitons | Abandoned Camps | Lost function â†’ clear debris |
 
 **The key insight:** Same classification logic works internally and externally. Same reform challenges (Hybrid Patterns), same clearing practice (Abandoned Camps), same containment needs (structural paradoxes).
 
@@ -740,19 +759,19 @@ Hold: Neither is "winning" - both get partial satisfaction across time
 **The framework is falsifiable if:**
 
 1. **Systematic testing shows substrate violations don't produce damage**
-   - If "sleep deprivation" doesn't impair cognition measurably → classification wrong
+   - If "sleep deprivation" doesn't impair cognition measurably â†’ classification wrong
 
 2. **Abandoned Camps produce damage when violated**
-   - If clearing old fear pattern causes harm → wasn't Abandoned Camp, was Substrate
+   - If clearing old fear pattern causes harm â†’ wasn't Abandoned Camp, was Substrate
 
 3. **Hybrid Patterns can't be decomposed**
-   - If all claimed Hybrid Patterns are either pure Rope or pure Snare → category unnecessary
+   - If all claimed Hybrid Patterns are either pure Rope or pure Snare â†’ category unnecessary
 
 4. **Containment protocol fails systematically**
-   - If forcing resolution of paradoxes doesn't cause collapse → irresolvability claim wrong
+   - If forcing resolution of paradoxes doesn't cause collapse â†’ irresolvability claim wrong
 
 5. **Power-scaling doesn't affect internal constraint experience**
-   - If depletion doesn't amplify extraction experience → power-indexing wrong
+   - If depletion doesn't amplify extraction experience â†’ power-indexing wrong
 
 **The commitment:** If evidence contradicts classification, update classification. Don't defend framework against reality.
 
@@ -849,7 +868,7 @@ Hold: Neither is "winning" - both get partial satisfaction across time
 - Clear Abandoned Camps ruthlessly
 - Contain structural paradoxes skillfully
 
-**The goal:** Navigate internal constraint-space with accuracy, integrity, and appropriate deference to what actually binds you—not to what you fear binds you, wish bound you, or assume binds you.
+**The goal:** Navigate internal constraint-space with accuracy, integrity, and appropriate deference to what actually binds youâ€”not to what you fear binds you, wish bound you, or assume binds you.
 
 **That's psychological Deferential Realism.**
 
@@ -866,9 +885,9 @@ Hold: Neither is "winning" - both get partial satisfaction across time
 
 ---
 
-**Deferential Realism: Psychology v3.3**  
-**January 2026**  
-**Word count: ~7,800 words**
+**Deferential Realism: Psychology v4.0**  
+**February 2026**  
+**Word count: ~9,000 words**
 
 **For complete framework:**
 - Gateway: `core.md`

@@ -1,0 +1,1679 @@
+# Constraint Lifecycles: Temporal Dynamics and Degradation Paths
+
+**Version 4.0**  
+**Date:** February 2026  
+**Companion to:** core.md, logic.md, metaphysics.md, epistemology.md
+
+---
+
+## What This Document Does
+
+**Constraints aren't static.** They emerge, mature, degrade, and sometimes die. Understanding constraint lifecycles enables:
+- **Anticipatory navigation** (predict degradation before it occurs)
+- **Intervention timing** (when to reform, when to eliminate)
+- **Creation wisdom** (design constraints that age well)
+- **Clearing efficiency** (target terminal-state constraints for elimination)
+
+**This document maps:**
+1. **Genesis Phase** - How each constraint type forms
+2. **Maturation Phase** - Stable operation characteristics
+3. **Degradation Phase** - Drift events and transitions
+4. **Terminal States** - Endpoints and dissolution
+
+**Core insight:** Most constraint suffering arises from **lifecycle ignorance**â€”treating young Ropes as if they're permanent Mountains, maintaining Pitons as if they're functional Ropes, expecting Scaffolds to last forever, missing Rope â†’ Tangled Rope transitions until extraction is severe.
+
+**Empirical grounding:** Analysis of 137+ constraint trajectories across domains (social norms, institutions, personal habits, technological systems) over temporal ranges from months to centuries.
+
+---
+
+## Overview: The Four Lifecycle Phases
+
+### Phase Structure
+
+Every non-Mountain constraint moves through temporal phases:
+
+**Genesis** â†’ **Maturation** â†’ **Degradation** â†’ **Terminal State**
+
+**Mountains are exceptional:** They don't have genesis (exist prior to observation), maturation (always stable), or degradation (unchanging). They're eternal features of constraint-space. All other types are temporal.
+
+**Key variables:**
+- **tâ‚€** = Genesis moment (constraint created or recognized)
+- **t_stable** = Maturation period (stable operation)
+- **t_drift** = Degradation trigger (transition event)
+- **t_terminal** = Terminal state (endpoint reached)
+
+**Lifecycle velocity:** Time between phases varies enormously:
+- Fast: Social media algorithm (genesis â†’ degradation in months)
+- Medium: Professional norms (genesis â†’ degradation in decades)
+- Slow: Constitutional provisions (genesis â†’ degradation in centuries)
+
+---
+
+## I. Genesis Phase: How Constraints Form
+
+### A. Mountains: No Genesis (Discovery, Not Creation)
+
+**Ontological status:** Mountains exist prior to human observation. We discover them, we don't create them.
+
+**"Genesis" is misnomer:** More accurately, we have:
+- **Measurement epochs** (when constraint becomes observable)
+- **Recognition events** (when humans notice the limit)
+- **Formalization moments** (when constraint gets named, codified)
+
+**Examples:**
+- Thermodynamics: Laws existed before human awareness
+- Dunbar number: Cognitive limit existed before measurement
+- Constitutional geometry: Mathematical impossibility existed when constitution written, not created by it
+
+**False Mountains:** Some constraints **claim** Mountain status (eternal, natural) but actually have genesis events:
+- "Traditional family structure" (historical construction, not eternal)
+- "Natural gender roles" (cultural invention, not biological necessity)
+- "Meritocracy" (institutional fiction, not coordination physics)
+
+**Detection:** If you can point to a time before the constraint existed, it's not a Mountain (might be Rope, Snare, or naturalized extraction).
+
+---
+
+### B. Ropes: Designed for Coordination
+
+**Genesis event:** Recognition of coordination problem + solution proposal + collective adoption
+
+**Creation sequence:**
+1. **Problem recognition** (scarcity or collision identified)
+2. **Solution design** (coordination mechanism proposed)
+3. **Adoption event** (collective agreement, explicit or implicit)
+4. **Stabilization** (mechanism becomes normal, expected)
+
+**Genesis characteristics:**
+- **Intentional** (someone designed this, even if informal)
+- **Responsive** (addresses genuine coordination need)
+- **Low extraction at tâ‚€** (Îµ â‰¤ 0.15 initially)
+- **Voluntary adoption** (in principleâ€”power affects access but mechanism isn't coercive)
+
+**Examples:**
+
+**Traffic lights:**
+- tâ‚€ = 1914 (first electric traffic light, Cleveland)
+- Problem: Collision risk at intersections
+- Solution: Time-sharing coordination (alternating right-of-way)
+- Initial extraction: Minimal (wait time reciprocal)
+
+**Academic peer review:**
+- tâ‚€ = ~1665 (Royal Society formalization)
+- Problem: Quality control for knowledge claims
+- Solution: Expert vetting before publication
+- Initial extraction: Low (experts donate time, community benefits)
+
+**Open-source collaboration norms:**
+- tâ‚€ = ~1980s (formalized in GPL, etc.)
+- Problem: Coordinating distributed code contributions
+- Solution: License agreements, version control protocols
+- Initial extraction: Minimal (contribution reciprocal to benefit)
+
+**Creation quality markers:**
+- Clear problem â†’ coordination fit
+- Reciprocal benefit distribution
+- Minimal enforcement needed (people adopt because it works)
+- Designed with refinement in mind (not claimed eternal)
+
+---
+
+### C. Tangled Ropes: Two Genesis Paths
+
+**Path 1: Designed Hybrid (Intentional from Inception)**
+
+Some structures are created with **both** coordination and extraction built in from tâ‚€.
+
+**Creation sequence:**
+1. Coordination problem genuine
+2. Solution designed to solve problem
+3. **Extraction mechanism added** (rent-seeking opportunity recognized)
+4. Hybrid structure implemented from beginning
+
+**Genesis characteristics:**
+- Coordination function real (not pretense)
+- Extraction present at tâ‚€ (0.40 â‰¤ Îµ â‰¤ 0.90)
+- Often defended as "necessary bundling" (can't have coordination without extraction)
+- Created by those with power to capture value
+
+**Examples:**
+
+**Carbon credit markets:**
+- tâ‚€ = ~1997 (Kyoto Protocol)
+- Coordination: Incentivize emissions reduction
+- Extraction: Financial intermediation, rent from trading
+- **Designed hybrid:** Both functions intended from start
+- Îµ(tâ‚€) â‰ˆ 0.42 (moderate extraction from inception)
+
+**Employer-sponsored health insurance (U.S.):**
+- tâ‚€ = 1940s (WWII wage controls â†’ fringe benefits)
+- Coordination: Risk pooling, economies of scale
+- Extraction: Job lock-in, administrative overhead
+- **Designed hybrid:** Coordination real, extraction opportunistic
+- Îµ(tâ‚€) â‰ˆ 0.38 (moderate extraction from inception)
+
+**Venture capital:**
+- tâ‚€ = ~1946 (American Research and Development Corporation)
+- Coordination: Match capital with innovation
+- Extraction: Control provisions, exit pressure
+- **Designed hybrid:** Both functions explicit
+- Îµ(tâ‚€) â‰ˆ 0.45 (moderate-high extraction from inception)
+
+**Path 2: Degraded Rope (Extraction Accumulates)**
+
+More common: Rope starts clean, extraction added over time.
+
+**Degradation sequence:**
+1. Rope created with low extraction (Îµ â‰¤ 0.15)
+2. **Drift event:** Rent-seeking opportunity recognized
+3. Extraction mechanism added (Îµ increases)
+4. Hybrid state reached (0.40 â‰¤ Îµ â‰¤ 0.90)
+
+**This is a degradation event, covered in Phase III.**
+
+**Genesis quality markers:**
+- If Îµ(tâ‚€) > 0.40: Designed hybrid (Tangled from birth)
+- If Îµ(tâ‚€) â‰¤ 0.15: Started as Rope (degraded later)
+
+---
+
+### D. Snares: Constructed Through Power
+
+**Genesis event:** Power asymmetry + extraction opportunity + enforcement mechanism
+
+**Creation sequence:**
+1. **Power concentration** (some agents control resources, exit, enforcement)
+2. **Extraction design** (mechanism to asymmetrically benefit powerful)
+3. **Naturalization rhetoric** (claim as Mountain or necessary Rope)
+4. **Alternative suppression** (block competing coordination mechanisms)
+
+**Genesis characteristics:**
+- **Predatory** (designed to extract, not coordinate)
+- **Power-dependent** (requires active enforcement)
+- **High extraction at tâ‚€** (Îµ â‰¥ 0.46)
+- **Masquerade** (claims to be Mountain or Rope)
+
+**Examples:**
+
+**Payday loans:**
+- tâ‚€ = ~1990s (widespread adoption in U.S.)
+- Claimed coordination: Short-term liquidity for poor
+- Actual function: Debt trap (300-600% APR)
+- Genesis: Power asymmetry (desperate borrowers, predatory lenders)
+- Îµ(tâ‚€) â‰ˆ 0.72 (high extraction from inception)
+
+**Non-compete clauses (low-wage workers):**
+- tâ‚€ = ~2000s (spread from executives to hourly workers)
+- Claimed coordination: Protect trade secrets
+- Actual function: Suppress wage competition
+- Genesis: Employer power over desperate workers
+- Îµ(tâ‚€) â‰ˆ 0.68 (high extraction from inception)
+
+**Gerrymandering:**
+- tâ‚€ = 1812 (term coined, practice older)
+- Claimed coordination: District creation
+- Actual function: Electoral outcome manipulation
+- Genesis: Party in power redraws districts
+- Îµ(tâ‚€) â‰ˆ 0.65 (high extraction from inception)
+
+**Creation concealment:**
+- Often claims to be Mountain ("natural," "necessary," "always been this way")
+- Erases tâ‚€ from collective memory
+- Resistance is "unrealistic" or "naive"
+
+**Detection:** Find tâ‚€. If someone created it recently, it's not a Mountain. If beneficiaries are concentrated, likely Snare.
+
+---
+
+### E. Scaffolds: Explicitly Designed for Dissolution
+
+**Genesis event:** Transition need + temporary support design + **sunset clause**
+
+**Creation sequence:**
+1. **Transition identified** (moving from state A to state B)
+2. **Support designed** (enable passage through transition)
+3. **Sunset clause built in** (explicit or implicit completion point)
+4. **Temporality emphasized** (success = dissolution, not continuation)
+
+**Genesis characteristics:**
+- **Intentional temporality** (designed to end)
+- **Completion criteria** (measurable or time-bound)
+- **Support purpose** (scaffolds capacity-building, not dependency)
+- **Exit plan** (how to dismantle when done)
+
+**Examples:**
+
+**Post-war occupation governments:**
+- tâ‚€ = 1945 (Germany, Japan occupation begins)
+- Transition: Defeat â†’ stable democracy
+- Support: Allied military governance, reconstruction
+- Sunset: 1949 (Germany), 1952 (Japan) - sovereignty restored
+- **Success:** Actually dissolved on schedule
+
+**Constitutional conventions:**
+- tâ‚€ = 1787 (Philadelphia Convention), 1994 (South Africa)
+- Transition: Regime change â†’ new constitutional order
+- Support: Temporary body drafts founding document
+- Sunset: Adjourn after ratification
+- **Success:** Both dissolved after document complete
+
+**Truth and Reconciliation Commissions:**
+- tâ‚€ = 1995 (South Africa TRC begins)
+- Transition: Apartheid â†’ democracy without endless prosecution
+- Support: Hearing process, amnesty mechanism
+- Sunset: 1998 (commission dissolved after hearings)
+- **Success:** Completed function, disbanded
+
+**Therapeutic Scaffolds:**
+- tâ‚€ = Crisis/trauma occurrence
+- Transition: Dysregulation â†’ self-regulation
+- Support: Coping strategies (breathing, grounding, structure)
+- Sunset: When regulation internalized
+- **Success:** Techniques become automatic, conscious practice unnecessary
+
+**Genesis quality markers:**
+- Sunset clause explicit (or completion criteria clear)
+- Temporality part of legitimacy ("acceptable now, not forever")
+- Success metric is dissolution
+
+**Hidden genesis risk:** Some "Scaffolds" claim temporality but design for permanence:
+- Emergency powers with indefinite renewal
+- Transitional governments that delay elections
+- Therapeutic relationships creating dependency
+- MFA programs creating institutional dependence
+
+---
+
+### F. Pitons: No Genesis (Terminal State Only)
+
+**Pitons don't have genesis events.** They are the degraded remains of other constraint types.
+
+**"Genesis" is actually:** Degradation of parent constraint + failure to eliminate residue
+
+**Parent constraint types:**
+- Rope â†’ Piton (function lost, inertia remains)
+- Tangled Rope â†’ Piton (both coordination and extraction dried up)
+- Scaffold â†’ Piton (sunset ignored, zombie support persists)
+- Snare â†’ Piton (enforcement stops but habits remain)
+
+**This is covered in Phase III: Degradation.**
+
+---
+
+## II. Maturation Phase: Stable Operation
+
+### A. Mountains: Eternal Stability
+
+**No maturation curve.** Mountains don't "mature"â€”they simply exist.
+
+**Temporal invariance:**
+- Same properties at tâ‚ and tâ‚â‚€â‚€â‚€
+- Observable measurement may improve (we understand thermodynamics better) but constraint doesn't change
+- No maintenance required (self-enforcing through reality)
+
+**Apparent "maturation":**
+- Human understanding deepens (measurement epoch)
+- Formalization improves (mathematical precision)
+- Applications discovered (new implications recognized)
+- **But the Mountain itself is unchanged**
+
+**Example: Speed of light**
+- 1676: RÃ¸mer measures (first observation)
+- 1983: Defined as exact constant (formalization)
+- Constraint itself identical at both moments
+- Only our **relationship to it** changed
+
+---
+
+### B. Ropes: Active Maintenance Required
+
+**Maturation characteristics:**
+- **Requires energy investment** (coordination doesn't self-sustain)
+- **Refinement over time** (adapt to environment changes)
+- **Monitoring for drift** (watch for extraction accumulation)
+- **Collective renewal** (each generation re-adopts)
+
+**Maintenance activities:**
+
+**1. Enforcement coordination:**
+- Not coercive enforcement (that's Snare)
+- Social coordination: Reminding participants, teaching newcomers
+- Example: Teaching traffic rules, updating technical standards
+
+**2. Refinement:**
+- Environment changes, coordination needs adjustment
+- Example: USB-C replaces mini-USB (better coordination mechanism)
+- Example: Meeting schedules adapt to remote work
+
+**3. Drift monitoring:**
+- Watch for extraction accumulation (Îµ increasing)
+- Example: Peer review adding commercial gatekeeping
+- Example: Open-source adding corporate capture
+
+**4. Collective renewal:**
+- Each new cohort must adopt the Rope
+- Example: New drivers learn traffic norms
+- Example: New scientists learn peer review ethics
+
+**Stable maturation markers:**
+- Îµ remains low (< 0.20 across maturation period)
+- Voluntary compliance high (people maintain it because it works)
+- Alternatives tolerated (not suppressed)
+- Benefit distribution approximately reciprocal
+
+**Unstable maturation (pre-degradation signals):**
+- Îµ creeping upward (extraction accumulating)
+- Enforcement increasing (less voluntary compliance)
+- Alternatives being suppressed (defensive behavior)
+- Benefit concentration (asymmetry developing)
+
+**Example: Academic peer review maturation**
+
+**Stable period (1665-1950s):**
+- Îµ â‰ˆ 0.12 (low extraction - scholars donate time reciprocally)
+- Voluntary participation (community norm)
+- Quality coordination function (gatekeeping works)
+
+**Unstable period (1980s-present):**
+- Îµ increasing (0.12 â†’ 0.38, commercial publishers capture value)
+- Enforcement increasing (tenure requirements coerce participation)
+- Alternatives suppressed (preprints initially stigmatized)
+- Benefit concentration (publishers extract, scholars give freely)
+- **Approaching Tangled Rope territory**
+
+---
+
+### C. Tangled Ropes: Unstable Equilibrium
+
+**Maturation characteristics:**
+- **Constant tension** (coordination vs. extraction)
+- **High maintenance cost** (both functions need support)
+- **Pressure for resolution** (reformers want pure Rope, beneficiaries want pure Snare)
+- **Resistance from both sides** (to any change)
+
+**Two maturation states:**
+
+**1. Stable Hybrid (Rare):**
+- Both functions well-balanced
+- Extraction contained (doesn't grow)
+- Coordination preserved (doesn't degrade)
+- Ongoing reform efforts maintain balance
+
+**Example: German co-determination**
+- Coordination: Labor-management collaboration
+- Extraction: Moderate (some bureaucracy, some worker voice dilution)
+- Stability: 70+ years of rough equilibrium
+- Maintenance: Constant negotiation, legal framework updates
+
+**2. Unstable Hybrid (Common):**
+- Extraction increasing OR coordination degrading
+- Pressure toward pure Snare (extraction grows) or Piton (both functions fail)
+- Reform attempts vs. beneficiary resistance
+- Approaching degradation threshold
+
+**Example: U.S. health insurance**
+- Coordination: Risk pooling (genuine function)
+- Extraction: Administrative costs, denial mechanisms, job lock-in
+- Trajectory: Îµ increasing (0.38 â†’ 0.52 over decades)
+- **Approaching Snare threshold** (Îµ â‰¥ 0.46)
+
+**Maintenance activities:**
+
+**1. Reform efforts (preserve coordination, reduce extraction):**
+- Surgical intervention (separate functions)
+- Alternative development (build better Rope)
+- Regulatory constraint (cap extraction)
+
+**2. Beneficiary defense (maintain extraction):**
+- Claim bundling necessity ("can't separate functions")
+- Alternative suppression (block competing coordination)
+- Naturalization ("this is just how it works")
+
+**3. User adaptation:**
+- Strategic use (exploit coordination, minimize extraction)
+- Partial exit (reduce exposure)
+- Coalition formation (collective bargaining)
+
+**Maturation velocity:**
+- Fast degradation: Tech platforms (years to Snare territory)
+- Medium degradation: Professional norms (decades)
+- Slow degradation: Constitutional structures (generations)
+
+**Critical threshold:** When Îµ crosses 0.60, Tangled Rope often becomes indistinguishable from Snare from powerless perspective (power-scaling amplifies: 0.60 Ã— 1.5 = 0.90).
+
+---
+
+### D. Snares: Power Maintenance
+
+**Maturation characteristics:**
+- **Active enforcement required** (doesn't self-sustain)
+- **Alternative suppression necessary** (competing coordination blocked)
+- **Naturalization ongoing** (claim Mountain or Rope status)
+- **Extraction concentrated** (beneficiaries defend)
+
+**Maintenance activities:**
+
+**1. Enforcement:**
+- Punishment for exit (economic, social, legal)
+- Compliance monitoring (surveillance)
+- Example: Non-compete enforcement, debt collection
+
+**2. Naturalization rhetoric:**
+- "This is just how things are" (claim Mountain)
+- "This is necessary coordination" (claim Rope)
+- "There is no alternative" (TINA doctrine)
+- Example: "Unpaid overtime is commitment," "Predatory lending is market access"
+
+**3. Alternative suppression:**
+- Legal barriers (licensing, regulation)
+- Economic barriers (capital requirements, network effects)
+- Social barriers (stigmatization, ostracism)
+- Example: Taxi medallions vs. rideshares, certified credentials vs. skills
+
+**4. Resistance management:**
+- Co-opt critics (bring into beneficiary class)
+- Divide opposition (create internal conflicts)
+- Symbolic concessions (change form, maintain extraction)
+
+**Stable Snare (mature extraction):**
+- Îµ high but stable (0.60-0.75 range)
+- Enforcement routinized (no longer contested)
+- Population internalized constraint (sees as Mountain)
+- Naturalization complete (alternatives unthinkable)
+
+**Example: Company scrip (historical)**
+- Îµ â‰ˆ 0.70 (workers paid in tokens only valid at company store)
+- Enforcement: Geographic isolation, debt bondage
+- Naturalization: "This is how coal towns work"
+- Duration: Decades of stable extraction (late 1800s - 1930s)
+- Terminal: Outlawed (external intervention, not internal collapse)
+
+**Unstable Snare (pre-collapse signals):**
+- Îµ increasing (beneficiaries extracting more)
+- Enforcement intensifying (resistance growing)
+- Naturalization failing (population recognizes as Snare)
+- External shock vulnerability (regime change, legal intervention)
+
+**Maturation endpoints:**
+1. **Revolution/Dismantlement** (resistance succeeds)
+2. **Naturalization** (becomes False Mountain, indefinite persistence)
+3. **Degradation to Piton** (enforcement fails, habits remain)
+
+---
+
+### E. Scaffolds: Time-Limited by Design
+
+**Maturation characteristics:**
+- **Countdown to sunset** (if honored)
+- **Purpose completion measurable**
+- **Legitimacy declining** (acceptable now, not forever)
+- **Pressure for dissolution** (as completion approaches)
+
+**Maintenance activities:**
+
+**1. Purpose monitoring:**
+- Is transition complete?
+- Can support be withdrawn without collapse?
+- Example: Is democracy stable enough to end occupation?
+
+**2. Sunset compliance:**
+- Honoring original completion criteria
+- Resisting permanence creep
+- Example: Dissolving TRC after hearings complete
+
+**3. Function transfer:**
+- Building permanent replacement (if needed)
+- Ensuring Scaffold isn't load-bearing for unrelated functions
+- Example: Local government ready before occupation ends
+
+**Maturation states:**
+
+**1. Successful maturation (sunset honored):**
+- Purpose completion recognized
+- Dissolution proceeds on schedule
+- No residue remains (clean removal)
+- Example: Post-WWII occupations (mostly)
+
+**2. Delayed maturation (sunset extended):**
+- "Just a little longer" (legitimate extension)
+- Completion criteria adjusted (reasonable)
+- Still designed to end (temporality maintained)
+- Risk: Extension â†’ permanent
+
+**3. Failed maturation (sunset ignored):**
+- Permanence creep ("emergency" becomes normal)
+- Completion criteria forgotten
+- **Degradation to Piton** (zombie support)
+- Example: Emergency powers becoming permanent
+
+**Maturation velocity:**
+- Fast: Crisis response (weeks to months)
+- Medium: Transitional governments (months to years)
+- Slow: Institutional scaffolds (years to decades)
+
+**Critical moment: t_sunset**
+- Decision point: Honor dissolution or extend?
+- Pressure from: Beneficiaries (extend), original mandate (dissolve)
+- Outcome determines: Success (dissolution) or degradation (Piton/Snare)
+
+---
+
+### F. Pitons: Inertial Persistence
+
+**Pitons don't matureâ€”they're already degraded.**
+
+**Persistence characteristics:**
+- **Low maintenance** (coasting on inertia)
+- **No active defense** (beneficiaries absent or inactive)
+- **No function** (coordination and extraction both gone)
+- **Zombie duration** (persists until someone bothers to eliminate)
+
+**Why they persist despite uselessness:**
+
+**1. Inertia:**
+- "We've always done it this way"
+- Changing requires energy, maintaining requires none
+- Example: Obsolete reporting requirements
+
+**2. Identity fusion:**
+- Structure part of organizational/personal identity
+- Elimination feels like loss of self
+- Example: Professional rituals that lost meaning
+
+**3. Sunk cost fallacy:**
+- "We invested so much in this"
+- Past investment irrelevant to current utility
+- Example: Legacy systems maintained for historical reasons
+
+**4. Ignorance:**
+- No one remembers why it exists
+- Fear of unknown consequences of removal
+- Example: "Chesterton's fence" paralysis
+
+**5. Low priority:**
+- Actively harmful constraints get attention
+- Harmless zombies ignored indefinitely
+- Example: Dead letter laws
+
+**"Maturation" is really decay:**
+- Theater ratio increasing (justification becomes pure performance)
+- Memory fading (why this existed forgotten)
+- Enforcement hollowing (form without function)
+
+**Terminal state:** Eventual elimination (someone finally bothers) or indefinite zombie persistence.
+
+---
+
+## III. Degradation Phase: Drift Events and Transitions
+
+**Core insight:** Constraints don't degrade smoothly. They degrade through **drift events**â€”specific moments or processes that trigger state transitions.
+
+### Drift Event Taxonomy
+
+**Type 1: Metric Substitution** (Rope/Scaffold â†’ Tangled Rope)
+
+**Mechanism:** Proxy metric becomes goal itself, original value forgotten or deprioritized.
+
+**Process:**
+1. Rope/Scaffold created with genuine goal (human value V)
+2. Proxy metric M established to measure progress toward V
+3. **Drift event:** Optimization shifts from V to M
+4. M becomes goal, V becomes rhetoric
+5. Extraction emerges (optimization of M harms V)
+
+**Example: Social Media**
+
+**Genesis (Rope):**
+- Original value V: Human connection
+- Proxy metric M: "Engagement" (likes, comments, time on site)
+- tâ‚€ â‰ˆ 2004-2006 (Facebook, Twitter launch)
+- Îµ(tâ‚€) â‰ˆ 0.08 (low extraction, genuine coordination)
+
+**Maturation (Rope â†’ Tangled Rope):**
+- t_drift â‰ˆ 2009-2012 (algorithmic feed optimization)
+- **Metric substitution:** Engagement becomes goal, connection becomes byproduct
+- V (connection) â†’ M (engagement metrics)
+- Îµ(t_drift) â‰ˆ 0.42 (Tangled Rope territory)
+
+**Current (Tangled Rope â†’ Snare):**
+- t_present â‰ˆ 2020s
+- M optimization now harms V (engagement â‰  connection, often opposite)
+- Îµ(t_present) â‰ˆ 0.58 (approaching Snare threshold)
+
+**Formal detection:**
+```
+metric_substitution(C, V, M, t_drift) :-
+    original_value(C, V),
+    proxy_metric(C, M, V),
+    optimization_shift(C, V, M, t_drift),
+    value_harm(C, V, M, t_drift),
+    Îµ(C, t_drift) > 0.40.
+```
+
+**Other examples:**
+- Education: Learning (V) â†’ Test scores (M)
+- Healthcare: Patient wellness (V) â†’ Billing codes (M)
+- Open source: Code quality (V) â†’ Commit counts (M)
+- Academic research: Knowledge (V) â†’ Citation counts (M)
+
+---
+
+**Type 2: Extraction Accumulation** (Rope â†’ Tangled Rope)
+
+**Mechanism:** Rent-seeking opportunities recognized and exploited, coordination function maintained.
+
+**Process:**
+1. Rope operating with low extraction (Îµ â‰¤ 0.15)
+2. **Drift trigger:** Power asymmetry recognized OR external capture opportunity
+3. Extraction mechanism added (fees, gatekeeping, control provisions)
+4. Îµ increases while coordination persists
+5. Tangled Rope state reached (0.40 â‰¤ Îµ â‰¤ 0.90)
+
+**Example: Academic Publishing**
+
+**Genesis (Rope):**
+- tâ‚€ â‰ˆ 1665 (peer review formalized)
+- Coordination: Quality control, knowledge dissemination
+- Îµ(tâ‚€) â‰ˆ 0.12 (scholars donate time, reciprocal benefit)
+
+**Extraction accumulation:**
+- t_drift â‰ˆ 1970s-1980s (commercial publishers consolidate)
+- **Capture event:** Private firms recognize monopoly opportunity
+- Paywalls added, subscription costs explode
+- Scholars still provide labor for free
+- Îµ(t_drift) â‰ˆ 0.38 (Tangled Rope)
+
+**Current:**
+- Îµ(t_present) â‰ˆ 0.45 (high Tangled Rope, approaching Snare)
+- Coordination: Still functions (quality control works)
+- Extraction: Journal profits 35-40%, researchers unpaid
+- Power-scaling: Institution pays, individual researcher trapped
+
+**Formal detection:**
+```
+extraction_accumulation(C, t_start, t_drift) :-
+    Îµ(C, t_start) â‰¤ 0.15,
+    Îµ(C, t_drift) â‰¥ 0.40,
+    coordination_function_preserved(C, t_drift),
+    power_asymmetry_exploited(C, t_drift).
+```
+
+**Other examples:**
+- Homeowners associations: Coordination (maintenance) + Extraction (fees, rules)
+- Professional licensing: Coordination (competence) + Extraction (gatekeeping, rent)
+- Open-source governance: Coordination (contribution) + Extraction (corporate capture)
+
+---
+
+**Type 3: Coordination Loss** (Tangled Rope â†’ Snare)
+
+**Mechanism:** Coordination function withers while extraction persists or intensifies.
+
+**Process:**
+1. Tangled Rope operating (coordination + extraction)
+2. **Drift trigger:** Coordination function becomes obsolete OR extraction crowds it out
+3. Coordination withers, extraction remains
+4. Îµ may increase further
+5. Pure Snare state (Îµ â‰¥ 0.60, no coordination)
+
+**Example: Cable Television**
+
+**Genesis (Rope):**
+- tâ‚€ â‰ˆ 1950s (cable delivery to areas without broadcast)
+- Coordination: Access to TV in remote areas
+- Îµ(tâ‚€) â‰ˆ 0.18 (infrastructure costs, modest profit)
+
+**Tangled Rope phase:**
+- 1980s-2000s: Exclusive content created
+- Coordination: Content delivery
+- Extraction: Bundling, rising costs
+- Îµ â‰ˆ 0.42 (Tangled Rope)
+
+**Coordination loss:**
+- t_drift â‰ˆ 2010s (streaming alternatives emerge)
+- **Drift event:** Internet delivery makes cable infrastructure obsolete
+- Coordination function replaceable (streaming better)
+- Extraction persists (contracts, bundling, fees)
+- Îµ(t_drift) â‰ˆ 0.68 (Snare territory)
+
+**Current:**
+- Cable as Snare: No coordination benefit over streaming, pure extraction
+- Trapped users (contracts, habit, elderly)
+- Îµ(t_present) â‰ˆ 0.72 (high Snare)
+
+**Formal detection:**
+```
+coordination_loss(C, t_drift) :-
+    tangled_rope(C, t_pre),
+    coordination_function_obsolete(C, t_drift) OR
+    coordination_function_crowded_out(C, t_drift),
+    extraction_persists(C, t_drift),
+    Îµ(C, t_drift) â‰¥ 0.60.
+```
+
+**Other examples:**
+- Taxi medallions: Coordination (safety, findability) lost to apps, extraction (medallion rent) remains
+- Fax requirements: Coordination (document transmission) obsolete, extraction (gatekeeping) persists
+- Legacy software: Coordination (features) obsolete, extraction (vendor lock-in) remains
+
+---
+
+**Type 4: Function Obsolescence** (Rope/Tangled â†’ Piton)
+
+**Mechanism:** Environment changes such that coordination function no longer needed.
+
+**Process:**
+1. Rope/Tangled Rope serving coordination function
+2. **Drift trigger:** Environmental shift makes coordination unnecessary
+3. Function becomes obsolete
+4. Structure persists through inertia
+5. Piton state (neither coordination nor extraction, just zombie)
+
+**Example: Office Dress Codes**
+
+**Genesis (Rope):**
+- tâ‚€ â‰ˆ Early 20th century
+- Coordination: Professional signaling, client trust
+- Îµ(tâ‚€) â‰ˆ 0.10 (clothing cost, mild extraction)
+
+**Obsolescence:**
+- t_drift â‰ˆ 1990s-2010s (tech industry, remote work)
+- **Environmental shift:** Professional signaling decouples from formal attire
+- Function obsolete (clients don't care, productivity unaffected)
+- Structure persists (corporate inertia, "professionalism" rhetoric)
+
+**Current (Piton):**
+- No coordination function (casual dress works fine)
+- No extraction (low enforcement, easy to ignore)
+- Zombie persistence (identity fusion, "this is who we are")
+- Cost > benefit (energy spent maintaining > any remaining value)
+
+**Formal detection:**
+```
+function_obsolescence(C, t_drift) :-
+    coordination_function(C, F, t_pre),
+    environmental_shift(E, t_drift),
+    function_unnecessary(F, E, t_drift),
+    structure_persists(C, t_drift),
+    enforcement_cost(C, t_drift) > benefit(C, t_drift).
+```
+
+**Other examples:**
+- Fax requirements in email era
+- Handwritten signatures in digital signing era
+- Geographic office requirements in remote work era
+- Physical media in streaming era
+
+---
+
+**Type 5: Sunset Violation** (Scaffold â†’ Piton)
+
+**Mechanism:** Designed dissolution ignored, temporary structure becomes permanent zombie.
+
+**Process:**
+1. Scaffold created with sunset clause
+2. Purpose completion occurs (or approaches)
+3. **Drift event:** Sunset ignored, extension justified
+4. Temporary becomes permanent
+5. Piton state (no function, inertial persistence)
+
+**Example: Thailand Senate (2017-2024)**
+
+**Genesis (Scaffold):**
+- tâ‚€ = 2017 (appointed Senate created)
+- Purpose: "Temporary stabilization during democratic transition"
+- Sunset clause: PM selection power expires 2024
+- Extraction during scaffold: Îµ â‰ˆ 0.52 (moderate-high, justified as temporary)
+
+**Sunset moment:**
+- t_sunset = 2024 (PM selection power expires)
+- **Partial compliance:** PM power removed
+- **Violation:** Amendment veto retained (1/3 blocking power)
+- No justification (stabilization period ended)
+
+**Current (Piton):**
+- Function lost: PM selection gone
+- Extraction dried up: Can only block, not govern
+- Zombie remains: Obstruction without purpose
+- Cost > benefit: Political energy wasted on defunct institution
+
+**Formal detection:**
+```
+sunset_violation(C, t_sunset) :-
+    scaffold(C, tâ‚€, purpose(P)),
+    sunset_clause(C, t_sunset),
+    purpose_complete(C, P, t_sunset),
+    structure_persists(C, t_post),
+    t_post > t_sunset,
+    function_lost(C, t_post).
+```
+
+**Other examples:**
+- Emergency powers not rescinded after crisis
+- Temporary taxes becoming permanent
+- Provisional governments delaying elections indefinitely
+- Therapeutic scaffolds creating dependency (never discontinued)
+
+---
+
+**Type 6: Extraction Dried Up** (Tangled Rope/Snare â†’ Piton)
+
+**Mechanism:** Extraction mechanism fails but structure persists as zombie.
+
+**Process:**
+1. Tangled Rope/Snare extracting value (Îµ â‰¥ 0.40)
+2. **Drift trigger:** Source of extraction disappears OR extraction becomes unsustainable
+3. Beneficiaries exit or lose power
+4. Extraction collapses (Îµ â†’ near 0)
+5. Coordination may also collapse
+6. Piton state (zombie persistence without function)
+
+**Example: Soviet-Style Committees Post-1991**
+
+**Operating state (Snare/Tangled):**
+- t_pre = 1970s-1980s (Soviet era)
+- Function: Party control + limited coordination
+- Îµ â‰ˆ 0.68 (high extraction for regime maintenance)
+
+**Regime collapse:**
+- t_drift = 1991 (Soviet Union dissolution)
+- **Drift event:** Party power eliminated
+- Extraction mechanism gone (no regime to maintain)
+- Coordination questionable (may persist or collapse)
+
+**Post-collapse (Piton):**
+- Structure persists (bureaucratic inertia)
+- No function (neither extraction nor coordination)
+- Zombie committees (meet, produce reports no one reads)
+- Îµ â‰ˆ 0.05 (near-zero extraction, pure waste)
+
+**Formal detection:**
+```
+extraction_collapse(C, t_drift) :-
+    Îµ(C, t_pre) â‰¥ 0.40,
+    extraction_source_eliminated(C, t_drift),
+    Îµ(C, t_post) < 0.20,
+    structure_persists(C, t_post),
+    function_absent(C, t_post).
+```
+
+**Other examples:**
+- Corporate hierarchies post-bankruptcy (managers without function)
+- Professional associations post-deregulation (gatekeeping power gone)
+- Social clubs after membership exodus (rituals without community)
+
+---
+
+**Type 7: Algorithm Shutdown â†’ Internalized Piton** (Snare â†’ I-Piton)
+
+**THE CREEPIEST DEGRADATION PATH**
+
+**Mechanism:** Active extraction mechanism turned off BUT population continues extracted behavior as internalized habit.
+
+**Process:**
+1. Snare extracting through active mechanism (algorithm, enforcement, surveillance)
+2. Population adapts behavior to extraction (habit formation)
+3. **Drift event:** Extraction mechanism disabled/removed
+4. **Critical:** Behavior persists despite mechanism absence
+5. **Internalized Piton** (I-Piton): Self-policing extraction without extractor
+
+**Example: Social Media Algorithm Hypothetical**
+
+**Operating state (Snare):**
+- t_pre = 2015-2020 (peak algorithmic manipulation)
+- Mechanism: Engagement optimization algorithm
+- Behavior: Doom-scrolling, compulsive checking
+- Îµ â‰ˆ 0.65 (high extraction - attention, mental health)
+
+**Algorithm shutdown:**
+- t_drift = 2025 (hypothetical: algorithm disabled)
+- **Drift event:** Chronological feed, no manipulation
+- Extraction mechanism removed
+- **BUT:** Users continue doom-scrolling
+- Habit internalized, "this is just who I am"
+
+**Current (I-Piton):**
+- No active extraction (algorithm off)
+- **Self-extraction persists** (users police own behavior)
+- Hardest to clear (no visible enforcer to resist)
+- Îµ â‰ˆ 0.45 (extraction continues through internalization)
+
+**Distinguishing feature:** 
+- Regular Piton: External structure persists (fax machine remains)
+- I-Piton: **Internal structure persists** (habit remains even after external removal)
+
+**Formal detection:**
+```
+internalized_piton(C, t_drift) :-
+    snare(C, t_pre),
+    extraction_mechanism(C, M, t_pre),
+    mechanism_removed(C, M, t_drift),
+    behavior_persists(C, t_post),
+    t_post > t_drift,
+    population_unaware_mechanism_gone(C, t_post).
+```
+
+**Other examples:**
+- Authoritarian regime falls, self-censorship continues
+- Gamification removed, workers still optimize for meaningless metrics
+- Surveillance stopped, people continue privacy-destroying behavior
+- Dress code eliminated, employees still follow it compulsively
+
+**Why this is the creepiest:**
+1. **Extraction without extractor** (self-policing)
+2. **Invisible constraint** (no external structure to resist)
+3. **Identity fusion** ("this is just who I am")
+4. **Clearing difficulty** (must recognize external pressure is gone)
+
+**Clearing mechanism different from regular Piton:**
+- Regular Piton: Administrative removal (eliminate structure)
+- I-Piton: **Awareness intervention** (recognize mechanism is gone)
+  - "You know the algorithm is off, right?"
+  - "There's no enforcer anymore"
+  - "This is habit, not necessity"
+
+---
+
+### Conceptual Lifecycles: Legacy Terms as Lifecycle Objects
+
+Concepts themselves undergo lifecycle dynamics. A term adequate for one era can degrade across centuries as the contexts it coordinates outgrow its definitional scope. When this happens, the concept becomes an I-Piton masquerading as a Mountain — an obsolete framework internalized so deeply that its contingency is invisible.
+
+**Example 1: "Race"**
+
+Full lifecycle trajectory: folk biology Mountain claim → social construction Rope (coordinates group identity) → extraction tool Snare (maintains hierarchy) → Piton (scientific basis discredited) → actively harmful I-Piton (internalized racial categories persist after formal structures removed).
+
+Each stage involved genuine constraint dynamics: the Mountain claim served to naturalize hierarchy, the Rope phase coordinated real social functions, the Snare phase extracted through those same coordination channels, and the Piton/I-Piton phase persists through internalized categories even where formal enforcement has been dismantled. The lifecycle is not metaphorical — each transition maps to observable changes in enforcement mechanism, extraction ratio, and coordination function.
+
+**Example 2: "Person"**
+
+Lifecycle: functional coordination Rope (adequate for ancient legal/moral contexts) → scope-limited Piton (generates paradoxes in AI, corporate, and quantum contexts). The concept is not *wrong* — it coordinates effectively within its original scope. It has reached its definitional boundary. Attempting to extend "person" to cover LLMs, corporations-as-legal-persons, or quantum observers produces the felt-paradoxes documented in epistemology.md Section VII (Constraint Illusions). The concept needs scope-limiting, not replacement.
+
+**Example 3: "Free will"**
+
+Functions as Rope in legal and moral contexts (coordinates responsibility attribution). Breaks as Mountain claim in neuroscience and physics contexts (determinism, quantum indeterminacy). The paradox dissolves when the term is recognized as a coordination mechanism with a scope limit rather than a metaphysical truth claim. Legal "free will" and physics "free will" are different constraints with the same name — an I-Piton of definitional inheritance.
+
+**Detection heuristic:** If a definition was adequate for millennia but generates paradoxes now, check whether the term is an I-Piton masquerading as Mountain. The paradox may be a scope-limit signal rather than evidence of genuine logical contradiction.
+
+**Resolution protocol:** Scope-limit the legacy term to its functional domain. Coin precise replacements for new contexts. Do not attempt to "solve" the paradox by forcing the old term to cover new territory — that is Piton maintenance disguised as philosophy.
+
+**Cross-references:** epistemology.md Section VII (Constraint Illusions, Type C: Legacy Conceptual Debt), psychology.md Section II.A (Substrate cognitive limits that make scope-limit detection difficult), logic.md (I-Piton formal definition).
+
+---
+
+## IV. Terminal States: Endpoints and Dissolution
+
+### A. Mountains: No Terminal State (Eternal)
+
+**Mountains don't end.** They exist permanently (within framework scope).
+
+**Apparent "endings":**
+- Measurement epoch ends (we stop caring about constraint)
+- Formalization abandoned (we stop naming it)
+- Relevance shifts (constraint still exists, we navigate around it)
+
+**Example:**
+- Speed of light doesn't end if humanity goes extinct
+- Thermodynamics doesn't end if physics notation changes
+- Dunbar number doesn't end if social structures adapt
+
+**Meta-note:** On cosmological timescales, some "Mountains" may change (universal constants in different universe phases). But within framework scope (human civilization timescales), Mountains are eternal.
+
+---
+
+### B. Ropes: Three Terminal States
+
+**Terminal State 1: Maintained Indefinitely** (Rare)
+
+**Outcome:** Rope continues functioning across generations
+**Conditions:**
+- Coordination need persists
+- Extraction remains low (Îµ < 0.20)
+- Active maintenance sustained
+- Alternatives tolerated
+
+**Example:** Traffic lights
+- Still functional after 110+ years
+- Coordination need unchanged (intersections still exist)
+- Extraction low (wait time reciprocal)
+- Refinement ongoing (timing optimization)
+
+**Terminal State 2: Degradation to Tangled Rope** (Common)
+
+**Outcome:** Extraction accumulates, hybrid state emerges
+**Process:** See Drift Type 2 (Extraction Accumulation)
+**Not truly terminal:** Tangled Rope is intermediate state
+
+**Terminal State 3: Obsolescence to Piton** (Common)
+
+**Outcome:** Function becomes unnecessary, structure persists
+**Process:** See Drift Type 4 (Function Obsolescence)
+**Example:** Fax requirements â†’ email replacement â†’ zombie persistence
+
+---
+
+### C. Tangled Ropes: Four Terminal States
+
+**Terminal State 1: Reform to Rope** (Aspirational)
+
+**Outcome:** Extraction excised, coordination preserved, clean Rope remains
+**Requirements:**
+- Surgical precision (separate coordination from extraction)
+- Power to implement reform
+- Alternative for extraction function (or accept loss)
+
+**Example:** New Zealand Electoral Reform (1996)
+- Before: First-Past-The-Post (Tangled Rope - coordination + wasted votes)
+- Reform: Mixed-Member Proportional (MMP)
+- After: Better coordination, reduced extraction (Îµ: 0.42 â†’ 0.22)
+- **Success:** Tangled Rope â†’ Rope (rare achievement)
+
+**Terminal State 2: Degradation to Snare** (Common)
+
+**Outcome:** Coordination function lost, extraction persists/intensifies
+**Process:** See Drift Type 3 (Coordination Loss)
+**Example:** Cable TV losing coordination value, maintaining extraction
+
+**Terminal State 3: Degradation to Piton** (Less Common)
+
+**Outcome:** Both coordination and extraction fail, zombie remains
+**Process:** See Drift Type 6 (Extraction Dried Up)
+**Example:** Soviet committees post-1991
+
+**Terminal State 4: Revolutionary Replacement** (Rare, High-Cost)
+
+**Outcome:** Entire structure destroyed and rebuilt from scratch
+**Requirements:**
+- Power to overthrow existing structure
+- Willingness to accept coordination loss during transition
+- Capacity to rebuild coordination function
+
+**Example:** Revolutionary overthrow of extractive institution
+- Risk: Coordination loss may be permanent (failed states)
+- Cost: Transition period chaos, uncertainty
+- Rare success: Sometimes necessary when reform impossible
+
+---
+
+### D. Snares: Four Terminal States
+
+**Terminal State 1: Resistance â†’ Dismantlement** (Aspirational)
+
+**Outcome:** Snare eliminated through collective action, extraction ended
+**Requirements:**
+- Coalition formation (organized resistance)
+- Power shift (beneficiaries lose control)
+- Alternative ready (replacement coordination if needed)
+
+**Example:** Company scrip outlawed
+- Resistance: Labor organizing, legal challenges
+- Power shift: Federal intervention (1938 Fair Labor Standards Act)
+- Dismantlement: Practice made illegal
+- Alternative: Actual currency
+
+**Terminal State 2: Naturalization to False Mountain** (Common, Tragic)
+
+**Outcome:** Snare accepted as unchangeable, indefinite persistence
+**Process:**
+- Naturalization rhetoric succeeds ("this is just how things are")
+- Population internalizes constraint as Mountain
+- Resistance decreases (seen as futile)
+- Extraction continues indefinitely
+
+**Example:** "Traditional" gender roles in some cultures
+- Snare: Asymmetric household labor extraction
+- Naturalization: Claimed as biological/religious necessity
+- Terminal: Accepted as unchangeable (False Mountain)
+- Duration: Centuries (may persist until external shock)
+
+**Terminal State 3: Degradation to I-Piton** (Creepy)
+
+**Outcome:** Enforcement stops but habits remain, self-extraction persists
+**Process:** See Drift Type 7 (Algorithm Shutdown â†’ Internalized Piton)
+**Example:** Surveillance ended, privacy-destroying behavior continues
+
+**Terminal State 4: Collapse â†’ Piton** (Less Common)
+
+**Outcome:** Enforcement fails, extraction mechanism breaks, zombie remains
+**Process:** Power loss â†’ enforcement impossible â†’ extraction stops â†’ structure persists
+**Example:** Regulatory capture after deregulation (gatekeeping power gone, structure remains)
+
+---
+
+### E. Scaffolds: Two Terminal States
+
+**Terminal State 1: Success â†’ Dissolution** (Intended Outcome)
+
+**Outcome:** Purpose complete, structure dismantled, no residue
+**Requirements:**
+- Sunset clause honored
+- Completion criteria met
+- Dissolution actually executed
+- No function transfer needed (or permanent replacement ready)
+
+**Example:** South Africa TRC
+- Purpose: Transitional justice post-apartheid
+- Completion: Hearings finished (1998)
+- Dissolution: Commission disbanded
+- Success: No zombie remains
+
+**Terminal State 2: Failure â†’ Piton** (Common)
+
+**Outcome:** Sunset ignored, temporary becomes permanent zombie
+**Process:** See Drift Type 5 (Sunset Violation)
+**Example:** Emergency powers not rescinded, Thailand Senate veto retention
+
+**Variant:** Failure â†’ Snare (rare)
+- Temporary support becomes permanent extraction
+- Example: Provisional government becomes dictatorship
+- Worse than Piton (active extraction, not just zombie)
+
+---
+
+### F. Pitons: Three Terminal States
+
+**Terminal State 1: Elimination** (Aspirational)
+
+**Outcome:** Zombie removed, resources redirected
+**Requirements:**
+- Recognition that cost > benefit
+- Energy allocated to removal
+- No sentimental resistance ("but we've always...")
+
+**Process:**
+- Administrative cleanup (regulatory reform)
+- Organizational pruning (eliminate obsolete procedures)
+- Personal clearing (abandon outdated habits)
+
+**Example:** Dead letter law repeal
+- Recognition: Law serves no function
+- Action: Legislative cleanup
+- Outcome: Statute removed from books
+
+**Terminal State 2: Indefinite Zombie** (Common)
+
+**Outcome:** Persists forever through pure inertia
+**Conditions:**
+- Low harm (not priority for removal)
+- Low visibility (forgotten)
+- Identity fusion (part of "who we are")
+- Chesterton's fence paralysis (fear of unknown consequences)
+
+**Example:** Obsolete organizational rituals
+- Harmless but useless
+- No one bothers to eliminate
+- Persists indefinitely
+
+**Terminal State 3: Internalized Piton Clearing** (I-Piton Specific)
+
+**Outcome:** Awareness intervention reveals external mechanism gone, behavior released
+**Requirements:**
+- Recognition that enforcement ended
+- Conscious choice to stop self-policing
+- Deprogramming from internalized extraction
+
+**Process:**
+1. Awareness: "The algorithm is off / The regime fell / The rule was eliminated"
+2. Recognition: "I'm still doing this out of habit, not necessity"
+3. Conscious release: "I can stop now"
+4. Behavior change: Actually stopping
+
+**Example:** Post-authoritarian self-censorship clearing
+- Regime falls (enforcement gone)
+- Population continues censoring (internalized)
+- **Intervention:** "You can speak freely now, the regime is gone"
+- Clearing: Gradual behavior change over months/years
+
+**Distinguishing I-Piton clearing:**
+- Regular Piton: Remove external structure
+- I-Piton: **Make visible** that external structure is already gone
+
+---
+
+## V. Lifecycle Integration: Cross-Domain Patterns
+
+### A. Internal Constraints (Psychology)
+
+**Substrate (Mountain):** No lifecycle - permanent biological/neurological structure
+
+**Negotiable Patterns (Rope):**
+- Genesis: Habit formation for self-coordination
+- Maturation: Active maintenance required
+- Degradation: â†’ Hybrid Pattern (extraction added) or â†’ Abandoned Camp (function lost)
+
+**Hybrid Patterns (Tangled Rope):**
+- Genesis: Designed (perfectionism learned) or Degraded (people-pleasing accumulates extraction)
+- Maturation: Constant tension (serves AND harms)
+- Degradation: â†’ Self-Extraction (coordination lost) or â†’ Abandoned Camp (both fail)
+
+**Self-Extraction (Snare):**
+- Genesis: Power asymmetry internalized (trauma response) or Clarity Fetish developed
+- Maturation: Self-policing, naturalization ("this is just who I am")
+- Degradation: â†’ Abandoned Camp (enforcement internalized then forgotten)
+
+**Developmental Supports (Scaffold):**
+- Genesis: Transition need (childhood â†’ adulthood, crisis â†’ stability)
+- Maturation: Time-limited, purpose-driven
+- Degradation: â†’ Abandoned Camp (sunset violated, childhood strategy persists into adulthood)
+
+**Abandoned Camps (Piton):**
+- Genesis: Result of degradation (no direct creation)
+- Maturation: Inertial persistence ("empty tomb" that feels occupied)
+- Terminal: Clearing (recognize obsolescence, release) or Indefinite persistence (identity fusion)
+
+**Example Lifecycle: Anger as Boundary Protection**
+
+```
+Genesis (Scaffold, childhood):
+- tâ‚€ = Early childhood
+- Function: Protect boundaries when assertion skills absent
+- Designed to be outgrown
+
+Maturation (Scaffold):
+- Useful during development
+- Teaches: "I have boundaries worth protecting"
+- Temporary: Should dissolve as assertion develops
+
+Degradation Option 1 (Success):
+- Assertion skills learned
+- Anger no longer needed for boundaries
+- Scaffold dissolves cleanly
+
+Degradation Option 2 (Failure â†’ Abandoned Camp):
+- Adulthood reached, assertion never learned
+- Anger persists as primary boundary mechanism
+- Zombie: Childhood strategy in adult context
+- Cost > benefit: Destroys relationships, no longer protective
+
+Terminal (Abandoned Camp):
+- Clearing: Learn assertion, release anger
+- OR Indefinite: "I'm just an angry person" (identity fusion)
+```
+
+---
+
+### B. Social Constraints (Sociology)
+
+**Mountains:** Social limits (Dunbar number, trust decay, reciprocity requirement) - no lifecycle
+
+**Ropes:** Relationship norms, mutual aid
+- Genesis: Coordination need recognized
+- Maturation: Active maintenance (reciprocity balanced)
+- Degradation: â†’ Tangled Rope (one-sided extraction) or â†’ Piton (relationship dead but maintained)
+
+**Tangled Ropes:** Most modern relationships
+- Genesis: Designed hybrid (family expectations coordinate AND extract) or Degraded (friendship becomes one-sided)
+- Maturation: Unstable (reform pressure vs. acceptance)
+- Degradation: â†’ Snare (coordination lost, pure extraction) or â†’ Piton (both functions fail, zombie relationship)
+
+**Snares:** Abusive relationships, exploitative norms
+- Genesis: Power asymmetry + extraction design
+- Maturation: Enforcement (guilt, economic dependence, social pressure)
+- Degradation: â†’ Piton (enforcement fails but habits remain - internalized abuse)
+
+**Scaffolds:** Mentor relationships, transition support
+- Genesis: Developmental need
+- Maturation: Time-limited support
+- Degradation: â†’ Piton (sunset violated, dependency created) or â†’ Snare (exploitation added)
+
+**Pitons:** Dead friendships, obsolete obligations
+- Terminal: Clearing (honest "this doesn't serve either of us") or Indefinite (maintain from guilt)
+
+**Example Lifecycle: Friendship**
+
+```
+Genesis (Rope):
+- tâ‚€ = Meeting, mutual interest
+- Function: Emotional support, shared activities
+- Îµ(tâ‚€) â‰ˆ 0.08 (reciprocal exchange)
+
+Maturation (Rope):
+- Sustained reciprocity
+- Mutual benefit
+- Low extraction
+
+Degradation Path 1 (â†’ Tangled Rope):
+- Life changes (one person advances, other stagnates)
+- Extraction accumulates (one gives, other takes)
+- Îµ increases (0.08 â†’ 0.44)
+- Still some coordination (shared history)
+
+Degradation Path 2 (â†’ Piton):
+- Geographic distance, life divergence
+- Coordination function lost (nothing in common)
+- Extraction absent (no one benefits)
+- Zombie: Annual awkward coffee maintained from guilt
+
+Terminal (Piton):
+- Clearing: Honest acknowledgment, graceful release
+- Relief test: Both feel relief when contact stops
+- OR Indefinite: Maintain from sunk cost fallacy ("20 years of friendship")
+```
+
+---
+
+### C. Institutional Constraints (Politics)
+
+**Mountains:** Constitutional geometry, international law - no lifecycle (or centuries-long)
+
+**Ropes:** Functional democratic institutions
+- Genesis: Constitutional design, electoral reform
+- Maturation: Active maintenance, refinement
+- Degradation: â†’ Tangled Rope (extraction accumulates) or â†’ Piton (function obsolete)
+
+**Tangled Ropes:** Most functioning democracies (60%+)
+- Genesis: Designed hybrid (federalism coordinates + rural overrepresentation) or Degraded (gerrymandering added)
+- Maturation: Unstable equilibrium (reform vs. beneficiary defense)
+- Degradation: â†’ Snare (coordination lost - democratic theater) or â†’ Piton (both fail - defunct institution)
+
+**Snares:** Authoritarian mechanisms, gerrymandering, judicial gatekeeping
+- Genesis: Power concentration + extraction design
+- Maturation: Enforcement (judicial dissolution, alternative suppression)
+- Degradation: â†’ Piton (regime change, enforcement fails)
+
+**Scaffolds:** Transitional governments, constitutional conventions, occupation governments
+- Genesis: Regime transition
+- Maturation: Time-limited governance
+- Degradation: â†’ Piton (sunset violated - Thailand Senate) or â†’ Snare (provisional government becomes dictatorship)
+
+**Pitons:** Obsolete electoral mechanisms, defunct institutions
+- Terminal: Reform (eliminate) or Indefinite (maintain from tradition)
+
+**Example Lifecycle: Electoral College (U.S.)**
+
+```
+Genesis (Tangled Rope? Contested):
+- tâ‚€ = 1787 (Constitutional Convention)
+- Claimed function: Prevent direct democracy (elite filter)
+- Actual function: Slave state power preservation
+- Îµ(tâ‚€) â‰ˆ 0.48 (moderate-high extraction from inception)
+
+Maturation (Tangled Rope):
+- Function shift: Elite filter â†’ federalism justification
+- Coordination: State-based system (arguably)
+- Extraction: Rural overrepresentation, swing state concentration
+- Îµ(t_maturation) â‰ˆ 0.52 (stable hybrid)
+
+Degradation (Contested Classification):
+- Current debate: Tangled Rope vs. Piton?
+- Federalism defenders: Still Tangled Rope (coordinates states + extracts equality)
+- Popular vote advocates: Now Piton (federalism justification empty, swing state concentration arbitrary)
+- Îµ(t_present) â‰ˆ 0.58 (high extraction from powerless perspective)
+
+Terminal (Pending):
+- Reform Option 1: National Popular Vote Interstate Compact (functional elimination)
+- Reform Option 2: Constitutional amendment (Mountain blocking path)
+- Indefinite: Maintain from tradition (Piton persistence)
+```
+
+---
+
+## VI. Lifecycle Velocity: Temporal Dynamics
+
+### Fast Lifecycles (Months to Years)
+
+**Characteristics:**
+- Technology-mediated constraints
+- Market-driven coordination
+- Rapid iteration possible
+
+**Examples:**
+- Social media platforms: Genesis â†’ Degradation in 5-10 years
+- Startup governance: Scaffold â†’ Piton in months (if sunset ignored)
+- Tech stack choices: Rope â†’ Piton as quickly as 1-2 years (environment shifts)
+
+**Implications:**
+- Require active monitoring (degradation rapid)
+- Reform window short (act fast or miss it)
+- Disposal easier (low sunk cost, less identity fusion)
+
+---
+
+### Medium Lifecycles (Decades to Generations)
+
+**Characteristics:**
+- Institutional norms
+- Professional standards
+- Social conventions
+
+**Examples:**
+- Academic publishing: Rope â†’ Tangled Rope over 30-40 years (1970s-2010s)
+- Workplace norms: Genesis â†’ Degradation over 20-50 years
+- Professional licensing: Rope â†’ Tangled Rope over generations
+
+**Implications:**
+- Degradation visible but gradual
+- Reform possible but politically difficult
+- Identity fusion moderate (tradition, not eternal)
+
+---
+
+### Slow Lifecycles (Generations to Centuries)
+
+**Characteristics:**
+- Constitutional structures
+- Cultural norms
+- Civilizational patterns
+
+**Examples:**
+- Electoral systems: Genesis â†’ Degradation over centuries
+- Gender roles: Snare naturalization over millennia
+- Constitutional provisions: Stable for centuries or until revolution
+
+**Implications:**
+- Degradation hard to perceive (happens across lifetimes)
+- Reform extremely difficult (Mountains often block paths)
+- Identity fusion severe (feels eternal, "this is just how things are")
+- Revolutionary overthrow sometimes only option
+
+---
+
+## VII. Intervention Timing: When to Act
+
+### Early Intervention (Genesis Phase)
+
+**Opportunity:** Design well from inception
+**Actions:**
+- Ropes: Build in low extraction, refinement mechanisms
+- Scaffolds: Explicit sunset clauses, clear completion criteria
+- Tangled Ropes: If designed hybrid, minimize extraction (Îµ < 0.40)
+
+**Example:** Designing democratic institution
+- Build in proportionality (reduce wasted votes)
+- Clear amendment process (enable reform)
+- Avoid Mountain-locking (Article V-style traps)
+
+---
+
+### Maintenance Intervention (Maturation Phase)
+
+**Opportunity:** Prevent degradation before drift events
+**Actions:**
+- Monitor Îµ (watch for extraction accumulation)
+- Detect metric substitution early (proxy becoming goal)
+- Reform while still Rope (easier than after Tangled Rope)
+
+**Example:** Open-source governance
+- Watch for corporate capture (extraction accumulation)
+- Preserve community control (prevent metric substitution)
+- Maintain reciprocity (contributor â†’ beneficiary balance)
+
+---
+
+### Reform Intervention (Early Degradation)
+
+**Opportunity:** Surgical reform while coordination persists
+**Actions:**
+- Tangled Rope detection (both functions present)
+- Separability testing (can functions be divided?)
+- Surgical extraction removal (preserve coordination)
+
+**Example:** Academic publishing reform
+- Recognize hybrid state (quality control + rent extraction)
+- Separate functions (peer review + open access)
+- Preserve coordination, eliminate extraction
+
+---
+
+### Revolutionary Intervention (Late Degradation)
+
+**Opportunity:** Last resort when reform blocked
+**Actions:**
+- Recognize Mountains blocking all paths
+- Build alternative from scratch
+- Accept coordination loss during transition
+- Prepare for rebuilding
+
+**Example:** Constitutional overthrow when amendment impossible
+- Recognize barrier (Article V trap, Article 112 dissolution threat)
+- Revolutionary replacement only option
+- High cost, but sometimes necessary
+
+---
+
+### Elimination Intervention (Terminal Piton)
+
+**Opportunity:** Low-hanging fruit (no coordination to preserve)
+**Actions:**
+- Recognize obsolescence (cost > benefit)
+- Overcome inertia (administrative cleanup)
+- Release identity fusion ("but we've always...")
+- Redirect saved energy
+
+**Example:** Dead letter law repeal, zombie committee elimination, obsolete procedure removal
+
+---
+
+## VIII. Lifecycle Patterns: Recurring Dynamics
+
+### Pattern 1: The Value Alignment Drift
+
+**Sequence:** Rope â†’ Tangled Rope â†’ Snare â†’ I-Piton
+
+**Mechanism:**
+1. Coordination mechanism created (Rope)
+2. Proxy metric introduced to measure success
+3. **Metric substitution:** Proxy becomes goal
+4. Original value forgotten (Tangled Rope)
+5. Coordination lost, proxy optimization harms original value (Snare)
+6. Algorithm/mechanism shut off, habits persist (I-Piton)
+
+**Example:** Social media (connection â†’ engagement metrics â†’ attention extraction â†’ internalized compulsion)
+
+**Prevention:**
+- Resist metric substitution (maintain value focus)
+- Regular value audits ("does this still serve original purpose?")
+- Kill switch ready (can disable if drift occurs)
+
+---
+
+### Pattern 2: The Scaffold Calcification
+
+**Sequence:** Scaffold â†’ Piton (or â†’ Snare if extraction added)
+
+**Mechanism:**
+1. Temporary support created with sunset
+2. Purpose approaches completion
+3. **Sunset violation:** "Just a little longer"
+4. Temporary becomes permanent
+5. Function becomes obsolete or never was needed
+6. Zombie remains (Piton)
+
+**Example:** Emergency powers becoming permanent, therapeutic dependency, Thailand Senate
+
+**Prevention:**
+- Hard sunset clauses (date-specific, not conditional)
+- External enforcement of dissolution
+- Regular purpose assessment ("is transition complete?")
+- Celebrate dissolution (not mourn loss)
+
+---
+
+### Pattern 3: The Extraction Capture
+
+**Sequence:** Rope â†’ Tangled Rope â†’ Snare
+
+**Mechanism:**
+1. Clean coordination mechanism (Rope)
+2. Power asymmetry recognized
+3. **Extraction added** (rent-seeking opportunity)
+4. Coordination maintained initially (Tangled Rope)
+5. Extraction crowds out coordination or coordination becomes obsolete
+6. Pure extraction remains (Snare)
+
+**Example:** Academic publishing, professional licensing, cable TV
+
+**Prevention:**
+- Vigilant anti-capture (block rent-seeking early)
+- Distributed power (no concentration enabling capture)
+- Alternative tolerance (don't suppress competing coordination)
+- Regular extraction audits
+
+---
+
+### Pattern 4: The Environmental Obsolescence
+
+**Sequence:** Rope â†’ Piton (direct, no Tangled phase)
+
+**Mechanism:**
+1. Coordination functioning (Rope)
+2. Environment shifts (technology, culture, structure)
+3. **Function obsolete:** Coordination no longer needed
+4. Structure persists (inertia)
+5. Zombie remains (Piton)
+
+**Example:** Fax requirements, office dress codes, geographic requirements
+
+**Prevention:**
+- Environmental scanning (watch for shifts)
+- Disposability culture (easy to eliminate when obsolete)
+- Function questioning ("why do we still do this?")
+- Sunk cost resistance (past investment irrelevant)
+
+---
+
+## IX. Conclusion: Temporal Wisdom
+
+**Constraints are not eternal.** They emerge, serve, degrade, and sometimes die. Lifecycle awareness enables:
+
+1. **Anticipatory navigation** - See degradation before it happens
+2. **Intervention timing** - Act at optimal moment (genesis, maturation, degradation, terminal)
+3. **Creation wisdom** - Design constraints that age well (low extraction, refinement mechanisms, sunset clauses)
+4. **Clearing efficiency** - Target Pitons for elimination, reform Tangled Ropes, resist Snares
+
+**The meta-pattern:** Most constraints degrade toward Piton (zombie persistence) unless actively maintained (Ropes), reformed (Tangled Ropes), or eliminated (Snares).
+
+**The fundamental choice:** Fight entropy (maintain functional constraints) or accept decay (clear zombies, let obsolete structures die).
+
+**The temporal ethic:** 
+- Honor Scaffolds by dissolving them (don't let temporary become permanent)
+- Maintain Ropes before they degrade (prevent Tangled Rope formation)
+- Reform Tangled Ropes early (easier than after Snare degradation)
+- Eliminate Pitons ruthlessly (stop feeding zombies)
+- Resist Snares always (even when naturalized as Mountains)
+
+**That's constraint lifecycle navigation.**
+
+---
+
+## See Also
+
+**Foundational Documents:**
+- `core.md` - Gateway to framework, constraint categories
+- `logic.md` - Formal operators, state transitions, temporal logic
+- `metaphysics.md` - Constraint ontology, entity constitution
+- `epistemology.md` - Constraint Illusions section (VII) covers legacy conceptual debt
+- `limitations.md` - Empirical failure modes, verification architecture
+
+**Applied Domains:**
+- `psychology.md` - Internal constraint lifecycles (Substrate â†’ Abandoned Camps)
+- `sociology.md` - Relational constraint lifecycles (Ropes â†’ Pitons in relationships)
+- `politics.md` - Institutional lifecycles (electoral systems, democratic degradation)
+
+**Empirical Validation:**
+- `validation/validation_report.md` - Lifecycle trajectory analysis, drift event taxonomy
+
+---
+
+**Constraint Lifecycles v4.0**  
+**February 2026**  
+**Word count: ~12,000 words**

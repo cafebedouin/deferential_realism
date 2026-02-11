@@ -1,8 +1,8 @@
 # Deferential Realism: Sociology
 ## Indexical Relativity in Social Space
 
-**Version 3.3 - Expanded with Relational Integrity Protocol**  
-**Date:** January 2026  
+**Version 4.0**  
+**Date:** February 2026  
 **Companion to:** psychology.md (internal space), politics.md (institutional space), epistemology.md, ethics.md, logic.md, metaphysics.md, aesthetics.md
 
 ---
@@ -11,7 +11,7 @@
 
 **Sociology extends Deferential Realism's constraint ontology into social space.** Where psychology.md handles internal constraints and politics.md handles institutional constraints, this document handles **external social constraints operating between agents in relationships, groups, and communities**.
 
-The core insight: **The same constraint can function as coordination (Rope) for one person and extraction (Snare) for another—both classifications are objectively true from their respective power positions.**
+The core insight: **The same constraint can function as coordination (Rope) for one person and extraction (Snare) for anotherâ€”both classifications are objectively true from their respective power positions.**
 
 This isn't moral relativism. It's **indexed realism**: social truth is relative to position in social space, but each indexed claim is objectively verifiable.
 
@@ -46,17 +46,17 @@ Consider: "Is monogamy a good relationship structure?"
 
 **All four are objectively true from their respective indices.**
 
-The disagreement isn't about facts—it's about **indexical underspecification**. Without specifying WHO evaluates this, WHEN (time horizon), WHERE (exit options), and HOW MUCH (scope), the question collapses into equivocation.
+The disagreement isn't about factsâ€”it's about **indexical underspecification**. Without specifying WHO evaluates this, WHEN (time horizon), WHERE (exit options), and HOW MUCH (scope), the question collapses into equivocation.
 
 **This is why:** Most relational conflicts aren't value disagreements. They're **unrecognized index differences**. One person experiences Mountain (unchangeable from their position). Another experiences Tangled Rope (sees both coordination and extraction from theirs). Both are describing the same structure accurately from different positions in social space.
 
 **Power-scaling mechanism:**
 ```
-Same base extraction ε = 0.40 (monogamy norms)
+Same base extraction Îµ = 0.40 (monogamy norms)
 
-Person A (powerless): χ = 0.40 × 1.5 = 0.60 (Snare threshold - coerced)
-Person B (moderate): χ = 0.40 × 1.0 = 0.40 (Tangled Rope - sees both)
-Person C (institutional): χ = 0.40 × 0.6 = 0.24 (Rope - benefits from coordination)
+Person A (powerless): Ï‡ = 0.40 Ã— 1.5 = 0.60 (Snare threshold - coerced)
+Person B (moderate): Ï‡ = 0.40 Ã— 1.0 = 0.40 (Tangled Rope - sees both)
+Person C (institutional): Ï‡ = 0.40 Ã— 0.6 = 0.24 (Rope - benefits from coordination)
 ```
 
 This **proves** indexical relativity: same structure IS different types from different positions, based on observable power (control over exit, enforcement, social capital).
@@ -82,12 +82,12 @@ Observable power position (not subjective feeling):
 
 **Power modifiers in social space:**
 ```
-π(powerless)     = 1.5   (extraction amplified)
-π(moderate)      = 1.0   (baseline)
-π(powerful)      = 0.6   (extraction reduced)
-π(collective)    = 0.4   (shared burden reduces individual extraction)
-π(institutional) = -0.2  (net beneficiary from structure)
-π(analytical)    = 1.0   (observes structure)
+Ï€(powerless)     = 1.5   (extraction amplified)
+Ï€(moderate)      = 1.0   (baseline)
+Ï€(powerful)      = 0.6   (extraction reduced)
+Ï€(collective)    = 0.4   (shared burden reduces individual extraction)
+Ï€(institutional) = -0.2  (net beneficiary from structure)
+Ï€(analytical)    = 1.0   (observes structure)
 ```
 
 ### WHEN - Time Horizon
@@ -176,7 +176,7 @@ Observable power position (not subjective feeling):
 
 ### B. Ropes: Functional Social Coordination
 
-**Definition:** Constructed norms, rules, or agreements solving genuine coordination problems with reciprocal benefit and low extraction (ε ≤ 0.15).
+**Definition:** Constructed norms, rules, or agreements solving genuine coordination problems with reciprocal benefit and low extraction (Îµ â‰¤ 0.15).
 
 **Test:** Does this prevent social collisions or manage scarcity? Do participants benefit roughly equally?
 
@@ -185,31 +185,31 @@ Observable power position (not subjective feeling):
 **Meeting schedules:**
 - Coordination: Time-sharing, prevents conflicts
 - Extraction: Minimal (occasional inconvenience reciprocal)
-- ε ≈ 0.08 (low extraction)
+- Îµ â‰ˆ 0.08 (low extraction)
 - **FOR participants**: Rope (enables coordination impossible alone)
 
 **Friendship reciprocity norms:**
 - Coordination: Mutual support, shared activities
 - Extraction: Low if balanced (take turns hosting, listening, helping)
-- ε ≈ 0.12 when healthy
+- Îµ â‰ˆ 0.12 when healthy
 - **FOR friends**: Rope (enables intimacy through predictable reciprocity)
 
 **Shared language:**
 - Coordination: Communication, cultural transmission
 - Extraction: Learning cost (approximately equal for all children)
-- ε ≈ 0.05 (minimal extraction once learned)
+- Îµ â‰ˆ 0.05 (minimal extraction once learned)
 - **FOR community**: Rope (enables collective capacity)
 
 **Potluck norms:**
 - Coordination: Everyone contributes, everyone eats
 - Extraction: Minimal if reciprocal
-- ε ≈ 0.10 (cooking effort balanced by variety received)
+- Îµ â‰ˆ 0.10 (cooking effort balanced by variety received)
 - **FOR participants**: Rope
 
 **Professional courtesy norms:**
 - Coordination: Smooth workplace interaction
 - Extraction: Low if reciprocal (respect flows both ways)
-- ε ≈ 0.12 when functional
+- Îµ â‰ˆ 0.12 when functional
 - **FOR colleagues**: Rope
 
 **Relational signature:**
@@ -220,7 +220,7 @@ Observable power position (not subjective feeling):
 - Degrades when coordination function lost (becomes Piton) or extraction accumulates (becomes Tangled Rope)
 
 **Degradation monitoring:**
-- Is ε increasing? (extraction accumulating)
+- Is Îµ increasing? (extraction accumulating)
 - Is benefit becoming asymmetric? (one side gaining consistently)
 - Are alternatives being suppressed? (signs of Snare transition)
 
@@ -245,11 +245,11 @@ Observable power position (not subjective feeling):
   - Enforces gender roles (especially in traditional forms)
   - Shames non-conformity
   - Social punishment for deviation
-- **Base extraction:** ε ≈ 0.40 (moderate Tangled Rope)
+- **Base extraction:** Îµ â‰ˆ 0.40 (moderate Tangled Rope)
 - **Power-scaling:**
-  - Powerless (coerced by family/religion): 0.40 × 1.5 = 0.60 (Snare threshold)
-  - Moderate (chosen monogamy): 0.40 × 1.0 = 0.40 (Tangled Rope)
-  - Powerful (can navigate alternatives): 0.40 × 0.6 = 0.24 (Rope experience)
+  - Powerless (coerced by family/religion): 0.40 Ã— 1.5 = 0.60 (Snare threshold)
+  - Moderate (chosen monogamy): 0.40 Ã— 1.0 = 0.40 (Tangled Rope)
+  - Powerful (can navigate alternatives): 0.40 Ã— 0.6 = 0.24 (Rope experience)
 
 **Professional networking:**
 - **Coordination function:**
@@ -262,11 +262,11 @@ Observable power position (not subjective feeling):
   - Excludes outsiders (no network, no opportunities)
   - Reproduces inequality (rich get richer dynamics)
   - Time/energy cost disproportionate to benefit for powerless
-- **Base extraction:** ε ≈ 0.42
+- **Base extraction:** Îµ â‰ˆ 0.42
 - **Power-scaling:**
-  - Without network (powerless): 0.42 × 1.5 = 0.63 (Snare - locked out)
-  - Moderate network: 0.42 × 1.0 = 0.42 (Tangled Rope)
-  - Strong network (powerful): 0.42 × 0.6 = 0.25 (Rope - opportunities flow)
+  - Without network (powerless): 0.42 Ã— 1.5 = 0.63 (Snare - locked out)
+  - Moderate network: 0.42 Ã— 1.0 = 0.42 (Tangled Rope)
+  - Strong network (powerful): 0.42 Ã— 0.6 = 0.25 (Rope - opportunities flow)
 
 **Family caregiving norms:**
 - **Coordination function:**
@@ -278,11 +278,11 @@ Observable power position (not subjective feeling):
   - Economic burden concentrated
   - Career sacrifice required
   - Alternative suppression (professional care stigmatized)
-- **Base extraction:** ε ≈ 0.45
+- **Base extraction:** Îµ â‰ˆ 0.45
 - **Power-scaling:**
-  - Women (powerless in traditional norms): 0.45 × 1.5 = 0.68 (Snare)
-  - Men (moderate, can outsource): 0.45 × 1.0 = 0.45 (Tangled Rope)
-  - Wealthy (can hire care): 0.45 × 0.6 = 0.27 (Rope)
+  - Women (powerless in traditional norms): 0.45 Ã— 1.5 = 0.68 (Snare)
+  - Men (moderate, can outsource): 0.45 Ã— 1.0 = 0.45 (Tangled Rope)
+  - Wealthy (can hire care): 0.45 Ã— 0.6 = 0.27 (Rope)
 
 **Dating conventions:**
 - **Coordination function:**
@@ -294,11 +294,11 @@ Observable power position (not subjective feeling):
   - Age discrimination (especially against women)
   - Wealth signaling requirements
   - Gender role enforcement (who pays, who initiates)
-- **Base extraction:** ε ≈ 0.38
+- **Base extraction:** Îµ â‰ˆ 0.38
 - **Power-scaling:**
-  - Low market value (powerless): 0.38 × 1.5 = 0.57 (approaching Snare)
-  - Moderate market value: 0.38 × 1.0 = 0.38 (Tangled Rope)
-  - High market value (powerful): 0.38 × 0.6 = 0.23 (Rope)
+  - Low market value (powerless): 0.38 Ã— 1.5 = 0.57 (approaching Snare)
+  - Moderate market value: 0.38 Ã— 1.0 = 0.38 (Tangled Rope)
+  - High market value (powerful): 0.38 Ã— 0.6 = 0.23 (Rope)
 
 **Workplace "culture fit":**
 - **Coordination function:**
@@ -310,11 +310,11 @@ Observable power position (not subjective feeling):
   - Enforces conformity (punishes authentic differences)
   - Gatekeeping mechanism (subjective rejection)
   - Reproduces existing power structures
-- **Base extraction:** ε ≈ 0.48
+- **Base extraction:** Îµ â‰ˆ 0.48
 - **Power-scaling:**
-  - Cultural outsider (powerless): 0.48 × 1.5 = 0.72 (Snare - systematically excluded)
-  - Cultural moderate: 0.48 × 1.0 = 0.48 (Tangled Rope)
-  - Cultural insider (powerful): 0.48 × 0.6 = 0.29 (Rope - smooth integration)
+  - Cultural outsider (powerless): 0.48 Ã— 1.5 = 0.72 (Snare - systematically excluded)
+  - Cultural moderate: 0.48 Ã— 1.0 = 0.48 (Tangled Rope)
+  - Cultural insider (powerful): 0.48 Ã— 0.6 = 0.29 (Rope - smooth integration)
 
 **Gift-giving norms:**
 - **Coordination function:**
@@ -326,7 +326,7 @@ Observable power position (not subjective feeling):
   - Wealth signaling competition
   - Time/energy burden
   - Alternative suppression ("it's the thought that counts" masks judgment)
-- **Base extraction:** ε ≈ 0.35
+- **Base extraction:** Îµ â‰ˆ 0.35
 
 **Why Tangled Ropes are fundamental:**
 - Most complex social systems coordinate AND extract irreducibly
@@ -353,20 +353,34 @@ Observable power position (not subjective feeling):
 
 **Power-scaling critical insight:** Same Tangled Rope = Snare for powerless, Rope for powerful. This explains why beneficiaries deny extraction ("works fine for me!") while victims experience harm.
 
+**Game-Theoretic Patterns in Social Tangled Ropes:**
+
+Many social dynamics that appear as interpersonal conflicts are actually coordination failures with formal game-theoretic structure. Classifying the game structure rather than the individual experience reveals intervention targets:
+
+**Prisoner's Dilemma = Tangled Rope without enforcement.** Two friends splitting bills, two departments sharing resources, two nations in arms race — genuine mutual benefit from cooperation (Rope component) plus individual incentive to defect (Snare component). Social solution: convert to iterated play through repeated interaction, reputation systems, or institutional enforcement. Friendships that survive are ones where defection is detected and named, converting one-shot games to iterated ones.
+
+**Tragedy of the Commons = degrading Scaffold → terminal Snare.** Shared social resources (goodwill in a community, shared spaces, reciprocal networks) degrade under cumulative extraction. Each individual act of extraction is small; the lifecycle trajectory is the constraint. The commons collapses not because any individual is extractive but because the interaction structure incentivizes it. See `constraint_lifecycles.md` for degradation modeling.
+
+**Nash equilibria that are Pareto-suboptimal = stable Tangled Ropes.** Social norms where everyone would be better off coordinating differently but no individual can change unilaterally: overwork cultures, competitive consumption, arms races in credentialing. The equilibrium is stable (no individual gains by changing) but extractive (everyone pays more than necessary). This is the formal version of why Tangled Rope social reform is politically difficult — the extraction is an equilibrium, not an accident.
+
+**Braess's Paradox = emergent Snare from attempted Scaffold.** Adding social options sometimes worsens outcomes: introducing formal complaint processes that create retaliation pathways, adding communication channels that increase coordination costs, creating flexibility that fragments collective action. Maps to reform pathology — intervention intended to improve social coordination creates new extraction pathway.
+
+**Cross-reference:** `epistemology.md` Section VII.B (Coordination Failures as Constraint Illusions), `politics.md` for institutional-scale coordination failures.
+
 ---
 
 ### D. Snares: Extractive Social Mechanisms
 
 **Definition:** Social structures extracting asymmetrically through power maintenance, often masquerading as Mountains (natural) or Ropes (coordination).
 
-**Test:** Who benefits systematically? Are alternatives suppressed? Does enforcement stop → dissolve?
+**Test:** Who benefits systematically? Are alternatives suppressed? Does enforcement stop â†’ dissolve?
 
 **Examples:**
 
 **Unpaid emotional labor expectations:**
 - Claimed coordination: Relationship maintenance
 - Actual function: Gendered extraction (women manage household emotions, men benefit)
-- ε ≈ 0.68 (high extraction)
+- Îµ â‰ˆ 0.68 (high extraction)
 - **Enforcement:** Guilt, social judgment, "women are naturally better at emotions"
 - **Alternative suppression:** Paid therapy stigmatized, men's emotional labor invisible
 - **FOR women (powerless)**: Snare (extraction without reciprocity)
@@ -375,7 +389,7 @@ Observable power position (not subjective feeling):
 **Obligatory presence requirements:**
 - Claimed coordination: Family bonding, relationship maintenance
 - Actual function: Time/energy extraction regardless of value
-- ε ≈ 0.62 (high extraction when obligatory)
+- Îµ â‰ˆ 0.62 (high extraction when obligatory)
 - **Example:** "Family means showing up" (even when harmful, extractive, meaningless)
 - **Enforcement:** Guilt, social judgment, relationship termination threat
 - **FOR obligated person**: Snare (trapped attendance at cost)
@@ -384,7 +398,7 @@ Observable power position (not subjective feeling):
 **Gaslighting dynamics:**
 - Claimed coordination: Communication clarity
 - Actual function: Reality denial, extraction of agency
-- ε ≈ 0.75 (very high extraction)
+- Îµ â‰ˆ 0.75 (very high extraction)
 - **Pattern:** "You're too sensitive," "That didn't happen," "You're overreacting"
 - **Enforcement:** Undermining victim's perception of reality
 - **FOR victim**: Snare (extraction of agency, reality-testing capacity)
@@ -393,8 +407,8 @@ Observable power position (not subjective feeling):
 **Social debt spirals:**
 - Claimed coordination: Reciprocity, mutual aid
 - Actual function: Perpetual obligation, unpayable debt
-- ε ≈ 0.70 (high extraction)
-- **Pattern:** Favor given → obligation created → favor returned → new obligation → endless cycle
+- Îµ â‰ˆ 0.70 (high extraction)
+- **Pattern:** Favor given â†’ obligation created â†’ favor returned â†’ new obligation â†’ endless cycle
 - **Enforcement:** "After all I've done for you"
 - **FOR indebted person**: Snare (can never repay, perpetual extraction)
 - **FOR creditor**: Rope if genuinely reciprocal, Snare if intentionally unpayable
@@ -402,7 +416,7 @@ Observable power position (not subjective feeling):
 **Attention economy dynamics:**
 - Claimed coordination: Connection, information sharing
 - Actual function: Attention extraction, manipulation
-- ε ≈ 0.72 (very high extraction)
+- Îµ â‰ˆ 0.72 (very high extraction)
 - **Pattern:** Social media engagement optimization
 - **Enforcement:** FOMO, social pressure, algorithmic manipulation
 - **FOR user (powerless)**: Snare (attention harvested, wellbeing damaged)
@@ -411,7 +425,7 @@ Observable power position (not subjective feeling):
 **"Traditional" gender roles:**
 - Claimed coordination: Natural division of labor
 - Actual function: Power maintenance, unpaid labor extraction
-- ε ≈ 0.65 (high extraction from women)
+- Îµ â‰ˆ 0.65 (high extraction from women)
 - **Naturalization:** "Women naturally nurturing," "Men natural providers"
 - **Alternative suppression:** Working mothers shamed, stay-at-home fathers stigmatized
 - **FOR women (powerless in traditional structures)**: Snare (extraction via unpaid domestic labor)
@@ -420,7 +434,7 @@ Observable power position (not subjective feeling):
 **Exclusionary group norms:**
 - Claimed coordination: Group cohesion, identity
 - Actual function: Gatekeeping, insider privilege
-- ε ≈ 0.58 (moderate-high extraction from outsiders)
+- Îµ â‰ˆ 0.58 (moderate-high extraction from outsiders)
 - **Pattern:** "We've always done it this way," unwritten rules, insider knowledge required
 - **Enforcement:** Social exclusion, reputation damage
 - **FOR insider**: Rope (maintains privilege, reduces competition)
@@ -462,8 +476,8 @@ Observable power position (not subjective feeling):
 - **Sunset:** When mentee achieves competence, independence
 - **Success metric:** Mentee no longer needs mentor
 - **Degradation risk:**
-  - Scaffold → Piton (sunset ignored, piton relationship continues from guilt)
-  - Scaffold → Snare (mentor creates dependency for ego/power)
+  - Scaffold â†’ Piton (sunset ignored, piton relationship continues from guilt)
+  - Scaffold â†’ Snare (mentor creates dependency for ego/power)
 
 **Support groups (crisis):**
 - **Purpose:** Temporary community during crisis (grief, addiction recovery, illness)
@@ -471,8 +485,8 @@ Observable power position (not subjective feeling):
 - **Sunset:** Crisis passes, capacity rebuilt
 - **Success metric:** Graduate from group, rebuild independent life
 - **Degradation risk:**
-  - Scaffold → Piton (members can't let go, identity fusion with crisis)
-  - Scaffold → Tangled Rope (group provides belonging BUT resists graduation)
+  - Scaffold â†’ Piton (members can't let go, identity fusion with crisis)
+  - Scaffold â†’ Tangled Rope (group provides belonging BUT resists graduation)
 
 **Transition rituals:**
 - **Purpose:** Mark passage (coming of age, marriage, death)
@@ -493,8 +507,8 @@ Observable power position (not subjective feeling):
 - **Designed to:** Support during learning curve, then end
 - **Sunset:** Integration complete, new member autonomous
 - **Degradation risk:**
-  - Scaffold → Piton (hazing rituals persist without onboarding function)
-  - Scaffold → Snare (onboarding becomes gatekeeping, extraction device)
+  - Scaffold â†’ Piton (hazing rituals persist without onboarding function)
+  - Scaffold â†’ Snare (onboarding becomes gatekeeping, extraction device)
 
 **Scaffolded independence (parenting):**
 - **Purpose:** Support child development toward autonomy
@@ -502,8 +516,8 @@ Observable power position (not subjective feeling):
 - **Sunset:** Adulthood, independence achieved
 - **Success metric:** Child doesn't need parent's daily support
 - **Degradation risk:**
-  - Scaffold → Piton (parent can't let go, adult child still dependent)
-  - Scaffold → Snare (parent creates dependency to maintain relevance)
+  - Scaffold â†’ Piton (parent can't let go, adult child still dependent)
+  - Scaffold â†’ Snare (parent creates dependency to maintain relevance)
 
 **Relational signature:**
 - Temporal limitation explicit or implicit
@@ -512,9 +526,9 @@ Observable power position (not subjective feeling):
 - Success = dissolution, not continuation
 
 **Degradation paths:**
-- **Scaffold → Piton:** Purpose served but not removed (guilt, identity fusion prevent dissolution)
-- **Scaffold → Snare:** Extraction added, dependency created (mentor exploitation, parent enmeshment)
-- **Scaffold → Tangled Rope:** Some support remains useful BUT extraction accumulated
+- **Scaffold â†’ Piton:** Purpose served but not removed (guilt, identity fusion prevent dissolution)
+- **Scaffold â†’ Snare:** Extraction added, dependency created (mentor exploitation, parent enmeshment)
+- **Scaffold â†’ Tangled Rope:** Some support remains useful BUT extraction accumulated
 
 **Honest Scaffold practice:**
 1. **Name temporality upfront:** "This support is designed to end"
@@ -587,8 +601,8 @@ Observable power position (not subjective feeling):
 4. **Redirect energy:** Freed capacity for living relationships
 
 **The honest question:** "If this relationship/ritual/obligation disappeared tomorrow, would I feel relief or loss?"
-- **Relief** → Piton, eliminate
-- **Loss** → Still functional, maintain or reform
+- **Relief** â†’ Piton, eliminate
+- **Loss** â†’ Still functional, maintain or reform
 
 **Common resistance:**
 - Sunk cost fallacy ("20 years of friendship!")
@@ -606,19 +620,19 @@ Observable power position (not subjective feeling):
 
 **Formula:**
 ```
-Effective extraction χ(C, P) = Base extraction ε(C) × Power modifier π(P)
+Effective extraction Ï‡(C, P) = Base extraction Îµ(C) Ã— Power modifier Ï€(P)
 
 Where:
-- ε(C) = structural property of constraint (observable)
+- Îµ(C) = structural property of constraint (observable)
 - P = agent's power position (observable: exit control, social capital, resources)
-- π(P) = modifier based on position
+- Ï€(P) = modifier based on position
 ```
 
-**Example: Professional networking (ε = 0.42)**
+**Example: Professional networking (Îµ = 0.42)**
 ```
-Without network (powerless): 0.42 × 1.5 = 0.63 (Snare - locked out)
-Moderate network: 0.42 × 1.0 = 0.42 (Tangled Rope - sees both)
-Strong network (powerful): 0.42 × 0.6 = 0.25 (Rope - opportunities flow)
+Without network (powerless): 0.42 Ã— 1.5 = 0.63 (Snare - locked out)
+Moderate network: 0.42 Ã— 1.0 = 0.42 (Tangled Rope - sees both)
+Strong network (powerful): 0.42 Ã— 0.6 = 0.25 (Rope - opportunities flow)
 ```
 
 **This explains relational conflicts:**
@@ -654,12 +668,12 @@ Power asymmetry addressed OR structure reformed:
 
 **Option 1 - Equalize power:**
 - Partner B gains exit options (financial independence, social support)
-- Power redistribution changes experience (Snare → Tangled Rope or Rope)
+- Power redistribution changes experience (Snare â†’ Tangled Rope or Rope)
 
 **Option 2 - Reform structure:**
 - Preserve coordination function
 - Excise extraction layer
-- Example: Monogamy → Ethical non-monogamy (maintain consent coordination, remove coercion)
+- Example: Monogamy â†’ Ethical non-monogamy (maintain consent coordination, remove coercion)
 
 **Option 3 - Accept differences:**
 - Recognize irresolvable indexical variation
@@ -753,7 +767,7 @@ Power asymmetry addressed OR structure reformed:
 
 **Questions:**
 - Am I experiencing this as Mountain because I'm powerless (can't see exit options)?
-- Is extraction amplified for me? (ε × 1.5 effect)
+- Is extraction amplified for me? (Îµ Ã— 1.5 effect)
 - Would this feel different if I had more power/resources/options?
 
 **Honest acknowledgment:**
@@ -816,7 +830,7 @@ Power asymmetry addressed OR structure reformed:
 **Relationships change, constraints change, classifications change:**
 
 **Commitment:**
-"This structure is currently [type], but if it degrades (Rope → Tangled Rope, Tangled Rope → Snare), I commit to naming that change honestly."
+"This structure is currently [type], but if it degrades (Rope â†’ Tangled Rope, Tangled Rope â†’ Snare), I commit to naming that change honestly."
 
 **Why this matters:**
 - Prevents relationship calcification
@@ -826,13 +840,13 @@ Power asymmetry addressed OR structure reformed:
 
 **Examples:**
 
-**Rope → Tangled Rope monitoring:**
+**Rope â†’ Tangled Rope monitoring:**
 "Our friendship is currently Rope - reciprocal support, shared activities, low extraction. But if I notice extraction accumulating (one of us consistently giving more, benefits becoming asymmetric), I'll name that. We can then decide whether to reform (rebalance reciprocity) or acknowledge it's degrading."
 
-**Tangled Rope → Snare monitoring:**
+**Tangled Rope â†’ Snare monitoring:**
 "Our professional relationship is Tangled Rope - genuine mentorship (coordination) but some exploitation of my labor (extraction). If the coordination function disappears (I'm no longer learning) but extraction persists (still doing grunt work), I'll name that it's become Snare and we need to renegotiate or I need to exit."
 
-**Scaffold → Piton monitoring:**
+**Scaffold â†’ Piton monitoring:**
 "This support structure is Scaffold - temporary help during crisis. When crisis passes, if we're maintaining this from habit/guilt rather than function, I'll name that it's become Piton and we should dissolve it with gratitude for what it was."
 
 **Quarterly relationship check-in protocol:**
@@ -849,8 +863,30 @@ Power asymmetry addressed OR structure reformed:
 - I will name degradation when I see it
 - I will not maintain Pitons from guilt
 - I will honor Scaffold sunsets
-- I will acknowledge when Rope → Tangled Rope
+- I will acknowledge when Rope â†’ Tangled Rope
 - I will exit Snares when able
+
+### Case Study: Narcissistic Communication as Epistemic Attack
+
+**Source:** Personal email chain analyzed during corpus audit (February 2026). Generating LLM parsed the chain; structural analysis revealed systematic misclassification.
+
+**The pattern in constraint terms:**
+
+1. **Initial offer as Scaffold:** "I'd like to resume contact" = conditional, bounded offer with implicit sunset (if conditions aren't met, contact won't continue). Scaffold classification is correct — temporary support structure designed for transition.
+
+2. **Scaffold → Rope reclassification:** The offer is received not as bounded conditional but as unbounded obligation. "Family" framing converts "I'll try, with conditions" into "this is what you owe me." The Scaffold has been reclassified as Rope without the boundary-keeper's consent.
+
+3. **Boundary reassertion → aggression framing:** When the boundary-keeper reasserts conditions ("I need you to acknowledge X before we can continue"), this is parsed as Snare — the boundary-keeper is now extracting from the person who "just wants a relationship." The conditional nature of the original offer has been erased from the narrative.
+
+4. **Third-party recruitment:** The reclassified version (boundary-keeper as aggressor) is forwarded to third parties with original evidence attached. The forwarder is confident the evidence supports their framing because the framing is embedded in the presentation, not in the evidence. Third parties who read the affect (grief, reaching out, wanting connection) rather than the structure (boundary expansion, reframing of "no," recruitment of pressure) will reproduce the misclassification.
+
+**Why the generating LLM failed:** The LLM processed emotional valence at message level. The person reaching out presented affect consistent with victimhood (sadness, health concerns, desire for connection). The boundary-keeper presented affect consistent with coldness (measured tone, conditional language, refusal to engage emotionally). At the message level, the LLM's classification (victim = person reaching out, aggressor = boundary-keeper) was coherent with affect. At the sequence level — tracking boundary offered → boundary expanded → expansion caught → reframing deployed → third party recruited — the classification inverts.
+
+**Structural lesson for Relational Integrity Protocol:** The RIP's Step 1 (Classify Before Responding) must classify across the sequence of interactions, not within any single exchange. Narcissistic communication — and more broadly, any system where extraction operates through narrative framing — is designed to present the extracting party as sympathetic at the message level. The extraction is only visible in the pattern across time: what happened to each boundary that was set?
+
+**Detection heuristic:** Track what happens to boundaries. In healthy (Rope) interactions, boundaries are respected, and new requests are scoped within them. In narcissistic (Snare) interactions, each boundary becomes the starting position for the next expansion. The content of any single message may be reasonable; the trajectory across messages reveals extraction.
+
+**Cross-reference:** `ethics.md` Section III.H (Epistemic Warfare), `epistemology.md` Section VI.G (WHO Assignment Vulnerability).
 
 ---
 
@@ -944,8 +980,8 @@ Power asymmetry addressed OR structure reformed:
 
 **4. Build collective power**
 
-**Individual powerlessness ≠ permanent:**
-- Coalition formation reduces extraction (π(collective) = 0.4)
+**Individual powerlessness â‰  permanent:**
+- Coalition formation reduces extraction (Ï€(collective) = 0.4)
 - Shared resources enable exit
 - Mutual support creates alternatives
 
@@ -988,7 +1024,7 @@ Power asymmetry addressed OR structure reformed:
 **2. Measure extraction:**
 - What's asymmetric? (who gives more, who receives more)
 - What's the power balance? (who has more options, resources, leverage)
-- How severe is extraction? (ε value, then apply power-scaling)
+- How severe is extraction? (Îµ value, then apply power-scaling)
 
 **3. Test separability:**
 - Can we preserve coordination without extraction?
@@ -1022,7 +1058,7 @@ Power asymmetry addressed OR structure reformed:
 **Outcomes:**
 - **Success:** Coordination preserved, extraction reduced, relationship strengthened
 - **Partial:** Some improvement, ongoing negotiation needed
-- **Failure:** Coordination damaged OR extraction persists → reconsider relationship viability
+- **Failure:** Coordination damaged OR extraction persists â†’ reconsider relationship viability
 
 ### B. The Piton Relationship Case
 
@@ -1043,16 +1079,16 @@ Power asymmetry addressed OR structure reformed:
 **3. Relief test:**
 - If this relationship disappeared tomorrow, would I feel relief or loss?
 - Be honest: Relief about ending obligation vs. loss of actual value
-- If relief → Piton
+- If relief â†’ Piton
 
 **4. Sunk cost check:**
 - Am I maintaining because "we've been friends for X years"?
 - Is past investment relevant to current value? (No)
-- "We were close once" ≠ "we should maintain now"
+- "We were close once" â‰  "we should maintain now"
 
 **5. Identity fusion check:**
-- "I'm a loyal person" → Am I maintaining to preserve self-image?
-- "I've always been friends with X" → Is this identity, not relationship?
+- "I'm a loyal person" â†’ Am I maintaining to preserve self-image?
+- "I've always been friends with X" â†’ Is this identity, not relationship?
 - Identity fusion prevents honest assessment
 
 **Graceful dissolution protocol:**
@@ -1124,14 +1160,14 @@ Power asymmetry addressed OR structure reformed:
 
 **Degradation prevention:**
 
-**Scaffold → Snare (dependency creation):**
+**Scaffold â†’ Snare (dependency creation):**
 - Mentor prolongs "need" to maintain relevance/ego
 - Therapist maintains client for revenue
 - Parent enmeshes adult child to maintain relationship
 - **Detection:** Support continues past function completion
 - **Prevention:** Honest sunset monitoring, celebrate independence
 
-**Scaffold → Piton (piton support):**
+**Scaffold â†’ Piton (piton support):**
 - Crisis passed but support continues from habit
 - Integration complete but onboarding buddy relationship persists
 - Mentee achieved competence but relationship maintained from guilt
@@ -1156,7 +1192,7 @@ Power asymmetry addressed OR structure reformed:
 
 ### A. The Four Universal Relational Paradoxes
 
-**1. Autonomy ⇄ Connection**
+**1. Autonomy â‡„ Connection**
 
 **The paradox:**
 - Need independence (maintain separate self, pursue individual goals)
@@ -1164,12 +1200,12 @@ Power asymmetry addressed OR structure reformed:
 - Cannot maximize both simultaneously
 
 **Tension manifestation:**
-- Too much autonomy → Isolation, loneliness, relationship withering
-- Too much connection → Fusion, loss of self, resentment, suffocation
+- Too much autonomy â†’ Isolation, loneliness, relationship withering
+- Too much connection â†’ Fusion, loss of self, resentment, suffocation
 
 **Immature response (forcing resolution):**
-- "We must be completely autonomous" → isolation, relationship ends
-- "We must be completely fused" → codependency, enmeshment, identity loss
+- "We must be completely autonomous" â†’ isolation, relationship ends
+- "We must be completely fused" â†’ codependency, enmeshment, identity loss
 
 **Mature response (containment):**
 
@@ -1193,7 +1229,7 @@ Power asymmetry addressed OR structure reformed:
 
 ---
 
-**2. Individual Needs ⇄ Collective Needs**
+**2. Individual Needs â‡„ Collective Needs**
 
 **The paradox:**
 - Individual has personal needs (rest, pursuits, resources)
@@ -1201,8 +1237,8 @@ Power asymmetry addressed OR structure reformed:
 - Cannot fully satisfy both
 
 **Tension manifestation:**
-- Too much individual → Collective suffers (household chaos, relationship neglect)
-- Too much collective → Individual suffers (burnout, resentment, loss of self)
+- Too much individual â†’ Collective suffers (household chaos, relationship neglect)
+- Too much collective â†’ Individual suffers (burnout, resentment, loss of self)
 
 **Containment:**
 - Sequential attention (individual time this week, collective time next)
@@ -1216,7 +1252,7 @@ Power asymmetry addressed OR structure reformed:
 
 ---
 
-**3. Honesty ⇄ Kindness**
+**3. Honesty â‡„ Kindness**
 
 **The paradox:**
 - Truth sometimes hurts
@@ -1224,8 +1260,8 @@ Power asymmetry addressed OR structure reformed:
 - Cannot be completely honest AND completely kind always
 
 **Tension manifestation:**
-- Too much honesty → Cruelty, relationship damage
-- Too much kindness → Dishonesty, resentment, withheld truth
+- Too much honesty â†’ Cruelty, relationship damage
+- Too much kindness â†’ Dishonesty, resentment, withheld truth
 
 **Containment:**
 - Context-dependent choice (honest when stakes high, kind when harm exceeds benefit)
@@ -1234,13 +1270,13 @@ Power asymmetry addressed OR structure reformed:
 
 **Example:**
 - Partner's creative work is genuinely bad
-- Complete honesty → "This is terrible" (cruel)
-- Complete kindness → "This is great!" (dishonest, prevents growth)
-- Containment → "I see your effort. I'm noticing [specific issue]. Would you like honest feedback or support?" (kindness with truth option)
+- Complete honesty â†’ "This is terrible" (cruel)
+- Complete kindness â†’ "This is great!" (dishonest, prevents growth)
+- Containment â†’ "I see your effort. I'm noticing [specific issue]. Would you like honest feedback or support?" (kindness with truth option)
 
 ---
 
-**4. Stability ⇄ Growth**
+**4. Stability â‡„ Growth**
 
 **The paradox:**
 - Stability requires consistency (predictable, safe, known)
@@ -1248,8 +1284,8 @@ Power asymmetry addressed OR structure reformed:
 - Cannot have complete stability AND continuous growth
 
 **Tension manifestation:**
-- Too much stability → Stagnation, boredom, atrophy
-- Too much growth → Chaos, insecurity, exhaustion
+- Too much stability â†’ Stagnation, boredom, atrophy
+- Too much growth â†’ Chaos, insecurity, exhaustion
 
 **Containment:**
 - Rhythmic alternation (stable periods, growth spurts)
@@ -1258,8 +1294,8 @@ Power asymmetry addressed OR structure reformed:
 
 **Example - Relationship:**
 - Can't have completely secure relationship AND continuous exciting novelty
-- Too much security → Dead bedroom, routine, boredom
-- Too much novelty → Instability, anxiety, no foundation
+- Too much security â†’ Dead bedroom, routine, boredom
+- Too much novelty â†’ Instability, anxiety, no foundation
 - Containment: "Stable commitment with episodes of growth/challenge/exploration"
 
 ---
@@ -1449,17 +1485,17 @@ Power asymmetry addressed OR structure reformed:
 **Pattern 1: Testing (normal, low-grade)**
 - Partner pushes boundary to see if it's real
 - Response: Restate boundary, maintain consistency
-- If respects after restatement → healthy (was testing)
-- If continues violating → escalation to Pattern 2
+- If respects after restatement â†’ healthy (was testing)
+- If continues violating â†’ escalation to Pattern 2
 
 **Pattern 2: Negotiation Demand (moderate)**
 - Partner wants to change boundary
 - "That boundary isn't fair"
 - Response: Distinguish boundary type
-  - Substrate Protection → Non-negotiable, exit if they persist
-  - Coordination → Negotiable, find mutual agreement
-  - Extraction Resistance → Not negotiable, they want to extract
-  - Temporary → Remind it's time-limited
+  - Substrate Protection â†’ Non-negotiable, exit if they persist
+  - Coordination â†’ Negotiable, find mutual agreement
+  - Extraction Resistance â†’ Not negotiable, they want to extract
+  - Temporary â†’ Remind it's time-limited
 
 **Pattern 3: Gaslighting (severe)**
 - Partner denies your reality
@@ -1469,7 +1505,7 @@ Power asymmetry addressed OR structure reformed:
 - Response: 
   - Name gaslighting ("My boundary is valid regardless of your approval")
   - Don't JADE (Justify, Argue, Defend, Explain)
-  - If persists → exit (gaslighting is Snare)
+  - If persists â†’ exit (gaslighting is Snare)
 
 **Pattern 4: Punishment (severe)**
 - Partner retaliates for boundary
@@ -1557,15 +1593,15 @@ Power asymmetry addressed OR structure reformed:
 1. **High social variance** - Same structure classified differently based on power position (confirms indexical relativity)
 2. **Tangled Rope prevalence** - 36% of social structures show hybrid pattern (coordination + extraction irreducible)
 3. **False Mountain frequency** - Social structures often naturalized despite being constructed (detection tests work)
-4. **Power-scaling essential** - Without π(P) modifiers: 12% collision rate. With π(P): 0% collision rate
+4. **Power-scaling essential** - Without Ï€(P) modifiers: 12% collision rate. With Ï€(P): 0% collision rate
 5. **Index specification sufficient** - Full WHO/WHEN/WHERE/HOW_MUCH eliminates classification conflicts
 
 **Confidence levels:**
-- **HIGH:** Indexical relativity in social space (same structure → different types based on position)
+- **HIGH:** Indexical relativity in social space (same structure â†’ different types based on position)
 - **HIGH:** Power-scaling necessary (structural, not optional)
 - **HIGH:** Tangled Ropes are fundamental (36% prevalence)
-- **MEDIUM:** Specific π(P) values (calibrated from corpus, may need context adjustment)
-- **MEDIUM:** Extraction threshold values (ε boundaries may vary by culture)
+- **MEDIUM:** Specific Ï€(P) values (calibrated from corpus, may need context adjustment)
+- **MEDIUM:** Extraction threshold values (Îµ boundaries may vary by culture)
 - **LOW:** Universal applicability across all cultural contexts (corpus Western-leaning, needs non-WEIRD replication)
 
 **Limitations:**
@@ -1601,7 +1637,7 @@ Sociological Deferential Realism is not a theory to believe but a practice to pe
 
 You classify constraints. You specify indices. You acknowledge power asymmetry. You test edges. You navigate tensions. You hold paradoxes. You maintain living relationships. You eliminate pitons. You accept what remains unresolved.
 
-**And somewhere in all of that, you find your people—not through illusion, but through honest map of the relational terrain.**
+**And somewhere in all of that, you find your peopleâ€”not through illusion, but through honest map of the relational terrain.**
 
 That's sociology.
 
@@ -1623,6 +1659,7 @@ That's sociology.
 
 **For Lifecycle and Practice:**
 - `constraint_lifecycles.md` - Genesis, maturation, degradation, terminal states across all domains
+- `limitations.md` - Empirically confirmed failure modes, parser vulnerabilities
 - `field_manual.md` - Quick reference, decision trees, classification table
 
 **For Empirical Validation:**
@@ -1630,8 +1667,8 @@ That's sociology.
 
 ---
 
-**Deferential Realism: Sociology v3.3 - Expanded with Relational Integrity Protocol**  
-**January 2026**  
-**Word count: ~16,500 words**
+**Deferential Realism: Sociology v4.0**  
+**February 2026**  
+**Word count: ~18,500 words**
 
-**Complete integration with v3.3 framework - six constraint types, power-scaling, containment protocols, relational integrity**
+**Complete integration with v4.0 framework - six constraint types, power-scaling, containment protocols, relational integrity, game-theoretic patterns, epistemic attack case study**
