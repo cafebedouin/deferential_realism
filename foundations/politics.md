@@ -1,7 +1,7 @@
 # Deferential Realism: Politics
 ## Indexical Relativity in Institutional Space
 
-**Version 4.0**  
+**Version 4.1**  
 **Date:** February 2026  
 **Companion to:** psychology.md (internal space), sociology.md (relational space), epistemology.md, ethics.md, logic.md, metaphysics.md, aesthetics.md
 
@@ -170,6 +170,12 @@ Every classification requires specifying:
 
 **Detection:** Check amendment history. If it changed once, it can change again (not Mountain, just difficult Rope or high-extraction Tangled Rope). True Mountains have mathematical or physical barriers, not just political resistance.
 
+**Formal verification (False Natural Law test):** The False Summit detection above now has a named formal instrument: FNL (False Natural Law). A constraint claiming Mountain status must pass the **Boltzmann compliance test** — its effects must factorize across independent dimensions. Genuine constitutional Mountains (Article V amendment thresholds, mathematical impossibilities) factorize: the barrier operates the same way regardless of who encounters it, which party is in power, or what policy outcome is at stake. If a claimed Mountain's effects correlate with beneficiary structure — if the "impossibility" is systematically harder to change for some actors than others in ways that track power rather than mathematics — factorization fails and the Mountain claim is formally falsified as FNL.
+
+**Example:** "Two-party system is inevitable" (claimed Mountain) fails factorization because the barrier to third parties correlates with incumbent party advantages (ballot access laws, debate thresholds, media attention) — all power-maintained, not mathematically necessary. Compare with "Article V requires 3/4 of states" (genuine Mountain) — the mathematical barrier operates identically regardless of which party proposes the amendment.
+
+See logic_extensions.md §3 (FNL detection signature).
+
 ---
 
 ### B. Ropes: Functional Democratic Coordination
@@ -224,6 +230,14 @@ Every classification requires specifying:
 - Degrades when coordination function is lost (becomes Piton)
 
 **Detection of degradation:** When Rope starts serving institutional preservation over representation, investigate for Tangled Rope. When coordination function disappears entirely, classify as Piton.
+
+**Pre-symptomatic institutional decay (purity monitoring):** The degradation detection above watches for observable type transitions — Rope becoming Tangled Rope, Tangled Rope becoming Piton. But purity monitoring catches institutional decay *before* the type transition becomes visible. An electoral Rope with declining purity still shows low extraction, still coordinates, still has participant buy-in — but the internal structural health is eroding. Theater ratio is creeping up. Enforcement is shifting from voluntary compliance to institutional inertia. Alternatives are being quietly suppressed rather than openly tolerated.
+
+**Example:** A proportional representation system that still translates votes to seats accurately (metrics stable) but where party-list composition is increasingly controlled by leadership rather than reflecting membership preferences (purity declining). The system still *classifies* as Rope — extraction is low, coordination function works. But the structural health that makes it Rope is eroding, and if purity continues declining, a type transition toward Tangled Rope is coming.
+
+**Practical implication:** Institutional maintenance requires purity monitoring, not just metric monitoring. By the time extraction crosses Tangled Rope thresholds, the institution is already significantly degraded. Purity gives the early-warning window where reform is still relatively easy — before the extraction layer has hardened and acquired its own defenders.
+
+See logic_extensions.md §2 (purity scoring), constraint_lifecycles.md §III Type 10 (purity drift).
 
 ---
 
@@ -770,7 +784,38 @@ Electoral systems aren't randomâ€”they exhibit **constraint topologies** th
    - Debate shifts from "who's right" to "what should power distribution be"
    - Makes reform conversation possible (target extraction layer while preserving coordination)
 
-**This dissolves many pseudo-conflicts.** Participants aren't disagreeing about factsâ€”they're describing different experiences of the same structure from different positions in institutional space.
+**This dissolves many pseudo-conflicts.** Participants aren't disagreeing about facts, ”they're describing different experiences of the same structure from different positions in institutional space."
+
+### The Institutional Dissenter Pattern (Empirical Finding)
+
+Perspectival gap analysis explains *why* the same institution appears differently from different positions. A corpus-wide empirical finding adds a structural prediction about *which* position will classify differently — and in which direction.
+
+**The finding:** In 44% of analyzed constraints where observer positions disagree about classification, the institutionally invested observer is the **lone dissenter** — the only position classifying the constraint as coordination (Rope) while all other positions classify it as extraction (Snare or high-extraction Tangled Rope). The institutional observer's classification is sincere, structurally motivated, and systematically skewed toward seeing extraction as coordination.
+
+**Why this happens structurally:** The institutional observer benefits from the current arrangement. Their position exists *because of* the constraint's current structure. Classifying it as extractive would mean classifying their own position as extractive — a conclusion the observer has structural incentive to avoid. This isn't dishonesty; it's the structural equivalent of asking a river to notice it's eroding the bank.
+
+**Political applications:**
+
+**Filibuster defense:**
+- Senators (institutional actors): "Essential minority protection" (Rope)
+- Political scientists, voters, reform advocates: "Minority veto enabling gridlock" (Snare/high-extraction Tangled Rope)
+- Pattern: Institutional observer is lone dissenter classifying extraction as coordination
+
+**Gerrymandering defense:**
+- Party leadership (institutional beneficiaries): "Electoral coordination, ensures governance stability" (Rope)
+- Safe-district voters, reform advocates, analysts: "Representation extraction" (Snare)
+- Pattern: Same — beneficiary is lone voice defending extraction as function
+
+**Judicial gatekeeping (Thailand):**
+- Conservative judiciary (institutional actors): "Constitutional protection, democratic safeguard" (Rope/Mountain)
+- Progressive voters, international observers, analysts: "Winner-blocking extraction" (Snare)
+- Pattern: Institutional observer classifies own gatekeeping as coordination
+
+**Diagnostic value:** When political debate about an institution produces a pattern where *only* the institutionally invested actors classify it as coordination and *everyone else* classifies it as extractive — that 44% pattern is active. This doesn't automatically make the institutional observer wrong (sometimes coordination is real and outsiders don't see it). But it does make their classification *suspect* and shifts the burden of proof: the beneficiary must demonstrate coordination function that non-beneficiaries can verify, not just assert it.
+
+**The test:** Can the institutional defender articulate a coordination function that non-beneficiaries recognize? If yes, genuine Tangled Rope (both coordination and extraction). If the only people who see coordination are the people who benefit from it, institutional dissenter pattern is likely dominant.
+
+**Cross-references:** core_v4_1.md §VI (corpus findings on institutional dissenter), epistemology.md (Six-Test Battery applied to the classifier, not just the constraint).
 
 ---
 
@@ -857,6 +902,51 @@ Electoral systems aren't randomâ€”they exhibit **constraint topologies** th
 **Integration:** Political epistemology IS constraint epistemology applied to institutional space.
 
 **Empirical finding (corpus audit, February 2026):** Political constraints showed the highest rate of dominant cultural narrative embedding in the corpus. When LLM parsers generated constraint stories for contested political situations (Israel-Gaza, Xi-Mao centralization), they adopted the most statistically likely English-language framing from training data, embedding editorial perspective as classification input. For contested political situations, the generating LLM's frame correlates with institutional power over media production — a finding that reinforces the framework's own claim about power-scaling as epistemological necessity. Political classification requires explicit index specification precisely because the default narrative frame is itself power-indexed. See `limitations.md` for full findings.
+
+### Institutional Network Contamination
+
+**Institutions don't degrade in isolation.** When one institution in a democratic network degrades, its contamination flows into neighboring institutions — lowering their effective structural health even when nothing about them intrinsically changed. This is network drift (Type 11) applied to institutional space.
+
+**The mechanism:** Democratic institutions share dependency networks. Electoral integrity depends on media ecosystem health. Legislative function depends on judicial independence. Judicial legitimacy depends on appointment process integrity. When one node in this network degrades, it contaminates its neighbors through the shared dependency.
+
+**Example: Media Ecosystem Contamination**
+
+**Democratic deliberation (intrinsic purity: stable):**
+- Electoral Rope: Voters receive information, evaluate candidates, choose
+- Coordination function: Informed collective decision-making
+
+**Media ecosystem degrades (purity: 0.65 → 0.30 over 15 years):**
+- Information quality declines (attention economy, algorithmic engagement)
+- Epistemic commons fragment (filter bubbles, disinformation)
+- Media becomes high-extraction Tangled Rope or Snare
+
+**Network effect on deliberation:**
+- Same electoral rules, same ballot access, same vote counting
+- But: voters making decisions on degraded information
+- Effective purity of electoral Rope drops — not because elections changed, but because the information environment they depend on degraded
+- Electoral coordination function hollows out from inside: form persists, substance erodes
+
+**Example: Judicial Degradation Contaminating Electoral Integrity (Thailand)**
+
+**Elections (intrinsic function: coordination Rope):**
+- Competitive, multi-party, high turnout
+- Voters choose representatives
+
+**Judiciary degrades (becomes gatekeeping Snare):**
+- Courts dissolve winning parties, block elected PMs
+- Judicial institution becomes extraction mechanism
+
+**Network effect:**
+- Elections still held (intrinsic structure unchanged)
+- But effective electoral function collapses: what's the coordination value of voting if winners are dissolved?
+- Electoral Rope's effective purity drops to near-zero due to judicial contamination
+- Voters rationally disengage ("my vote gets reversed anyway") — which looks like apathy but is rational response to network contamination
+
+**Why single-institution reform often fails:** Reforming the electoral system when the judiciary is contaminated won't restore democratic function — the judicial Snare will neutralize electoral improvements. Reforming media literacy when the media ecosystem is structurally extractive treats the symptom while the contamination source continues. Effective institutional reform requires **network diagnosis**: identify the contamination source, assess cascade dynamics, intervene at the source or simultaneously across the network.
+
+**Cascade prediction:** If judiciary purity is declining at measurable velocity and electoral function depends on judicial integrity, you can estimate when the electoral institution will cross purity thresholds — even if nothing about elections themselves changes. This makes institutional decay partially predictable rather than purely reactive.
+
+**Cross-references:** logic_extensions.md §4.4 (network contamination), constraint_lifecycles.md §III Type 11 (network drift), ethics.md (network responsibility — maintenance negligence extending to cascade effects).
 
 ---
 
@@ -970,6 +1060,7 @@ Electoral systems aren't randomâ€”they exhibit **constraint topologies** th
 - Topology predictability: Same constraint pattern produces similar dynamics across cultures (France/Colombia compression matching)
 - Power-scaling essential: 12.4% collision rate without power modifiers, 0% with them
 - Index specification sufficient: 0% collision rate with full WHO/WHEN/WHERE/HOW_MUCH
+- Observer-dependence as default: Of 1,023 social constraints in the full corpus, only 212 (~21%) classify identically from every observer position. The remaining 811 (~79%) produce different types depending on where the observer stands. This means indexical specification — the central methodological claim of this document — is not a refinement but a **baseline requirement**. Without it, four out of five political classifications are incomplete. The political domain likely shows even higher observer-dependence than the corpus average, given the power asymmetries inherent in institutional space.
 
 **Confidence levels:**
 - HIGH: Electoral topologies create predictable dynamics
@@ -1077,7 +1168,7 @@ That's politics.
 
 ---
 
-**Deferential Realism: Politics v4.0**  
+**Deferential Realism: Politics v4.1**  
 **February 2026**  
 **Word count: ~8,500 words**
 

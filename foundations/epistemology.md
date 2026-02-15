@@ -2,7 +2,7 @@
 
 **How to Classify Constraints Accurately Under Uncertainty**
 
-**Version 4.0**
+**Version 4.1**
 
 ---
 
@@ -467,6 +467,18 @@ When Test 3 returns YES (both coordination and extraction present):
 - If coordination is genuine BUT inseparable: Consider whether this is structural necessity (rare) or sophisticated Snare
 - If coordination is claimed but unverifiable: Likely **Snare** with ideological cover
 
+**Step 6: Assess Structural Health (Purity)**
+
+After classification, measure the constraint's structural health *within* its type:
+
+- **For Tangled Ropes:** Is coordination function healthy relative to extraction? High purity = coordination dominant, extraction manageable. Low purity = extraction dominant, coordination hollowing out.
+- **For Ropes:** Is coordination function degrading? Declining purity means the Rope is moving toward Tangled Rope even if current metrics still read as Rope.
+- **For Snares:** Is there any residual coordination worth preserving? Non-zero purity suggests Tangled Rope may be more accurate than Snare.
+
+**Why this matters epistemologically:** Classification tells you *what type* a constraint is. Purity tells you *how healthy* it is within that type — and crucially, *which direction it's moving*. Two Tangled Ropes both classified correctly may have very different prognoses: one with high purity is stable or improving; one with low purity is degrading toward Snare. Classification without purity assessment is like diagnosis without prognosis.
+
+See logic_extensions.md §2 (purity scoring).
+
 ### C. Power-Scaling Assessment (Critical for Indexed Classification)
 
 **Power position determines effective extraction experience:**
@@ -510,6 +522,52 @@ When testing if constraint is genuine Mountain or False Summit (Snare masqueradi
 
 **Epistemic caution:** Some Mountains produce initial discomfort before damage (sleep deprivation). Some Snares produce genuine damage if violated (exit threat). The distinction is not "discomfort = fake, damage = real" but rather the *source* of consequences (reality vs. power enforcement).
 
+### E. Formal Verification Tests (For Confirming or Falsifying Classifications)
+
+The Six-Test Battery produces an initial classification. The following tests provide formal verification — mechanical checks that can confirm or falsify a classification after the battery has been applied.
+
+**FNL (False Natural Law) — Mountain Verification**
+
+**Purpose:** Test whether a claimed Mountain actually behaves like a natural law.
+
+**The test:** Genuine Mountains (natural laws, logical necessities, mathematical constraints) have a structural signature: their effects **factorize across independent dimensions**. Gravity operates the same way regardless of who you are, which political party is in power, or what your economic status is. If a claimed Mountain's effects correlate with beneficiary structure — if the "impossibility" is systematically harder for some actors than others in ways that track *power* rather than *physics* — factorization fails.
+
+**Protocol:**
+1. Identify the claimed Mountain ("This is just how markets work," "Human nature requires hierarchy")
+2. Check dimensional independence: Does the constraint operate identically across actors, jurisdictions, time periods?
+3. Check beneficiary correlation: Do the constraint's effects systematically benefit specific actors in ways that track power position rather than physical position?
+4. If effects correlate with beneficiary structure rather than factorizing independently → **FNL detected**, Mountain claim falsified
+
+**Example:**
+- "Two-party dominance is mathematical inevitability" — claimed Mountain
+- Factorization test: Barriers to third parties (ballot access, debate thresholds, media attention) correlate with incumbent party advantage, not mathematical structure
+- FNL detected → reclassify as Snare or high-extraction Tangled Rope
+
+**Contrast with genuine Mountain:**
+- "Article V requires 3/4 of states to ratify amendment" — claimed Mountain
+- Factorization test: Mathematical barrier operates identically regardless of which party proposes, which policy is at stake, or who benefits
+- Factorization passes → Mountain classification confirmed
+
+**Epistemic value:** FNL converts the intuitive question "Is this *really* natural?" into a mechanical test: does it factorize? This doesn't eliminate judgment, but it provides a structural check that doesn't depend on the classifier's own position or motivated reasoning.
+
+**FCR (False CI_Rope) — Coordination Verification**
+
+**Purpose:** Test whether a claimed Rope actually provides structural coordination.
+
+**The test:** Genuine Ropes have healthy purity — the coordination function is structurally real, not a thin justification layer over extraction. If a claimed Rope shows low purity (coordination function hollowed, extraction dominant despite Rope rhetoric), the Rope claim is falsified.
+
+**Protocol:**
+1. Identify the claimed Rope ("This policy coordinates everyone's interests," "We're all in this together")
+2. Measure coordination function: Does removing the constraint create actual coordination problems? Or does removing it mainly reduce extraction?
+3. Measure purity: Is the coordination function structurally healthy, or is it a residual justification for an arrangement that primarily extracts?
+4. If coordination function is structurally hollow → **FCR detected**, Rope claim falsified, reclassify as Tangled Rope or Snare
+
+**Epistemic value:** FCR catches "coordination-washing" — the pattern where extraction is presented as mutual benefit. The Six-Test Battery's Test 2 (Coordination Function) already asks "Does this coordinate?" FCR adds structural depth: "Is the coordination *healthy*, or is it a nominal function masking extraction?"
+
+**Relationship to existing methodology:** FNL and FCR do not replace the Six-Test Battery. They supplement it with formal verification after initial classification. Think of the battery as diagnosis and these tests as confirmatory labs — the initial assessment identifies the likely type, and the formal tests confirm or falsify it mechanically.
+
+See logic_extensions.md §3 (FNL/FCR detection signatures), logic_thresholds.md (threshold values).
+
 ---
 
 ## V. The Unique Epistemological Move: Indexical Relativity
@@ -532,6 +590,8 @@ Classification requires specifying:
 4. **HOW MUCH** (Spatial Scope): Local, regional, national, continental, global, universal
 
 **Empirical finding:** These four indices are **sufficient** within tested corpus (0% collision rate when indices fully specified, 8.2% without power-scaling).
+
+**Corpus-wide finding:** Of 1,023 social constraints in the full corpus, only 212 (~21%) classify identically from every observer position. The remaining 811 (~79%) produce different types depending on where the observer stands. This confirms indexical specification is not an optional refinement — it is epistemically mandatory for four out of five constraint classifications. An unindexed classification (no WHO/WHEN/WHERE/HOW_MUCH specified) has roughly a 79% chance of being incomplete.
 
 ### C. Why This Is Not Relativism
 
@@ -558,6 +618,34 @@ Many apparent contradictions are indexical underspecification:
 These aren't four opinions about one underlying type. They're four **structurally different functional relationships** between the same constraint and four different agents.
 
 **Dissolution:** "Is it good?" is ambiguous. Specify index, then evaluate whether classification is accurate and whether "good" applies given values.
+
+### E. Classifications as Routing Decisions
+
+Indexical realism establishes that classifications are position-relative but objectively determinable. A further epistemological refinement: even a correct, position-specific classification is a **routing decision**, not a **truth claim**.
+
+**The distinction:**
+
+A **thermometer** measures an objective property. The reading is true or false — the temperature is 72°F or it isn't.
+
+A **thermostat** routes behavior. When temperature crosses a threshold, the system switches response modes — heating turns on, cooling turns off. The threshold isn't a truth about where "cold" objectively begins; it's a governance decision about when to change behavior.
+
+**Framework classifications are thermostats, not thermometers.**
+
+When the framework classifies a constraint as Tangled Rope with ε = 0.52, it is not claiming to have measured an objective property of reality with two-decimal precision. It is *routing behavioral response* — activating "reform" strategies rather than "accept" or "resist" strategies. The threshold between Rope and Tangled Rope (ε = 0.40) is not a claim about where coordination objectively becomes extraction. It's a governance decision about when the recommended response shifts from "maintain" to "reform."
+
+**Why this matters epistemologically:**
+
+1. **Prevents false precision:** "ε = 0.52" sounds like measurement. Understanding it as a routing signal prevents treating framework outputs as objective measurements of metaphysical properties.
+
+2. **Prevents weaponization:** "The framework says this is a Snare" sounds like authoritative truth. "The framework routes this toward resist/exit strategies given current evidence" sounds like what it is — a decision under uncertainty, revisable with new evidence.
+
+3. **Explains threshold fuzziness:** Section VI.E notes boundary cases remain ambiguous. The routing reframe explains why: thresholds are governance stands about when to change behavior, and reasonable people can disagree about where to set a thermostat without either being epistemically wrong.
+
+4. **Aligns with calibration ethic:** Ethics.md (Section IV.C) requires treating classifications as hypotheses. The routing reframe makes this concrete rather than abstract — you're setting a thermostat, not reading a thermometer.
+
+**What this does NOT mean:** Classifications are not arbitrary. The routing is based on structural evidence (enforcement patterns, beneficiary distribution, power-scaling effects). A classification can be *wrong* — the constraint may route toward "reform" when evidence actually supports "resist." But wrongness means the routing doesn't match structural reality, not that the routing fails to match some Platonic category boundary.
+
+See metrics_as_routing.md for the full thermostat/thermometer distinction.
 
 ---
 
@@ -586,12 +674,15 @@ These aren't four opinions about one underlying type. They're four **structurall
 
 ### C. Temporal Dynamics Underspecified
 
-**We observe degradation paths but lack predictive model:**
-- Rope â†’ Tangled Rope (extraction accumulates, but at what rate?)
-- Tangled Rope â†’ Piton (coordination value lost, but what triggers this?)
-- Scaffold â†’ Piton (sunset fails, but what causes calcification?)
+**We observe degradation paths and now have directional prediction, though timing remains uncertain:**
+- Rope → Tangled Rope (purity drift detects declining structural health before ε crosses threshold — direction predictable, rate varies)
+- Tangled Rope → Piton (coordination hollowing detectable through purity + theater ratio trends — direction predictable, trigger conditions partially mapped)
+- Scaffold → Piton (sunset compliance failure detectable through institutional inertia signals — direction predictable, timing uncertain)
+- Network contamination (neighboring constraint degradation lowers effective purity — cascade direction predictable, velocity uncertain)
 
-**Implication:** Framework provides snapshots, not videos. Lifecycle modeling remains TBD through sustained observation.
+**What's changed since v4.0:** Purity drift and network velocity provide directional prediction (which way a constraint is moving and what's contaminating it). This moves the framework from pure snapshot to snapshot-with-trajectory. What remains untested: timing accuracy (how long before predicted transitions materialize), intervention effects (does monitoring change the trajectory), and cascade dynamics at scale.
+
+**Implication:** Framework now provides snapshots with directional arrows, not just snapshots. Full lifecycle modeling (predicting *when* transitions occur with useful precision) remains TBD through sustained observation.
 
 ### D. Cross-Cultural Applicability Unknown
 
@@ -818,7 +909,7 @@ That's epistemology.
 
 ---
 
-**Deferential Realism: Epistemology v4.0**  
+**Deferential Realism: Epistemology v4.1**  
 **February 2026**  
 **Word count: ~8,500 words**
 

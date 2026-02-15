@@ -1,7 +1,7 @@
 # Deferential Realism: Sociology
 ## Indexical Relativity in Social Space
 
-**Version 4.0**  
+**Version 4.1**  
 **Date:** February 2026  
 **Companion to:** psychology.md (internal space), politics.md (institutional space), epistemology.md, ethics.md, logic.md, metaphysics.md, aesthetics.md
 
@@ -687,6 +687,37 @@ Power asymmetry addressed OR structure reformed:
 
 **Hard truth:** Index recognition alone doesn't change structure. If power asymmetry persists, A still experiences Rope, B still experiences Snare. Understanding is not liberation.
 
+### C. The Beneficiary Blind Spot (Institutional Dissenter Pattern in Relationships)
+
+Power-scaling explains *why* partners experience the same relationship differently. A corpus-wide empirical finding adds a *directional prediction*: in 44% of analyzed constraints where observer positions disagree, the structurally invested observer — the one who benefits from the current arrangement — is the **lone dissenter** classifying extraction as coordination.
+
+**In relationships, this is the "we're fine" / "we're not fine" pattern.**
+
+**The mechanism:** The partner who benefits from a relational arrangement has structural incentive to classify it as Rope (healthy coordination). They experience genuine benefit — their needs are met, the arrangement works for them, the coordination is real *from their position*. The partner experiencing extraction sees the same arrangement as Tangled Rope or Snare. The beneficiary's classification isn't dishonest — it's structurally motivated and systematically incomplete.
+
+**Example: Household labor**
+- Partner A (does 20% of domestic labor): "Our division works great. We're both contributing." (Rope)
+- Partner B (does 80% of domestic labor): "I'm drowning. This isn't fair." (Snare)
+- Partner A isn't lying — from their position, the arrangement genuinely coordinates household function. They experience mutual benefit because they receive the coordination without paying the extraction cost.
+- Pattern: Beneficiary is lone voice calling extraction coordination.
+
+**Example: Emotional labor**
+- Partner A (receives emotional management): "We have great communication." (Rope)
+- Partner B (provides all emotional management): "I'm exhausting myself managing both our emotions." (Tangled Rope → Snare)
+- Partner A experiences genuine coordination — their emotional needs are met, conflicts get resolved, the relationship feels smooth.
+- Pattern: Same — the person whose needs are met sees coordination; the person providing the unreciprocated labor sees extraction.
+
+**Example: Social scheduling**
+- Partner A (prefers the status quo): "Our social life is great — balanced and fun." (Rope)
+- Partner B (always accommodates A's preferences): "We only ever do what you want." (Snare)
+- Partner A isn't gaslighting — from their position, the social life genuinely coordinates their preferences. The extraction (B's preferences suppressed) is invisible because A doesn't experience its cost.
+
+**Diagnostic value:** When a relational dispute has the structure "I think we're fine" vs. "I'm suffering," check who benefits from the current arrangement. If the "we're fine" partner is also the structural beneficiary, the institutional dissenter pattern is likely active. This doesn't automatically make the beneficiary wrong — sometimes coordination is genuine and the other partner's distress has a different source. But it does mean the beneficiary's "we're fine" needs independent verification: can they articulate a coordination function that the non-beneficiary also recognizes?
+
+**The test (from the Relational Integrity Protocol):** Ask the partner claiming "we're fine" to describe specific ways the current arrangement *costs them*. If they can't identify any costs, they're likely the extraction beneficiary, and their Rope classification is incomplete.
+
+**Cross-references:** core_v4_1.md §VI (corpus findings on institutional dissenter), politics.md §V (same pattern in institutional space).
+
 ---
 
 ## V. Relational Integrity Protocol
@@ -865,6 +896,29 @@ Power asymmetry addressed OR structure reformed:
 - I will honor Scaffold sunsets
 - I will acknowledge when Rope â†’ Tangled Rope
 - I will exit Snares when able
+
+**Purity monitoring (pre-symptomatic relational decay):**
+
+The quarterly check-in above monitors for observable degradation — extraction accumulating, coordination declining, power shifting. But a relationship can show stable metrics (same frequency of contact, same shared activities, same reciprocity on paper) while its structural health is declining. This is purity drift applied to relationships.
+
+**The key diagnostic question:** *Is the driver of this relationship's routines still coordination, or has it shifted to obligation, anxiety, or guilt?*
+
+**Signal detection:**
+- Same weekly dinner, but now driven by guilt rather than genuine desire to connect → purity declining
+- Same reciprocal texting pattern, but now motivated by fear of abandonment rather than enthusiasm → purity declining
+- Same shared activities, but now performed out of obligation rather than mutual enjoyment → purity declining
+- Same relationship check-ins, but now ritualized rather than genuinely investigative → purity declining
+
+**In all four cases, the behavioral metrics are unchanged — an outside observer would see a stable relationship. But the internal driver has shifted from coordination (mutual benefit, genuine desire) to extraction (guilt, obligation, anxiety, fear). The form persists while the function hollows.**
+
+**Why this matters for Step 5:** If you wait for observable metric changes (contact frequency dropping, reciprocity breaking down, conflict increasing), you're intervening after the relationship has already significantly degraded. Purity monitoring — tracking motivation shifts rather than behavioral changes — gives you the early window where course correction is still relatively easy.
+
+**Add to quarterly check-in:**
+- 7. **Motivation check:** Am I maintaining this relationship because it genuinely serves both of us, or because I'm afraid of what happens if I stop? Is my partner? Has the driver shifted from desire to obligation?
+
+See logic_extensions.md §2 (purity scoring), constraint_lifecycles.md §III Type 10 (purity drift).
+
+---
 
 ### Case Study: Narcissistic Communication as Epistemic Attack
 
@@ -1389,6 +1443,57 @@ Power asymmetry addressed OR structure reformed:
 - **Redirect:** Freed capacity for living relationships
 - **Example:** Dead friendship maintained from guilt - end it, invest in living friendships
 
+### A.2 Network Contamination: Why Single-Relationship Intervention Sometimes Fails
+
+The energy allocation above treats each relationship independently. But relationships share a common resource pool — your finite energy, emotional capacity, attention, and time. When one relationship degrades, it drains the shared pool, contaminating neighboring relationships that haven't changed at all.
+
+**The mechanism (Network Drift, Type 11):** A toxic work environment (Snare) doesn't stay at work. It depletes your energy, shortens your fuse, reduces your emotional availability. Your partnership (Rope) experiences the fallout — not because the relationship degraded, but because the context it depends on degraded. Your partnership's *effective* purity drops through contamination, not intrinsic failure.
+
+**Example: Work Snare → Partnership Rope contamination**
+```
+Partnership (intrinsic quality: solid Rope)
+  Good communication, mutual support, shared activities
+  Intrinsic purity: stable
+
+Work environment degrades (Rope → Snare over 18 months)
+  Reasonable job → exploitative hours, toxic management
+  Work purity drops dramatically
+
+Network effect on partnership:
+  Same partner, same communication norms, same mutual care
+  But: depleted energy after work, shorter fuse, less patience
+  Evening conversations become terse, weekends spent recovering
+  Effective partnership purity: drops
+  
+Partner says: "What's wrong with us?"
+Correct answer: "Nothing is wrong with us. My job is poisoning everything."
+```
+
+**Example: Family Snare → Friendship Rope contamination**
+```
+Friendship (intrinsic quality: healthy Rope)
+  Reciprocal, enjoyable, low-maintenance
+
+Family obligation escalates (Tangled Rope → Snare)
+  Eldercare demands, guilt cycles, sibling conflict
+  
+Network effect on friendship:
+  Cancel plans because exhausted from family drama
+  Less emotional availability (family consumed the budget)
+  Friend experiences withdrawal, confusion
+  
+Friend says: "Did I do something wrong?"
+Correct answer: "No. My family situation is draining everything I have."
+```
+
+**Why "working on the relationship" sometimes fails:** If the contamination source is outside the relationship, no amount of couples therapy, date nights, or communication workshops will fix it. You're treating the symptom (partnership strain) while the cause (work Snare, family Snare, health crisis) continues flowing contamination into the shared resource pool.
+
+**Practical implication for energy allocation:** Before investing reform energy in a relationship that's degrading, map the network. Ask: *Has anything outside this relationship changed recently?* If a neighboring domain degraded, intervening there may be more effective than intervening in the relationship itself. Sometimes the most important relationship intervention is quitting the toxic job, setting a family boundary, or addressing the health issue — not "working on us."
+
+**The cascade risk:** Network contamination accelerates. Work Snare → partnership strain → reduced social support → increased vulnerability → work Snare feels worse → partnership strain worsens. The loop tightens unless the contamination source is identified and addressed. Effective relational navigation requires network diagnosis, not just dyadic analysis.
+
+**Cross-references:** logic_extensions.md §4.4 (network contamination), constraint_lifecycles.md §III Type 11 (network drift), psychology.md §V.D Type 11 (cross-domain contamination), ethics.md (network responsibility).
+
 ### B. The Four Boundary Types
 
 **1. Substrate Protection (Biological/Psychological Mountains)**
@@ -1595,6 +1700,7 @@ Power asymmetry addressed OR structure reformed:
 3. **False Mountain frequency** - Social structures often naturalized despite being constructed (detection tests work)
 4. **Power-scaling essential** - Without Ï€(P) modifiers: 12% collision rate. With Ï€(P): 0% collision rate
 5. **Index specification sufficient** - Full WHO/WHEN/WHERE/HOW_MUCH eliminates classification conflicts
+6. **Observer-dependence as default** - Of 1,023 social constraints in the full corpus, only 212 (~21%) classify identically from every observer position. The remaining 811 (~79%) produce different types depending on where the observer stands. This confirms the document's central thesis: indexical specification is not a refinement but a **baseline requirement** for social constraint classification. Without specifying WHO/WHEN/WHERE/HOW_MUCH, four out of five classifications are incomplete. The social domain — with its power asymmetries, exit option variation, and scope effects — likely shows observer-dependence at or above the corpus average.
 
 **Confidence levels:**
 - **HIGH:** Indexical relativity in social space (same structure â†’ different types based on position)
@@ -1667,7 +1773,7 @@ That's sociology.
 
 ---
 
-**Deferential Realism: Sociology v4.0**  
+**Deferential Realism: Sociology v4.1**  
 **February 2026**  
 **Word count: ~18,500 words**
 

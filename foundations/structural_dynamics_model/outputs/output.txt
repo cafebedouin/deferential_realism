@@ -1,0 +1,501 @@
+Initializing Validation Suite - Sun Feb 15 15:07:33 CST 2026
+------------------------------------------
+--- STARTING DYNAMIC VALIDATION ---
+
+[1] EXECUTING: testsets/26usc469_real_estate_exemption.pl
+
+[SCENARIO MANAGER] Clearing Knowledge Base...
+[OK] Knowledge Base is empty.
+[SCENARIO MANAGER] Loading: testsets/26usc469_real_estate_exemption.pl...
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:30:
+ERROR:    multifile/1: No permission to redefine imported_procedure `drl_core:base_extractiveness/2'
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:30:
+ERROR:    multifile/1: No permission to redefine imported_procedure `drl_core:suppression_score/2'
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:30:
+ERROR:    multifile/1: No permission to redefine imported_procedure `drl_core:requires_active_enforcement/1'
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:76:36: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:78:34: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:80:30: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:83:39: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:84:39: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:85:39: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:88:38: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:92:44: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:97:44: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:99:39: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:111:48: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:121:48: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:131:48: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:141:48: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:151:17: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:155:51: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:163:47: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:167:15: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:225:30: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:235:54: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:236:54: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:237:55: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:240:54: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:241:54: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:242:55: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/26usc469_real_estate_exemption.pl:250:39: Syntax error: Operator expected
+[SCENARIO MANAGER] Performing Global Repair...
+
+[REPAIR] Auditing vectors for: 26usc469_real_estate_exemption...
+  [BRIDGE] Derived metric extractiveness = 0.1 for 26usc469_real_estate_exemption from config default
+  [BRIDGE] Derived metric suppression_requirement = 0.1 for 26usc469_real_estate_exemption from config default
+  [BRIDGE] Derived metric theater_ratio = 0.0 for 26usc469_real_estate_exemption from config default
+  [BRIDGE] Derived constraint_claim(26usc469_real_estate_exemption, rope) from computed analytical classification
+  [FIXED] Imputed 0.5 for accessibility_collapse(organizational) at T=0
+  [FIXED] Imputed 0.5 for stakes_inflation(organizational) at T=0
+  [FIXED] Imputed 0.1 for suppression(organizational) at T=0
+  [FIXED] Imputed 0.5 for resistance(organizational) at T=0
+  [FIXED] Imputed 0.5 for accessibility_collapse(organizational) at T=10
+  [FIXED] Imputed 0.5 for stakes_inflation(organizational) at T=10
+  [FIXED] Imputed 0.1 for suppression(organizational) at T=10
+  [FIXED] Imputed 0.5 for resistance(organizational) at T=10
+  [FIXED] Imputed 0.5 for accessibility_collapse(class) at T=0
+  [FIXED] Imputed 0.5 for stakes_inflation(class) at T=0
+  [FIXED] Imputed 0.1 for suppression(class) at T=0
+  [FIXED] Imputed 0.5 for resistance(class) at T=0
+  [FIXED] Imputed 0.5 for accessibility_collapse(class) at T=10
+  [FIXED] Imputed 0.5 for stakes_inflation(class) at T=10
+  [FIXED] Imputed 0.1 for suppression(class) at T=10
+  [FIXED] Imputed 0.5 for resistance(class) at T=10
+  [FIXED] Imputed 0.5 for accessibility_collapse(individual) at T=0
+  [FIXED] Imputed 0.5 for stakes_inflation(individual) at T=0
+  [FIXED] Imputed 0.1 for suppression(individual) at T=0
+  [FIXED] Imputed 0.5 for resistance(individual) at T=0
+  [FIXED] Imputed 0.5 for accessibility_collapse(individual) at T=10
+  [FIXED] Imputed 0.5 for stakes_inflation(individual) at T=10
+  [FIXED] Imputed 0.1 for suppression(individual) at T=10
+  [FIXED] Imputed 0.5 for resistance(individual) at T=10
+
+>>> INITIATING DR-AUDIT SUITE: 26usc469_real_estate_exemption
+
+[REPAIR] Auditing vectors for: 26usc469_real_estate_exemption...
+
+--- [START] Data Verification ---
+[OK] Ontology Schema matches.
+Checking Interval: 26usc469_real_estate_exemption (0-10)
+--- [END] Data Verification Complete ---
+[OK] Verification passed.
+
+=== PERSPECTIVE COMPARISON ===
+Constraint: 26usc469_real_estate_exemption
+
+No classification from your perspective
+
+No analytical classification
+
+
+--- PER-INDEX VALIDATION ---
+  [INTENT] Result: stable (Confidence: high)
+
+=== DEFERENTIAL REALISM (DR) DIAGNOSTIC: 26usc469_real_estate_exemption ===
+
+[CONSTRAINT INVENTORY]
+  - 26usc469_real_estate_exemption: coordination_rope (Intensity: 1.00)
+
+[FEASIBILITY BRIDGE]
+====================================================
+
+--- LIFECYCLE DRIFT ANALYSIS ---
+
+================================================================
+  DRIFT EVENT REPORT
+================================================================
+
+  Constraints scanned: 1
+  Total drift events:  0
+  Critical: 0 | Warning: 0 | Watch: 0
+
+  No drift events detected.
+
+--- Transition Path Analysis ---
+
+--- Terminal State Predictions ---
+
+--- Network Drift Analysis ---
+  Network stability: stable
+
+================================================================
+
+--- SCOPE EFFECT ANALYSIS ---
+  Formula: χ = ε × f(d) × σ(S)
+  26usc469_real_estate_exemption (ε=0.10):
+    powerless@local: d=1.000 f(d)=1.42 χ = 0.10 × 1.42 × 0.80 = 0.114
+    moderate@national: d=0.646 f(d)=1.00 χ = 0.10 × 1.00 × 1.00 = 0.100
+    institutional@national: d=0.000 f(d)=-0.12 χ = 0.10 × -0.12 × 1.00 = -0.012
+    analytical@global: d=0.725 f(d)=1.15 χ = 0.10 × 1.15 × 1.20 = 0.138
+
+--- LOGICAL FINGERPRINT ---
+
+=== Logical Fingerprint: 26usc469_real_estate_exemption ===
+  Shift (computed via dr_type/3):
+    powerless=rope  moderate=rope  institutional=rope  analytical=rope
+
+--- SYSTEM INSIGHTS ---
+  Omegas Identified: 0
+
+
+====================================================
+   DEFERENTIAL REALISM (DR) EXECUTIVE SUMMARY      
+====================================================
+Timeline:       0 to 10
+Structural Pattern: stable
+Confidence:     high
+
+[CONSTRAINT INVENTORY: INDEXICAL AUDIT]
+
+
+Constraint: 26usc469_real_estate_exemption
+  Claimed Type: rope
+  Perspectives:
+
+[CROSS-DOMAIN ISOMORPHISM & RISK AUDIT: 26usc469_real_estate_exemption]
+  No high-risk isomorphisms detected for current constraints.
+
+[COMPREHENSIVE CROSS-DOMAIN STRUCTURAL TWINS]
+  No cross-domain isomorphisms detected.
+
+[META-LOGICAL AUDIT: ONTOLOGICAL FRAUD DETECTION]
+  No classification errors detected. System is Ontologically Coherent.
+
+[ONTOLOGICAL FORENSIC AUDIT: FALSE MOUNTAINS]
+  All mountains are structurally validated.
+
+[STRUCTURAL SIGNATURE ANALYSIS]
+  26usc469_real_estate_exemption: constructed_low_extraction (confidence: low)
+    → CONSTRUCTED LOW-EXTRACTION signature for 26usc469_real_estate_exemption: Enforcement present (suppression=0.10, resistance=0.50) but extraction is low (0.10). This is a rule-based coordination structure, not an extraction mechanism.
+
+[UKE_DR FEASIBILITY BRIDGE]
+  Recommendation | UKE Status
+  ----------------------------------------------------------------------
+
+Aggregate Magnitude (Kappa) at Tn: 0.43
+
+[PERSPECTIVAL GAP ANALYSIS]
+
+  Analysis for Constraint: 26usc469_real_estate_exemption
+    - Individual (Powerless): none [d=1.000 f(d)=1.42 χ=0.11]
+    - Institutional (Manager): none [d=0.000 f(d)=-0.12 χ=-0.01 → net benefit]
+
+[OMEGA GENERATION FROM PERSPECTIVAL GAPS: 26usc469_real_estate_exemption]
+  No perspectival gaps detected requiring Ω tracking.
+
+[OMEGA TRIAGE & PRIORITIZATION]
+
+  [moderate] 1 omega(s):
+    - omega_26usc469 (empirical)
+      Distinguishing legislative intent (coordination) from protectionist effect (extraction) in the 750-hour rule.
+
+[OMEGA RESOLUTION SCENARIO GENERATION]
+  Generated 1 resolution scenario(s):
+
+  ┌─ [omega_26usc469] EMPIRICAL DATA COLLECTION
+  │  Constraint: unknown
+  │  Gap: Distinguishing legislative intent (coordination) from protectionist effect (extraction) in the 750-hour rule.
+  │
+  │  RESOLUTION STRATEGY:
+  │  1. Design measurement protocol for unknown
+  │  2. Collect data from N=30+ real-world instances
+  │  3. Calculate empirical metrics:
+  │     - suppression_requirement (enforcement needed)
+  │     - resistance_to_change (pushback level)
+  │     - base_extractiveness (asymmetric benefit flow)
+  │  4. Update constraint_metric/3 declarations with data
+  │  5. Re-run classification to resolve perspectival gap
+  └─
+
+====================================================
+[PASS] testsets/26usc469_real_estate_exemption.pl
+
+### START LLM REFINEMENT MANIFEST: 26usc469_real_estate_exemption ###
+
+[PERSPECTIVAL_GAPS]
+
+[ONTOLOGICAL_MISMATCHES]
+  - None detected.
+
+[UNRESOLVED_OMEGAS]
+  - omega_26usc469 (empirical): Distinguishing legislative intent (coordination) from protectionist effect (extraction) in the 750-hour rule.
+
+### END REFINEMENT MANIFEST ###
+
+[2] EXECUTING: testsets/8k_tv_limit_2026.pl
+
+[SCENARIO MANAGER] Clearing Knowledge Base...
+[OK] Knowledge Base is empty.
+[SCENARIO MANAGER] Loading: testsets/8k_tv_limit_2026.pl...
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:16:
+ERROR:    multifile/1: No permission to redefine imported_procedure `drl_core:base_extractiveness/2'
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:16:
+ERROR:    multifile/1: No permission to redefine imported_procedure `drl_core:suppression_score/2'
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:16:
+ERROR:    multifile/1: No permission to redefine imported_procedure `drl_core:requires_active_enforcement/1'
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:62:35: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:66:33: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:70:29: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:73:38: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:74:38: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:75:38: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:79:37: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:82:43: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:83:38: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:94:47: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:105:47: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:117:47: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:127:16: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:131:50: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:139:50: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:143:38: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:148:14: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:201:29: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:208:42: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:209:42: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:210:43: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:214:42: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:215:42: Syntax error: Operator expected
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/8k_tv_limit_2026.pl:216:43: Syntax error: Operator expected
+[SCENARIO MANAGER] Performing Global Repair...
+
+[REPAIR] Auditing vectors for: 8k_tv_limit_2026...
+  [BRIDGE] Derived metric extractiveness = 0.1 for 8k_tv_limit_2026 from config default
+  [BRIDGE] Derived metric suppression_requirement = 0.1 for 8k_tv_limit_2026 from config default
+  [BRIDGE] Derived metric theater_ratio = 0.0 for 8k_tv_limit_2026 from config default
+  [BRIDGE] Derived constraint_claim(8k_tv_limit_2026, rope) from computed analytical classification
+  [FIXED] Imputed 0.5 for accessibility_collapse(organizational) at T=0
+  [FIXED] Imputed 0.5 for stakes_inflation(organizational) at T=0
+  [FIXED] Imputed 0.1 for suppression(organizational) at T=0
+  [FIXED] Imputed 0.5 for resistance(organizational) at T=0
+  [FIXED] Imputed 0.5 for accessibility_collapse(organizational) at T=10
+  [FIXED] Imputed 0.5 for stakes_inflation(organizational) at T=10
+  [FIXED] Imputed 0.1 for suppression(organizational) at T=10
+  [FIXED] Imputed 0.5 for resistance(organizational) at T=10
+  [FIXED] Imputed 0.5 for accessibility_collapse(class) at T=0
+  [FIXED] Imputed 0.5 for stakes_inflation(class) at T=0
+  [FIXED] Imputed 0.1 for suppression(class) at T=0
+  [FIXED] Imputed 0.5 for resistance(class) at T=0
+  [FIXED] Imputed 0.5 for accessibility_collapse(class) at T=10
+  [FIXED] Imputed 0.5 for stakes_inflation(class) at T=10
+  [FIXED] Imputed 0.1 for suppression(class) at T=10
+  [FIXED] Imputed 0.5 for resistance(class) at T=10
+  [FIXED] Imputed 0.5 for accessibility_collapse(individual) at T=0
+  [FIXED] Imputed 0.5 for stakes_inflation(individual) at T=0
+  [FIXED] Imputed 0.1 for suppression(individual) at T=0
+  [FIXED] Imputed 0.5 for resistance(individual) at T=0
+  [FIXED] Imputed 0.5 for accessibility_collapse(individual) at T=10
+  [FIXED] Imputed 0.5 for stakes_inflation(individual) at T=10
+  [FIXED] Imputed 0.1 for suppression(individual) at T=10
+  [FIXED] Imputed 0.5 for resistance(individual) at T=10
+
+>>> INITIATING DR-AUDIT SUITE: 8k_tv_limit_2026
+
+[REPAIR] Auditing vectors for: 8k_tv_limit_2026...
+
+--- [START] Data Verification ---
+[OK] Ontology Schema matches.
+Checking Interval: 8k_tv_limit_2026 (0-10)
+--- [END] Data Verification Complete ---
+[OK] Verification passed.
+
+=== PERSPECTIVE COMPARISON ===
+Constraint: 8k_tv_limit_2026
+
+No classification from your perspective
+
+No analytical classification
+
+
+--- PER-INDEX VALIDATION ---
+  [INTENT] Result: stable (Confidence: high)
+
+=== DEFERENTIAL REALISM (DR) DIAGNOSTIC: 8k_tv_limit_2026 ===
+
+[CONSTRAINT INVENTORY]
+  - 8k_tv_limit_2026: coordination_rope (Intensity: 1.00)
+
+[FEASIBILITY BRIDGE]
+====================================================
+
+--- LIFECYCLE DRIFT ANALYSIS ---
+
+================================================================
+  DRIFT EVENT REPORT
+================================================================
+
+  Constraints scanned: 1
+  Total drift events:  0
+  Critical: 0 | Warning: 0 | Watch: 0
+
+  No drift events detected.
+
+--- Transition Path Analysis ---
+
+--- Terminal State Predictions ---
+
+--- Network Drift Analysis ---
+  Network stability: stable
+
+================================================================
+
+--- SCOPE EFFECT ANALYSIS ---
+  Formula: χ = ε × f(d) × σ(S)
+  8k_tv_limit_2026 (ε=0.10):
+    powerless@local: d=1.000 f(d)=1.42 χ = 0.10 × 1.42 × 0.80 = 0.114
+    moderate@national: d=0.646 f(d)=1.00 χ = 0.10 × 1.00 × 1.00 = 0.100
+    institutional@national: d=0.000 f(d)=-0.12 χ = 0.10 × -0.12 × 1.00 = -0.012
+    analytical@global: d=0.725 f(d)=1.15 χ = 0.10 × 1.15 × 1.20 = 0.138
+
+--- LOGICAL FINGERPRINT ---
+
+=== Logical Fingerprint: 8k_tv_limit_2026 ===
+  Shift (computed via dr_type/3):
+    powerless=rope  moderate=rope  institutional=rope  analytical=rope
+
+--- SYSTEM INSIGHTS ---
+  Omegas Identified: 0
+
+
+====================================================
+   DEFERENTIAL REALISM (DR) EXECUTIVE SUMMARY      
+====================================================
+Timeline:       0 to 10
+Structural Pattern: stable
+Confidence:     high
+
+[CONSTRAINT INVENTORY: INDEXICAL AUDIT]
+
+
+Constraint: 8k_tv_limit_2026
+  Claimed Type: rope
+  Perspectives:
+
+[CROSS-DOMAIN ISOMORPHISM & RISK AUDIT: 8k_tv_limit_2026]
+  No high-risk isomorphisms detected for current constraints.
+
+[COMPREHENSIVE CROSS-DOMAIN STRUCTURAL TWINS]
+  No cross-domain isomorphisms detected.
+
+[META-LOGICAL AUDIT: ONTOLOGICAL FRAUD DETECTION]
+  No classification errors detected. System is Ontologically Coherent.
+
+[ONTOLOGICAL FORENSIC AUDIT: FALSE MOUNTAINS]
+  All mountains are structurally validated.
+
+[STRUCTURAL SIGNATURE ANALYSIS]
+  8k_tv_limit_2026: constructed_low_extraction (confidence: low)
+    → CONSTRUCTED LOW-EXTRACTION signature for 8k_tv_limit_2026: Enforcement present (suppression=0.10, resistance=0.50) but extraction is low (0.10). This is a rule-based coordination structure, not an extraction mechanism.
+
+[UKE_DR FEASIBILITY BRIDGE]
+  Recommendation | UKE Status
+  ----------------------------------------------------------------------
+
+Aggregate Magnitude (Kappa) at Tn: 0.43
+
+[PERSPECTIVAL GAP ANALYSIS]
+
+  Analysis for Constraint: 8k_tv_limit_2026
+    - Individual (Powerless): none [d=1.000 f(d)=1.42 χ=0.11]
+    - Institutional (Manager): none [d=0.000 f(d)=-0.12 χ=-0.01 → net benefit]
+
+[OMEGA GENERATION FROM PERSPECTIVAL GAPS: 8k_tv_limit_2026]
+  No perspectival gaps detected requiring Ω tracking.
+
+[OMEGA TRIAGE & PRIORITIZATION]
+  No omegas to triage.
+
+[OMEGA RESOLUTION SCENARIO GENERATION]
+  No unresolved Omegas. System is epistemically complete.
+====================================================
+[PASS] testsets/8k_tv_limit_2026.pl
+
+### START LLM REFINEMENT MANIFEST: 8k_tv_limit_2026 ###
+
+[PERSPECTIVAL_GAPS]
+
+[ONTOLOGICAL_MISMATCHES]
+  - None detected.
+
+[UNRESOLVED_OMEGAS]
+  - None detected.
+
+### END REFINEMENT MANIFEST ###
+
+[3] EXECUTING: testsets/CG_IsraelGaza_20231012.pl
+
+[SCENARIO MANAGER] Clearing Knowledge Base...
+[OK] Knowledge Base is empty.
+[SCENARIO MANAGER] Loading: testsets/CG_IsraelGaza_20231012.pl...
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/CG_IsraelGaza_20231012.pl:16:
+ERROR:    multifile/1: No permission to redefine imported_procedure `drl_core:base_extractiveness/2'
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/CG_IsraelGaza_20231012.pl:16:
+ERROR:    multifile/1: No permission to redefine imported_procedure `drl_core:suppression_score/2'
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/CG_IsraelGaza_20231012.pl:16:
+ERROR:    multifile/1: No permission to redefine imported_procedure `drl_core:requires_active_enforcement/1'
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/CG_IsraelGaza_20231012.pl:55:
+ERROR:    No permission to redefine imported_procedure `drl_core:base_extractiveness/2'
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/CG_IsraelGaza_20231012.pl:56:
+ERROR:    No permission to redefine imported_procedure `drl_core:suppression_score/2'
+ERROR: /home/scott/bin/structural_dynamics_model/prolog/testsets/CG_IsraelGaza_20231012.pl:71:
+ERROR:    No permission to redefine imported_procedure `drl_core:requires_active_enforcement/1'
+[SCENARIO MANAGER] Performing Global Repair...
+
+[REPAIR] Auditing vectors for: cg_israelgaza_20231012...
+  [FIXED] Imputed 0.5 for accessibility_collapse(organizational) at T=0
+  [FIXED] Imputed 0.5 for stakes_inflation(organizational) at T=0
+  [FIXED] Imputed 0.8 for suppression(organizational) at T=0
+  [FIXED] Imputed 0.5 for resistance(organizational) at T=0
+  [FIXED] Imputed 0.5 for accessibility_collapse(organizational) at T=10
+  [FIXED] Imputed 0.5 for stakes_inflation(organizational) at T=10
+  [FIXED] Imputed 0.8 for suppression(organizational) at T=10
+  [FIXED] Imputed 0.5 for resistance(organizational) at T=10
+  [FIXED] Imputed 0.5 for accessibility_collapse(class) at T=0
+  [FIXED] Imputed 0.5 for stakes_inflation(class) at T=0
+  [FIXED] Imputed 0.8 for suppression(class) at T=0
+  [FIXED] Imputed 0.5 for resistance(class) at T=0
+  [FIXED] Imputed 0.5 for accessibility_collapse(class) at T=10
+  [FIXED] Imputed 0.5 for stakes_inflation(class) at T=10
+  [FIXED] Imputed 0.8 for suppression(class) at T=10
+  [FIXED] Imputed 0.5 for resistance(class) at T=10
+  [FIXED] Imputed 0.5 for accessibility_collapse(individual) at T=0
+  [FIXED] Imputed 0.5 for stakes_inflation(individual) at T=0
+  [FIXED] Imputed 0.8 for suppression(individual) at T=0
+  [FIXED] Imputed 0.5 for resistance(individual) at T=0
+  [FIXED] Imputed 0.5 for accessibility_collapse(individual) at T=10
+  [FIXED] Imputed 0.5 for stakes_inflation(individual) at T=10
+  [FIXED] Imputed 0.8 for suppression(individual) at T=10
+  [FIXED] Imputed 0.5 for resistance(individual) at T=10
+
+[REPAIR] Auditing vectors for: cg_israelgaza_20231012...
+
+>>> INITIATING DR-AUDIT SUITE: cg_israelgaza_20231012
+
+[REPAIR] Auditing vectors for: cg_israelgaza_20231012...
+
+--- [START] Data Verification ---
+[OK] Ontology Schema matches.
+Checking Interval: cg_israelgaza_20231012 (0-10)
+Checking Interval: cg_israelgaza_20231012 (0-10)
+--- [END] Data Verification Complete ---
+[OK] Verification passed.
+
+=== PERSPECTIVE COMPARISON ===
+Constraint: cg_israelgaza_20231012
+
+From YOUR perspective (context(agent_power(analytical),time_horizon(civilizational),exit_options(analytical),spatial_scope(global))): tangled_rope
+
+From ANALYTICAL perspective: tangled_rope
+
+→ Perspectives AGREE
+
+--- PER-INDEX VALIDATION ---
+  [INDEX ERROR] cg_israelgaza_20231012: dr_type failed for context context(agent_power(powerless),time_horizon(biographical),exit_options(trapped),spatial_scope(local))
+  [INDEX ERROR] cg_israelgaza_20231012: dr_type failed for context context(agent_power(institutional),time_horizon(generational),exit_options(constrained),spatial_scope(national))
+  [INDEX ERROR] cg_israelgaza_20231012: dr_type failed for context context(agent_power(analytical),time_horizon(civilizational),exit_options(analytical),spatial_scope(global))
+  [INTENT] Result: stable (Confidence: high)
+[FAIL] Exception for testsets/CG_IsraelGaza_20231012.pl: error(resource_error(stack),stack_overflow{choicepoints:7456052,cycle:[frame(7456078,drl_core:requires_active_enforcement(cg_israelgaza_20231012),[]),frame(7456077,drl_core:requires_active_enforcement(cg_israelgaza_20231012),[])],depth:7456078,environments:7456067,globalused:13,localused:1048511,stack_limit:1048576,trailused:0})
+ERROR: -g [validation_suite], run_dynamic_suite, halt.: false
+------------------------------------------
+Test suite completed at: Sun Feb 15 15:07:50 CST 2026

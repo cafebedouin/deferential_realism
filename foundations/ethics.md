@@ -2,7 +2,7 @@
 
 **Living Consistently With What You Actually Believe About Constraints**
 
-**Version 4.0**  
+**Version 4.1**  
 **Date:** February 2026  
 **Companion to:** core.md, epistemology.md, logic.md, metaphysics.md
 
@@ -496,9 +496,23 @@ These are not universal moral duties. They are **practices that serve specific v
 - Maintenance â‰  defending extraction
 - Reform: Maintain standards, reduce gatekeeping costs
 
+**Purity monitoring as maintenance duty:** The drift events listed above (extraction accumulation, metric substitution, alternative suppression, benefit concentration) are all detectable through individual metric changes. But purity score — a composite measure of structural health — can detect degradation *before* any single metric crosses a threshold. A Rope with declining purity still shows low ε, still has voluntary compliance, still tolerates alternatives — but the internal balance between coordination and extraction is shifting.
+
+If you maintain a constraint (a norm, an institution, a coordination mechanism), monitoring its structural health is part of the maintenance obligation. Waiting for ε to cross 0.40 before intervening means you're intervening late — after the Rope has already become a Tangled Rope. Purity monitoring catches the pre-symptomatic phase: the structural equivalent of routine health screening rather than waiting for symptoms. Neglecting purity monitoring when the tools exist is a form of maintenance negligence — not because you caused the degradation, but because you could have detected it earlier and chose not to look.
+
+See logic_extensions.md §2 (purity scoring), constraint_lifecycles.md §III Type 10 (purity drift as pre-symptomatic decay).
+
+**Network responsibility — degradation doesn't stay local:** If a constraint you maintain degrades, the contamination doesn't stop at its boundary. Network drift (Type 11) means degrading constraints contaminate their neighbors — a Snare-ifying workplace doesn't just harm workers directly, it contaminates their family relationships, community participation, and psychological health by draining the shared resource pool. Contamination flows downward (Snare degrades Rope, never Rope upgrades Snare), and entropy increases.
+
+This creates a network responsibility that extends beyond the individual constraint. If you maintain an institution and allow it to degrade through negligence, you bear partial responsibility not only for the intrinsic harm but for the cascade effects on neighboring constraints in the network. An employer who allows workplace culture to become extractive bears responsibility not only for employee experience at work, but for the downstream contamination of employees' non-work constraint health — relationships strained by depletion, health degraded by stress, community participation reduced by exhaustion.
+
+This is not unlimited liability. The claim is narrower: **if you have maintenance responsibility for a constraint, and the tools exist to detect its degradation (purity monitoring, ε tracking), and you choose not to use them, then the cascade effects of degradation you could have prevented are part of your ethical account.** This is maintenance negligence extended to network effects — the structural ethics equivalent of an upstream polluter bearing responsibility for downstream contamination.
+
+See logic_extensions.md §4.4 (network contamination), constraint_lifecycles.md §III Type 11 (network drift).
+
 **Maintenance as transformation:**
 
-**Maintenance â‰  preservation:**
+**Maintenance as preservation:**
 - Maintenance can mean controlled degradation (graceful Scaffold sunset)
 - Maintenance can mean transformation (reform to better state)
 - Maintenance is NOT always "keep exactly as is"
@@ -735,6 +749,14 @@ These are not universal moral duties. They are **practices that serve specific v
 †' **Likely dishonest False Mountain claim**
 
 **Empirical confirmation (corpus audit, February 2026):** The False Mountain problem is not only an ethical failure by human agents — it is the primary failure mode of the framework's own implementation. LLM parsers classified 252 of 594 constraint stories as Mountains where perspectives disagree; 96 had base extractiveness > 0.15, directly violating the Mountain definition. The mechanism is not strategic dishonesty but parser naturalization: the generating LLM defaults to "natural law" when a constraint feels systemic, regardless of enforcement requirements or beneficiary structure. The self-referential case (an LLM classifying AI displacement of workers as "structural market law") demonstrates that the False Mountain problem operates at every level — from individual motivated reasoning to institutional ideology to the classification system itself. See `limitations.md` for full audit.
+
+**Formal detection signatures (v4.1):** The False Mountain problem and its cousin — claiming a Snare is a Rope (coordination-washing) — now have named formal tests:
+
+- **FNL (False Natural Law):** Physics-washing detection. A constraint claiming Mountain status must pass the Boltzmann compliance test — its effects must factorize across independent dimensions. If a claimed "natural law" shows dimension-coupling that correlates with beneficiary structure (e.g., an "inevitable market force" whose effects track political access rather than operating independently of it), factorization fails and the Mountain claim is formally falsified. FNL is the formal version of the cross-cultural invariance test this section already describes, but with a mechanical check: does the constraint behave like a natural law, or does it behave like a constructed system wearing natural-law rhetoric?
+
+- **FCR (False CI_Rope):** Coordination-washing detection. A constraint claiming Rope status must pass the purity test — its coordination function must be structurally sound, not a thin layer over extraction. If purity score is low (coordination function hollowed, extraction dominant), the Rope claim is formally falsified regardless of stated purpose. FCR catches the "we're all in this together" pattern (Section III.H, attack mode 2) mechanically rather than relying on rhetorical analysis alone.
+
+These are formalizations of ethical violations this document already describes, not new ethical principles. What's new is that they're now testable through structural signatures rather than requiring case-by-case judgment about rhetoric and intent. See logic_extensions.md §3 (FNL/FCR detection) and logic_thresholds.md (threshold values).
 
 ### C. The Snare Naturalization Defense
 
@@ -1134,6 +1156,12 @@ These principles prevent the virtues from calcifying into rigid dogma or enablin
 - Transition: Gradual shift from employment to self-employment
 - Removal: Once new income is stable, cut ties completely
 
+**The routing reframe (metrics-as-routing):** The calibration ethic gains additional force from a v4.1 insight: framework classifications are routing decisions, not truth pronouncements. When the framework classifies a constraint as Tangled Rope with ε = 0.52, it is not claiming to have measured an objective property of reality with two-decimal precision. It is setting a thermostat — routing behavior toward "reform" rather than "accept" or "resist." The number routes the response; it doesn't describe a metaphysical fact.
+
+This matters ethically because it prevents the framework from being weaponized as a truth-claim device. "The framework says your relationship is a Snare with ε = 0.68" sounds like objective measurement. "The framework routes this toward exit/resist strategies given current evidence" sounds like what it actually is — a decision under uncertainty, revisable with new evidence. The calibration ethic requires treating classifications as hypotheses. The routing reframe makes this concrete: thresholds are governance stands about when to change response behavior, not truth claims about where objective reality divides.
+
+See metrics_as_routing.md for the full thermostat/thermometer distinction and its epistemological implications.
+
 **Why this is ethical (conditionally):** IF you value not causing unnecessary harm during transitions, THEN building Scaffolds prevents collapse. But this is conditional on valuing harm-reduction over speed of change.
 
 ### B. The Ethic of Transparency (Modal Honesty)
@@ -1342,7 +1370,7 @@ Deferential Realist ethics is not a prescription for what to value. It's a metho
 
 ---
 
-**Deferential Realism: Ethics v4.0**  
+**Deferential Realism: Ethics v4.1**  
 **February 2026**  
 **Word count: ~15,000 words**
 

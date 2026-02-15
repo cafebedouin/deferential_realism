@@ -1,6 +1,6 @@
 # Deferential Realism: The Psychology of Internal Constraints
 
-**Version 4.0**
+**Version 4.1**
 
 ## I. The Fundamental Question
 
@@ -389,6 +389,9 @@ Example: "Must please parents" (childhood substrate) â†’ Independence (tran
 3. **Clarity fetishes are invisible from inside:** The demand for certainty feels like wisdom, not avoidance
 4. **Abandoned Camps persist as feeling:** Empty tombs still feel occupied
 5. **Hybrid Patterns appear monolithic:** Don't naturally separate into coordination vs. extraction
+6. **Internal institutional dissenter:** The part of you that *benefits* from a pattern is the part doing the classification. Perfectionism serves your achievement identity — so your achievement identity classifies perfectionism as Negotiable Pattern (helpful coordination). Meanwhile, your body (exhaustion), relationships (unavailability), and creative capacity (paralysis) experience it as Self-Extraction. This maps the empirical finding from the constraint corpus: in 44% of analyzed constraints, the institutional observer — the part with structural investment in the current arrangement — is the lone voice classifying extraction as coordination. Internally, the "institutional observer" is whichever identity-part benefits from the pattern's continuation. Its classification is sincere, structurally motivated, and systematically wrong about the whole picture.
+
+**Detection:** When self-classification feels obvious and undivided ("this pattern clearly helps me"), check which part of you is speaking. If the beneficiary part is doing the classifying, you're likely seeing the institutional dissenter effect — not accurate whole-self assessment.
 
 **Implication:** Self-knowledge requires experimental verification, not introspective depth.
 
@@ -425,6 +428,15 @@ The framework's own concern — calling something other than what it is — appl
    - Self-Extraction: Only extracts â†’ clear or exit
    - Developmental Support: Serves transitionally â†’ use then dismantle
    - Abandoned Camp: Only discomfort, once served but obsolete â†’ release
+
+5. **Monitor structural health within type**
+   - Even after correct classification, track purity over time
+   - A Negotiable Pattern correctly classified today may be drifting toward Hybrid
+   - Signal: Same behavior, shifting motivation (coordination → extraction)
+   - Signal: Increasing rigidity about once-flexible patterns
+   - Signal: Growing resentment toward valued routines
+   - Classification answers *what type*. Purity monitoring answers *how healthy within type*.
+   - See Section V.D (Internal Drift Types) for detection and response
 
 **Epistemic commitment:** You don't know the constraint type until you've tested it. Felt certainty is not evidence.
 
@@ -619,6 +631,150 @@ Choose: Autonomy priority this week (solo project), connection next (quality tim
 Hold: Neither is "winning" - both get partial satisfaction across time
 ```
 
+### D. Internal Drift Types: How Patterns Degrade
+
+Classification tells you what a constraint *is now*. Drift detection tells you *where it's heading*. Internal constraints degrade through the same drift mechanisms as external ones — but the symptoms are psychological rather than institutional.
+
+**Internal Type 8: Coupling Drift — Identity Entanglement**
+
+Independent domains of self-experience gradually become entangled, creating extraction surfaces that didn't exist when they were separate.
+
+**Mechanism:** Your satisfaction in one life domain starts depending on a structurally unrelated domain. Career and romantic identity couple — a bad week at work makes you feel unlovable, a relationship fight makes you feel professionally incompetent. The domains were independent (career competence doesn't causally determine relationship worth), but they've become psychologically coupled.
+
+**Example:**
+```
+Year 1: Career satisfaction and relationship satisfaction independent
+  Career setback → frustration at work (contained)
+  Relationship difficulty → sadness in relationship (contained)
+  Coupling score: low
+
+Year 3: Domains entangled
+  Career setback → "I'm failing at everything" → relationship withdrawal
+  Relationship difficulty → "I can't get anything right" → work paralysis
+  Coupling score: high
+  Neither domain changed — the coupling did
+```
+
+**Detection:** When a setback in domain A produces emotional consequences in structurally unrelated domain B, check for coupling drift. The question isn't "am I stressed?" but "are domains that should be independent now entangled?"
+
+**Response:** Decouple. Practice domain-specific attribution: "This is a work problem. My relationship is a separate system." The coupling serves extraction (generalized inadequacy), not coordination.
+
+---
+
+**Internal Type 9: Boltzmann Floor Drift — Legitimate Complexity Increase**
+
+**THIS IS THE BENIGN INTERNAL DRIFT. Do not pathologize it.**
+
+Minimum maintenance cost of your coordination patterns rises because life genuinely became more complex — not because patterns degraded.
+
+**Mechanism:** You have kids, aging parents, career advancement, health changes. The Negotiable Patterns that coordinated your life at 25 (exercise routine, meal prep, social scheduling) now cost more energy to maintain — not because they're worse patterns, but because there's more to coordinate. The Boltzmann floor rose.
+
+**Example:**
+```
+Age 25: Exercise 4x/week
+  Energy cost: moderate (floor low, few competing demands)
+  Excess extraction: minimal
+  Classification: Negotiable Pattern (Rope)
+
+Age 40: Exercise 4x/week
+  Energy cost: high (floor rose — kids, career, eldercare)
+  Excess extraction: still minimal (pattern itself unchanged)
+  Classification: Still Negotiable Pattern — just more expensive
+
+WRONG diagnosis: "My exercise routine has become a Hybrid Pattern"
+RIGHT diagnosis: "My life's coordination floor rose. Same good pattern, higher baseline cost."
+```
+
+**Why this matters:** Misclassifying floor drift as pattern degradation leads to dismantling functional coordination ("I need to let go of exercise") when the correct response is adjusting expectations about baseline energy cost ("exercise costs more now, and that's structural, not pathological"). The pattern didn't get worse. Life got more complex.
+
+**Detection:** If a pattern still serves its coordination function with the same excess extraction, but feels harder — check whether your overall coordination load increased. If yes, it's floor drift. Adjust scale, don't abandon pattern.
+
+---
+
+**Internal Type 10: Purity Drift — Pre-Symptomatic Burnout**
+
+**THE MOST CLINICALLY IMPORTANT DRIFT TYPE**
+
+Structural health of an internal pattern declines while surface metrics appear unchanged. This is burnout before it looks like burnout.
+
+**Mechanism:** You're still exercising 4x/week, still hitting work targets, still showing up for relationships. The *metrics* are stable. But the internal experience has shifted: exercise is now driven by shame rather than health. Work output is maintained through anxiety rather than engagement. Relationship presence is performed rather than felt. The purity of each pattern — the ratio of coordination function to extraction pressure — is declining while the external form holds.
+
+**Example:**
+```
+Month 1: Morning routine
+  Behavior: Wake 6am, exercise, journal, work by 8
+  Driver: Genuine coordination (energy, clarity, structure)
+  Purity: high
+  Metrics: all green
+
+Month 8: Same morning routine
+  Behavior: Wake 6am, exercise, journal, work by 8
+  Driver: Anxiety about falling apart if routine breaks
+  Purity: declining (same form, extraction replacing coordination)
+  Metrics: still all green
+  
+Month 14: Burnout
+  Metrics finally collapse
+  Purity drift predicted this 6 months ago
+```
+
+**Detection signals:**
+- Same behavior, different motivation (health → shame, engagement → anxiety, presence → performance)
+- Increasing rigidity about patterns that were once flexible ("I *must* exercise or everything falls apart")
+- Growing resentment toward patterns you once valued
+- Hollow feeling during previously meaningful activities
+
+**Why this is pre-symptomatic:** Purity drift is detectable *before* metric collapse. If you wait for the morning routine to actually break down, you're intervening late. The shift from coordination-driven to extraction-driven is the early warning.
+
+**Response:** Don't change the behavior — change the driver. Ask: "Am I doing this because it serves me, or because I'm afraid of what happens if I stop?" If the answer shifted, the purity is drifting. Reform the motivation, not the routine.
+
+---
+
+**Internal Type 11: Network Drift — Cross-Domain Contamination**
+
+A pattern in one life domain degrades not because of anything wrong with it, but because a neighboring domain is degrading. Contamination from toxic contexts lowers effective health of otherwise sound patterns.
+
+**Mechanism:** Your relationship Rope is healthy — good communication, reciprocal support, genuine coordination. But your work environment is a Snare — exploitative hours, toxic management, extraction masquerading as "commitment." The work Snare doesn't stay at work. It drains the energy and emotional resources needed for relational maintenance. Your relationship's *effective* purity drops — not because the relationship degraded, but because its operational context did.
+
+**Example:**
+```
+Relationship (intrinsic purity: 0.65 — solid Rope):
+  Good communication, mutual support, low extraction
+
+Work environment degrades (purity: 0.70 → 0.25 over 2 years):
+  Reasonable job → exploitative Snare
+  
+Network effect on relationship:
+  Same partner, same communication patterns, same mutual care
+  But: depleted energy, shorter fuse, less emotional availability
+  Effective relationship purity: 0.65 - 0.20 (contamination) = 0.45
+  Relationship starts *feeling* like Tangled Rope
+  
+WRONG diagnosis: "My relationship is becoming extractive"
+RIGHT diagnosis: "My work Snare is contaminating my relationship Rope"
+```
+
+**Critical rule:** Contamination flows downward. A toxic work Snare degrades a healthy relationship Rope. A healthy relationship Rope does not spontaneously heal a toxic work Snare. This is why "focusing on the relationship" fails when the contamination source is work — you're treating the symptom while the cause continues flowing.
+
+**Detection:** When a previously healthy pattern starts feeling extractive and nothing about the pattern itself changed — map the network. Which neighboring domain degraded? Is the felt decline intrinsic or contaminated?
+
+**Response:** Address the contamination source, not the contaminated target. Reforming the relationship (target) when work (source) is the problem wastes energy and creates false attribution. Sometimes the most important relationship intervention is a career change.
+
+---
+
+**Internal Drift Summary:**
+
+| Type | Internal Name | Psychological Marker | Common Misdiagnosis |
+|------|--------------|---------------------|---------------------|
+| 8 | Identity Entanglement | Setback in A → collapse in B | "Generalized anxiety" |
+| 9 | Legitimate Complexity | Same pattern, higher cost | "Pattern degradation" |
+| 10 | Pre-Symptomatic Burnout | Same behavior, shifted driver | "Everything's fine" |
+| 11 | Cross-Domain Contamination | Sound pattern feels extractive | "Relationship/pattern problem" |
+
+**Key insight:** Types 8, 10, and 11 are invisible to surface-level observation. You need structural analysis — not just behavioral monitoring — to detect them. Type 9 is the one you should *not* pathologize. The most common clinical error is treating Type 9 (legitimate complexity increase) as Type 10 (purity drift) or treating Type 11 (contamination) as intrinsic pattern failure.
+
+**Cross-references:** logic.md §III (drift types 8-11 formal definitions), constraint_lifecycles.md §III (full drift taxonomy with examples).
+
 ---
 
 ## VI. Ethics: Integrity Without Self-Deception
@@ -717,6 +873,16 @@ Hold: Neither is "winning" - both get partial satisfaction across time
 **The key insight:** Same classification logic works internally and externally. Same reform challenges (Hybrid Patterns), same clearing practice (Abandoned Camps), same containment needs (structural paradoxes).
 
 **Internalized external constraints:** External Snares can become internal Substrate or Abandoned Camps through internalization. Oppression absorbed becomes self-policing. Liberation requires both external resistance AND internal clearing.
+
+**Network contamination across domains:** The internal/external isomorphism extends to network dynamics. Internal constraints and external constraints don't degrade in isolation — they contaminate each other through shared resource pools.
+
+**External → Internal contamination:** A toxic workplace (external Snare) drains emotional resources, causing internal Negotiable Patterns (exercise, journaling, relational presence) to degrade — not because the patterns are flawed, but because the context they operate in is poisoned. The patterns' effective purity drops through network drift (Type 11), not intrinsic failure. Correct diagnosis: the work Snare is contaminating internal Ropes. Wrong diagnosis: "I'm failing at self-care."
+
+**Internal → External contamination:** An internal Hybrid Pattern (perfectionism) contaminates external Ropes (collaborative work relationships). The collaboration itself is healthy, but perfectionism demands control, creating extraction pressure that the external relationship didn't generate. Correct diagnosis: internal Hybrid Pattern is contaminating external Rope. Wrong diagnosis: "This collaboration is too restrictive."
+
+**Cross-contamination dynamics:** Internal and external domains share the same resource pool (energy, attention, emotional capacity). When one domain degrades, it draws more from the shared pool, reducing what's available for other domains. This creates cascade risk: external Snare → internal depletion → internal pattern degradation → further external relationship strain → further depletion. The cascade accelerates unless the contamination source is identified and addressed.
+
+**Implication for intervention:** When multiple domains are degrading simultaneously, don't treat each independently. Map the network. Find the contamination source. Intervene there first. The most effective internal intervention is sometimes an external one (leave the toxic job), and the most effective external intervention is sometimes an internal one (reform the perfectionism contaminating your collaborations).
 
 ---
 
@@ -885,7 +1051,7 @@ Hold: Neither is "winning" - both get partial satisfaction across time
 
 ---
 
-**Deferential Realism: Psychology v4.0**  
+**Deferential Realism: Psychology v4.1**  
 **February 2026**  
 **Word count: ~9,000 words**
 

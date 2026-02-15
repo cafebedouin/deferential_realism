@@ -4,9 +4,10 @@
 
 ## Start Here
 
-**[core.md](core.md)** (~3,000 words) - Compressed introduction to the framework
-- Four constraint categories (Mountain, Rope, Snare, Scaffold)
+**[core_v4_1.md](core_v4_1.md)** (~5,000 words) - Current compressed introduction to the framework
+- Six constraint categories (Mountain, Rope, Tangled Rope, Snare, Scaffold, Piton)
 - Four indexical parameters (WHO, WHEN, WHERE, HOW_MUCH)
+- Power-scaling mechanism
 - One worked example (carbon credits from multiple perspectives)
 - Strategic response patterns
 - Navigation to full suite
@@ -21,7 +22,7 @@ The origin of the ideas in this directory can be found in **`debugging_philosoph
 
 This approach categorizes philosophical errors in a way analogous to debugging software:
 
-1.  **Compile-Time Errors (Axiomatic Inconsistencies):** These are fundamental fractures in the axioms of a system, similar to a program that cannot compile because its basic rules are contradictory. The documents on **`metaphysics.md`**, **`logic.md`**, and **`epistemology.md`** address this layer, establishing the fundamental "axioms" of reality, the formal operators for reasoning about it, and the "type-checking" rules for classifying constraints correctly.
+1.  **Compile-Time Errors (Axiomatic Inconsistencies):** These are fundamental fractures in the axioms of a system, similar to a program that cannot compile because its basic rules are contradictory. The documents on **`metaphysics.md`**, **`logic.md`**, **`logic_extensions.md`**, and **`epistemology.md`** address this layer, establishing the fundamental "axioms" of reality, the formal operators for reasoning about it, and the "type-checking" rules for classifying constraints correctly.
 
 2.  **Type Errors (Ambiguity and Indexical Failures):** These errors arise from asking ambiguous questions that fail to specify the necessary context or parameters, much like calling a function with the wrong type of argument. The core epistemological framework focuses on resolving these errors through rigorous indexical specification.
 
@@ -49,14 +50,16 @@ In essence, the Litany is the user-facing application that runs on the "operatin
 
 Located in [`./`](./)
 
-### **[epistemology.md](epistemology.md)** (~7,000 words)
+### **[epistemology.md](epistemology.md)** (~9,000 words)
 The complete epistemological foundation:
-- Intellectual lineage (Stoicism → Existentialism → Pragmatism → Systems Theory)
+- Intellectual lineage (Stoicism → Existentialism → Pragmatism → Critical Theory → Debugging Philosophy)
 - Six-Test Battery methodology
-- Hybrid Decomposition Protocol
-- Language vs. Function Audit
-- Honest limitations and epistemic positioning
-- What makes this framework distinctive
+- Hybrid Decomposition Protocol (with purity assessment)
+- FNL/FCR formal verification tests
+- Classifications as routing decisions (thermostat, not thermometer)
+- Power-scaling mechanism
+- Constraint illusions (substrate limits, coordination failures, legacy conceptual debt, epistemic attacks)
+- Honest limitations, parser vulnerability findings, and epistemic positioning
 
 ### **[logic.md](logic.md)** (~4,000 words)
 Formal operators for indexed constraint reasoning:
@@ -65,28 +68,101 @@ Formal operators for indexed constraint reasoning:
 - Contradiction resolution through indexing
 - Executable specification in Prolog
 
-### **[metaphysics.md](metaphysics.md)** (~5,600 words)
+### **[logic_extensions.md](logic_extensions.md)** (v4.1 structural physics)
+Extensions to the formal logic introducing structural analysis:
+- Boltzmann compliance (natural law factorization test)
+- Purity scoring (structural health within type)
+- FNL/FCR detection signatures (physics-washing and coordination-washing)
+- Network contamination (neighbor effects on constraint health)
+- Drift types 8–11 (coupling, Boltzmann floor, purity, network)
+
+### **[logic_thresholds.md](logic_thresholds.md)** (v4.1 governance parameters)
+Threshold values and decision boundaries:
+- Extraction thresholds by type
+- Purity scoring boundaries
+- Boltzmann compliance cutoffs
+- Parameters as governance stands, not truth claims
+
+### **[logic_index.md](logic_index.md)**
+Navigation index for the logic layer:
+- Maps concepts to their locations across logic.md, logic_extensions.md, and logic_thresholds.md
+
+### **[metrics_as_routing.md](metrics_as_routing.md)**
+Epistemological clarification of framework metrics:
+- Thermostat vs. thermometer distinction
+- Classifications route behavior, not pronounce truth
+- Prevents framework weaponization as certainty device
+
+### **[metaphysics.md](metaphysics.md)** (~6,500 words)
 Constraint-space ontology:
 - Core claim: constraints constitute entities, not vice versa
-- Structural realism
-- What exists and how constraints define identity
-- Alternative ontologies and why DR chooses this one
+- Structural realism and Boltzmann compliance as Mountain test
+- Purity as structural health (entities degrade before type classification changes)
+- Network porosity of entity boundaries
+- 1,023-constraint corpus grounding
 
-### **[ethics.md](ethics.md)** (~3,700 words)
-Four cardinal virtues of constraint-alignment:
-- **Acceptance** - Mapping Mountains accurately
-- **Resistance** - Cutting Snares strategically
-- **Creation** - Building functional Ropes
-- **Conservation** - Preserving finite energy
-- Reality-alignment as honesty-in-practice
+### **[ethics.md](ethics.md)** (~16,000 words)
+Six conditional virtues of constraint-alignment:
+- **Acceptance** — Navigating genuine Mountains
+- **Resistance** — Cutting Snares strategically
+- **Reform** — Surgical Tangled Rope intervention (preserve coordination, excise extraction)
+- **Construction** — Building functional Ropes
+- **Maintenance** — Resource stewardship, purity monitoring, network responsibility
+- **Containment** — Holding structural paradoxes without forced resolution
+- Ethics of classification accuracy (False Mountains, Snare naturalization, epistemic warfare)
+- FNL/FCR as formal violation detection
+- Network contamination ethics (cascade responsibility)
+- Relational honesty protocols
 
 ### **[aesthetics.md](aesthetics.md)** (~7,200 words)
 A field manual for creativity as the strategic engagement with constraint-structures:
-- **Creative Limits** – Categorizes constraints to reduce extraction
-- **Aesthetic Strategies** – Discusses creative choices
-- **Institutional Navigation** – Provides techniques for art market reform and resistance
-- **Historical Analysis** – Maps art movements as specific philosophies of constraint-relationship.
-- **Paradox Containment** – Offers practical methods for navigating unresolvable creative tensions.
+- **Creative Limits** — Categorizes constraints to reduce extraction
+- **Aesthetic Strategies** — Discusses creative choices
+- **Institutional Navigation** — Provides techniques for art market reform and resistance
+- **Historical Analysis** — Maps art movements as specific philosophies of constraint-relationship
+- **Paradox Containment** — Offers practical methods for navigating unresolvable creative tensions
+
+### **[constraint_lifecycles.md](constraint_lifecycles.md)** (~12,000 words)
+Temporal dynamics of constraints across all domains:
+- Genesis patterns (how constraints emerge)
+- Maturation and stabilization
+- Degradation paths (Rope → Tangled Rope → Snare → Piton)
+- Drift event taxonomy (Types 1–11, including coupling, Boltzmann floor, purity, and network drift)
+- Purity as early warning for pre-symptomatic decay
+- Network-aware intervention strategies
+- Terminal states and graceful dissolution
+
+---
+
+## Applied Domains
+
+### **[psychology.md](psychology.md)** (~15,000 words)
+Internal constraint navigation:
+- Substrate (hardware limits), Hybrid Patterns, Abandoned Camps, Clarity Fetishes
+- Internal isomorphism (same six types operating psychologically)
+- Drift types 8–11 as internal degradation (identity entanglement, legitimate complexity, pre-symptomatic burnout, cross-domain contamination)
+- Depth Inquiry protocol with purity monitoring
+- Containment Protocol for structural paradoxes
+
+### **[sociology.md](sociology.md)** (~19,000 words)
+Social constraint dynamics:
+- Indexical relativity in social space (same norm = Rope for one, Snare for another)
+- Tangled Rope prevalence in complex relationships (36%)
+- Beneficiary blind spot (institutional dissenter pattern in relationships)
+- Relational Integrity Protocol (five-step honest navigation)
+- Purity monitoring as relational early warning
+- Network contamination between relational domains
+- Containment paradoxes, boundary types, scaling effects
+
+### **[politics.md](politics.md)** (~9,500 words)
+Institutional constraint navigation:
+- Indexical relativity in institutional space
+- Seven validated electoral topologies (Bipolar Snare, Deadlock Labyrinth, Perpetual Coalition Labyrinth, Judicial Gatekeeping Snare, Incumbent Tangled Rope, Fragmentation Marsh, Capacity Paradox)
+- Institutional dissenter pattern (44% finding applied to political debates)
+- FNL as formal Mountain verification for political claims
+- Purity as institutional early warning
+- Network contamination between democratic institutions
+- Containment of structural democratic paradoxes
 
 ---
 
@@ -201,18 +277,19 @@ swipl -g "[validation_suite]"
 Located in [`validation/`](validation/)
 
 ### **[validation_report.md](validation/validation_report.md)**
-Complete empirical analysis of 467 constraint scenarios:
+Complete empirical analysis of 1,023 constraint scenarios:
 - **0% collision rate** - Index sufficiency confirmed
-- **99.1% high variance** - Indexical relativity validated
+- **79% observer-dependent** - Only 21% classify identically across all positions
 - **36% Tangled Rope prevalence** - Hybrid category necessary
+- **44% institutional dissenter** - Beneficiary is lone voice classifying extraction as coordination
 - Domain patterns (social/economic vs. technical/biological)
 - Power modifier calibration
+- Parser vulnerability findings (Mountain naturalization, WHO assignment, cultural narrative embedding)
 - Confidence levels and limitations
-- Methodological transparency
 
 ### **[data/](validation/data/)**
 Raw validation corpus:
-- `corpus_data.json` - 467 classified constraints
+- `corpus_data.json` - 1,023 classified constraints
 - `structured_analysis.json` - Processed analysis
 - `output.txt` - Full classification outputs
 - `gap_report.json` - Coverage gaps and missing domains
@@ -220,7 +297,7 @@ Raw validation corpus:
 ### **[analysis/](validation/analysis/)**
 Supporting validation analysis:
 - `index_sufficiency.md` - 0% collision rate across 35 domains
-- `variance_analysis.md` - 99.1% high variance distribution
+- `variance_analysis.md` - Observer-dependence distribution
 - `pattern_mining.md` - Tangled Rope discovery and prevalence
 - `corpus_analysis.txt` - Domain-level statistics
 - `meta_report.txt` - Meta-analysis of framework performance
@@ -272,28 +349,46 @@ Predecessor framework for identifying reasoning error types:
 
 ### Decision Tree
 ```
-1. Does this require active enforcement?
-   NO → Mountain (accept, navigate)
-   YES → Constructed (continue to 2)
+1. Does violation produce system collapse from REALITY (not punishment)?
+   YES → Mountain (accept, navigate)
+   NO → Constructed (continue to 2)
 
-2. Who benefits from this persisting?
-   Nearly everyone → Rope (maintain, reform if needed)
-   Specific few at expense of many → Snare (expose, resist)
-   No one (everyone complains) → Piton (reform administratively)
+2. Does this solve a genuine coordination problem with reciprocal benefit?
+   YES → Continue to 3
+   NO → Continue to 4
+
+3. Does it ALSO extract asymmetrically?
+   NO → Rope (maintain, refine)
+   YES → Tangled Rope (reform: preserve coordination, excise extraction)
+
+4. Is it power-maintained with alternatives suppressed?
+   YES → Snare (resist, exit, expose)
+   NO → Continue to 5
+
+5. Is it time-limited with explicit sunset?
+   YES → Scaffold (use temporarily, dismantle when done)
+   NO → Continue to 6
+
+6. Has it lost function? Maintenance cost > benefit?
+   YES → Piton (eliminate ruthlessly)
+   NO → UNCLASSIFIED (gather more information)
 ```
 
 ### Strategic Responses
 - **Mountain:** Accept immediately, conserve energy, navigate creatively
-- **Rope:** Maintain, improve efficiency, replace if better alternative exists
-- **Snare:** Expose beneficiaries, resist strategically, dismantle where possible
+- **Rope:** Maintain, improve efficiency, monitor for degradation
+- **Tangled Rope:** Reform surgically — preserve coordination, excise extraction
+- **Snare:** Expose beneficiaries, resist strategically, exit when possible
 - **Scaffold:** Use temporarily, dismantle when purpose served, watch for permanence drift
-- **Tangled Rope:** Reform to preserve coordination while removing extraction
+- **Piton:** Eliminate ruthlessly, redirect freed energy to living constraints
 
 ### Common Errors
 - **False fatalism:** Calling Snares "Mountains" (unwarranted surrender)
 - **Dangerous hubris:** Calling Mountains "Ropes" (catastrophic failure)
-- **Over-diagnosis:** Treating all inefficiency as malicious extraction
-- **Energy waste:** Fighting unchangeable reality or ignoring changeable injustice
+- **Coordination-washing:** Calling Snares "Ropes" (hiding extraction behind coordination rhetoric)
+- **Physics-washing:** Calling Snares "Mountains" (hiding extraction behind natural-law rhetoric)
+- **Hybrid mishandling:** Treating Tangled Ropes as pure types (either defend extraction or destroy coordination)
+- **Energy waste:** Fighting unchangeable reality or maintaining obsolete Pitons
 
 ---
 
@@ -305,27 +400,29 @@ Predecessor framework for identifying reasoning error types:
 
 2. **Energy conservation** - Finite resources demand strategic allocation. Don't waste energy fighting gravity. Don't surrender to changeable injustice.
 
-3. **Indexical relativity** - Truth is relative to position but objective within index. Same constraint can be Mountain from one index, Snare from another—both are true.
+3. **Indexical relativity** - Truth is relative to position but objective within index. Same constraint can be Mountain from one index, Snare from another—both are true. 79% of constraints classify differently by position.
 
 4. **Reality-alignment** - Deference to what actually constrains. Honesty-in-practice about power, extraction, coordination, and natural limits.
+
+5. **Classifications as routing** - Framework outputs are routing decisions (thermostats), not truth claims (thermometers). Thresholds are governance stands about when to change response behavior, not ontological boundaries.
 
 ---
 
 ## How to Engage
 
 ### If the framework makes sense:
-1. Start with [`core.md`](core.md) for compression
+1. Start with [`core_v4_1.md`](core_v4_1.md) for compression
 2. Read [`epistemology.md`](epistemology.md) for depth
 3. Apply [`application/applied_guide.md`](application/applied_guide.md) to your domain
 4. Check [`validation/validation_report.md`](validation/validation_report.md) for empirical grounding
-5. Explore domain-specific foundations ([logic](logic.md), [metaphysics](metaphysics.md), [ethics](ethics.md), [aesthetics](aesthetics.md))
+5. Explore domain-specific foundations ([logic](logic.md), [logic_extensions](logic_extensions.md), [metaphysics](metaphysics.md), [ethics](ethics.md), [aesthetics](aesthetics.md))
 
 ### If you have critiques:
 1. Test framework against specific constraint you care about
 2. Distinguish "I disagree with classification" from "classification method is flawed"
 3. Note whether objection applies to epistemology or to other domains
 4. Check if critique assumes universality claims the framework doesn't make
-5. See [`epistemology.md`](epistemology.md) Section VII (Known Limitations) and Section IX (Epistemic Position)
+5. See [`epistemology.md`](epistemology.md) Section VI (Known Limitations) and Section VIII (Epistemic Position)
 
 ### If you want to apply it:
 1. Use [`application/applied_guide.md`](application/applied_guide.md) decision trees
@@ -339,20 +436,31 @@ Predecessor framework for identifying reasoning error types:
 
 ## Status
 
-**Framework development:** January 2026
+**Framework version:** 4.1 (February 2026)
 
 **Corpus validation:**
-- 467 constraints analyzed across 35+ domains
+- 1,023 constraints analyzed across 35+ domains
 - 0% collision rate within formal system
-- 99.1% high variance distribution
+- 79% observer-dependent (indexical specification mandatory)
 - 36% Tangled Rope prevalence
+- 44% institutional dissenter pattern
 - Domain patterns confirmed (social vs. technical extraction rates)
 
-**Framework stability:** Core structure (4 categories + 4 indices) is internally coherent and empirically grounded within the analyzed corpus.
+**v4.0 → v4.1 additions:**
+- Structural physics layer (Boltzmann compliance, purity scoring, network contamination)
+- Drift types 8–11 (coupling, Boltzmann floor, purity, network)
+- FNL/FCR formal detection signatures
+- Metrics-as-routing epistemological reframe
+- 1,023-constraint corpus (expanded from 467)
+- Institutional dissenter finding (44%)
+- Observer-dependence finding (79%)
+- All domain files updated with structural physics integration
+
+**Framework stability:** Core structure (6 categories + 4 indices + power-scaling) is internally coherent and empirically grounded within the analyzed corpus.
 
 **External validation:** Peer review and independent replication ongoing.
 
-**Known limitations:** Corpus is exploratory (not statistically representative), classification assumes accurate information access, power modifiers may need contextual adjustment, framework provides disambiguation (not normative guidance).
+**Known limitations:** Corpus is exploratory (not statistically representative), classification assumes accurate information access, power modifiers may need contextual adjustment, timing predictions untested, framework provides disambiguation (not normative guidance).
 
 See [`validation/validation_report.md`](validation/validation_report.md) for complete methodology, findings, and confidence levels.
 
@@ -361,7 +469,7 @@ See [`validation/validation_report.md`](validation/validation_report.md) for com
 ## Installation
 
 ### For Reading/Study
-No installation required. Start with [`core.md`](core.md).
+No installation required. Start with [`core_v4_1.md`](core_v4_1.md).
 
 ### For Running the Validation Suite
 ```bash
@@ -400,7 +508,7 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines on:
 See [`CITATION.md`](CITATION.md) for BibTeX and text citation formats.
 
 Quick citation:
-> cafebedouin. (2026). *Deferential Realism: An Indexed Epistemology for Constraint Classification* (Version 3.2). https://github.com/cafebedouin/deferential_realism
+> cafebedouin. (2026). *Deferential Realism: An Indexed Epistemology for Constraint Classification* (Version 4.1). https://github.com/cafebedouin/deferential_realism
 
 ---
 
@@ -412,6 +520,6 @@ Quick citation:
 
 ---
 
-**Deferential Realism v3.2**  
+**Deferential Realism v4.1**  
 **Empirically Grounded**  
-**January 2026**
+**February 2026**

@@ -2,7 +2,7 @@
 
 **What Constraints Are and How They Differ Structurally**
 
-**Version 4.0**
+**Version 4.1**
 
 ---
 
@@ -110,7 +110,7 @@ This document DOES explain:
 - Why these structural differences matter for classification and response
 - How constraint-patterns constitute entities (persons, institutions, systems)
 
-**The modest claim:** These categories work for classifying 467 constraints (0% collision rate with four-index specification). Whether they correspond to metaphysical fundamentals or are just useful pragmatic divisions remains open.
+**The modest claim:** These categories work for classifying 1,023 constraints (0% collision rate with four-index specification). Whether they correspond to metaphysical fundamentals or are just useful pragmatic divisions remains open.
 
 **Metaphysical compatibility:** The framework should work whether you accept substance ontology (Aristotle), process ontology (Whitehead), materialist ontology (Marx), idealist ontology (Hegel), or remain agnostic about ultimate metaphysics.
 
@@ -157,6 +157,8 @@ These categories distinguish constraint-types by **measurable structural propert
 - Counterfactual stability (would be the same if history replayed)
 - Direct causal efficacy (produce effects whether acknowledged or not)
 - Second-order effects (rain shadows, cascade patterns, avalanche risks)
+
+**Formal structural test (Boltzmann compliance):** A constraint claiming Mountain status must factorize across independent dimensions — its effects on one dimension should be statistically independent of its effects on another, absent genuine causal coupling. Gravity affects mass identically regardless of color, location, or political arrangement. If a claimed "natural law" shows dimension-coupling that serves identifiable beneficiaries (e.g., a "natural" economic law whose effects correlate with political access), factorization fails and the constraint is likely a Snare claiming Mountain status. This is the formal version of the cross-cultural invariance test: genuine Mountains don't need power structures to maintain dimension-coupling. See logic_extensions.md §1 (Boltzmann compliance) for the full independence test.
 
 **Examples:**
 - Thermodynamic limits (energy cannot be created from nothing)
@@ -227,7 +229,7 @@ The structural properties (zero decay, universal scope, no enforcement, natural 
 - **Moderate extraction:** 0.40 â‰¤ Îµ(C) â‰¤ 0.90, asymmetric distribution
 - **Coordination core:** Genuine coordination problem solved
 - **Extraction layer:** Power-maintained rent-seeking grafted onto coordination
-- **High prevalence:** 36% of analyzed constraints (168/467)
+- **High prevalence:** ~28% of analyzed constraints (291/1022)
 
 **Measurable features:**
 - Beneficiaries split: Many gain from coordination, few gain disproportionately from extraction
@@ -482,6 +484,22 @@ This explains why same constraint genuinely IS Mountain/Tangled Rope/Rope/Snare 
 
 **Prevents circularity:** We don't define power by extraction experience; we observe power structurally and use it to predict extraction experience.
 
+### C. Structural Health (Purity Score)
+
+**Beyond type classification:** The measurement methods above determine *what type* a constraint is. Purity score measures *how healthy* a constraint is within its type — structural integrity independent of classification.
+
+**What purity captures:** The balance between coordination function and extraction pressure within a constraint's current structure, measured as a composite of Boltzmann compliance, coupling score, theater ratio, and excess extraction above structural minimum.
+
+**Observable indicators (no formal computation required):**
+- Is coordination function operating cleanly, or increasingly through coercion?
+- Are independent dimensions staying independent, or coupling in ways that serve extraction?
+- Is the form-to-function ratio stable, or is form increasingly hollow?
+- Is extraction at structural minimum (Boltzmann floor), or growing above it?
+
+**Why this matters metaphysically:** A Rope with declining purity is still a Rope — but it's a structurally weakening one. The constitution thesis says entities ARE constraint-patterns. If a constraint's structural integrity is declining while its type classification is unchanged, the entity it constitutes is degrading in ways that type analysis alone cannot detect. Purity makes structural health visible before type transition occurs.
+
+**See:** logic_extensions.md §2 (purity scoring), constraint_lifecycles.md §III Type 10 (purity drift as pre-symptomatic decay).
+
 ---
 
 ## VI. Structural Relations Between Types
@@ -630,6 +648,18 @@ Scaffold â†’ Tangled Rope (extraction added to temporary support)
 
 **Social systems:** Markets, democracies, languagesâ€”all constraint-patterns. Change the rules and you have different systems, not same system under different constraints.
 
+### D. Network Porosity: Entities Are Not Self-Contained
+
+The constitution thesis — entities ARE constraint-patterns — has a consequence that becomes visible through network analysis: entities are not metaphysically self-contained.
+
+**The mechanism:** Each constraint constituting an entity exists in a network with neighboring constraints. If a neighbor degrades, contamination flows into the target constraint (network drift, logic_extensions.md §4.4). This means an entity's structural health depends not only on its own constraints but on the health of its constraint neighborhood.
+
+**For persons:** Your employment contract (Rope) is part of what constitutes your economic identity. But its effective structural health depends on the housing market, healthcare system, and labor law environment — neighboring constraints you don't control. If the housing market degrades into a Snare, your employment Rope's effective purity drops even though nothing about the contract changed. *You* are partially constituted by constraints outside your boundary.
+
+**For institutions:** A democratic legislature (Tangled Rope) is constituted by electoral rules, norms, and procedures. But its effective health depends on neighboring constraints: media ecosystem, campaign finance structures, judicial independence. Institutional degradation is rarely self-contained — it cascades through the constraint network.
+
+**Metaphysical implication:** Entity boundaries are porous, not sealed. The constitution thesis doesn't produce isolated, self-sufficient entities — it produces network-embedded entities whose structural integrity is partially determined by their constraint neighborhood. This is not a defect of the framework; it reflects observable reality. Persons and institutions *are* network-embedded. Pretending otherwise is treating constitutive constraint-patterns as if they were self-contained substances — exactly the error the framework is designed to avoid.
+
 ---
 
 ## IX. What This Metaphysics Does NOT Claim
@@ -655,7 +685,7 @@ Scaffold â†’ Tangled Rope (extraction added to temporary support)
 
 **Measurement access:** Power limits what we can know about beneficiaries, enforcement, alternatives (especially for Snares).
 
-**Temporal dynamics:** We observe degradation but lack predictive model for lifecycle transitions.
+**Temporal dynamics:** Purity drift detection (logic_extensions.md §4.3) and network drift velocity (logic_extensions.md §4.4) provide early warning and limited prediction of lifecycle transitions, but predictive accuracy remains untested against out-of-sample data. The model predicts *direction* of degradation before metric-level symptoms appear; it does not yet predict *timing* with calibrated confidence.
 
 **Boundary cases:** Classification sometimes ambiguous (Rope vs. Tangled Rope thresholds fuzzy).
 
@@ -715,7 +745,7 @@ That's all metaphysics needs to do.
 
 ---
 
-**Deferential Realism: Metaphysics v4.0**  
+**Deferential Realism: Metaphysics v4.1**  
 **February 2026**  
 **Word count: ~6,200 words**
 

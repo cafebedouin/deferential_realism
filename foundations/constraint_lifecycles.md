@@ -1,6 +1,6 @@
 # Constraint Lifecycles: Temporal Dynamics and Degradation Paths
 
-**Version 4.0**  
+**Version 4.1**  
 **Date:** February 2026  
 **Companion to:** core.md, logic.md, metaphysics.md, epistemology.md
 
@@ -366,6 +366,9 @@ More common: Rope starts clean, extraction added over time.
 - Enforcement increasing (less voluntary compliance)
 - Alternatives being suppressed (defensive behavior)
 - Benefit concentration (asymmetry developing)
+
+**Structural health signal (purity score):**
+The pre-degradation signals above are all observable in individual metrics. But purity score — a composite measure of structural integrity from the logic extensions (see logic_extensions.md §2) — can detect degradation *before* any single metric crosses a threshold. A Rope with declining purity may still show ε < 0.20 and high voluntary compliance, but the internal balance between coordination function and extraction pressure is shifting. Purity drift (Drift Type 10) is the pre-symptomatic version of the signals listed above — the structural equivalent of declining organ function before symptoms appear. If you can measure purity, you can intervene earlier than any single-metric monitor allows.
 
 **Example: Academic peer review maturation**
 
@@ -974,6 +977,234 @@ internalized_piton(C, t_drift) :-
 
 ---
 
+**Type 8: Coupling Drift** (Any Type → degraded variant)
+
+**Mechanism:** Independent dimensions of a constraint gradually become entangled, creating extraction opportunities that didn't exist when dimensions were separate.
+
+**Process:**
+1. Constraint operates across independent dimensions (e.g., communication, location, contacts)
+2. Dimensions initially factorize cleanly (your messaging choice doesn't depend on your location)
+3. **Drift trigger:** Platform or institution couples dimensions for monitoring/extraction
+4. Coupling serves extraction, not coordination
+5. Constraint's classification shifts (Rope → Tangled Rope, or Tangled Rope → Snare)
+
+**Example: Messaging App Feature Creep**
+
+**Genesis (Rope):**
+- t₀ ≈ 2010 (launch as messaging tool)
+- Function: Text coordination
+- Dimensions independent: messaging only
+- ε(t₀) ≈ 0.10 (low extraction)
+- Coupling score ≈ 0.05 (clean factorization)
+
+**Coupling drift:**
+- t_drift ≈ 2014-2018 (permissions expand)
+- **Drift event:** Messaging coupled with location + contacts + camera + microphone + payment
+- Each coupling adds extraction surface (data harvesting, behavioral prediction)
+- No single coupling triggers alarm — accumulation does
+- ε(t_drift) ≈ 0.45 (Tangled Rope territory)
+- Coupling score ≈ 0.32 (dimensions deeply entangled)
+
+**Current:**
+- User's messaging, location, social graph, financial behavior all linked
+- Coordination function (messaging) still works — but extraction requires the coupling
+- Uncoupling would mean losing convenience (which is the coordination argument for bundling)
+
+**Formal detection:**
+```
+coupling_drift(C, t_drift) :-
+    coupling_score(C, t_pre) =< 0.10,
+    coupling_score(C, t_drift) >= 0.20,
+    extraction_increase(C, t_pre, t_drift),
+    dimensions_independent(C, t_pre),
+    dimensions_coupled(C, t_drift).
+```
+
+**Distinguishing feature:** Unlike extraction accumulation (Type 2), coupling drift doesn't just add rent — it structurally entangles dimensions that should be independent. The Boltzmann test (logic_extensions.md §1) detects this: natural laws factorize across independent dimensions, so increasing coupling is the signature of constructed extraction.
+
+**Other examples:**
+- Employer-provided health insurance coupling employment with healthcare access
+- University bundling education with credentialing with research with housing with athletics
+- Government ID coupling identity verification with surveillance with service access
+- Social media coupling social connection with content consumption with advertising exposure
+
+---
+
+**Type 9: Boltzmann Floor Drift** (Rope/Tangled Rope → same type, shifted baseline)
+
+**Mechanism:** Minimum necessary extraction rises due to genuine complexity increase, not extractive capture. The constraint gets costlier to maintain, but the *excess* extraction above the structural minimum stays constant.
+
+**Process:**
+1. Constraint operates at baseline extraction (ε near Boltzmann floor)
+2. **Drift trigger:** Scope increase, complexity growth, or environmental change
+3. Boltzmann floor rises (more extraction structurally necessary)
+4. Total ε rises, tracking new floor
+5. Excess extraction (ε - floor) remains constant
+
+**THIS IS THE BENIGN DRIFT TYPE.** Floor drift is not degradation — it's legitimate cost increase. The danger is misclassifying floor drift as extraction accumulation (Type 2), which would trigger reform when what's needed is acceptance.
+
+**Example: Local Power Grid → Regional Grid**
+
+**Genesis (Rope):**
+- t₀ ≈ 1920s (local municipal power)
+- Coordination: Electricity distribution
+- ε(t₀) ≈ 0.08 (minimal extraction — local cooperative)
+- Boltzmann floor ≈ 0.05 (structural minimum for grid operation)
+- Excess: 0.03
+
+**Floor drift:**
+- t_drift ≈ 1960s-2000s (regional interconnection, deregulation)
+- **Drift event:** Grid complexity increases (interstate transmission, market mechanisms, regulatory layers)
+- Floor rises: 0.05 → 0.12 (more infrastructure, coordination, administration genuinely needed)
+- ε rises: 0.08 → 0.15 (tracks new floor)
+- Excess: still 0.03 (no additional extraction)
+
+**Diagnostic test:** If someone claims a constraint is becoming more extractive, check whether the Boltzmann floor also rose. If ε - floor is constant, the increased cost is structural, not predatory. If ε - floor is growing, that's Type 2 (extraction accumulation), not Type 9.
+
+**Formal detection:**
+```
+boltzmann_floor_drift(C, t_drift) :-
+    boltzmann_floor(C, t_drift) > boltzmann_floor(C, t_pre),
+    epsilon(C, t_drift) > epsilon(C, t_pre),
+    excess(C, t_drift) =< excess(C, t_pre) + tolerance.
+```
+
+**Why this matters for lifecycle analysis:** Floor drift explains why some constraints *look* like they're degrading but aren't. Healthcare costs rising because medicine became more complex (floor drift) is structurally different from healthcare costs rising because insurers capture more profit (extraction accumulation). Both show rising ε. Only excess-above-floor distinguishes them.
+
+**Other examples:**
+- Internet governance scaling from academic network to global infrastructure (floor rises)
+- Democratic institutions adding complexity as population grows (floor rises)
+- Supply chains lengthening globally (more coordination structurally needed)
+
+---
+
+**Type 10: Purity Drift** (Any Type → pre-symptomatic degradation)
+
+**THE MOST IMPORTANT V4.0 ADDITION FOR LIFECYCLE ANALYSIS**
+
+**Mechanism:** Structural health (purity score) declines even while standard metrics (ε, χ) appear stable. This is pre-symptomatic decay — the constraint is getting sicker before it shows symptoms.
+
+**Process:**
+1. Constraint operating normally (ε stable, χ stable, classification unchanged)
+2. **Hidden drift:** Purity score declining
+3. Four possible signals (any one sufficient):
+   - Factorization declining (coupling score rising)
+   - Nonsensical coupling detected (dimensions that shouldn't relate start correlating)
+   - Theater ratio increasing (form maintained, function hollowing)
+   - Excess extraction above Boltzmann floor growing
+4. Standard metrics haven't moved — classification still looks correct
+5. **Prediction:** Type transition coming. Current classification will fail within measurable horizon.
+
+**Example: Carbon Credit Markets**
+
+**Year 1 (stable):**
+- ε = 0.55 (Tangled Rope, national scope)
+- χ = 0.60 (moderate power position)
+- Purity = 0.72 (structurally sound)
+- Coupling score = 0.12 (clean factorization)
+- **Diagnosis:** Tangled Rope, monitor and reform
+
+**Year 5 (purity drifting):**
+- ε = 0.55 (unchanged!)
+- χ = 0.60 (unchanged!)
+- Purity = 0.42 (contaminated — crossed from "sound" to "concerning")
+- Coupling score = 0.28 (nonsensical coupling emerging — credit prices tracking political cycles, not emissions)
+- **Diagnosis:** Still classifies as Tangled Rope by metrics, but purity drift predicts type transition toward Snare
+
+**Year 8 (predicted):**
+- ε crosses 0.66 (Snare threshold)
+- Metrics-based classification catches up to what purity predicted 3 years earlier
+
+**Why this is critical for lifecycle navigation:** Every other drift type is detectable through observable metric changes. Purity drift is detectable *before* those changes. It's the structural equivalent of catching cancer in a screening before symptoms appear. If you wait for ε to cross thresholds, you're intervening late. Purity gives you the early window.
+
+**Formal detection:**
+```
+purity_drift(C, t) :-
+    purity_score(C, t) < purity_score(C, t_prev),
+    \+(epsilon(C, t) > epsilon(C, t_prev) + 0.05),
+    \+(chi(C, t) > chi(C, t_prev) + 0.05).
+```
+
+**Lifecycle implication:** The maturation phase needs purity monitoring, not just ε monitoring. A Rope with declining purity is approaching degradation even if ε hasn't moved. This extends the "pre-degradation signals" list in Section II.B with a composite structural measure.
+
+**Other examples:**
+- Democracy with stable election results but declining institutional trust (purity dropping, metrics unchanged)
+- Friendship with same frequency of contact but declining reciprocity quality (looks fine on surface)
+- Professional norm still followed but increasingly through coercion rather than voluntary compliance
+- Open-source project with same commit rate but declining contributor diversity
+
+---
+
+**Type 11: Network Drift** (Any Type → contaminated variant)
+
+**Mechanism:** A constraint degrades not because of anything wrong with it intrinsically, but because a neighboring constraint in its network is degrading. Contamination from neighbors lowers effective structural health.
+
+**Process:**
+1. Constraint C operating normally (intrinsic purity stable)
+2. Neighboring constraint A degrades (A's purity drops)
+3. **Contamination event:** A's degradation spills into C's operational context
+4. C's *effective* purity declines (even though intrinsic purity unchanged)
+5. C's classification may shift (Rope → Tangled Rope) due to environmental contamination
+
+**Critical rule:** Contamination flows **downward only** (Snare degrades Rope, never Rope upgrades Snare). Entropy increases. This is why a single degrading constraint in a network can cascade, but a single healthy constraint cannot spontaneously heal its neighbors.
+
+**Example: Housing Market Contaminating Employment**
+
+**Constraint B (employment contract):**
+- Intrinsic purity = 0.65 (decent Rope — fair terms, mutual benefit)
+- Effective purity = 0.65 (no contamination)
+- Classification: Rope
+
+**Constraint A (housing market) degrades:**
+- Housing purity drops 0.70 → 0.25 over 10 years (becomes Snare — predatory pricing, speculation)
+
+**Network contamination:**
+- Housing costs force workers to accept worse employment terms (can't risk job loss when rent is 60% of income)
+- Employment contract hasn't changed — same terms, same ε
+- But *effective* purity drops: 0.65 - 0.20 (contamination pressure) = 0.45
+- Workers experience the "same" contract differently because the housing network makes exit impossible
+- Employment contract crosses from Rope into Tangled Rope territory — not because it degraded, but because its context did
+
+**Formal detection:**
+```
+network_drift(C, t) :-
+    intrinsic_purity(C, t, P_intrinsic),
+    effective_purity(C, t, P_effective),
+    P_effective < P_intrinsic - 0.10,
+    neighbor(C, A),
+    purity_declining(A, t).
+```
+
+**Lifecycle implication:** Constraint lifecycles are not independent. A constraint's degradation trajectory depends on its network neighbors. This means:
+- Intervention on one constraint may fail if its network is contaminated (you reform the employment contract but housing market still traps workers)
+- Successful intervention sometimes requires addressing the *neighbor*, not the target constraint
+- Cascade prediction becomes possible: if A is degrading at known velocity, you can estimate when B will cross purity thresholds
+
+**Cascade dynamics (Stage 9):** Network drift velocity allows prediction. If housing market purity is dropping at 0.08/year, and employment contract has 0.20 of purity buffer above its threshold, you have approximately 2.5 years before employment classification shifts — even if employment itself doesn't change at all.
+
+**Other examples:**
+- Toxic workplace contaminating home relationships (work Snare degrades relationship Rope through stress, depletion, schedule encroachment)
+- Deregulated financial sector contaminating pension system (financial Snare degrades retirement Rope)
+- Social media degradation contaminating journalism (platform Snare degrades news coordination Rope through engagement pressure)
+- Authoritarian neighbor contaminating democratic norms (geopolitical Snare degrades domestic Rope through norm diffusion)
+
+---
+
+**Structural Physics Drift Summary:**
+
+| Type | Name | Mechanism | Key Signal | Benign? |
+|------|------|-----------|------------|---------|
+| 8 | Coupling Drift | Dimensions entangle | Coupling score rising | No |
+| 9 | Boltzmann Floor Drift | Legitimate complexity increase | Floor rises, excess constant | **Yes** |
+| 10 | Purity Drift | Pre-symptomatic decay | Purity declining, metrics stable | No |
+| 11 | Network Drift | Neighbor contagion | Effective purity < intrinsic | No |
+
+**Key distinction from Types 1-7:** Types 1-7 are detectable through standard metric changes (ε rising, coordination failing, sunset ignored). Types 8-11 require the structural physics layer (Boltzmann compliance, purity scoring, network analysis) from logic_extensions.md Stages 7-9. Without that layer, these drift types are invisible until they produce metric-level symptoms — by which time intervention is harder.
+
+**Cross-references:** logic.md §III (drift type formal definitions), logic_extensions.md §4 (drift types 8-11 full specification), logic_thresholds.md (canonical parameter values for all detection thresholds).
+
+---
+
 ### Conceptual Lifecycles: Legacy Terms as Lifecycle Objects
 
 Concepts themselves undergo lifecycle dynamics. A term adequate for one era can degrade across centuries as the contexts it coordinates outgrow its definitional scope. When this happens, the concept becomes an I-Piton masquerading as a Mountain — an obsolete framework internalized so deeply that its contingency is invisible.
@@ -1497,6 +1728,8 @@ Terminal (Pending):
 - Preserve community control (prevent metric substitution)
 - Maintain reciprocity (contributor â†’ beneficiary balance)
 
+**Network-aware maintenance:** Intervention on an isolated constraint may fail if its network is contaminated. Before maintaining or reforming a constraint, check its neighbors' structural health. If a degrading neighbor is contaminating the target constraint (Network Drift, Type 11), intervening on the target alone is treating symptoms — the contamination will flow back. Effective maintenance sometimes requires addressing the neighbor first, or simultaneously. Example: Reforming employment contracts while the housing market remains predatory may produce no felt improvement for workers, because the housing Snare contaminates the employment Rope regardless of contract terms. Network-aware intervention asks: *Where is the contamination coming from, and what's the minimum network repair that makes target intervention stick?*
+
 ---
 
 ### Reform Intervention (Early Degradation)
@@ -1674,6 +1907,6 @@ Terminal (Pending):
 
 ---
 
-**Constraint Lifecycles v4.0**  
+**Constraint Lifecycles v4.1**  
 **February 2026**  
-**Word count: ~12,000 words**
+**Word count: ~14,500 words**
