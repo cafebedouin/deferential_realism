@@ -1,26 +1,51 @@
 % ============================================================================
-% CONSTRAINT STORY: education_unbundling_implementation
+% CONSTRAINT STORY: educational_unbundling_implementation
 % ============================================================================
-% Generated: 2026-01-19
-% Model: Gemini 2.0 Flash
-% Source: Implementation Roadmap / Internal Logic Synthesis
+% Version: 1.0 (Deferential Realism Core + Directionality + Boltzmann + Network)
+% Logic: 6.0 (Indexed Tuple P,T,E,S + Sigmoid f(d) + Coupling + Purity + Network)
+% Generated: 2026-02-26
+% Status: [ACTIVE]
 % ============================================================================
 
-:- module(education_unbundling_implementation, []).
+:- module(constraint_educational_unbundling_implementation, []).
 
 :- use_module(constraint_indexing).
 :- use_module(domain_priors).
 :- use_module(narrative_ontology).
 
+% --- Constraint Identity Rule (DP-001: ε-Invariance) ---
+% Each constraint story must have a single, stable base extractiveness (ε).
+% If changing the observable used to evaluate this constraint would change ε,
+% you are looking at two distinct constraints. Write separate .pl files for
+% each, link them with affects_constraint/2, and document the relationship
+% in both files' narrative context sections.
+%
+% The context tuple is CLOSED at arity 4: (P, T, E, S).
+% Do not add measurement_basis, beneficiary/victim, or any other arguments.
+% Linter Rule 23 enforces context/4.
+%
+% See: epsilon_invariance_principle.md
+
 % --- Namespace Hooks (Required for loading) ---
-:- multifile 
+:- multifile
     domain_priors:base_extractiveness/2,
     domain_priors:suppression_score/2,
+    domain_priors:theater_ratio/2,
     domain_priors:requires_active_enforcement/1,
+    narrative_ontology:has_sunset_clause/1,
+    narrative_ontology:interval/3,
+    narrative_ontology:measurement/5,
     narrative_ontology:constraint_metric/3,
     narrative_ontology:constraint_beneficiary/2,
     narrative_ontology:constraint_victim/2,
-    constraint_indexing:constraint_classification/3.
+    narrative_ontology:constraint_claim/2,
+    narrative_ontology:affects_constraint/2,
+    narrative_ontology:coordination_type/2,
+    constraint_indexing:constraint_classification/3,
+    constraint_indexing:directionality_override/3,
+    narrative_ontology:omega_variable/3,
+    narrative_ontology:human_readable/2,
+    narrative_ontology:topic_domain/2.
 
 /* ==========================================================================
    1. NARRATIVE CONTEXT
@@ -28,189 +53,178 @@
 
 /**
  * CONSTRAINT IDENTIFICATION
- * * constraint_id: education_unbundling_implementation
- * human_readable: The Modular Credentialing Transition
- * domain: technological/educational/economic
- * temporal_scope: 2026-2030 (Implementation Phase)
- * spatial_scope: Global Interoperable Networks
- * * SUMMARY:
- * This constraint represents the active "Phase Implementation" of unbundling 
- * education. It focuses on the shift from institutional gatekeeping (Mountain) 
- * to a decentralized "Rope" system based on verifiable digital credentials 
- * and AI-assisted mastery.
- * * KEY AGENTS:
- * - The System Architect: Designing the interoperable "Rope" (The Roadmap).
- * - The Legacy Institution: Protecting the "Mountain" of bundled degrees.
- * - The Independent Learner: Navigating the new "Small Unit" landscape.
- * * NARRATIVE ARC:
- * The roadmap attempts to move education through three phases: (1) Protocol 
- * selection, (2) Unbundling pilot, and (3) Market validation. The goal is 
- * to resolve the "Credential Legitimacy Omega" by making micro-achievements 
- * as portable and valuable as traditional degrees.
+ *   constraint_id: educational_unbundling_implementation
+ *   human_readable: The Modular Credentialing Transition
+ *   domain: technological/educational/economic
+ *
+ * SUMMARY:
+ *   The unbundling of higher education from monolithic institution-centric
+ *   degrees to decentralized, modular credentials represents an active
+ *   structural transformation with profound distributional consequences. The
+ *   constraint is the implementation gap between the technical possibility of
+ *   credential disaggregation and the verification infrastructure required to
+ *   make disaggregated credentials meaningful in labor markets. Multiple
+ *   stakeholders experience this gap differently: technology platforms
+ *   extract transaction value and network effects; traditional universities
+ *   face existential disruption; disadvantaged learners lose institutional
+ *   signaling subsidies; employers must absorb verification costs; the
+ *   credential commons fragments under lock-in pressures. The constraint
+ *   exhibits tangled-rope character — it simultaneously enables labor market
+ *   coordination (workers can reskill without full-degree burden) and
+ *   extracts asymmetrically (verification costs, platform rent, credential
+ *   arbitrage). Theater ratio (0.65) reflects substantial performative work:
+ *   credential registries, competency frameworks, and standards bodies
+ *   generate discussion and infrastructure with limited functional credential
+ *   portability. Extractiveness (0.52) reflects that the transition
+ *   redistributes verification costs and credential signal value in ways that
+ *   advantage platforms and employers with signal-processing capability while
+ *   disadvantaging learners with limited market access or capital to navigate
+ *   fragmented systems.
+ *
+ * KEY AGENTS:
+ *   - Technology Platforms (Coursera, LinkedIn Learning, Coursework, Credly): Institutional beneficiaries (arbitrage exit) — extract transaction fees and network value from learner-employer matching; coordinate credential ecosystems through proprietary standards
+ *   - Traditional Universities: Organized victims (constrained exit) — face revenue disruption, credential devaluation, and boundary erosion; retain accreditation monopoly but threatened by unbundling access
+ *   - Economically Disadvantaged Learners: Powerless victims (trapped exit) — lose institutional signaling subsidy; bear full cost of credential assembly, verification, and portfolio construction without institutional support
+ *   - Credential Verification Commons: Powerless victim (trapped exit) — abstract collective good (employers, credential evaluators, learners) fragmented by platform lock-in; no single actor advocates for interoperability
+ *   - Mid-Career Professionals Reskilling: Moderate agents (constrained exit) — benefit from targeted credential access but bear fragmentation and non-recognition costs
+ *   - Employers (Tech/Finance Focus): Powerful beneficiaries (arbitrage exit) — extract efficiency from unbundled hiring; coordinate through skills-based hiring without degree filter
+ *   - Standard-Setting Bodies (NACE, ACPA, ISO, employer consortia): Organized agents (constrained exit) — attempt to scaffold temporary coordination infrastructure; face sunset pressure as platform-native verification matures
+ *   - Analytical Observer: Civilizational view (analytical exit) — risks naturalizing the contingent institutional choice (degree bundle) as inherent information-theoretic limit; true mountain claim requires proof that verification asymmetry cannot be reduced by alternative institutional designs
  */
 
 /* ==========================================================================
-   2. CORE SYSTEM INTEGRATION (The "Reality" Layer)
+   2. BASE PROPERTIES (DOMAIN PRIORS)
    ========================================================================== */
 
-narrative_ontology:interval(implementation_window_2026, 0, 10).
-narrative_ontology:constraint_claim(education_unbundling_implementation, rope).
+% --- Numerical metrics ---
+domain_priors:base_extractiveness(educational_unbundling_implementation, 0.52).
+domain_priors:suppression_score(educational_unbundling_implementation, 0.68).
+domain_priors:theater_ratio(educational_unbundling_implementation, 0.65).
 
-% Base extractiveness score (0.4): Moderate-Low.
-% Rationale: The goal of the roadmap is to reduce extraction by 
-% enabling individuals to "stack" only the learning they need.
-domain_priors:base_extractiveness(education_unbundling_implementation, 0.4).
+% --- Constraint metric facts (engine primary keys, must mirror domain_priors) ---
+narrative_ontology:constraint_metric(educational_unbundling_implementation, extractiveness, 0.52).
+narrative_ontology:constraint_metric(educational_unbundling_implementation, suppression_requirement, 0.68).
+narrative_ontology:constraint_metric(educational_unbundling_implementation, theater_ratio, 0.65).
 
-% Suppression score (0.3): Low.
-% Rationale: The roadmap explicitly seeks to reveal and validate 
-% alternatives to the "factory model."
-domain_priors:suppression_score(education_unbundling_implementation, 0.3).
+% --- Constraint claim ---
+narrative_ontology:constraint_claim(educational_unbundling_implementation, tangled_rope).
+narrative_ontology:human_readable(educational_unbundling_implementation, "The Modular Credentialing Transition").
+narrative_ontology:topic_domain(educational_unbundling_implementation, "technological/educational/economic").
 
-% Enforcement requirements
-% Requires active enforcement: Interoperability standards (blockchain/digital 
-% certificates) must be actively maintained to prevent platform re-centralization.
-domain_priors:requires_active_enforcement(education_unbundling_implementation).
+domain_priors:requires_active_enforcement(educational_unbundling_implementation).
 
-% Metrics
-% Beneficiaries & Victims
-narrative_ontology:constraint_beneficiary(education_unbundling_implementation, independent_learners).
-narrative_ontology:constraint_beneficiary(education_unbundling_implementation, skills_based_employers).
-narrative_ontology:constraint_victim(education_unbundling_implementation, administrative_bureaucracies).
+% --- Structural relationships ---
+narrative_ontology:constraint_beneficiary(educational_unbundling_implementation, technology_platforms).
+narrative_ontology:constraint_beneficiary(educational_unbundling_implementation, employers_with_skills_emphasis).
+narrative_ontology:constraint_beneficiary(educational_unbundling_implementation, working_learners_with_flexibility).
+narrative_ontology:constraint_victim(educational_unbundling_implementation, traditional_universities).
+narrative_ontology:constraint_victim(educational_unbundling_implementation, credential_verification_commons).
+narrative_ontology:constraint_victim(educational_unbundling_implementation, economically_disadvantaged_learners).
 
 /* ==========================================================================
-   3. INDEXED CLASSIFICATIONS (Perspectival Truth)
+   3. INDEXED CLASSIFICATIONS (P, T, E, S)
    ========================================================================== */
 
-/* --------------------------------------------------------------------------
-   PERSPECTIVE 1: THE ARCHITECT (ROADMAP DESIGNER) - Rope
-   --------------------------------------------------------------------------
-   
-   WHO: analytical - Not a participant in the current struggle, but a designer of the new system.
-   WHEN: historical - Viewing the transition away from the Industrial Revolution "bigness."
-   WHERE: arbitrage - Playing systems against each other to find the most efficient path.
-   SCOPE: global - Designing for universal standards.
-   
-   WHY THIS CLASSIFICATION:
-   For the architect, the roadmap is a Rope—a functional tool for coordination. 
-   It is designed to be changeable, modular, and beneficial to all participants 
-   who adopt the standards.
-   
-   NARRATIVE EVIDENCE:
-   "The goal is to move records from single-institution gatekeepers to a 
-   distributed architecture... moving from standardized 'factory-model' bundles".
-   -------------------------------------------------------------------------- */
+% PERSPECTIVE 1: CREDENTIAL VERIFICATION COMMONS (SNARE) — The ecosystem of employers, universities, and credential evaluators cannot exit the fragmentation created by unbundling. Each micro-credential, bootcamp certificate, and platform badge requires independent verification. No organization wants to bear this cost, but all must. The commons is trapped: standardization would benefit all, but coordination is suppressed by platform lock-in and verification rent-seeking. Experiences maximum extraction with no exit.
+constraint_indexing:constraint_classification(educational_unbundling_implementation, snare,
+    context(agent_power(powerless),
+            time_horizon(biographical),
+            exit_options(trapped),
+            spatial_scope(national))).
 
-constraint_indexing:constraint_classification(
-    education_unbundling_implementation,
-    rope,
-    context(
-        agent_power(analytical),
-        time_horizon(historical),
-        exit_options(arbitrage),
-        spatial_scope(global)
-    )
-) :- !.
+% PERSPECTIVE 2: ECONOMICALLY DISADVANTAGED LEARNERS (SNARE) — Traditional universities subsidized credential signaling through bundled tuition. Unbundling transfers cost of verification and credential assembly to individual learners. Low-income students lose access to institutional signaling; must assemble credentials from fragmented markets with high verification costs. Trapped by resource barriers; extraction is asymmetric — only poor learners bear cost of fragmentation.
+constraint_indexing:constraint_classification(educational_unbundling_implementation, snare,
+    context(agent_power(powerless),
+            time_horizon(biographical),
+            exit_options(trapped),
+            spatial_scope(global))).
 
-/* --------------------------------------------------------------------------
-   PERSPECTIVE 2: THE LEGACY ADMISSIONS OFFICER - Snare
-   --------------------------------------------------------------------------
-   
-   WHO: institutional - Enforcer of current institutional standards.
-   WHEN: biographical - Their career is tied to the prestige of the "bundle."
-   WHERE: trapped - Bound by current regulations and institutional culture.
-   SCOPE: national - Bound by accrediting bodies and degree-granting laws.
-   
-   WHY THIS CLASSIFICATION:
-   For a legacy officer, unbundling is a Snare. It threatens to extract the 
-   "prestige value" from their institution, bypasses their gatekeeping power, 
-   and "forces" them to recognize signals they cannot control.
-   
-   NARRATIVE EVIDENCE:
-   "Regulatory friction: accreditation monopolies... link funding and 
-   legitimacy exclusively to 'bundled' institutional accreditation".
-   -------------------------------------------------------------------------- */
+% PERSPECTIVE 3: TECHNOLOGY PLATFORMS (ROPE) — Coordinate learner-to-skills-to-employer matching and profit from network effects. Extract transaction fees from credential verification. Experience low effective extraction because they have arbitrage exits: can shift between learner markets, pivot between credential types, aggregate across multiple verticals. Beneficiaries with institutional power and high exit options experience the constraint as coordination mechanism, not extraction.
+constraint_indexing:constraint_classification(educational_unbundling_implementation, rope,
+    context(agent_power(institutional),
+            time_horizon(immediate),
+            exit_options(arbitrage),
+            spatial_scope(global))).
 
-constraint_indexing:constraint_classification(
-    education_unbundling_implementation,
-    snare,
-    context(
-        agent_power(institutional),
-        time_horizon(biographical),
-        exit_options(trapped),
-        spatial_scope(national)
-    )
-) :- !.
+% PERSPECTIVE 4: MID-CAREER PROFESSIONALS RESKILLING (TANGLED ROPE) — Unbundling creates opportunity for targeted reskilling without credential overhead (pure coordination benefit). But also bears cost: must navigate fragmented markets, risks credential non-recognition, faces employer skepticism of non-traditional bundles. Exit is constrained by opportunity cost of time and reputational risk. Both coordination benefit and asymmetric extraction present.
+constraint_indexing:constraint_classification(educational_unbundling_implementation, tangled_rope,
+    context(agent_power(moderate),
+            time_horizon(biographical),
+            exit_options(constrained),
+            spatial_scope(national))).
 
-/* --------------------------------------------------------------------------
-   PERSPECTIVE 3: THE ANALYTICAL OBSERVER (LEARNING SCIENTIST) - Mountain
-   --------------------------------------------------------------------------
-   WHO: agent_power(analytical) - Observes the biological limits of learning.
-   WHEN: biographical - Skill acquisition takes years of sustained effort.
-   WHERE: arbitrage - Managing the transition between bundled and unbundled.
-   SCOPE: global - Cognitive limits are a universal human invariant.
-   
-   WHY THIS CLASSIFICATION:
-   The "Mountain" is the biological reality of cognitive load. Unbundling 
-   may provide institutional flexibility, but it cannot negotiate with the 
-   human brain's fixed capacity for information processing. Deep mastery 
-   requires a time-horizon that unbundled modules often ignore. This 
-   creates an unyielding structural limit on how far "personalization" 
-   can go before it breaks the coherence of the learning experience.
-   -------------------------------------------------------------------------- */
+% PERSPECTIVE 5: TRADITIONAL UNIVERSITIES (TANGLED ROPE) — Unified degree model enabled institutional coordination (accreditation, hiring networks, employer recognition). Unbundling enables market access to disaggregated learners (coordination benefit). But threatens brand value, tuition revenue, and institutional legitimacy (extraction). Universities have some exit options (double down on prestige, build online credentials) but constrained by legacy structure, governance, and accreditation lock-in. Organized but not fully institutional in this context because constrained by sector-level coordination.
+constraint_indexing:constraint_classification(educational_unbundling_implementation, tangled_rope,
+    context(agent_power(organized),
+            time_horizon(generational),
+            exit_options(constrained),
+            spatial_scope(national))).
 
-constraint_indexing:constraint_classification(
-    educational_unbundling_implementation,
-    mountain,
-    context(
-        agent_power(analytical),
-        time_horizon(biographical),
-        exit_options(arbitrage),
-        spatial_scope(global)
-    )
-) :-
-    domain_priors:suppression_score(educational_unbundling_implementation, S),
-    S > 0.4.
+% PERSPECTIVE 6: STANDARD-SETTING REGULATORY BODIES (SCAFFOLD) — Existing accreditation infrastructure (regional accreditors, program-specific certifiers) is building credential registries and competency frameworks to coordinate unbundled verification. See this as temporary support structure (high theater: much discussion of 'credential repositories' with limited functional rollout). Sunset: as platform-native verification (employer-peer-review, portfolio assessment) matures, formal accreditation overhead becomes optional. Constrained exit because tied to legacy institutional relationships, but sunset mechanism is real.
+constraint_indexing:constraint_classification(educational_unbundling_implementation, scaffold,
+    context(agent_power(organized),
+            time_horizon(generational),
+            exit_options(constrained),
+            spatial_scope(national))).
 
-% Explicit priors reflecting the biological limits of cognitive bandwidth.
-domain_priors:base_extractiveness(educational_unbundling_implementation, 0.2).
-domain_priors:suppression_score(educational_unbundling_implementation, 0.5).
+% PERSPECTIVE 7: LEGACY DEGREE RITUAL (PITON) — The Bachelor's degree persists as credential despite declining signal value in technical fields. Employers still require it (HR habit, legal/regulatory lock-in), but increasingly treat it as table-stakes rather than discriminator. Theater ratio high: extensive ceremonial validation of the degree's importance despite erosion of its functional role. Maintained through inertia (hiring practices, student expectations, institutional prestige) rather than market efficiency.
+constraint_indexing:constraint_classification(educational_unbundling_implementation, piton,
+    context(agent_power(institutional),
+            time_horizon(civilizational),
+            exit_options(arbitrage),
+            spatial_scope(national))).
 
-% Constraint metric facts (bridge for classification engine)
-narrative_ontology:constraint_metric(education_unbundling_implementation, extractiveness, 0.4).
-narrative_ontology:constraint_metric(education_unbundling_implementation, suppression_requirement, 0.3).
+% PERSPECTIVE 8: HIGH-SIGNAL EMPLOYERS (TANGLED ROPE) — Have arbitrage options: can hire based on skills assessments, portfolio work, platform reputation (arbitrage exit). Extract efficiency gains from unbundled credentials — no longer need to filter through degree holders. But also benefit from coordination: employer-endorsed credentials and skill standards reduce hiring friction. Powerful with exit options but still coordination partners in credential ecosystem. Mixed classification reflects both extraction capability and coordination dependence.
+constraint_indexing:constraint_classification(educational_unbundling_implementation, tangled_rope,
+    context(agent_power(powerful),
+            time_horizon(immediate),
+            exit_options(arbitrage),
+            spatial_scope(global))).
+
+% PERSPECTIVE 9: ANALYTICAL OBSERVER / NATURAL LAW VIEW (MOUNTAIN) — From a deep analytical view, credential sorting under information asymmetry is an irreducible problem. Any system (bundled or unbundled) must solve the matching problem: how do employers verify worker quality without direct observation? Bundling concentrates verification cost in institutions; unbundling distributes it to platforms and learners. The constraint migrates but does not disappear. This perspective risks false summit (naturalizing contingent institutional choice as inherent limit). TRUE mountain claim would require proving that verification asymmetry has accessibility_collapse >= 0.85 and resistance <= 0.15 — the contingent institutional distribution of verification burden is NOT inherent to information theory.
+constraint_indexing:constraint_classification(educational_unbundling_implementation, mountain,
+    context(agent_power(analytical),
+            time_horizon(civilizational),
+            exit_options(analytical),
+            spatial_scope(universal))).
 
 /* ==========================================================================
-   4. TESTS (What We Learn)
+   4. VALIDATION TESTS
    ========================================================================== */
 
-:- begin_tests(unbundling_implementation_tests).
+:- begin_tests(educational_unbundling_implementation_tests).
 
-test(decoupling_efficacy) :-
-    % Test that "Market Validation" (Phase 3) reduces the "Mountain" status 
-    % of legacy degrees.
-    domain_priors:suppression_score(education_unbundling_implementation, S),
-    S < 0.5.
+test(perspectival_gap) :-
+    constraint_indexing:constraint_classification(educational_unbundling_implementation, TypePowerless, context(agent_power(powerless), _, _, _)),
+    constraint_indexing:constraint_classification(educational_unbundling_implementation, TypeOther, context(agent_power(institutional), _, _, _)),
+    TypePowerless \= TypeOther.
 
-test(interoperability_necessity) :-
-    % Roadmap success depends on active enforcement of open standards.
-    domain_priors:requires_active_enforcement(education_unbundling_implementation).
+test(extraction_signature) :-
+    domain_priors:base_extractiveness(educational_unbundling_implementation, E),
+    E >= 0.46. % Ensures high-extraction Snare/Tangled territory.
 
-:- end_tests(unbundling_implementation_tests).
+test(piton_threshold) :-
+    domain_priors:theater_ratio(educational_unbundling_implementation, TR),
+    TR >= 0.70.
+
+:- end_tests(educational_unbundling_implementation_tests).
 
 /* ==========================================================================
-   5. MODEL INTERPRETATION (Commentary)
+   5. GENERATIVE COMMENTARY
    ========================================================================== */
 
 /**
- * LLM GENERATION NOTES
- * * Model: Gemini 2.0 Flash
- * * KEY DECISIONS:
- * 1. CLASSIFICATION: I chose "Rope" for the implementation phase itself, 
- * as the roadmap is a tool for coordination, not a static law.
- * * 2. OMEGA RESOLUTION: The roadmap is specifically designed to kill 
- * the "Legitimacy Omega" through Phase 3 (Market Validation).
- * * 3. PERSPECTIVE: Contrast between the "Architect" and "Admissions Officer" 
- * reveals the gap between functional progress and institutional preservation.
+ * LOGIC RATIONALE:
+ *   Extractiveness (0.52): Moderate-high, reflecting that unbundling creates new extraction mechanisms (platform fees, credential verification costs, signal arbitrage) while claiming to reduce costs. The net effect is redistribution rather than reduction — institutional verification costs shift to platforms and learners, concentrating burden on those with least bargaining power. Suppression (0.68): High. Significant barriers include platform lock-in (switching costs, proprietary credential formats), information asymmetry (employers uncertain of credential value), institutional resistance (universities maintain accreditation gates, employer hiring practices defaulting to degrees), and technical fragmentation (incompatible credential registries, lack of interoperable standards). Barriers are enforced through coordination failure rather than explicit prohibition — each actor prefers proprietary standards. Theater ratio (0.65): Moderate-high. Substantial performative activity includes credential framework development, standards committee work, registry building, and competency mapping with limited functional portability. Most credentials remain platform-specific; claimed interoperability is aspirational rather than functional. Theater has increased over the measurement interval as credential standards proliferate without convergence.
+ *
+ * PERSPECTIVAL GAP:
+ *   This constraint reveals maximum perspectival divergence. Technology platforms see Rope (coordination benefit, low extraction). Traditional universities see Snare (existential threat, high extraction, no exit). Disadvantaged learners see Snare (cost redistribution, trapped by resource barriers). Mid-career professionals see Tangled Rope (access plus fragmentation costs). Employers see Rope with platform dependency (coordination plus lock-in risk). Standards bodies see Scaffold (temporary coordination with sunset as platform verification matures). The legacy degree sees Piton (performative validation despite declining function). The analytical observer risks false summit by naturalizing the verification matching problem as inherent rather than institutionally contingent. The perspectival gaps map directly to distributional consequences: those with arbitrage options experience coordination; those trapped experience extraction.
+ *
+ * DIRECTIONALITY LOGIC:
+ *   Directionality (d) for each perspective is derived from structural position: who captures benefits, who bears costs, and what exit options constrain or enable movement. Technology platforms (institutional power, arbitrage exit) experience low d → negative effective extraction (they are beneficiaries). Economically disadvantaged learners (powerless, trapped) experience high d → high extraction (they are victims). Traditional universities (organized power, constrained exit because tied to accreditation system) experience moderate d reflecting mixed position: they benefit from prestige and legacy-path lock-in but suffer revenue disruption. The credential commons (powerless, trapped by coordination failure) experiences maximum d because no actor can unilaterally solve fragmentation. Directionality values reflect not moral status but structural extraction flow: who moves toward and away from the constraint's pressure points.
+ *
+ * MANDATROPHY ANALYSIS:
+ *   MANDATROPHY DETECTION AND RESOLUTION: The constraint could be misclassified as pure coordination (Rope) if analysis focuses only on efficiency gains from targeted learning. Resolution requires recognizing that unbundling simultaneously enables coordination (workers can reskill without full-degree burden, employers can hire on skills) AND extracts asymmetrically (verification costs concentrated on disadvantaged learners, platform intermediaries extract transaction value, institutional signaling collapses for poor learners while remaining valuable for elite institutions). The tangled_rope classification is the stable equilibrium across perspectives. The mandatrophy is resolved by recognizing that the 'efficiency' narrative (unbundling reduces credential costs) masks redistribution (costs shift from institutions to learners and platforms, burdening those least able to bear them). Active enforcement (platform API lock-in, proprietary credential formats, employer hiring automation) maintains the constraint's extraction mechanism despite rhetorical emphasis on coordination and access.
  */
 
 /* ==========================================================================
@@ -218,46 +232,95 @@ test(interoperability_necessity) :-
    ========================================================================== */
 
 omega_variable(
-    adoption_threshold_omega,
-    "At what percentage of market adoption does the 'Rope' become the new 'Mountain' (standard)?",
-    resolution_mechanism("Monitor the tipping point where employers prioritize microcredentials over degrees."),
-    impact("If Tipping Point reached: Systemic shift. If not: Persistent hybrid friction."),
+    portable_signal_sufficiency,
+    'Can decentralized micro-credentials carry sufficient employer-relevant signal to replace institution-bundled degrees without unacceptable false-positive hiring errors?',
+    'Longitudinal hiring outcome analysis comparing cohorts hired via traditional degree vs modular credential bundles; correlation between credential bundle composition and job performance; employer feedback on signal reliability',
+    'If signal sufficient: unbundling enables pure coordination (Rope from more perspectives, lower χ). If insufficient: credibility crisis expands extraction (Snare dominates, higher χ, credential commons fails).',
     confidence_without_resolution(medium)
 ).
 
+narrative_ontology:omega_variable(portable_signal_sufficiency, empirical, 'Whether decentralized micro-credentials carry sufficient signal to replace degrees').
+
+omega_variable(
+    platform_lock_in_reversibility,
+    'Are learner and employer investments in platform-native credentials reversible, or do platform switching costs lock participants into proprietary ecosystems?',
+    'Cross-platform credential portability analysis; measurement of switching costs; employer acceptance of credentials from non-primary platforms; credential expiration and re-validation requirements',
+    'If reversible: platforms serve coordination function (Rope). If lock-in deepens: platforms become extractive intermediaries (Snare). Lock-in determines whether suppression rises to extractive levels or remains coordination cost.',
+    confidence_without_resolution(high)
+).
+
+narrative_ontology:omega_variable(platform_lock_in_reversibility, empirical, 'Whether platform lock-in is reversible or creates extraction mechanisms').
+
+omega_variable(
+    verification_cost_incidence,
+    'Does decentralization of credential verification reduce total system verification costs or merely redistribute them from institutions to employers and learners?',
+    'System-level cost accounting: institution verification spend (accreditation, transcript validation) vs employer verification spend (platform API calls, portfolio assessment, skill testing) vs learner verification spend (platform fees, credential assembly, formatting); time allocation studies',
+    'If costs reduce: efficiency gain justifies unbundling (Scaffold sunset valid). If redistributed: extraction merely shifts (Tangled Rope persists). If total costs increase: unbundling is rent-seeking (Snare from system view).',
+    confidence_without_resolution(medium)
+).
+
+narrative_ontology:omega_variable(verification_cost_incidence, empirical, 'Total system verification cost change from centralized to decentralized credentialing').
+
+omega_variable(
+    equity_degradation_rate,
+    'Do disadvantaged learners'' relative employment outcomes degrade faster under unbundling than under traditional degree system?',
+    'Cohort wage and employment rate analysis controlling for ability; comparison of credential-matched peers across systems; breakdown of outcomes by socioeconomic background and demographics; measurement of credential assembly barriers',
+    'If degradation accelerates: unbundling is extraction targeting disadvantaged (Snare victim identification confirmed). If outcomes equalize: unbundling enables access (Rope coordination benefit confirmed). Outcome determines whether suppression is structural extraction or coordination overhead.',
+    confidence_without_resolution(high)
+).
+
+narrative_ontology:omega_variable(equity_degradation_rate, empirical, 'Whether disadvantaged learners'' outcomes degrade faster under unbundling').
+
+omega_variable(
+    standardization_path_dependency,
+    'Will emerging credential standards (ISO, employer consortia, platform-neutral registries) achieve sufficient adoption to reduce verification fragmentation, or does path dependency lock in proprietary ecosystem dominance?',
+    'Tracking of competing standards adoption rates; measurement of employer acceptance of non-proprietary credentials; longitudinal analysis of credential portability; institutional investment in open vs proprietary systems',
+    'If standards dominate: verification commons recovers, extraction declines (Tangled Rope → Rope transition). If proprietary lock-in: commons remains fragmented, suppression persists (Tangled Rope → Snare transition).',
+    confidence_without_resolution(low)
+).
+
+narrative_ontology:omega_variable(standardization_path_dependency, empirical, 'Whether credential standardization achieves sufficient adoption to enable interoperability').
+
+
 /* ==========================================================================
-   7. ALTERNATIVE ANALYSIS
+   7. INTEGRATION HOOKS
    ========================================================================== */
 
-/**
- * VIABLE ALTERNATIVES
- * * ALTERNATIVE 1: Status Quo (The Bundle)
- * Viability: High inertia in 20th-century institutions.
- * Suppression: Naturally suppressed by the rising costs and "mismatch" of 
- * factory-model schooling.
- */
+narrative_ontology:interval(educational_unbundling_implementation, 0, 10).
+
+/* ==========================================================================
+   8. TEMPORAL MEASUREMENTS (LIFECYCLE DRIFT DATA)
+   ========================================================================== */
+
+% Theater ratio over time
+narrative_ontology:measurement(edub_tr_t0, educational_unbundling_implementation, theater_ratio, 0, 0.45).
+narrative_ontology:measurement(edub_tr_t5, educational_unbundling_implementation, theater_ratio, 5, 0.58).
+narrative_ontology:measurement(edub_tr_t10, educational_unbundling_implementation, theater_ratio, 10, 0.65).
+
+% Extraction over time
+narrative_ontology:measurement(edub_be_t0, educational_unbundling_implementation, base_extractiveness, 0, 0.38).
+narrative_ontology:measurement(edub_be_t5, educational_unbundling_implementation, base_extractiveness, 5, 0.46).
+narrative_ontology:measurement(edub_be_t10, educational_unbundling_implementation, base_extractiveness, 10, 0.52).
+
+
+/* ==========================================================================
+   9. BOLTZMANN & NETWORK DATA
+   ========================================================================== */
+
+narrative_ontology:coordination_type(educational_unbundling_implementation, information_standard).
+narrative_ontology:affects_constraint(educational_unbundling_implementation, institutional_credentialing_monopoly).
+narrative_ontology:affects_constraint(educational_unbundling_implementation, labor_market_signaling_asymmetry).
+narrative_ontology:affects_constraint(educational_unbundling_implementation, platform_intermediation_rent_extraction).
+
+% DUAL FORMULATION NOTE:
+% The unbundling transition decomposes into three linked constraints: (1) institutional credentialing monopoly (ε=0.35, Rope/Piton, legacy degree ritual), (2) labor market signaling asymmetry (ε=0.58, Snare/Tangled Rope, information verification problem), (3) platform intermediation rent (ε=0.62, Snare, proprietary lock-in). This story focuses on the systemic transition mechanism (tangled_rope, ε=0.52) that coordinates between the three. Upstream constraint is the institutional monopoly; downstream is the labor market signaling asymmetry becoming tractable through platform-mediated verification.
+
+/* ==========================================================================
+   10. DIRECTIONALITY OVERRIDES (v6.0, OPTIONAL)
+   ========================================================================== */
+
+constraint_indexing:directionality_override(educational_unbundling_implementation, institutional, 0.55).
 
 /* ==========================================================================
    END OF CONSTRAINT STORY
    ========================================================================== */
-
-
-% --- v3.1 Indexical Relativity Stubs (Fleet Repair) ---
-constraint_indexing:constraint_classification(educational_unbundling_implementation, rope, agent_power(institutional)).
-constraint_indexing:constraint_classification(educational_unbundling_implementation, snare, agent_power(powerless)).
-
-% ============================================================================
-% ENRICHMENT: Structural predicates for dynamic classification
-% Generated: 2026-02-08
-% Template: v5.2 namespace alignment
-% Source: Derived from existing narrative and structural content in this file
-% ============================================================================
-
-% --- Multifile declarations for new predicates ---
-:- multifile
-    domain_priors:theater_ratio/2.
-
-% --- Theater ratio (missing from base properties) ---
-% Functional coordination mechanism — primarily substantive
-domain_priors:theater_ratio(education_unbundling_implementation, 0.09).
-narrative_ontology:constraint_metric(education_unbundling_implementation, theater_ratio, 0.09).

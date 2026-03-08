@@ -31,9 +31,12 @@
 :- use_module(config).
 :- use_module(narrative_ontology).
 :- use_module(constraint_indexing).
-:- use_module(structural_signatures).
+:- use_module(purity_scoring, [purity_score/2]).
+:- use_module(boltzmann_compliance, [coupling_test_context/3]).
 :- use_module(drl_core).
-:- use_module(drl_modal_logic).
+:- use_module(drl_purity_network, [constraint_neighbors/3, effective_purity/4, type_contamination_strength/2, type_immunity/2]).
+:- use_module(drl_counterfactual).
+:- use_module(corpus_loader).
 :- use_module(library(lists)).
 :- use_module(library(apply)).
 :- use_module(library(ordsets)).
@@ -43,38 +46,13 @@
    DYNAMIC FACT DECLARATIONS
    ================================================================ */
 
-:- dynamic corpus_loaded/0.
 :- dynamic gc_edge/4.             % gc_edge(C1, C2, Strength, Source) where C1 @< C2
+:- dynamic gc_inferred_edge/3.    % gc_inferred_edge(C1, C2, Strength) where C1 @< C2
 :- dynamic gc_node_type/3.        % gc_node_type(C, Context, Type)
 :- dynamic gc_node_purity/3.      % gc_node_purity(C, IntrinsicP, EffP)
 :- dynamic gc_sweep_result/5.     % gc_sweep_result(Thresh, NEdges, NComps, LargestSize, LargestFrac)
 :- dynamic adj/2.                 % adj(A, B) — symmetric adjacency for BFS
 :- dynamic gc_edges_precomputed/0.
-
-/* ================================================================
-   SHARED INFRASTRUCTURE
-   ================================================================ */
-
-%% load_all_testsets
-%  Bulk-loads all .pl files from testsets/ directory.
-load_all_testsets :-
-    (   corpus_loaded
-    ->  true
-    ;   expand_file_name('testsets/*.pl', Files),
-        length(Files, N),
-        format(user_error, '[giant] Loading ~w testset files...~n', [N]),
-        load_testset_list(Files, 0, Loaded),
-        format(user_error, '[giant] Loaded ~w testsets successfully.~n', [Loaded]),
-        assertz(corpus_loaded)
-    ).
-
-load_testset_list([], N, N).
-load_testset_list([F|Fs], Acc, N) :-
-    (   catch(user:consult(F), _, true)
-    ->  Acc1 is Acc + 1
-    ;   Acc1 = Acc
-    ),
-    load_testset_list(Fs, Acc1, N).
 
 %% all_corpus_constraints(-Constraints)
 %  Discovers all constraint atoms with extractiveness data.
@@ -99,6 +77,7 @@ precompute_all_edges(Constraints, Context) :-
     (   gc_edges_precomputed
     ->  true  % already done
     ;   retractall(gc_edge(_, _, _, _)),
+        retractall(gc_inferred_edge(_, _, _)),
         % Save original threshold
         config:param(network_coupling_threshold, OrigThresh),
         % Set to near-zero to capture everything
@@ -107,19 +86,26 @@ precompute_all_edges(Constraints, Context) :-
         length(Constraints, N),
         format(user_error, '[giant] Pre-computing edges for ~w constraints (threshold=0.01)...~n', [N]),
         precompute_edges_loop(Constraints, Context, 0, N),
+        % Separately capture inferred_coupling edges for ALL pairs
+        % of constraints that have gradient data. This bypasses
+        % deduplicate_neighbors which loses inferred sources when
+        % an explicit/shared edge exists for the same pair.
+        precompute_inferred_edges(Constraints),
         % Restore original threshold
         retract(config:param(network_coupling_threshold, 0.01)),
         assertz(config:param(network_coupling_threshold, OrigThresh)),
         % Count total edges
         aggregate_all(count, gc_edge(_, _, _, _), EdgeCount),
-        format(user_error, '[giant] Pre-computed ~w undirected edge records.~n', [EdgeCount]),
+        aggregate_all(count, gc_inferred_edge(_, _, _), InferredCount),
+        format(user_error, '[giant] Pre-computed ~w non-inferred + ~w inferred edge records.~n',
+               [EdgeCount, InferredCount]),
         assertz(gc_edges_precomputed)
     ).
 
 precompute_edges_loop([], _, _, _).
 precompute_edges_loop([C|Cs], Context, Done, Total) :-
     (   catch(
-            drl_modal_logic:constraint_neighbors(C, Context, Neighbors),
+            drl_purity_network:constraint_neighbors(C, Context, Neighbors),
             _Err, Neighbors = [])
     ->  true
     ;   Neighbors = []
@@ -149,24 +135,95 @@ assert_edge_canonical(C1, C2, Strength, Source) :-
     ;   assertz(gc_edge(A, B, Strength, Source))
     ).
 
+%% assert_inferred_canonical(+C1, +C2, +Strength)
+%  Stores inferred_coupling edge with canonical ordering (C1 @< C2).
+%  If edge already exists, keeps the stronger one.
+assert_inferred_canonical(C1, C2, Strength) :-
+    (   C1 @< C2 -> A = C1, B = C2 ; A = C2, B = C1 ),
+    (   gc_inferred_edge(A, B, ExistStr)
+    ->  (   Strength > ExistStr
+        ->  retract(gc_inferred_edge(A, B, ExistStr)),
+            assertz(gc_inferred_edge(A, B, Strength))
+        ;   true
+        )
+    ;   assertz(gc_inferred_edge(A, B, Strength))
+    ).
+
+%% precompute_inferred_edges(+Constraints)
+%  Discovers all inferred_coupling edges by enumerating all pairs of
+%  constraints that have temporal gradient data. infer_structural_coupling/3
+%  requires both arguments to be bound, so we must enumerate explicitly.
+precompute_inferred_edges(Constraints) :-
+    % Find constraints that have gradient data (needed for coupling inference)
+    findall(C,
+        (   member(C, Constraints),
+            drl_counterfactual:dr_gradient_at(C, _, _)
+        ),
+        GradRaw),
+    sort(GradRaw, GradCs),
+    length(GradCs, NG),
+    format(user_error, '[giant] Found ~w constraints with gradient data for inferred coupling.~n', [NG]),
+    % Enumerate all ordered pairs and try to infer coupling
+    forall(
+        (   member(C1, GradCs),
+            member(C2, GradCs),
+            C1 @< C2,
+            catch(drl_counterfactual:infer_structural_coupling(C1, C2, Str), _, fail),
+            Str >= 0.01
+        ),
+        assert_inferred_canonical(C1, C2, Str)
+    ).
+
 %% edges_at_threshold(+Threshold, -Edges)
 %  Returns edges that survive a given coupling threshold.
-%  Explicit and shared_agent edges always survive.
-%  Inferred_coupling edges survive only if Strength >= Threshold.
+%  An (A,B) pair survives if:
+%    - gc_edge has an always-surviving source (explicit, shared_beneficiary, shared_victim), OR
+%    - gc_inferred_edge has strength >= Threshold
+%  Deduplicates by (A,B) pair.
 edges_at_threshold(Threshold, Edges) :-
+    % Collect always-surviving edges as A-B pairs
+    findall(
+        A-B,
+        (   gc_edge(A, B, _, Src),
+            always_survives(Src)
+        ),
+        AlwaysPairs
+    ),
+    % Collect inferred edges that pass the threshold
+    findall(
+        A-B,
+        (   gc_inferred_edge(A, B, Strength),
+            Strength >= Threshold
+        ),
+        InferredPairs
+    ),
+    % Merge and deduplicate by pair
+    append(AlwaysPairs, InferredPairs, AllPairs),
+    sort(AllPairs, UniquePairs),
+    % Convert back to edge/4 terms (use best available strength/source)
     findall(
         edge(A, B, S, Src),
-        (   gc_edge(A, B, S, Src),
-            edge_survives_threshold(S, Src, Threshold)
+        (   member(A-B, UniquePairs),
+            best_edge_info(A, B, S, Src)
         ),
         Edges
     ).
 
-edge_survives_threshold(_, explicit, _) :- !.
-edge_survives_threshold(_, shared_beneficiary, _) :- !.
-edge_survives_threshold(_, shared_victim, _) :- !.
-edge_survives_threshold(Strength, inferred_coupling, Threshold) :-
-    Strength >= Threshold.
+%% always_survives(+Source)
+%  Sources that survive regardless of threshold.
+always_survives(explicit).
+always_survives(shared_beneficiary).
+always_survives(shared_victim).
+
+%% best_edge_info(+A, +B, -Strength, -Source)
+%  Returns the best strength/source for a canonical pair.
+%  Prefers gc_edge info if available, falls back to gc_inferred_edge.
+best_edge_info(A, B, S, Src) :-
+    (   gc_edge(A, B, S, Src)
+    ->  true
+    ;   gc_inferred_edge(A, B, S),
+        Src = inferred_coupling
+    ).
 
 /* ================================================================
    GRAPH ALGORITHMS
@@ -283,11 +340,11 @@ precompute_props_loop([C|Cs], Context, Done, Total) :-
     ),
     assertz(gc_node_type(C, Context, Type)),
     % Purity
-    (   catch(structural_signatures:purity_score(C, IntrinsicP), _, IntrinsicP = -1.0)
+    (   catch(purity_scoring:purity_score(C, IntrinsicP), _, IntrinsicP = -1.0)
     ->  true
     ;   IntrinsicP = -1.0
     ),
-    (   catch(drl_modal_logic:effective_purity(C, Context, EffP, _), _, EffP = -1.0)
+    (   catch(drl_purity_network:effective_purity(C, Context, EffP, _), _, EffP = -1.0)
     ->  true
     ;   EffP = -1.0
     ),
@@ -424,7 +481,7 @@ report_type_distribution(Cs, Ctx) :-
     format('### Type Distribution~n~n'),
     length(Cs, NC),
     TypeOrder = [mountain, rope, scaffold, tangled_rope, piton, snare,
-                 indexically_opaque, unknown],
+                 naturalized, unknown],
     format('| Type | Count | Fraction |~n'),
     format('|------|-------|----------|~n'),
     forall(member(T, TypeOrder), (
@@ -530,7 +587,7 @@ report_super_spreaders(Cs, Ctx) :-
         scored(C, Potential, Type, Deg, CS, EP),
         (   member(C, Cs),
             gc_node_type(C, Ctx, Type),
-            drl_modal_logic:type_contamination_strength(Type, CS),
+            drl_purity_network:type_contamination_strength(Type, CS),
             CS > 0.0,
             aggregate_all(count, adj(C, _), Deg),
             Deg > 0,
@@ -785,7 +842,7 @@ report_gc_composition(Members, Ctx) :-
     format('### Giant Component Composition~n~n'),
     length(Members, Size),
     TypeOrder = [mountain, rope, scaffold, tangled_rope, piton, snare,
-                 indexically_opaque, unknown],
+                 naturalized, unknown],
     format('| Type | Count | Fraction |~n'),
     format('|------|-------|----------|~n'),
     forall(member(T, TypeOrder), (
@@ -831,7 +888,7 @@ report_contamination_sources(Members, Ctx) :-
         scored(C, Potential, Type, Deg, CS, EP),
         (   member(C, Members),
             gc_node_type(C, Ctx, Type),
-            drl_modal_logic:type_contamination_strength(Type, CS),
+            drl_purity_network:type_contamination_strength(Type, CS),
             CS > 0.0,
             aggregate_all(count, (adj(C, N), member(N, Members)), Deg),
             Deg > 0,
@@ -856,7 +913,7 @@ report_multihop_contamination(Members, Ctx) :-
     findall(C,
         (   member(C, Members),
             gc_node_type(C, Ctx, Type),
-            drl_modal_logic:type_contamination_strength(Type, CS),
+            drl_purity_network:type_contamination_strength(Type, CS),
             CS >= 0.5,
             gc_node_purity(C, IP, _),
             IP >= 0.0, IP < 0.50
@@ -944,7 +1001,7 @@ report_sound_constraint_exposure(Members, Ctx) :-
     findall(Src,
         (   member(Src, Members),
             gc_node_type(Src, Ctx, Type),
-            drl_modal_logic:type_contamination_strength(Type, CS),
+            drl_purity_network:type_contamination_strength(Type, CS),
             CS >= 0.3,
             gc_node_purity(Src, IP, _),
             IP >= 0.0, IP < 0.50
@@ -1025,10 +1082,10 @@ would_cross_threshold(Target, Source, Dist, Ctx, Result) :-
     gc_node_purity(Target, _, TargetEP),
     gc_node_purity(Source, SrcIP, _),
     gc_node_type(Source, Ctx, SrcType),
-    drl_modal_logic:type_contamination_strength(SrcType, CS),
-    drl_modal_logic:type_immunity(Ctx, _),  % just checking module is loaded
+    drl_purity_network:type_contamination_strength(SrcType, CS),
+    drl_purity_network:type_immunity(Ctx, _),  % just checking module is loaded
     gc_node_type(Target, Ctx, TgtType),
-    drl_modal_logic:type_immunity(TgtType, Immunity),
+    drl_purity_network:type_immunity(TgtType, Immunity),
     % Attenuation = 0.50^Dist (multi-hop decay)
     Attenuation is 0.50 ** Dist,
     % Delta = target purity - source purity
@@ -1085,7 +1142,7 @@ count_by_purity_zone(Members, Ctx, SoundFloor, DegFloor, NS, NB, NW, ND) :-
     config:param(purity_action_escalation_floor, EscFloor),
     findall(EP,
         (   member(C, Members),
-            catch(drl_modal_logic:effective_purity(C, Ctx, EP, _), _, fail),
+            catch(drl_purity_network:effective_purity(C, Ctx, EP, _), _, fail),
             EP >= 0.0
         ),
         EPs),
@@ -1130,7 +1187,7 @@ run_phase4 :-
     ],
     format('### Type Distribution by Context~n~n'),
     TypeOrder = [mountain, rope, scaffold, tangled_rope, piton, snare,
-                 indexically_opaque, unknown],
+                 naturalized, unknown],
     format('| Type |'),
     forall(member(ctx(_, _, Label), Contexts), format(' ~w |', [Label])),
     format('~n|------|'),
@@ -1139,7 +1196,7 @@ run_phase4 :-
     forall(member(T, TypeOrder), (
         format('| ~w |', [T]),
         forall(member(ctx(Power, Scope, _), Contexts), (
-            structural_signatures:coupling_test_context(Power, Scope, Ctx),
+            boltzmann_compliance:coupling_test_context(Power, Scope, Ctx),
             findall(C,
                 (   member(C, Cs),
                     catch(drl_core:dr_type(C, Ctx, ActualType), _, ActualType = error),
@@ -1159,7 +1216,7 @@ run_phase4 :-
     format('| Context | Snare | Piton | Tangled Rope | Scaffold | Total Sources |~n'),
     format('|---------|-------|-------|-------------|----------|---------------|~n'),
     forall(member(ctx(Power, Scope, Label), Contexts), (
-        structural_signatures:coupling_test_context(Power, Scope, Ctx),
+        boltzmann_compliance:coupling_test_context(Power, Scope, Ctx),
         count_type_in_context(Cs, Ctx, snare, NSnare),
         count_type_in_context(Cs, Ctx, piton, NPiton),
         count_type_in_context(Cs, Ctx, tangled_rope, NTR),

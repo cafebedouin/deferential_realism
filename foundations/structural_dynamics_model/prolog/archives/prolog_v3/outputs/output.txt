@@ -1,0 +1,13 @@
+Initializing Validation Suite - Tue Feb 24 15:15:22 2026
+------------------------------------------
+--- STARTING DYNAMIC VALIDATION ---
+
+[1] EXECUTING: testsets/26usc469_real_estate_exemption.pl
+
+[SCENARIO MANAGER] Clearing Knowledge Base...
+[OK] Knowledge Base is empty.
+[SCENARIO MANAGER] Loading: testsets/26usc469_real_estate_exemption.pl...
+[SCENARIO MANAGER] Performing Global Repair...
+[FAIL] Exception for testsets/26usc469_real_estate_exemption.pl: error(existence_error(procedure,data_repair:repair_interval/1),context(prolog_stack([frame(18,call(data_repair:repair_interval/1),data_repair:repair_interval(26usc469_real_estate_exemption)),frame(17,pred_line(forall/2,/usr/lib/swi-prolog/boot/apply.pl:52),forall(narrative_ontology:interval(26usc469_real_estate_exemption,0,10),data_repair:repair_interval(26usc469_real_estate_exemption))),frame(16,pred_line(scenario_manager:load_and_run/2,/home/scott/bin/structural_dynamics_model/prolog/scenario_manager.pl:109),scenario_manager:load_and_run(testsets/26usc469_real_estate_exemption.pl,26usc469_real_estate_exemption)),frame(15,foreign(system: <meta-call> / 1),<meta-call>(<garbage_collected>)),frame(14,pred_line(catch/3,/usr/lib/swi-prolog/boot/init.pl:565),catch(validation_suite:(...;...),error(existence_error(procedure,...),context(...,_7968)),validation_suite:(...,...))),frame(13,pred_line(catch_with_backtrace/3,/usr/lib/swi-prolog/boot/init.pl:645),catch_with_backtrace(validation_suite:(...;...),error(existence_error(procedure,...),context(...,_8044)),validation_suite:(...,...)))]),_7732))
+------------------------------------------
+Test suite completed at: Tue Feb 24 15:15:23 2026

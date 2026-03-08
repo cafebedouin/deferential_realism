@@ -29,7 +29,7 @@
 %                                        but switching costs make them inaccessible)
 %   tangled_rope       → mixed          (first-class coordination entangled with
 %                                        second-class extraction; reform = factoring)
-%   indexically_opaque  → undetermined   (constraint algebra unknown)
+%   naturalized  → undetermined   (constraint algebra unknown)
 %
 % WHERE THIS ILLUMINATES (vs. merely relabels):
 %   1. gauge_orbit/2 and preserved_under_context_shift/2 formalize what
@@ -99,8 +99,8 @@
 ]).
 
 :- use_module(drl_core).
-:- use_module(drl_modal_logic).
-:- use_module(structural_signatures).
+:- use_module(drl_boltzmann_analysis, [reformability_score/3]).
+:- use_module(signature_detection, [coupling_invariant_rope/2, has_viable_alternatives/2]).
 :- use_module(constraint_indexing).
 :- use_module(narrative_ontology).
 :- use_module(config).
@@ -290,7 +290,7 @@ type_to_dirac_class(snare, _, _, second_class).
 % is a choice among equivalent coordination solutions. A CI_Rope
 % (coupling_invariant_rope/2) is certified structurally sound.
 type_to_dirac_class(rope, C, _, first_class) :-
-    structural_signatures:coupling_invariant_rope(C, _), !.
+    signature_detection:coupling_invariant_rope(C, _), !.
 type_to_dirac_class(rope, _, _, first_class).
 
 % Scaffolds are first-class with temporal bound: temporary coordination
@@ -311,13 +311,13 @@ type_to_dirac_class(piton, _, _, first_class_degenerate).
 % problem IS the factoring problem — can you separate the gauge
 % (coordination) from the genuine restriction (extraction)?
 type_to_dirac_class(tangled_rope, C, Context, mixed(Separability)) :-
-    drl_modal_logic:reformability_score(C, Context, Score),
+    drl_boltzmann_analysis:reformability_score(C, Context, Score),
     score_to_separability(Score, Separability).
 
-% Indexically opaque constraints have undetermined Dirac class:
+% Naturalized constraints have undetermined Dirac class:
 % the constraint algebra is unknown. Investigation IS the bracket
 % computation.
-type_to_dirac_class(indexically_opaque, _, _, undetermined).
+type_to_dirac_class(naturalized, _, _, undetermined).
 
 % Unknown constraints are undetermined by definition.
 type_to_dirac_class(unknown, _, _, undetermined).
@@ -361,7 +361,7 @@ describe_freedom(second_class, _, _, no_freedom).
 % First-class: coordination choice. Has viable alternatives?
 % (has_viable_alternatives/2 from structural_signatures.pl:186)
 describe_freedom(first_class, C, _, coordination_choice(HasAlts)) :-
-    structural_signatures:has_viable_alternatives(C, HasAlts).
+    signature_detection:has_viable_alternatives(C, HasAlts).
 
 % Degenerate first-class: gauge frozen by switching costs.
 % Theater ratio measures how much activity is performative compliance

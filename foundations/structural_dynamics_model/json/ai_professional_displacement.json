@@ -1,0 +1,198 @@
+{
+  "header": {
+    "constraint_id": "ai_professional_displacement",
+    "version": "1.0",
+    "generated_date": "2026-02-26",
+    "status": "ACTIVE",
+    "measurement_id_prefix": "aipd"
+  },
+  "base_properties": {
+    "extractiveness": 0.58,
+    "suppression": 0.65,
+    "theater_ratio": 0.38,
+    "claimed_type": "tangled_rope",
+    "human_readable": "AI-Driven Displacement of Entry-Level Professional Pathways",
+    "topic_domain": "economic/technological",
+    "requires_active_enforcement": true,
+    "beneficiaries": [
+      "incumbent_professionals",
+      "firm_management"
+    ],
+    "victims": [
+      "new_graduates",
+      "early_career_professionals"
+    ]
+  },
+  "perspectives": [
+    {
+      "classification_type": "snare",
+      "agent_power": "powerless",
+      "time_horizon": "biographical",
+      "exit_options": "trapped",
+      "spatial_scope": "global",
+      "label": "The New Graduate",
+      "comment": "PERSPECTIVE 1: NEW GRADUATE (SNARE) \u2014 No entry point exists. Traditional pathway (perform grunt work, develop skills, advance) has been severed by automation. Cannot exit professional services (social pressure, educational investment, debt), cannot acquire skills without entry-level position, cannot access capital to create alternatives. Maximum extraction: educational debt serviced while employment prospects collapse. Suppression is total \u2014 no viable alternative career pathway recognized or supported."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "moderate",
+      "time_horizon": "biographical",
+      "exit_options": "constrained",
+      "spatial_scope": "national",
+      "label": "The Early-Career Professional",
+      "comment": "PERSPECTIVE 2: EARLY-CAREER PROFESSIONAL (TANGLED ROPE) \u2014 Some mobility (alternative industries, geographic relocation) but constrained by credential requirements and credential sunk costs. Experiences both coordination benefit (AI tools accelerate legitimate work) and extraction (wage compression, task elimination, accelerated obsolescence of junior skills). Can organize peer pressure and collective job-seeking but faces power imbalance with hiring institutions. Partial exit through skill specialization (AI training, client relationships) available but requires institutional support."
+    },
+    {
+      "classification_type": "rope",
+      "agent_power": "institutional",
+      "time_horizon": "immediate",
+      "exit_options": "arbitrage",
+      "spatial_scope": "global",
+      "label": "Professional Services Firm Management",
+      "comment": "PERSPECTIVE 3: FIRM MANAGEMENT (ROPE) \u2014 Experiences constraint as pure coordination problem: automating document review, legal research, financial modeling, and case analysis reduces costs and improves throughput. Coordination benefit is real and high \u2014 AI tools genuinely improve efficiency. Arbitrage exit is robust (deploy AI in multiple firms, capture margin improvement, exit into cost-leadership strategy). No meaningful suppression from this agent's position. Extraction flow runs away from them (toward shareholders and firm partners). Classification as pure rope masks the extraction happening downstream."
+    },
+    {
+      "classification_type": "scaffold",
+      "agent_power": "organized",
+      "time_horizon": "generational",
+      "exit_options": "constrained",
+      "spatial_scope": "national",
+      "label": "Professional Associations and Regulatory Bodies",
+      "comment": "PERSPECTIVE 4: PROFESSIONAL ASSOCIATIONS/REGULATORY BODIES (SCAFFOLD) \u2014 Bar associations, accounting bodies, and industry groups see a temporary coordination failure with sunset logic: apprenticeship models, mandatory mentorship requirements, AI-assisted learning pathways, and credential-by-portfolio mechanisms are emerging as alternatives to the traditional grunt-work entry model. Suppression is declining as organized agents build new infrastructure. Theater is moderate (certification rituals persist but new pathways bypass them). Sunset estimated at 10-15 years as alternative credentialing systems mature and labor market organizes."
+    },
+    {
+      "classification_type": "piton",
+      "agent_power": "powerful",
+      "time_horizon": "biographical",
+      "exit_options": "mobile",
+      "spatial_scope": "national",
+      "label": "Large Professional Firms (Incumbent Partners)",
+      "comment": "PERSPECTIVE 5: INCUMBENT PARTNERS (PITON) \u2014 Senior partners in established firms experience the constraint as theatrical maintenance of traditional hierarchy: they benefited from grinding through entry-level work (sunk cost legitimacy), and maintain the barrier even as AI makes it functionally unnecessary. The constraint persists through institutional inertia and credential gatekeeping, not functional necessity. High theater ratio (elaborate onboarding rituals, 'apprenticeship' structures that AI has made performative). Extractive force is declining as next-generation partners question the value, but the structure persists."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "organized",
+      "time_horizon": "generational",
+      "exit_options": "constrained",
+      "spatial_scope": "global",
+      "label": "Technology Vendors and AI Systems Providers",
+      "comment": "PERSPECTIVE 6: AI VENDORS (TANGLED ROPE) \u2014 Provide genuine coordination benefit (document automation, contract analysis, research synthesis genuinely improve firm productivity). However, vendors are incentivized to suppress competing alternative models (cheaper open-source tools, internal firm AI development) through licensing lock-in and feature bundling. Active enforcement of proprietary standards masks what could be commodity infrastructure. Extraction is moderate but asymmetric: vendors capture value from the crisis they enable. Suppression is moderate (open-source alternatives exist but face adoption barriers)."
+    },
+    {
+      "classification_type": "mountain",
+      "agent_power": "analytical",
+      "time_horizon": "civilizational",
+      "exit_options": "analytical",
+      "spatial_scope": "universal",
+      "label": "The Analytical Observer (False Summit)",
+      "comment": "PERSPECTIVE 7: ANALYTICAL OBSERVER / FALSE SUMMIT (MOUNTAIN) \u2014 Risks naturalizing this as inevitable: 'Technological disruption always displaces entry-level work; this is how creative destruction works.' Frames the constraint as inherent to technological progress rather than a contingent institutional arrangement. But the structural data contradicts the mountain classification \u2014 the organized response (scaffold perspective), the viable alternative credentialing models, and the policy levers (apprenticeship mandates, credential portability, firm-sponsored training) all indicate this is NOT a natural law. The false summit conceals the choice to maintain the barrier."
+    }
+  ],
+  "omegas": [
+    {
+      "id": "alternative_credentialing_viability",
+      "question": "Can alternative credentialing systems (apprenticeships, AI-assisted learning, portfolio-based credentials) actually replace traditional entry-level work as a professional socialization and skill-building pathway?",
+      "resolution_mechanism": "Longitudinal tracking of outcomes for cohorts credentialed through alternative pathways vs traditional entry-level work; employer acceptance rates; peer quality assessments by senior professionals; career trajectory data at 5-year and 10-year marks",
+      "impact": "If viable: scaffold sunset timeline is real and constraint degrades over 10-15 years into rope (coordination without extraction). If not viable: tangled rope or snare persists indefinitely; labor market bifurcates into credential-locked entry and AI-assisted incumbents.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Whether alternative credentialing can replace traditional entry pathways"
+    },
+    {
+      "id": "firm_incentive_structure",
+      "question": "Are firms genuinely indifferent to entry-level junior talent given AI automation, or do they maintain gatekeeping barriers to preserve cultural control and power structure over the junior cohort?",
+      "resolution_mechanism": "Analysis of hiring patterns in AI-heavy vs AI-light practices; survey data on stated reasons for entry-level hiring; accounting for positions eliminated vs transformed; interviews with hiring partners on training ROI and cultural transmission goals",
+      "impact": "If indifferent: constraint is purely technological and will optimize toward minimal hiring (full snare for new graduates). If cultural: firms will maintain token entry pathways and extract via underpayment/overwork (tangled rope persists). If hybrid: intermediate outcome.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Firm incentive structure regarding junior talent development"
+    },
+    {
+      "id": "labor_surplus_absorption_capacity",
+      "question": "What is the absorption capacity of adjacent industries (tech, analytics, government, non-profits) for displaced entry-level professional talent, and what are the credential transfer requirements?",
+      "resolution_mechanism": "Sector-by-sector hiring demand analysis; credential bridge program success rates; wage outcomes for career switchers; identification of artificial credential barriers vs genuine skill gaps",
+      "impact": "If high absorption: constraint is temporary (scaffold sunset is real). If low absorption: constraint drives permanent wage suppression or credential inflation in adjacent sectors (snare spreads laterally).",
+      "confidence": "high",
+      "type_class": "empirical",
+      "description": "Adjacent industry absorption capacity for displaced entry-level talent"
+    },
+    {
+      "id": "public_policy_intervention_likelihood",
+      "question": "What is the likelihood that policymakers will mandate apprenticeship-style requirements, credential portability, or firm-sponsored training to maintain professional pipeline capacity?",
+      "resolution_mechanism": "Analysis of regulatory proposals; interviews with bar associations and credential bodies; political economy of professional lobbying; comparison to historical labor market disruptions (e.g., accounting automation, paralegal automation)",
+      "impact": "If high intervention: constraint is actively being resolved via scaffold mechanism (policy-driven sunset). If low intervention: constraint persists absent market-driven solutions, suggesting structural lock-in.",
+      "confidence": "low",
+      "type_class": "preference",
+      "description": "Political likelihood of policy intervention to maintain professional pipelines"
+    }
+  ],
+  "measurements": [
+    {
+      "metric": "base_extractiveness",
+      "time_point": 0,
+      "value": 0.25
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 3,
+      "value": 0.42
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 6,
+      "value": 0.58
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 0,
+      "value": 0.32
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 3,
+      "value": 0.35
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 6,
+      "value": 0.38
+    }
+  ],
+  "interval": {
+    "start": 0,
+    "end": 6
+  },
+  "commentary": {
+    "narrative_context": "AI-driven automation of entry-level professional work is creating a structural barrier to career entry that exhibits all characteristics of a tangled rope constraint: genuine coordination benefits (improved firm productivity, faster document processing, better research synthesis) coexist with asymmetric extraction (wage suppression, skill obsolescence, blocked pathways). The constraint operates through active enforcement of credentialing gatekeeping \u2014 firms maintain traditional entry-level hiring and task structures not because they need them but because incumbent professionals derive status and control from the barrier. New graduates face maximum extraction (debt serviced while employment prospects collapse) while firm management experiences pure coordination benefit. The constraint is not technologically inevitable; alternative credentialing systems (apprenticeships, AI-assisted skill development, portfolio-based credentials) exist and are being deployed by forward-looking organizations. The theater ratio remains relatively low (0.38) because the constraint is enforced through real economic mechanisms, not performative ritual \u2014 yet. Rising theater indicates possible piton degradation as the functional justification for entry-level work erodes and gatekeeping becomes increasingly theatrical.",
+    "key_agents": [
+      "New Graduates: Primary victims (powerless/trapped) \u2014 bear full extraction through debt servicing and pathway blockage; cannot exit credentialing requirements",
+      "Early-Career Professionals: Secondary victims (moderate/constrained) \u2014 partially affected; some mobility through specialization or sector switching but career trajectory compressed",
+      "Professional Services Firm Management: Primary beneficiaries (institutional/arbitrage) \u2014 capture coordination gains through AI automation; low suppression; high arbitrage capacity",
+      "Incumbent Senior Partners: Tertiary beneficiaries (powerful/mobile) \u2014 maintain cultural control and hierarchical gatekeeping; experience constraint as performative ritual (piton perspective)",
+      "Professional Associations and Regulatory Bodies: Organized agents (organized/constrained) \u2014 building alternative credentialing pathways; positioned to sunset traditional entry model",
+      "AI Technology Vendors: Tertiary beneficiaries (organized/constrained) \u2014 capture licensing value from automation; suppress open-source alternatives through platform lock-in",
+      "Analytical Observer: Civilizational perspective (analytical/analytical) \u2014 risks naturalizing institutional choice as technological inevitability"
+    ],
+    "logic_rationale": "Extractiveness (0.58): High-moderate. The constraint extracts through wage suppression (entry-level positions eliminated or downgraded), credential inflation (educational requirements rising while career entry points shrink), and opportunity cost (new graduates forced into adjacent lower-wage sectors or prolonged unemployment). But extraction is not total because new graduates retain human capital and some alternative pathways exist. The value reflects the structural reality: automation genuinely eliminates work, and firms adjust by either (a) consolidating tasks upward (fewer, higher-level positions), (b) shifting costs to junior workers (more competition for fewer positions, wage suppression), or (c) outsourcing via temp/contract labor. Suppression (0.65): High. Multiple barriers reinforce the constraint: (1) credentialing requirements remain high even as entry-level work is eliminated; (2) firms maintain traditional hiring structures for cultural/status reasons; (3) alternative credentialing systems lack institutional recognition; (4) debt burden limits geographic mobility and risk-taking; (5) professional culture stigmatizes non-traditional entry. Theater ratio (0.38): Low-moderate. The constraint is enforced through real economic mechanisms (task elimination, wage competition, debt burden), not primarily through performative ritual. However, theater is rising (measurement trajectory shows 0.32\u21920.35\u21920.38) as the functional justification for entry-level apprenticeship erodes and firms maintain hiring structures increasingly for cultural gatekeeping rather than operational necessity.",
+    "directionality_logic": "The directionality derivation follows the structural relationship of each agent to the constraint. New graduates are victims with no exit (trapped) \u2192 high d \u2192 high f(d) \u2192 high experienced extraction. Firm management are beneficiaries with arbitrage exit (can deploy AI strategy globally, pivot business model) \u2192 low d \u2192 negative f(d) \u2192 negative/neutral experienced extraction. Early-career professionals are victims with constrained exit (some geographic/sectoral mobility but credential lock-in) \u2192 intermediate d \u2192 intermediate f(d) \u2192 moderate extraction. Professional associations are organized agents with constrained exit (bound by regulation, member interests) but positioned as architects of alternative credentialing \u2192 intermediate d with asymmetric benefit/cost. Incumbent partners benefit but experience the constraint as piton (performative maintenance) \u2192 intermediate d masked by theatrical maintenance. The tangled rope classification requires both coordination function (AI genuinely improves firm operations) and asymmetric extraction (benefits concentrated upward, costs concentrated downward), both of which are present. Suppression is independent of directionality \u2014 the structural barriers to alternative credentialing (regulatory lock-in, employer preference for traditional credentials, educational system inertia) apply regardless of agent perspective.",
+    "perspectival_gap": "The perspectival gap is extreme. Firm management (institutional/arbitrage) experiences pure coordination: 'We're automating document review and legal research; this improves quality and reduces costs.' New graduates (powerless/trapped) experience pure extraction: 'Entry-level positions disappeared and I cannot accumulate human capital.' The piton perspective (incumbent partners) sees performative gatekeeping: 'We maintain traditional apprenticeship structures for cultural reasons even though AI has made them unnecessary.' The scaffold perspective (organized agents) sees a sunset trajectory: 'Alternative credentialing systems are maturing; in 10-15 years, the traditional bottleneck will be bypassed.' The false mountain perspective risks naturalizing: 'Technological disruption always displaces entry-level work; this is how capitalism works.' The gap reveals that the constraint is not a technology problem \u2014 it is a choice problem. AI automation is real, but the decision to eliminate entry-level positions while maintaining credentialing barriers is institutional. Alternative arrangements (mandatory apprenticeships, firm-sponsored training, credential portability, accelerated advancement for high-performers) are structurally feasible but politically blocked.",
+    "mandatrophy_analysis": "The mandatrophy in this constraint is the false identification of technological inevitability with institutional necessity. The constraint appears natural ('AI makes entry-level work obsolete, so new graduates must accept worse terms') but is actually contingent ('Firms chose to eliminate entry-level work while maintaining credentialing barriers because it increases extraction'). The resolution is not 'choose between coordination and extraction' but 'recognize that the constraint is structured to extract maximum value from the coordination gain.' Firm management genuinely captures productivity improvement from AI automation \u2014 this is real coordination. But instead of sharing the gain (higher entry wages, more stable positions, better training), firms capture it as margin improvement. The mandatrophy is resolved by showing that (1) the coordination function is real (tangled rope, not pure snare), (2) the extraction is active and institutional (not technological), (3) the suppression of alternatives is enforced through credentialing gatekeeping, and (4) organized agents (professional associations, regulatory bodies) are beginning to resolve it by building alternative credentialing systems. The scaffold perspective is not aspirational \u2014 it is emerging as a real structural response. The piton perspective confirms that incumbent gatekeeping is increasingly performative (theater rising) rather than functional."
+  },
+  "boltzmann": {
+    "coordination_type": "resource_allocation"
+  },
+  "network": {
+    "affects_constraints": [
+      "credential_inflation",
+      "labor_market_inequality",
+      "professional_pipeline_bottleneck"
+    ],
+    "dual_formulation_note": "AI-driven displacement of entry-level professional work can be decomposed into two constraints with different \u03b5 values: (1) the genuine technological displacement of routine cognitive work (\u03b5 \u2248 0.15, rope from firm perspective), and (2) the institutional choice to maintain credentialing barriers while eliminating entry pathways (\u03b5 \u2248 0.58, tangled rope from graduate perspective). This story models the composite institutional constraint; upstream constraint focuses on technological displacement alone."
+  },
+  "directionality_overrides": [
+    {
+      "power_atom": "institutional",
+      "d_value": 0.25
+    }
+  ]
+}

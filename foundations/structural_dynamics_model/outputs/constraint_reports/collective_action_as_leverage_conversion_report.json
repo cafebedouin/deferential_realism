@@ -1,0 +1,81 @@
+{
+  "constraint_id": "collective_action_as_leverage_conversion",
+  "iteration_round": null,
+  "verdict": "YELLOW",
+  "subsystems_checked": [
+    12,
+    12
+  ],
+  "tensions": [
+    {
+      "subsystem": "maxent",
+      "code": "entropy_flag",
+      "detail": "entropy_flag(0.41238909210244096)"
+    },
+    {
+      "subsystem": "abductive",
+      "code": "abductive_tension",
+      "detail": "abductive_tension([trigger(confirmed_liminal,0.85,triple_confirmed_liminality,genuine),trigger(maxent_divergence,0.88,indexing_divergence_with_obstruction,genuine)])"
+    }
+  ],
+  "tension_count": 2,
+  "expected_conflicts": [
+    {
+      "subsystem": "cohomology",
+      "code": "cohomological_fracture_divergence"
+    },
+    {
+      "subsystem": "boltzmann",
+      "code": "constructed_non_compliance"
+    },
+    {
+      "subsystem": "dirac",
+      "code": "pre_post_override_divergence"
+    },
+    {
+      "subsystem": "gauge_orbit",
+      "code": "perspectival_orbit_variance"
+    }
+  ],
+  "convergent_rejections": "none",
+  "classification": {
+    "claimed_type": "rope",
+    "classified_type": "tangled_rope",
+    "mismatch": true,
+    "confidence": 0.27458,
+    "confidence_band": "borderline",
+    "rival_type": "tangled_rope",
+    "rival_p": 0.686715,
+    "boundary": "rope->tangled_rope",
+    "psi": null,
+    "psi_label": null
+  },
+  "hard_disagreement": {
+    "pipeline": "rope",
+    "maxent": "tangled_rope"
+  },
+  "drift_events": [
+    {
+      "severity": "warning",
+      "type": "extraction_accumulation"
+    },
+    {
+      "severity": "warning",
+      "type": "coupling_drift"
+    },
+    {
+      "severity": "warning",
+      "type": "purity_drift"
+    }
+  ],
+  "mandatrophy_gap": {
+    "delta_chi": 0.43,
+    "severity": "moderate"
+  },
+  "structural_signature": "false_ci_rope",
+  "purity": {
+    "value": 0.4205,
+    "band": "contaminated"
+  },
+  "post_synthesis_flags": []
+}

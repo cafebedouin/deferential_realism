@@ -1,0 +1,1313 @@
+{
+  "metadata": {
+    "description": "Institutional dissent analysis: low-snare vs high-snare comparison",
+    "snare_threshold": 0.5,
+    "has_scipy": true,
+    "total": 293,
+    "low_snare_n": 221,
+    "high_snare_n": 72
+  },
+  "population": {
+    "low_snare": {
+      "n": 221,
+      "p_snare_stats": {
+        "n": 221,
+        "mean": 0.116555,
+        "median": 0.039756,
+        "std": 0.141297,
+        "min": 0.0,
+        "max": 0.497834,
+        "q25": 0.003031,
+        "q75": 0.24003,
+        "iqr": 0.236999
+      }
+    },
+    "high_snare": {
+      "n": 72,
+      "p_snare_stats": {
+        "n": 72,
+        "mean": 0.801295,
+        "median": 0.861477,
+        "std": 0.190886,
+        "min": 0.506453,
+        "max": 0.999873,
+        "q25": 0.612203,
+        "q75": 0.989133,
+        "iqr": 0.37693
+      }
+    },
+    "total": 293,
+    "threshold": 0.5
+  },
+  "metric_comparison": {
+    "base_extractiveness": {
+      "low_snare": {
+        "n": 221,
+        "mean": 0.485656,
+        "median": 0.48,
+        "std": 0.118008,
+        "min": 0.3,
+        "max": 0.95,
+        "q25": 0.4,
+        "q75": 0.52,
+        "iqr": 0.12
+      },
+      "high_snare": {
+        "n": 72,
+        "mean": 0.663333,
+        "median": 0.715,
+        "std": 0.167606,
+        "min": 0.4,
+        "max": 1.0,
+        "q25": 0.48,
+        "q75": 0.8,
+        "iqr": 0.32
+      },
+      "mann_whitney": {
+        "U": 3241.5,
+        "p_value": 0.0,
+        "rank_biserial_r": 0.5926
+      }
+    },
+    "suppression": {
+      "low_snare": {
+        "n": 221,
+        "mean": 0.513032,
+        "median": 0.5,
+        "std": 0.130946,
+        "min": 0.1,
+        "max": 0.85,
+        "q25": 0.42,
+        "q75": 0.65,
+        "iqr": 0.23
+      },
+      "high_snare": {
+        "n": 72,
+        "mean": 0.733333,
+        "median": 0.75,
+        "std": 0.127748,
+        "min": 0.4,
+        "max": 1.0,
+        "q25": 0.7,
+        "q75": 0.84,
+        "iqr": 0.14
+      },
+      "mann_whitney": {
+        "U": 1786.5,
+        "p_value": 0.0,
+        "rank_biserial_r": 0.7755
+      }
+    },
+    "theater_ratio": {
+      "low_snare": {
+        "n": 221,
+        "mean": 0.19991,
+        "median": 0.15,
+        "std": 0.162046,
+        "min": 0.0,
+        "max": 0.85,
+        "q25": 0.1,
+        "q75": 0.2,
+        "iqr": 0.1
+      },
+      "high_snare": {
+        "n": 72,
+        "mean": 0.239722,
+        "median": 0.175,
+        "std": 0.183538,
+        "min": 0.0,
+        "max": 0.75,
+        "q25": 0.1,
+        "q75": 0.3,
+        "iqr": 0.2
+      },
+      "mann_whitney": {
+        "U": 7141.0,
+        "p_value": 0.18518744,
+        "rank_biserial_r": 0.1024
+      }
+    },
+    "purity_score": {
+      "low_snare": {
+        "n": 212,
+        "mean": 0.477665,
+        "median": 0.474333,
+        "std": 0.105768,
+        "min": 0.276333,
+        "max": 0.755,
+        "q25": 0.402167,
+        "q75": 0.575,
+        "iqr": 0.172833
+      },
+      "high_snare": {
+        "n": 70,
+        "mean": 0.486564,
+        "median": 0.526333,
+        "std": 0.099115,
+        "min": 0.3125,
+        "max": 0.575,
+        "q25": 0.386167,
+        "q75": 0.575,
+        "iqr": 0.188833
+      },
+      "mann_whitney": {
+        "U": 6914.0,
+        "p_value": 0.39168912,
+        "rank_biserial_r": 0.0682
+      }
+    },
+    "confidence": {
+      "low_snare": {
+        "n": 221,
+        "mean": 0.913864,
+        "median": 0.979075,
+        "std": 0.182833,
+        "min": 0.000223,
+        "max": 1.0,
+        "q25": 0.892685,
+        "q75": 0.997334,
+        "iqr": 0.104649
+      },
+      "high_snare": {
+        "n": 72,
+        "mean": 0.322535,
+        "median": 0.104678,
+        "std": 0.301555,
+        "min": 0.000381,
+        "max": 0.745103,
+        "q25": 0.031755,
+        "q75": 0.655145,
+        "iqr": 0.62339
+      },
+      "mann_whitney": {
+        "U": 15419.0,
+        "p_value": 0.0,
+        "rank_biserial_r": -0.938
+      }
+    },
+    "confidence_margin": {
+      "low_snare": {
+        "n": 221,
+        "mean": 0.836343,
+        "median": 0.958694,
+        "std": 0.33277,
+        "min": -0.997315,
+        "max": 1.0,
+        "q25": 0.785432,
+        "q75": 0.995104,
+        "iqr": 0.209672
+      },
+      "high_snare": {
+        "n": 72,
+        "mean": -0.342121,
+        "median": -0.623144,
+        "std": 0.595773,
+        "min": -0.999238,
+        "max": 0.490223,
+        "q25": -0.936184,
+        "q75": 0.31033,
+        "iqr": 1.246514
+      },
+      "mann_whitney": {
+        "U": 15524.0,
+        "p_value": 0.0,
+        "rank_biserial_r": -0.9512
+      }
+    },
+    "tangled_psi": {
+      "low_snare": {
+        "n": 221,
+        "mean": 0.717888,
+        "median": 0.935934,
+        "std": 0.347454,
+        "min": 0.0,
+        "max": 0.997539,
+        "q25": 0.459807,
+        "q75": 0.989611,
+        "iqr": 0.529804
+      },
+      "high_snare": {
+        "n": 72,
+        "mean": 0.998056,
+        "median": 0.998646,
+        "std": 0.001017,
+        "min": 0.996092,
+        "max": 0.999001,
+        "q25": 0.997396,
+        "q75": 0.998968,
+        "iqr": 0.001572
+      },
+      "mann_whitney": {
+        "U": 89.0,
+        "p_value": 0.0,
+        "rank_biserial_r": 0.9888
+      }
+    }
+  },
+  "signature_comparison": {
+    "cross_tab": {
+      "constructed_high_extraction": {
+        "low_snare": 6,
+        "high_snare": 10
+      },
+      "false_ci_rope": {
+        "low_snare": 215,
+        "high_snare": 62
+      }
+    },
+    "chi_squared": {
+      "chi2": 11.059,
+      "p_value": 0.00088256,
+      "dof": 1,
+      "cramers_v": 0.1943
+    },
+    "cramers_v": 0.1943
+  },
+  "orbit_comparison": {
+    "orbit_signature_distribution": {
+      "rope+snare": {
+        "low_snare": 0,
+        "high_snare": 27
+      },
+      "rope+tangled_rope": {
+        "low_snare": 211,
+        "high_snare": 34
+      },
+      "scaffold+snare": {
+        "low_snare": 4,
+        "high_snare": 9
+      },
+      "scaffold+tangled_rope": {
+        "low_snare": 6,
+        "high_snare": 2
+      }
+    },
+    "orbit_chi_squared": {
+      "chi2": 111.9852,
+      "p_value": 0.0,
+      "dof": 3,
+      "cramers_v": 0.6182
+    },
+    "h1": {
+      "low_snare": {
+        "n": 221,
+        "mean": 2.0,
+        "median": 2,
+        "std": 0.0,
+        "min": 2,
+        "max": 2,
+        "q25": 2,
+        "q75": 2,
+        "iqr": 0
+      },
+      "high_snare": {
+        "n": 72,
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0,
+        "min": 2,
+        "max": 2,
+        "q25": 2,
+        "q75": 2,
+        "iqr": 0
+      },
+      "mann_whitney_p": 1.0
+    },
+    "non_institutional_views": {
+      "powerless": {
+        "low_snare": {
+          "tangled_rope": 217,
+          "snare": 4
+        },
+        "high_snare": {
+          "tangled_rope": 36,
+          "snare": 36
+        }
+      },
+      "moderate": {
+        "low_snare": {
+          "tangled_rope": 207,
+          "rope": 10,
+          "snare": 4
+        },
+        "high_snare": {
+          "tangled_rope": 36,
+          "snare": 36
+        }
+      },
+      "analytical": {
+        "low_snare": {
+          "tangled_rope": 217,
+          "snare": 4
+        },
+        "high_snare": {
+          "tangled_rope": 36,
+          "snare": 36
+        }
+      }
+    },
+    "perspective_patterns": {
+      "low_snare": {
+        "tangled_rope/tangled_rope/rope/tangled_rope": 201,
+        "tangled_rope/rope/rope/tangled_rope": 10,
+        "tangled_rope/tangled_rope/scaffold/tangled_rope": 6,
+        "snare/snare/scaffold/snare": 4
+      },
+      "high_snare": {
+        "tangled_rope/tangled_rope/rope/tangled_rope": 34,
+        "snare/snare/rope/snare": 27,
+        "snare/snare/scaffold/snare": 9,
+        "tangled_rope/tangled_rope/scaffold/tangled_rope": 2
+      }
+    }
+  },
+  "domain_comparison": {
+    "cross_tab": {
+      "biological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "biological/cognitive/educational": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "biological/environmental": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "biological/healthcare": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "cognitive/social/economic": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "cognitive/technological/social": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "condensed_matter_physics/superconductivity/quantum_materials": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic": {
+        "low_snare": 24,
+        "high_snare": 1
+      },
+      "economic, technological, geopolitical": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/educational": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/environmental/political": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/financial": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/geopolitical": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/legal/technological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/political": {
+        "low_snare": 12,
+        "high_snare": 5
+      },
+      "economic/political/social": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/political/technological": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "economic/scientific": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/social": {
+        "low_snare": 4,
+        "high_snare": 1
+      },
+      "economic/social/biological": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "economic/social/technological": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "economic/technological": {
+        "low_snare": 5,
+        "high_snare": 1
+      },
+      "economic/technological/environmental": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/technological/healthcare": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "environmental/cultural": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "environmental/political": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "geopolitical": {
+        "low_snare": 1,
+        "high_snare": 2
+      },
+      "geopolitical/economic": {
+        "low_snare": 2,
+        "high_snare": 1
+      },
+      "geopolitical/technological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "geopolitical/technological/economic": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "health/agriculture": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "health/economic": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "health/scientific/economic": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "institutional/technological": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "investigation/testing": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "legal/economic": {
+        "low_snare": 2,
+        "high_snare": 0
+      },
+      "legal/geopolitical/environmental": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "legal/institutional": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "legal/social": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "legal/technological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "mathematical": {
+        "low_snare": 2,
+        "high_snare": 0
+      },
+      "mathematical/biological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "mathematical/economic": {
+        "low_snare": 1,
+        "high_snare": 1
+      },
+      "mathematical/logical": {
+        "low_snare": 1,
+        "high_snare": 1
+      },
+      "mathematical/philosophical": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "mathematical/physical": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "mathematical/technological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "medical/legal/institutional": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "organizational/economic": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "philosophical/evolutionary": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "philosophical/political": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "philosophical/religious": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "philosophical/social": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "physics/condensed_matter": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "political": {
+        "low_snare": 10,
+        "high_snare": 2
+      },
+      "political/economic": {
+        "low_snare": 5,
+        "high_snare": 1
+      },
+      "political/economic/technological": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "political/environmental": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "political/legal": {
+        "low_snare": 2,
+        "high_snare": 2
+      },
+      "political/military/technological": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "political/security": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "political/social": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "political/social/economic": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "political/technological": {
+        "low_snare": 1,
+        "high_snare": 1
+      },
+      "psychological/biological": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "psychological/economic/social": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "psychological/professional/biochemical": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "psychology/behavioral_science": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "public_health/policy": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "religious/linguistic/political": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "religious/social/philosophical": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "religious/social/psychological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "scientific": {
+        "low_snare": 3,
+        "high_snare": 0
+      },
+      "scientific (mathematical physics / quantum chaos)": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "scientific/biological": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "scientific/cosmological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "scientific/epistemology": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "scientific/political/economic": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "scientific/sociological": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "snare": {
+        "low_snare": 19,
+        "high_snare": 7
+      },
+      "social": {
+        "low_snare": 8,
+        "high_snare": 0
+      },
+      "social/cognitive": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "social/cognitive/technological": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "social/economic": {
+        "low_snare": 4,
+        "high_snare": 0
+      },
+      "social/ethical": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "social/existential": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "social/familial": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "social/linguistic/political": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "social/medical": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "social/philosophical": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "social/political": {
+        "low_snare": 1,
+        "high_snare": 1
+      },
+      "social/political/biological": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "social/political/technological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "social/professional": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "social/psychological": {
+        "low_snare": 6,
+        "high_snare": 0
+      },
+      "social/technological": {
+        "low_snare": 2,
+        "high_snare": 1
+      },
+      "socio_political": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "tangled_rope": {
+        "low_snare": 6,
+        "high_snare": 0
+      },
+      "technological": {
+        "low_snare": 26,
+        "high_snare": 7
+      },
+      "technological/biological": {
+        "low_snare": 1,
+        "high_snare": 1
+      },
+      "technological/cognitive": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "technological/economic": {
+        "low_snare": 8,
+        "high_snare": 6
+      },
+      "technological/economic/biological": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "technological/educational/economic": {
+        "low_snare": 2,
+        "high_snare": 0
+      },
+      "technological/legal": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "technological/military/legal": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "technological/political": {
+        "low_snare": 1,
+        "high_snare": 1
+      },
+      "technological/scientific": {
+        "low_snare": 2,
+        "high_snare": 1
+      },
+      "technological/social": {
+        "low_snare": 1,
+        "high_snare": 4
+      },
+      "technological/social/biological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "technological/social/economic": {
+        "low_snare": 2,
+        "high_snare": 0
+      }
+    },
+    "chi_squared": {
+      "chi2": 130.3416,
+      "p_value": 0.0902371,
+      "dof": 110,
+      "cramers_v": 0.667
+    },
+    "cramers_v": 0.667
+  },
+  "beneficiary_victim": {
+    "beneficiaries": {
+      "low_snare": {
+        "n": 221,
+        "mean": 1.334842,
+        "median": 1,
+        "std": 0.534856,
+        "min": 1,
+        "max": 3,
+        "q25": 1,
+        "q75": 2,
+        "iqr": 1
+      },
+      "high_snare": {
+        "n": 72,
+        "mean": 1.319444,
+        "median": 1.0,
+        "std": 0.548391,
+        "min": 0,
+        "max": 3,
+        "q25": 1,
+        "q75": 2,
+        "iqr": 1
+      },
+      "mann_whitney_p": 0.893089,
+      "unique_labels": {
+        "low_snare": 291,
+        "high_snare": 91,
+        "overlap": 4
+      }
+    },
+    "victims": {
+      "low_snare": {
+        "n": 221,
+        "mean": 1.316742,
+        "median": 1,
+        "std": 0.484269,
+        "min": 1,
+        "max": 3,
+        "q25": 1,
+        "q75": 2,
+        "iqr": 1
+      },
+      "high_snare": {
+        "n": 72,
+        "mean": 1.361111,
+        "median": 1.0,
+        "std": 0.508417,
+        "min": 0,
+        "max": 2,
+        "q25": 1,
+        "q75": 2,
+        "iqr": 1
+      },
+      "mann_whitney_p": 0.396408,
+      "unique_labels": {
+        "low_snare": 287,
+        "high_snare": 96,
+        "overlap": 5
+      }
+    },
+    "beneficiary_victim_overlap": {
+      "low_snare": 6,
+      "high_snare": 1
+    }
+  },
+  "discriminant_ranking": [
+    {
+      "feature": "tangled_psi",
+      "type": "continuous",
+      "effect_size": 0.9888,
+      "metric": "|rank_biserial_r|",
+      "raw_value": 0.9888,
+      "p_value": 0.0
+    },
+    {
+      "feature": "confidence_margin",
+      "type": "continuous",
+      "effect_size": 0.9512,
+      "metric": "|rank_biserial_r|",
+      "raw_value": -0.9512,
+      "p_value": 0.0
+    },
+    {
+      "feature": "confidence",
+      "type": "continuous",
+      "effect_size": 0.938,
+      "metric": "|rank_biserial_r|",
+      "raw_value": -0.938,
+      "p_value": 0.0
+    },
+    {
+      "feature": "suppression",
+      "type": "continuous",
+      "effect_size": 0.7755,
+      "metric": "|rank_biserial_r|",
+      "raw_value": 0.7755,
+      "p_value": 0.0
+    },
+    {
+      "feature": "topic_domain",
+      "type": "categorical",
+      "effect_size": 0.667,
+      "metric": "cramers_v",
+      "raw_value": 0.667,
+      "p_value": 0.0902371
+    },
+    {
+      "feature": "orbit_signature",
+      "type": "categorical",
+      "effect_size": 0.6182,
+      "metric": "cramers_v",
+      "raw_value": 0.6182,
+      "p_value": 0.0
+    },
+    {
+      "feature": "base_extractiveness",
+      "type": "continuous",
+      "effect_size": 0.5926,
+      "metric": "|rank_biserial_r|",
+      "raw_value": 0.5926,
+      "p_value": 0.0
+    },
+    {
+      "feature": "signature",
+      "type": "categorical",
+      "effect_size": 0.1943,
+      "metric": "cramers_v",
+      "raw_value": 0.1943,
+      "p_value": 0.00088256
+    },
+    {
+      "feature": "theater_ratio",
+      "type": "continuous",
+      "effect_size": 0.1024,
+      "metric": "|rank_biserial_r|",
+      "raw_value": 0.1024,
+      "p_value": 0.18518744
+    },
+    {
+      "feature": "purity_score",
+      "type": "continuous",
+      "effect_size": 0.0682,
+      "metric": "|rank_biserial_r|",
+      "raw_value": 0.0682,
+      "p_value": 0.39168912
+    }
+  ],
+  "spot_check_extremes": {
+    "lowest_snare": [
+      {
+        "id": "devotional_transformation",
+        "human_readable": null,
+        "topic_domain": "tangled_rope",
+        "raw_p_snare": 0.0,
+        "raw_p_rope": 5.7e-05,
+        "raw_p_tangled_rope": 0.992259,
+        "base_extractiveness": 0.45,
+        "suppression": 0.1,
+        "theater_ratio": 0.05,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "unclos_2026",
+        "human_readable": "UN Convention on the Law of the Sea (2026 Context)",
+        "topic_domain": "legal/geopolitical/environmental",
+        "raw_p_snare": 0.0,
+        "raw_p_rope": 0.065001,
+        "raw_p_tangled_rope": 0.899474,
+        "base_extractiveness": 0.3,
+        "suppression": 0.2,
+        "theater_ratio": 0.14,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "rosen_bridge_protocol",
+        "human_readable": "Rosen Bridge Cross-Chain Mechanism",
+        "topic_domain": "technological/economic",
+        "raw_p_snare": 1e-06,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.998619,
+        "base_extractiveness": 0.5,
+        "suppression": 0.2,
+        "theater_ratio": 0.1,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "rotation_seven_black_soil",
+        "human_readable": "R7 Black Soil Toxicity",
+        "topic_domain": "biological/environmental",
+        "raw_p_snare": 1e-06,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.999999,
+        "base_extractiveness": 0.95,
+        "suppression": 0.1,
+        "theater_ratio": 0.1,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "trillion_bond_rush_2026",
+        "human_readable": "Global $1 Trillion Bond Issuance Record",
+        "topic_domain": "economic/financial",
+        "raw_p_snare": 1e-06,
+        "raw_p_rope": 1.5e-05,
+        "raw_p_tangled_rope": 0.90012,
+        "base_extractiveness": 0.52,
+        "suppression": 0.1,
+        "theater_ratio": 0.1,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "scaffold",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "ergo_storage_rent",
+        "human_readable": "Ergo Storage Rent (UTXO Demurrage)",
+        "topic_domain": "technological/economic",
+        "raw_p_snare": 2e-06,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.999488,
+        "base_extractiveness": 0.55,
+        "suppression": 0.2,
+        "theater_ratio": 0.1,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "recipe_scaling_ai",
+        "human_readable": "The NYT Cooking Generative Scaling Constraint",
+        "topic_domain": "technological",
+        "raw_p_snare": 7e-06,
+        "raw_p_rope": 1e-06,
+        "raw_p_tangled_rope": 0.998812,
+        "base_extractiveness": 0.49,
+        "suppression": 0.25,
+        "theater_ratio": 0.1,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "scaffold",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "education_unbundling_implementation",
+        "human_readable": "The Modular Credentialing Transition",
+        "topic_domain": "technological/educational/economic",
+        "raw_p_snare": 1.4e-05,
+        "raw_p_rope": 0.00019,
+        "raw_p_tangled_rope": 0.995403,
+        "base_extractiveness": 0.4,
+        "suppression": 0.3,
+        "theater_ratio": 0.09,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "goodstein_theorem_finite_proof",
+        "human_readable": "Goodstein's Theorem: Finite Proof Requirement",
+        "topic_domain": "mathematical",
+        "raw_p_snare": 1.4e-05,
+        "raw_p_rope": 0.000185,
+        "raw_p_tangled_rope": 0.995443,
+        "base_extractiveness": 0.4,
+        "suppression": 0.3,
+        "theater_ratio": 0.1,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "shitty_feedback_handling",
+        "human_readable": "The Protocol for Handling Shitty Feedback",
+        "topic_domain": "social/professional",
+        "raw_p_snare": 1.4e-05,
+        "raw_p_rope": 0.000171,
+        "raw_p_tangled_rope": 0.995854,
+        "base_extractiveness": 0.4,
+        "suppression": 0.3,
+        "theater_ratio": 0.15,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      }
+    ],
+    "highest_snare": [
+      {
+        "id": "faint_blue_neural_bifurcation",
+        "human_readable": "The \"Ken\" Neural Enhancement Bifurcation",
+        "topic_domain": "technological/social",
+        "raw_p_snare": 0.99312,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.00688,
+        "base_extractiveness": 0.9,
+        "suppression": 0.8,
+        "theater_ratio": 0.1,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "rope",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "taiwan_strait_hegemony_shift",
+        "human_readable": "The Taiwan Strait Energy & Logistics Chokepoint",
+        "topic_domain": "political/economic",
+        "raw_p_snare": 0.99312,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.00688,
+        "base_extractiveness": 0.9,
+        "suppression": 0.8,
+        "theater_ratio": 0.1,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "rope",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "mit_tfus_2026",
+        "human_readable": "MIT tFUS Causal Consciousness Roadmap",
+        "topic_domain": "technological/biological",
+        "raw_p_snare": 0.994022,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.005952,
+        "base_extractiveness": 0.52,
+        "suppression": 0.84,
+        "theater_ratio": 0.12,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "scaffold",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "frankenstein_creation_hubris",
+        "human_readable": "The Creator's Burden",
+        "topic_domain": "technological/social",
+        "raw_p_snare": 0.994215,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.005785,
+        "base_extractiveness": 0.9,
+        "suppression": 0.85,
+        "theater_ratio": 0.1,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "rope",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "nsw_transmission_bottleneck",
+        "human_readable": "NSW Regional Transmission Congestion",
+        "topic_domain": "technological/political",
+        "raw_p_snare": 0.994253,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.00574,
+        "base_extractiveness": 0.58,
+        "suppression": 0.72,
+        "theater_ratio": 0.2,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "scaffold",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "mandatrophy_systemic_collapse",
+        "human_readable": "Mandatrophy (Systemic Resilience Wasting)",
+        "topic_domain": "institutional/technological",
+        "raw_p_snare": 0.995608,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.004392,
+        "base_extractiveness": 0.9,
+        "suppression": 0.75,
+        "theater_ratio": 0.4,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "rope",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "gilgamesh_mortality_limit",
+        "human_readable": "The Allotment of Mortality",
+        "topic_domain": "philosophical/religious",
+        "raw_p_snare": 0.997405,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.002595,
+        "base_extractiveness": 1.0,
+        "suppression": 0.9,
+        "theater_ratio": 0.1,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "rope",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "global_hoarding_scaling_laws",
+        "human_readable": "The Planetary Siphon",
+        "topic_domain": "economic/political",
+        "raw_p_snare": 0.997575,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.000863,
+        "base_extractiveness": 0.85,
+        "suppression": 0.9,
+        "theater_ratio": 0.6,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "rope",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "gs1_standardized_identification",
+        "human_readable": "GS1 Global Identification Standard (GTIN/GLN)",
+        "topic_domain": "technological/economic",
+        "raw_p_snare": 0.999176,
+        "raw_p_rope": 0.000172,
+        "raw_p_tangled_rope": 0.000627,
+        "base_extractiveness": 0.4,
+        "suppression": 0.8,
+        "theater_ratio": 0.11,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "the_churn_systemic_upheaval",
+        "human_readable": "The Churn (Systemic Collapse and Rebirth)",
+        "topic_domain": "political/social/economic",
+        "raw_p_snare": 0.999873,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.000127,
+        "base_extractiveness": 0.9,
+        "suppression": 0.8,
+        "theater_ratio": 0.1,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "scaffold",
+          "analytical": "snare"
+        }
+      }
+    ]
+  }
+}

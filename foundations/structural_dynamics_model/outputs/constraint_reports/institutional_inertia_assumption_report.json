@@ -1,0 +1,77 @@
+{
+  "constraint_id": "institutional_inertia_assumption",
+  "iteration_round": 2,
+  "verdict": "YELLOW",
+  "subsystems_checked": [
+    12,
+    12
+  ],
+  "tensions": [
+    {
+      "subsystem": "abductive",
+      "code": "abductive_tension",
+      "detail": "abductive_tension([trigger(convergent_structural_stress,0.9,multi_signal_convergence,genuine),trigger(epistemic_trap,0.78,restricted_view_divergence,genuine),trigger(classical_oracle_failure,0.78,confident_oracle_with_obstruction,genuine)])"
+    }
+  ],
+  "tension_count": 1,
+  "expected_conflicts": [
+    {
+      "subsystem": "maxent",
+      "code": "cohomological_fracture_divergence"
+    },
+    {
+      "subsystem": "cohomology",
+      "code": "cohomological_fracture_divergence"
+    },
+    {
+      "subsystem": "signature",
+      "code": "fcr_deferred_signature_mismatch"
+    },
+    {
+      "subsystem": "boltzmann",
+      "code": "constructed_non_compliance"
+    },
+    {
+      "subsystem": "gauge_orbit",
+      "code": "perspectival_orbit_variance"
+    }
+  ],
+  "convergent_rejections": "none",
+  "classification": {
+    "claimed_type": "tangled_rope",
+    "classified_type": "tangled_rope",
+    "mismatch": false,
+    "confidence": 0.780936,
+    "confidence_band": "moderate",
+    "rival_type": "snare",
+    "rival_p": 0.219064,
+    "boundary": "tangled_rope->snare",
+    "psi": 0.995456,
+    "psi_label": "snare_leaning"
+  },
+  "hard_disagreement": null,
+  "drift_events": [
+    {
+      "severity": "critical",
+      "type": "extraction_accumulation"
+    },
+    {
+      "severity": "critical",
+      "type": "coupling_drift"
+    },
+    {
+      "severity": "warning",
+      "type": "purity_drift"
+    }
+  ],
+  "mandatrophy_gap": {
+    "delta_chi": 0.54,
+    "severity": "high"
+  },
+  "structural_signature": "false_ci_rope",
+  "purity": {
+    "value": 0.3125,
+    "band": "contaminated"
+  },
+  "post_synthesis_flags": []
+}

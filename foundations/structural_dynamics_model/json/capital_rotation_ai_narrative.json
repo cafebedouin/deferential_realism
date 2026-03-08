@@ -1,0 +1,191 @@
+{
+  "header": {
+    "constraint_id": "capital_rotation_ai_narrative",
+    "version": "1.0",
+    "generated_date": "2026-02-26",
+    "status": "ACTIVE",
+    "measurement_id_prefix": "cairn"
+  },
+  "base_properties": {
+    "extractiveness": 0.58,
+    "suppression": 0.65,
+    "theater_ratio": 0.68,
+    "claimed_type": "tangled_rope",
+    "human_readable": "Market Narrative: US AI Stock Unsustainability",
+    "topic_domain": "economic/financial_markets",
+    "requires_active_enforcement": true,
+    "beneficiaries": [
+      "narrative_arbitrageurs",
+      "short_sellers",
+      "alternative_asset_managers"
+    ],
+    "victims": [
+      "retail_investors",
+      "momentum_fund_managers",
+      "ai_sector_capital_formation"
+    ]
+  },
+  "perspectives": [
+    {
+      "classification_type": "snare",
+      "agent_power": "powerless",
+      "time_horizon": "biographical",
+      "exit_options": "trapped",
+      "spatial_scope": "global",
+      "label": "The Retail Investor in AI Momentum Funds",
+      "comment": "PERSPECTIVE 1: RETAIL INVESTOR (SNARE) \u2014 Entry barriers are low but exit during narrative collapse is punishing. Retail investors caught in AI momentum funds face severe suppression: lack of technical literacy regarding AI economics, dependence on retail-friendly brokers with algorithmic order flow, and information asymmetry relative to institutional short-sellers. Cannot exit without realizing losses. The narrative itself is the constraint mechanism \u2014 it extracts through mark-to-market losses when the sentiment reverses."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "moderate",
+      "time_horizon": "biographical",
+      "exit_options": "constrained",
+      "spatial_scope": "national",
+      "label": "The Momentum Fund Manager",
+      "comment": "PERSPECTIVE 2: MOMENTUM FUND MANAGER (TANGLED ROPE) \u2014 Benefits from the upward narrative while it sustains (performance fees, AUM growth), but constrained by redemption pressure and career risk if the narrative shifts unexpectedly. The constraint provides coordination (shared belief system enabling capital flow) while extracting through narrative-dependent valuation. Must maintain exposure to keep up with benchmark but trapped if narrative breaks before they can rotate."
+    },
+    {
+      "classification_type": "rope",
+      "agent_power": "institutional",
+      "time_horizon": "immediate",
+      "exit_options": "arbitrage",
+      "spatial_scope": "global",
+      "label": "The Narrative Arbitrageur",
+      "comment": "PERSPECTIVE 3: NARRATIVE ARBITRAGEUR (ROPE) \u2014 Professional investors (hedge funds, macro allocators, derivatives traders) benefit from the narrative spread between bulls and bears. They capture coordination value by synthesizing and distributing narrative variants, while their arbitrage options allow them to switch sides of the trade as sentiment shifts. The constraint provides them pure coordination function: it creates a common epistemic frame that enables profitable positioning."
+    },
+    {
+      "classification_type": "snare",
+      "agent_power": "moderate",
+      "time_horizon": "generational",
+      "exit_options": "constrained",
+      "spatial_scope": "global",
+      "label": "AI Sector Capital Formation",
+      "comment": "PERSPECTIVE 4: AI SECTOR CAPITAL FORMATION (SNARE) \u2014 The narrative operates as a constraint on real AI company financing. When narrative sentiment is negative, genuine AI research companies and infrastructure providers face higher cost of capital despite unchanged fundamentals. The suppression is severe: equity market access closes, debt becomes expensive, and acquisition multiples collapse. The extraction runs from real productive capacity toward narrative traders. Exit is impossible \u2014 the constraint is the market signal itself."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "powerful",
+      "time_horizon": "immediate",
+      "exit_options": "arbitrage",
+      "spatial_scope": "global",
+      "label": "The Sell-Side Research & Market-Making Apparatus",
+      "comment": "PERSPECTIVE 5: SELL-SIDE RESEARCH & MARKET MAKING (TANGLED ROPE) \u2014 Investment banks and market makers benefit from narrative volatility (wider bid-ask spreads, higher trading volume) while also providing the liquidity infrastructure that coordinates capital flow. This is a pure extraction-with-coordination pattern: they extract rents through information asymmetry while coordinat\u00ading the market's price discovery process. Active enforcement of their position occurs through analyst consensus formation and order flow routing."
+    },
+    {
+      "classification_type": "mountain",
+      "agent_power": "analytical",
+      "time_horizon": "civilizational",
+      "exit_options": "analytical",
+      "spatial_scope": "universal",
+      "label": "The Analytical Observer (Efficient Market View)",
+      "comment": "PERSPECTIVE 6: ANALYTICAL OBSERVER / EFFICIENT MARKET VIEW (MOUNTAIN) \u2014 From a long-term analytical perspective, market narratives are immutable features of capital allocation: all equity prices reflect some combination of fundamentals and sentiment, and separating these is provably impossible (Grossman-Stiglitz paradox). The narrative is not a constraint imposed on markets but an intrinsic component of how markets function. This perspective sees the unsustainability narrative itself as a natural law of financial systems. However, the structural data (active enforcement, clear beneficiaries and victims, high suppression) reveals this as a false summit naturalizing a contingent social arrangement."
+    }
+  ],
+  "omegas": [
+    {
+      "id": "narrative_vs_fundamental_decomposition",
+      "question": "To what extent does the 'unsustainability' claim reflect genuine fundamental uncertainty about AI economics versus narrative-driven sentiment reversal?",
+      "resolution_mechanism": "Empirical decomposition: Compare AI company earnings surprises, capex multiples, and revenue growth rates during periods of high vs low narrative confidence. Isolate sentiment contribution via equity risk premium estimation and narrative sentiment indices.",
+      "impact": "If fundamentals dominate: the constraint is primarily Rope (coordination around legitimate uncertainty). If sentiment dominates: the constraint is primarily Snare (narrative extraction from retail via suppression). Current data suggests 40/60 split, supporting Tangled Rope classification.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Decomposition of narrative sentiment from fundamental AI economics"
+    },
+    {
+      "id": "short_squeeze_endogeneity",
+      "question": "Does the unsustainability narrative itself create reflexive short-squeeze dynamics that temporarily contradict the narrative's truth value?",
+      "resolution_mechanism": "Historical analysis of narrative-peak vs price-peak timing; correlation between short interest and narrative sentiment; identification of reflexive cycles where narrative prediction triggers crowd dynamics opposite to the narrative's direction.",
+      "impact": "If reflexive: the narrative is self-referential (oscillating between Rope and Snare depending on time horizon). If exogenous: the narrative is signal-like (sustainably predictive). Current evidence suggests strong reflexivity, supporting shorter-cycle oscillation.",
+      "confidence": "high",
+      "type_class": "empirical",
+      "description": "Degree of reflexive short-squeeze dynamics triggered by unsustainability narrative"
+    },
+    {
+      "id": "institutionalization_of_narrative",
+      "question": "Is the unsustainability narrative becoming institutionalized as a structural feature of capital allocation (e.g., ESG/risk frameworks incorporating AI narrative risk), or is it remain\u00ading a temporary sentiment phenomenon?",
+      "resolution_mechanism": "Tracking of narrative encoding in regulatory frameworks, institutional policy documents, and index construction methodologies. Measurement of persistence of narrative-based exclusions across market cycles.",
+      "impact": "If institutionalized: the constraint transitions toward Scaffold (sunset clause dependent on regulatory adoption) or Tangled Rope (permanent extraction structure). If sentiment-only: the constraint remains high-theater Piton (performative narrative with decaying function).",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Degree of institutionalization of AI narrative risk in capital allocation frameworks"
+    },
+    {
+      "id": "real_ai_capability_frontier",
+      "question": "What is the true capability frontier and deployment rate of AI systems, and how does it compare to the narrative's implicit assumptions?",
+      "resolution_mechanism": "Empirical benchmarking of AI system performance (inference speed, accuracy, energy efficiency, task generality). Measurement of actual adoption rates in corporate capex and deployment. Comparison to narrative-implied capability curves.",
+      "impact": "If capability frontier matches narrative pessimism: the constraint is primarily Rope (shared accurate model of uncertainty). If capability frontier exceeds narrative assumptions: the constraint is primarily Snare (narrative extraction from genuine retail pessimism). If capability frontier lags narrative optimism: constraint is primarily Tangled Rope (mixed true uncertainty and extraction).",
+      "confidence": "low",
+      "type_class": "empirical",
+      "description": "True AI capability frontier versus narrative-implied frontier"
+    }
+  ],
+  "measurements": [
+    {
+      "metric": "theater_ratio",
+      "time_point": 0,
+      "value": 0.52
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 6,
+      "value": 0.68
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 12,
+      "value": 0.68
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 0,
+      "value": 0.38
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 6,
+      "value": 0.58
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 12,
+      "value": 0.58
+    }
+  ],
+  "interval": {
+    "start": 0,
+    "end": 12
+  },
+  "commentary": {
+    "narrative_context": "The dominant market narrative positing unsustainability of the US AI stock rally functions as a constraint on capital formation and allocation. This narrative operates through suppression (information asymmetry between institutional short-sellers and retail investors, difficulty in modeling AI economics), active enforcement (consensus-building by sell-side research, index rebalancing), and extraction (narrative arbitrageurs capture profits from sentiment reversals while real AI firms face elevated cost of capital). The constraint is not reducible to either pure coordination (Rope) or pure extraction (Snare) \u2014 it exhibits both simultaneously. Retail investors trapped in momentum strategies see it as Snare; institutional narrative traders see it as Rope; market makers extract while coordinating; real AI capital formation is suppressed; and from a long-term analytical view it appears as a natural law of markets. The theater ratio (0.68) reflects the performative content of consensus narratives in financial media and research departments \u2014 actual predictive power is low relative to the volume of narrative construction.",
+    "key_agents": [
+      "Retail Investors: Primary victims (powerless/trapped) \u2014 concentrated in momentum funds, lack technical literacy on AI economics, cannot exit without severe losses during narrative reversals",
+      "Momentum Fund Managers: Secondary victims (moderate/constrained) \u2014 benefit from narrative while it sustains but face redemption pressure and career risk from narrative breaks",
+      "Narrative Arbitrageurs: Primary beneficiaries (institutional/arbitrage) \u2014 hedge funds, macro allocators, derivatives traders who profit from narrative spreads and volatility",
+      "Short Sellers: Secondary beneficiaries (institutional/arbitrage) \u2014 extract value from narrative confirmation, enjoy asymmetric payoff when sentiment reverses",
+      "Alternative Asset Managers: Tertiary beneficiaries (powerful/arbitrage) \u2014 can maintain positions across narrative cycles using derivatives and financing strategies",
+      "AI Sector Capital Formation: Primary victim (moderate/constrained) \u2014 real AI research companies and infrastructure firms face elevated cost of capital during negative narrative periods",
+      "Sell-Side Research & Market-Making: Enforcer (powerful/arbitrage) \u2014 extract rents from volatility while providing the liquidity and narrative consensus that sustains the constraint"
+    ],
+    "logic_rationale": "Extractiveness (0.58): Moderate-high. The narrative creates measurable extraction flows: (1) mark-to-market losses for retail momentum investors and their managers during sentiment reversals; (2) realized gains for short-sellers and narrative arbitrageurs who position ahead of sentiment shifts; (3) elevated cost of capital for genuine AI firms due to narrative-induced volatility premium. The extraction is not total because some retail investors hold through cycles and benefit from narrative upswings. The initial extractiveness (0.38) reflects a period when the narrative was less dominant in consensus \u2014 it has increased to 0.58 as the unsustainability claim has become more prominent in institutional discourse. Suppression (0.65): High. Multiple suppression mechanisms: retail investors lack technical models of AI economics and depend on algorithmic order flow; information asymmetry is severe between institutional traders who construct and profit from narratives and retail who receive them post-facto; publication bias favors sensational unsustainability claims over nuanced analysis; regulatory frameworks have not yet fully integrated AI capability measurement, leaving narrative as the primary price-setting mechanism. The suppression is not complete because some retail investors can access advanced information sources and a small fraction actively manage away from narrative traps. Theater ratio (0.68): High and increasing. Consensus narratives about AI unsustainability are constructed largely through financial media, sell-side research consensus, and conference keynotes \u2014 outlets with strong incentives to generate attention-capturing narratives. The actual empirical content (real AI capability measurement, deployment rates, capex ROI) is sparse and contested. The theater has increased from 0.52 to 0.68 as the narrative has become more institutionalized in media and research consensus while underlying empirical measurement has lagged.",
+    "perspectival_gap": "This constraint exhibits stark perspectival divergence. The retail investor trapped in momentum funds sees pure extraction (Snare) \u2014 they enter during narrative bullishness, get trapped by narrative reversal, and suffer mark-to-market losses while exit is expensive. The momentum fund manager sees mixed coordination-extraction (Tangled Rope) \u2014 the narrative provides legitimate shared uncertainty about AI economics but also extracts through career risk and redemption pressure. The narrative arbitrageur sees pure coordination (Rope) \u2014 they profit from the shared belief system without being trapped by it, experiencing the constraint as enabling rational positioning. The real AI firm sees pure extraction (Snare) \u2014 the narrative directly raises their cost of capital regardless of fundamentals. The sell-side research apparatus sees profit opportunity (Tangled Rope) \u2014 they extract rents from volatility while claiming to coordinate price discovery. The long-term analytical observer risks seeing natural law (Mountain) \u2014 believing that narratives are immutable features of capital markets \u2014 but the structural data reveals this as a false summit: the narrative is actively constructed, enforced, and can be regulated differently.",
+    "directionality_logic": "Each agent's experienced extractiveness (\u03c7) derives from their structural position relative to the narrative constraint. Retail investors occupy the position of full targets: they lack arbitrage options (trapped), possess limited power to independently verify AI claims (powerless), and face biographical time horizons matching the narrative's volatility cycle. They derive high d (toward 1.0) from trapped exit + victim status, producing high f(d) and thus high experienced extraction. Institutional narrative traders occupy the position of full beneficiaries: they have arbitrage options (can switch sides of trades), institutional power to construct and amplify narratives, and immediate time horizons matching their trading cycles. They derive low d (toward 0.0) from arbitrage exit + beneficiary status, producing low or negative f(d) and thus low or negative experienced extraction. Momentum managers occupy the middle: they benefit while the narrative sustains but are constrained by redemption pressure, deriving d \u2248 0.5 from mixed beneficiary/victim status and constrained exit. The sell-side research apparatus derives its directionality from institutional power + arbitrage (they can trade alongside their research) + enforcer role, placing them as high-power beneficiaries with d \u2248 0.2-0.3. Real AI firms derive their directionality as victims of narrative-driven capital constraints, independent of their actual fundamentals \u2014 high d despite potentially having some market exit options, because the constraint is the market signal itself.",
+    "mandatrophy_analysis": "MANDATE PARADOX RESOLUTION: The 'unsustainability narrative' initially appears to be a coordination mechanism (Rope) \u2014 multiple agents benefit from sharing a common model of AI market risk, enabling rational hedging and portfolio construction. However, the structural data reveals active enforcement, asymmetric extraction (beneficiaries are narrative traders; victims are retail investors and real AI firms), and high theater (performative consensus-building relative to empirical content). This forces the classification toward Tangled Rope: it IS coordination (shared epistemic frame) but ALSO extraction (narrative arbitrageurs profit from retail pessimism while retail bears mark-to-market losses). The mandate paradox is resolved by recognizing that the constraint performs a coordination function (providing a common language for discussing AI market risk) while the mechanism of coordination itself is weaponized for extraction (those who know the narrative is performative can position against the crowd). The false summit (mountain view from analytical perspective) is the belief that narratives are natural laws of market operation \u2014 the structural data shows they are contingent institutional arrangements (sell-side consensus, media incentives, regulatory gaps) that could be redesigned through transparency mandates, AI capability benchmarking, and decentralized price discovery mechanisms."
+  },
+  "boltzmann": {
+    "coordination_type": "information_standard"
+  },
+  "network": {
+    "affects_constraints": [
+      "ai_capex_productivity_puzzle",
+      "semiconductor_supply_concentration",
+      "energy_constraint_large_ai_models"
+    ],
+    "dual_formulation_note": "The unsustainability narrative is downstream of actual AI capability and economics constraints (capex productivity, semiconductor supply, energy limitations) but represents a distinct structural constraint at the capital formation level. The narrative's extractiveness value (0.58) is independent of whether the underlying claims are empirically true \u2014 it reflects the information asymmetry and suppression mechanisms in the market's narrative construction process, not the validity of the narrative's content."
+  },
+  "directionality_overrides": [
+    {
+      "power_atom": "institutional",
+      "d_value": 0.25
+    }
+  ]
+}

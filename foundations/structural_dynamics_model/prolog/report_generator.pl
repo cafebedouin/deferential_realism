@@ -1,13 +1,19 @@
 :- module(report_generator, [
     generate_full_report/1,
-    generate_indexed_report/3,
     generate_omegas_from_gaps/1,
     omega_from_gap/5,
-    cross_domain_audit/0,
-    forensic_audit_false_mountains/0,
     generate_omega_resolution_scenarios/0,
-    generate_omega_triage/0
+    generate_omega_triage/0,
+    omega_severity/2,
+    type_description/2,
+    type_strategy/2,
+    type_color/2,
+    type_severity/2,
+    detect_gap_pattern/2
 ]).
+
+:- use_module(type_metadata).
+:- reexport(type_metadata).
 
 :- use_module(library(lists)).
 :- use_module(narrative_ontology).
@@ -18,7 +24,7 @@
 :- use_module(constraint_bridge).
 :- use_module(drl_core).
 :- use_module(uke_dr_bridge).
-:- use_module(structural_signatures).
+:- use_module(signature_detection, [signature_confidence/3, explain_signature/3, get_constraint_profile/2]).
 :- use_module(constraint_indexing).
 :- use_module(isomorphism_engine). % Required for isomorphism audit
 :- use_module(domain_priors).      % Required for forensic audit
@@ -29,44 +35,6 @@
 :- discontiguous classify_interval/3.
 
 /* ============================================================================
-   TYPE DESCRIPTIONS & STRATEGIES (Updated January 2026 for Tangled Rope)
-   ============================================================================ */
-
-%% type_description(?Type, ?Description)
-%  Human-readable descriptions for constraint types.
-type_description(mountain,
-    'Natural constraint - unchangeable given current understanding of reality').
-type_description(rope,
-    'Pure coordination - low extraction, solves collective action problems').
-type_description(tangled_rope,
-    'Hybrid coordination/extraction - provides genuine coordination while extracting asymmetrically').
-type_description(snare,
-    'Pure extraction - minimal coordination benefit, high asymmetric extraction').
-type_description(piton,
-    'Maintained constraint - low extraction but high suppression costs, should be cut but isn''t').
-
-%% type_strategy(?Type, ?Strategy)
-%  Strategic recommendations for each constraint type.
-type_strategy(mountain,
-    'Accept - Work within natural constraints, adapt strategies accordingly').
-type_strategy(rope,
-    'Maintain - Preserve coordination mechanisms, ensure fair access and participation').
-type_strategy(tangled_rope,
-    'Reform carefully - Preserve coordination core while cutting extractive elements. Requires surgical separation.').
-type_strategy(snare,
-    'Cut - Remove extractive constraints, replace with fair alternatives if coordination needed').
-type_strategy(piton,
-    'Bypass or eliminate - High maintenance cost without value, find alternatives').
-
-%% type_color(?Type, ?Color)
-%  Color coding for visualization and reports.
-type_color(mountain, blue).
-type_color(rope, green).
-type_color(tangled_rope, orange).  % Orange for hybrid nature
-type_color(snare, red).
-type_color(piton, gray).
-
-/* ============================================================================
    1. EXECUTIVE SUMMARY (MAIN ENTRY)
    ============================================================================ */
 
@@ -75,38 +43,12 @@ generate_full_report(IntervalID) :-
     classify_interval(IntervalID, Pattern, Conf),
     
     format('~n~n====================================================~n'),
-    format('   DEFERENTIAL REALISM (DR) EXECUTIVE SUMMARY      ~n'),
+    format('   DR DETAILED ANALYSIS                             ~n'),
     format('====================================================~n'),
     format('Timeline:       ~w to ~w~n', [T_start, Tn]),
     format('Structural Pattern: ~w~n', [Pattern]),
     format('Confidence:     ~w~n', [Conf]),
     
-    % --- SECTION 1: DRL INDEXICAL AUDIT ---
-    format('~n[CONSTRAINT INVENTORY: INDEXICAL AUDIT]~n'),
-    forall(
-        narrative_ontology:constraint_claim(C, Claimed),
-        (
-            format('~n~nConstraint: ~w~n', [C]),
-            format('  Claimed Type: ~w~n', [Claimed]),
-            format('  Perspectives:~n'),
-            forall(
-                constraint_indexing:constraint_classification(C, Type, Context),
-                (
-                    format('    - [~w]: ~w', [Context, Type]),
-                    ( Type == Claimed -> format(' (Matches Claim)~n')
-                    ; format(' (Mismatch)~n')
-                    )
-                )
-            )
-        )
-    ),
-
-    % --- SECTION 2: ISOMORPHISM AUDIT ---
-    generate_isomorphism_audit(IntervalID),
-
-    % --- SECTION 2A: COMPREHENSIVE CROSS-DOMAIN AUDIT ---
-    cross_domain_audit,
-
     % --- SECTION 3: META-LOGICAL AUDIT ---
     format('~n[META-LOGICAL AUDIT: ONTOLOGICAL FRAUD DETECTION]~n'),
     (   setof((C, Err, Sev), drl_core:dr_mismatch(C, Err, Sev), Errors)
@@ -129,17 +71,20 @@ generate_full_report(IntervalID) :-
     ),
 
     % --- SECTION 5: UKE_DR FEASIBILITY BRIDGE ---
-    format('~n[UKE_DR FEASIBILITY BRIDGE]~n'),
-    format('  ~40s | ~12s~n', ['Recommendation', 'UKE Status']),
-    format('  ----------------------------------------------------------------------~n'),
-    (   forall(narrative_ontology:recommendation(RID, Summary),
-               ( ( uke_dr_bridge:uke_status(RID, UKEStatus, Reasons) 
-                 -> format('  - ~40w | ~12w~n', [Summary, UKEStatus]),
-                    forall(member(R, Reasons), format('    > ~w~n', [R]))
-                 ;  format('  - ~40w | ~12s~n', [Summary, 'DATA_MISSING'])
-                 )
-               ))
-    ;   true
+    (   narrative_ontology:recommendation(_, _)
+    ->  format('~n[UKE_DR FEASIBILITY BRIDGE]~n'),
+        format('  ~40s | ~12s~n', ['Recommendation', 'UKE Status']),
+        format('  ----------------------------------------------------------------------~n'),
+        (   forall(narrative_ontology:recommendation(RID, Summary),
+                   ( ( uke_dr_bridge:uke_status(RID, UKEStatus, Reasons)
+                     -> format('  - ~40w | ~12w~n', [Summary, UKEStatus]),
+                        forall(member(R, Reasons), format('    > ~w~n', [R]))
+                     ;  format('  - ~40w | ~12s~n', [Summary, 'DATA_MISSING'])
+                     )
+                   ))
+        ;   true
+        )
+    ;   true  % No recommendations — suppress entirely
     ),
     
     % --- SECTION 6: KINETIC MAGNITUDE ---
@@ -150,18 +95,19 @@ generate_full_report(IntervalID) :-
     ;   format('~nAggregate Magnitude (Kappa): DATA_INSUFFICIENT~n')
     ),
     
-    % --- SECTION 7: PERSPECTIVAL GAP ANALYSIS ---
-    format('~n[PERSPECTIVAL GAP ANALYSIS]~n'),
+    % --- SECTION 7: MANDATROPHY GAP ANALYSIS ---
+    %  Full perspectival breakdown (claimed type, 4 perspectives, chi)
+    %  is covered by Python Levels 1-2. Only unique mandatrophy delta_chi
+    %  gaps are reported here.
+    format('~n[MANDATROPHY GAP ANALYSIS]~n'),
+    format('  (Full perspectival detail in Levels 1-2 above)~n'),
     (   forall(narrative_ontology:constraint_claim(CGap, _),
-               perspectival_gap_audit(CGap))
+               mandatrophy_only_report(CGap))
     ;   true
     ),
     
-    % --- SECTION 8: OMEGA GENERATION ---
-    generate_omegas_from_gaps(IntervalID),
-
-    % --- SECTION 8A: OMEGA TRIAGE ---
-    generate_omega_triage,
+    % --- OMEGA ASSERTION (silent — reporting handled by Python L1) ---
+    assert_omegas_from_gaps(IntervalID),
 
     % --- SECTION 8B: OMEGA RESOLUTION SCENARIOS ---
     generate_omega_resolution_scenarios,
@@ -197,6 +143,21 @@ process_omega_entries(OmegaEntries) :-
                (OGap = gap(GapPattern, _, _) -> true ; GapPattern = unknown),
                assert_omega_if_new(OID, OType, OQuestion, Constraint, GapPattern)
            )).
+
+%% assert_omegas_from_gaps(+IntervalID)
+%  Generates and asserts omega variables from perspectival gaps
+%  without report output. Ensures omega_variable/3 and omega_source/3
+%  facts are in the KB for downstream use (e.g., resolution scenarios).
+%  Report-level omega listing is handled by the Python pipeline (L1).
+assert_omegas_from_gaps(_IntervalID) :-
+    forall(
+        (narrative_ontology:constraint_claim(Constraint, _),
+         detect_gap_pattern(Constraint, Gap),
+         omega_from_gap(Constraint, Gap, OmegaID, Type, Question)),
+        (   (Gap = gap(GapPattern, _, _) -> true ; GapPattern = unknown),
+            assert_omega_if_new(OmegaID, Type, Question, Constraint, GapPattern)
+        )
+    ).
 
 % detect_gap_pattern and omega_from_gap logic remains unchanged...
 % [Included below for completeness in your file]
@@ -271,33 +232,61 @@ assert_omega_if_new(OmegaID, Type, Question) :-
    3. INDEXED REPORTING & AUDITS
    ============================================================================ */
 
-perspectival_gap_audit(C) :-
-    format('~n  Analysis for Constraint: ~w~n', [C]),
+%% mandatrophy_only_report(+C)
+%  Reports only the mandatrophy delta_chi gap for a constraint,
+%  suppressing the full perspectival breakdown (covered by Python L1/L2).
+%  Only produces output when powerless and institutional perspectives
+%  disagree on constraint type.
+mandatrophy_only_report(C) :-
     (constraint_indexing:constraint_classification(C, TypeP, context(agent_power(powerless), _, _, _)) -> true ; TypeP = none),
     (constraint_indexing:constraint_classification(C, TypeI, context(agent_power(institutional), _, _, _)) -> true ; TypeI = none),
+    (   TypeP \= none, TypeI \= none, TypeP \= TypeI
+    ->  format('  ~w (~w vs ~w):~n', [C, TypeP, TypeI]),
+        format_mandatrophy_gap(C, powerless, institutional)
+    ;   true
+    ).
+
+perspectival_gap_audit(C) :-
+    narrative_ontology:constraint_claim(C, Claimed),
+    format('~n  Constraint: ~w~n', [C]),
+    format('    Claimed Type: ~w~n', [Claimed]),
+    % Get powerless and institutional types for gap alerts
+    (constraint_indexing:constraint_classification(C, TypeP, context(agent_power(powerless), _, _, _)) -> true ; TypeP = none),
+    (constraint_indexing:constraint_classification(C, TypeI, context(agent_power(institutional), _, _, _)) -> true ; TypeI = none),
+    % Gap alerts
     (TypeP == mountain, TypeI == rope -> format('    ! GAP: Institutional "Rope" appears as "Mountain" to Powerless.~n') ; true),
     (TypeP == snare, TypeI == rope -> format('    ! ALERT: Extractive "Snare" is masked as functional "Rope".~n') ; true),
-    % Display with chi power-scaling annotations
-    format_perspective_line(C, powerless, 'Individual (Powerless)', TypeP),
-    format_perspective_line(C, institutional, 'Institutional (Manager)', TypeI),
-    % Display Mandatrophy gap if perspectives differ
+    % All 4 perspectives: type + match/mismatch + chi metrics
+    forall(
+        member(Power-Label, [
+            powerless-'Powerless', moderate-'Moderate',
+            institutional-'Institutional', analytical-'Analytical'
+        ]),
+        format_perspective_line(C, Power, Label, Claimed)
+    ),
+    % Mandatrophy gap if perspectives differ
     (   TypeP \= none, TypeI \= none, TypeP \= TypeI
     ->  format_mandatrophy_gap(C, powerless, institutional)
     ;   true
     ).
 
-%% format_perspective_line(+C, +ContextPower, +Label, +Type)
-%  Prints a perspective line with chi annotation if data available.
-%  v6.0: Shows d-value and f(d) from structural derivation chain.
-format_perspective_line(C, ContextPower, Label, Type) :-
-    (   compute_chi_v6(C, ContextPower, _BaseE, D, FD, Chi)
-    ->  (   Chi < 0
-        ->  format(atom(Ann), ' [d=~3f f(d)=~2f χ=~2f → net benefit]', [D, FD, Chi])
-        ;   format(atom(Ann), ' [d=~3f f(d)=~2f χ=~2f]', [D, FD, Chi])
-        )
-    ;   Ann = ''
-    ),
-    format('    - ~w: ~w~w~n', [Label, Type, Ann]).
+%% format_perspective_line(+C, +ContextPower, +Label, +Claimed)
+%  Looks up the classification for this context (partial match on power level),
+%  shows match/mismatch against claimed type, and appends chi metrics if available.
+format_perspective_line(C, ContextPower, Label, Claimed) :-
+    (   constraint_indexing:constraint_classification(C, Type,
+            context(agent_power(ContextPower), _, _, _))
+    ->  (Type == Claimed -> MatchStr = ' (Matches Claim)' ; MatchStr = ' (Mismatch)'),
+        (   compute_chi_v6(C, ContextPower, _, D, FD, Chi)
+        ->  (   Chi < 0
+            ->  format(atom(ChiStr), ' [d=~3f f(d)=~2f χ=~2f → net benefit]', [D, FD, Chi])
+            ;   format(atom(ChiStr), ' [d=~3f f(d)=~2f χ=~2f]', [D, FD, Chi])
+            )
+        ;   ChiStr = ''
+        ),
+        format('    - ~w: ~w~w~w~n', [Label, Type, MatchStr, ChiStr])
+    ;   format('    - ~w: (no classification)~n', [Label])
+    ).
 
 %% compute_chi_v6(+C, +ContextPower, -BaseE, -D, -FD, -Chi)
 %  Computes chi via v6.0 structural directionality chain.
@@ -356,8 +345,8 @@ format_mandatrophy_gap(C, PowerA, PowerB) :-
 
 report_constraint_signature(C) :-
     drl_core:dr_signature(C, Signature),
-    structural_signatures:signature_confidence(C, Signature, Confidence),
-    structural_signatures:explain_signature(C, Signature, Explanation),
+    signature_detection:signature_confidence(C, Signature, Confidence),
+    signature_detection:explain_signature(C, Signature, Explanation),
     format('  ~20w: ~20w (confidence: ~w)~n', [C, Signature, Confidence]),
     (Signature \= ambiguous -> format('    → ~w~n', [Explanation]) ; true),
     % v6.0: For false_ci_rope, surface directionality context
@@ -442,24 +431,6 @@ completeness_to_confidence(Score, high) :- Score >= 0.75, !.
 completeness_to_confidence(Score, moderate) :- Score >= 0.40, !.
 completeness_to_confidence(_, low).
 
-% Ensure these are at the BOTTOM of report_generator.pl, NOT inside generate_full_report
-generate_isomorphism_audit(IntervalID) :-
-    format('~n[CROSS-DOMAIN ISOMORPHISM & RISK AUDIT: ~w]~n', [IntervalID]),
-    (   setof(iso(C, Twin, Score, Type),
-              (narrative_ontology:constraint_claim(C, _),  % Changed: use all constraints in current KB
-               isomorphism_engine:find_high_risk_isomorphism(C, Twin, Score),
-               drl_core:dr_type(C, Type)),
-              Isos)
-    ->  display_isomorphisms(Isos)
-    ;   format('  No high-risk isomorphisms detected for current constraints.~n')
-    ).
-
-display_isomorphisms([]).
-display_isomorphisms([iso(C, T, S, Ty)|Rest]) :-
-    format('  ! ALERT: ~w (~w) is a Structural Twin to ~w (Score: ~2f)~n', [C, Ty, T, S]),
-    format('    > Strategy: Search for ~w resolutions in KB.~n', [T]),
-    display_isomorphisms(Rest).
-
 /* ============================================================================
    4. ONTOLOGICAL FORENSIC AUDIT: FALSE MOUNTAINS
    ============================================================================ */
@@ -468,14 +439,18 @@ display_isomorphisms([iso(C, T, S, Ty)|Rest]) :-
 %  Provides detailed analysis of constraints claiming "Mountain" status
 %  but failing validation. Explains WHY each fails and recommends reclassification.
 forensic_audit_false_mountains :-
-    format('~n[ONTOLOGICAL FORENSIC AUDIT: FALSE MOUNTAINS]~n'),
-    (   setof(C-Ctx, Sev^(drl_core:dr_mismatch(C, Ctx, type_1_false_mountain, Sev)),
-              FalseMountains)
-    ->  (length(FalseMountains, Count),
-         format('  Detected ~w constraint(s) falsely claiming "Mountain" status:~n~n', [Count]),
-         forall(member(C-Context, FalseMountains),
-                forensic_explain_false_mountain(C, Context)))
-    ;   format('  All mountains are structurally validated.~n')
+    %  Only print when at least one constraint claims mountain status
+    (   narrative_ontology:constraint_claim(_, mountain)
+    ->  format('~n[ONTOLOGICAL FORENSIC AUDIT: FALSE MOUNTAINS]~n'),
+        (   setof(C-Ctx, Sev^(drl_core:dr_mismatch(C, Ctx, type_1_false_mountain, Sev)),
+                  FalseMountains)
+        ->  (length(FalseMountains, Count),
+             format('  Detected ~w constraint(s) falsely claiming "Mountain" status:~n~n', [Count]),
+             forall(member(C-Context, FalseMountains),
+                    forensic_explain_false_mountain(C, Context)))
+        ;   format('  All mountains are structurally validated.~n')
+        )
+    ;   true  % No mountains claimed — suppress entirely
     ).
 
 %% forensic_explain_false_mountain(+Constraint, +Context)
@@ -763,20 +738,21 @@ omega_severity(_, unknown).
 
 %% generate_omega_triage/0
 %  Displays omegas organized by severity level.
+%  Computes each omega's severity exactly once via once/1 with Sev unbound,
+%  so the first matching clause wins and no omega appears in multiple buckets.
 generate_omega_triage :-
     format('~n[OMEGA TRIAGE & PRIORITIZATION]~n'),
-    % First collect all actual omegas
-    findall(OID, narrative_ontology:omega_variable(OID, _, _), AllOmegas),
-    (AllOmegas = []
+    findall(Sev-OID,
+            (narrative_ontology:omega_variable(OID, _, _),
+             once(omega_severity(OID, Sev))),
+            Pairs),
+    (Pairs = []
     -> format('  No omegas to triage.~n')
-    ;  % Then organize by severity
-       forall(member(Sev, [critical, high, moderate, low]),
-              (findall(OID,
-                       (member(OID, AllOmegas), omega_severity(OID, Sev)),
-                       OIDs),
+    ;  forall(member(Level, [critical, high, moderate, low]),
+              (findall(OID, member(Level-OID, Pairs), OIDs),
                (OIDs \= []
                -> (length(OIDs, N),
-                   format('~n  [~w] ~w omega(s):~n', [Sev, N]),
+                   format('~n  [~w] ~w omega(s):~n', [Level, N]),
                    forall(member(OID, OIDs),
                           (narrative_ontology:omega_variable(OID, Type, Desc),
                            format('    - ~w (~w)~n      ~w~n', [OID, Type, Desc]))))
@@ -791,7 +767,6 @@ generate_omega_triage :-
 %  Scans ALL constraints in current KB and reports cross-domain structural twins.
 %  This provides a comprehensive view of isomorphic patterns across different domains.
 cross_domain_audit :-
-    format('~n[COMPREHENSIVE CROSS-DOMAIN STRUCTURAL TWINS]~n'),
     findall(iso(C1, C2, Score, Cat1, Cat2),
             (narrative_ontology:constraint_claim(C1, _),
              domain_priors:category_of(C1, Cat1),
@@ -801,8 +776,9 @@ cross_domain_audit :-
              C1 @< C2),     % Prevent duplicate pairs (A,B) and (B,A)
             Isos),
     (Isos = []
-    -> format('  No cross-domain isomorphisms detected.~n')
-    ;  (length(Isos, N),
+    -> true  % Suppress entirely when no cross-domain twins found
+    ;  (format('~n[COMPREHENSIVE CROSS-DOMAIN STRUCTURAL TWINS]~n'),
+        length(Isos, N),
         format('  Found ~w cross-domain structural twins:~n~n', [N]),
         forall(member(iso(C1, C2, S, Cat1, Cat2), Isos),
                (format('  ~w (~w) ≈ ~w (~w)~n', [C1, Cat1, C2, Cat2]),
@@ -814,8 +790,8 @@ cross_domain_audit :-
 %% display_twin_rationale(+C1, +C2)
 %  Explains why two constraints are considered structural twins.
 display_twin_rationale(C1, C2) :-
-    (structural_signatures:get_constraint_profile(C1, Profile1),
-     structural_signatures:get_constraint_profile(C2, Profile2)
+    (signature_detection:get_constraint_profile(C1, Profile1),
+     signature_detection:get_constraint_profile(C2, Profile2)
     -> (Profile1 = profile(A1, S1, R1, B1, Alt1, _, _),
         Profile2 = profile(A2, S2, R2, B2, Alt2, _, _),
         format('    Metrics: ', []),

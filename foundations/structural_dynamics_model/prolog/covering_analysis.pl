@@ -32,37 +32,11 @@
 :- use_module(config).
 :- use_module(narrative_ontology).
 :- use_module(constraint_indexing).
-:- use_module(structural_signatures).
+:- use_module(boltzmann_compliance, [coupling_test_powers/1, coupling_test_scopes/1, coupling_test_context/3, classify_at_context/3, clear_classification_cache/0]).
+:- use_module(corpus_loader).
 :- use_module(library(lists)).
 
 :- dynamic cached_grid_sig/2.
-:- dynamic corpus_loaded/0.
-
-/* ================================================================
-   SHARED INFRASTRUCTURE
-   ================================================================ */
-
-%% load_all_testsets
-%  Bulk-loads all .pl files from testsets/ directory.
-%  Pattern from global_delta_report.pl.
-load_all_testsets :-
-    (   corpus_loaded
-    ->  true
-    ;   expand_file_name('testsets/*.pl', Files),
-        length(Files, N),
-        format(user_error, '[covering] Loading ~w testset files...~n', [N]),
-        load_testset_list(Files, 0, Loaded),
-        format(user_error, '[covering] Loaded ~w testsets successfully.~n', [Loaded]),
-        assertz(corpus_loaded)
-    ).
-
-load_testset_list([], N, N).
-load_testset_list([F|Fs], Acc, N) :-
-    (   catch(user:consult(F), _, true)
-    ->  Acc1 is Acc + 1
-    ;   Acc1 = Acc
-    ),
-    load_testset_list(Fs, Acc1, N).
 
 %% all_corpus_constraints(-Constraints)
 %  Discovers all constraint atoms with extractiveness data.
@@ -78,8 +52,8 @@ all_corpus_constraints(Constraints) :-
 %% grid_cells(-Cells)
 %  Returns the 12 grid cells as cell(Power, Scope) terms.
 grid_cells(Cells) :-
-    structural_signatures:coupling_test_powers(Powers),
-    structural_signatures:coupling_test_scopes(Scopes),
+    boltzmann_compliance:coupling_test_powers(Powers),
+    boltzmann_compliance:coupling_test_scopes(Scopes),
     findall(cell(P, S), (member(P, Powers), member(S, Scopes)), Cells).
 
 %% cell_label(+Cell, -Label)
@@ -93,18 +67,18 @@ cell_label(cell(P, S), Label) :-
 
 %% grid_signature(+Constraint, -Signature)
 %  Classifies constraint at all 12 grid cells.
-%  Uses structural_signatures:classify_at_context/3 (same pipeline
+%  Uses boltzmann_compliance:classify_at_context/3 (same pipeline
 %  as the Boltzmann compliance engine).
 %  Signature is a sorted list of classified(Power, Scope, Type).
 grid_signature(C, Signature) :-
-    structural_signatures:coupling_test_powers(Powers),
-    structural_signatures:coupling_test_scopes(Scopes),
+    boltzmann_compliance:coupling_test_powers(Powers),
+    boltzmann_compliance:coupling_test_scopes(Scopes),
     findall(
         classified(P, S, Type),
         (   member(P, Powers),
             member(S, Scopes),
-            structural_signatures:coupling_test_context(P, S, Ctx),
-            (   structural_signatures:classify_at_context(C, Ctx, Type0)
+            boltzmann_compliance:coupling_test_context(P, S, Ctx),
+            (   boltzmann_compliance:classify_at_context(C, Ctx, Type0)
             ->  Type = Type0
             ;   Type = unknown
             )
@@ -116,7 +90,7 @@ grid_signature(C, Signature) :-
 %  Computes and caches grid signatures for all constraints.
 compute_all_signatures(Constraints) :-
     retractall(cached_grid_sig(_, _)),
-    structural_signatures:clear_classification_cache,
+    boltzmann_compliance:clear_classification_cache,
     length(Constraints, N),
     format(user_error, '[phase1] Computing grid signatures for ~w constraints...~n', [N]),
     compute_sigs_loop(Constraints, 0, N).
@@ -520,7 +494,7 @@ classify_at_interpolated(C, D, Sigma, Type) :-
     ),
     nearest_power_level(D, Power),
     sigma_to_scope_atom(Sigma, ScopeAtom),
-    structural_signatures:coupling_test_context(Power, ScopeAtom, BaseCtx),
+    boltzmann_compliance:coupling_test_context(Power, ScopeAtom, BaseCtx),
     BaseCtx = context(AP, TH, EO, _),
     Context = context(AP, TH, EO, spatial_scope(ScopeAtom)),
     (   catch(

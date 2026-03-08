@@ -1,0 +1,86 @@
+{
+  "constraint_id": "intelligence_as_sovereignty_transfer",
+  "iteration_round": 2,
+  "verdict": "YELLOW",
+  "subsystems_checked": [
+    12,
+    12
+  ],
+  "tensions": [
+    {
+      "subsystem": "abductive",
+      "code": "abductive_tension",
+      "detail": "abductive_tension([trigger(epistemic_trap,0.78,restricted_view_divergence,genuine),trigger(classical_oracle_failure,0.78,confident_oracle_with_obstruction,genuine)])"
+    },
+    {
+      "subsystem": "drift",
+      "code": "critical_drift",
+      "detail": "critical_drift([drift(metric_substitution,evidence(theater_delta,0,45,0.35,0.58),warning),drift(extraction_accumulation,evidence(extraction_delta,0,45,0.28,0.48),critical),drift(coupling_drift,evidence(coupling_score,0.75,threshold,0.25,extraction_trend,increasing),critical),drift(purity_drift,evidence(current_purity,0.623,decline_signals,[extraction_rising,coupling_above_threshold(0.75),theater_rising,excess_above_floor(0.38)]),warning),drift(network_drift,evidence(drifting_neighbors,[contagion(decapitation_as_regime_change,0.0615,[extraction_rising,coupling_above_threshold(1.0),theater_rising,excess_above_floor(0.68)])],effective_purity,0.5738,intrinsic_purity,0.623),critical)])"
+    }
+  ],
+  "tension_count": 2,
+  "expected_conflicts": [
+    {
+      "subsystem": "cohomology",
+      "code": "cohomological_fracture_divergence"
+    },
+    {
+      "subsystem": "boltzmann",
+      "code": "constructed_non_compliance"
+    },
+    {
+      "subsystem": "dirac",
+      "code": "pre_post_override_divergence"
+    },
+    {
+      "subsystem": "gauge_orbit",
+      "code": "perspectival_orbit_variance"
+    }
+  ],
+  "convergent_rejections": "none",
+  "classification": {
+    "claimed_type": "tangled_rope",
+    "classified_type": "tangled_rope",
+    "mismatch": false,
+    "confidence": 0.969606,
+    "confidence_band": "deep",
+    "rival_type": "snare",
+    "rival_p": 0.030391,
+    "boundary": "tangled_rope->snare",
+    "psi": 0.968082,
+    "psi_label": "snare_leaning"
+  },
+  "hard_disagreement": null,
+  "drift_events": [
+    {
+      "severity": "warning",
+      "type": "metric_substitution"
+    },
+    {
+      "severity": "critical",
+      "type": "extraction_accumulation"
+    },
+    {
+      "severity": "critical",
+      "type": "coupling_drift"
+    },
+    {
+      "severity": "warning",
+      "type": "purity_drift"
+    },
+    {
+      "severity": "critical",
+      "type": "network_drift"
+    }
+  ],
+  "mandatrophy_gap": {
+    "delta_chi": 0.44,
+    "severity": "moderate"
+  },
+  "structural_signature": "false_ci_rope",
+  "purity": {
+    "value": 0.623,
+    "band": "borderline"
+  },
+  "post_synthesis_flags": []
+}

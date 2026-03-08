@@ -1,0 +1,166 @@
+{
+  "generated": "2026-02-24T01:20:43.594983",
+  "corpus_size": 1151,
+  "raw_field_census": {
+    "[social_governance]": {
+      "claimed_type": 1,
+      "maxent_top_type": 0,
+      "p.powerless": 0,
+      "p.moderate": 0,
+      "p.institutional": 0,
+      "p.analytical": 0
+    },
+    "mountain": {
+      "claimed_type": 140,
+      "maxent_top_type": 147,
+      "p.powerless": 147,
+      "p.moderate": 127,
+      "p.institutional": 127,
+      "p.analytical": 147
+    },
+    "naturalized": {
+      "claimed_type": 0,
+      "maxent_top_type": 0,
+      "p.powerless": 20,
+      "p.moderate": 0,
+      "p.institutional": 3,
+      "p.analytical": 0
+    },
+    "piton": {
+      "claimed_type": 95,
+      "maxent_top_type": 107,
+      "p.powerless": 80,
+      "p.moderate": 76,
+      "p.institutional": 74,
+      "p.analytical": 74
+    },
+    "rope": {
+      "claimed_type": 62,
+      "maxent_top_type": 52,
+      "p.powerless": 30,
+      "p.moderate": 61,
+      "p.institutional": 793,
+      "p.analytical": 52
+    },
+    "scaffold": {
+      "claimed_type": 21,
+      "maxent_top_type": 0,
+      "p.powerless": 3,
+      "p.moderate": 22,
+      "p.institutional": 56,
+      "p.analytical": 0
+    },
+    "snare": {
+      "claimed_type": 78,
+      "maxent_top_type": 357,
+      "p.powerless": 319,
+      "p.moderate": 358,
+      "p.institutional": 0,
+      "p.analytical": 533
+    },
+    "tangled_rope": {
+      "claimed_type": 752,
+      "maxent_top_type": 488,
+      "p.powerless": 551,
+      "p.moderate": 506,
+      "p.institutional": 97,
+      "p.analytical": 344
+    }
+  },
+  "filter_methods": {
+    "mountain": {
+      "method": "unanimity",
+      "family": "validation",
+      "raw_filtered_count": 126,
+      "report_entry_count": 126
+    },
+    "rope": {
+      "method": "unanimity",
+      "family": "validation",
+      "raw_filtered_count": 16,
+      "report_entry_count": 16
+    },
+    "tangled_rope": {
+      "method": "any_perspective",
+      "family": "diagnostic",
+      "raw_filtered_count": 568,
+      "report_entry_count": 606
+    },
+    "snare": {
+      "method": "standard",
+      "family": "diagnostic",
+      "raw_filtered_count": 78,
+      "report_entry_count": 82
+    },
+    "scaffold": {
+      "method": "standard",
+      "family": "diagnostic",
+      "raw_filtered_count": 21,
+      "report_entry_count": 22
+    },
+    "piton": {
+      "method": "any_perspective",
+      "family": "diagnostic",
+      "raw_filtered_count": 80,
+      "report_entry_count": 82
+    }
+  },
+  "structural_counts": {
+    "mountain": 140,
+    "rope": 62,
+    "tangled_rope": 752,
+    "snare": 78,
+    "scaffold": 21,
+    "piton": 95
+  },
+  "structural_total": 1151,
+  "historical_counts": [
+    {
+      "count": 773,
+      "method": "any_perspective",
+      "pipeline_state": "Pre-piton-gate-changes",
+      "reproducible": false,
+      "notes": "Historical count before coordination_vitality gate additions. Not reproducible from current data \u2014 represents earlier pipeline state."
+    },
+    {
+      "count": 677,
+      "method": "any_perspective",
+      "pipeline_state": "Post-gate-changes, pre-FCR-fix",
+      "reproducible": false,
+      "notes": "After piton gate changes but before the false_ci_rope override fix. Not reproducible from current data \u2014 represents intermediate pipeline state."
+    },
+    {
+      "count": 606,
+      "method": "any_perspective + diagnostic normalization + dedup",
+      "pipeline_state": "Current pipeline",
+      "reproducible": true,
+      "notes": "Current tangled_rope report entry count. Uses any_perspective filter, then diagnostic normalization (expand one-per-omega), then dedup on (constraint_id, omega_question)."
+    },
+    {
+      "count": 752,
+      "method": "claimed_type == 'tangled_rope'",
+      "pipeline_state": "Current enriched_pipeline.json",
+      "reproducible": true,
+      "notes": "Structural count: constraints where the LLM's claimed_type label is 'tangled_rope'. One type per constraint, sums to 1151."
+    }
+  ],
+  "double_counting": {
+    "overlaps": {
+      "piton \u2229 tangled_rope": [
+        "ritual_transition_scaffold",
+        "ship_of_theseus"
+      ]
+    },
+    "multi_type_constraints": {
+      "ship_of_theseus": [
+        "tangled_rope",
+        "piton"
+      ],
+      "ritual_transition_scaffold": [
+        "tangled_rope",
+        "piton"
+      ]
+    },
+    "multi_type_count": 2
+  }
+}

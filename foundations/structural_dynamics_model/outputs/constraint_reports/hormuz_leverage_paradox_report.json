@@ -1,0 +1,86 @@
+{
+  "constraint_id": "hormuz_leverage_paradox",
+  "iteration_round": null,
+  "verdict": "YELLOW",
+  "subsystems_checked": [
+    12,
+    12
+  ],
+  "tensions": [
+    {
+      "subsystem": "abductive",
+      "code": "abductive_tension",
+      "detail": "abductive_tension([trigger(classical_oracle_failure,0.72,confident_oracle_with_obstruction,genuine)])"
+    },
+    {
+      "subsystem": "drift",
+      "code": "critical_drift",
+      "detail": "critical_drift([drift(metric_substitution,evidence(theater_delta,0,35,0.38,0.58),warning),drift(extraction_accumulation,evidence(extraction_delta,0,35,0.35,0.48),critical),drift(coupling_drift,evidence(coupling_score,1.0,threshold,0.25,extraction_trend,increasing),critical),drift(purity_drift,evidence(current_purity,0.5463333333333333,decline_signals,[extraction_rising,coupling_above_threshold(1.0),theater_rising,excess_above_floor(0.27999999999999997)]),warning),drift(network_drift,evidence(drifting_neighbors,[contagion(decapitation_as_regime_change,0.035075,[extraction_rising,coupling_above_threshold(1.0),theater_rising,excess_above_floor(0.5800000000000001)]),contagion(nds_2022_pacing_challenge,0.016937499999999998,[extraction_rising,coupling_above_threshold(1.0),theater_rising,excess_above_floor(0.48)]),contagion(taiwan_storm_2026,0.006874999999999992,[extraction_rising,coupling_above_threshold(1.0),excess_above_floor(0.029999999999999916)]),contagion(us_sdf_alliance_abandonment_2026,0.0175375,[extraction_rising,coupling_above_threshold(1.0),theater_rising,excess_above_floor(0.5800000000000001)])],effective_purity,0.48519333333333337,intrinsic_purity,0.5463333333333333),critical)])"
+    }
+  ],
+  "tension_count": 2,
+  "expected_conflicts": [
+    {
+      "subsystem": "cohomology",
+      "code": "cohomological_fracture_divergence"
+    },
+    {
+      "subsystem": "boltzmann",
+      "code": "constructed_non_compliance"
+    },
+    {
+      "subsystem": "dirac",
+      "code": "pre_post_override_divergence"
+    },
+    {
+      "subsystem": "gauge_orbit",
+      "code": "perspectival_orbit_variance"
+    }
+  ],
+  "convergent_rejections": "none",
+  "classification": {
+    "claimed_type": "tangled_rope",
+    "classified_type": "tangled_rope",
+    "mismatch": false,
+    "confidence": 0.970415,
+    "confidence_band": "deep",
+    "rival_type": "snare",
+    "rival_p": 0.029582,
+    "boundary": "tangled_rope->snare",
+    "psi": 0.967238,
+    "psi_label": "snare_leaning"
+  },
+  "hard_disagreement": null,
+  "drift_events": [
+    {
+      "severity": "warning",
+      "type": "metric_substitution"
+    },
+    {
+      "severity": "critical",
+      "type": "extraction_accumulation"
+    },
+    {
+      "severity": "critical",
+      "type": "coupling_drift"
+    },
+    {
+      "severity": "warning",
+      "type": "purity_drift"
+    },
+    {
+      "severity": "critical",
+      "type": "network_drift"
+    }
+  ],
+  "mandatrophy_gap": {
+    "delta_chi": 0.54,
+    "severity": "high"
+  },
+  "structural_signature": "false_ci_rope",
+  "purity": {
+    "value": 0.546333,
+    "band": "borderline"
+  },
+  "post_synthesis_flags": []
+}

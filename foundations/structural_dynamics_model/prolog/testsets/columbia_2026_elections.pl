@@ -1,26 +1,50 @@
 % ============================================================================
-% CONSTRAINT STORY: colombia_2026_presidential_election
+% CONSTRAINT STORY: columbia_2026_elections
 % ============================================================================
-% Generated: January 16, 2026
-% Model: Gemini 2.0 Flash
-% Source: Real-time political analysis and polling (AtlasIntel, Invamer, etc.)
+% Version: 1.0 (Deferential Realism Core + Directionality + Boltzmann + Network)
+% Logic: 6.0 (Indexed Tuple P,T,E,S + Sigmoid f(d) + Coupling + Purity + Network)
+% Generated: 2026-02-26
+% Status: [ACTIVE]
 % ============================================================================
 
-:- module(colombia_2026_presidential_election, []).
+:- module(constraint_columbia_2026_elections, []).
 
 :- use_module(constraint_indexing).
 :- use_module(domain_priors).
 :- use_module(narrative_ontology).
 
+% --- Constraint Identity Rule (DP-001: ε-Invariance) ---
+% Each constraint story must have a single, stable base extractiveness (ε).
+% If changing the observable used to evaluate this constraint would change ε,
+% you are looking at two distinct constraints. Write separate .pl files for
+% each, link them with affects_constraint/2, and document the relationship
+% in both files' narrative context sections.
+%
+% The context tuple is CLOSED at arity 4: (P, T, E, S).
+% Do not add measurement_basis, beneficiary/victim, or any other arguments.
+% Linter Rule 23 enforces context/4.
+%
+% See: epsilon_invariance_principle.md
+
 % --- Namespace Hooks (Required for loading) ---
-:- multifile 
+:- multifile
     domain_priors:base_extractiveness/2,
     domain_priors:suppression_score/2,
+    domain_priors:theater_ratio/2,
     domain_priors:requires_active_enforcement/1,
+    narrative_ontology:has_sunset_clause/1,
+    narrative_ontology:interval/3,
+    narrative_ontology:measurement/5,
     narrative_ontology:constraint_metric/3,
     narrative_ontology:constraint_beneficiary/2,
     narrative_ontology:constraint_victim/2,
-    constraint_indexing:constraint_classification/3.
+    narrative_ontology:constraint_claim/2,
+    narrative_ontology:affects_constraint/2,
+    narrative_ontology:coordination_type/2,
+    constraint_indexing:constraint_classification/3,
+    narrative_ontology:omega_variable/3,
+    narrative_ontology:human_readable/2,
+    narrative_ontology:topic_domain/2.
 
 /* ==========================================================================
    1. NARRATIVE CONTEXT
@@ -28,283 +52,249 @@
 
 /**
  * CONSTRAINT IDENTIFICATION
- * * constraint_id: colombia_2026_presidential_election
- * human_readable: 2026 Colombian Presidential Election Structure
- * domain: political
- * temporal_scope: 2025-2026 (Campaign season to May 31, 2026)
- * spatial_scope: National (Colombia)
- * * SUMMARY:
- * The 2026 election represents a critical structural constraint where the 
- * constitutional "one-term" limit on the incumbent (Gustavo Petro) forces a 
- * transition. The system is defined by extreme polarization between a 
- * consolidated Left (Pacto Histórico) and an emerging populist Right (De la Espriella).
- * * KEY AGENTS:
- * - Iván Cepeda: Left-wing Senator and Historic Pact candidate; successor to Petro.
- * - Abelardo de la Espriella: Right-wing populist lawyer; "Colombian Bukele" archetype.
- * - Sergio Fajardo: Persistent centrist candidate struggling for relevance in a polarized field.
- * - The "Undecided" Bloc: A rapidly shrinking group of voters (from 62% in Nov 2025 to ~6% in Jan 2026).
- * * NARRATIVE ARC:
- * Following the historic 2022 victory of the first left-wing government, the 2026 
- * cycle functions as a referendum on Petro's reforms. The structural constraint 
- * of the two-round system (runoff) incentivizes early polarization and "all against 
- * one" coalition strategies.
+ *   constraint_id: columbia_2026_elections
+ *   human_readable: 2026 Colombian Presidential Election Structure
+ *   domain: political/electoral
+ *
+ * SUMMARY:
+ *   Colombia's 2026 presidential election is structured around a
+ *   constitutional one-term limit that forces executive succession. This
+ *   constraint simultaneously functions as democratic coordination mechanism
+ *   (guaranteeing turnover, preventing indefinite executive power
+ *   accumulation), as coordination infrastructure for the incumbent coalition
+ *   (managed succession, preservation of party machinery), and as extraction
+ *   mechanism (incumbent advantages in campaign resources, administrative
+ *   capacity, regional networks). The structure exhibits the full range of DR
+ *   classifications depending on the observer's structural position and exit
+ *   capacity. For powerless rural voters locked into vote-trading networks
+ *   with local caciques, the election appears as pure extraction (snare). For
+ *   established opposition parties with organizational capacity, it appears
+ *   as a mixed coordination-extraction hybrid (tangled rope). For the
+ *   incumbent coalition, it appears as coordination mechanism for managed
+ *   succession (rope). The constitutional one-term limit itself appears as
+ *   natural law (mountain) from a civilizational analytical perspective, but
+ *   this classification requires scrutiny: if the limit persists because both
+ *   dominant coalitions prefer its predictability, it is contingent on
+ *   current power distribution, not immutable. The measurement trajectory
+ *   shows extractiveness increasing from 0.38 to 0.52 over the election
+ *   cycle, and theater ratio rising from 0.48 to 0.62, indicating that as the
+ *   election approaches, both the performative content and the actual
+ *   extraction mechanisms intensify.
+ *
+ * KEY AGENTS:
+ *   - Incumbent Political Coalition: Primary beneficiary (institutional/arbitrage) — controls state resources, enjoys visibility advantages, manages succession through coalition machinery
+ *   - Established Opposition Parties: Secondary beneficiary (powerful/mobile) — the one-term limit creates opposition electoral opportunity, but they face incumbent infrastructure advantages
+ *   - Regional Power Brokers (Caciques): Tertiary beneficiary (powerful/arbitrage) — control local electoral machinery, extract rents through vote trading, benefit from incumbent machinery coordination
+ *   - Marginalized Rural Voters: Primary victim (powerless/trapped) — structurally locked into local political hierarchies, vote preferences filtered through cacique intermediaries, bear extraction costs without agency
+ *   - Electoral Commission (CNE): Institutional actor (institutional/arbitrage) — maintains formal independence but depends on coalitions' acceptance for legitimacy, exhibits piton characteristics (performative procedures)
+ *   - International Election Observers: Organized external actors (organized/constrained) — temporary presence during campaign creates verification pressure, scaffold logic (sunset after election day)
+ *   - Urban Middle-Class Voters: Moderate agent (moderate/mobile) — higher information access, can exit through spoiled ballots or abstention with lower social cost, constrained but not trapped
+ *   - Analytical Observer: Civilizational perspective (analytical/analytical) — risks naturalizing the constitutional one-term limit as unchangeable when it depends on political equilibrium
  */
 
 /* ==========================================================================
-   2. CORE SYSTEM INTEGRATION (The "Reality" Layer)
+   2. BASE PROPERTIES (DOMAIN PRIORS)
    ========================================================================== */
 
-% Required for [STEP 1] and [STEP 2] of the DR-Audit Suite
-narrative_ontology:interval(colombia_2026_presidential_election, 0, 10).
-narrative_ontology:constraint_claim(colombia_2026_presidential_election, rope).
+% --- Numerical metrics ---
+domain_priors:base_extractiveness(columbia_2026_elections, 0.52).
+domain_priors:suppression_score(columbia_2026_elections, 0.68).
+domain_priors:theater_ratio(columbia_2026_elections, 0.58).
 
-% Base extractiveness: Moderate (0.45)
-% Rationale: While elections are coordination mechanisms (Rope), the intense 
-% polarization and use of state/corporate machinery for campaign leverage 
-% create asymmetric benefit flows toward political elites.
-domain_priors:base_extractiveness(colombia_2026_presidential_election, 0.45).
+% --- Constraint metric facts (engine primary keys, must mirror domain_priors) ---
+narrative_ontology:constraint_metric(columbia_2026_elections, extractiveness, 0.52).
+narrative_ontology:constraint_metric(columbia_2026_elections, suppression_requirement, 0.68).
+narrative_ontology:constraint_metric(columbia_2026_elections, theater_ratio, 0.58).
 
-% Suppression score: Low-Moderate (0.35)
-% Rationale: While alternatives (Centrists) are not legally suppressed, 
-% the media-logic and donor-pacing of the polarized "two-pole" race effectively 
-% marginalize third-way options like Fajardo (polling at 9.4%).
-domain_priors:suppression_score(colombia_2026_presidential_election, 0.35).
+% --- Constraint claim ---
+narrative_ontology:constraint_claim(columbia_2026_elections, tangled_rope).
+narrative_ontology:human_readable(columbia_2026_elections, "2026 Colombian Presidential Election Structure").
+narrative_ontology:topic_domain(columbia_2026_elections, "political/electoral").
 
-% Constraint metric facts (bridge for classification engine)
-narrative_ontology:constraint_metric(colombia_2026_presidential_election, extractiveness, 0.45).
-narrative_ontology:constraint_metric(colombia_2026_presidential_election, suppression_requirement, 0.35).
+domain_priors:requires_active_enforcement(columbia_2026_elections).
 
-% Enforcement: Requires active enforcement
-% The electoral structure is maintained by the National Electoral Council (CNE) 
-% and the constitutional court; it does not "emerge naturally" but is a legal mandate.
-domain_priors:requires_active_enforcement(colombia_2026_presidential_election).
+% --- Structural relationships ---
+narrative_ontology:constraint_beneficiary(columbia_2026_elections, incumbent_political_coalition).
+narrative_ontology:constraint_beneficiary(columbia_2026_elections, established_parties).
+narrative_ontology:constraint_beneficiary(columbia_2026_elections, regional_power_brokers).
+narrative_ontology:constraint_victim(columbia_2026_elections, outsider_candidates).
+narrative_ontology:constraint_victim(columbia_2026_elections, electoral_transparency).
+narrative_ontology:constraint_victim(columbia_2026_elections, marginalized_constituencies).
 
-% Metrics required for Section 1 of the Executive Summary
 /* ==========================================================================
-   3. INDEXED CLASSIFICATIONS (Perspectival Truth)
+   3. INDEXED CLASSIFICATIONS (P, T, E, S)
    ========================================================================== */
 
-/* --------------------------------------------------------------------------
-   PERSPECTIVE 1: IVÁN CEPEDA (Historic Pact) - ROPE
-   --------------------------------------------------------------------------
-   
-   WHO: institutional/powerful
-   WHEN: biographical (succession of the progressive project)
-   WHERE: mobile (can engage in international diplomacy)
-   SCOPE: national/global
-   
-   WHY THIS CLASSIFICATION:
-   For the Left, the election is a tool for coordinating "Broad Front" (Frente Amplio) 
-   power to secure reforms (pensions, labor). It is a mechanism of change.
-   
-   NARRATIVE EVIDENCE:
-   "Cepeda has spoken of the need to form a broad front... to prevent a return 
-   to right-wing governance." [Justice for Colombia, Dec 2025]
-   -------------------------------------------------------------------------- */
+% PERSPECTIVE 1: MARGINALIZED RURAL VOTERS (SNARE) — Structurally locked into participation without meaningful agency. Election machinery in remote regions depends on local caciques (power brokers) who control information, transportation, and vote counting. Exit via abstention or spoiled ballots incurs social cost. Maximum extraction: voters bear institutional burden while their preferences are filtered through intermediaries.
+constraint_indexing:constraint_classification(columbia_2026_elections, snare,
+    context(agent_power(powerless),
+            time_horizon(immediate),
+            exit_options(trapped),
+            spatial_scope(local))).
 
-constraint_indexing:constraint_classification(
-    colombia_2026_presidential_election,
-    rope,
-    context(
-        agent_power(powerful),
-        time_horizon(biographical),
-        exit_options(mobile),
-        spatial_scope(national)
-    )
-) :-
-    domain_priors:base_extractiveness(colombia_2026_presidential_election, E),
-    E < 0.6,
-    !.
+% PERSPECTIVE 2: REGIONAL POLITICAL MOVEMENTS (TANGLED ROPE) — Moderate power but constrained exit. Participate in elections (coordination benefit: legitimate channel for preferences) but face institutional barriers: ballot access requirements, campaign financing concentrated among established parties, media access skewed toward incumbent coalition. Mixed extraction and coordination — some candidates emerge through this process, but the structure favors incumbent-aligned movements.
+constraint_indexing:constraint_classification(columbia_2026_elections, tangled_rope,
+    context(agent_power(moderate),
+            time_horizon(biographical),
+            exit_options(constrained),
+            spatial_scope(regional))).
 
-/* --------------------------------------------------------------------------
-   PERSPECTIVE 2: MARGINALIZED VOTER - MOUNTAIN
-   --------------------------------------------------------------------------
-   
-   WHO: powerless
-   WHEN: immediate
-   WHERE: trapped
-   SCOPE: local
-   
-   WHY THIS CLASSIFICATION:
-   For a low-income voter in a conflict-prone region, the election cycle is a 
-   recurring "force of nature" that dictates their safety and economic floor 
-   without their direct ability to change the systemic outcome.
-   
-   NARRATIVE EVIDENCE:
-   Polls show 62% were undecided in late 2025, viewing the candidates as distant 
-   elites; high disapproval ratings across the board reflect perceived immutability.
-   -------------------------------------------------------------------------- */
+% PERSPECTIVE 3: INCUMBENT POLITICAL COALITION (ROPE) — Institutional beneficiary with full arbitrage. The one-term constitutional limit forces transition but also guarantees the party machinery survives intact. Coalition coordinates succession (choosing next-generation leaders), accesses state resources for campaign, leverages incumbent visibility. Net beneficiary — extraction runs toward this coalition. The constraint (one-term limit) is experienced as coordination mechanism for managed succession.
+constraint_indexing:constraint_classification(columbia_2026_elections, rope,
+    context(agent_power(institutional),
+            time_horizon(generational),
+            exit_options(arbitrage),
+            spatial_scope(national))).
 
-constraint_indexing:constraint_classification(
-    colombia_2026_presidential_election,
-    mountain,
-    context(
-        agent_power(powerless),
-        time_horizon(immediate),
-        exit_options(trapped),
-        spatial_scope(local)
-    )
-) :-
-    constraint_indexing:effective_immutability_for_context(
-        context(powerless, immediate, trapped, local),
-        mountain
-    ),
-    !.
+% PERSPECTIVE 4: ESTABLISHED OPPOSITION PARTIES (TANGLED ROPE) — Powerful institutional actors with some mobility (can field candidates, campaign across regions, access media through party infrastructure) but constrained by incumbent advantages. Electoral rules create mixed signals: the one-term limit opens space for opposition victory (coordination benefit) but incumbent machinery controls voter rolls, regional networks, and administrative resources (extraction mechanism). Effective extraction moderate because established parties have organizational capacity.
+constraint_indexing:constraint_classification(columbia_2026_elections, tangled_rope,
+    context(agent_power(powerful),
+            time_horizon(generational),
+            exit_options(mobile),
+            spatial_scope(national))).
 
-/* --------------------------------------------------------------------------
-   PERSPECTIVE 3: SERGIO FAJARDO (The Centrist) - SNARE
-   --------------------------------------------------------------------------
-   
-   WHO: individual_moderate
-   WHEN: generational
-   WHERE: constrained
-   SCOPE: national
-   
-   WHY THIS CLASSIFICATION:
-   For the centrist technocrat, the current polarized structure is a "Snare." 
-   The binary choice (Petrista vs. Bukele-ist) strangles the viability of 
-   moderation, effectively punishing those who don't join a pole.
-   
-   NARRATIVE EVIDENCE:
-   AtlasIntel (Jan 13, 2026) shows Fajardo at 9.4%, "failing to surpass the 
-   10% benchmark that has long eluded his centrist candidacies."
-   -------------------------------------------------------------------------- */
+% PERSPECTIVE 5: ELECTORAL COMMISSION (PITON) — Formally independent but structurally dependent on both incumbent and opposition for legitimacy. Theater ratio high (0.58): public validation rituals (voting ceremonies, transparency audits, international observer protocols) persist despite chronic capacity constraints in vote counting, especially in remote regions. The commission maintains institutional inertia — continues formal procedures that have limited verification capacity — because alternatives haven't replaced it and both coalitions prefer predictable theater to unpredictable dispute.
+constraint_indexing:constraint_classification(columbia_2026_elections, piton,
+    context(agent_power(institutional),
+            time_horizon(civilizational),
+            exit_options(arbitrage),
+            spatial_scope(national))).
 
-constraint_indexing:constraint_classification(
-    colombia_2026_presidential_election,
-    snare,
-    context(
-        agent_power(individual_moderate),
-        time_horizon(generational),
-        exit_options(constrained),
-        spatial_scope(national)
-    )
-) :-
-    domain_priors:suppression_score(colombia_2026_presidential_election, S),
-    S > 0.3, % Moderate suppression of the "center" option.
-    !.
+% PERSPECTIVE 6: INTERNATIONAL ELECTION OBSERVERS (SCAFFOLD) — Organized external actors (OAS, UN, Carter Center, EU) who validate election legitimacy. Temporary function: observer presence reduces extraction by increasing verification cost and enabling dispute resolution. Constrained exit (must withdraw after election day) but high agency during campaign. Scaffold logic: observers create temporary constraint on obvious manipulation, with sunset when observers leave. Theater ratio drops during observation period (0.42), rises after (0.65).
+constraint_indexing:constraint_classification(columbia_2026_elections, scaffold,
+    context(agent_power(organized),
+            time_horizon(biographical),
+            exit_options(constrained),
+            spatial_scope(global))).
+
+% PERSPECTIVE 7: CONSTITUTIONAL ONE-TERM LIMIT (MOUNTAIN) — From civilizational analytical view, the one-term limit appears as a natural law: a constitutional constraint that is binding, irreversible, and uniform across all agents. Cannot be suspended by either coalition. Engine will flag this as potential false summit — the 'immutable constitutional rule' naturalizes what is actually a political equilibrium: the one-term limit persists because both dominant coalitions prefer the predictability of managed succession to the chaos of authoritarian persistence. If one coalition gained absolute power, they would revise the constitution. The mountainness depends on actual binding force, not formal status.
+constraint_indexing:constraint_classification(columbia_2026_elections, mountain,
+    context(agent_power(analytical),
+            time_horizon(civilizational),
+            exit_options(analytical),
+            spatial_scope(universal))).
 
 /* ==========================================================================
-   4. TESTS (What We Learn About Constraints)
+   4. VALIDATION TESTS
    ========================================================================== */
 
-:- begin_tests(colombia_2026_presidential_election_tests).
+:- begin_tests(columbia_2026_elections_tests).
 
-test(multi_perspective_variance) :-
-    constraint_indexing:constraint_classification(colombia_2026_presidential_election, rope, context(powerful, biographical, mobile, national)),
-    constraint_indexing:constraint_classification(colombia_2026_presidential_election, mountain, context(powerless, immediate, trapped, local)),
-    constraint_indexing:constraint_classification(colombia_2026_presidential_election, snare, context(individual_moderate, generational, constrained, national)).
+test(perspectival_gap) :-
+    constraint_indexing:constraint_classification(columbia_2026_elections, TypePowerless, context(agent_power(powerless), _, _, _)),
+    constraint_indexing:constraint_classification(columbia_2026_elections, TypeOther, context(agent_power(moderate), _, _, _)),
+    TypePowerless \= TypeOther.
 
-test(power_extractiveness_scaling) :-
-    % Powerful agents see the election as a coordination game (0.2 experienced extraction)
-    % Powerless agents see it as an extractive burden (0.7 experienced extraction)
-    ScorePowerless = 0.7,
-    ScorePowerful = 0.2,
-    ScorePowerless > ScorePowerful.
+test(extraction_signature) :-
+    domain_priors:base_extractiveness(columbia_2026_elections, E),
+    E >= 0.46. % Ensures high-extraction Snare/Tangled territory.
 
-test(time_immutability_fajardo_trap) :-
-    % Demonstrates that for a "Moderate" agent in a national scope, the constraint is a Snare
-    constraint_indexing:constraint_classification(colombia_2026_presidential_election, snare, context(individual_moderate, _, _, national)).
+test(piton_threshold) :-
+    domain_priors:theater_ratio(columbia_2026_elections, TR),
+    TR >= 0.70.
 
-:- end_tests(colombia_2026_presidential_election_tests).
+:- end_tests(columbia_2026_elections_tests).
 
 /* ==========================================================================
-   5. MODEL INTERPRETATION (Commentary)
+   5. GENERATIVE COMMENTARY
    ========================================================================== */
 
 /**
- * LLM GENERATION NOTES
- * * Model: Gemini 2.0 Flash
- * Date: Jan 16, 2026
- * * KEY DECISIONS:
- * * 1. BASE EXTRACTIVENESS (0.45):
- * The election is a standard democratic process, but the current context 
- * of "Petro-unpopularity" (35.7% approval) vs "De la Espriella Populism" 
- * suggests high stakes for resource control, justifying a moderate score.
- * * 2. PERSPECTIVE SELECTION:
- * - Cepeda (Rope): Represents the coalition-building logic of the ruling party.
- * - Powerless Voter (Mountain): Reflects the 62% initial indecision and the 
- * feeling of being caught in a game of giants.
- * - Fajardo (Snare): Represents the "death of the center" in Latin American 
- * politics, where the system itself strangles moderate alternatives.
- * * 3. STATISTICAL REALITY:
- * The January 10-13, 2026 AtlasIntel poll is a pivot point. De la Espriella's 
- * 28% vs. Cepeda's 26.5% creates a "Snare" for anyone not aligned with these 
- * two figures, as they command over 50% of the active electorate intentions.
- * * 4. AMBIGUITIES:
- * The "Undecided" bloc is the biggest variable. If they are "trapped" and 
- * "powerless," they see a Mountain. If they are "mobile" (analytical), they 
- * might see a Snare they can arbitrage.
+ * LOGIC RATIONALE:
+ *   Extractiveness (0.52): Moderate-high. The incumbent coalition and regional power brokers extract significant rents from the election: control of campaign timing, access to administrative resources, ability to condition rural voters' participation through local hierarchies. However, the extraction is not total (snare-level 0.70+) because the constitutional one-term limit does force genuine succession — some positions become available to opposition-aligned candidates, and voter preferences are partially expressed through electoral channels. The 0.52 value reflects that the structure has both coordination function (legitimate channel for preferences) and extraction mechanism (incumbent advantages). Suppression (0.68): High. Multiple barriers constrain electoral competition: (1) voter registration mechanisms concentrated in urban areas favor known constituencies, (2) campaign financing asymmetry (incumbent has state resources), (3) media access skewed toward coalition-aligned candidates, (4) vote-buying networks in rural areas reduce meaningful choice, (5) ballot access requirements screen out new candidates. Theater ratio (0.58): Moderate-high. Public validation rituals (voting ceremonies, observer presence, official result announcements) are substantial, but verification capacity lags in remote regions. Urban polling stations have higher transparency; rural stations have lower. Election Commission maintains formal procedures (vote counting oversight, observer protocols) despite chronic underfunding. Theater increases over campaign cycle as pressure mounts for legitimacy performance.
+ *
+ * PERSPECTIVAL GAP:
+ *   The constraint exhibits maximum perspectival diversity. The incumbent coalition sees coordination (rope); rural voters see extraction (snare); established opposition sees mixed signals (tangled rope); electoral commission sees degraded ritual (piton); international observers see temporary pressure (scaffold); and the constitutional limit appears as natural law (mountain) to civilization-scale analysis. This is a diagnostic exemplar of why indexical classification requires perspectival multiplicity: no single 'correct' type. The same structural arrangement generates six different experiences depending on power level, exit capacity, time horizon, and scope. The mandatrophy is resolved by recognizing that all six readings are simultaneously true — they describe the same constraint structure from different observation posts.
+ *
+ * DIRECTIONALITY LOGIC:
+ *   Directionality values (d) encode each agent's structural relationship to the extraction flow. Incumbent coalition and caciques derive d from beneficiary status + arbitrage exit options → low d → low/negative f(d) → negative or minimal χ (they experience the constraint as coordination, not extraction). Established opposition derives d from mixed beneficiary/victim status + mobile exit options → moderate d → moderate f(d) → moderate χ (they benefit from the succession opportunity but constrained by incumbent advantages). Marginalized rural voters derive d from victim status + trapped exit options → high d → high f(d) → high χ (maximum experienced extraction). Electoral commission derives d from institutional position + arbitrage exit options, modified by captured status → moderate d, overrideable upward if analysis suggests actual capture. Urban middle-class voters derive d from moderate power + mobile exit → moderate d → moderate χ. The engine computes these from the beneficiary/victim declarations and exit capacity. Directionality overrides are not needed here because the structural relationships are clear: beneficiaries have arbitrage or mobile options with low d; victims have trapped or constrained options with high d.
+ *
+ * MANDATROPHY ANALYSIS:
+ *   TANGLED ROPE RESOLUTION: The constraint is classified as tangled rope because it possesses both genuine coordination function (legitimate channel for electoral preferences, guaranteed succession preventing indefinite power accumulation, inter-party transition mechanism) and asymmetric extraction (incumbent advantages in resources, cacique vote-trading networks, regional administrative control, information asymmetry). All three required elements are present: (1) beneficiaries declared (incumbent_political_coalition, established_parties, regional_power_brokers) provide coordination function; (2) victims declared (outsider_candidates, electoral_transparency, marginalized_constituencies) experience extraction; (3) requires_active_enforcement true (the constraint requires active electoral machinery, campaign coordination, vote-counting procedures). The tangled rope classification prevents false reductions in either direction: this is neither pure coordination (rope) nor pure extraction (snare). It is genuinely both. The perspectival gap is resolved by noting that different agents experience different ratios of coordination to extraction: incumbents experience high coordination/low extraction (rope from their viewpoint); powerless rural voters experience minimal coordination/high extraction (snare from their viewpoint); moderate opposition actors experience balanced mixed (tangled rope). The mountain classification from civilizational perspective is rejected as a false summit — the one-term limit appears unchangeable only because both dominant coalitions currently prefer its stability. It is contingent on this political equilibrium, not immutable.
  */
 
 /* ==========================================================================
-   6. ALTERNATIVE ANALYSIS
+   6. OMEGA VARIABLES (Ω) - IRREDUCIBLE UNCERTAINTIES
    ========================================================================== */
 
-/**
- * VIABLE ALTERNATIVES
- * * ALTERNATIVE 1: The "Gran Consulta por Colombia" (Inter-party primary)
- * Viability: High. Scheduled for March 8, 2026.
- * Suppression: Currently low, but threatened by fragmentation (Paloma Valencia vs. Pinzón).
- * * ALTERNATIVE 2: The "Frente Amplio" (Broad Front)
- * Viability: The primary vehicle for Cepeda to consolidate 30+ candidates.
- * * CONCLUSION:
- * The existence of these alternatives (primaries) suggests the election is 
- * still a Rope for the political class, but for the general public, the 
- * "all against the left" vs. "continuity" narrative acts as a structural 
- * Snare that eliminates diverse policy discourse.
- */
+omega_variable(
+    constitutional_revision_risk,
+    'Under what conditions would a dominant coalition attempt constitutional revision to allow presidential reelection?',
+    'Historical precedent from Peru (1992), Venezuela (1999, 2009), Bolivia (2009). Monitoring of political concentration — if one coalition achieves supermajority control of legislature, revision pressure increases. Polling on public appetite for reelection.',
+    'If revision probability > 0.15: the mountain classification is false; one-term limit is contingent on current power balance, not inherent. If probability < 0.05: mountain holds — limit is durable across foreseeable political scenarios.',
+    confidence_without_resolution(medium)
+).
+
+narrative_ontology:omega_variable(constitutional_revision_risk, empirical, 'Constitutional revision probability as function of political concentration').
+
+omega_variable(
+    regional_extraction_opacity,
+    'In regions without independent verification infrastructure, what fraction of extractive activity (vote trading, cacique leverage, ballot fraud) remains unobserved and unquantified?',
+    'Post-election audits in high-marginalization departments; comparison of pre-announced voting intentions vs official results; qualitative interviews with regional observers and voters. Measurement of vote-buyer effectiveness (how many votes can be purchased per unit expenditure in different regions).',
+    'If opacity > 0.60: suppression index may be understated (should be 0.75+). Extraction may be snare-level (not tangled rope) for rural victims. If opacity < 0.30: current tangled-rope classification from moderate regional perspective is accurate.',
+    confidence_without_resolution(medium)
+).
+
+narrative_ontology:omega_variable(regional_extraction_opacity, empirical, 'Opacity of regional extraction mechanisms').
+
+omega_variable(
+    observer_effectiveness_paradox,
+    'Do international observers reduce extraction by increasing verification cost, or do they provide symbolic legitimation that enables extraction by reducing domestic scrutiny?',
+    'Comparison of vote irregularities in observed vs unobserved elections. Analysis of electoral disputes: are observers'' presence correlated with fewer or more fraud allegations? Exit surveys in regions with vs without observer presence.',
+    'If observers reduce extraction: scaffold classification confirmed. If observers enable extraction through legitimation: scaffold is theater-heavy false classification, extraction persists underneath observer protocols, true classification for powerless agents should be snare (not tangled rope).',
+    confidence_without_resolution(high)
+).
+
+narrative_ontology:omega_variable(observer_effectiveness_paradox, empirical, 'Whether observers reduce or legitimize extraction').
+
+omega_variable(
+    successor_autonomy,
+    'To what degree is the designated successor (chosen by incumbent coalition) bound to fulfill commitments made to coalition allies, vs. exercising genuine presidential autonomy once in office?',
+    'Historical analysis of Colombian successions: do new presidents execute predecessor''s coalition agreements? Defection rate and consequences. Comparison with peer democracies (Mexico, Chile) with similar constraints.',
+    'If successor autonomy high: one-term limit genuinely blocks indefinite extraction accumulation (true coordinating function). If autonomy low: successor is puppet, extraction continues through alternate mechanism (limit is fake — piton rather than mountain).',
+    confidence_without_resolution(medium)
+).
+
+narrative_ontology:omega_variable(successor_autonomy, empirical, 'Successor autonomy relative to incumbent coalition').
+
 
 /* ==========================================================================
    7. INTEGRATION HOOKS
    ========================================================================== */
 
-/**
- * TO USE THIS FILE:
- * * 1. Load: ?- [colombia_2026_presidential_election].
- * 2. Multi-perspective: ?- constraint_indexing:multi_index_report(colombia_2026_presidential_election).
- * 3. Run tests: ?- run_tests(colombia_2026_presidential_election_tests).
- */
+narrative_ontology:interval(columbia_2026_elections, 0, 12).
+
+/* ==========================================================================
+   8. TEMPORAL MEASUREMENTS (LIFECYCLE DRIFT DATA)
+   ========================================================================== */
+
+% Theater ratio over time
+narrative_ontology:measurement(col2026_tr_t0, columbia_2026_elections, theater_ratio, 0, 0.48).
+narrative_ontology:measurement(col2026_tr_t6, columbia_2026_elections, theater_ratio, 6, 0.58).
+narrative_ontology:measurement(col2026_tr_t12, columbia_2026_elections, theater_ratio, 12, 0.62).
+
+% Extraction over time
+narrative_ontology:measurement(col2026_be_t0, columbia_2026_elections, base_extractiveness, 0, 0.38).
+narrative_ontology:measurement(col2026_be_t6, columbia_2026_elections, base_extractiveness, 6, 0.5).
+narrative_ontology:measurement(col2026_be_t12, columbia_2026_elections, base_extractiveness, 12, 0.52).
+
+
+/* ==========================================================================
+   9. BOLTZMANN & NETWORK DATA
+   ========================================================================== */
+
+narrative_ontology:coordination_type(columbia_2026_elections, enforcement_mechanism).
+narrative_ontology:affects_constraint(columbia_2026_elections, colombia_rural_vote_buying).
+narrative_ontology:affects_constraint(columbia_2026_elections, colombia_campaign_finance_asymmetry).
+narrative_ontology:affects_constraint(columbia_2026_elections, colombia_media_access_disparity).
+
+% DUAL FORMULATION NOTE:
+% The 2026 election structure is upstream of three subordinate constraints: (1) rural vote-buying networks that operationalize extraction in local contexts, (2) campaign finance asymmetry that manifests incumbent advantage, (3) media access disparity that skews information flows. Each subordinate constraint has higher ε values reflecting more concentrated extraction at the implementation level. The election structure itself has moderate ε (0.52) because it integrates both coordination (succession mechanism) and extraction (incumbent advantage). Downstream constraints have ε > 0.60, indicating that the structural vulnerabilities of the election system are exploited more severely at regional implementation levels.
+
+/* ==========================================================================
+   10. DIRECTIONALITY OVERRIDES (v6.0, OPTIONAL)
+   ========================================================================== */
 
 /* ==========================================================================
    END OF CONSTRAINT STORY
    ========================================================================== */
-
-
-% --- v3.1 Indexical Relativity Stubs (Fleet Repair) ---
-constraint_indexing:constraint_classification(columbia_2026_elections, mountain, agent_power(analytical)).
-constraint_indexing:constraint_classification(columbia_2026_elections, rope, agent_power(institutional)).
-constraint_indexing:constraint_classification(columbia_2026_elections, snare, agent_power(powerless)).
-
-% ============================================================================
-% ENRICHMENT: Structural predicates for dynamic classification
-% Generated: 2026-02-08
-% Template: v5.2 namespace alignment
-% Source: Derived from existing narrative and structural content in this file
-% ============================================================================
-
-% --- Multifile declarations for new predicates ---
-:- multifile
-    domain_priors:theater_ratio/2.
-
-% --- Theater ratio (missing from base properties) ---
-% Coordination mechanism in political domain — moderate institutional framing
-domain_priors:theater_ratio(colombia_2026_presidential_election, 0.2).
-narrative_ontology:constraint_metric(colombia_2026_presidential_election, theater_ratio, 0.2).
-
-% ============================================================================
-% ENRICHMENT: Structural predicates for remaining gaps
-% Generated: 2026-02-08
-% Template: v5.2 namespace alignment
-% Source: Derived from narrative context in this file (columbia_2026_elections)
-% ============================================================================
-narrative_ontology:constraint_beneficiary(colombia_2026_presidential_election, political_elites).
-narrative_ontology:constraint_victim(colombia_2026_presidential_election, marginalized_voters).
-
-omega_variable(
-    omega_colombian_polarization,
-    "Will the two-round system intensify polarization to the point where centrist alternatives are structurally eliminated?",
-    "Post-election analysis of vote fragmentation and centrist party viability after the May 2026 results.",
-    "If centrists survive: The constraint remains a Rope. If eliminated: It hardens into a Mountain of binary choice.",
-    confidence_without_resolution(medium)
-).

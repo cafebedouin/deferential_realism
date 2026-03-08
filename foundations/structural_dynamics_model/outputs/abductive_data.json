@@ -1,0 +1,1683 @@
+{
+  "per_constraint": {
+    "absorbing_markov_chains": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "academic_fashion_modernism_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "academic_peer_review_gatekeeping": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "academic_tenure_system": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "acip_hep_b_infant_mandate": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "adaptive_lag_trap": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "adversarial_surface_inflation": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "agentive_optimism_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "agg1_genetic_determinism": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "ai_adoption_stigma": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ai_auditability_gap": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "ai_banal_capture": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ai_evaluators_matching": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "ai_religion_regulation": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ai_task_horizon_reliability": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "ai_training_data_dependency": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "airport_slot_use_it_or_lose_it": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "algeria_france_colonial_legacy": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "alignment_tax_tradeoff": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "allocation_as_extraction_multiplier": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "alternative_sovereignty_scaffold": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "alzheimers_levetiracetam": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "amish_technological_renunciation": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "ancient_grudge_verona": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "anticipatory_capacity_failure": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "antifragility": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "antikythera_knowledge_loss": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "apartheid_nuclear_program": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "ape_cognition_framework": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "appropriations_brinkmanship": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "architectural_constraint_as_dual_substrate": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "arctic_geopolitical_flashpoint": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "arg_ev_tariff": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "armra_colostrum_regulation": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "artificial_scarcity_scaffold": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "asean_ceasefire_2011": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "asshole_filter_2015": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "asymmetric_burden_distribution": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "asymmetric_coordination_extraction": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "asymmetric_duty_structure": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "atrophied_optimization_piton": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "attention_as_bottleneck_resource": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "attention_as_capturable_resource": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "attention_market_cannibalization": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "attritional_warfare_doctrine_ru_ua_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "au_social_media_ban_u16": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "australia_social_ban_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "authoritarian_power_paradox": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "automatic_enrollment_defaults": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "awareness_without_leverage": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "axiom_of_choice_determinacy": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "axiom_reasoner_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "banach_fixed_point": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "banach_fixed_point_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "banach_tarski_paradox": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "bangladesh_july_national_charter": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "base_pair_complementarity": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "basel_problem_convergence": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "bedouin_sedentary_transition": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "bgs_eigenvector_thermalization": [
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "bgs_spectral_universality": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "bh_merger_gravitational_infall": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "bip_narrative_illusion": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "birthday_paradox_collison": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "blackstone_carried_interest_taxation": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "blackstone_conflicts_of_interest": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "blackstone_smd_control": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "blackstone_tax_receiveable_agreement": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "board_of_peace_2026": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "boe_base_rate_policy_2024": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "boiled_pineapple_trend_2026": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "maxent_divergence", "confidence": 0.8800, "anomaly_type": "indexing_divergence_with_obstruction", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "boltzmann_universality_2026": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "bonbon_drop_sticker_craze": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "borsuk_ulam_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "brazil_2026_general_elections": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "brazil_hiv_vtn_elimination": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "brazil_mexico_financial_requirement": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "brilliance_as_structural_liability": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "brouwer_fixed_point": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "burali_forte_paradox": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "burden_of_proof_engineering_safety": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "burden_of_proof_scientific_empirical": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "bureaucratic_accommodation_as_extraction_persistence": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "bureaucratic_legibility_collapse": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "bureaucratic_self_preservation": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "bushman_money_magic": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "busy_beaver_noncomputability": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "c_physical_blue_wavelength": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "canal_panama_influence": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cancer_prevention": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cantor_set_topology": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cantors_diagonal_argument": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cap_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "capability_compulsion_gradient": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "capability_eval_overhang": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "capital_misallocation_spiral": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "capital_rotation_ai_narrative": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "car_ownership_norm_us": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "carrying_capacity": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "categorical_boundary_as_cognitive_load_limiter": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "categorical_instrument_blindness": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "categorical_violence_as_structural_exclusion": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "cb_far_beyond_human": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cbdc_implementation": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "central_limit_theorem_convergence": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cfius_hiefo_emcore_divestment": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "chaitins_omega_undecidability": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "champions_bass_fishing_exclusion": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "china_africa_zero_tariff_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "china_contraceptive_tax": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "china_vactrain_standard": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cholesterol_pill_cost": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "church_turing_thesis": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "civilizational_maintenance_debt": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "clarification_loop_structure": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "clawderberg_recursive_slop": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "climate_attribution_2026": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "climate_catastrophe_belief": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "climate_target_one_point_five": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "clt_convergence_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cmr_001": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cn_tech_decoupling_security_software": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "cobra_effect": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "codex_access": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "coe_ukraine_reparations_register": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cognitive_bicycle_scaffold": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cognitive_energy_budget": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cognitive_hacking_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cognitive_surrender_to_system_3": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "collatz_conjecture_determinism": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "collective_action_as_leverage_conversion": [
+      {"trigger_class": "maxent_divergence", "confidence": 0.8800, "anomaly_type": "indexing_divergence_with_obstruction", "category": "genuine"}    ],
+    "college_admissions_market": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "colorado_sbe_decentralization_friction": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "columbia_2026_elections": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "comitatus_bond": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "commercial_data_brokerage": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "communal_narcissism_social_trap": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "complexity_debt": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "complicity_through_competence": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "compounding_obligation_trap": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "confidential_ai_whatsapp": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "confirmation_bias": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "consensus_without_truth": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "constraint_coupling_amplification": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "consumer_debt_slavery": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "continuum_hypothesis_undecidability": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "conversational_dogmas_interuption": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "conways_game_of_life_dynamics": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "coordination_attack_vulnerability": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "coordination_barrier_topology": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "coordination_extraction_invisibility": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "coordination_failure_universality": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "coordination_fatigue": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "coordination_threshold_failure": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "copyright_protection": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "cosmological_evolution_alpha_omega": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "countable_infinity_cardinality": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "couples_residency_match": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "cultural_homogenization_social_media": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cultural_memory_decay": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cultural_refragmentation_2026": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "cumbria_mine_rejection": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "cuny_light_2026": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "currys_paradox": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "damped_harmonics": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "dark_patterns_manipulation": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "data_laundering_pipeline": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "dead_sea_effect": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "debt_leverage_as_consent_manufacturing": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "debt_trap_compounding": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "debt_trap_microfinance": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "decapitation_as_regime_change": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "deep_earth_hydrogen_availability": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "deferred_risk_realization": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "degraded_deterrence_architecture": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "delta_force_selection_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "demand_response_cost_shift": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "demographic_inertia_trap": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "digital_euro_cbdc": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "dionysaic_frenzy": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "discover_core_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "disney_openai_ip_exclusivity": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "distributed_memory_as_counter_disposal": [
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "dk_foreign_convict_expulsion": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "documentation_fidelity_collapse": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "doomsday_clock_framework": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "drc_rwanda_peace_deal_2024": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "dunning_kruger_effect": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "duty_contamination_by_extraction": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "e2ee_digital_privacy_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "edelman_2026_developing_volatility": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "edelman_2026_insularity": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "educational_unbundling_implementation": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ehrenfest_barrier": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "elite_overproduction_instability": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "elliq_ai_companion": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "emergency_oversight_bureau": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "emergency_powers_ratchet": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "endocrine_disruption_society": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "enforcement_gap_exploitation": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "environmental_instability_as_constraint": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "epistemic_authority_erosion_through_unresolvable_anomaly": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "epistemic_free_rider_problem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "epistemic_irreducibility_mountain": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "epistemic_overload_collapse": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "epistemic_process_of_verification": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"}    ],
+    "epstein_document_release_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "erasmus_rejoining_scaffold": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ergo_dexy_gold_protocol": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ergo_nipopows": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "error_induced_stability": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "escalation_control_asymmetry": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "eu_affordable_housing_initiative": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "eu_irgc_terrorist_designation": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "eu_russian_asset_freeze_2025": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "eu_unanimity_rule_foreign_policy": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "euler_characteristic_topology": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "evolutionary_knowledge": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "evolutionary_mismatch_load": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "exclusion_as_preparation": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "exclusionary_coordination_asymmetry": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "expert_disempowerment": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "exploration_vs_exploitation": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "extraction_residue_as_bodily_inscription": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "false_mountain_persistence": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "family_estrangement_ratio": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "family_succession_and_decadence": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fast_growing_hierarchy": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fatf_grey_list_russia": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "fb_creator_monetization_indonesia": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fcc_dji_covered_list": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fda_accelerated_approval_alz": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "fda_component_efficacy_standard": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "fda_gonorrhea_efficacy_standard": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "fed_shutdown_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "feigenbaum_universality": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fermats_last_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fgh_hierarchy_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fiat_currency_lifecycle": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "financialization_drag": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "finite_simple_groups_classification": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "finnish_ubi_experiment": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "fiscal_dominance_trap": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "fiscal_equalization_friction": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "floating_wall_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "fmt_oncology_realignment_2026": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "formalization_translation_rope": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "four_color_theorem_topological_bound": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fptp_electoral_system": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fragmentation_as_arbitrage": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "france_cordon_sanitaire_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "frankenstein_creation_hubris": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "fraser_river_salmon_regulation": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "french_ag_land_concentration": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "french_local_elections_march_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "friction_as_intervention_medium": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fundamental_material_limits_nbre": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fundamental_theorem_of_algebra": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fundamental_theorem_of_calculus": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fungal_shift_grassland_loss": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "fused_quartz_5d_archival": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "g7_debt_trap": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "gale_shapley": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "galois_theory": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "galois_theory_symmetry": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "gauss_bonnet_topology": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "gaza_border_control_rafah": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "gbff_funding_mechanism": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "genetic_algorithms_evolution": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "genetic_predisposition": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "geophysics_superionic_core": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "geopolitical_insularity_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "germline_regulation_threshold_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "gilgamesh_mortality_limit": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "gita_kurukshetra": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "global_stimulus_spree": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "global_water_bankruptcy": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "goal_boundary_poisoning": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "godels_incompleteness_theorems": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "gold_fomo_cycle": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "gold_piton_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "goldbach_conjecture": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "goodharts_law": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "google_ai_search_overview": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "governance_latency_gap": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "gpt5_codex_dev_cycle": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "gpt_store_marketplace": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "gravitational_lensing_cosmic_dawn": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "greenland_seizure_trade_war": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "grete_samsa_transition": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "hagia_sophia_status": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "halting_problem_undecidability": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "hamiltonian_path_complexity": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "happiness_of_others": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "harlequin_historical_line_discontinuation": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "hasbro_licensing_restriction": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "hd101584_stellar_evolution": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "hegemonic_entropy_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "heine_borel_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "heisenberg_uncertainty": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "help_to_buy_uk": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "hershey_salt_strategy": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "hhs_fetal_tissue_research_ban_2019": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "hicbc_uk": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "hilberts_hotel": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "hilberts_hotel_infinity": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "hk_nsl_civic_party_disbandment": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "hoa_covenants": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "horizon_liability_contract": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "hormuz_leverage_paradox": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "huang_expectation_resilience_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "hydra_game": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "hypercompression_of_time_horizons": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ibm_shield_contract_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ice_safe_departure": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "identity_stack_incompatibility": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "idf_knock_on_roof_policy": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "incentive_surface_warping": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "incumbent_steel_production": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "independent_criticism_patronage": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "indexical_extraction_asymmetry": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "indexical_extraction_variance": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "indexical_power_variance": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "indexical_relativity_core": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "indexical_relativity_of_extraction": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "india_france_horizon_2047": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "indian_ai_licensing_regime": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "indo_german_defense_pact": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "indo_russian_submarine_lease_2025": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "indonesia_penal_code_2023": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "informant_recruitment_through_false_solidarity": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "infrastructure_interoperability_decay": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "input_specification_failure": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "institutional_framing_tangled_rope": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "institutional_inertia_lock": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "institutional_mandate_vs_autonomy": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "institutional_memory_loss": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "institutional_mutation_domestication": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "institutional_mutation_without_selection": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "institutional_trust_decay": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "insult_wisdom_training": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "intelligence_as_sovereignty_transfer": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "interaction_explosion": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "internet_evolution_lifecycle": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "iran_hijab_law": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "iran_nuclear_deal_informal_2023": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "irreversible_policy_commitment": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "israel_electoral_threshold": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "israel_norwegian_law": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "israel_override_clause": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "israel_surplus_vote_agreements": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "jordan_microfinance": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "juvenile_underclass_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "kardashev_scale_progress_narrative": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "kidney_exchange_market": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "kim_jong_un_succession": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "kirby_paris_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "kjv_textual_authority": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "kleene_recursion_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "knowledge_transmission_urgency": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "kolmogorov_complexity": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "lagrange_multipliers": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "landscape_of_fear_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "latent_regulatory_bomb": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "legacy_system_technical_debt": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "legibility_asymmetry_as_survival": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "legibility_trap": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "legitimacy_without_capacity": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "lehman_repo_105": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "maxent_divergence", "confidence": 0.8800, "anomaly_type": "indexing_divergence_with_obstruction", "category": "genuine"}    ],
+    "liar_paradox": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "linguistic_relativity_cultural_framing": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "lln_convergence": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "lobs_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "local_vs_global_optima": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "logistic_map_dynamics": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "lorenz_attractor": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "lorenz_attractor_dynamics": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "lowenheim_skolem_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "lp_pikachu_illustrator": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "lula_hemisphere_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "lung_transplant_protocol": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "lyapunov_stability": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "magna_carta_liberties": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "maha_recovery_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "maintenance_capacity_shortfall": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "manga_distribution_duopoly": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "mars_rovers_navigational_autonomy": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "martian_signal_latency": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "material_tensile_strength": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "mco_unit_system_discontinuity": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "mean_value_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "measurement_apparatus_bidirectionality": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "measurement_fidelity_as_authority_substrate": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "measurement_timing_authority_erosion": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "med_diet_consensus_2026": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "medical_residency_match": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "medieval_church_hegemony": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "memetic_fitness_vs_truth": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "meritocratic_ideology_as_error_propagation": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "meta_model_lock_in": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "meta_nda": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "meta_nuclear_power_agreement": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "metamorphosis_samsa": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "microrobot_manipulation": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "minimax_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "minnesota_sovereignty_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "model_autonomy_creep": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "model_of_models_regression": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "moltbook_agent_theater": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "moltbook_breach_2026": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "moltbot_religion": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "mom_z14_galaxy_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "monetary_regime_transition": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "monty_hall_conditional_probability": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "msgs_asset_bundling": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "mythic_scaffolding_vs_formal_fragmentation": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "naming_as_control": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "narcissistic_ego_maintenance": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "narrative_engineering_2026": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "narrative_overfitting": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "nato_arctic_defense_cooperation": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ncaa_eligibility_rules": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "nds_2022_pacing_challenge": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "necessary_day_job": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "negative_emissions_arbitrage": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "nero_imperial_expropriation": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "net_zero_stabilization": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "network_effects": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "neurodiversity_spectrum": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "new_civilizational_rope": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "newtons_method_convergence": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "nfl_superbowl_marketing_regulation": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "no_cloning_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "noethers_isomorphism_theorems": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "noethers_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "noethers_theorem_symmetry": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "non_compete_agreements": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "nonstandard_arithmetic_models": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "nonstandard_models_of_arithmetic": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "nsl_hk": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "nvidia_cuda_ecosystem_lockin": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "nyc_metrocard_art_licensing": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "oc_donation_model": [
+      {"trigger_class": "maxent_divergence", "confidence": 0.8800, "anomaly_type": "indexing_divergence_with_obstruction", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "openai_api_access": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "openai_codex_app_constraint": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "openai_default_data_training": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "openai_health_review": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "openai_implicit_translator": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "openclaw_regulation": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "openscholar_peer_review": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "optimization_as_entrapment": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "orbital_data_center_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "oscar_campaign_spending": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "overton_window": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "p_g_golden_pear_surveillance": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "panama_canal_ports": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "pancreatic_cancer_lethality_v1": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "paradoxical_decompositions": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "pe_rental_market_lockin": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "peano_curve_mapping": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "perovskite_self_etching": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "perseverance_ai_drive": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "physiological_constraint_ceiling": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "pla_aerial_carrier_doctrine": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "pla_loyalty_purge": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "planetary_boundaries": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "planetary_diet_constraint_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "plastic_asphalt_mandate": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "platform_app_store_duopoly": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "platform_cooperativism_governance": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "po_investigation_protocol_bias": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "poincare_conjucture": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "polar_bear_biobanking": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "political_art_factional_alignment": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "political_dissident_containment": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "portugal_government_stability_ad": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "portugal_polarization_threshold_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "portuguese_presidential_term_limits": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "power_indexed_classification_variance": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "power_set": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "power_without_responsibility": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "price_signal_corruption": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "prime_number_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "prisoners_dilemma_equilibrium": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "private_credit_market_opacity": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "procedural_compliance_theater": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "procedural_legitimacy_decay": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "project_vault_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "project_vault_extraction_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "proof_of_work_consensus": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "protocol_capture_tangled_rope": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "protocol_drift_accumulation": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "protocol_inversion_as_constraint_escape": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "protocol_rigidity_under_unclassified_variance": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "publishing_embargo": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "purity_drift_degradation": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "pythagorean_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "pythagorean_theorem_geometric_constancy": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "qualified_immunity": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "quantum_entanglement_protocol": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "quantum_nonlocality_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "quellcrist_falconer_justice": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "quine_self_replication": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "quota_ratchet_asymmetry": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "raac_school_maintenance": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ramsey_numbers": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "rare_earth_export_restrictions": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "rare_earth_seabed_mining": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "reciprocity_laws_math": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "redemption_ambiguity": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "referential_substrate_absence": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "regional_military_deterrence_mideast": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "regulatory_capture": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "regulatory_pathway_psychedelic_therapy": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "relativity_of_simultaneity": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "relativity_physical_invariance": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "rent_seeking_equilibrium": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "reputation_as_distributed_enforcement": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "responsibility_dilution": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "retroactive_criminalization_of_coerced_acts": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "rfc9293_state_machine": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "rices_theorem_undecidability": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "riemann_mapping_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "risk_socialization_threshold": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "ritualistic_transition_scaffold": [
+      {"trigger_class": "signature_override_artifact", "confidence": 0.9500, "anomaly_type": "hard_disagreement_with_override", "category": "artifact"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "robustness_vs_efficiency_tradeoff": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "roc_african_exarchate": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "rogers_commission_institutional_analysis": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "role_capture_through_cost_asymmetry": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "roman_colosseum_games": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "roman_monumental_construction": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "roman_road_network": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "rotation_seven_kubo_ranking": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "rotmigration_decision_threshold": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "royal_navy_middle_east_withdrawal": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "rules_based_international_order": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "russells_paradox_self_reference": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "s1_visa_judgment_sharing_agreement": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "scam_doubt_manufacturing": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "scientific_paradigm_lifecycle": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "second_order_unintended_consequences": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "self_enforced_boundary_protocol": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "self_surpassing_superman": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "semiconductor_fabrication_chokepoint": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "shadow_pricing_failure": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "shannon_entropy_limit": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "shannons_source_coding_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "silent_dependency_activation": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "silicon_lexicon_overload": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "silklink_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "silver_scarcity_mountain_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "sk_ai_act_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "sk_dantongbeop": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "skills_based_hiring": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "sludge_bureaucratic_friction": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "sm_addictive_design": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "smartphone_ubiquity": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "social_media_participation_threshold": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "social_narrative_casting": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "soe_property_bailout": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "solar_system_weirdness": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "sovereignty_as_arbitrage": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "spain_digital_offensive_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "square_cube_law": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "straight_coercion_2025": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "strange_attractor_dynamics": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "strange_attractors": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "streaming_bundling_mandate": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "structural_extraction_without_actor": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "structural_position_constraint_divergence": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "sts86_ascent_checklist": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "student_loan_default_cliff": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "student_loan_interest_accrual": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "sturgeons_law": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "substrate_as_unrecognized_archive": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "superbowl_advertising_extraction": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "suslin_hypothesis": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "suslin_hypothesis_undecidability": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "swift_legacy_piton": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "sylow_theorems": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "sylow_theorems_group_theory": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "synthetic_data_feedback_loop": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "system_reproduction_through_substitution": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "tail_risk_compression": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "taiwan_storm_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "taiwan_strait_hegemony_shift": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "taiwan_university_application_system": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "taliban_slavery_law_2024": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "tarski_undefinability_theorem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "teaching_horses_to_sing": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "temporal_scale_arbitrage": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "temporal_scarcity": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "terrain_inaccessibility_wheeled_vehicles": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "texas_hispanic_political_pivot": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "thai_article_112_mountain": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "thai_senate_veto_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "the_calm_protocol_suppression": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "the_churn_systemic_upheaval": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "thermodynamics_entropy": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "three_body_problem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "three_body_unpredicability": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "trade_secret_law": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "tragedy_of_the_commons": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "trajans_bridge_lifecycle": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "transformation_as_threshold_marker": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "traveling_salesman_problem": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "trillion_bond_rush_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "trump_epa_greenhouse_gas_reversal": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "trump_indian_tariffs_2026": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "twin_prime_conjecture": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "uk_graduate_visa_salary_threshold": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "uk_help_to_buy_scheme": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "uk_ssp_eligibility": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "uk_unpaid_care_system": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "ukr_mobilization": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ukraine_tight_gas_pilot": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "ulysses_chp01": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.8400, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "ulysses_chp05": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ulysses_chp06": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ulysses_chp09": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "ulysses_chp12": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ulysses_chp13": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "ulysses_chp14": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "ulysses_chp15": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "maxent_divergence", "confidence": 0.8800, "anomaly_type": "indexing_divergence_with_obstruction", "category": "genuine"}    ],
+    "unclos_2026": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "unconditional_university_offers_uk": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "unilateral_condition_control": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "union_protection_underperformance": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "unrwa_eviction_order": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "us_china_chip_tariffs_v2": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "us_debt_ceiling": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "us_employer_health_insurance": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "us_foreign_policy_america_first": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "us_greenland_envoy": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "snare_leaning_tangled", "confidence": 0.7500, "anomaly_type": "high_snare_psi", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "us_isolationism_policy_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "us_israel_faa_502b_nonenforcement": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "us_labor_mobility": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "us_sanctions_moex_2024": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "us_two_party_duopoly": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "us_venezuela_oil_pressure": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "us_venezuela_plausible_deniability_2025": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "us_visa_lottery": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "us_wind_project_ban_2025": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "usc_26_469_passive_loss": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "utopia_apocalypse_fragility": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "value_alignment_drift": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "van_der_waerden": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "venezuela_oil_privatization_v1": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "viral_emergence_covid19_exemplar": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "viral_transmission_rates": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "visibility_bias_governance": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "vns_implant_for_trd": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "weierstrass_function": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "whitehead_problem_undecidability": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "winners_curse": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "winter_olympics_2026": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "witness_obligation_without_recipient": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "working_dog_training": [
+      {"trigger_class": "maxent_divergence", "confidence": 0.8800, "anomaly_type": "indexing_divergence_with_obstruction", "category": "genuine"}    ],
+    "worldscale_vlsfo_benchmark": [
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7200, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "yangtze_fishing_ban": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "yoneda_lemma": [
+      {"trigger_class": "maxent_shadow_divergence", "confidence": 0.8500, "anomaly_type": "shadow_override_tension", "category": "genuine"},
+      {"trigger_class": "hub_conflict", "confidence": 0.8300, "anomaly_type": "hub_conflict_band", "category": "genuine"},
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7500, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "yt_ai_slop_incentive": [
+      {"trigger_class": "convergent_structural_stress", "confidence": 0.9000, "anomaly_type": "multi_signal_convergence", "category": "genuine"},
+      {"trigger_class": "classical_oracle_failure", "confidence": 0.7800, "anomaly_type": "confident_oracle_with_obstruction", "category": "genuine"}    ],
+    "zipfs_law": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ],
+    "zombie_reasoning_2026": [
+      {"trigger_class": "epistemic_trap", "confidence": 0.7800, "anomaly_type": "restricted_view_divergence", "category": "genuine"}    ]
+  },
+  "summary": {"total": 1014, "genuine": 996, "artifacts": 18, "subsystems": "[maxent,indexed_maxent,fpn,dirac,drift,signature,mismatch,fingerprint,cohomology]"}
+}

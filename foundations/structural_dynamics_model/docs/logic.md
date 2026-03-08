@@ -15,8 +15,8 @@
 **For canonical threshold values:** See [logic_thresholds.md](logic_thresholds.md)  
 **For Stages 7-9 (Boltzmann, Purity, Network):** See [logic_extensions.md](logic_extensions.md)
 
-**Implementation:** Prolog modules (drl_core.pl, structural_signatures.pl, drl_lifecycle.pl)  
-**Corpus:** 691 constraints across 35+ domains
+**Implementation:** Prolog modules (drl_core.pl, signature_detection.pl, drl_lifecycle.pl)  
+**Corpus:** ~999 constraints across 35+ domains (expanded from original 691-constraint calibration corpus)
 
 ---
 
@@ -130,7 +130,7 @@ The index structure I = (P, T, E, S) captures the **minimal sufficient** dimensi
 
 These four dimensions are **not arbitrary**â€”they're the structural features that empirically determine constraint type. Adding more dimensions (wealth, education, network position) would provide finer resolution but the current four capture 90%+ of classification variance in the 691-constraint corpus.
 
-### 5. The Six Types: Terrain Metaphor
+### 5. The Seven Types: Terrain Metaphor
 
 Constraint-space is terrain you navigate with finite energy. From your position, constraints appear as:
 
@@ -158,6 +158,10 @@ Constraint-space is terrain you navigate with finite energy. From your position,
 - Examples: QWERTY keyboards, legacy systems
 - Action: Bypass
 
+**Naturalized**: Power-scaling ambiguity, investigate_naturalization
+- High base extraction (ε > 0.45) but low power-scaled extraction (χ < 0.40)
+- Action: `investigate_naturalization` (distinct from generic fallback `investigate` for unknown type)
+
 Same constraint can be different types from different indices. Carbon credits: Rope (institutional) + Tangled (moderate) + Snare (powerless). All true.
 
 ### 6. Scope and Methodology
@@ -168,7 +172,7 @@ This document establishes:
 
 **Â§II Basic Syntax:**
 - Index structure (Power, Time, Exit, Scope)
-- Six constraint operators with formal definitions
+- Seven constraint operators with formal definitions
 - Power-scaling function Ï€(P)
 - Scope modifier Ïƒ(S)
 - Structural signature predicates
@@ -179,7 +183,7 @@ This document establishes:
 - Eleven drift types (degradation patterns)
 
 **Â§IV Inference Rules:**
-- Priority ordering: Mountain > Snare > Scaffold > Rope > Tangled > Piton
+- Priority ordering: Mountain > Snare > Scaffold > Rope > Tangled > Piton > Naturalized
 - Classification algorithm
 - Two-regime architecture (metrics â†’ signature override)
 
@@ -211,7 +215,7 @@ This document establishes:
 
 **Diagnostic, not prescriptive:** We classify constraints, we don't dictate normative responses. Identifying a Snare doesn't automatically justify cutting it (some are load-bearing). Classification informs action, doesn't determine it.
 
-**Incomplete, not comprehensive:** The six types cover most constraint-space but not all of it. Edge cases exist. Unknown classification is valid output.
+**Incomplete, not comprehensive:** The seven types cover most constraint-space but not all of it. Edge cases exist. Unknown classification is valid output.
 
 **Provisional, not eternal:** Thresholds are empirically calibrated but subject to revision. The framework itself is a Scaffoldâ€”built-in expiration, designed to be replaced when better systems emerge.
 
@@ -380,6 +384,28 @@ Your practical ability to route around or escape the constraint.
 - No alternatives, no negotiating power
 - Full constraint force
 
+**identity_locked** — Structurally mobile but cognitively/identity-fused
+- Example: Captured regulator fused with industry identity, trauma-bonded partner, ideologically committed state
+- Exit would require becoming a different person, not just paying a cost
+- Binding is cognitive (identity fusion, epistemic closure) rather than material
+- Hub 2: mountain at immediate, rope at biographical and beyond (perceptual filter, not structural immobility)
+- Phase transition at biographical horizon — see effective_immutability table below
+
+**Effective Immutability by Exit Option × Time Horizon:**
+
+| Exit Option | Immediate | Biographical | Generational | Historical | Civilizational |
+|-------------|-----------|--------------|--------------|------------|----------------|
+| trapped | mountain | mountain | mountain | rope | rope |
+| **identity_locked** | **mountain** | **rope** | **rope** | **rope** | **rope** |
+| constrained | mountain | mountain | rope | rope | rope |
+| mobile | rope | rope | rope | rope | rope |
+| arbitrage | rope | rope | rope | rope | rope |
+| analytical | — | — | — | — | mountain ∧ rope |
+
+`identity_locked` is the only exit option that flips at the biographical boundary (1–50 years). The comment in `constraint_indexing.pl:179` explains: "Perceptual filter, not structural immobility." Identity fusion prevents exit within 1 year (mountain), but identity can be reconstructed over a lifetime (rope). Compare `trapped`, which remains mountain through generational timescales — physical/economic barriers resist individual lifespans. The `analytical` row at civilizational is non-deterministic by design (both mountain and rope succeed; metric gates determine which fires first).
+
+**Implementation:** `effective_immutability/3` in `constraint_indexing.pl:172-205`; wrapper `effective_immutability_for_context/2` at line 207.
+
 **constrained** â€” Can exit but at high cost
 - Example: Professional with golden handcuffs, homeowner in declining market
 - Exit possible but destroys accumulated capital
@@ -482,18 +508,22 @@ Not all 6Ã—5Ã—5Ã—6 = 900 combinations are coherent. Some constraints:
 
 **Implementation:**
 
-The `valid_context/1` predicate in constraint_indexing.pl checks these constraints:
+The `valid_context/1` predicate in constraint_indexing.pl validates dimension values:
 ```prolog
 % constraint_indexing.pl
-valid_context(context(Power, TimeHorizon, Exit, Scope)) :-
-    member(Power, [powerless, moderate, powerful, organized, institutional, analytical]),
-    member(TimeHorizon, [immediate, biographical, generational, historical, civilizational]),
-    member(Exit, [trapped, constrained, mobile, arbitrage, analytical]),
-    member(Scope, [local, regional, national, continental, global, universal]),
-    % Coherence checks
-    \+ incoherent_power_exit(Power, Exit),
-    \+ incoherent_time_scope(TimeHorizon, Scope).
+valid_context(context(
+    agent_power(P),
+    time_horizon(T),
+    exit_options(E),
+    spatial_scope(S)
+)) :-
+    agent_power(P),
+    time_horizon(T),
+    exit_options(E),
+    spatial_scope(S).
 ```
+
+**Note:** Coherence checks (e.g., `incoherent_power_exit/2`, `incoherent_time_scope/2`) are not currently enforced. Any valid dimension combination is accepted. Context terms use tagged wrappers (`agent_power(P)`, etc.) rather than bare atoms. The `identity_locked` exit option is coherent with all power levels including `analytical` (an analyst can recognize their own identity lock while being unable to break it — this instantiates the Classical Oracle Gap, Theorem 4).
 
 In practice, most real indices cluster around:
 - `(powerless/moderate, biographical, constrained, national)` â€” typical citizen
@@ -532,14 +562,14 @@ The four dimensions (P, T, E, S) represent **empirically validated minimum suffi
 
 ### B. Core Modal Operators (Indexed)
 
-The six constraint types form the core classification system. Each type has distinct structural properties and action implications.
+The seven constraint types form the core classification system. Each type has distinct structural properties and action implications.
 
 **Priority ordering in classify_from_metrics/6:**
 ```
-Mountain > Snare > Scaffold > Rope > Tangled Rope > Piton > unknown
+Mountain > Snare > Scaffold > Rope > Tangled Rope > Piton > Naturalized > unknown
 ```
 
-This ordering is implemented as a sequence of guards in drl_core.pl (lines 2936-3000). The first type whose conditions are satisfied becomes the classification.
+This ordering is implemented as a sequence of guards in drl_core.pl. The first type whose conditions are satisfied becomes the classification.
 
 ---
 
@@ -571,7 +601,7 @@ Because calling something a Mountain has massive consequences. It shifts from "r
 ##### Formal Definition
 
 ```
-â– C[I] â†” Îµ(C) â‰¤ 0.25 âˆ§ Supp(C) â‰¤ 0.05 âˆ§ Immutable(C, I.T, I.E)
+â– C[I] â†” Îµ(C) â‰¤ 0.25 âˆ§ Supp(C) â‰¤ 0.05 âˆ§ NaturalEmergence(C) âˆ§ Immutable(C, I.T, I.E)
 ```
 
 **Components:**
@@ -585,6 +615,12 @@ Because calling something a Mountain has massive consequences. It shifts from "r
   - Natural laws don't require enforcementâ€”they're inescapable
   - The 0.05 threshold is noise floor (measurement error, edge cases)
   - Reference: logic_thresholds.md Â§3a, `mountain_suppression_ceiling`
+
+- **NaturalEmergence(C)**: Constraint emerges without active human construction
+  - Checked via `emerges_naturally(C)` predicate (delegated to `domain_priors`)
+  - Mountains must arise from natural processes, not deliberate design
+  - Without this gate, well-designed low-extraction immutable institutions could be misclassified as natural laws
+  - This is a silent exclusion gate: a constraint satisfying all metric thresholds *and* immutability will still fail Mountain classification if it was actively constructed
 
 - **Immutable(C, I.T, I.E)**: Unchangeable from time horizon T and exit options E
   - Checked via `effective_immutability_for_context(Context, mountain)` predicate
@@ -610,12 +646,13 @@ Mountains **don't check Ï‡** (power-scaled extraction). They use raw Îµ and
 ##### Implementation
 
 ```prolog
-% drl_core.pl, classify_from_metrics/6, lines 2946-2951
-classify_from_metrics(_C, BaseEps, _Chi, Supp, Context, mountain) :-
+% drl_core.pl, classify_from_metrics/6
+classify_from_metrics(C, BaseEps, _Chi, Supp, Context, mountain) :-
     config:param(mountain_suppression_ceiling, SuppCeil),
     Supp =< SuppCeil,
     config:param(mountain_extractiveness_max, MaxX),
     BaseEps =< MaxX,
+    emerges_naturally(C),
     constraint_indexing:effective_immutability_for_context(Context, mountain), !.
 ```
 
@@ -632,7 +669,7 @@ classify_from_metrics(_C, BaseEps, _Chi, Supp, Context, mountain) :-
 
 **ðŸ“Œ STRUCTURAL GATE â€” Boltzmann Compliance for Natural Law:**
 
-> **Shadow Mode Reminder:** This gate runs AFTER metric-based classification in `classify_from_metrics/6`. It does not modify the core classification logicâ€”it operates in the signature override layer (`structural_signatures.pl`) and can demote a claimed Mountain to Constructed Constraint based on coupling topology.
+> **Shadow Mode Reminder:** This gate runs AFTER metric-based classification in `classify_from_metrics/6`. It does not modify the core classification logicâ€”it operates in the signature override layer (`signature_detection.pl`) and can demote a claimed Mountain to Constructed Constraint based on coupling topology.
 >
 > **Before a constraint is accepted as a Mountain (â–  signature), it must pass the Boltzmann Independence Test.** 
 >
@@ -653,11 +690,11 @@ classify_from_metrics(_C, BaseEps, _Chi, Supp, Context, mountain) :-
 >
 > **Critical: FNL Detection is Signature Override, Not Audit.**
 >
-> When False Natural Law (FNL) is detected, it's not merely flagged for reviewâ€”it **overrides the metric-based classification**. A constraint that passes Mountain thresholds (Îµ â‰¤ 0.25, Supp â‰¤ 0.05) but fails Boltzmann compliance is **demoted** from "Universal Necessity" (Mountain) to "Asymmetric Construction" (Tangled Rope). This happens in structural_signatures.pl, which runs after drl_core.pl's metric classification.
+> When False Natural Law (FNL) is detected, it's not merely flagged for reviewâ€”it **overrides the metric-based classification**. A constraint that passes Mountain thresholds (Îµ â‰¤ 0.25, Supp â‰¤ 0.05) but fails Boltzmann compliance is **demoted** from "Universal Necessity" (Mountain) to "Asymmetric Construction" (Tangled Rope). This happens in signature_detection.pl, which runs after drl_core.pl's metric classification.
 >
 > **Note: Boltzmann compliance is necessary but not sufficient for Natural Law (NL) signature.** A constraint can factorize perfectly and still not be naturalâ€”it could be a well-designed coordination standard (CS). The full NL signature requires: Boltzmann compliance AND no viable alternatives AND zero beneficiaries AND temporal stability. See logic_extensions.md Â§1.2 for complete NL signature requirements.
 >
-> **Shadow Mode Reminder:** These gates do NOT modify `classify_from_metrics/6` (the canonical predicate in drl_core.pl). They operate in the signature override layer (structural_signatures.pl) which runs afterward. The core classification logic remains unchanged; signatures can only enhance or override, not replace.
+> **Shadow Mode Reminder:** These gates do NOT modify `classify_from_metrics/6` (the canonical predicate in drl_core.pl). They operate in the signature override layer (signature_detection.pl) which runs afterward. The core classification logic remains unchanged; signatures can only enhance or override, not replace.
 >
 > **Example of Boltzmann failure:**
 > ```
@@ -685,7 +722,7 @@ classify_from_metrics(_C, BaseEps, _Chi, Supp, Context, mountain) :-
 > - logic_extensions.md Â§1.4: False Natural Law (FNL) Detection
 > - logic_extensions.md Â§1.7: Nonsensical Coupling
 >
-> **Implementation:** structural_signatures.pl, `boltzmann_compliant/2`, `false_natural_law/2`
+> **Implementation:** signature_detection.pl + boltzmann_compliance.pl, `boltzmann_compliant/2`, `false_natural_law/2`
 
 ---
 
@@ -854,7 +891,8 @@ The dual threshold ensures: "If it extracts heavily from ANYONE, it's not a Rope
 **Formal Definition:**
 
 ```
-âŠžC[I] â†" Ï‡(C, I.P, I.S) â‰¤ 0.35 âˆ§ Îµ(C) â‰¤ 0.45 âˆ§ Changeable(C, I.T, I.E)
+âŠžC[I] â†" Ï‡(C, I.P, I.S) â‰¤ 0.35 âˆ§ (Ï‡ â‰¤ 0 â†' â¤ | Îµ(C) â‰¤ 0.45)
+         âˆ§ (Changeable(C, I.T, I.E) âˆ¨ NaturalEmergence(C))
 ```
 
 **Components:**
@@ -864,12 +902,16 @@ The dual threshold ensures: "If it extracts heavily from ANYONE, it's not a Rope
   - Accounts for how extraction scales with power position and scope
   - Reference: logic_thresholds.md Â§3b, `rope_chi_ceiling`
 
-- **Îµ(C) â‰¤ 0.45**: Base extraction ceiling for coordination
-  - Wider than Mountain threshold to accommodate coordination with moderate overhead
-  - The 0.45 allows for coordination mechanisms with real but bounded costs
+- **Ï‡ â‰¤ 0 â†' â¤ | Îµ(C) â‰¤ 0.45**: Negative-chi epsilon bypass (v6.0)
+  - When Ï‡ â‰¤ 0 (net beneficiary from institutional perspective), the Îµ â‰¤ 0.45 check is skipped
+  - Rationale: negative effective extraction means the constraint is experienced as coordination infrastructure regardless of how high the raw base extraction is
+  - When Ï‡ > 0, the dual-threshold check applies: Îµ(C) â‰¤ 0.45 must also hold
   - Reference: logic_thresholds.md Â§3b, `rope_epsilon_ceiling`
 
-- **Changeable(C, I.T, I.E)**: Not immutableâ€”can be modified or replaced
+- **Changeable(C, I.T, I.E) âˆ¨ NaturalEmergence(C)**: Changeability or natural emergence
+  - Primary path: `effective_immutability_for_context(Context, rope)` checks changeability
+  - Alternative path: `emerges_naturally(C)` â€” domain-invariant bypass for naturally emerging constraints that may not satisfy power-indexed immutability checks
+  - Distinguishes Ropes (voluntary standards or natural coordination) from Mountains (natural laws)
   - Checked via `effective_immutability_for_context(Context, rope)`
   - Distinguishes Ropes (voluntary standards) from Mountains (natural laws)
   - Ropes can be revised, replaced, or transcended; Mountains cannot
@@ -885,13 +927,15 @@ UTF-8 is a Rope (could be replaced by different encoding standard, unlikely but 
 **Implementation:**
 
 ```prolog
-% drl_core.pl, classify_from_metrics/6, lines 2970-2975
-classify_from_metrics(_C, BaseEps, Chi, _Supp, Context, rope) :-
+% drl_core.pl, classify_from_metrics/6
+classify_from_metrics(C, BaseEps, Chi, _Supp, Context, rope) :-
     config:param(rope_chi_ceiling, ChiCeil),
     Chi =< ChiCeil,
-    config:param(rope_epsilon_ceiling, EpsCeil),
-    BaseEps =< EpsCeil,
-    constraint_indexing:effective_immutability_for_context(Context, rope), !.
+    % v6.0: When Chi =< 0, agent is a net beneficiary — skip base extraction gate.
+    (Chi =< 0 -> true ; config:param(rope_epsilon_ceiling, EpsCeil), BaseEps =< EpsCeil),
+    (   constraint_indexing:effective_immutability_for_context(Context, rope)
+    ;   emerges_naturally(C)  % Domain-invariant: bypass power-indexed immutability
+    ), !.
 ```
 
 **Note:** Unlike Tangled Rope, current implementation doesn't explicitly check `has_coordination_function(C)`. Coordination is a **structural expectation** for Ropes but not a metric prerequisite. This is a known simplificationâ€”in practice, low Îµ + low Ï‡ strongly implies coordination value.
@@ -939,7 +983,7 @@ But base Îµ low â†’ genuinely symmetric coordination, not extraction mech
 
 **ðŸ“Œ STRUCTURAL GATE â€” Coupling-Invariant Rope Certification:**
 
-> **Shadow Mode Reminder:** CI_Rope certification runs AFTER metric-based classification. A constraint classified as Rope by `classify_from_metrics/6` can be promoted to CI_Rope (certified coordination) if it passes all four Boltzmann invariance tests. This certification operates in `structural_signatures.pl`.
+> **Shadow Mode Reminder:** CI_Rope certification runs AFTER metric-based classification. A constraint classified as Rope by `classify_from_metrics/6` can be promoted to CI_Rope (certified coordination) if it passes all four Boltzmann invariance tests. This certification operates in `signature_detection.pl`.
 >
 > **A Rope can be certified as a CI_Rope (Coupling-Invariant Rope) if it maintains high structural purity (â‰¥ 0.7) and shows no nonsensical coupling.**
 >
@@ -1053,7 +1097,7 @@ But base Îµ low â†’ genuinely symmetric coordination, not extraction mech
 > - logic_extensions.md Â§1.6: False CI_Rope (FCR) Detection
 > - logic_extensions.md Â§2.3: Purity Scoring (structural health measurement)
 >
-> **Implementation:** structural_signatures.pl, `coupling_invariant_rope/2`, `false_ci_rope/2`
+> **Implementation:** signature_detection.pl, `coupling_invariant_rope/2`, `false_ci_rope/2`
 
 ---
 
@@ -1214,6 +1258,8 @@ The dual threshold (Ï‡ AND Îµ) ensures: "If it's going to be called a Snare
 âŠ C[I] â†” Ï‡(C, I.P, I.S) â‰¥ 0.66 âˆ§ Îµ(C) â‰¥ 0.46 âˆ§ Supp(C) â‰¥ 0.60 âˆ§ Changeable(C, I.T, I.E)
 ```
 
+**Note:** The implementation additionally requires `Â¬NaturalLawWithoutBeneficiary(C)` â€" natural laws without identifiable human beneficiaries are blocked from Snare classification regardless of metric values (asymmetric impact is not asymmetric extraction). See `natural_law_without_beneficiary/1` in `drl_core.pl`.
+
 **Components:**
 
 - **Ï‡(C, I.P, I.S) â‰¥ 0.66**: Power-scaled extraction high
@@ -1271,18 +1317,19 @@ Example: Company scrip was initially a coordination tool (no external currency a
 **Implementation:**
 
 ```prolog
-% drl_core.pl, classify_from_metrics/6, lines 2953-2960
-classify_from_metrics(_C, BaseEps, Chi, Supp, Context, snare) :-
+% drl_core.pl, classify_from_metrics/6
+classify_from_metrics(C, BaseEps, Chi, Supp, Context, snare) :-
+    \+ natural_law_without_beneficiary(C),    % Block snare for natural laws
     config:param(snare_chi_floor, ChiFloor),
     Chi >= ChiFloor,
     config:param(snare_epsilon_floor, EpsFloor),
     BaseEps >= EpsFloor,
     config:param(snare_suppression_floor, SuppFloor),
     Supp >= SuppFloor,
-    constraint_indexing:effective_immutability_for_context(Context, rope), !.
+    snare_immutability_check(Context), !.
 ```
 
-**Note:** The `effective_immutability_for_context(Context, rope)` check ensures changeability (Snares are not natural laws).
+**Note:** The `natural_law_without_beneficiary(C)` guard blocks constraints that emerge naturally, require no enforcement, and have no identifiable human beneficiary from being classified as Snares. The `snare_immutability_check(Context)` ensures changeability.
 
 **Canonical Thresholds** (from logic_thresholds.md Â§3c):
 - `snare_chi_floor` = **0.66**
@@ -1331,7 +1378,7 @@ Powerful agent: avoids mechanism entirely or uses strategically (Tangled/Rope)
 
 **ðŸ“Œ STRUCTURAL GATE â€” Nonsensical Coupling as Extraction Evidence:**
 
-> **Shadow Mode Reminder:** Nonsensical coupling detection runs AFTER metric-based classification. A constraint classified as Snare by `classify_from_metrics/6` can have this classification confirmed (or a Mountain/Rope can be demoted to Tangled Rope) if nonsensical coupling is detected. This operates in `structural_signatures.pl`.
+> **Shadow Mode Reminder:** Nonsensical coupling detection runs AFTER metric-based classification. A constraint classified as Snare by `classify_from_metrics/6` can have this classification confirmed (or a Mountain/Rope can be demoted to Tangled Rope) if nonsensical coupling is detected. This operates in `signature_detection.pl`.
 >
 > **Extraction is often hidden.** If a constraint fails the Boltzmann Factorization test (coupling score > 0.25), it couples independent dimensions in ways that natural laws cannotâ€”this is mathematical evidence of construction, even if it mimics a natural law or claims symmetric benefits.
 >
@@ -1431,7 +1478,7 @@ Powerful agent: avoids mechanism entirely or uses strategically (Tangled/Rope)
 > - logic_extensions.md Â§1.4: False Natural Law (FNL) â€” physics-washed Snares
 > - logic_extensions.md Â§1.6: False CI_Rope (FCR) â€” coordination-washed Snares
 >
-> **Implementation:** structural_signatures.pl, `detect_nonsensical_coupling/3`, `false_natural_law/2`
+> **Implementation:** boltzmann_compliance.pl + signature_detection.pl, `detect_nonsensical_coupling/3`, `false_natural_law/2`
 
 ---
 
@@ -1554,13 +1601,16 @@ The metaphor: ropes tangled with extraction mechanisms. The rope genuinely helps
 ##### Formal Definition
 
 ```
-âŠžâŠ C[I] â†” 0.40 â‰¤ Ï‡(C, I.P, I.S) â‰¤ 0.90 
+âŠžâŠ C[I] â†” Â¬NaturalLawWithoutBeneficiary(C)
+         âˆ§ 0.40 â‰¤ Ï‡(C, I.P, I.S) â‰¤ 0.90
          âˆ§ Îµ(C) â‰¥ 0.30
          âˆ§ Supp(C) â‰¥ 0.40
-         âˆ§ Enforce(C) 
-         âˆ§ Coord(C) 
+         âˆ§ Enforce(C)
+         âˆ§ Coord(C)
          âˆ§ Asymmetric(C)
 ```
+
+**Note:** The `Â¬NaturalLawWithoutBeneficiary(C)` guard prevents natural laws without identifiable beneficiaries from being classified as Tangled Rope, same as for Snare.
 
 **Components:**
 
@@ -1596,8 +1646,9 @@ The metaphor: ropes tangled with extraction mechanisms. The rope genuinely helps
 ##### Implementation
 
 ```prolog
-% drl_core.pl, classify_from_metrics/6, lines 2977-2985
+% drl_core.pl, classify_from_metrics/6
 classify_from_metrics(C, BaseEps, Chi, Supp, _Context, tangled_rope) :-
+    \+ natural_law_without_beneficiary(C),    % Block tangled_rope for natural laws
     config:param(tangled_rope_chi_floor, ChiFloor),
     config:param(tangled_rope_chi_ceil, ChiCeil),
     Chi >= ChiFloor,
@@ -1789,8 +1840,10 @@ A Scaffold MUST have built-in expirationâ€”either:
 ##### Formal Definition
 
 ```
-âŠ¡C[I] â†” Ï‡(C, I.P, I.S) â‰¤ 0.30 âˆ§ Coord(C) âˆ§ Sunset(C) âˆ§ Theater(C) â‰¤ 0.70
+âŠ¡C[I] â†” Ï‡(C, I.P, I.S) â‰¤ 0.30 âˆ§ Coord(C) âˆ§ (Sunset(C) âˆ¨ Â¬Enforce(C)) âˆ§ Theater(C) â‰¤ 0.70
 ```
+
+**Note on temporality:** The implementation uses a soft temporality gate: an explicit sunset clause is the strongest signal, but absence of active enforcement also qualifies. Non-enforced coordination is inherently scaffold-like (temporary support that dissolves on its own) rather than tangled-rope-like (enforced extraction). See `scaffold_temporality_check/1` in `drl_core.pl`.
 
 **Components:**
 - **Ï‡ â‰¤ 0.30**: Low extraction (enabling, not extractive)
@@ -1806,13 +1859,13 @@ classify_from_metrics(C, _BaseEps, Chi, _Supp, _Context, scaffold) :-
     config:param(scaffold_extraction_ceil, MaxX),
     Chi =< MaxX,
     narrative_ontology:has_coordination_function(C),
-    narrative_ontology:has_sunset_clause(C),
+    scaffold_temporality_check(C),        % Sunset clause OR no active enforcement
     config:param(theater_metric_name, TheaterMetricName),
     \+ (narrative_ontology:constraint_metric(C, TheaterMetricName, TR), TR > 0.70), !.
 ```
 
 **Canonical Thresholds** (logic_thresholds.md Â§3e):
-- `scaffold_extraction_ceil` = **0.30**
+- `scaffold_extraction_ceil` = **0.45**
 
 **Priority:** Scaffold > Rope (checked after Mountain, Snare, before Rope)
 
@@ -1885,7 +1938,7 @@ When Performance >> Substance, constraint is "coordination in name only."
 
 The theater floor (â‰¥ 0.70) distinguishes Pitons from low-extraction Ropes:
 - **Rope**: Ï‡ â‰¤ 0.35, Îµ â‰¤ 0.45, Theater < 0.70 (real coordination)
-- **Piton**: Ï‡ â‰¤ 0.25, Îµ > 0.10, Theater â‰¥ 0.70 (theater dominates)
+- **Piton**: Ï‡ â‰¤ 0.45, Îµ > 0.10, Theater â‰¥ 0.70 (theater dominates)
 
 ##### Formal Definition
 
@@ -1914,11 +1967,11 @@ classify_from_metrics(C, BaseEps, Chi, _Supp, _Context, piton) :-
 ```
 
 **Canonical Thresholds** (logic_thresholds.md Â§3f):
-- `piton_extraction_ceiling` = **0.25**
+- `piton_extraction_ceiling` = **0.45**
 - `piton_epsilon_floor` = **0.10**
 - `piton_theater_floor` = **0.70**
 
-**Priority:** Piton > unknown (checked last before unknown)
+**Priority:** Piton > Naturalized > unknown (checked after Tangled Rope, before Naturalized)
 
 ##### Action Implication
 
@@ -1931,7 +1984,7 @@ classify_from_metrics(C, BaseEps, Chi, _Supp, _Context, piton) :-
 
 The energy-accounting logic differs:
 - **Snare**: High extraction (Îµ â‰¥ 0.46), high suppression (Supp â‰¥ 0.60) â†’ **active harm** â†’ justify energy cost of cutting
-- **Piton**: Low extraction (Ï‡ â‰¤ 0.25), mostly theater (â‰¥ 0.70) â†' **inert decay** â†' energy better spent building alternatives
+- **Piton**: Low extraction (Ï‡ â‰¤ 0.45), mostly theater (â‰¥ 0.70) â†' **inert decay** â†' energy better spent building alternatives
 
 Don't waste energy maintaining or fighting Pitons:
 - Ignore where possible
@@ -1953,15 +2006,114 @@ Don't waste energy maintaining or fighting Pitons:
 
 ---
 
-**[Â§II.B COMPLETE - Six Core Modal Operators]**
+#### B.6a Coordination Vitality Gates (v7.0)
 
-All six constraint types now defined with full triple-layer format:
+The v7.0 revision added a **piton pre-check** that fires before the snare gate when coordination vitality is explicitly declared dead or degrading.
+
+**Predicates:**
+
+- `coordination_vitality(+C, +Status)` — Multifile/dynamic fact in `narrative_ontology.pl:337`. Status is `dead`, `degrading`, or `active`. Default clause fails (coordination presumed alive unless declared in testset files).
+- `coordination_dead(+C)` — Succeeds if `coordination_vitality(C, dead)` or `coordination_vitality(C, degrading)`. Defined in `drl_core.pl:295-298`.
+
+**Classification effect:** When `coordination_dead(C)` succeeds, the pre-check clause (`classify_from_metrics/6` at `drl_core.pl:314-321`) fires before the snare gate:
+
+```
+Piton_precheck(C) ↔ coordination_dead(C) ∧ ε(C) > 0.10 ∧ theater(C) ≥ 0.70
+```
+
+This clause does **not** check χ or suppression. A dead-coordination constraint with high theater is a piton regardless of extraction level. The `piton_epsilon_floor` (0.10) floor prevents zero-extraction mountains from piton misclassification.
+
+**Diagnostic evidence:** Dead and degrading pitons show mean ε = 0.66 (consistent with terminal pitons), while transitional pitons with live coordination show mean ε ≈ 0.39.
+
+**Limitation:** Coordination vitality must be manually declared in testset files — there is no auto-detection mechanism. Only three status values exist (dead, degrading, active) with no temporal modeling of when coordination died or degradation rate.
+
+---
+
+#### B.7 Naturalized Operator
+
+##### Conceptual Overview
+
+An **Naturalized** constraint is one where power scaling dramatically changes the experienced extraction, making the constraint's "true nature" structurally ambiguous. It has high base extraction (Îµ > 0.45) but low power-scaled extraction (Ï‡ < 0.40), meaning the raw cost is high but the effective experienced cost is low from the evaluating index.
+
+This catches a specific structural gap: constraints that fall through all other gates because their base extraction is too high for Rope but their power-scaled extraction is too low for Tangled Rope or Snare. The disconnect between raw and effective extraction is itself informative â€" it reveals that power position is doing significant work in mediating the constraint's impact.
+
+**Examples:**
+- **Professional licensing** (from institutional perspective): High Îµ (training costs, compliance burden) but institutional power dramatically reduces effective extraction â€" the institution benefits from the barrier to entry
+- **Complex tax codes** (from organized perspective): High raw complexity/cost but organized actors reduce effective burden through professional management
+- **International trade regulations** (from institutional perspective): High base extraction but institutional actors extract net benefit through regulatory capture
+
+##### The Distinguishing Feature: Power Scaling Naturalization
+
+The constraint's classification is "naturalized" because the same structural mechanism appears fundamentally different depending on your power index. The base extraction is genuinely high (above Rope ceiling), but power scaling compresses it below the Tangled Rope floor.
+
+##### Formal Definition
+
+```
+Naturalized(C) â†" Îµ(C) > 0.45 âˆ§ Ï‡(C, I.P, I.S) < 0.40
+```
+
+**Components:**
+- **Îµ(C) > 0.45**: Base extraction exceeds Rope ceiling (`rope_epsilon_ceiling`)
+  - Constraint imposes real costs in absolute terms
+- **Ï‡(C, I.P, I.S) < 0.40**: Power-scaled extraction below Tangled Rope floor (`tangled_rope_chi_floor`)
+  - From the evaluating index, those costs are dramatically compressed by power position
+
+**Gate Position:** Between Piton and unknown â€" catches constraints that fall through all six primary gates.
+
+##### Implementation
+
+```prolog
+% drl_core.pl, classify_from_metrics/6
+classify_from_metrics(_C, BaseEps, Chi, _Supp, _Context, naturalized) :-
+    config:param(rope_epsilon_ceiling, EpsCeil),
+    BaseEps > EpsCeil,
+    config:param(tangled_rope_chi_floor, ChiFloor),
+    Chi < ChiFloor, !.
+```
+
+**Priority:** Naturalized > unknown (checked after Piton, before unknown)
+
+##### Network Participation
+
+Naturalized constraints participate in purity contamination propagation with specific parameters:
+
+| Property | Value | Rationale |
+|----------|-------|-----------|
+| `type_contamination_strength` | 0.3 | Moderate-low â€" structural ambiguity limits contagion |
+| `type_immunity` | 0.7 | High susceptibility â€" ambiguous structures easily influenced |
+
+##### Action Implication
+
+**`investigate_naturalization`** → The power-scaling naturalization itself is the primary finding.
+
+When facing a Naturalized constraint:
+- Investigate why power scaling is doing so much work
+- Re-evaluate from multiple indices (powerless, moderate, institutional)
+- The naturalization often reveals that the constraint is a Tangled Rope or Snare from lower-power indices
+- Consider whether the base extraction (Îµ > 0.45) represents real structural cost that power is masking
+
+##### Summary
+
+**Use when:** High base extraction with low power-scaled extraction (Îµ > 0.45, Ï‡ < 0.40)
+
+**Distinguisher:** Power scaling dramatically compresses experienced extraction
+
+**Action:** Investigate â€" re-evaluate from multiple indices
+
+**Diagnostic value:** Reveals constraints where power position does the most structural work in mediating experience
+
+---
+
+**[Â§II.B COMPLETE - Seven Core Modal Operators]**
+
+All seven constraint types now defined with full triple-layer format:
 - âœ… Mountain (â– ): Unchangeable terrain
 - âœ… Rope (âŠž): Coordination mechanisms
 - âœ… Snare (âŠ ): Extraction traps
 - âœ… Tangled Rope (âŠžâŠ ): Hybrid coordination-extraction
 - âœ… Scaffold (âŠ¡): Temporary support
 - âœ… Piton (âŠŸ): Degraded theater
+- âœ… Naturalized: Power-scaling ambiguity
 
 **Next:** Â§II.C Detection Pattern Operators (FNL, CI_Rope, FCR)
 
@@ -1969,9 +2121,9 @@ All six constraint types now defined with full triple-layer format:
 
 ### C. Detection Pattern Operators (Non-Indexed)
 
-Beyond the six indexed types, the system includes **detection patterns** that identify misclassification or structural fraud. These operate as **signature overrides** in the two-regime architecture.
+Beyond the seven indexed types, the system includes **detection patterns** that identify misclassification or structural fraud. These operate as **signature overrides** in the two-regime architecture.
 
-**Architecture note:** Detection patterns run in `structural_signatures.pl` AFTER metric-based classification in `drl_core.pl`. They can override or certify the metric-based type but do not modify the core classification logic.
+**Architecture note:** Detection patterns run in `signature_detection.pl` (via wrapper `structural_signatures.pl`) AFTER metric-based classification in `drl_core.pl`. They can override or certify the metric-based type but do not modify the core classification logic.
 
 ---
 
@@ -2006,7 +2158,7 @@ Reclassification: Tangled Rope or Snare (depending on power position)
 
 **Implementation:**
 ```prolog
-% structural_signatures.pl
+% signature_detection.pl
 false_mountain(C) :-
     (claimed_type(C, mountain) ; indexed_as_mountain_somewhere(C)),
     extractiveness(C, Eps),
@@ -2058,7 +2210,7 @@ Catches modern physics-washing. "It's just how things are" rhetoric often hides 
 
 **See:** logic_extensions.md Â§1.4 for full FNL detection algorithm
 
-**Implementation:** `structural_signatures.pl`, `false_natural_law/2`
+**Implementation:** `signature_detection.pl`, `false_natural_law/2`
 
 ---
 
@@ -2100,7 +2252,7 @@ Distinguishes true coordination (UTF-8) from coordination-washing (opt-out priva
 
 **See:** logic_extensions.md Â§1.5 for full CI_Rope certification process
 
-**Implementation:** `structural_signatures.pl`, `coupling_invariant_rope/2`
+**Implementation:** `signature_detection.pl`, `coupling_invariant_rope/2`
 
 ---
 
@@ -2152,7 +2304,7 @@ FCR catches these patterns.
 
 **See:** logic_extensions.md Â§1.6 for full FCR detection
 
-**Implementation:** `structural_signatures.pl`, `false_ci_rope/2`
+**Implementation:** `signature_detection.pl`, `false_ci_rope/2`
 
 ---
 
@@ -2170,18 +2322,26 @@ Four detection patterns defined:
 
 ### D. Power-Scaling Function
 
-The power modifier Ï€(P) adjusts base extractiveness Îµ(C) based on structural power position.
+The power-scaling function adjusts base extractiveness ε(C) based on structural power position via sigmoid directionality.
 
-**Formula:**
+**Formula (implementation):**
 ```
-Ï‡(C, P, S) = Îµ(C) Ã— Ï€(P) Ã— Ïƒ(S)
+χ(C, P, S) = ε(C) × f(d(P)) × σ(S)
+```
+
+Where f is a sigmoid function and d(P) is the derived directionality value for power position P (see constraint_indexing.pl:extractiveness_for_agent/3). The directionality d is resolved via: explicit override > beneficiary/victim structural derivation > canonical fallback.
+
+**Simplified (for intuition):**
+```
+χ(C, P, S) ≈ ε(C) × π(P) × σ(S)
 ```
 
 Where:
-- **Ï‡** = effective extractiveness (what you experience)
-- **Îµ** = base extractiveness (structural property of constraint)
-- **Ï€(P)** = power position modifier
-- **Ïƒ(S)** = scope modifier (verification difficulty)
+- **χ** = effective extractiveness (what you experience)
+- **ε** = base extractiveness (structural property of constraint)
+- **f(d(P))** = sigmoid-scaled directionality (actual implementation)
+- **π(P)** ≈ f(d_canonical(P)) = power modifier at canonical directionality (approximation)
+- **σ(S)** = scope modifier (verification difficulty)
 
 ---
 
@@ -2315,6 +2475,76 @@ param(power_modifier_analytical, 1.15).
 ```
 
 **Reference:** logic_thresholds.md Â§1 for complete power modifier registry
+
+---
+
+#### Coalition Power Resolution
+
+When a `powerless` agent faces a snare-like constraint with enough identified victims, the system upgrades their effective power to `organized` — modeling the emergence of collective action capacity from shared structural harm.
+
+**Predicate:** `resolve_coalition_power(+Power, +Constraint, -ResolvedPower)` in `constraint_indexing.pl:348-370`
+
+**Preconditions (all must hold for upgrade):**
+1. Input power = `powerless`
+2. Base extraction ≥ `snare_epsilon_floor` (0.46) — constraint extracts enough to motivate collective action
+3. Suppression ≥ `snare_suppression_floor` — active suppression creates shared grievance
+4. Constraint has identified victims (`narrative_ontology:constraint_victim/2`)
+5. Victim count ≥ `critical_mass_threshold` (config value: 3) — minimum coalition size
+
+**Result:** `powerless` → `organized`. All other power levels pass through unchanged (fallthrough clause at line 370).
+
+**Circularity avoidance:** The preconditions use snare-property heuristics (raw metric checks) rather than calling `dr_type/3`, which would create a circular dependency since coalition resolution feeds into `extractiveness_for_agent/3`, which feeds into `classify_from_metrics/6`.
+
+**Effect on classification:** The upgrade changes the power input to the sigmoid directionality function, which changes χ. A constraint that classifies as snare from a powerless perspective may classify as rope or tangled_rope from the upgraded organized perspective — reflecting the real structural shift that collective action produces.
+
+**Limitations:** Only upgrades from powerless (no downgrade mechanism). No time-horizon sensitivity — coalition strength is constant across all temporal perspectives. No modeling of coalition formation dynamics or fragility.
+
+**Implementation:** Called by `extractiveness_for_agent/3` at `constraint_indexing.pl:381`.
+
+---
+
+#### Observer Accessibility & the Restriction Operator
+
+The restriction operator formalizes the epistemic trap: a powerless observer experiences extraction (χ) but cannot decompose it into structural components. This is the mechanism that makes snares look like "just how things are."
+
+**Predicate:** `observer_accessible(+C, +Context, -RestrictedView)` in `constraint_indexing.pl:663-681`
+
+**Output structure:** `view(Chi, VisibleEps, VisibleSupp, VisibleTheater, KnownBeneficiaries, PerceivedMutability)` — where inaccessible features return `unknown` and felt-only features return the Chi proxy.
+
+**Feature Accessibility Table:**
+
+| Power Level   | raw_extraction | suppression | beneficiaries | alternatives | theater_ratio | cross_context |
+|---------------|----------------|-------------|---------------|--------------|---------------|---------------|
+| powerless     | none           | felt_only   | none          | none         | none          | none          |
+| moderate      | partial        | partial     | partial       | partial      | partial       | none          |
+| powerful      | partial        | partial     | partial       | full         | partial       | none          |
+| organized     | partial        | full        | full          | full         | partial       | none          |
+| institutional | full           | full        | full          | full         | full          | none          |
+| analytical    | full           | full        | full          | full         | full          | full          |
+
+**Access level semantics:**
+- `full` — true metric value returned
+- `partial` — true metric value returned (same data as full; precision difference is conceptual, not quantitative in current implementation)
+- `felt_only` — Chi proxy returned (observer experiences the effect but cannot separate components)
+- `none` — `unknown` returned (feature not accessible from this position)
+
+**Beneficiary restriction:** At `partial` access, returns the first `max(1, N//2)` beneficiaries (half-knowledge). At `none`, returns empty list.
+
+**Classification from restricted data:** `classify_from_restricted(+C, +Context, -RestrictedType)` (`constraint_indexing.pl:734-758`) applies a simplified threshold cascade using only observer-accessible features:
+
+| Type          | Conditions                                              |
+|---------------|---------------------------------------------------------|
+| mountain      | supp ≤ 0.05 ∧ ε ≤ 0.25 ∧ mutability = mountain        |
+| snare         | χ ≥ 0.66 ∧ ε ≥ 0.46 ∧ supp ≥ 0.60                     |
+| rope          | χ ≤ 0.35 ∧ ε ≤ 0.45                                    |
+| piton         | theater ≥ 0.70 ∧ χ ≤ 0.25 ∧ ε > 0.10                  |
+| indeterminate | fallback                                                |
+
+These thresholds are hardcoded (not config-driven), unlike the full `classify_from_metrics/6`.
+
+**Testable prediction** (documented at `constraint_indexing.pl:589-590`): The set of constraints where `classify_from_restricted/3` differs from `dr_type/3` should match the set with `gauge_fixed = true`. The gap between restricted and full classification measures the epistemic cost of the observer's position.
+
+**Called from:** `diagnostic_summary.pl:301`, `abductive_triggers.pl:884` (Trigger 15: epistemic trap detection), `quantum_verification_report.pl:345`.
 
 ---
 
@@ -2634,7 +2864,7 @@ Employment Snare Until Collective Bargaining:
 
 ### B. Lifecycle States & Drift Types
 
-Constraints are not static. They **degrade over time** through drift. The lifecycle model tracks state transitions between the six types.
+Constraints are not static. They **degrade over time** through drift. The lifecycle model tracks state transitions between the seven types.
 
 **Metaphor:** Drift is the **weather** of constraint-space. You don't just find a Piton on the mountainâ€”you watch a Rope rot into one. Entropy is real.
 
@@ -2734,12 +2964,13 @@ Degradation is **thermodynamically favored**. Reform fights entropy. This is why
 Independent dimensions start entangling over time.
 
 ```
-CD(C, t_drift) â‰¡ 
-    CouplingTopology(C, t < t_drift) = independent
-    âˆ§ CouplingTopology(C, t â‰¥ t_drift) = coupled
-    âˆ§ coupling_score(C, t_drift) - coupling_score(C, tâ‚€) â‰¥ 0.10
-    âˆ§ Îµ(C, t â‰¥ t_drift) > Îµ(C, t < t_drift)
+CD(C, t_drift) ≡
+    cross_index_coupling(C, CurrentCoupling)
+    ∧ CurrentCoupling > boltzmann_coupling_threshold (0.25)
+    ∧ metric_trend(C, base_extractiveness, increasing)
 ```
+
+> **Note (February 2026):** The implementation uses an absolute coupling threshold (`boltzmann_coupling_threshold` = 0.25), not the delta-based 0.10 threshold from the original spec. See logic_extensions.md §4.1 for details.
 
 **Example:** App starts as messaging tool (Îµ = 0.10), gradually couples: messaging + location + contacts + camera + microphone (Îµ = 0.45). Coupling serves extraction, not coordination.
 
@@ -2902,7 +3133,7 @@ Classification checks types in strict order (first match wins):
 
 **â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”**
 **â”‚ PRIORITY ORDERING (First Match Wins):                  â”‚**
-**â”‚ Mountain > Snare > Scaffold > Rope > Tangled > Piton   â”‚**
+**â”‚ Mountain > Snare > Scaffold > Rope > Tangled > Piton > Naturalized   â”‚**
 **â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜**
 
 **Why this ordering?**
@@ -2933,9 +3164,9 @@ Each type checks its conditions with cut (`!`) at end. First successful check te
 - Compares Îµ, Ï‡, Supp against configured thresholds
 - Checks immutability gates
 - Fast, deterministic classification
-- Priority: Mountain > Snare > Scaffold > Rope > Tangled > Piton
+- Priority: Mountain > Snare > Scaffold > Rope > Tangled > Piton > Naturalized
 
-**Regime 2: Signatures (structural_signatures.pl)**
+**Regime 2: Signatures (signature_detection.pl)**
 
 `constraint_signature/2` can override metric classification:
 - Runs Boltzmann compliance tests
@@ -3021,7 +3252,7 @@ Signatures do NOT modify `classify_from_metrics/6`. They operate afterward, prov
 
 Priority ordering and two-regime architecture defined:
 - âœ… Canonical predicate: classify_from_metrics/6
-- âœ… Priority: Mountain > Snare > Scaffold > Rope > Tangled > Piton
+- âœ… Priority: Mountain > Snare > Scaffold > Rope > Tangled > Piton > Naturalized
 - âœ… Two-regime: Metrics (fast) â†’ Signatures (structural)
 - âœ… Shadow mode discipline maintained
 - âœ… Override rules specified
@@ -3390,6 +3621,27 @@ When analysis hits irreducible uncertainty, route to **Omega variables**:
 
 **See:** Omega variables track what we CAN'T know, preventing false confidence.
 
+#### Mandatrophy Reconciliation
+
+A **mandatrophy** is a specialized omega: a Mountain (natural fact) that functions as a Snare (extraction trap). The paradox arises when a constraint is classified as mountain (immutable) but has extractiveness > 0.7 — extraction levels normally associated with snares.
+
+**Detection:** `detect_omega(+Name, -mandatrophy)` in `narrative_ontology.pl:303-310` succeeds when:
+1. Constraint classified as mountain via `constraint_classification/3`
+2. Extractiveness > 0.7 (hardcoded, not config-parameterized)
+3. NOT `is_mandatrophy_resolved(Name)`
+
+**Resolution:** Two hardcoded resolutions exist (`narrative_ontology.pl:298-299`):
+- `is_mandatrophy_resolved(gale_shapley)` — "The Algorithm is the Mandate." The matching algorithm imposes costs (ε > 0.7) but is structurally immutable in the same way gravity is — no agent chose this mechanism.
+- `is_mandatrophy_resolved(planetary_boundaries)` — "The Biological Limit is the Mandate." Carrying capacity extracts from those who exceed it, but the limit is a natural fact.
+
+**Two resolution paths:** The system checks for mandatrophy resolution via two independent attribute lookups:
+1. `has_mandatrophy_declaration/1` — checks `attribute(C, lifecycle, mandatrophy)` (used by `check_indexical_relativity/1`)
+2. `is_indexical_resolution_declared/1` — checks `attribute(ID, indexical_resolution, resolved)` (used by `detect_mandatrophy_omega/1`)
+
+**Aggregation:** `count_unresolved_omegas(-Count)` uses `aggregate_all/3` to count system-wide unresolved mandatrophy omegas.
+
+**Implementation:** `narrative_ontology.pl:94-327`. The 0.7 threshold appears in three places (lines 277, 305, 320) and is not parameterized in `config.pl`.
+
 ---
 
 **[Â§VII COMPLETE - Containment Logic]**
@@ -3672,7 +3924,7 @@ Indexed constraint logic asks: "What type is this constraint from this index?"
 Whatever extensions or modifications we make to this system, these invariants MUST hold:
 
 1. **Metrics-first classification** â€” `classify_from_metrics/6` remains canonical predicate in drl_core.pl
-2. **Detection patterns only refine or demote** â€” Signatures in structural_signatures.pl can override but never modify core logic
+2. **Detection patterns only refine or demote** â€” Signatures in signature_detection.pl can override but never modify core logic
 3. **Action flows from final type** â€” Recommendations derive from integrated classification, not raw metrics
 4. **Thresholds are calibration points** â€” Not moral boundaries, not absolute truths, but measurement regime parameters subject to empirical validation
 
@@ -3790,7 +4042,7 @@ The framework admits:
 **Spec â†’ Implementation discipline:**
 - Single canonical predicate: `classify_from_metrics/6`
 - Single threshold registry: logic_thresholds.md
-- Single signature override: structural_signatures.pl
+- Single signature override: signature_detection.pl (via structural_signatures.pl facade)
 - Shadow mode: Extensions don't modify core
 
 **No regressions.** v4.0 adds Stages 7-9 WITHOUT changing v1-6 classification logic.
@@ -3934,7 +4186,7 @@ Q4: Would people comply without enforcement? â†’ Estimate Supp
 
 **Sections complete:**
 - âœ… Â§I Foundation (indexed realism vs relativism)
-- âœ… Â§II Basic Syntax (index structure, six types, detection patterns, Ï€/Ïƒ modifiers)
+- âœ… Â§II Basic Syntax (index structure, seven types, detection patterns, Ï€/Ïƒ modifiers)
 - âœ… Â§III Temporal Logic (indexed operators, 11 drift types)
 - âœ… Â§IV Inference Rules (priority ordering, two-regime architecture)
 - âœ… Â§V Error Taxonomy (six misclassification types)

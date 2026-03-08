@@ -1,0 +1,1022 @@
+{
+  "metadata": {
+    "description": "Institutional dissent analysis: low-snare vs high-snare comparison",
+    "snare_threshold": 0.5,
+    "has_scipy": true,
+    "total": 55,
+    "low_snare_n": 51,
+    "high_snare_n": 4
+  },
+  "population": {
+    "low_snare": {
+      "n": 51,
+      "p_snare_stats": {
+        "n": 51,
+        "mean": 0.03163,
+        "median": 0.003859,
+        "std": 0.044381,
+        "min": 0.0,
+        "max": 0.192071,
+        "q25": 0.000134,
+        "q75": 0.081465,
+        "iqr": 0.081331
+      }
+    },
+    "high_snare": {
+      "n": 4,
+      "p_snare_stats": {
+        "n": 4,
+        "mean": 0.582842,
+        "median": 0.583012,
+        "std": 0.051892,
+        "min": 0.518581,
+        "max": 0.646765,
+        "q25": 0.547268,
+        "q75": 0.646765,
+        "iqr": 0.099497
+      }
+    },
+    "total": 55,
+    "threshold": 0.5
+  },
+  "metric_comparison": {
+    "base_extractiveness": {
+      "low_snare": {
+        "n": 51,
+        "mean": 0.45098,
+        "median": 0.48,
+        "std": 0.070551,
+        "min": 0.32,
+        "max": 0.62,
+        "q25": 0.38,
+        "q75": 0.52,
+        "iqr": 0.14
+      },
+      "high_snare": {
+        "n": 4,
+        "mean": 0.665,
+        "median": 0.68,
+        "std": 0.025981,
+        "min": 0.62,
+        "max": 0.68,
+        "q25": 0.68,
+        "q75": 0.68,
+        "iqr": 0.0
+      },
+      "mann_whitney": {
+        "U": 0.5,
+        "p_value": 0.00064013,
+        "rank_biserial_r": 0.9951
+      }
+    },
+    "suppression": {
+      "low_snare": {
+        "n": 51,
+        "mean": 0.531176,
+        "median": 0.52,
+        "std": 0.081785,
+        "min": 0.28,
+        "max": 0.68,
+        "q25": 0.48,
+        "q75": 0.58,
+        "iqr": 0.1
+      },
+      "high_snare": {
+        "n": 4,
+        "mean": 0.74,
+        "median": 0.75,
+        "std": 0.042426,
+        "min": 0.68,
+        "max": 0.78,
+        "q25": 0.72,
+        "q75": 0.78,
+        "iqr": 0.06
+      },
+      "mann_whitney": {
+        "U": 1.0,
+        "p_value": 0.00094057,
+        "rank_biserial_r": 0.9902
+      }
+    },
+    "theater_ratio": {
+      "low_snare": {
+        "n": 51,
+        "mean": 0.553333,
+        "median": 0.58,
+        "std": 0.105341,
+        "min": 0.32,
+        "max": 0.68,
+        "q25": 0.48,
+        "q75": 0.65,
+        "iqr": 0.17
+      },
+      "high_snare": {
+        "n": 4,
+        "mean": 0.615,
+        "median": 0.58,
+        "std": 0.098362,
+        "min": 0.52,
+        "max": 0.78,
+        "q25": 0.58,
+        "q75": 0.78,
+        "iqr": 0.2
+      },
+      "mann_whitney": {
+        "U": 84.5,
+        "p_value": 0.57837114,
+        "rank_biserial_r": 0.1716
+      }
+    },
+    "purity_score": {
+      "low_snare": {
+        "n": 51,
+        "mean": 0.527487,
+        "median": 0.506333,
+        "std": 0.076456,
+        "min": 0.410167,
+        "max": 0.627,
+        "q25": 0.462167,
+        "q75": 0.615,
+        "iqr": 0.152833
+      },
+      "high_snare": {
+        "n": 4,
+        "mean": 0.362167,
+        "median": 0.354167,
+        "std": 0.013856,
+        "min": 0.354167,
+        "max": 0.386167,
+        "q25": 0.354167,
+        "q75": 0.386167,
+        "iqr": 0.032
+      },
+      "mann_whitney": {
+        "U": 204.0,
+        "p_value": 0.00091934,
+        "rank_biserial_r": -1.0
+      }
+    },
+    "confidence": {
+      "low_snare": {
+        "n": 51,
+        "mean": 0.983935,
+        "median": 0.998026,
+        "std": 0.027087,
+        "min": 0.832076,
+        "max": 0.999736,
+        "q25": 0.971275,
+        "q75": 0.999542,
+        "iqr": 0.028267
+      },
+      "high_snare": {
+        "n": 4,
+        "mean": 0.678042,
+        "median": 0.680854,
+        "std": 0.048496,
+        "min": 0.614663,
+        "max": 0.7358,
+        "q25": 0.648927,
+        "q75": 0.7358,
+        "iqr": 0.086873
+      },
+      "mann_whitney": {
+        "U": 204.0,
+        "p_value": 0.00099558,
+        "rank_biserial_r": -1.0
+      }
+    },
+    "confidence_margin": {
+      "low_snare": {
+        "n": 51,
+        "mean": 0.968042,
+        "median": 0.996268,
+        "std": 0.053848,
+        "min": 0.667101,
+        "max": 0.999512,
+        "q25": 0.94256,
+        "q75": 0.999089,
+        "iqr": 0.056529
+      },
+      "high_snare": {
+        "n": 4,
+        "mean": 0.356987,
+        "median": 0.361711,
+        "std": 0.095821,
+        "min": 0.232926,
+        "max": 0.4716,
+        "q25": 0.297856,
+        "q75": 0.4716,
+        "iqr": 0.173744
+      },
+      "mann_whitney": {
+        "U": 204.0,
+        "p_value": 0.00099558,
+        "rank_biserial_r": -1.0
+      }
+    },
+    "tangled_psi": {
+      "low_snare": {
+        "n": 51,
+        "mean": 0.491185,
+        "median": 0.561602,
+        "std": 0.410036,
+        "min": 0.0,
+        "max": 0.986564,
+        "q25": 0.032006,
+        "q75": 0.966314,
+        "iqr": 0.934308
+      },
+      "high_snare": {
+        "n": 4,
+        "mean": 0.996827,
+        "median": 0.996845,
+        "std": 0.000466,
+        "min": 0.996229,
+        "max": 0.997387,
+        "q25": 0.99653,
+        "q75": 0.997387,
+        "iqr": 0.000857
+      },
+      "mann_whitney": {
+        "U": 0.0,
+        "p_value": 0.00098405,
+        "rank_biserial_r": 1.0
+      }
+    }
+  },
+  "signature_comparison": {
+    "cross_tab": {
+      "false_ci_rope": {
+        "low_snare": 51,
+        "high_snare": 4
+      }
+    },
+    "chi_squared": null,
+    "cramers_v": null
+  },
+  "orbit_comparison": {
+    "orbit_signature_distribution": {
+      "rope+snare": {
+        "low_snare": 0,
+        "high_snare": 4
+      },
+      "rope+tangled_rope": {
+        "low_snare": 50,
+        "high_snare": 0
+      },
+      "scaffold+tangled_rope": {
+        "low_snare": 1,
+        "high_snare": 0
+      }
+    },
+    "orbit_chi_squared": {
+      "chi2": 55.0,
+      "p_value": 0.0,
+      "dof": 2,
+      "cramers_v": 1.0
+    },
+    "h1": {
+      "low_snare": {
+        "n": 51,
+        "mean": 2.0,
+        "median": 2,
+        "std": 0.0,
+        "min": 2,
+        "max": 2,
+        "q25": 2,
+        "q75": 2,
+        "iqr": 0
+      },
+      "high_snare": {
+        "n": 4,
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0,
+        "min": 2,
+        "max": 2,
+        "q25": 2,
+        "q75": 2,
+        "iqr": 0
+      },
+      "mann_whitney_p": 1.0
+    },
+    "non_institutional_views": {
+      "powerless": {
+        "low_snare": {
+          "tangled_rope": 51
+        },
+        "high_snare": {
+          "snare": 4
+        }
+      },
+      "moderate": {
+        "low_snare": {
+          "tangled_rope": 51
+        },
+        "high_snare": {
+          "snare": 4
+        }
+      },
+      "analytical": {
+        "low_snare": {
+          "tangled_rope": 50,
+          "rope": 1
+        },
+        "high_snare": {
+          "snare": 4
+        }
+      }
+    },
+    "perspective_patterns": {
+      "low_snare": {
+        "tangled_rope/tangled_rope/rope/tangled_rope": 49,
+        "tangled_rope/tangled_rope/rope/rope": 1,
+        "tangled_rope/tangled_rope/scaffold/tangled_rope": 1
+      },
+      "high_snare": {
+        "snare/snare/rope/snare": 4
+      }
+    }
+  },
+  "domain_comparison": {
+    "cross_tab": {
+      "authority_agency/coordination_systems": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/financial_engineering": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/fiscal_policy": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/intellectual_property": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/organizational/technological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/political": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/recreational_sports": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/social": {
+        "low_snare": 3,
+        "high_snare": 0
+      },
+      "economic/social/digital_culture": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/social/technological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/social/welfare_policy": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/technological": {
+        "low_snare": 3,
+        "high_snare": 0
+      },
+      "economic/technological/energy": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "economic/technological/social": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "epistemic_methodology/protocol_application": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "epistemology/systems_theory/labor_studies": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "geopolitical/economic": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "health/medical/immunotherapy": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "health/scientific/economic": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "international_relations/intelligence_operations/constitutional_law": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "international_relations/military_strategy/energy_security": {
+        "low_snare": 2,
+        "high_snare": 0
+      },
+      "labor_relations/institutional_control/debt_bondage": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "literary_criticism/modernist_poetry/cultural_theory": {
+        "low_snare": 2,
+        "high_snare": 0
+      },
+      "organizational_dynamics/labor_relations/institutional_power": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "organizational_psychology/systems_theory/epistemology_of_control": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "political/constitutional": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "political/electoral_systems": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "political/international_governance": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "political/legal": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "political/social": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "political_economy/labor_relations/debt_systems": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "regulatory/pharmaceutical": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "scientific_mathematical_physics_quantum_chaos": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "social/cognitive": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "social/political": {
+        "low_snare": 2,
+        "high_snare": 0
+      },
+      "social/technological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "social/technological/religious": {
+        "low_snare": 0,
+        "high_snare": 1
+      },
+      "social_constraint_theory/agency_depletion/power_asymmetry": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "structural_dynamics/knowledge_systems/social_epistemology": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "technological/cryptographic": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "technological/economic": {
+        "low_snare": 3,
+        "high_snare": 0
+      },
+      "technological/economic/biological": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "technological/institutional": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "technological/social": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "technological/standards_governance": {
+        "low_snare": 1,
+        "high_snare": 0
+      },
+      "technology_governance/behavioral_psychology/social_infrastructure": {
+        "low_snare": 1,
+        "high_snare": 0
+      }
+    },
+    "chi_squared": {
+      "chi2": 55.0,
+      "p_value": 0.14595835,
+      "dof": 45,
+      "cramers_v": 1.0
+    },
+    "cramers_v": 1.0
+  },
+  "beneficiary_victim": {
+    "beneficiaries": {
+      "low_snare": {
+        "n": 51,
+        "mean": 2.27451,
+        "median": 2,
+        "std": 0.562851,
+        "min": 1,
+        "max": 3,
+        "q25": 2,
+        "q75": 3,
+        "iqr": 1
+      },
+      "high_snare": {
+        "n": 4,
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0,
+        "min": 2,
+        "max": 2,
+        "q25": 2,
+        "q75": 2,
+        "iqr": 0
+      },
+      "mann_whitney_p": 0.291131,
+      "unique_labels": {
+        "low_snare": 116,
+        "high_snare": 8,
+        "overlap": 0
+      }
+    },
+    "victims": {
+      "low_snare": {
+        "n": 51,
+        "mean": 2.470588,
+        "median": 2,
+        "std": 0.605625,
+        "min": 1,
+        "max": 4,
+        "q25": 2,
+        "q75": 3,
+        "iqr": 1
+      },
+      "high_snare": {
+        "n": 4,
+        "mean": 2.0,
+        "median": 2.0,
+        "std": 0.0,
+        "min": 2,
+        "max": 2,
+        "q25": 2,
+        "q75": 2,
+        "iqr": 0
+      },
+      "mann_whitney_p": 0.107091,
+      "unique_labels": {
+        "low_snare": 125,
+        "high_snare": 8,
+        "overlap": 0
+      }
+    },
+    "beneficiary_victim_overlap": {
+      "low_snare": 0,
+      "high_snare": 0
+    }
+  },
+  "discriminant_ranking": [
+    {
+      "feature": "purity_score",
+      "type": "continuous",
+      "effect_size": 1.0,
+      "metric": "|rank_biserial_r|",
+      "raw_value": -1.0,
+      "p_value": 0.00091934
+    },
+    {
+      "feature": "confidence",
+      "type": "continuous",
+      "effect_size": 1.0,
+      "metric": "|rank_biserial_r|",
+      "raw_value": -1.0,
+      "p_value": 0.00099558
+    },
+    {
+      "feature": "confidence_margin",
+      "type": "continuous",
+      "effect_size": 1.0,
+      "metric": "|rank_biserial_r|",
+      "raw_value": -1.0,
+      "p_value": 0.00099558
+    },
+    {
+      "feature": "tangled_psi",
+      "type": "continuous",
+      "effect_size": 1.0,
+      "metric": "|rank_biserial_r|",
+      "raw_value": 1.0,
+      "p_value": 0.00098405
+    },
+    {
+      "feature": "orbit_signature",
+      "type": "categorical",
+      "effect_size": 1.0,
+      "metric": "cramers_v",
+      "raw_value": 1.0,
+      "p_value": 0.0
+    },
+    {
+      "feature": "topic_domain",
+      "type": "categorical",
+      "effect_size": 1.0,
+      "metric": "cramers_v",
+      "raw_value": 1.0,
+      "p_value": 0.14595835
+    },
+    {
+      "feature": "base_extractiveness",
+      "type": "continuous",
+      "effect_size": 0.9951,
+      "metric": "|rank_biserial_r|",
+      "raw_value": 0.9951,
+      "p_value": 0.00064013
+    },
+    {
+      "feature": "suppression",
+      "type": "continuous",
+      "effect_size": 0.9902,
+      "metric": "|rank_biserial_r|",
+      "raw_value": 0.9902,
+      "p_value": 0.00094057
+    },
+    {
+      "feature": "theater_ratio",
+      "type": "continuous",
+      "effect_size": 0.1716,
+      "metric": "|rank_biserial_r|",
+      "raw_value": 0.1716,
+      "p_value": 0.57837114
+    }
+  ],
+  "spot_check_extremes": {
+    "lowest_snare": [
+      {
+        "id": "automatic_enrollment_defaults",
+        "human_readable": "Automatic Enrollment Defaults in Retirement Plans",
+        "topic_domain": "economic/social",
+        "raw_p_snare": 0.0,
+        "raw_p_rope": 0.131216,
+        "raw_p_tangled_rope": 0.865992,
+        "base_extractiveness": 0.32,
+        "suppression": 0.35,
+        "theater_ratio": 0.42,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "clarification_loop_structure",
+        "human_readable": "Clarification Loop Structure in Multi-Stage Research Protocols",
+        "topic_domain": "epistemic_methodology/protocol_application",
+        "raw_p_snare": 0.0,
+        "raw_p_rope": 0.030745,
+        "raw_p_tangled_rope": 0.962296,
+        "base_extractiveness": 0.38,
+        "suppression": 0.42,
+        "theater_ratio": 0.32,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "israel_surplus_vote_agreements",
+        "human_readable": "Surplus-Vote Agreements (Bader-Ofer Method)",
+        "topic_domain": "political/electoral_systems",
+        "raw_p_snare": 0.0,
+        "raw_p_rope": 0.018958,
+        "raw_p_tangled_rope": 0.978353,
+        "base_extractiveness": 0.38,
+        "suppression": 0.42,
+        "theater_ratio": 0.35,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "oc_donation_model",
+        "human_readable": "Open Culture's Voluntary Donation-Based Funding Model",
+        "topic_domain": "economic/social/digital_culture",
+        "raw_p_snare": 0.0,
+        "raw_p_rope": 0.370495,
+        "raw_p_tangled_rope": 0.622882,
+        "base_extractiveness": 0.32,
+        "suppression": 0.28,
+        "theater_ratio": 0.42,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "ergo_nipopows",
+        "human_readable": "Non-Interactive Proofs of Proof-of-Work (NiPoPoWs)",
+        "topic_domain": "technological/cryptographic",
+        "raw_p_snare": 1e-06,
+        "raw_p_rope": 0.002769,
+        "raw_p_tangled_rope": 0.997225,
+        "base_extractiveness": 0.38,
+        "suppression": 0.42,
+        "theater_ratio": 0.55,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "independent_criticism_patronage",
+        "human_readable": "The Patronage Model for Independent Cultural Criticism",
+        "topic_domain": "economic/technological",
+        "raw_p_snare": 1e-06,
+        "raw_p_rope": 0.002549,
+        "raw_p_tangled_rope": 0.997447,
+        "base_extractiveness": 0.38,
+        "suppression": 0.42,
+        "theater_ratio": 0.58,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "skills_based_hiring",
+        "human_readable": "Skills-Based Hiring (De-credentialing)",
+        "topic_domain": "economic/technological/social",
+        "raw_p_snare": 1e-06,
+        "raw_p_rope": 0.002769,
+        "raw_p_tangled_rope": 0.997225,
+        "base_extractiveness": 0.38,
+        "suppression": 0.42,
+        "theater_ratio": 0.55,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "gale_shapley",
+        "human_readable": "Gale-Shapley Stable Matching Algorithm (as applied in markets)",
+        "topic_domain": "economic/technological",
+        "raw_p_snare": 4e-06,
+        "raw_p_rope": 0.002037,
+        "raw_p_tangled_rope": 0.99795,
+        "base_extractiveness": 0.38,
+        "suppression": 0.45,
+        "theater_ratio": 0.52,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "fiscal_equalization_friction",
+        "human_readable": "The Equalization Conflict (Net Transfer Friction)",
+        "topic_domain": "economic/political",
+        "raw_p_snare": 2.6e-05,
+        "raw_p_rope": 0.001059,
+        "raw_p_tangled_rope": 0.998909,
+        "base_extractiveness": 0.38,
+        "suppression": 0.48,
+        "theater_ratio": 0.62,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "dunning_kruger_effect",
+        "human_readable": "Dunning-Kruger Effect (Cognitive Bias of Self-Assessment)",
+        "topic_domain": "social/cognitive",
+        "raw_p_snare": 2.7e-05,
+        "raw_p_rope": 0.001107,
+        "raw_p_tangled_rope": 0.998848,
+        "base_extractiveness": 0.38,
+        "suppression": 0.48,
+        "theater_ratio": 0.65,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      }
+    ],
+    "highest_snare": [
+      {
+        "id": "exclusionary_coordination_asymmetry",
+        "human_readable": "Exclusionary Coordination Asymmetry",
+        "topic_domain": "authority_agency/coordination_systems",
+        "raw_p_snare": 0.09409,
+        "raw_p_rope": 7e-06,
+        "raw_p_tangled_rope": 0.9059,
+        "base_extractiveness": 0.48,
+        "suppression": 0.62,
+        "theater_ratio": 0.58,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "hormuz_leverage_paradox",
+        "human_readable": "Strait of Hormuz Closure Leverage Paradox",
+        "topic_domain": "international_relations/military_strategy/energy_security",
+        "raw_p_snare": 0.09409,
+        "raw_p_rope": 7e-06,
+        "raw_p_tangled_rope": 0.9059,
+        "base_extractiveness": 0.48,
+        "suppression": 0.62,
+        "theater_ratio": 0.58,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "purity_drift_degradation",
+        "human_readable": "Purity Drift in Long-Term Reciprocal Obligations",
+        "topic_domain": "social_constraint_theory/agency_depletion/power_asymmetry",
+        "raw_p_snare": 0.09409,
+        "raw_p_rope": 7e-06,
+        "raw_p_tangled_rope": 0.9059,
+        "base_extractiveness": 0.48,
+        "suppression": 0.62,
+        "theater_ratio": 0.58,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "institutional_mandate_vs_autonomy",
+        "human_readable": "School Phone Bans and Student Autonomy Development",
+        "topic_domain": "technology_governance/behavioral_psychology/social_infrastructure",
+        "raw_p_snare": 0.103225,
+        "raw_p_rope": 8e-06,
+        "raw_p_tangled_rope": 0.896673,
+        "base_extractiveness": 0.48,
+        "suppression": 0.62,
+        "theater_ratio": 0.68,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "witness_obligation_without_recipient",
+        "human_readable": "Witness Obligation Without Recipient",
+        "topic_domain": "epistemology/systems_theory/labor_studies",
+        "raw_p_snare": 0.103225,
+        "raw_p_rope": 8e-06,
+        "raw_p_tangled_rope": 0.896673,
+        "base_extractiveness": 0.48,
+        "suppression": 0.62,
+        "theater_ratio": 0.68,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "climate_catastrophe_belief",
+        "human_readable": "Belief in Inevitable Near-Term Climate Catastrophe",
+        "topic_domain": "social/political",
+        "raw_p_snare": 0.192071,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.807861,
+        "base_extractiveness": 0.62,
+        "suppression": 0.58,
+        "theater_ratio": 0.65,
+        "perspectives": {
+          "powerless": "tangled_rope",
+          "moderate": "tangled_rope",
+          "institutional": "rope",
+          "analytical": "tangled_rope"
+        }
+      },
+      {
+        "id": "us_sanctions_moex_2024",
+        "human_readable": "U.S. Sanctions on Moscow Exchange (MOEX) 2024",
+        "topic_domain": "geopolitical/economic",
+        "raw_p_snare": 0.518581,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.481418,
+        "base_extractiveness": 0.68,
+        "suppression": 0.78,
+        "theater_ratio": 0.52,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "rope",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "compounding_obligation_trap",
+        "human_readable": "Compounding Obligation Trap in Debt Systems",
+        "topic_domain": "political_economy/labor_relations/debt_systems",
+        "raw_p_snare": 0.547268,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.452719,
+        "base_extractiveness": 0.68,
+        "suppression": 0.78,
+        "theater_ratio": 0.58,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "rope",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "amish_technological_renunciation",
+        "human_readable": "The Television Test (Amish Renunciation)",
+        "topic_domain": "social/technological/religious",
+        "raw_p_snare": 0.618756,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.381241,
+        "base_extractiveness": 0.62,
+        "suppression": 0.68,
+        "theater_ratio": 0.58,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "rope",
+          "analytical": "snare"
+        }
+      },
+      {
+        "id": "bureaucratic_accommodation_as_extraction_persistence",
+        "human_readable": "Bureaucratic Accommodation as Extraction Persistence",
+        "topic_domain": "organizational_dynamics/labor_relations/institutional_power",
+        "raw_p_snare": 0.646765,
+        "raw_p_rope": 0.0,
+        "raw_p_tangled_rope": 0.347136,
+        "base_extractiveness": 0.68,
+        "suppression": 0.72,
+        "theater_ratio": 0.78,
+        "perspectives": {
+          "powerless": "snare",
+          "moderate": "snare",
+          "institutional": "rope",
+          "analytical": "snare"
+        }
+      }
+    ]
+  }
+}

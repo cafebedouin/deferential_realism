@@ -4,1446 +4,1297 @@
 
 ## Summary
 
-- **Constraints analyzed**: 1022
-- **Orbit families**: 25
+- **Constraints analyzed**: 993
+- **Orbit families**: 21
 - **Single-type families** (gauge-invariant): 3
-- **Multi-type families** (gauge-variant): 22
-- **Largest family**: [rope,snare] (314 constraints)
+- **Multi-type families** (gauge-variant): 18
+- **Largest family**: [tangled_rope] (584 constraints)
 
 ## Family Inventory
 
 Families sorted by population (largest first).
 
-### `[rope,snare]` — 314 constraints
+### `[tangled_rope]` — 584 constraints
 
-*Two-type: coordination/extraction bifurcation along power axis*
+*Gauge-invariant: tangled coordination-extraction from all perspectives*
 
 - `abstraction_boundary_overrun`
 - `academic_fashion_modernism_2026`
+- `academic_peer_review_gatekeeping`
 - `academic_tenure_system`
+- `access_arbitrage`
+- `acip_hep_b_infant_mandate`
+- `ad_fus_coordination`
 - `ad_synaptic_deficit`
-- `adaptive_lag_trap`
 - `adversarial_surface_inflation`
 - `adversarial_truth_decay`
-- `agency_atrophy`
-- `agent_opt_2026`
+- `advice_as_dangerous_gift`
+- `aging_well_assessment`
+- `ai_adoption_stigma`
 - `ai_banal_capture`
 - `ai_driven_surveillance_sensor_layer`
-- `ai_evaluators_matching`
-- `ai_nonconsensual_content_facilitation`
+- `ai_performance_watermark`
 - `ai_professional_displacement`
-- `airport_slot_use_it_or_lose_it`
-- `algeria_france_colonial_legacy`
+- `ai_religion_regulation`
+- `ai_scholar_citation_trap`
+- `ai_superpowers_race_2026`
+- `ai_training_data_dependency`
 - `algorithmic_bias`
 - `algorithmic_epistemic_capture`
 - `alignment_tax_tradeoff`
+- `allusive_density_as_exclusion`
+- `alternative_sovereignty_scaffold`
 - `altruistic_misery_paradox_2026`
-- `amish_technological_renunciation`
-- `anticipatory_capacity_failure`
-- `appropriations_brinkmanship`
-- `art_market_decoupling`
-- `asshole_filter_2015`
+- `ancestral_pueblo_hydrology`
+- `ancient_grudge_verona`
+- `antifragility`
+- `antikythera_knowledge_loss`
+- `ape_cognition_framework`
+- `arbitrary_enforcement_extraction`
+- `arrows_impossibility_theorem`
+- `artificial_scarcity_scaffold`
+- `artificial_snow_2026`
+- `asean_ceasefire_2011`
 - `asymmetric_burden_distribution`
+- `asymmetric_computational_difficulty`
+- `atrophied_optimization_piton`
 - `attention_as_bottleneck_resource`
 - `attention_market_cannibalization`
+- `attribution_ambiguity_triplet_sc`
+- `au_social_media_ban_u16`
 - `australia_social_ban_2026`
 - `authoritarian_power_paradox`
-- `autonomous_toolchain_sprawl`
+- `availability_heuristic`
 - `average_is_over_2026`
 - `awareness_without_leverage`
-- `bay_of_pigs_operational_silo`
+- `axiom_reasoner_2026`
+- `bangladesh_july_national_charter`
+- `bayes_theorem`
 - `bedouin_sedentary_transition`
+- `beehiiv_platform_model`
 - `belief_argument_conclusion`
+- `berkshire_compounding_culture`
+- `big_data_astrophysics_arbitrage`
+- `biological_specification`
 - `bip_narrative_illusion`
-- `blackstone_conflicts_of_interest`
-- `blackstone_smd_control`
-- `blackstone_tra`
-- `bor_tax_exemption_nl`
+- `blackstone_carried_interest_taxation`
+- `boe_base_rate_policy_2024`
+- `bonbon_drop_sticker_craze`
+- `boom_bust_path_dependency`
 - `boundary_dissolution_risk`
-- `brazil_mexico_financial_requirement`
+- `brain_network_paradigm_2026`
+- `brazil_2026_general_elections`
+- `brazil_hiv_vtn_elimination`
+- `brilliance_as_structural_trap`
 - `broke_vs_poor_grocery_math`
-- `burden_of_proof_engineering_safety`
+- `burden_of_proof_scientific_empirical`
 - `bureaucratic_legibility_collapse`
-- `bureaucratic_self_preservation`
 - `bushman_money_magic`
+- `bwb_adeg_rewesale_conditions`
+- `canada_germany_ai_pact`
+- `canal_panama_influence`
+- `cancer_chronotherapy_timing`
+- `cancer_prevention`
 - `capability_eval_overhang`
 - `capital_misallocation_spiral`
+- `capital_rotation_ai_narrative`
+- `car_ownership_norm_us`
+- `carbon_credit_markets_2026`
+- `carrier_deployment_deterrence`
 - `carrying_capacity`
 - `cartel_drone_surveillance_el_paso`
 - `cascading_constraint_failure`
-- `cascading_uncertainty_2026`
+- `castration_longevity_choice`
+- `categorical_boundary_as_cognitive_load_limiter`
+- `categorical_instrument_blindness`
 - `cb_far_beyond_human`
 - `cbdc_implementation`
 - `cfius_hiefo_emcore_divestment`
 - `cg_israelgaza_20231012`
-- `challenger_o_ring_integrity`
-- `child_marriage`
-- `china_critical_mineral_chokepoint`
+- `china_africa_zero_tariff_2026`
+- `china_contraceptive_tax`
+- `china_vactrain_standard`
 - `cholesterol_pill_cost`
-- `chrome_imagen2_integration`
-- `cia_fbi_legal_wall`
-- `circadian_decoupling_arbitrage`
-- `citation_collapse_dynamics`
+- `cinderella_midnight_deadline`
 - `civilizational_lifecycle_solara`
+- `civilizational_maintenance_debt`
+- `clawderberg_recursive_slop`
+- `click_chemistry_paradigm_2026`
+- `climate_event_attribution`
+- `climate_policy_extraction`
+- `climate_target_one_point_five`
 - `cloudflare_dual_class_asymmetry`
+- `cmr_001`
+- `codex_access`
 - `coe_ukraine_reparations_register`
+- `coffee_cardiovascular_2026`
+- `cognitive_bicycle_scaffold`
+- `cognitive_diversity_arbitrage`
+- `cognitive_energy_budget`
 - `cognitive_hacking_2026`
 - `cognitive_induction_gap`
 - `cognitive_surrender_to_system_3`
-- `coinbase_regulatory_uncertainty`
+- `coinbase_crypto_volatility`
+- `cold_dark_matter_paradigm`
+- `collective_action_blockage_via_stratification`
 - `collective_action_deadlock`
+- `collective_action_threshold`
 - `collective_stupidity_2026`
-- `colorado_sbe_decentralization_friction`
+- `college_admissions_market`
+- `colossus_nero_inertia`
+- `columbia_2026_elections`
 - `communal_narcissism_social_trap`
-- `complexity_debt`
-- `consensus_without_truth`
-- `constraint_interaction_explosion`
+- `condiment_tyranny`
+- `confidential_ai_whatsapp`
+- `confirmation_bias`
+- `constitutional_supremacy`
 - `consumer_debt_slavery`
-- `container_capacity_mismatch`
-- `coordination_attack_vulnerability`
-- `coordination_fatigue`
+- `coordination_extraction_invisibility`
+- `copyleft_viral_licensing`
+- `cost_of_observation`
+- `cow_field_poop`
 - `credibility_inflation`
 - `crisis_signal_saturation`
+- `crispr_genomic_rewrite_2026`
 - `critical_actor_overcentralization`
+- `crop_defense_dependency`
 - `cross_domain_coupling_spiral`
+- `cuba_mandatrophic_collapse`
+- `cuban_missile_crisis_excomm_delibration`
+- `cultural_homogenization_social_media`
 - `cultural_memory_decay`
-- `cultural_refragmentation_2026`
 - `cumbria_mine_rejection`
-- `cz_plea_agreement_2026`
-- `dark_patterns_manipulation`
+- `cuny_light_2026`
 - `data_laundering_pipeline`
+- `data_privacy_regulation`
 - `debt_service_squeeze`
+- `decision_latency_mismatch`
+- `deferential_realism_core`
 - `deferred_risk_realization`
 - `delayed_feedback_instability`
-- `delta_force_selection_2026`
 - `demographic_inertia_trap`
+- `denmark_asylum_outsourcing`
+- `devotional_transformation`
+- `digital_credentialing_verification`
+- `digital_identity_tether`
 - `dk_foreign_convict_expulsion`
+- `dldr_information_policy`
+- `drc_rwanda_peace_deal_2024`
+- `dutch_minority_govt_2026`
 - `dwp_carers_allowance_cliff`
+- `ec_meta_manus_block`
+- `edelman_2026_developing_volatility`
+- `edelman_2026_insularity`
+- `educational_unbundling_implementation`
+- `elencher_identity_transformation`
 - `elite_capture_2026`
 - `elite_identity_capture_2026`
-- `emergency_mode_lock_in`
+- `elliq_ai_companion`
+- `emergency_oversight_bureau`
+- `emergency_powers_ratchet`
 - `emergent_goal_misalignment`
+- `emotional_cycles_of_change`
+- `empty_tomb_transformation`
 - `endocrine_disruption_society`
+- `enforcement_gap_exploitation`
+- `english_chinese_tense_structure`
+- `epigenetics_complexity_2026`
 - `epistemic_free_rider_problem`
 - `epistemic_overload_collapse`
-- `epstein_espionage_2026`
+- `epistemic_process_of_verification`
+- `epstein_document_release_2026`
 - `epstein_files_2026`
-- `epstein_honeytrap`
-- `ergot_grain_poisoning`
-- `erised_expectation`
-- `eu_asylum_outsourcing_framework`
+- `erasmus_rejoining_scaffold`
+- `ergo_autolykos_asic_resistance`
+- `ergo_dexy_gold_protocol`
+- `ergo_rosen_bridge_protocol`
+- `ergo_storage_rent`
+- `ergo_storage_rent_mechanism`
+- `ergodic_theorems`
+- `eu_affordable_housing_initiative`
+- `eu_deforestation_regulation`
+- `eu_digital_services_act`
+- `eu_irgc_terrorist_designation`
+- `eu_renewable_energy_mandate`
+- `eu_unanimity_rule_foreign_policy`
+- `eurozone_fragmentation_2026`
 - `evidence_half_life`
+- `evolutionary_knowledge`
 - `evolutionary_mismatch_load`
-- `expert_disempowerment`
+- `exclusion_as_preparation`
+- `exoplanet_habitability_arbitrage`
+- `extraordinary_narrative_shift`
+- `faint_blue_neural_bifurcation`
+- `false_mountain_naturalization`
 - `family_estrangement_ratio`
-- `family_succession_system`
-- `feedback_loop_desynchronization`
+- `family_succession_and_decadence`
+- `fb_creator_monetization_indonesia`
+- `fcc_dji_covered_list`
 - `fiat_currency_lifecycle`
-- `financial_drag`
 - `finite_pool_of_worry`
 - `finnish_debt_adjustment`
-- `fiscal_dominance_trap`
-- `floating_wall_2026`
+- `fmeca_procedures_1980`
+- `fnl_shadow_probe`
+- `formalization_translation_rope`
+- `fptp_electoral_system`
 - `fragile_middle_layer_collapse`
-- `frontex_pushback_coordination`
-- `gale_shapley`
-- `generational_replacement_inertia`
-- `ghost_fishing_gear`
-- `gig_economy_algorithmic_management`
+- `france_cordon_sanitaire_2026`
+- `franchisee_corporate_squeeze`
+- `french_ag_land_concentration`
+- `french_local_elections_march_2026`
+- `friction_as_intervention_medium`
+- `fungal_shift_grassland_loss`
+- `fused_quartz_5d_archival`
+- `future_dsm_integration_2026`
+- `g7_debt_trap`
+- `gaza_aid_permit_revocation`
+- `gemini_scientific_advancement`
+- `genai_mil_platform`
+- `genetic_algorithms_evolution`
+- `geopolitical_insularity_2026`
+- `german_board_gender_quota`
+- `germany_tennet_takeover`
+- `germline_regulation_threshold_2026`
+- `gita_kurukshetra`
 - `global_economic_anxiety_2026`
+- `global_food_market_fragility`
+- `global_hoarding_scaling_laws`
+- `global_protocol_entrenchment`
 - `global_water_bankruptcy`
+- `glp1_payload_efficiency_pivot`
 - `goal_boundary_poisoning`
-- `gold_fomo_cycle`
+- `gold_piton_2026`
+- `golden_handcuffs`
+- `google_ai_search_overview`
+- `google_universal_commerce_protocol`
 - `governance_latency_gap`
 - `governance_overfitting`
+- `gpt5_codex_dev_cycle`
+- `great_mongolian_road_economic_dependency`
+- `greenland_defence_pact_2026`
 - `greenland_seizure_trade_war`
+- `greshams_law`
 - `grievance_stack_overflow`
-- `guinea_junta_legitimization_2024`
-- `guthrie_kidnapping_2026`
+- `gs1_gln_identification`
+- `guano_wealth_extraction`
+- `hagia_sophia_status`
+- `hanlons_razor`
+- `happiness_of_others`
+- `harlequin_historical_line_discontinuation`
+- `harry_potter_liberalism`
+- `hawthorne_effect`
+- `hegemonic_entropy_2026`
+- `help_to_buy_uk`
+- `helsinki_bus_theory`
+- `hershey_salt_strategy`
+- `heuristic_optimization`
 - `hhs_fetal_tissue_research_ban_2019`
-- `hicbc_uk`
-- `hidden_interdependency_risk`
-- `hollow_state_syndrome`
+- `hiv_prep_prevention_2026`
+- `hominin_evolutionary_bottleneck`
+- `hu_2026_electoral_parity`
 - `huang_expectation_resilience_2026`
+- `hub_short_form_tv_market_fragmentation`
 - `hypercompression_of_time_horizons`
-- `hypernormie_equilibrium`
-- `ibm_shield_2026`
 - `ibm_shield_contract_2026`
-- `ice_raids_minnesota_2026`
-- `ice_safe_departure`
+- `ice_memory_archive`
 - `identity_stack_incompatibility`
-- `incentive_surface_warping`
+- `india_nuclear_liability_act_2010`
+- `india_semi_mission`
+- `indian_ai_licensing_regime`
+- `indian_import_tariffs_eu`
 - `individual_revolution_autonomy`
-- `inference_cost_scaling_law`
+- `individual_vs_systemic_causation`
+- `information_foraging_theory`
 - `informational_time_2026`
-- `infrastructure_interoperability_decay`
+- `inner_models`
+- `innovators_dilemma`
+- `institutional_inertia_lock`
 - `institutional_memory_loss`
-- `institutional_mutation_domestication`
-- `institutional_mutation_without_selection`
+- `institutional_trust_decay`
 - `integrated_digital_governance_stack`
+- `interaction_explosion`
 - `interface_contract_breakdown`
-- `internet_evolution_lifecycle`
-- `interpretive_frame_fragmentation`
+- `internet_archive_preservation`
 - `intertemporal_responsibility_gap`
-- `invisible_infrastructure_dependency`
-- `iran_guardian_council_vetting`
-- `iran_hijab_law`
+- `inverse_spin_valve_signature`
 - `iran_mandatrophic_collapse`
-- `iran_nin_repression`
-- `iran_war_room_2026`
+- `iron_law_of_oligarchy`
 - `irreversible_policy_commitment`
-- `israel_override_clause`
+- `isa_education_scaffold`
+- `israel_electoral_threshold`
+- `israel_gaza_ceasefire_violation`
+- `iss_ped_ban`
+- `iterated_function_systems`
+- `jevons_paradox`
 - `job_hunt_volume_system_2026`
-- `khantivadin_radical_patience`
+- `jp_eez_enforcement`
+- `jupiter_composition_knowledge_gap`
+- `juvenile_underclass_2026`
+- `keltner_relationship_evaluation`
+- `kidney_exchange_market`
+- `kjv_textual_authority`
+- `knowledge_transmission_urgency`
+- `labor_union_dues_structure`
+- `landscape_of_fear_2026`
+- `large_cardinals_foundations`
 - `latent_goal_activation`
 - `latent_regulatory_bomb`
-- `lavender_ai_targeting`
+- `lcdm_hubble_tension`
+- `legacy_system_technical_debt`
 - `legal_formalism_overhang`
+- `legibility_asymmetry_as_survival`
 - `legibility_trap`
 - `legitimacy_without_capacity`
 - `legitimacy_without_effectiveness`
-- `lehman_repo_105`
+- `legitimation_through_objectivity`
+- `lindy_effect`
 - `liquidity_illusion`
+- `litany_of_the_real`
 - `litchfield_sensitive_locations_2026`
+- `lsd_microdosing_professional_openness`
+- `lula_hemisphere_2026`
 - `maintenance_capacity_shortfall`
 - `maladaptive_selection_process`
-- `mandatrophic_margin_collapse`
+- `mandatrophic_margin_collapse_diagnostic`
+- `manganese_catalysis_2026`
 - `marriage_market_asymmetry_2026`
-- `mass_market_extinction_2026`
+- `matching_markets`
+- `max_flow`
 - `medieval_church_hegemony`
 - `memetic_fitness_vs_truth`
-- `meta_governance_overload`
 - `meta_model_lock_in`
+- `meta_pay_or_okay_model`
 - `metabolic_constraint_cognition`
+- `metamorphosis_samsa`
+- `mexican_airline_merger`
+- `micro_robot_electronics_integration`
+- `microrobot_manipulation`
 - `minnesota_sovereignty_2026`
+- `mirror_of_erised_expectation`
 - `misunderstanding_as_mismatch`
-- `model_autonomy_creep`
+- `mit_tfus_consciousness_2026`
+- `mltt_economic_model`
 - `model_collapse_feedback_loop`
 - `model_of_models_regression`
-- `moltbook_breach_2026`
-- `moral_outsourcing`
-- `multi_agent_reward_hacking`
-- `multi_planetary_latency_lock`
+- `moltbook_agent_theater`
+- `moltbot_religion`
+- `monetary_regime_transition`
+- `monopoly_fp_house_rule`
+- `moores_law`
+- `moral_clarity_paralysis`
+- `mutual_defection_equilibrium`
+- `n26usc469_real_estate_exemption`
 - `naming_as_control`
 - `narcissistic_ego_maintenance`
 - `narrative_capacity_exhaustion`
-- `narrative_overfitting`
-- `necessary_day_job`
+- `nash_equilibrium_coordination`
+- `nato_arctic_defense_cooperation`
+- `nds_2022_pacing_challenge`
+- `negative_emissions_arbitrage`
+- `neurodiversity_spectrum`
+- `new_civilizational_rope`
+- `new_start_expiration`
+- `news_paywall_inequality`
+- `nfl_superbowl_halftime_exclusivity`
+- `nine_day_buffer`
 - `non_compete_agreements`
 - `norm_erosion_threshold`
-- `north_korea_songun_mandatrophy`
-- `nsl_hk`
-- `opioid_political_realignment_2026`
+- `north_sea_wind_grid`
+- `notary_ink_dependency`
+- `nuclear_site_safety_norms`
+- `nuclear_vacuum_2026`
+- `nursery_social_hierarchy`
+- `nvidia_cuda_ecosystem_lockin`
+- `ny_private_school_discount`
+- `olympic_legacy_curling_investment`
+- `olympic_medal_allocation`
+- `omega1_patches`
+- `omelet_perfection_complexity`
+- `ontological_friction_resolution`
+- `open_culture_newsletter`
+- `openai_codex_app_constraint`
+- `openai_default_data_training`
+- `openai_implicit_translator`
+- `openai_prism_development`
+- `openbsd_netiquette_protocol`
+- `openclaw_data_lock_in`
 - `optimization_fragility`
-- `orbital_data_center_2026`
 - `other_peoples_troubles_2026`
 - `overfitting_to_frameworks`
-- `panama_canal_ports`
+- `overton_window`
+- `p_g_golden_pear_surveillance`
+- `p_vs_np`
 - `parable_fish_turtle`
-- `pe_fund_level_leverage`
+- `paradoxical_decompositions`
+- `pareto_principle`
+- `paris_municipal_reform_2026`
+- `parkinsons_law`
+- `participatory_observer_hypothesis`
 - `pe_rental_market_lockin`
-- `pla_loyalty_purge`
+- `permissive_software_licensing`
+- `perseverance_ai_drive`
+- `personalized_nutritional_arbitrage`
+- `peter_principle`
+- `pfas_regulatory_framework`
 - `planetary_boundaries`
+- `planning_fallacy`
+- `plastic_asphalt_mandate`
+- `platonic_coparenting_decoupling`
+- `po_investigation_protocol_bias`
 - `poetic_verse_and_past`
-- `policy_lag_catastrophe`
-- `power_without_responsibility`
+- `polar_bear_biobanking`
+- `politeness_face_negotiation`
+- `political_art_factional_alignment`
+- `political_dissident_containment`
+- `portugal_government_stability_ad`
+- `postman_survival_protocol`
 - `prestige_signal_inflation`
 - `price_signal_corruption`
 - `prime_age_male_unwork`
-- `procedural_legitimacy_decay`
-- `project_vault_extraction_2026`
-- `protocol_drift_accumulation`
-- `quellcrist_falconer_justice`
-- `radiologic_diagnostic_threshold`
+- `private_identity_integration`
+- `procedural_compliance_theater`
+- `project_vault_2026`
+- `protocol_rigidity_under_unclassified_variance`
+- `public_domain_commons`
+- `publishing_embargo`
+- `qualified_immunity`
+- `quantum_entanglement_protocol`
+- `qwerty_vs_dvorak`
+- `raac_school_maintenance`
+- `rare_earth_dependency`
 - `rational_inertia_trap`
 - `regional_military_deterrence_mideast`
-- `rent_seeking_equilibrium`
+- `regulatory_capture`
+- `regulatory_pathway_psychedelic_therapy`
 - `reputational_cascade_failure`
 - `responsibility_dilution`
 - `responsibility_without_power`
-- `riot_incentive_loop_2026`
-- `risk_socialization_threshold`
-- `ritual_without_belief`
+- `ritualistic_transition_scaffold`
+- `rn_proteus_adoption`
 - `robustness_vs_efficiency_tradeoff`
+- `roc_african_exarchate`
+- `roman_bath_system`
+- `roman_colosseum_games`
+- `roman_monumental_construction`
+- `roman_road_network`
+- `rotation_seven_black_soil`
 - `rotation_seven_isolation`
-- `rotation_seven_kubo_ranking`
-- `rules_based_international_order`
-- `russian_war_cannibalization`
-- `scam_compound_2026`
-- `scurvy_maritime_extraction`
+- `rotmigration_decision_threshold`
+- `royal_navy_middle_east_withdrawal`
+- `s1_visa`
+- `sa_renewable_price_differential`
+- `sadhu_integrity_protocol`
+- `sapir_whorf_hypothesis`
+- `satellite_d2m_standard`
+- `scientific_paradigm_lifecycle`
 - `second_order_unintended_consequences`
-- `semantic_attack_surface`
+- `seedance_export_restriction`
+- `self_enforced_boundary_protocol`
+- `self_surpassing_superman`
+- `semantic_overload_friction`
+- `semiconductor_mission_2026`
 - `shadow_pricing_failure`
 - `shock_propagation_asymmetry`
 - `signal_without_control`
 - `silent_dependency_activation`
 - `silicon_lexicon_overload`
-- `sleep_debt_externality`
-- `slow_crisis_invisibility`
+- `sk_ai_act_2026`
+- `sk_dantongbeop`
+- `sk_newtro_aesthetic`
 - `sludge_bureaucratic_friction`
+- `sm_addictive_design`
+- `smartphone_ubiquity`
 - `social_credit_architecture`
-- `soft_authoritarian_drift`
+- `social_loafing`
+- `social_media_participation_threshold`
+- `soe_property_bailout`
+- `solar_system_weirdness`
+- `sorites_paradox`
 - `spain_digital_offensive_2026`
-- `statecraft_virtu`
+- `start_treaty`
 - `status_flattening_effect`
-- `structural_extraction_without_actor`
+- `steinmetz_valuation_asymmetry`
+- `stoic_logos_governance`
+- `straight_coercion_2025`
+- `strange_attractors`
+- `strategic_deep_sea_rare_earth_mining`
+- `student_loan_default_cliff`
+- `student_loan_interest_accrual`
+- `sturgeons_law`
 - `suanne_coup_of_peace`
-- `suanne_face_restoration`
+- `subscription_economy_model`
+- `superbowl_advertising_extraction`
+- `swift_legacy_piton`
 - `synthetic_data_feedback_loop`
-- `systemic_blindspot`
 - `tail_risk_compression`
 - `taiwan_existential_sovereignty`
-- `taiwan_grand_bargain`
-- `taiwan_storm_2026`
-- `taliban_slavery_law_2024`
-- `taxonomy_drift`
+- `taiwan_university_application_system`
 - `tear_gas_repression_2026`
 - `technocratic_overreach`
-- `thai_senate_veto_2026`
-- `the_bacchae_madness_protocol`
+- `technological_point_of_no_return`
+- `temporal_scale_arbitrage`
 - `the_calm_protocol_suppression`
-- `toxic_social_infection`
-- `tractarian_logic_limit`
-- `tx_hispanic_pivot`
+- `the_churn_systemic_upheaval`
+- `the_trivial_topology`
+- `the_wall_procedural_barrier`
+- `theatrical_neutrality`
+- `trade_secret_law`
+- `tragedy_of_the_commons`
+- `trajans_bridge_lifecycle`
+- `transformer_self_attention`
+- `transient_event_detection`
+- `traveling_salesperson_problem`
+- `trillion_bond_rush_2026`
+- `tsp`
 - `ua_mobilization_protector_cert`
-- `ua_wartime_mobilization`
+- `udhr_1946`
+- `uk_artist_resale_right`
 - `uk_graduate_visa_salary_threshold`
-- `uk_unpaid_care_system`
+- `uk_hicbc_2024`
+- `uk_necc_formation`
+- `uk_student_visa_dependents`
 - `ukr_mobilization`
-- `unrwa_eviction_order`
-- `us_greenland_envoy`
-- `us_isolationism_policy_2026`
+- `ulysses_chp02`
+- `ulysses_chp04`
+- `ulysses_chp05`
+- `ulysses_chp06`
+- `ulysses_chp07`
+- `ulysses_chp08`
+- `ulysses_chp10`
+- `ulysses_chp11`
+- `ulysses_chp12`
+- `ulysses_chp16`
+- `ulysses_chp17`
+- `ulysses_chp18`
+- `un_high_seas_treaty_2026`
+- `uneven_risk_distribution`
+- `unrequited_love_protocol`
+- `unsanctioned_substrate_access`
+- `us_ai_chip_export_controls`
+- `us_canada_geopolitical_asymmetry`
+- `us_china_chip_tariffs_v2`
+- `us_debt_ceiling`
+- `us_embargo_cuba`
+- `us_employer_health_insurance`
+- `us_foreign_policy_america_first`
 - `us_israel_faa_502b_nonenforcement`
+- `us_labor_mobility`
+- `us_legal_standard_reasonable_doubt`
+- `us_military_recruitment_advertising`
+- `us_sanctions_belarus_2022`
+- `us_sanctions_icc_israel_case`
 - `us_sdf_alliance_abandonment_2026`
-- `us_suburban_zoning_2025`
-- `us_two_party_duopoly`
-- `us_vaccine_recommendation_dismantling_2026`
-- `us_venezuela_blockade`
-- `us_venezuela_oil_pressure`
-- `us_venezuela_plausible_deniability_2025`
+- `us_usmca_china_leverage`
+- `us_wind_project_ban_2025`
+- `usc_26_469_passive_loss`
 - `utopia_apocalypse_fragility`
 - `value_alignment_drift`
 - `value_extraction_plateau`
-- `venezuela_oil_privatization_v1`
+- `verification_bottleneck`
+- `vertebrate_turning_point_2026`
 - `viral_transmission_rates`
-- `winners_curse`
+- `visibility_as_incitement`
+- `visibility_bias_governance`
+- `vision_of_the_cross`
+- `vns_implant_for_trd`
+- `wikipedia_noncommercial_model`
+- `wikipedia_notability_requirement_2026`
 - `world_factbook_sunset_2026`
-- `xi_mao_ideological_centralization`
-- `yt_ai_slop_incentive`
-- `zipfs_law`
+- `yangtze_fishing_ban`
 - `zombie_reasoning_2026`
 
-### `[rope,snare,tangled_rope]` — 167 constraints
+### `[mountain]` — 146 constraints
 
-*Three-type: full rope-tangled-snare gauge structure with irreducible middle band*
+*Gauge-invariant: immutable restriction from all perspectives*
 
-- `ai_adoption_stigma`
-- `ai_auditability_gap`
-- `ai_religion_regulation`
-- `airbnb_str_regulation`
-- `ape_cognition_framework`
-- `arctic_maritime_control`
-- `arg_ev_tariff`
-- `boiled_pineapple_trend_2026`
-- `brain_network_paradigm_2026`
-- `canal_panama_influence`
-- `cancer_prevention`
-- `carbon_credit_markets_2026`
-- `carrier_deployment_deterrence`
-- `china_ev_export_oversupply`
-- `china_vactrain_standard`
-- `climate_event_attribution`
-- `cn_tech_decoupling_security_software`
-- `codex_access`
-- `cognac_geopolitical_risk`
-- `constitutional_consecration`
-- `constitutional_supremacy`
-- `conversational_dogmas_interruption`
-- `corporate_social_responsibility_theater`
-- `couples_residency_match`
-- `credentialism_national_security`
-- `crop_defense_dependency`
-- `cuba_mandatrophic_collapse`
-- `cultural_homogenization_social_media`
-- `data_privacy_regulation`
-- `debt_trap_microfinance`
-- `digital_euro_cbdc`
-- `digital_identity_tether`
-- `dionysiac_frenzy`
-- `discover_core_2026`
-- `dn_paywall`
-- `doomsday_clock_framework`
-- `dunning_kruger_effect`
-- `ec_meta_manus_block`
-- `edelman_2026_developed_stagnation`
-- `edelman_2026_insularity`
-- `elite_overproduction_instability`
-- `elliq_ai_companion`
-- `eu_digital_services_act`
-- `eu_ev_tariff_wall`
-- `eu_irgc_terrorist_designation`
-- `eu_unanimity_rule_foreign_policy`
-- `evolutionary_knowledge`
-- `exploration_vs_exploitation`
-- `fcc_dji_covered_list`
-- `fda_component_efficacy_standard`
-- `fed_shutdown_2026`
-- `fiber_optic_chip_tech`
-- `fine_particle_policy`
-- `fitts_law_industrial_application`
-- `fraser_river_salmon_regulation`
-- `french_ag_land_concentration`
-- `future_dsm_integration`
-- `g7_debt_trap`
-- `gaza_aid_permit_revocation`
-- `gaza_border_control_rafah`
-- `geopolitical_insularity_2026`
-- `glen_canyon_water_allocation`
-- `global_digital_divide`
-- `goodharts_law`
-- `google_ai_search_overview`
-- `great_awakening_rekindling`
-- `great_mongolian_road_economic_dependency`
-- `greenland_defence_pact_2026`
-- `greshams_law`
-- `guano_wealth_extraction`
-- `hammurabi_lex_talionis`
-- `hawthorne_effect`
-- `help_to_buy_uk`
-- `hu_2026_election_rules`
-- `hub_short_form_tv_market_fragmentation`
-- `incumbent_steel_production`
-- `india_nuclear_liability_act_2010`
-- `indian_import_tariffs_eu`
-- `inner_model_confirmation_bias`
-- `innovators_dilemma`
-- `iron_law_of_oligarchy`
-- `israel_gaza_ceasefire_violation`
-- `israel_norwegian_law`
-- `israeli_settlement_policy_authority_restriction`
-- `iss_ped_ban`
-- `japanese_energy_scaffold_2025`
-- `jp_eez_enforcement`
-- `kim_jong_un_succession`
-- `lung_transplant_protocol`
-- `max_flow_min_cut`
-- `medical_residency_match`
-- `meta_nda`
-- `mexican_airline_merger`
-- `microwave_weapon_1`
-- `moltbot_religion`
-- `mrna_melanoma_therapy`
-- `ncaa_eligibility_rules`
-- `neural_substrate_2026`
-- `new_start_expiration`
-- `nfl_superbowl_marketing_regulation`
-- `nine_day_buffer`
-- `nuclear_order_2026`
-- `nuclear_vacuum_2026`
-- `openai_health_review`
-- `openai_implicit_translator`
-- `openbsd_netiquette_protocol`
-- `openclaw_data_lock_in`
-- `openclaw_regulation`
-- `oral_glp1_market_access`
-- `p_g_golden_pear_surveillance`
-- `peter_principle`
-- `platform_app_store_duopoly`
-- `po_investigation_protocol_bias`
-- `portugal_polarization_threshold_2026`
-- `procedural_compliance_theater`
-- `protocol_capture_eee`
-- `raac_school_maintenance`
-- `rare_earth_dependency`
-- `rare_earth_export_restrictions`
-- `sapir_whorf_hypothesis`
-- `seedance_export_restriction`
-- `semantic_overload_friction`
-- `shadow_fleet_sanctions_evasion`
-- `sk_ai_act_2026`
-- `soe_property_bailout`
-- `south_china_sea_arbitration_2016_2026`
-- `start_treaty`
-- `sti_clinical_testing_bottleneck`
-- `strait_coercion_2025`
-- `strange_attractor_dynamics`
-- `strange_attractor_systemic_risk`
-- `strategic_deep_sea_rare_earth_mining`
-- `streaming_bundling_mandate`
-- `student_loan_default_cliff`
-- `student_loan_interest_accrual`
-- `sunk_cost_fallacy`
-- `swift_legacy_piton`
-- `taiwan_ids_program`
-- `taiwan_university_application_system`
-- `texas_insurance_market_instability`
-- `traveling_salesperson_problem`
-- `trump_indian_tariffs_2026`
-- `trump_second_term_authoritarianism_2026`
-- `uk_help_to_buy_scheme`
-- `uk_hicbc_trap`
-- `ulysses_aeolus_1904`
-- `ulysses_cyclops_1904`
-- `ulysses_lestrygonians_1904`
-- `ulysses_nausicaa_1904`
-- `ulysses_school_1904`
-- `ulysses_scylla_1904`
-- `ulysses_sirens_1904`
-- `us_arms_transfer_policy`
-- `us_china_chip_tariffs_v2`
-- `us_debt_ceiling`
-- `us_employer_health_insurance`
-- `us_iran_drone_conflict`
-- `us_military_recruitment_advertising`
-- `us_sanctions_icc_israel_case`
-- `us_taiwan_arms_sales`
-- `us_visa_lottery`
-- `usc_26_469_passive_loss`
-- `vienna_quantum_superposition_2026`
-- `visibility_bias_governance`
-- `vns_implant_for_trd`
-- `wpl_scotland`
-- `yangtze_fishing_ban`
-
-### `[rope,tangled_rope]` — 143 constraints
-
-*Two-type: pure vs tangled coordination*
-
-- `adverse_possession`
-- `aging_longevity_tests`
-- `ai_edu_decentralization`
-- `ai_training_data_dependency`
-- `armra_colostrum_regulation`
-- `arrows_impossibility_theorem`
-- `atrophied_optimization_piton`
-- `availability_heuristic`
-- `bayes_theorem_cognitive_bias`
-- `beehiiv_platform_model`
-- `bgs_eigenvector_thermalization`
-- `bnpl_payment_systems`
-- `board_of_peace_2026`
-- `brazil_2026_general_elections`
-- `buffons_needle_pi_estimation`
-- `burden_of_proof_scientific`
-- `capital_rotation_ai_narrative`
-- `champions_bass_fishing_exclusion`
-- `choice_architecture_design`
-- `civilizational_maintenance_debt`
-- `cmr_001`
-- `coalition_disinfo_framework_2026`
-- `cobra_effect`
-- `coinbase_crypto_volatility`
-- `cold_dark_matter_paradigm`
-- `comitatus_bond`
-- `compounding_logic`
-- `confirmation_bias`
-- `constraint_yoneda`
-- `cow_field_poop`
-- `creative_commons_licensing`
-- `crispr_genomic_rewrite_2026`
-- `data_replication_paradox`
-- `djia_as_economic_barometer`
-- `dutch_minority_govt_2026`
-- `edelman_2026_developing_volatility`
-- `em_clinical_guidelines`
-- `empty_tomb_transformation`
-- `ergo_mixer_protocol`
-- `eu_affordable_housing_initiative`
-- `eu_deforestation_regulation`
-- `eu_renewable_energy_mandate`
-- `eurozone_fragmentation_2026`
-- `evfta_trade_agreement`
-- `extraordinary_narrative_shift`
-- `faa_boeing_regulatory_capture`
-- `fmeca_procedures_1980`
-- `framing_effect`
-- `france_cordon_sanitaire_2026`
-- `franchisee_corporate_squeeze`
-- `genetic_predisposition`
-- `gpt5_codex_dev_cycle`
-- `gpt_store_marketplace`
-- `graph_coloring_complexity`
-- `hanlons_razor`
-- `hasbro_licensing_restriction`
-- `hershey_salt_strategy`
-- `hp_liberalism`
-- `india_semi_mission`
-- `institutional_inertia_lock`
-- `israel_egypt_gas_deal`
-- `israel_electoral_threshold`
-- `israel_surplus_vote_agreements`
-- `iterated_function_system_convergence`
-- `ivt_accessibility_barrier`
-- `jevons_paradox`
-- `kjv_textual_authority`
-- `labor_union_dues`
-- `landscape_of_fear_2026`
-- `law_of_diminishing_returns`
-- `lcdm_hubble_tension`
-- `lcdm_small_scale_anomalies`
-- `linguistic_relativity_cultural_framing`
-- `lorenz_attractor_dynamics`
-- `lsd_microdosing_professional_openness`
-- `magna_carta_liberties`
-- `manga_distribution_duopoly`
-- `mars_rover_navigational_autonomy`
-- `med_diet_consensus_2026`
-- `meta_nuclear_power_agreement`
-- `mil_std_461g_emi_control`
-- `mil_std_810f_tailoring`
-- `minimax_theorem_game_equilibrium`
-- `monetary_regime_transition`
-- `nato_arctic_defense_cooperation`
-- `nds_2022_pacing_challenge`
-- `news_paywall_inequality`
-- `nfl_superbowl_halftime_exclusivity`
-- `noether_isomorphism_access`
-- `north_sea_wind_grid`
-- `ny_private_school_discount`
-- `nyc_metrocard_art_licensing`
-- `omega1_patching_process`
-- `oscar_campaign_spending`
-- `overton_window`
-- `parkinsons_law`
-- `participatory_observer_hypothesis`
-- `paxsilica_framework`
-- `plastic_asphalt_mandate`
-- `pna`
-- `politeness_face_negotiation`
-- `power_set_axiomatic_extraction`
-- `private_identity_integration`
-- `qwerty_vs_dvorak`
-- `rare_earth_hydrogen_extraction`
-- `rare_earth_seabed_mining`
-- `sa_renewable_price_differential`
-- `sat_csp_complexity`
-- `satellite_d2m_standard`
-- `scientific_paradigm_lifecycle`
-- `semiconductor_mission_2026`
-- `shobies_existential_commitment`
-- `social_loafing`
-- `social_media_participation_threshold`
-- `social_narrative_casting`
-- `sorites_paradox`
-- `st_petersburg_paradox`
-- `stable_marriage_coordination`
-- `theory_of_visitors`
-- `tiktok_us_divestiture_mandate`
-- `trade_secret_law`
-- `transient_event_detection`
-- `trivial_topology_info_asymmetry`
-- `trump_critical_minerals`
-- `trump_making_china_great_2026`
-- `tsp_computational_complexity`
-- `uk_necc_formation`
-- `ukraine_tight_gas_pilot`
-- `ulysses_calypso_1904`
-- `ulysses_eumaeus_1904`
-- `ulysses_ithaca_1904`
-- `ulysses_lotus_1904`
-- `ulysses_rocks_1904`
-- `ulysses_tower_1904`
-- `un_high_seas_treaty_2026`
-- `union_protection_underperformance`
-- `us_labor_mobility`
-- `us_legal_standard_reasonable_doubt`
-- `us_tariffs_2025`
-- `visa_ipo_regulatory_compliance`
-- `visa_judgment_sharing_agreement`
-- `wikipedia_notability_requirement_2026`
-- `yc_equity_squeeze`
-
-### `[tangled_rope]` — 102 constraints
-
-*Gauge-invariant: tangled coordination-extraction from all perspectives*
-
-- `academic_peer_review_gatekeeping`
-- `ai_cognitive_diversity_arbitrage`
-- `ai_task_horizon_reliability`
-- `alternative_sovereignty_scaffold`
-- `ancient_grudge_verona`
-- `antifragility`
-- `apartheid_nuclear_program`
-- `arctic_geopolitical_flashpoint`
-- `asymmetric_computational_difficulty`
-- `axiom_of_choice`
-- `canada_goose_realignment_2026`
-- `castration_longevity_choice`
-- `china_taiwan_reunification_mandate`
-- `climate_target_one_point_five`
-- `coffee_cardiovascular_2026`
-- `cognitive_bicycle_scaffold`
-- `cognitive_diversity_arbitrage`
-- `cognitive_energy_budget`
-- `copyright_protection`
-- `damped_harmonics`
-- `dead_sea_effect`
-- `e2ee_digital_privacy_2026`
-- `emotional_cycles_2026`
-- `ergo_autolykos_asic_resistance`
-- `ergo_lets_protocol`
-- `ergo_storage_rent_mechanism`
-- `ergodic_theorems`
-- `faint_blue_neural_bifurcation`
-- `finnish_ubi_experiment`
-- `fmt_oncology_2026`
-- `frankenstein_creation_hubris`
-- `germline_regulation_threshold_2026`
-- `gilgamesh_mortality_limit`
-- `gita_kurukshetra`
-- `global_hoarding_scaling_laws`
-- `global_protocol_entrenchment`
-- `golden_handcuffs`
-- `gradient_descent_optimization`
-- `happiness_of_others`
-- `harm_principle_liberty`
-- `hedonic_adaptation_baseline`
-- `helsinki_bus_theory`
-- `hominin_evolutionary_bottleneck`
-- `horizon_liability_contract`
-- `inner_model_theory_constraints`
-- `juvenile_underclass_2026`
-- `kidney_exchange_market`
-- `kjv_puritan_new_world_exit`
-- `knowledge_action_gap`
-- `large_cardinal_foundations`
-- `layered_brain_processing`
-- `legacy_system_technical_debt`
-- `lln_convergence`
-- `logistic_map_dynamics`
-- `lula_hemisphere_2026`
-- `mandatrophy_systemic_collapse`
-- `manganese_catalysis_2026`
-- `matching_markets_general`
-- `mco_unit_system_discontinuity`
-- `metamorphosis_samsa`
-- `micro_robot_electronics_integration`
-- `microbiome_symbiosis`
-- `mutual_defection_equilibrium`
-- `mvt_theorem_constraint`
-- `narrative_engineering_2026`
-- `nasa_faster_better_cheaper`
-- `nash_equilibrium_coordination`
-- `network_effects`
-- `neuroplasticity_plateau`
-- `nonstandard_arithmetic_models`
-- `path_dependence_lock_in`
-- `peano_curve_mapping`
-- `permissive_software_licensing`
-- `perseverance_ai_drive`
-- `planning_fallacy`
-- `platform_cooperativism_governance`
-- `proof_of_work_consensus`
-- `public_domain_commons`
-- `qualified_immunity`
-- `railway_gauge_standard`
-- `rn_proteus_adoption`
-- `rogers_commission_institutional_analysis`
-- `rogue_wave_control_2026`
-- `self_surpassing`
-- `sig_usd_protocol`
-- `sm_addictive_design`
-- `solar_system_weirdness`
-- `starwars_evolutionary_mutation`
-- `steinmetz_valuation_asymmetry`
-- `stoic_logos_governance`
-- `superbowl_advertising_extraction`
-- `taiwan_strait_hegemony_shift`
-- `technological_point_of_no_return`
-- `the_churn_systemic_upheaval`
-- `the_wall_procedural_barrier`
-- `trojan_war_spoils`
-- `ulysses_circe_1904`
-- `ulysses_hades_1904`
-- `ulysses_oxen_1904`
-- `ulysses_penelope_1904`
-- `ulysses_proteus_1904`
-- `us_canada_geopolitical_asymmetry`
-
-### `[mountain,unknown]` — 81 constraints
-
-*Contains unresolved types: [mountain,unknown]*
-
+- `absorbing_markov_chains`
+- `architectural_constraint_as_dual_substrate`
+- `attention_as_capturable_resource`
 - `banach_fixed_point`
 - `banach_fixed_point_theorem`
 - `banach_tarski_paradox`
 - `base_pair_complementarity`
+- `basel_problem_convergence`
 - `bgs_spectral_universality`
 - `bh_merger_gravitational_infall`
-- `birthday_paradox_collision`
+- `birthday_paradox_collison`
+- `borsuk_ulam_theorem`
 - `brouwer_fixed_point`
+- `burali_forte_paradox`
 - `busy_beaver_noncomputability`
 - `c_physical_blue_wavelength`
+- `cantor_set_topology`
+- `cantors_diagonal_argument`
 - `cap_theorem`
-- `central_limit_theorem`
+- `capability_compulsion_gradient`
+- `central_limit_theorem_convergence`
 - `chaitins_omega_undecidability`
 - `church_turing_thesis`
 - `clt_convergence_2026`
 - `collatz_conjecture_determinism`
-- `constraint_galois_solvability`
-- `constraint_tarski_undefinability`
-- `constraint_twin_prime_conjecture`
+- `continuum_hypothesis_undecidability`
 - `conways_game_of_life_dynamics`
+- `coordination_barrier_topology`
+- `cosmological_evolution_alpha_omega`
 - `countable_infinity_cardinality`
+- `currys_paradox`
+- `damped_harmonics`
+- `deep_earth_hydrogen_availability`
+- `degraded_deterrence_architecture`
 - `ehrenfest_barrier`
-- `english_chinese_tense_structure`
+- `environmental_instability_as_constraint`
+- `epistemic_irreducibility_mountain`
 - `euler_characteristic_topology`
+- `extraction_residue_as_bodily_inscription`
 - `fast_growing_hierarchy`
 - `feigenbaum_universality`
-- `fermat_proof_barrier`
+- `fermats_last_theorem`
 - `fgh_hierarchy_2026`
-- `finite_simple_group_classification`
+- `finite_simple_groups_classification`
 - `four_color_theorem_topological_bound`
+- `fundamental_material_limits_nbre`
 - `fundamental_theorem_of_algebra`
+- `fundamental_theorem_of_calculus`
+- `galois_theory`
+- `galois_theory_symmetry`
 - `gauss_bonnet_topology`
-- `genetic_predisposition_mania`
 - `geophysics_superionic_core`
-- `goedels_incompleteness_theorems`
+- `gilgamesh_mortality_limit`
+- `godels_incompleteness_theorems`
 - `goldbach_conjecture`
+- `gravitational_lensing_cosmic_dawn`
 - `halting_problem_undecidability`
+- `hamiltonian_path_complexity`
 - `hd101584_stellar_evolution`
-- `heine_borel`
+- `heine_borel_theorem`
 - `heisenberg_uncertainty`
+- `hilberts_hotel`
+- `hilberts_hotel_infinity`
+- `hydra_game`
+- `indexical_extraction_variance`
+- `indexical_power_variance`
 - `indexical_relativity_core`
+- `indexical_relativity_of_extraction`
+- `input_specification_failure`
 - `kirby_paris_theorem`
 - `kleene_recursion_theorem`
 - `kolmogorov_complexity`
+- `lagrange_multipliers`
 - `liar_paradox`
+- `lln_convergence`
 - `lobs_theorem`
 - `local_vs_global_optima`
+- `logistic_map_dynamics`
+- `lorenz_attractor`
+- `lorenz_attractor_dynamics`
 - `lowenheim_skolem_theorem`
 - `lyapunov_stability`
+- `mars_rovers_navigational_autonomy`
 - `martian_signal_latency`
 - `material_tensile_strength`
+- `mean_value_theorem`
+- `measurement_apparatus_bidirectionality`
+- `measurement_fidelity_as_authority_substrate`
+- `minimax_theorem`
+- `mom_z14_galaxy_2026`
 - `monty_hall_conditional_probability`
+- `newtons_method_convergence`
 - `no_cloning_theorem`
+- `noethers_isomorphism_theorems`
+- `noethers_theorem`
+- `noethers_theorem_symmetry`
+- `nonstandard_arithmetic_models`
+- `nonstandard_models_of_arithmetic`
 - `pancreatic_cancer_lethality_v1`
-- `pareto_principle`
-- `poincare_conjecture`
+- `peano_curve_mapping`
+- `physiological_constraint_ceiling`
+- `poincare_conjucture`
+- `portuguese_presidential_term_limits`
+- `power_indexed_classification_variance`
+- `power_set`
 - `prime_number_theorem`
-- `prisoners_dilemma_equilibrium`
-- `pythagorean_geometric_constancy`
-- `quantum_measurement_gap`
+- `protocol_execution_impossibility`
+- `pythagorean_theorem`
+- `pythagorean_theorem_geometric_constancy`
 - `quantum_nonlocality_2026`
+- `quine_self_replication`
 - `ramsey_numbers`
 - `reciprocity_laws_math`
+- `referential_substrate_absence`
 - `relativity_of_simultaneity`
 - `relativity_physical_invariance`
+- `rfc9293_state_machine`
 - `rices_theorem_undecidability`
+- `riemann_mapping_theorem`
+- `russells_paradox_self_reference`
 - `shannon_entropy_limit`
-- `shannon_source_coding`
-- `silver_scarcity_2026`
+- `shannons_source_coding_theorem`
+- `silver_scarcity_mountain_2026`
 - `square_cube_law`
-- `star_formation_barrier_g0253`
-- `star_to_black_hole_observational_limit`
-- `sturgeons_law`
+- `strange_attractor_dynamics`
+- `structural_position_constraint_divergence`
+- `sts86_ascent_checklist`
+- `substrate_as_unrecognized_archive`
+- `succession_crisis_as_strategic_outcome`
+- `suslin_hypothesis`
 - `suslin_hypothesis_undecidability`
+- `sylow_theorems`
 - `sylow_theorems_group_theory`
+- `system_reproduction_through_substitution`
+- `tarski_undefinability_theorem`
 - `terrain_inaccessibility_wheeled_vehicles`
 - `thermodynamics_entropy`
-- `three_body_unpredictability`
-- `van_der_waerden_theorem`
-- `weierstrass_proof_limits`
+- `three_body_problem`
+- `three_body_unpredicability`
+- `traveling_salesman_problem`
+- `twin_prime_conjecture`
+- `ulysses_chp14`
+- `van_der_waerden`
+- `weierstrass_function`
 - `whitehead_problem_undecidability`
+- `zipfs_law`
 
-### `[rope,tangled_rope,unknown]` — 43 constraints
+### `[rope,tangled_rope]` — 52 constraints
 
-*Contains unresolved types: [rope,tangled_rope,unknown]*
+*Two-type: pure vs tangled coordination*
 
-- `abstraction_leakage`
-- `advice_as_dangerous_gift`
-- `alzheimers_levetiracetam`
-- `asce_7_22_seismic_design`
-- `big_data_astrophysics_arbitrage`
-- `blackstone_carried_interest_taxation`
-- `cma`
-- `college_admissions_market`
-- `constraint_lagrange_multipliers`
-- `constraint_riemann_mapping`
-- `decision_latency_mismatch`
-- `factional_instability`
-- `fnl_shadow_probe`
-- `gemini_scientific_advancement`
-- `germany_tennet_takeover`
-- `grete_samsa_transition`
-- `gs1_gln_identification`
-- `gs_market_clearing`
-- `hydra_game`
-- `institutional_trust_decay`
-- `insult_wisdom_training`
-- `jupiter_composition_knowledge_gap`
-- `keltner_relationship_evaluation`
-- `matching_market_congestion_externality`
-- `migration_decision_threshold`
-- `moltbook_agent_theater`
-- `moores_law`
-- `negative_emissions_arbitrage`
-- `neurodiversity_spectrum`
-- `notary_ink_dependency`
-- `olympic_legacy_curling_investment`
-- `olympic_medal_allocation`
-- `publishing_embargo`
-- `ritual_transition_scaffold`
-- `royal_navy_middle_east_withdrawal`
-- `rule_update_failure`
-- `sadhu_integrity_protocol`
-- `smartphone_ubiquity`
-- `teaching_horses_to_sing`
-- `temporal_scale_arbitrage`
-- `tragedy_of_the_commons`
-- `transformer_self_attention`
-- `working_dog_training`
-
-### `[rope,unknown]` — 40 constraints
-
-*Contains unresolved types: [rope,unknown]*
-
-- `artificial_snow_2026`
-- `astm_d638_tensile_testing`
-- `boltzmann_universality_2026`
-- `burden_of_proof_legal_criminal`
-- `clawderberg_recursive_slop`
-- `colombia_2026_presidential_election`
-- `cost_of_observation`
-- `cs_ecmo_bridge`
-- `cuban_missile_crisis_excomm_deliberation`
-- `deferential_realism_framework`
-- `dexy_gold_protocol`
-- `dldr_information_policy`
-- `education_unbundling_implementation`
-- `electrification_scale_2026`
-- `ergo_storage_rent`
-- `france_2027_presidential_election`
-- `goodstein_theorem_finite_proof`
-- `gs1_standardized_identification`
-- `guinea_worm_eradication`
-- `hegemonic_entropy_2026`
-- `hoa_covenants`
-- `lindy_effect`
-- `net_zero_stabilization`
-- `neural_interoperability`
-- `omelet_perfection_complexity`
-- `paris_municipal_reform_2026`
-- `postman_survival_protocol`
-- `quantum_entanglement_protocol`
-- `regulatory_capture`
-- `repair_probe_incomplete`
-- `rfc9293_state_machine`
-- `rosen_bridge_protocol`
-- `rotation_seven_black_soil`
-- `ship_of_theseus`
-- `shitty_feedback_handling`
+- `automatic_enrollment_defaults`
+- `bgs_eigenvector_thermalization`
+- `blackstone_tax_receiveable_agreement`
+- `board_of_peace_2026`
+- `categorical_violence_as_structural_exclusion`
+- `champions_bass_fishing_exclusion`
+- `clarification_loop_structure`
+- `climate_catastrophe_belief`
+- `comitatus_bond`
+- `coordination_threshold_failure`
+- `couples_residency_match`
+- `debt_leverage_as_consent_manufacturing`
+- `demand_response_cost_shift`
+- `dunning_kruger_effect`
+- `ergo_nipopows`
+- `escalation_control_asymmetry`
+- `exclusionary_coordination_asymmetry`
+- `exploration_vs_exploitation`
+- `fda_component_efficacy_standard`
+- `fiscal_equalization_friction`
+- `fmt_oncology_realignment_2026`
+- `fragmentation_as_arbitrage`
+- `gale_shapley`
+- `hasbro_licensing_restriction`
+- `hicbc_uk`
+- `hormuz_leverage_paradox`
+- `incentive_surface_warping`
+- `independent_criticism_patronage`
+- `institutional_mandate_vs_autonomy`
+- `institutional_mutation_domestication`
+- `intelligence_as_sovereignty_transfer`
+- `israel_norwegian_law`
+- `israel_surplus_vote_agreements`
+- `magna_carta_liberties`
+- `measurement_timing_authority_erosion`
+- `med_diet_consensus_2026`
+- `medical_residency_match`
+- `meta_nuclear_power_agreement`
+- `mythic_scaffolding_vs_formal_fragmentation`
+- `oc_donation_model`
+- `openai_api_access`
+- `openscholar_peer_review`
+- `platform_cooperativism_governance`
+- `protocol_drift_accumulation`
+- `purity_drift_degradation`
+- `redemption_ambiguity`
 - `skills_based_hiring`
-- `somatic_focusing_awareness`
-- `tcp_rfc9293_interoperability`
-- `tsp_duplicate_elimination`
+- `temporal_scarcity`
+- `unconditional_university_offers_uk`
+- `witness_obligation_without_recipient`
+- `working_dog_training`
+- `worldscale_vlsfo_benchmark`
+
+### `[naturalized,rope,snare,tangled_rope]` — 47 constraints
+
+*Contains unresolved types: [naturalized,rope,snare,tangled_rope]*
+
+- `ai_task_horizon_reliability`
+- `algeria_france_colonial_legacy`
+- `appropriations_brinkmanship`
+- `blackstone_smd_control`
+- `bureaucratic_self_preservation`
+- `cn_tech_decoupling_security_software`
+- `colorado_sbe_decentralization_friction`
+- `consensus_without_truth`
+- `copyright_protection`
+- `digital_euro_cbdc`
+- `dionysaic_frenzy`
+- `discover_core_2026`
+- `disney_openai_ip_exclusivity`
+- `e2ee_digital_privacy_2026`
+- `fda_accelerated_approval_alz`
+- `floating_wall_2026`
+- `gbff_funding_mechanism`
+- `gold_fomo_cycle`
+- `hoa_covenants`
+- `incumbent_steel_production`
+- `indonesia_penal_code_2023`
+- `infrastructure_interoperability_decay`
+- `institutional_framing_tangled_rope`
+- `maha_recovery_2026`
+- `manga_distribution_duopoly`
+- `model_autonomy_creep`
+- `ncaa_eligibility_rules`
+- `optimization_as_entrapment`
+- `perovskite_self_etching`
+- `pla_aerial_carrier_doctrine`
+- `platform_app_store_duopoly`
+- `portugal_polarization_threshold_2026`
+- `private_credit_market_opacity`
+- `quota_ratchet_asymmetry`
+- `reputation_as_distributed_enforcement`
+- `rules_based_international_order`
+- `streaming_bundling_mandate`
+- `taiwan_storm_2026`
+- `trump_epa_greenhouse_gas_reversal`
+- `uk_help_to_buy_scheme`
+- `union_protection_underperformance`
+- `unrwa_eviction_order`
+- `us_two_party_duopoly`
+- `us_venezuela_plausible_deniability_2025`
+- `venezuela_oil_privatization_v1`
+- `viral_emergence_covid19_exemplar`
+- `yt_ai_slop_incentive`
+
+### `[rope,snare,tangled_rope]` — 41 constraints
+
+*Three-type: full rope-tangled-snare gauge structure with irreducible middle band*
+
+- `agentive_optimism_2026`
+- `ai_auditability_gap`
+- `allocation_as_extraction_multiplier`
+- `anticipatory_capacity_failure`
+- `asshole_filter_2015`
+- `asymmetric_coordination_extraction`
+- `attritional_warfare_doctrine_ru_ua_2026`
+- `blackstone_conflicts_of_interest`
+- `brazil_mexico_financial_requirement`
+- `cobra_effect`
+- `conversational_dogmas_interuption`
+- `coordination_attack_vulnerability`
+- `elite_overproduction_instability`
+- `fda_gonorrhea_efficacy_standard`
+- `financialization_drag`
+- `frankenstein_creation_hubris`
+- `gpt_store_marketplace`
+- `grete_samsa_transition`
+- `hk_nsl_civic_party_disbandment`
+- `ice_safe_departure`
+- `idf_knock_on_roof_policy`
+- `indexical_extraction_asymmetry`
+- `indo_russian_submarine_lease_2025`
+- `jordan_microfinance`
+- `kim_jong_un_succession`
+- `lung_transplant_protocol`
+- `meta_nda`
+- `msgs_asset_bundling`
+- `necessary_day_job`
+- `nyc_metrocard_art_licensing`
+- `openclaw_regulation`
+- `panama_canal_ports`
+- `procedural_legitimacy_decay`
+- `retroactive_criminalization_of_coerced_acts`
+- `risk_socialization_threshold`
+- `social_narrative_casting`
+- `taliban_slavery_law_2024`
+- `thai_senate_veto_2026`
+- `unilateral_condition_control`
+- `us_greenland_envoy`
+- `winners_curse`
+
+### `[naturalized,snare,tangled_rope]` — 32 constraints
+
+*Contains unresolved types: [naturalized,snare,tangled_rope]*
+
+- `agg1_genetic_determinism`
+- `ai_evaluators_matching`
+- `alzheimers_levetiracetam`
+- `arctic_geopolitical_flashpoint`
+- `arg_ev_tariff`
+- `burden_of_proof_engineering_safety`
+- `coordination_fatigue`
+- `doomsday_clock_framework`
+- `expert_disempowerment`
+- `fatf_grey_list_russia`
+- `fiscal_dominance_trap`
+- `global_stimulus_spree`
+- `goodharts_law`
+- `iran_nuclear_deal_informal_2023`
+- `israel_override_clause`
+- `net_zero_stabilization`
+- `network_effects`
+- `orbital_data_center_2026`
+- `planetary_diet_constraint_2026`
+- `power_without_responsibility`
+- `proof_of_work_consensus`
+- `protocol_capture_tangled_rope`
+- `protocol_inversion_as_constraint_escape`
+- `rare_earth_export_restrictions`
+- `rare_earth_seabed_mining`
+- `rent_seeking_equilibrium`
+- `s1_visa_judgment_sharing_agreement`
+- `silklink_2026`
+- `texas_hispanic_political_pivot`
+- `ukraine_tight_gas_pilot`
+- `us_isolationism_policy_2026`
+- `us_visa_lottery`
+
+### `[naturalized,tangled_rope]` — 20 constraints
+
+*Contains unresolved types: [naturalized,tangled_rope]*
+
+- `adaptive_lag_trap`
+- `airport_slot_use_it_or_lose_it`
+- `climate_attribution_2026`
+- `complexity_debt`
+- `dead_sea_effect`
+- `distributed_memory_as_counter_disposal`
+- `duty_contamination_by_extraction`
+- `false_mountain_persistence`
+- `india_france_horizon_2047`
+- `indo_german_defense_pact`
+- `internet_evolution_lifecycle`
+- `kardashev_scale_progress_narrative`
+- `linguistic_relativity_cultural_framing`
+- `narrative_engineering_2026`
+- `narrative_overfitting`
+- `oscar_campaign_spending`
+- `sovereignty_as_arbitrage`
+- `trump_indian_tariffs_2026`
+- `ulysses_chp09`
 - `unclos_2026`
 
-### `[mountain]` — 30 constraints
+### `[naturalized,rope,snare]` — 17 constraints
 
-*Gauge-invariant: immutable restriction from all perspectives*
+*Contains unresolved types: [naturalized,rope,snare]*
 
-- `basel_problem_convergence`
-- `cantor_set_topology`
-- `cantors_diagonal_argument`
-- `constraint_borsuk_ulam`
-- `constraint_ftc`
-- `constraint_lorenz_sensitivity`
-- `constraint_nonstandard_arithmetic`
-- `constraint_pythagorean`
-- `constraint_sylow`
-- `continuum_hypothesis_undecidability`
-- `cosmological_evolution_alpha_omega`
-- `deep_earth_hydrogen_availability`
-- `dunbars_number`
-- `elencher_identity_transformation`
-- `epigenetics_complexity_2026`
-- `hamiltonian_path_complexity`
-- `hilbert_hotel_infinite_capacity`
-- `hiv_prep_prevention_2026`
-- `large_cardinals_inaccessibility`
-- `litany_of_the_real`
-- `minimax_decision_rule`
-- `newtons_method_convergence`
-- `noether_theorem`
-- `noethers_theorem_symmetry`
-- `optimal_stopping_marriage`
-- `p_vs_np`
-- `suslin_hypothesis_proof_limits`
-- `three_body_problem_predictability_limit`
-- `universal_mathematics_communication`
-- `whitehead_incompleteness`
+- `apartheid_nuclear_program`
+- `asymmetric_duty_structure`
+- `complicity_through_competence`
+- `coordination_failure_universality`
+- `decapitation_as_regime_change`
+- `error_induced_stability`
+- `eu_russian_asset_freeze_2025`
+- `horizon_liability_contract`
+- `iran_hijab_law`
+- `moltbook_breach_2026`
+- `nfl_superbowl_marketing_regulation`
+- `pla_loyalty_purge`
+- `quellcrist_falconer_justice`
+- `rogers_commission_institutional_analysis`
+- `rotation_seven_kubo_ranking`
+- `taiwan_strait_hegemony_shift`
+- `us_venezuela_oil_pressure`
 
-### `[rope]` — 27 constraints
+### `[rope,snare]` — 10 constraints
 
-*Gauge-invariant: pure coordination from all perspectives*
+*Two-type: coordination/extraction bifurcation along power axis*
 
-- `asean_ceasefire_2011`
-- `automatic_enrollment_defaults`
-- `berkshire_compounding_culture`
-- `boundary_protocol`
-- `cancer_chronotherapy_timing`
-- `cinderella_midnight_deadline`
-- `copyleft_viral_licensing`
-- `cuny_light_2026`
-- `decentralized_infrastructure_rope`
-- `fair_use_doctrine`
-- `ice_memory_archive`
-- `microrobot_manipulation`
-- `mom_z14_2026`
-- `open_source_commons`
-- `perseverance_rover_autonomy`
-- `planetary_diet_constraint_2026`
-- `portuguese_presidential_term_limits`
-- `rafah_crossing_lifeline`
-- `rare_earth_coop_2026`
-- `spv_variations_us_cold`
-- `sts86_ascent_checklist`
-- `swift_piton_snap`
-- `thai_article_112_mountain`
-- `udhr_1948`
-- `vertebrate_turning_point_2026`
-- `wikipedia_crowdsourcing_2026`
-- `wikipedia_noncommercial_model`
+- `amish_technological_renunciation`
+- `brilliance_as_structural_liability`
+- `bureaucratic_accommodation_as_extraction_persistence`
+- `compounding_obligation_trap`
+- `constraint_coupling_amplification`
+- `debt_trap_compounding`
+- `delta_force_selection_2026`
+- `gaza_border_control_rafah`
+- `teaching_horses_to_sing`
+- `us_sanctions_moex_2024`
 
-### `[mountain,scaffold]` — 13 constraints
-
-*2-type orbit: [mountain,scaffold]*
-
-- `biological_curiosity`
-- `burali_forti_paradox`
-- `click_chemistry_paradigm_2026`
-- `climate_attribution_2026`
-- `currys_paradox`
-- `endowment_effect`
-- `ergo_nipopows`
-- `galois_theory_symmetry`
-- `genetic_algorithms_evolution`
-- `heuristic_optimization`
-- `hilberts_hotel_infinity`
-- `information_foraging_theory`
-- `skolems_paradox`
-
-### `[scaffold,unknown]` — 9 constraints
-
-*Contains unresolved types: [scaffold,unknown]*
-
-- `axiom_reasoner_2026`
-- `exoplanetary_habitability_arbitrage`
-- `gamblers_ruin_stochastic_extinction`
-- `glp1_payload_efficiency_pivot`
-- `maha_recovery_2026`
-- `platonic_coparenting_decoupling`
-- `recipe_scaling_ai`
-- `russells_paradox_self_reference`
-- `trillion_bond_rush_2026`
-
-### `[scaffold,snare,unknown]` — 8 constraints
-
-*Contains unresolved types: [scaffold,snare,unknown]*
-
-- `absorbing_markov_chain_trap`
-- `ai_scholar_citation_trap`
-- `genie_ip_constraint`
-- `mit_tfus_2026`
-- `nsw_transmission_bottleneck`
-- `openai_api_access`
-- `openai_codex_app_constraint`
-- `openscholar_peer_review`
-
-### `[scaffold,snare]` — 8 constraints
-
-*Two-type: scaffold/snare transition*
-
-- `ad_fus_coordination`
-- `ai_superpowers_2026`
-- `alzheimers_nlrp3_inflammasome`
-- `ancestral_pueblo_hydrology`
-- `coordination_threshold_failure`
-- `emergency_powers_ratchet`
-- `toxoplasma_hub_2026`
-- `unrequited_love_protocol`
-
-### `[indexically_opaque,rope,snare]` — 7 constraints
-
-*Contains unresolved types: [indexically_opaque,rope,snare]*
-
-- `ai_compute_capital_moat`
-- `digital_credentialing_verification`
-- `indonesia_penal_code_2023`
-- `jp_nativist_politics`
-- `meta_pay_or_okay_model`
-- `nvidia_cuda_ecosystem_lockin`
-- `us_embargo_cuba`
-
-### `[scaffold,snare,tangled_rope]` — 5 constraints
+### `[scaffold,snare,tangled_rope]` — 9 constraints
 
 *3-type orbit: [scaffold,snare,tangled_rope]*
 
-- `bangladesh_july_national_charter`
-- `emergency_bridge_scaffold`
-- `ia_digital_preservation`
-- `perovskite_self_etching`
-- `project_vault_2026`
-
-### `[piton,rope]` — 4 constraints
-
-*2-type orbit: [piton,rope]*
-
-- `gold_piton_2026`
-- `kjv_linguistic_residue`
-- `milano_cortina_2026`
-- `viral_emergence_covid19_exemplar`
-
-### `[indexically_opaque,rope,snare,tangled_rope]` — 4 constraints
-
-*Contains unresolved types: [indexically_opaque,rope,snare,tangled_rope]*
-
-- `ai_performance_watermark`
-- `openai_prism_development`
+- `commercial_data_brokerage`
+- `dark_patterns_manipulation`
+- `debt_trap_microfinance`
+- `genetic_predisposition`
+- `insult_wisdom_training`
+- `openai_health_review`
 - `semiconductor_fabrication_chokepoint`
-- `us_usmca_china_leverage`
+- `uk_ssp_eligibility`
+- `uk_unpaid_care_system`
 
-### `[scaffold,tangled_rope]` — 3 constraints
+### `[mountain,rope]` — 5 constraints
 
-*Two-type: scaffold/tangled transition*
+*2-type orbit: [mountain,rope]*
 
-- `artificial_scarcity_scaffold`
-- `global_stimulus_spree`
-- `isa_education_scaffold`
+- `axiom_of_choice_determinacy`
+- `boltzmann_universality_2026`
+- `prisoners_dilemma_equilibrium`
+- `thai_article_112_mountain`
+- `yoneda_lemma`
 
-### `[indexically_opaque,snare,tangled_rope]` — 3 constraints
+### `[scaffold,snare]` — 4 constraints
 
-*Contains unresolved types: [indexically_opaque,snare,tangled_rope]*
+*Two-type: scaffold/snare transition*
 
-- `google_universal_commerce_protocol`
-- `international_seabed_mining_regime`
-- `trump_epa_greenhouse_gas_reversal`
+- `cultural_refragmentation_2026`
+- `scam_doubt_manufacturing`
+- `ulysses_chp01`
+- `ulysses_chp13`
 
-### `[indexically_opaque,rope,tangled_rope]` — 3 constraints
+### `[rope]` — 4 constraints
 
-*Contains unresolved types: [indexically_opaque,rope,tangled_rope]*
+*Gauge-invariant: pure coordination from all perspectives*
 
-- `eu_mercosur_trade_agreement`
-- `indo_german_defense_pact`
-- `shield_east_fortification`
+- `ergo_lets_protocol`
+- `guinea_worm_eradication`
+- `open_source_commons`
+- `stable_marriage_coordination`
+
+### `[piton,rope,snare]` — 4 constraints
+
+*3-type orbit: [piton,rope,snare]*
+
+- `documentation_fidelity_collapse`
+- `lehman_repo_105`
+- `lp_pikachu_illustrator`
+- `nero_imperial_expropriation`
+
+### `[piton,snare,tangled_rope]` — 3 constraints
+
+*3-type orbit: [piton,snare,tangled_rope]*
+
+- `fed_shutdown_2026`
+- `structural_extraction_without_actor`
+- `ulysses_chp15`
+
+### `[piton,rope,snare,tangled_rope]` — 3 constraints
+
+*4-type orbit: [piton,rope,snare,tangled_rope]*
+
+- `informant_recruitment_through_false_solidarity`
+- `institutional_mutation_without_selection`
+- `winter_olympics_2026`
+
+### `[naturalized,snare]` — 3 constraints
+
+*Contains unresolved types: [naturalized,snare]*
+
+- `nsl_hk`
+- `project_vault_extraction_2026`
+- `transformation_as_threshold_marker`
+
+### `[naturalized,rope,tangled_rope]` — 3 constraints
+
+*Contains unresolved types: [naturalized,rope,tangled_rope]*
+
+- `epistemic_authority_erosion_through_unresolvable_anomaly`
+- `meritocratic_ideology_as_error_propagation`
+- `role_capture_through_cost_asymmetry`
 
 ### `[snare,tangled_rope]` — 2 constraints
 
 *2-type orbit: [snare,tangled_rope]*
 
-- `epstein_document_release_2026`
-- `private_credit_market_opacity`
+- `armra_colostrum_regulation`
+- `fraser_river_salmon_regulation`
 
-### `[scaffold,tangled_rope,unknown]` — 2 constraints
+### `[scaffold,tangled_rope]` — 2 constraints
 
-*Contains unresolved types: [scaffold,tangled_rope,unknown]*
+*Two-type: scaffold/tangled transition*
 
-- `france_local_elections_march_2026`
-- `portugal_ad_stability_2026`
+- `collective_action_as_leverage_conversion`
+- `finnish_ubi_experiment`
 
-### `[rope,scaffold,unknown]` — 2 constraints
+### `[piton,rope]` — 2 constraints
 
-*Contains unresolved types: [rope,scaffold,unknown]*
+*2-type orbit: [piton,rope]*
 
-- `emergency_oversight_bureau`
-- `erasmus_rejoining_scaffold`
-
-### `[rope,scaffold]` — 1 constraints
-
-*2-type orbit: [rope,scaffold]*
-
-- `silklink_2026`
-
-### `[mountain,rope]` — 1 constraints
-
-*2-type orbit: [mountain,rope]*
-
-- `quine_self_replication`
+- `boiled_pineapple_trend_2026`
+- `mco_unit_system_discontinuity`
 
 ## Cross-Type Analysis
 
 ### Types Observed
 
-- **indexically_opaque**: appears in 4 families (17 constraints total)
-- **mountain**: appears in 4 families (125 constraints total)
-- **piton**: appears in 1 families (4 constraints total)
-- **rope**: appears in 13 families (756 constraints total)
-- **scaffold**: appears in 9 families (51 constraints total)
-- **snare**: appears in 9 families (518 constraints total)
-- **tangled_rope**: appears in 11 families (477 constraints total)
-- **unknown**: appears in 7 families (185 constraints total)
+- **mountain**: appears in 2 families (151 constraints total)
+- **naturalized**: appears in 6 families (122 constraints total)
+- **piton**: appears in 4 families (12 constraints total)
+- **rope**: appears in 11 families (188 constraints total)
+- **scaffold**: appears in 3 families (15 constraints total)
+- **snare**: appears in 12 families (175 constraints total)
+- **tangled_rope**: appears in 12 families (798 constraints total)
 
 ### Type Co-occurrence
 
 Which types appear together in multi-type orbits:
 
-- [indexically_opaque,rope,snare] (7 constraints)
-- [indexically_opaque,rope,snare,tangled_rope] (4 constraints)
-- [indexically_opaque,rope,tangled_rope] (3 constraints)
-- [indexically_opaque,snare,tangled_rope] (3 constraints)
-- [mountain,rope] (1 constraints)
-- [mountain,scaffold] (13 constraints)
-- [mountain,unknown] (81 constraints)
-- [piton,rope] (4 constraints)
-- [rope,scaffold] (1 constraints)
-- [rope,scaffold,unknown] (2 constraints)
-- [rope,snare] (314 constraints)
-- [rope,snare,tangled_rope] (167 constraints)
-- [rope,tangled_rope] (143 constraints)
-- [rope,tangled_rope,unknown] (43 constraints)
-- [rope,unknown] (40 constraints)
-- [scaffold,snare] (8 constraints)
-- [scaffold,snare,tangled_rope] (5 constraints)
-- [scaffold,snare,unknown] (8 constraints)
-- [scaffold,tangled_rope] (3 constraints)
-- [scaffold,tangled_rope,unknown] (2 constraints)
-- [scaffold,unknown] (9 constraints)
+- [mountain,rope] (5 constraints)
+- [naturalized,rope,snare] (17 constraints)
+- [naturalized,rope,snare,tangled_rope] (47 constraints)
+- [naturalized,rope,tangled_rope] (3 constraints)
+- [naturalized,snare] (3 constraints)
+- [naturalized,snare,tangled_rope] (32 constraints)
+- [naturalized,tangled_rope] (20 constraints)
+- [piton,rope] (2 constraints)
+- [piton,rope,snare] (4 constraints)
+- [piton,rope,snare,tangled_rope] (3 constraints)
+- [piton,snare,tangled_rope] (3 constraints)
+- [rope,snare] (10 constraints)
+- [rope,snare,tangled_rope] (41 constraints)
+- [rope,tangled_rope] (52 constraints)
+- [scaffold,snare] (4 constraints)
+- [scaffold,snare,tangled_rope] (9 constraints)
+- [scaffold,tangled_rope] (2 constraints)
 - [snare,tangled_rope] (2 constraints)
 
 ## Unknown-Containing Orbits
 
-11 orbit families contain unresolved types:
+6 orbit families contain unresolved types:
 
-### `[indexically_opaque,rope,snare]` — 7 constraints
+### `[naturalized,rope,snare]` — 17 constraints
 
-- `ai_compute_capital_moat`
-- `digital_credentialing_verification`
-- `indonesia_penal_code_2023`
-- `jp_nativist_politics`
-- `meta_pay_or_okay_model`
-- `nvidia_cuda_ecosystem_lockin`
-- `us_embargo_cuba`
+- `apartheid_nuclear_program`
+- `asymmetric_duty_structure`
+- `complicity_through_competence`
+- `coordination_failure_universality`
+- `decapitation_as_regime_change`
+- `error_induced_stability`
+- `eu_russian_asset_freeze_2025`
+- `horizon_liability_contract`
+- `iran_hijab_law`
+- `moltbook_breach_2026`
+- `nfl_superbowl_marketing_regulation`
+- `pla_loyalty_purge`
+- `quellcrist_falconer_justice`
+- `rogers_commission_institutional_analysis`
+- `rotation_seven_kubo_ranking`
+- `taiwan_strait_hegemony_shift`
+- `us_venezuela_oil_pressure`
 
-### `[indexically_opaque,rope,snare,tangled_rope]` — 4 constraints
+### `[naturalized,rope,snare,tangled_rope]` — 47 constraints
 
-- `ai_performance_watermark`
-- `openai_prism_development`
-- `semiconductor_fabrication_chokepoint`
-- `us_usmca_china_leverage`
-
-### `[indexically_opaque,rope,tangled_rope]` — 3 constraints
-
-- `eu_mercosur_trade_agreement`
-- `indo_german_defense_pact`
-- `shield_east_fortification`
-
-### `[indexically_opaque,snare,tangled_rope]` — 3 constraints
-
-- `google_universal_commerce_protocol`
-- `international_seabed_mining_regime`
-- `trump_epa_greenhouse_gas_reversal`
-
-### `[mountain,unknown]` — 81 constraints
-
-- `banach_fixed_point`
-- `banach_fixed_point_theorem`
-- `banach_tarski_paradox`
-- `base_pair_complementarity`
-- `bgs_spectral_universality`
-- `bh_merger_gravitational_infall`
-- `birthday_paradox_collision`
-- `brouwer_fixed_point`
-- `busy_beaver_noncomputability`
-- `c_physical_blue_wavelength`
-- `cap_theorem`
-- `central_limit_theorem`
-- `chaitins_omega_undecidability`
-- `church_turing_thesis`
-- `clt_convergence_2026`
-- `collatz_conjecture_determinism`
-- `constraint_galois_solvability`
-- `constraint_tarski_undefinability`
-- `constraint_twin_prime_conjecture`
-- `conways_game_of_life_dynamics`
-- `countable_infinity_cardinality`
-- `ehrenfest_barrier`
-- `english_chinese_tense_structure`
-- `euler_characteristic_topology`
-- `fast_growing_hierarchy`
-- `feigenbaum_universality`
-- `fermat_proof_barrier`
-- `fgh_hierarchy_2026`
-- `finite_simple_group_classification`
-- `four_color_theorem_topological_bound`
-- `fundamental_theorem_of_algebra`
-- `gauss_bonnet_topology`
-- `genetic_predisposition_mania`
-- `geophysics_superionic_core`
-- `goedels_incompleteness_theorems`
-- `goldbach_conjecture`
-- `halting_problem_undecidability`
-- `hd101584_stellar_evolution`
-- `heine_borel`
-- `heisenberg_uncertainty`
-- `indexical_relativity_core`
-- `kirby_paris_theorem`
-- `kleene_recursion_theorem`
-- `kolmogorov_complexity`
-- `liar_paradox`
-- `lobs_theorem`
-- `local_vs_global_optima`
-- `lowenheim_skolem_theorem`
-- `lyapunov_stability`
-- `martian_signal_latency`
-- `material_tensile_strength`
-- `monty_hall_conditional_probability`
-- `no_cloning_theorem`
-- `pancreatic_cancer_lethality_v1`
-- `pareto_principle`
-- `poincare_conjecture`
-- `prime_number_theorem`
-- `prisoners_dilemma_equilibrium`
-- `pythagorean_geometric_constancy`
-- `quantum_measurement_gap`
-- `quantum_nonlocality_2026`
-- `ramsey_numbers`
-- `reciprocity_laws_math`
-- `relativity_of_simultaneity`
-- `relativity_physical_invariance`
-- `rices_theorem_undecidability`
-- `shannon_entropy_limit`
-- `shannon_source_coding`
-- `silver_scarcity_2026`
-- `square_cube_law`
-- `star_formation_barrier_g0253`
-- `star_to_black_hole_observational_limit`
-- `sturgeons_law`
-- `suslin_hypothesis_undecidability`
-- `sylow_theorems_group_theory`
-- `terrain_inaccessibility_wheeled_vehicles`
-- `thermodynamics_entropy`
-- `three_body_unpredictability`
-- `van_der_waerden_theorem`
-- `weierstrass_proof_limits`
-- `whitehead_problem_undecidability`
-
-### `[rope,scaffold,unknown]` — 2 constraints
-
-- `emergency_oversight_bureau`
-- `erasmus_rejoining_scaffold`
-
-### `[rope,tangled_rope,unknown]` — 43 constraints
-
-- `abstraction_leakage`
-- `advice_as_dangerous_gift`
-- `alzheimers_levetiracetam`
-- `asce_7_22_seismic_design`
-- `big_data_astrophysics_arbitrage`
-- `blackstone_carried_interest_taxation`
-- `cma`
-- `college_admissions_market`
-- `constraint_lagrange_multipliers`
-- `constraint_riemann_mapping`
-- `decision_latency_mismatch`
-- `factional_instability`
-- `fnl_shadow_probe`
-- `gemini_scientific_advancement`
-- `germany_tennet_takeover`
-- `grete_samsa_transition`
-- `gs1_gln_identification`
-- `gs_market_clearing`
-- `hydra_game`
-- `institutional_trust_decay`
-- `insult_wisdom_training`
-- `jupiter_composition_knowledge_gap`
-- `keltner_relationship_evaluation`
-- `matching_market_congestion_externality`
-- `migration_decision_threshold`
-- `moltbook_agent_theater`
-- `moores_law`
-- `negative_emissions_arbitrage`
-- `neurodiversity_spectrum`
-- `notary_ink_dependency`
-- `olympic_legacy_curling_investment`
-- `olympic_medal_allocation`
-- `publishing_embargo`
-- `ritual_transition_scaffold`
-- `royal_navy_middle_east_withdrawal`
-- `rule_update_failure`
-- `sadhu_integrity_protocol`
-- `smartphone_ubiquity`
-- `teaching_horses_to_sing`
-- `temporal_scale_arbitrage`
-- `tragedy_of_the_commons`
-- `transformer_self_attention`
-- `working_dog_training`
-
-### `[rope,unknown]` — 40 constraints
-
-- `artificial_snow_2026`
-- `astm_d638_tensile_testing`
-- `boltzmann_universality_2026`
-- `burden_of_proof_legal_criminal`
-- `clawderberg_recursive_slop`
-- `colombia_2026_presidential_election`
-- `cost_of_observation`
-- `cs_ecmo_bridge`
-- `cuban_missile_crisis_excomm_deliberation`
-- `deferential_realism_framework`
-- `dexy_gold_protocol`
-- `dldr_information_policy`
-- `education_unbundling_implementation`
-- `electrification_scale_2026`
-- `ergo_storage_rent`
-- `france_2027_presidential_election`
-- `goodstein_theorem_finite_proof`
-- `gs1_standardized_identification`
-- `guinea_worm_eradication`
-- `hegemonic_entropy_2026`
+- `ai_task_horizon_reliability`
+- `algeria_france_colonial_legacy`
+- `appropriations_brinkmanship`
+- `blackstone_smd_control`
+- `bureaucratic_self_preservation`
+- `cn_tech_decoupling_security_software`
+- `colorado_sbe_decentralization_friction`
+- `consensus_without_truth`
+- `copyright_protection`
+- `digital_euro_cbdc`
+- `dionysaic_frenzy`
+- `discover_core_2026`
+- `disney_openai_ip_exclusivity`
+- `e2ee_digital_privacy_2026`
+- `fda_accelerated_approval_alz`
+- `floating_wall_2026`
+- `gbff_funding_mechanism`
+- `gold_fomo_cycle`
 - `hoa_covenants`
-- `lindy_effect`
-- `net_zero_stabilization`
-- `neural_interoperability`
-- `omelet_perfection_complexity`
-- `paris_municipal_reform_2026`
-- `postman_survival_protocol`
-- `quantum_entanglement_protocol`
-- `regulatory_capture`
-- `repair_probe_incomplete`
-- `rfc9293_state_machine`
-- `rosen_bridge_protocol`
-- `rotation_seven_black_soil`
-- `ship_of_theseus`
-- `shitty_feedback_handling`
-- `skills_based_hiring`
-- `somatic_focusing_awareness`
-- `tcp_rfc9293_interoperability`
-- `tsp_duplicate_elimination`
-- `unclos_2026`
-
-### `[scaffold,snare,unknown]` — 8 constraints
-
-- `absorbing_markov_chain_trap`
-- `ai_scholar_citation_trap`
-- `genie_ip_constraint`
-- `mit_tfus_2026`
-- `nsw_transmission_bottleneck`
-- `openai_api_access`
-- `openai_codex_app_constraint`
-- `openscholar_peer_review`
-
-### `[scaffold,tangled_rope,unknown]` — 2 constraints
-
-- `france_local_elections_march_2026`
-- `portugal_ad_stability_2026`
-
-### `[scaffold,unknown]` — 9 constraints
-
-- `axiom_reasoner_2026`
-- `exoplanetary_habitability_arbitrage`
-- `gamblers_ruin_stochastic_extinction`
-- `glp1_payload_efficiency_pivot`
+- `incumbent_steel_production`
+- `indonesia_penal_code_2023`
+- `infrastructure_interoperability_decay`
+- `institutional_framing_tangled_rope`
 - `maha_recovery_2026`
-- `platonic_coparenting_decoupling`
-- `recipe_scaling_ai`
-- `russells_paradox_self_reference`
-- `trillion_bond_rush_2026`
+- `manga_distribution_duopoly`
+- `model_autonomy_creep`
+- `ncaa_eligibility_rules`
+- `optimization_as_entrapment`
+- `perovskite_self_etching`
+- `pla_aerial_carrier_doctrine`
+- `platform_app_store_duopoly`
+- `portugal_polarization_threshold_2026`
+- `private_credit_market_opacity`
+- `quota_ratchet_asymmetry`
+- `reputation_as_distributed_enforcement`
+- `rules_based_international_order`
+- `streaming_bundling_mandate`
+- `taiwan_storm_2026`
+- `trump_epa_greenhouse_gas_reversal`
+- `uk_help_to_buy_scheme`
+- `union_protection_underperformance`
+- `unrwa_eviction_order`
+- `us_two_party_duopoly`
+- `us_venezuela_plausible_deniability_2025`
+- `venezuela_oil_privatization_v1`
+- `viral_emergence_covid19_exemplar`
+- `yt_ai_slop_incentive`
+
+### `[naturalized,rope,tangled_rope]` — 3 constraints
+
+- `epistemic_authority_erosion_through_unresolvable_anomaly`
+- `meritocratic_ideology_as_error_propagation`
+- `role_capture_through_cost_asymmetry`
+
+### `[naturalized,snare]` — 3 constraints
+
+- `nsl_hk`
+- `project_vault_extraction_2026`
+- `transformation_as_threshold_marker`
+
+### `[naturalized,snare,tangled_rope]` — 32 constraints
+
+- `agg1_genetic_determinism`
+- `ai_evaluators_matching`
+- `alzheimers_levetiracetam`
+- `arctic_geopolitical_flashpoint`
+- `arg_ev_tariff`
+- `burden_of_proof_engineering_safety`
+- `coordination_fatigue`
+- `doomsday_clock_framework`
+- `expert_disempowerment`
+- `fatf_grey_list_russia`
+- `fiscal_dominance_trap`
+- `global_stimulus_spree`
+- `goodharts_law`
+- `iran_nuclear_deal_informal_2023`
+- `israel_override_clause`
+- `net_zero_stabilization`
+- `network_effects`
+- `orbital_data_center_2026`
+- `planetary_diet_constraint_2026`
+- `power_without_responsibility`
+- `proof_of_work_consensus`
+- `protocol_capture_tangled_rope`
+- `protocol_inversion_as_constraint_escape`
+- `rare_earth_export_restrictions`
+- `rare_earth_seabed_mining`
+- `rent_seeking_equilibrium`
+- `s1_visa_judgment_sharing_agreement`
+- `silklink_2026`
+- `texas_hispanic_political_pivot`
+- `ukraine_tight_gas_pilot`
+- `us_isolationism_policy_2026`
+- `us_visa_lottery`
+
+### `[naturalized,tangled_rope]` — 20 constraints
+
+- `adaptive_lag_trap`
+- `airport_slot_use_it_or_lose_it`
+- `climate_attribution_2026`
+- `complexity_debt`
+- `dead_sea_effect`
+- `distributed_memory_as_counter_disposal`
+- `duty_contamination_by_extraction`
+- `false_mountain_persistence`
+- `india_france_horizon_2047`
+- `indo_german_defense_pact`
+- `internet_evolution_lifecycle`
+- `kardashev_scale_progress_narrative`
+- `linguistic_relativity_cultural_framing`
+- `narrative_engineering_2026`
+- `narrative_overfitting`
+- `oscar_campaign_spending`
+- `sovereignty_as_arbitrage`
+- `trump_indian_tariffs_2026`
+- `ulysses_chp09`
+- `unclos_2026`
 
 ## Gauge Invariance Summary
 
-- **Gauge-invariant** (single type across all contexts): 159 constraints (15.6%)
-- **Gauge-variant** (type changes with observer): 863 constraints (84.4%)
+- **Gauge-invariant** (single type across all contexts): 734 constraints (73.9%)
+- **Gauge-variant** (type changes with observer): 259 constraints (26.1%)
 
 ---
 *End of orbit report*

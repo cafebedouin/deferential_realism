@@ -1,0 +1,137 @@
+{
+  "header": {
+    "constraint_id": "antifragility_u2_exp_r2",
+    "version": "7.0",
+    "generated_date": "2024-07-29",
+    "status": "RESOLVED MANDATROPHY",
+    "measurement_id_prefix": "anti",
+    "module_name_override": "constraint_antifragility_u2_exp_r2"
+  },
+  "base_properties": {
+    "extractiveness": 0.75,
+    "suppression": 0.65,
+    "theater_ratio": 0.55,
+    "claimed_type": "tangled_rope",
+    "human_readable": "Antifragility (Gaining from Disorder)",
+    "topic_domain": "technological/economic/biological",
+    "requires_active_enforcement": true,
+    "beneficiaries": [
+      "antifragile_practitioner",
+      "the_system_as_a_whole"
+    ],
+    "victims": [
+      "fragile_institutions",
+      "optimized_serfs"
+    ],
+    "mandatrophy_resolved": true
+  },
+  "perspectives": [
+    {
+      "classification_type": "snare",
+      "agent_power": "powerless",
+      "time_horizon": "biographical",
+      "exit_options": "trapped",
+      "spatial_scope": "national",
+      "label": "The Optimized Serf",
+      "comment": "PERSPECTIVE 1: The victim who bears the cost of systemic shocks and volatility."
+    },
+    {
+      "classification_type": "rope",
+      "agent_power": "moderate",
+      "time_horizon": "biographical",
+      "exit_options": "arbitrage",
+      "spatial_scope": "global",
+      "label": "The Barbell Practitioner",
+      "comment": "PERSPECTIVE 2: The beneficiary who structures their affairs to gain from disorder."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "institutional",
+      "time_horizon": "immediate",
+      "exit_options": "constrained",
+      "spatial_scope": "national",
+      "label": "The Fragilista / Bureaucrat",
+      "comment": "PERSPECTIVE 3: The institutional actor who enforces the system but is also vulnerable to it."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "analytical",
+      "time_horizon": "generational",
+      "exit_options": "analytical",
+      "spatial_scope": "global",
+      "label": "The System Analyst",
+      "comment": "PERSPECTIVE 4: The primary analytical view, seeing the implemented human system as a hybrid of coordination and extraction."
+    },
+    {
+      "classification_type": "mountain",
+      "agent_power": "analytical",
+      "time_horizon": "civilizational",
+      "exit_options": "analytical",
+      "spatial_scope": "universal",
+      "label": "The Evolutionary Observer",
+      "comment": "PERSPECTIVE 5: The deep analytical view, seeing the underlying evolutionary mechanism as a natural law."
+    }
+  ],
+  "omegas": [
+    {
+      "id": "antifragility_extraction_intent",
+      "question": "Is the high extraction a functional necessity for systemic evolution or a predatory mechanism benefiting a select few?",
+      "resolution_mechanism": "Longitudinal study comparing outcomes in systems with and without 'skin in the game' enforcement for beneficiaries.",
+      "impact": "If necessity: Mountain. If predatory: Snare. The current classification of Tangled Rope reflects this ambiguity.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Whether the high extraction is a functional necessity or predatory."
+    }
+  ],
+  "measurements": [
+    {
+      "metric": "theater_ratio",
+      "time_point": 0,
+      "value": 0.1
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 5,
+      "value": 0.35
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 10,
+      "value": 0.55
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 0,
+      "value": 0.25
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 5,
+      "value": 0.5
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 10,
+      "value": 0.75
+    }
+  ],
+  "interval": {
+    "start": 0,
+    "end": 10
+  },
+  "commentary": {
+    "narrative_context": "Antifragility describes systems that increase in capability or resilience in response to stressors and volatility. While this may be a fundamental property of evolutionary systems (a Mountain), its application in human social and economic systems creates a dynamic where specific agents ('practitioners') benefit from volatility, while costs are externalized onto others (the 'fragile' or 'optimized serfs').",
+    "key_agents": [
+      "Optimized Serfs: Primary targets (powerless/trapped) - bear the costs of systemic shocks.",
+      "Antifragile Practitioners: Primary beneficiaries (moderate/arbitrage) - harvest upside from volatility.",
+      "Fragilista / Bureaucrats: Institutional enforcers (institutional/constrained) - manage the system but are themselves vulnerable to its fragility."
+    ],
+    "logic_rationale": "The high extractiveness (0.75) represents the transfer of downside risk from victims to beneficiaries. The system 'learns' by sacrificing its most fragile components. Suppression (0.65) is high because mechanisms that would protect the fragile (e.g., bailouts, robust social safety nets) are actively dismantled to ensure 'skin in the game' and allow for creative destruction.",
+    "perspectival_gap": "The gap is extreme. For the beneficiary with arbitrage, it's a Rope for generating wealth. For the trapped victim, it's a Snare that extracts their livelihood and security. For the long-term evolutionary observer, it's a Mountain, a law of nature. The system analyst sees the Tangled Rope, recognizing both the coordination function (systemic adaptation) and the brutal, asymmetric extraction required to achieve it.",
+    "directionality_logic": "Beneficiaries are practitioners who have structured their affairs (e.g., via a 'barbell' strategy) to have convex responses to volatility. Victims are those in linear, fragile roles who are optimized for stability and are destroyed by shocks. The system extracts resilience from the victims and transfers it to the beneficiaries and the system as a whole.",
+    "mandatrophy_analysis": "Mandatrophy is resolved by classifying the implemented system as a Tangled Rope, not a pure Mountain or Snare. This avoids two errors: 1) Mistaking a predatory social arrangement for a 'law of nature' (false Mountain). 2) Ignoring the genuine adaptive/coordination benefits that the system provides at a macro level (false Snare). The Tangled Rope classification correctly identifies the presence of both."
+  },
+  "boltzmann": {
+    "coordination_type": "resource_allocation"
+  }
+}

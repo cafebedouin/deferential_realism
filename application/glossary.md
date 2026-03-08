@@ -67,7 +67,7 @@ A hybrid constraint that provides genuine coordination benefits while also extra
 
 **Symbol:** `⊞⊠C[I]`
 
-**Prevalence:** 36% of analyzed constraints (168/467).
+**Prevalence:** 36% of analyzed social constraints in the 691-constraint corpus.
 
 ---
 
@@ -81,6 +81,19 @@ A formerly functional Rope that persists through bureaucratic inertia after its 
 **Response:** Administrative reform (not political resistance—there's no one to resist).
 
 **Symbol:** `⊟C`
+
+---
+
+### Internalized Piton (I-Piton)
+A special subtype of Piton where a formerly external Snare has been internalized as habit or identity. The original enforcement mechanism is gone, but the behavior persists through self-policing.
+
+**Test:** Has the enforcer been removed? Is the person still acting as though it exists?
+
+**Examples:** Post-authoritarian self-censorship after regime falls, doom-scrolling after algorithm is disabled, following eliminated dress codes compulsively.
+
+**Response:** Awareness intervention — make visible that the external mechanism is already gone. "You can speak freely now; the regime fell." Different from regular Piton removal (which targets external structure).
+
+**Why distinct:** Regular Pitons have external structures to remove. I-Pitons require the person to recognize the external pressure is gone. Hardest to clear because there's no visible enforcer to resist.
 
 ---
 
@@ -153,10 +166,13 @@ Every constraint classification requires specifying position along four dimensio
 
 ## Metrics and Measures
 
+**Important framing note:** All metrics in this framework are **routing mechanisms**, not truth measurements. Thresholds trigger different responses (accept, reform, resist) — they don't claim to measure objective extraction at two decimal places. ε ≥ 0.46 means "route toward resistance," not "exactly 46% extractive." See `metrics_as_routing.md` for the full routing-vs-truth distinction.
+
 ### Extractiveness (ε)
-Measure of how much value a constraint extracts from participants. Scale 0.0-1.0.
+Measure of how much value a constraint extracts from participants. Scale 0.0–1.0.
 
 - `ε ≤ 0.15`: Low extraction (Rope range)
+- `ε 0.16–0.45`: Hybrid range (Tangled Rope)
 - `ε ≥ 0.46`: High extraction (Snare range)
 
 ---
@@ -173,9 +189,12 @@ Adjustment factor for how power position affects experienced extraction:
 |-------------|----------|--------|
 | `powerless` | 1.5 | Experience MORE extraction |
 | `moderate` | 1.0 | Baseline |
-| `powerful` | 0.5 | Experience LESS extraction |
-| `organized` | 0.7 | Shared burden |
+| `powerful` | 0.6 | Experience LESS extraction |
+| `organized` | 0.4 | Shared burden (collective action) |
 | `institutional` | -0.2 | NET BENEFICIARY |
+| `analytical` | 1.15 | Slight amplification — observation adds perceptual friction |
+
+**Note:** These are routing values, not precision measurements. π = 1.15 for analysts doesn't claim they perceive exactly 15% more extraction than moderates — it breaks a classification degeneracy and routes analysts toward catching extraction that participants normalize. See `metrics_as_routing.md` for the routing-vs-truth distinction.
 
 ---
 
@@ -186,6 +205,60 @@ Boolean: Does this constraint solve a genuine coordination problem (preventing c
 
 ### Asymmetry
 Boolean: Are benefits and burdens distributed unevenly across participants?
+
+---
+
+### Effective Extractiveness (χ)
+Power- and scope-adjusted extraction. Formula: χ = ε × π(P) × σ(S).
+
+Same constraint, different experienced extraction depending on position. This is how "same structure, different classification" works mathematically.
+
+---
+
+### Scope Modifier (σ)
+Adjustment for verification difficulty at scale:
+
+| Scope | Modifier | Effect |
+|-------|----------|--------|
+| `local` | 0.8 | Easy verification → extraction dampened |
+| `regional` | 0.9 | Easier verification |
+| `national` | 1.0 | Baseline |
+| `continental` | 1.1 | Harder verification → extraction amplified |
+| `global` | 1.2 | Much harder verification |
+
+---
+
+### Purity Score
+Continuous measure [0.0–1.0] of a constraint's structural health — how much coordination function remains versus how much extraction has accumulated.
+
+**Formula:** 30% Boltzmann compliance + 25% scope invariance + 25% coupling cleanliness + 20% excess extraction decay.
+
+**Zones:**
+- **Pristine** (≥ 0.9): Healthy coordination, minimal extraction
+- **Sound** (≥ 0.7): Functional, monitor
+- **Borderline** (≥ 0.5): Significant compromise, watch closely
+- **Contaminated** (≥ 0.3): Approaching Snare behavior, intervene
+- **Degraded** (< 0.3): Reform unlikely to succeed — cut or exit
+
+**Response routing:** Purity < 0.30 blocks surgical reform (system too degraded to save coordination core). See `logic_extensions.md` §2.
+
+---
+
+### Boltzmann Compliance
+Test for whether a constraint claimed as natural law (Mountain) actually behaves like one. Based on the principle that natural laws must factorize across independent index dimensions — your power position shouldn't change whether gravity applies.
+
+**Coupling score** 0.0–1.0: How much the constraint's classification depends on cross-index interactions.
+- ≤ 0.15: Compliant (behaves like natural law)
+- > 0.15: Non-compliant (constructed constraint masquerading as natural)
+
+**Key use:** Detecting **physics-washing** — False Natural Law claims. See `logic_extensions.md` §1.
+
+---
+
+### Network Contamination
+How low-purity constraints degrade their neighbors. Contamination flows downward only (Snare → Rope, not vice versa), with attenuation factor 0.5 and per-edge cap 0.3.
+
+**Why it matters:** A single degraded institution can pull healthy neighboring constraints toward extraction. Reform interventions should target the contamination source, not just symptoms. See `logic_extensions.md` §3.
 
 ---
 
@@ -256,7 +329,7 @@ The core epistemological position: truth is relative to position (index), but ea
 ### Index Sufficiency
 The finding that four indices (WHO, WHEN, WHERE, HOW_MUCH) are sufficient to eliminate classification collisions. Same index configuration always produces same constraint type.
 
-**Empirical result:** 0% collision rate across 467 constraints.
+**Empirical result:** 0% collision rate across 691 constraints.
 
 ---
 
@@ -292,7 +365,7 @@ The tendency of Scaffolds to become permanent structures. A transitional support
 ### Collision Rate
 Frequency of contradictory classifications for identical index configurations. Framework target: 0%.
 
-**Result:** 0% collision rate achieved across 467 constraints.
+**Result:** 0% collision rate achieved across 691 constraints.
 
 ---
 
@@ -304,14 +377,18 @@ Measure of how much classifications change across different indices. High varian
 ---
 
 ### Corpus
-The dataset of analyzed constraints used for validation. Current corpus: 467 constraints across 35+ domains.
+The dataset of analyzed constraints used for validation. Current corpus: 691 constraints across 35+ domains (2024–2026).
 
 ---
 
 ## See Also
 
-- [`core.md`](core.md) — Framework introduction
+- [`core.md`](core.md) — Framework introduction (gateway document)
 - [`foundations/logic.md`](foundations/logic.md) — Formal operators and inference rules
+- [`foundations/logic_extensions.md`](foundations/logic_extensions.md) — Structural physics (Boltzmann, purity, network dynamics)
+- [`foundations/logic_thresholds.md`](foundations/logic_thresholds.md) — Canonical parameter registry
 - [`foundations/epistemology.md`](foundations/epistemology.md) — Classification methodology
+- [`metrics_as_routing.md`](metrics_as_routing.md) — Why thresholds are governance stands, not truth claims
+- [`debugging_philosophy.md`](debugging_philosophy.md) — Paradox triage (Type A/B/C)
 - [`quick_reference.md`](quick_reference.md) — Decision trees and heuristics
 - [`faq.md`](faq.md) — Common objections and clarifications

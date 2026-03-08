@@ -12,8 +12,11 @@ import os
 import re
 import json
 import math
+import sys
 from collections import defaultdict
 from pathlib import Path
+
+from shared.loader import read_config
 
 BASE_DIR = Path("/home/scott/bin/structural_dynamics_model/prolog")
 TESTSETS_DIR = BASE_DIR / 'testsets'
@@ -21,9 +24,9 @@ DOMAIN_REGISTRY = BASE_DIR / 'domain_registry.pl'
 OUTPUT_FILE = BASE_DIR / 'domain_priors_expanded.pl'
 STATS_OUTPUT = Path("/home/scott/bin/structural_dynamics_model/outputs/domain_corpus_stats.json")
 
-# Thresholds aligned with config.pl
-ROPE_EXTRACTION_CEILING = 0.15
-SNARE_EXTRACTION_FLOOR = 0.46
+_config = read_config()
+ROPE_EXTRACTION_CEILING = _config.get('rope_extraction_ceiling', 0.15)
+SNARE_EXTRACTION_FLOOR = _config.get('snare_epsilon_floor', 0.46)
 
 # Regex patterns
 EXTRACTIVENESS_REGEX = re.compile(

@@ -1,0 +1,81 @@
+{
+  "constraint_id": "mythic_scaffolding_vs_formal_fragmentation",
+  "iteration_round": null,
+  "verdict": "YELLOW",
+  "subsystems_checked": [
+    12,
+    12
+  ],
+  "tensions": [
+    {
+      "subsystem": "abductive",
+      "code": "abductive_tension",
+      "detail": "abductive_tension([trigger(classical_oracle_failure,0.72,confident_oracle_with_obstruction,genuine)])"
+    }
+  ],
+  "tension_count": 1,
+  "expected_conflicts": [
+    {
+      "subsystem": "cohomology",
+      "code": "cohomological_fracture_divergence"
+    },
+    {
+      "subsystem": "boltzmann",
+      "code": "constructed_non_compliance"
+    },
+    {
+      "subsystem": "dirac",
+      "code": "pre_post_override_divergence"
+    },
+    {
+      "subsystem": "gauge_orbit",
+      "code": "perspectival_orbit_variance"
+    }
+  ],
+  "convergent_rejections": "none",
+  "classification": {
+    "claimed_type": "tangled_rope",
+    "classified_type": "tangled_rope",
+    "mismatch": false,
+    "confidence": 0.999236,
+    "confidence_band": "deep",
+    "rival_type": "snare",
+    "rival_p": 0.000756,
+    "boundary": "tangled_rope->snare",
+    "psi": 0.428815,
+    "psi_label": "genuinely_tangled"
+  },
+  "hard_disagreement": null,
+  "drift_events": [
+    {
+      "severity": "warning",
+      "type": "metric_substitution"
+    },
+    {
+      "severity": "critical",
+      "type": "extraction_accumulation"
+    },
+    {
+      "severity": "critical",
+      "type": "coupling_drift"
+    },
+    {
+      "severity": "warning",
+      "type": "purity_drift"
+    },
+    {
+      "severity": "warning",
+      "type": "network_drift"
+    }
+  ],
+  "mandatrophy_gap": {
+    "delta_chi": 0.54,
+    "severity": "high"
+  },
+  "structural_signature": "false_ci_rope",
+  "purity": {
+    "value": 0.615,
+    "band": "borderline"
+  },
+  "post_synthesis_flags": []
+}

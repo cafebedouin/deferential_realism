@@ -57,7 +57,7 @@
 :- use_module(config).
 :- use_module(narrative_ontology).
 :- use_module(constraint_indexing).
-:- use_module(structural_signatures).
+:- use_module(signature_detection, [constraint_signature/2, integrate_signature_with_modal/3]).
 :- use_module(drl_core).
 :- use_module(dirac_classification).
 :- use_module(covering_analysis).
@@ -123,7 +123,7 @@ extract_pipeline_invariants(C, Invariants) :-
     (drl_core:natural_law_without_beneficiary(C) -> NLGate = true ; NLGate = false),
 
     % Structural signature
-    (structural_signatures:constraint_signature(C, Sig) -> true ; Sig = unknown),
+    (signature_detection:constraint_signature(C, Sig) -> true ; Sig = unknown),
 
     % Directionality overrides (per-power explicit d values)
     findall(override(Power, D),
@@ -204,7 +204,7 @@ invert_chi_to_directionality(Chi, BaseEps, Sigma, D) :-
 %  Asserts inv_orbit_family(OrbitSig, Constraints) for each family.
 enumerate_orbit_families :-
     retractall(inv_orbit_family(_, _)),
-    covering_analysis:load_all_testsets,
+    corpus_loader:load_all_testsets,
     covering_analysis:all_corpus_constraints(AllCs),
     length(AllCs, Total),
     format(user_error, '[invertibility] Computing orbits for ~w constraints...~n', [Total]),
@@ -428,7 +428,7 @@ gate_priority(scaffold, 3).
 gate_priority(rope, 4).
 gate_priority(tangled_rope, 5).
 gate_priority(piton, 6).
-gate_priority(indexically_opaque, 7).
+gate_priority(naturalized, 7).
 gate_priority(unknown, 8).
 
 %% check_immutability_flip(+SrcCtx, +TgtCtx)
@@ -471,8 +471,8 @@ check_signature_divergence(C, SrcCtx, TgtCtx) :-
     compute_chi_at_context(C, TgtCtx, Chi2, _),
     drl_core:classify_from_metrics(C, BaseEps, Chi1, Supp, SrcCtx, MetricType1),
     drl_core:classify_from_metrics(C, BaseEps, Chi2, Supp, TgtCtx, MetricType2),
-    structural_signatures:integrate_signature_with_modal(C, MetricType1, Final1),
-    structural_signatures:integrate_signature_with_modal(C, MetricType2, Final2),
+    signature_detection:integrate_signature_with_modal(C, MetricType1, Final1),
+    signature_detection:integrate_signature_with_modal(C, MetricType2, Final2),
     % Signature divergence = override changed the type at one but not the other
     (   (MetricType1 = Final1, MetricType2 \= Final2)
     ;   (MetricType1 \= Final1, MetricType2 = Final2)

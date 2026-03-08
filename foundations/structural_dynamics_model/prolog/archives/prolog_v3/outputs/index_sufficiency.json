@@ -1,0 +1,2053 @@
+{
+  "evidence_summary": {
+    "total_collisions": 0,
+    "total_constraints": 1151,
+    "classification_failures": 0,
+    "perspectival_variance": 0,
+    "genuine_collisions": 0,
+    "genuine_constraints_affected": 0,
+    "stability_anomalies": 0,
+    "non_mountain_total": 1024,
+    "classification_failure_rate": 0,
+    "expected_variance_rate": 0,
+    "genuine_collision_rate": 0.0,
+    "non_mountain_anomaly_rate": 0.0,
+    "verdict": "SUFFICIENT \u2014 Indices explain most variance. Current framework adequate.",
+    "domain_consolidation": {}
+  },
+  "classification_failures": [],
+  "perspectival_variance": [],
+  "genuine_collisions": [],
+  "collision_patterns": {
+    "total_collisions": 0,
+    "constraints_affected": 0,
+    "common_transitions": [],
+    "domain_breakdown": []
+  },
+  "domain_sufficiency": [
+    {
+      "domain": "economic/political/social",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "technological/security/political",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "social/technological/religious",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "social/scientific",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "unknown_novel",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "political/economic/social/technological",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "religious/social",
+      "total_constraints": 2,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "technological/political/social",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "technological / social_policy",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "psychological/economic",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "biological/philosophy/social",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "social/legal/technological",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "technological/military/legal",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "economic/technological/political",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "organizational/social",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "social/institutional",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "philosophical",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "technological/logic",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "economic/social/cognitive",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "military/social",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "legal/geopolitical/environmental",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "economic, environmental, political",
+      "total_constraints": 1,
+      "avg_variance": 1.0,
+      "sufficiency_score": 1.0
+    },
+    {
+      "domain": "social/cognitive",
+      "total_constraints": 3,
+      "avg_variance": 0.8888888888888888,
+      "sufficiency_score": 0.8888888888888888
+    },
+    {
+      "domain": "economic/social/technological",
+      "total_constraints": 5,
+      "avg_variance": 0.8833333333333332,
+      "sufficiency_score": 0.8833333333333332
+    },
+    {
+      "domain": "technological/educational/economic",
+      "total_constraints": 2,
+      "avg_variance": 0.8333333333333333,
+      "sufficiency_score": 0.8333333333333333
+    },
+    {
+      "domain": "technological/legal/economic",
+      "total_constraints": 2,
+      "avg_variance": 0.8333333333333333,
+      "sufficiency_score": 0.8333333333333333
+    },
+    {
+      "domain": "social/technological/biological",
+      "total_constraints": 2,
+      "avg_variance": 0.8333333333333333,
+      "sufficiency_score": 0.8333333333333333
+    },
+    {
+      "domain": "economic/geopolitical",
+      "total_constraints": 4,
+      "avg_variance": 0.7916666666666666,
+      "sufficiency_score": 0.7916666666666666
+    },
+    {
+      "domain": "economic/legal",
+      "total_constraints": 2,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "economic/technological/regulatory",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "technological/cybernetic/security",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "environmental/social",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "technological/economic/biological",
+      "total_constraints": 2,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "economic/psychological/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "political/social/technological",
+      "total_constraints": 2,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "political/military",
+      "total_constraints": 4,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "scientific/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "social/organizational/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "cognitive/informational/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "technological/scientific/legal",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "economic/technological/logistical",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "political, economic, environmental",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "social/political/organizational",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "socio_political",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "technological/social/legal",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "environmental/economic/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "political/social/religious",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "religious/linguistic/political",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "psychological/professional/biochemical",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "technological/AI/informational",
+      "total_constraints": 2,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "technological/analytical",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "technological / economic / healthcare",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "technological/cognitive/organizational",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "technological/semiconductors",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "legal / institutional",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "political/environmental/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "political/organizational/legal",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "social/economic/educational",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "cognitive/organizational/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.75,
+      "sufficiency_score": 0.75
+    },
+    {
+      "domain": "political/economic/technological",
+      "total_constraints": 4,
+      "avg_variance": 0.7499999999999999,
+      "sufficiency_score": 0.7499999999999999
+    },
+    {
+      "domain": "social/economic",
+      "total_constraints": 9,
+      "avg_variance": 0.7240740740740741,
+      "sufficiency_score": 0.7240740740740741
+    },
+    {
+      "domain": "technological/political",
+      "total_constraints": 12,
+      "avg_variance": 0.7097222222222223,
+      "sufficiency_score": 0.7097222222222223
+    },
+    {
+      "domain": "social/technological/economic",
+      "total_constraints": 2,
+      "avg_variance": 0.7083333333333333,
+      "sufficiency_score": 0.7083333333333333
+    },
+    {
+      "domain": "scientific/political/economic",
+      "total_constraints": 2,
+      "avg_variance": 0.7083333333333333,
+      "sufficiency_score": 0.7083333333333333
+    },
+    {
+      "domain": "social",
+      "total_constraints": 17,
+      "avg_variance": 0.6862745098039215,
+      "sufficiency_score": 0.6862745098039215
+    },
+    {
+      "domain": "political",
+      "total_constraints": 54,
+      "avg_variance": 0.676851851851852,
+      "sufficiency_score": 0.676851851851852
+    },
+    {
+      "domain": "geopolitical/technological",
+      "total_constraints": 4,
+      "avg_variance": 0.675,
+      "sufficiency_score": 0.675
+    },
+    {
+      "domain": "economic/technological",
+      "total_constraints": 32,
+      "avg_variance": 0.6744791666666666,
+      "sufficiency_score": 0.6744791666666666
+    },
+    {
+      "domain": "technological/economic",
+      "total_constraints": 44,
+      "avg_variance": 0.6742424242424243,
+      "sufficiency_score": 0.6742424242424243
+    },
+    {
+      "domain": "technological/biological",
+      "total_constraints": 5,
+      "avg_variance": 0.6666666666666667,
+      "sufficiency_score": 0.6666666666666667
+    },
+    {
+      "domain": "technological/computational",
+      "total_constraints": 2,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "biological/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/philosophical",
+      "total_constraints": 2,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "health/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "technological/geopolitical",
+      "total_constraints": 2,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "environmental/cultural",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "cognitive/social/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "corporate_governance",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "physics/economics/mathematics",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "technological/mathematics",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "political/organizational/informational",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "health/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "technological/infrastructural/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "political/social/geopolitical",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "technological/social/biological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/religious",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "economic/political/technological",
+      "total_constraints": 2,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "psychological/economic/social",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "bio_industrial",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "medical/health",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "technological/security/biological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/behavioral",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/cognitive/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/political/informational",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "philosophical/evolutionary",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "legal/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "economic/political/legal",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "epistemological/political",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "economic/environmental",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "military/special_operations",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "technological/economic/environmental",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "medical/legal/institutional",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "psychology/behavioral_science",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/environmental/biological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "economic/cognitive",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "technological/cryptographic",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "geopolitical/maritime",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "health/medical",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "investigation/testing",
+      "total_constraints": 2,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/political/technological",
+      "total_constraints": 3,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "mathematical/economic",
+      "total_constraints": 2,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "religious/philosophical/social",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "environmental/economic",
+      "total_constraints": 2,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "psychological/biological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "Political / Scientific",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "scientific/biological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "religious/social/philosophical",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "economic/educational",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "religious/ethical",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "biological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "health/agriculture",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "organizational/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/psychological/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "economic/cultural",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "technological/institutional",
+      "total_constraints": 3,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "health/scientific/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "religious/economic/political",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "biological/technological/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "economic/social/biological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/political/linguistic",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/medical",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "biological/cognitive/educational",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "political/economic/social",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "economic/technological/infrastructural",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "organizational/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "ecological/economic/social",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/cultural",
+      "total_constraints": 2,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "medical/technological/legal",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "economic/technological/environmental",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "organizational/legal/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "organizational/legal/socio-economic",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "biological/environmental",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "political/technological/social",
+      "total_constraints": 2,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "political/security",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/humanitarian/criminal",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "biological/political/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/existential",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "linguistic/technological/social",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "legal/social",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "political/technological/legal",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "social/political/biological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "philosophical/political",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "geopolitical/political",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "religious/political/social",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "biological/medical",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "philosophical/logical",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "economic/financial",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "technological/social/political",
+      "total_constraints": 2,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "Social/Psychological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "political/legal/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "political/institutional",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "philosophical/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.6666666666666666,
+      "sufficiency_score": 0.6666666666666666
+    },
+    {
+      "domain": "economic",
+      "total_constraints": 68,
+      "avg_variance": 0.6583333333333333,
+      "sufficiency_score": 0.6583333333333333
+    },
+    {
+      "domain": "political/technological",
+      "total_constraints": 11,
+      "avg_variance": 0.6515151515151515,
+      "sufficiency_score": 0.6515151515151515
+    },
+    {
+      "domain": "technological/social",
+      "total_constraints": 26,
+      "avg_variance": 0.6506410256410255,
+      "sufficiency_score": 0.6506410256410255
+    },
+    {
+      "domain": "snare",
+      "total_constraints": 90,
+      "avg_variance": 0.6503703703703703,
+      "sufficiency_score": 0.6503703703703703
+    },
+    {
+      "domain": "geopolitical/military",
+      "total_constraints": 3,
+      "avg_variance": 0.6388888888888888,
+      "sufficiency_score": 0.6388888888888888
+    },
+    {
+      "domain": "political/organizational",
+      "total_constraints": 3,
+      "avg_variance": 0.6388888888888888,
+      "sufficiency_score": 0.6388888888888888
+    },
+    {
+      "domain": "economic/technological/healthcare",
+      "total_constraints": 2,
+      "avg_variance": 0.6333333333333333,
+      "sufficiency_score": 0.6333333333333333
+    },
+    {
+      "domain": "economic/political",
+      "total_constraints": 41,
+      "avg_variance": 0.6321138211382115,
+      "sufficiency_score": 0.6321138211382115
+    },
+    {
+      "domain": "political/economic",
+      "total_constraints": 16,
+      "avg_variance": 0.6302083333333334,
+      "sufficiency_score": 0.6302083333333334
+    },
+    {
+      "domain": "political/social",
+      "total_constraints": 19,
+      "avg_variance": 0.6271929824561404,
+      "sufficiency_score": 0.6271929824561404
+    },
+    {
+      "domain": "social/technological",
+      "total_constraints": 12,
+      "avg_variance": 0.6250000000000001,
+      "sufficiency_score": 0.6250000000000001
+    },
+    {
+      "domain": "technological/AI/cybernetic",
+      "total_constraints": 2,
+      "avg_variance": 0.625,
+      "sufficiency_score": 0.625
+    },
+    {
+      "domain": "social/political",
+      "total_constraints": 9,
+      "avg_variance": 0.6018518518518517,
+      "sufficiency_score": 0.6018518518518517
+    },
+    {
+      "domain": "geopolitical/economic",
+      "total_constraints": 13,
+      "avg_variance": 0.6012820512820513,
+      "sufficiency_score": 0.6012820512820513
+    },
+    {
+      "domain": "psychological/social",
+      "total_constraints": 5,
+      "avg_variance": 0.6,
+      "sufficiency_score": 0.6
+    },
+    {
+      "domain": "political/legal",
+      "total_constraints": 10,
+      "avg_variance": 0.6,
+      "sufficiency_score": 0.6
+    },
+    {
+      "domain": "scientific/political",
+      "total_constraints": 1,
+      "avg_variance": 0.6,
+      "sufficiency_score": 0.6
+    },
+    {
+      "domain": "political/technological/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.6,
+      "sufficiency_score": 0.6
+    },
+    {
+      "domain": "condensed_matter_physics/experimental_verification",
+      "total_constraints": 1,
+      "avg_variance": 0.6,
+      "sufficiency_score": 0.6
+    },
+    {
+      "domain": "economic/social",
+      "total_constraints": 22,
+      "avg_variance": 0.5984848484848484,
+      "sufficiency_score": 0.5984848484848484
+    },
+    {
+      "domain": "social/economic/technological",
+      "total_constraints": 3,
+      "avg_variance": 0.5833333333333334,
+      "sufficiency_score": 0.5833333333333334
+    },
+    {
+      "domain": "biological/technological/social",
+      "total_constraints": 2,
+      "avg_variance": 0.5833333333333333,
+      "sufficiency_score": 0.5833333333333333
+    },
+    {
+      "domain": "economic/technological/social",
+      "total_constraints": 2,
+      "avg_variance": 0.5833333333333333,
+      "sufficiency_score": 0.5833333333333333
+    },
+    {
+      "domain": "technological/organizational",
+      "total_constraints": 2,
+      "avg_variance": 0.5833333333333333,
+      "sufficiency_score": 0.5833333333333333
+    },
+    {
+      "domain": "social/familial",
+      "total_constraints": 2,
+      "avg_variance": 0.5833333333333333,
+      "sufficiency_score": 0.5833333333333333
+    },
+    {
+      "domain": "political/social/economic",
+      "total_constraints": 2,
+      "avg_variance": 0.5833333333333333,
+      "sufficiency_score": 0.5833333333333333
+    },
+    {
+      "domain": "institutional/technological",
+      "total_constraints": 2,
+      "avg_variance": 0.5833333333333333,
+      "sufficiency_score": 0.5833333333333333
+    },
+    {
+      "domain": "legal/institutional",
+      "total_constraints": 2,
+      "avg_variance": 0.5833333333333333,
+      "sufficiency_score": 0.5833333333333333
+    },
+    {
+      "domain": "legal/economic",
+      "total_constraints": 2,
+      "avg_variance": 0.5833333333333333,
+      "sufficiency_score": 0.5833333333333333
+    },
+    {
+      "domain": "technological",
+      "total_constraints": 108,
+      "avg_variance": 0.5763888888888888,
+      "sufficiency_score": 0.5763888888888888
+    },
+    {
+      "domain": "social/psychological",
+      "total_constraints": 17,
+      "avg_variance": 0.5735294117647057,
+      "sufficiency_score": 0.5735294117647057
+    },
+    {
+      "domain": "tangled_rope",
+      "total_constraints": 7,
+      "avg_variance": 0.5714285714285714,
+      "sufficiency_score": 0.5714285714285714
+    },
+    {
+      "domain": "geopolitical",
+      "total_constraints": 21,
+      "avg_variance": 0.5682539682539682,
+      "sufficiency_score": 0.5682539682539682
+    },
+    {
+      "domain": "technological/scientific",
+      "total_constraints": 9,
+      "avg_variance": 0.5648148148148148,
+      "sufficiency_score": 0.5648148148148148
+    },
+    {
+      "domain": "technological/cognitive",
+      "total_constraints": 6,
+      "avg_variance": 0.5555555555555555,
+      "sufficiency_score": 0.5555555555555555
+    },
+    {
+      "domain": "geopolitical/legal",
+      "total_constraints": 3,
+      "avg_variance": 0.5499999999999999,
+      "sufficiency_score": 0.5499999999999999
+    },
+    {
+      "domain": "medical/neurological",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "technological/social/cognitive",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "technological/AI/economic",
+      "total_constraints": 2,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "organizational/technological/cognitive",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "political/military/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "technological/legal",
+      "total_constraints": 3,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "economic/social/logistical",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "physics/condensed_matter",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "scientific (mathematical physics / quantum chaos)",
+      "total_constraints": 2,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "philosophical/social/technological",
+      "total_constraints": 2,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "economic/policy",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "technological/labor",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "technological/AI/governance",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "environmental/political",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "political/environmental",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "cognitive/technological/social",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "scientific",
+      "total_constraints": 4,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "political/regulatory",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "logistics/physical_infrastructure/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "social/academic/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "logistical/technological/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "technological/economic/cybernetic",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "technology/physics",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "analytical/logic",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "systems_engineering/economics/ecology",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "religious/social/psychological",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "informational/social/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "scientific/epistemology",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "economic/scientific",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "ecological/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "philosophical/religious",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "technological/cybernetic/organizational",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "economic/organizational/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "public_health/policy",
+      "total_constraints": 2,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "organizational/political",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "social/informational/technological",
+      "total_constraints": 2,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "technological/logistical/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "linguistic/cultural",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "political/religious",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "mathematical/philosophical",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "technological/military",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "scientific/cosmological",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "social/intellectual",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "social/linguistic/political",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "mathematical/biological",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "biological/healthcare",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "philosophical/social",
+      "total_constraints": 2,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "economic, technological, geopolitical",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "social/economic/informational",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "social/organizational/religious",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "social/ethical",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "scientific/sociological",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "technological/informational/cognitive",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "social/professional",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "economic/logistical",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "biological/economic/social",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "social/environmental",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "geopolitical/technological/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "social/religious/philosophical",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "social/political/philosophical",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "social/political/health",
+      "total_constraints": 1,
+      "avg_variance": 0.5,
+      "sufficiency_score": 0.5
+    },
+    {
+      "domain": "legal/political",
+      "total_constraints": 2,
+      "avg_variance": 0.475,
+      "sufficiency_score": 0.475
+    },
+    {
+      "domain": "technological/social/economic",
+      "total_constraints": 3,
+      "avg_variance": 0.47222222222222215,
+      "sufficiency_score": 0.47222222222222215
+    },
+    {
+      "domain": "mathematical/physical",
+      "total_constraints": 5,
+      "avg_variance": 0.4333333333333333,
+      "sufficiency_score": 0.4333333333333333
+    },
+    {
+      "domain": "political/social/legal",
+      "total_constraints": 2,
+      "avg_variance": 0.41666666666666663,
+      "sufficiency_score": 0.41666666666666663
+    },
+    {
+      "domain": "condensed_matter_physics/superconductivity/quantum_materials",
+      "total_constraints": 2,
+      "avg_variance": 0.41666666666666663,
+      "sufficiency_score": 0.41666666666666663
+    },
+    {
+      "domain": "mathematical/logical",
+      "total_constraints": 15,
+      "avg_variance": 0.4111111111111111,
+      "sufficiency_score": 0.4111111111111111
+    },
+    {
+      "domain": "economic/legal/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.4,
+      "sufficiency_score": 0.4
+    },
+    {
+      "domain": "economic/environmental/political",
+      "total_constraints": 1,
+      "avg_variance": 0.4,
+      "sufficiency_score": 0.4
+    },
+    {
+      "domain": "scientific/physical",
+      "total_constraints": 5,
+      "avg_variance": 0.39999999999999997,
+      "sufficiency_score": 0.39999999999999997
+    },
+    {
+      "domain": "mathematical/technological",
+      "total_constraints": 9,
+      "avg_variance": 0.3888888888888889,
+      "sufficiency_score": 0.3888888888888889
+    },
+    {
+      "domain": "political/legal/social",
+      "total_constraints": 2,
+      "avg_variance": 0.375,
+      "sufficiency_score": 0.375
+    },
+    {
+      "domain": "organizational/political/technological",
+      "total_constraints": 2,
+      "avg_variance": 0.375,
+      "sufficiency_score": 0.375
+    },
+    {
+      "domain": "technological/mathematical",
+      "total_constraints": 9,
+      "avg_variance": 0.3703703703703704,
+      "sufficiency_score": 0.3703703703703704
+    },
+    {
+      "domain": "mathematical",
+      "total_constraints": 22,
+      "avg_variance": 0.35984848484848475,
+      "sufficiency_score": 0.35984848484848475
+    },
+    {
+      "domain": "mountain",
+      "total_constraints": 11,
+      "avg_variance": 0.34848484848484856,
+      "sufficiency_score": 0.34848484848484856
+    },
+    {
+      "domain": "social/technological/educational",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "biological/chemical",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "physical",
+      "total_constraints": 2,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/wellness/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "mathematics/topological",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "magical/social",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "mathematical/statistical",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "technological (mathematics)",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/biological",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "technological/social/philosophical",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "linguistic/cognitive",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "biological/scientific",
+      "total_constraints": 2,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "political/espionage",
+      "total_constraints": 2,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "political/intelligence",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "mathematical/topological",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "physics/materials_science",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "economic/fiscal",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "economic/social/legal",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/technological/psychological",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "technological/environmental",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "epistemological",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "logic/epistemology",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "astrophysical/cosmological",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "mathematics/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "logical/economic",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "institutional",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "legal/economic/social",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "political/geopolitical",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "economic/industrial",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "political/social/governance",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "economic/industrial/geopolitical",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "Physics/Astrophysics",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "sociological/artistic",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/linguistic/bureaucratic",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/economic/religious",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/psychological/religious",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/political/nationalist",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/economic/linguistic",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/religious/technological",
+      "total_constraints": 2,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "technological/scientific/social",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/economic/biological",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/artistic/psychological",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "biological/linguistic/medical",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/psychological/biological",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/political/religious",
+      "total_constraints": 2,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "economic/social/political",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "social/artistic/biological",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "public_health/epidemiology",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "piton",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "geopolitical/information",
+      "total_constraints": 1,
+      "avg_variance": 0.3333333333333333,
+      "sufficiency_score": 0.3333333333333333
+    },
+    {
+      "domain": "rope",
+      "total_constraints": 4,
+      "avg_variance": 0.31249999999999994,
+      "sufficiency_score": 0.31249999999999994
+    },
+    {
+      "domain": "mathematical/computational",
+      "total_constraints": 3,
+      "avg_variance": 0.27777777777777773,
+      "sufficiency_score": 0.27777777777777773
+    },
+    {
+      "domain": "social/technological/political",
+      "total_constraints": 1,
+      "avg_variance": 0.25,
+      "sufficiency_score": 0.25
+    },
+    {
+      "domain": "technological/academic/informational",
+      "total_constraints": 1,
+      "avg_variance": 0.25,
+      "sufficiency_score": 0.25
+    },
+    {
+      "domain": "mathematical / logical",
+      "total_constraints": 1,
+      "avg_variance": 0.25,
+      "sufficiency_score": 0.25
+    },
+    {
+      "domain": "physics/cosmology",
+      "total_constraints": 1,
+      "avg_variance": 0.25,
+      "sufficiency_score": 0.25
+    },
+    {
+      "domain": "informational/psychological/sociological",
+      "total_constraints": 1,
+      "avg_variance": 0.25,
+      "sufficiency_score": 0.25
+    },
+    {
+      "domain": "scientific (mathematical physics / quantum mechanics)",
+      "total_constraints": 1,
+      "avg_variance": 0.25,
+      "sufficiency_score": 0.25
+    },
+    {
+      "domain": "economic/technological/legal",
+      "total_constraints": 1,
+      "avg_variance": 0.25,
+      "sufficiency_score": 0.25
+    },
+    {
+      "domain": "philosophical/cognitive",
+      "total_constraints": 1,
+      "avg_variance": 0.25,
+      "sufficiency_score": 0.25
+    },
+    {
+      "domain": "infrastructure/logistical/technological",
+      "total_constraints": 1,
+      "avg_variance": 0.25,
+      "sufficiency_score": 0.25
+    },
+    {
+      "domain": "statistical/economic/social",
+      "total_constraints": 1,
+      "avg_variance": 0.25,
+      "sufficiency_score": 0.25
+    },
+    {
+      "domain": "technological/physical",
+      "total_constraints": 1,
+      "avg_variance": 0.25,
+      "sufficiency_score": 0.25
+    }
+  ],
+  "stability_anomalies": [],
+  "domain_consolidation": {}
+}

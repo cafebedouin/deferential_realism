@@ -1,0 +1,70 @@
+{
+  "constraint_id": "arbitrary_enforcement_extraction",
+  "iteration_round": null,
+  "verdict": "GREEN",
+  "subsystems_checked": [
+    12,
+    12
+  ],
+  "tensions": [],
+  "tension_count": 0,
+  "expected_conflicts": [
+    {
+      "subsystem": "boltzmann",
+      "code": "constructed_non_compliance"
+    },
+    {
+      "subsystem": "dirac",
+      "code": "pre_post_override_divergence"
+    },
+    {
+      "subsystem": "context_gap",
+      "code": "pre_post_override_divergence"
+    }
+  ],
+  "convergent_rejections": "none",
+  "classification": {
+    "claimed_type": "snare",
+    "classified_type": "tangled_rope",
+    "mismatch": true,
+    "confidence": 0.01,
+    "confidence_band": "borderline",
+    "rival_type": "tangled_rope",
+    "rival_p": 0.95,
+    "boundary": "snare->tangled_rope",
+    "psi": null,
+    "psi_label": null
+  },
+  "hard_disagreement": {
+    "pipeline": "snare",
+    "maxent": "tangled_rope"
+  },
+  "drift_events": [
+    {
+      "severity": "warning",
+      "type": "metric_substitution"
+    },
+    {
+      "severity": "critical",
+      "type": "extraction_accumulation"
+    },
+    {
+      "severity": "critical",
+      "type": "coupling_drift"
+    },
+    {
+      "severity": "warning",
+      "type": "purity_drift"
+    }
+  ],
+  "mandatrophy_gap": {
+    "delta_chi": 0.44,
+    "severity": "moderate"
+  },
+  "structural_signature": "false_natural_law",
+  "purity": {
+    "value": 0.5,
+    "band": "borderline"
+  },
+  "post_synthesis_flags": []
+}

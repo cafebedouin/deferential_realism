@@ -1,374 +1,507 @@
-# MaxEnt Shadow Classifier — Diagnostic Deep Dive Report
 
-*Generated: 2026-02-14 from corpus-wide diagnostic via `maxent_diagnostic.pl`*
-
----
-
-## Executive Summary
-
-| Property | Value |
-|----------|-------|
-| **Testset files** | 1025 |
-| **Constraints analyzed by MaxEnt** | 669 |
-| **Not analyzed (gap)** | 356 |
-| **Mean normalized entropy** | 0.5332 |
-| **High uncertainty (H > 0.40)** | 475 (71.0%) |
-| **Hard disagreements** | 114 (17.0%) |
-| **Soft disagreements** | 395 |
-| **Dirac orbit cross-validation overlap** | 84.2% |
-
----
-
-## 1. Account for the Missing 356 Constraints
-
-### Root Cause: `fnl_trace_diagnostic.pl` Knowledge Base Wipe
-
-**This is a bug.** The 356 missing constraints are caused by a single testset file that triggers a destructive side effect during batch loading.
-
-**Mechanism:**
-
-1. `covering_analysis:load_all_testsets` consults all 1025 `.pl` files from `testsets/` in alphabetical order.
-2. File #355 in the sort order is `fnl_trace_diagnostic.pl`.
-3. This file has an `:- initialization(run_fnl_trace)` directive (line 19) that calls `scenario_manager:load_and_run('testsets/fnl_shadow_probe.pl', fnl_shadow_probe)`.
-4. `scenario_manager:load_and_run/2` calls `clear_kb/0` (scenario_manager.pl:93) which executes `retractall(narrative_ontology:constraint_claim(_, _))` (line 39), wiping **all previously-loaded constraint_claim facts**.
-5. Files 356-1025 continue loading normally after the wipe.
-6. Result: only constraints from files loaded **after** `fnl_trace_diagnostic.pl` survive.
-
-**Verification:** 1025 - 355 = 670 files load after the wipe. After dedup and filtering out 2 list-form claims, 669 unique constraints remain. This matches exactly.
-
-### Exclusion Breakdown
-
-| Category | Count | Notes |
-|----------|-------|-------|
-| **Wiped by `fnl_trace_diagnostic.pl` KB clear** | ~354 | All constraint_claims from files #1-#354 retracted |
-| **List-form constraint IDs** | 2 | `[landscape_of_fear_2026]`, `[wikipedia_crowdsourcing_2026]` — filtered by `\+ is_list(C)` |
-| **No constraint_claim in file** | 1 | `fnl_trace_diagnostic.pl` itself — diagnostic only, no constraints |
-| **Syntax/load errors (pre-wipe files)** | ~17 | 10 syntax errors + 5 permission errors + 2 other — but these are moot since the wipe erases them anyway |
-| **Total gap** | 356 | (354 wiped + 2 list-form = 356, minus 1 no-claim file which was already in the 354) |
-
-### Post-Wipe Constraint Profile
-
-After the wipe, 669 surviving constraints classify as:
-
-| Deterministic Type | Count | Pct |
-|--------------------|-------|-----|
-| snare | 324 | 48.4% |
-| tangled_rope | 215 | 32.1% |
-| mountain | 47 | 7.0% |
-| unknown | 39 | 5.8% |
-| rope | 34 | 5.1% |
-| scaffold | 10 | 1.5% |
-| piton | 0 | 0.0% |
-
-**Note:** Zero piton constraints survived. ALL piton-bearing testsets sort alphabetically before `fnl_trace_diagnostic.pl`. This means the MaxEnt piton profiles fall back to hardcoded defaults, and all piton-related analysis in this report reflects an empty empirical population.
-
-### Recommendation
-
-**Immediate fix:** Either (a) remove the `:- initialization(run_fnl_trace)` directive from `fnl_trace_diagnostic.pl` and make it purely invocation-driven, or (b) rename it to `zzz_fnl_trace_diagnostic.pl` so it loads last, or (c) move it out of `testsets/` entirely. Option (a) is cleanest. This is a **data integrity bug** — the reported 669/1025 coverage is an artifact, not a real coverage gap.
-
----
-
-## 2. Per-Type Entropy Breakdown
-
-| Type | Count | Mean H | Median H | Min H | Max H | Std Dev | Interpretation |
-|------|-------|--------|----------|-------|-------|---------|----------------|
-| **mountain** | 47 | 0.3114 | 0.3114 | 0.3114 | 0.3114 | 0.0000 | **Degenerate** |
-| **rope** | 34 | 0.4946 | 0.5430 | 0.1423 | 0.8674 | 0.1774 | High spread |
-| **tangled_rope** | 215 | 0.4634 | 0.3967 | 0.3114 | 0.8247 | 0.1520 | Moderate-high |
-| **snare** | 324 | 0.6291 | 0.6551 | 0.4199 | 0.7737 | 0.1281 | **Highest** |
-| **scaffold** | 10 | 0.7177 | 0.7206 | 0.6494 | 0.7918 | 0.0364 | Very high |
-| **unknown** | 39 | 0.3744 | 0.3895 | 0.0003 | 0.8465 | 0.2155 | Extreme spread |
-| **piton** | 0 | - | - | - | - | - | No data |
-
-### Hypothesis Test: Are mountains and pitons metrically distinctive?
-
-**Mountains: YES, but pathologically so.** All 47 mountains have *identical* entropy (0.3114). This is not normal variation — it indicates the mountain Gaussian profiles are so tight (sigma_eps=0.057, sigma_supp=0.018) and the boolean penalty for `emerges_naturally` so harsh (-10.0 log-likelihood) that every mountain gets essentially the same probability distribution. The profile is working, but it's working as a near-deterministic gate rather than a soft classifier. Mountain entropy is low because the classifier has been tuned to agree with the deterministic classifier completely.
-
-**Pitons: No data.** All piton testsets were wiped by the fnl_trace_diagnostic bug. The MaxEnt classifier falls back to hardcoded default profiles for piton, and no piton constraints exist in the analyzed corpus to test against.
-
-**Rope/tangled_rope/snare cluster: Confirmed high.** The corpus mean of 0.5332 is dominated by:
-- Snare (n=324, mean=0.6291) — the largest group with the second-highest entropy
-- Tangled_rope (n=215, mean=0.4634) — moderate but with wide spread
-
-**Scaffold: Unexpectedly highest mean entropy (0.7177).** With only n=10, the scaffold Gaussian profile is poorly fitted. The scaffold extractiveness empirical distribution is pathologically narrow (all constraints have eps=0.10, giving sigma=0.0 which gets floored to 0.01). This creates a profile that matches nothing well, inflating entropy for scaffolds.
-
-### Conclusion
-
-The corpus mean of 0.5332 is explained by snare dominance (48.4% of corpus) combined with the snare/tangled_rope metric overlap. The hypothesis partially holds: mountains ARE metrically distinctive (lowest entropy), but the measurement is degenerate. The snare/tangled_rope boundary is the primary source of corpus entropy.
-
----
-
-## 3. Analysis of 114 Hard Disagreements
-
-### 3a. Type Pair Cross-Tabulation
-
-| Det Type -> Shadow Type | Count | Pct of Hard |
-|-------------------------|-------|-------------|
-| snare -> tangled_rope | 80 | **70.2%** |
-| tangled_rope -> rope | 12 | 10.5% |
-| tangled_rope -> snare | 10 | 8.8% |
-| rope -> tangled_rope | 8 | 7.0% |
-| scaffold -> rope | 3 | 2.6% |
-| tangled_rope -> mountain | 1 | 0.9% |
-
-**The snare->tangled_rope pair dominates,** accounting for 70% of all hard disagreements. The shadow classifier systematically prefers tangled_rope over snare. This reflects the metric overlap between these two types — snare and tangled_rope share high extractiveness and high suppression, with the boolean gates (`has_coordination_function`, `has_asymmetric_extraction`, `requires_active_enforcement`) being the deterministic differentiators. The shadow classifier softens these boolean gates (penalty = -10.0), allowing the Gaussian metric overlap to pull snares toward tangled_rope.
-
-### 3b. Cluster Membership
-
-| Population | Count |
-|------------|-------|
-| **Within rope/tangled_rope/snare cluster** | 110 (96.5%) |
-| **Involving mountain, scaffold, or piton** | 4 (3.5%) |
-
-The 4 non-cluster disagreements:
-- 3 scaffold->rope: `indexical_relativity_core`, `martian_signal_latency`, `sturgeons_law`
-- 1 tangled_rope->mountain: `mvt_theorem_constraint`
-
-### 3c. Shadow Classifier Confidence
-
-**Mean shadow top-type probability across all 114 hard disagreements: 0.3233**
-
-The shadow's preferred type wins with only ~32% probability on average. These are genuinely ambiguous constraints — the shadow is not confidently overriding the deterministic classifier. Distribution examples:
-- Most snare->tangled_rope disagreements show tangled_rope at 0.25-0.47, snare at 0.03-0.25 — the probabilities are close
-- The 12 tangled_rope->rope cases show rope at 0.26-0.52, tangled_rope at 0.15-0.29
-
-### 3d. Mountain/Piton Disagreement Investigation
-
-**Single case: `mvt_theorem_constraint`**
-
-| Property | Value |
-|----------|-------|
-| Deterministic type | tangled_rope |
-| Shadow type | mountain |
-| Shadow P(mountain) | 0.810 |
-| Shadow confidence | 0.609 |
-| Base extractiveness (eps) | 0.10 |
-| Raw suppression | 0.05 |
-| Theater ratio | 0.10 |
-| Structural signature | `false_ci_rope` |
-
-**Analysis:** This constraint has metrics squarely in the mountain profile (eps=0.10, supp=0.05) but is deterministically classified as tangled_rope. The shadow classifier gives mountain 81% probability — its strongest individual disagreement. The `false_ci_rope` signature suggests it's been flagged as coordination-washed, which overrides the metric-based classification. This is a legitimate edge case: the metrics say mountain, the structural analysis says the "coordination" is suspect, and the deterministic pipeline resolves to tangled_rope via the signature override. The shadow classifier's mountain preference here is metrically correct but structurally uninformed — it doesn't see the Boltzmann non-compliance that triggered the false_ci_rope signature.
-
----
-
-## 4. Characterization of the 15.8% Non-Overlapping Population
-
-### 4a. Overview
-
-| Metric | Count |
-|--------|-------|
-| Hard disagreements total | 114 |
-| In multi-type Dirac orbits (overlapping) | 96 (84.2%) |
-| Single-type orbits (non-overlapping) | 18 (15.8%) |
-
-### 4b. The 18 Non-Overlapping Constraints
-
-| Constraint | Det | Shadow | Orbit Types | eps | supp | theater | Nearest Boundary | Dist |
-|------------|-----|--------|-------------|-----|------|---------|-----------------|------|
-| galois_theory_symmetry | tangled_rope | rope | tangled_rope | 0.20 | 0.10 | 0.00 | mountain_supp_ceiling | 0.050 |
-| goldbach_conjecture | tangled_rope | rope | tangled_rope | 0.15 | 0.10 | 0.00 | mountain_supp_ceiling | 0.050 |
-| hilberts_hotel_infinity | tangled_rope | rope | tangled_rope | 0.15 | 0.10 | 0.00 | mountain_supp_ceiling | 0.050 |
-| horizon_liability_contract | tangled_rope | snare | tangled_rope | 0.85 | 0.95 | 0.60 | snare_suppression_floor | 0.350 |
-| indexical_relativity_core | scaffold | rope | scaffold | 0.10 | 0.20 | 0.15 | mountain_supp_ceiling | 0.150 |
-| information_foraging_theory | tangled_rope | rope | tangled_rope | 0.20 | 0.10 | 0.08 | mountain_supp_ceiling | 0.050 |
-| litany_of_the_real | tangled_rope | rope | tangled_rope | 0.15 | 0.20 | 0.08 | rope_chi_ceiling | 0.145 |
-| martian_signal_latency | scaffold | rope | scaffold | 0.10 | 1.00 | 0.02 | rope_chi_ceiling | 0.213 |
-| **mvt_theorem_constraint** | tangled_rope | mountain | tangled_rope | 0.10 | 0.05 | 0.10 | mountain_supp_ceiling | **0.000** |
-| newtons_method_convergence | tangled_rope | rope | tangled_rope | 0.15 | 0.20 | 0.08 | rope_chi_ceiling | 0.145 |
-| poincare_conjecture | tangled_rope | rope | tangled_rope | 0.20 | 0.10 | 0.03 | mountain_supp_ceiling | 0.050 |
-| prime_number_theorem | tangled_rope | rope | tangled_rope | 0.15 | 0.10 | 0.01 | mountain_supp_ceiling | 0.050 |
-| quine_self_replication | tangled_rope | rope | tangled_rope | 0.20 | 0.10 | 0.01 | mountain_supp_ceiling | 0.050 |
-| rices_theorem_undecidability | tangled_rope | rope | tangled_rope | 0.15 | 0.20 | 0.04 | rope_chi_ceiling | 0.145 |
-| rogue_wave_control_2026 | tangled_rope | rope | tangled_rope | 0.15 | 0.10 | 0.05 | mountain_supp_ceiling | 0.050 |
-| sm_addictive_design | tangled_rope | snare | tangled_rope | 0.68 | 0.85 | 0.40 | snare_epsilon_floor | 0.220 |
-| sturgeons_law | scaffold | rope | scaffold | 0.10 | 0.40 | 0.11 | tangled_rope_supp_floor | 0.000 |
-| sylow_theorems_group_theory | tangled_rope | rope | tangled_rope | 0.15 | 0.20 | 0.01 | rope_chi_ceiling | 0.145 |
-
-### 4c. Bucket Classification
-
-**Bucket (a) — Metrically borderline but indexically stable: 15 of 18**
-
-These 15 constraints (the 12 tangled_rope->rope mathematical/abstract constraints + 3 scaffolds) all sit near classification thresholds:
-- 8 are within 0.050 of the mountain suppression ceiling (supp=0.10, threshold=0.05)
-- 4 are within 0.145 of the rope chi ceiling
-- 1 (`mvt_theorem_constraint`) sits exactly on the mountain suppression ceiling (distance=0.000)
-- 2 scaffolds sit on boundary with other types
-
-These are constraints where metric-space analysis detects genuine proximity to a type boundary, but the indexical structure (context-dependent classification) is stable — the constraint stays the same type across all observer frames. The shadow classifier is correctly identifying metric ambiguity that doesn't manifest as indexical instability.
-
-**Bucket (b) — Other: 3 of 18**
-
-- `horizon_liability_contract` (tangled_rope->snare): eps=0.85, supp=0.95, theater=0.60. This is NOT borderline — it has deep snare metrics but is classified as tangled_rope by the deterministic cascade (likely due to boolean gates: `has_coordination_function` + `has_asymmetric_extraction`). The shadow classifier's snare preference (P=0.443) reflects the metrics accurately. Indexically stable as tangled_rope. This is a case where the boolean gates are doing real classificatory work that the Gaussian profiles cannot see.
-- `sm_addictive_design` (tangled_rope->snare): Similar pattern. eps=0.68, supp=0.85 — deep snare metrics, classified as tangled_rope by boolean gates.
-- `martian_signal_latency` (scaffold->rope): eps=0.10, supp=1.00 — extreme suppression pushes Gaussians away from scaffold profile. The scaffold classification relies on the `has_coordination_function` + `scaffold_temporality_check` boolean gates.
-
-### 4d. Inverse Check: Multi-Type Orbits with Low Entropy
-
-**10 constraints** have multi-type Dirac orbits (indexically unstable) but low MaxEnt entropy (< 0.30, metrically confident):
-
-| Constraint | Det Type | H_norm | Orbit Types |
-|------------|----------|--------|-------------|
-| trillion_bond_rush_2026 | unknown | 0.0003 | scaffold/unknown |
-| maha_recovery_2026 | unknown | 0.0014 | scaffold/unknown |
-| russells_paradox_self_reference | unknown | 0.0052 | scaffold/unknown |
-| glp1_payload_efficiency_pivot | unknown | 0.0100 | scaffold/unknown |
-| hawthorne_effect | unknown | 0.0120 | scaffold/unknown |
-| ship_of_theseus | unknown | 0.0230 | rope/unknown |
-| gradient_descent_optimization | unknown | 0.1017 | rope/scaffold/unknown |
-| skills_based_hiring | unknown | 0.1010 | rope/scaffold/unknown |
-| silklink_2026 | rope | 0.1423 | rope/scaffold |
-| gamblers_ruin_stochastic_extinction | unknown | 0.2027 | scaffold/unknown |
-
-**Pattern:** 9 of 10 are `unknown` type in analytical context, with orbits containing `scaffold/unknown` or `rope/unknown`. These are constraints that look one way metrically (very low entropy = high metric confidence) but shift classification when viewed from different power/scope contexts. The MaxEnt classifier sees them as nearly-certain (the Gaussian profiles strongly favor one type), but the Dirac orbit analysis reveals they change type with observer context.
-
-**Interpretation:** This is the population where **indexical relativity is doing work that metric analysis alone would miss.** The metric profiles are confident, but that confidence is illusory — the constraint's nature genuinely depends on who is looking. The `unknown` analytical classification + multi-type orbit pattern suggests these constraints fall in threshold gaps that only open from certain perspectives.
-
----
-
-## 5. Gaussian Profile Fit Evaluation
-
-### 5a. Empirical Profiles
-
-| Type | Metric | Mu | Sigma | Source |
-|------|--------|----|-------|--------|
-| mountain | extractiveness | 0.0836 | 0.0571 | Empirical (n=47) |
-| mountain | suppression | 0.0311 | 0.0185 | Empirical (n=47) |
-| mountain | theater | 0.0283 | 0.0731 | Empirical (n=47) |
-| rope | extractiveness | 0.1124 | 0.0717 | Empirical (n=34) |
-| rope | suppression | 0.4038 | **0.3038** | Empirical (n=34) |
-| rope | theater | 0.1979 | **0.2705** | Empirical (n=34) |
-| tangled_rope | extractiveness | 0.4455 | 0.1985 | Empirical (n=215) |
-| tangled_rope | suppression | 0.5416 | 0.2260 | Empirical (n=215) |
-| tangled_rope | theater | 0.2148 | 0.2299 | Empirical (n=215) |
-| snare | extractiveness | 0.6939 | 0.1329 | Empirical (n=324) |
-| snare | suppression | 0.7540 | 0.0860 | Empirical (n=324) |
-| snare | theater | 0.4215 | **0.3022** | Empirical (n=324) |
-| scaffold | extractiveness | 0.1000 | 0.0100 | Empirical (n=10) |
-| scaffold | suppression | 0.3100 | **0.2508** | Empirical (n=10) |
-| scaffold | theater | 0.0390 | 0.0489 | Empirical (n=10) |
-| piton | extractiveness | 0.6500 | 0.1500 | **Default** (n=0) |
-| piton | suppression | 0.6900 | 0.1500 | **Default** (n=0) |
-| piton | theater | 0.8500 | 0.0800 | **Default** (n=0) |
-
-### 5b. Suspiciously Large Sigmas (> 0.25)
-
-| Type | Metric | Sigma | Diagnosis |
-|------|--------|-------|-----------|
-| **rope** | **suppression** | **0.3038** | Rope suppression spans 0.0-1.0 in the corpus. A Gaussian centered at 0.40 with sigma=0.30 covers the entire [0,1] range. This profile cannot discriminate. |
-| **rope** | **theater** | **0.2705** | Same issue — wide spread suggests mixed populations. |
-| **snare** | **theater** | **0.3022** | Snare theater ranges from 0 to ~0.8. The Gaussian is averaging over a wide distribution. |
-| **scaffold** | **suppression** | **0.2508** | With only n=10, the scaffold suppression distribution is poorly sampled. |
-
-### 5c. Rope BaseEps Distribution — Bimodality Check
-
-**34 rope constraints, BaseEps values:**
-
-| Bin | Range | Count | Pct |
-|-----|-------|-------|-----|
-| Low | [0.00, 0.25) | 31 | 91.2% |
-| Mid | [0.25, 0.50) | 3 | 8.8% |
-| High | [0.50, 1.00] | 0 | 0.0% |
-
-**The rope BaseEps distribution is NOT bimodal.** It is unimodal, concentrated in [0, 0.25] with mean=0.112. The predicted bimodality (clean ropes near eps=0.15 + override-ropes at eps=0.50+) did not materialize. All ropes in the analyzed corpus have low extraction — the signature-override ropes (n=22) also have low eps (0.00-0.15 for CIR, 0.02-0.15 for constructed_low_extraction). The override mechanism pushes constraints with rope-like metrics INTO the rope category, not constraints with high-eps metrics.
-
-**However, the rope SUPPRESSION is where the real spread is.** With sigma=0.3038 and mean=0.4038, rope suppression spans the full range. This is the actual source of poor rope discrimination:
-
-| Rope suppression range | Count |
-|-----------------------|-------|
-| [0.00, 0.20) | 10 |
-| [0.20, 0.50) | 7 |
-| [0.50, 0.80) | 9 |
-| [0.80, 1.00] | 8 |
-
-This IS effectively bimodal (or at least bimodal-adjacent): some ropes have near-zero suppression (true coordination), others have very high suppression (override-ropes that are structurally not "pure" ropes).
-
-### 5d. Override-Rope Entropy Decomposition
-
-| Population | Count | Mean H_norm |
-|------------|-------|-------------|
-| Override ropes (CIR + constructed_low_extraction) | 22 | 0.4731 |
-| Non-override ropes | 12 | 0.5339 |
-| All ropes | 34 | 0.4946 |
-
-**Breakdown within overrides:**
-- CIR ropes (coupling_invariant_rope): 12 constraints, all with H_norm = 0.3114. The unconditional override sets P(rope)=0.95, producing uniformly low entropy.
-- Constructed_low_extraction ropes: 10 constraints, mean H_norm = 0.665. The conditional 3x boost is insufficient to dominate, leaving significant residual uncertainty.
-
-**Rope entropy would be 0.5339 if override-ropes were excluded** — only marginally higher than the overall rope mean of 0.4946. The CIR override ropes pull the mean DOWN (they all get 0.3114), while constructed_low_extraction overrides are ABOVE the mean. The net override effect is modest.
-
-### 5e. Recommendations
-
-1. **Rope suppression profile needs a mixture model.** A single Gaussian with sigma=0.30 is meaningless as a discriminator. Consider two-component Gaussian mixture or separate sub-profiles for CIR vs non-CIR ropes.
-2. **Scaffold profile needs more data.** n=10 with zero extractiveness variance is not a viable profile.
-3. **Piton profile needs any data.** Currently using hardcoded defaults from zero observations.
-4. **Snare theater profile (sigma=0.30) should be investigated** — theater ratio may not be a useful discriminator for snares.
-
----
-
-## 6. Cross-Diagnostic Correlation
-
-### 6a. Correlation Table
-
-All metrics compared for **high-entropy** (H > 0.40, n=475) vs **low-entropy** (H <= 0.40, n=194) populations:
-
-| Diagnostic Signal | High Entropy | Low Entropy | Difference | Interpretation |
-|-------------------|-------------|-------------|------------|----------------|
-| Has Omega variables | 0/475 (0.0%) | 0/194 (0.0%) | None | Omega variables not present for analyzed constraints |
-| Boltzmann non-compliant | 430/475 (**90.5%**) | 123/194 (63.4%) | +27.1 pp | **Strong correlation** |
-| Purity score < 0.50 | 234/475 (**49.3%**) | 60/194 (30.9%) | +18.3 pp | **Moderate correlation** |
-| Avg purity score | **0.477** | 0.662 | -0.185 | High-entropy constraints have substantially lower purity |
-| In multi-type Dirac orbit | 426/475 (**89.7%**) | 102/194 (52.6%) | +37.1 pp | **Strong correlation** |
-
-### 6b. Interpretation
-
-**The shadow classifier is largely confirming existing signals, not finding new ones.**
-
-The three strongest correlations:
-
-1. **Multi-type Dirac orbits (89.7% vs 52.6%):** High-entropy constraints are overwhelmingly also in multi-type orbits. Both diagnostics identify the same structurally ambiguous population. This is the strongest cross-validation signal.
-
-2. **Boltzmann non-compliance (90.5% vs 63.4%):** High-entropy constraints almost always fail the Boltzmann independence test. This makes structural sense — constraints that couple dimensions should also be metrically ambiguous between types.
-
-3. **Low purity (49.3% vs 30.9%):** Moderate but meaningful correlation. Structurally contaminated constraints are more metrically ambiguous.
-
-**Omega variables: Zero correlation (0% everywhere).** This is not because omega variables are absent from the corpus — they're present in testsets. The issue is that `omega_variable/3` facts are typically asserted during scenario runs (`load_and_run`), not during batch loading. The batch `load_all_testsets` consults files but doesn't trigger the scenario manager's omega generation pipeline. This is an architectural gap in the reporting pipeline, not a finding about the MaxEnt classifier.
-
-**Linter error correlation:** Not directly testable from runtime data. The linter runs as a separate bash script, and its output is not available to Prolog queries. This cross-check is deferred.
-
-### 6c. Verdict
-
-The MaxEnt shadow classifier is operating as a **redundant validator** — it strongly confirms the same population that Dirac orbit analysis and Boltzmann compliance already identify as structurally ambiguous. It adds **quantitative confidence margins** (probability distributions, entropy scores) to what was previously binary (multi-type orbit: yes/no). Its novel contribution is the 18 single-type-orbit hard disagreements (Section 4b) — metric ambiguity that indexical analysis misses — and the 10 inverse cases — indexical instability that metric analysis misses.
-
----
-
-## Summary of Findings and Recommendations
-
-### Bugs Found
-
-1. **CRITICAL: `fnl_trace_diagnostic.pl` wipes the knowledge base during batch loading.** This causes 354 constraints to be silently dropped, including ALL pitons. The reported 669/1025 coverage is an artifact. **Fix: remove the `:- initialization(run_fnl_trace)` directive or move the file out of `testsets/`.**
-
-2. **MINOR: `maxent_classify_one/2` silently skips constraints when `TypeLogLPairs = []`.** No constraints triggered this in the current run (0 visible-but-no-dist), but it's a latent bug. Should at minimum log a warning.
-
-3. **MINOR: `load_all_testsets` reports "Loaded 1025 testsets successfully" even when files fail.** The `catch(user:consult(F), _, true)` pattern counts error-recovered loads as successes.
-
-### Calibration Issues
-
-1. **Mountain entropy is degenerate.** All 47 mountains get identical entropy (0.3114). The boolean penalty (-10.0) and tight Gaussian profiles create a near-deterministic classifier. Consider softening the boolean penalty or widening mountain profiles.
-
-2. **Rope suppression profile is pathological.** Sigma=0.3038 on a [0,1] metric provides no discrimination. The rope population is heterogeneous (CIR-certified vs constructed_low_extraction vs metric ropes) and should be modeled with sub-profiles or a mixture model.
-
-3. **Scaffold and piton profiles are undersampled.** Scaffold n=10 (with zero eps variance); piton n=0 (defaults only). After fixing the fnl_trace_diagnostic bug, these populations will grow substantially.
-
-4. **Snare->tangled_rope dominance in disagreements (70% of hard).** The boolean gates (`has_coordination_function`, `has_asymmetric_extraction`, `requires_active_enforcement`) are the primary differentiators between these types. The Gaussian profiles see too much overlap to distinguish them. This is by design (boolean gates ARE the classifier's discriminative power for this boundary), but it means the MaxEnt classifier will always systematically under-detect snares.
-
-### Architectural Observations
-
-1. The MaxEnt classifier's primary value is as a **confidence estimator**, not a competing classifier. Its probability distributions add gradient information to the deterministic classifier's binary output.
-
-2. The 10 inverse-check constraints (multi-type orbit + low entropy) represent the clearest demonstration of indexical relativity's unique signal — structural ambiguity invisible to metric analysis.
-
-3. After fixing the fnl_trace_diagnostic bug and rerunning on the full 1025-constraint corpus, all numbers in this report should be recomputed. The snare/tangled_rope proportions will shift, and piton/scaffold profiles will gain empirical data.
-
----
-
-*End of MaxEnt Diagnostic Report*
+====================================================
+   STRUCTURAL ANALYSIS STACK INITIALIZED             
+====================================================
+Control:    Scenario Manager Active
+Usage:      run_scenario('file.pl', interval_id).
+====================================================
+=== MAXENT DIAGNOSTIC OUTPUT ===
+SUMMARY: NTotal=993 MeanEntropy=0.164812 NHighUncertainty=0 NHard=171 NSoft=0
+
+=== TASK 1: MISSING CONSTRAINTS ===
+VISIBLE_CLAIMS: 993
+ALL_CLAIMS_RAW: 993
+LIST_FORM_CLAIMS: 0
+NON_ATOM_CLAIMS: 0
+TESTSET_FILES: 993
+EXPECTED_IDS: 993
+MISSING_FROM_CLAIMS: 0
+MISSING_IDS_SAMPLE:
+  (none)
+CONSTRAINTS_WITH_DIST: 993
+VISIBLE_BUT_NO_DIST: 0
+DET_TYPE_DISTRIBUTION:
+  mountain: 151
+  rope: 7
+  snare: 175
+  tangled_rope: 660
+RESIDUAL_TYPE_COUNT: 0
+=== END TASK 1 ===
+
+=== TASK 2: PER-TYPE ENTROPY BREAKDOWN ===
+TYPE_ENTROPY_TABLE:
+Type|Count|Mean|Median|Min|Max|StdDev
+mountain|151|0.150824|0.155706|0.000307|0.155706|0.026532
+rope|7|0.132051|0.155706|0.009581|0.197825|0.057323
+snare|175|0.258018|0.264236|0.003647|0.399439|0.102221
+tangled_rope|660|0.143645|0.155706|0.001437|0.394687|0.046868
+=== END TASK 2 ===
+
+=== TASK 3: HARD DISAGREEMENTS ===
+TOTAL_HARD: 171
+DISAGREEMENT_PAIRS:
+DetType->ShadowType|Count
+rope->tangled_rope|1
+snare->piton|1
+snare->tangled_rope|151
+tangled_rope->mountain|1
+tangled_rope->rope|17
+HARD_DISAGREEMENT_DETAILS:
+Constraint|DetType|ShadowType|ShadowTopP|ShadowConf|Distribution
+agentive_optimism_2026|snare|tangled_rope|0.677836|0.649147|tangled_rope:0.678 snare:0.322
+agg1_genetic_determinism|snare|tangled_rope|0.840459|0.754762|tangled_rope:0.840 snare:0.159
+ai_auditability_gap|snare|tangled_rope|0.675948|0.648333|tangled_rope:0.676 snare:0.324
+ai_evaluators_matching|snare|tangled_rope|0.677836|0.649147|tangled_rope:0.678 snare:0.322
+ai_task_horizon_reliability|snare|tangled_rope|0.830864|0.746321|tangled_rope:0.831 snare:0.169
+algeria_france_colonial_legacy|snare|tangled_rope|0.705088|0.661508|tangled_rope:0.705 snare:0.295
+allocation_as_extraction_multiplier|snare|tangled_rope|0.696572|0.657464|tangled_rope:0.697 snare:0.303
+alzheimers_levetiracetam|snare|tangled_rope|0.865898|0.779824|tangled_rope:0.866 snare:0.134
+amish_technological_renunciation|snare|tangled_rope|0.648927|0.638271|tangled_rope:0.649 snare:0.351
+anticipatory_capacity_failure|snare|tangled_rope|0.803786|0.723674|tangled_rope:0.804 snare:0.196
+apartheid_nuclear_program|snare|tangled_rope|0.990915|0.971004|tangled_rope:0.991
+appropriations_brinkmanship|snare|tangled_rope|0.630118|0.632125|tangled_rope:0.630 snare:0.370
+arctic_geopolitical_flashpoint|snare|tangled_rope|0.682319|0.651076|tangled_rope:0.682 snare:0.318
+arg_ev_tariff|snare|tangled_rope|0.877436|0.792372|tangled_rope:0.877 snare:0.123
+armra_colostrum_regulation|snare|tangled_rope|0.865898|0.779824|tangled_rope:0.866 snare:0.134
+asshole_filter_2015|snare|tangled_rope|0.877436|0.792372|tangled_rope:0.877 snare:0.123
+asymmetric_coordination_extraction|snare|tangled_rope|0.878616|0.793680|tangled_rope:0.879 snare:0.121
+asymmetric_duty_structure|snare|tangled_rope|0.574320|0.618782|tangled_rope:0.574 snare:0.426
+attritional_warfare_doctrine_ru_ua_2026|snare|tangled_rope|0.978876|0.942789|tangled_rope:0.979 snare:0.021
+bgs_eigenvector_thermalization|rope|tangled_rope|0.997589|0.990419|tangled_rope:0.998
+blackstone_conflicts_of_interest|snare|tangled_rope|0.625616|0.630588|tangled_rope:0.626 snare:0.374
+blackstone_smd_control|snare|tangled_rope|0.714458|0.666187|tangled_rope:0.714 snare:0.286
+brazil_hiv_vtn_elimination|tangled_rope|rope|0.967389|0.918944|rope:0.967 scaffold:0.032
+brazil_mexico_financial_requirement|snare|tangled_rope|0.838132|0.752889|tangled_rope:0.838 snare:0.162
+brilliance_as_structural_liability|snare|tangled_rope|0.949164|0.883216|tangled_rope:0.949 snare:0.049
+burden_of_proof_engineering_safety|snare|tangled_rope|0.625616|0.630588|tangled_rope:0.626 snare:0.374
+bureaucratic_accommodation_as_extraction_persistence|snare|tangled_rope|0.614666|0.616575|tangled_rope:0.615 snare:0.382
+bureaucratic_self_preservation|snare|tangled_rope|0.748855|0.685159|tangled_rope:0.749 snare:0.251
+categorical_boundary_as_cognitive_load_limiter|tangled_rope|rope|0.960025|0.906287|rope:0.960 scaffold:0.040
+categorical_instrument_blindness|tangled_rope|rope|0.960025|0.906287|rope:0.960 scaffold:0.040
+cn_tech_decoupling_security_software|snare|tangled_rope|0.661315|0.642717|tangled_rope:0.661 snare:0.339
+cobra_effect|snare|tangled_rope|0.748855|0.685159|tangled_rope:0.749 snare:0.251
+colorado_sbe_decentralization_friction|snare|tangled_rope|0.830864|0.746321|tangled_rope:0.831 snare:0.169
+complicity_through_competence|snare|tangled_rope|0.638884|0.634936|tangled_rope:0.639 snare:0.361
+compounding_obligation_trap|snare|tangled_rope|0.712780|0.665290|tangled_rope:0.713 snare:0.287
+consensus_without_truth|snare|tangled_rope|0.625616|0.630588|tangled_rope:0.626 snare:0.374
+constraint_coupling_amplification|snare|tangled_rope|0.993256|0.977432|tangled_rope:0.993
+conversational_dogmas_interuption|snare|tangled_rope|0.877436|0.792372|tangled_rope:0.877 snare:0.123
+coordination_attack_vulnerability|snare|tangled_rope|0.877436|0.792372|tangled_rope:0.877 snare:0.123
+coordination_fatigue|snare|tangled_rope|0.892320|0.809110|tangled_rope:0.892 snare:0.108
+copyright_protection|snare|tangled_rope|0.838132|0.752889|tangled_rope:0.838 snare:0.162
+cuny_light_2026|tangled_rope|mountain|0.998906|0.994873|mountain:0.999
+debt_trap_compounding|snare|tangled_rope|0.949164|0.883216|tangled_rope:0.949 snare:0.049
+decapitation_as_regime_change|snare|tangled_rope|0.655523|0.640565|tangled_rope:0.656 snare:0.344
+delta_force_selection_2026|snare|tangled_rope|0.891218|0.808031|tangled_rope:0.891 snare:0.109
+digital_euro_cbdc|snare|tangled_rope|0.877436|0.792372|tangled_rope:0.877 snare:0.123
+dionysaic_frenzy|snare|tangled_rope|0.830864|0.746321|tangled_rope:0.831 snare:0.169
+discover_core_2026|snare|tangled_rope|0.840459|0.754762|tangled_rope:0.840 snare:0.159
+disney_openai_ip_exclusivity|snare|tangled_rope|0.760809|0.692954|tangled_rope:0.761 snare:0.239
+documentation_fidelity_collapse|snare|tangled_rope|0.614666|0.616575|tangled_rope:0.615 snare:0.382
+doomsday_clock_framework|snare|tangled_rope|0.840459|0.754762|tangled_rope:0.840 snare:0.159
+e2ee_digital_privacy_2026|snare|tangled_rope|0.781889|0.707258|tangled_rope:0.782 snare:0.218
+elite_overproduction_instability|snare|tangled_rope|0.682319|0.651076|tangled_rope:0.682 snare:0.318
+enforcement_gap_exploitation|tangled_rope|rope|0.862659|0.776603|rope:0.863 scaffold:0.137
+epistemic_process_of_verification|tangled_rope|rope|0.939175|0.870155|rope:0.939 scaffold:0.060
+erasmus_rejoining_scaffold|tangled_rope|rope|0.783831|0.703909|rope:0.784 tangled_rope:0.215
+error_induced_stability|snare|tangled_rope|0.638884|0.634936|tangled_rope:0.639 snare:0.361
+eu_russian_asset_freeze_2025|snare|tangled_rope|0.803835|0.723709|tangled_rope:0.804 snare:0.196
+exclusion_as_preparation|tangled_rope|rope|0.725047|0.671762|rope:0.725 scaffold:0.275
+expert_disempowerment|snare|tangled_rope|0.677836|0.649147|tangled_rope:0.678 snare:0.322
+fatf_grey_list_russia|snare|tangled_rope|0.677836|0.649147|tangled_rope:0.678 snare:0.322
+fda_accelerated_approval_alz|snare|tangled_rope|0.818755|0.735764|tangled_rope:0.819 snare:0.181
+fda_gonorrhea_efficacy_standard|snare|tangled_rope|0.843040|0.757340|tangled_rope:0.843 snare:0.157
+fed_shutdown_2026|snare|tangled_rope|0.677265|0.640657|tangled_rope:0.677 snare:0.320
+financialization_drag|snare|tangled_rope|0.677836|0.649147|tangled_rope:0.678 snare:0.322
+fiscal_dominance_trap|snare|tangled_rope|0.803786|0.723674|tangled_rope:0.804 snare:0.196
+floating_wall_2026|snare|tangled_rope|0.625616|0.630588|tangled_rope:0.626 snare:0.374
+formalization_translation_rope|tangled_rope|rope|0.887044|0.803182|rope:0.887 scaffold:0.113
+frankenstein_creation_hubris|snare|tangled_rope|0.684908|0.652203|tangled_rope:0.685 snare:0.315
+fraser_river_salmon_regulation|snare|tangled_rope|0.675948|0.648333|tangled_rope:0.676 snare:0.324
+friction_as_intervention_medium|tangled_rope|rope|0.725047|0.671762|rope:0.725 scaffold:0.275
+gaza_border_control_rafah|snare|tangled_rope|0.906998|0.827227|tangled_rope:0.907 snare:0.093
+gbff_funding_mechanism|snare|tangled_rope|0.840459|0.754762|tangled_rope:0.840 snare:0.159
+genetic_algorithms_evolution|tangled_rope|rope|0.956276|0.899742|rope:0.956 scaffold:0.044
+global_stimulus_spree|snare|tangled_rope|0.684908|0.652203|tangled_rope:0.685 snare:0.315
+gold_fomo_cycle|snare|tangled_rope|0.748855|0.685159|tangled_rope:0.749 snare:0.251
+goodharts_law|snare|tangled_rope|0.840459|0.754762|tangled_rope:0.840 snare:0.159
+gpt_store_marketplace|snare|tangled_rope|0.843040|0.757340|tangled_rope:0.843 snare:0.157
+grete_samsa_transition|snare|tangled_rope|0.684908|0.652203|tangled_rope:0.685 snare:0.315
+hk_nsl_civic_party_disbandment|snare|tangled_rope|0.988974|0.964066|tangled_rope:0.989
+hoa_covenants|snare|tangled_rope|0.820034|0.736870|tangled_rope:0.820 snare:0.180
+horizon_liability_contract|snare|tangled_rope|0.834141|0.749245|tangled_rope:0.834 snare:0.166
+ice_safe_departure|snare|tangled_rope|0.830864|0.746321|tangled_rope:0.831 snare:0.169
+idf_knock_on_roof_policy|snare|tangled_rope|0.625616|0.630588|tangled_rope:0.626 snare:0.374
+incumbent_steel_production|snare|tangled_rope|0.878616|0.793680|tangled_rope:0.879 snare:0.121
+indexical_extraction_asymmetry|snare|tangled_rope|0.753919|0.688580|tangled_rope:0.754 snare:0.246
+indo_russian_submarine_lease_2025|snare|tangled_rope|0.830864|0.746321|tangled_rope:0.831 snare:0.169
+indonesia_penal_code_2023|snare|tangled_rope|0.630118|0.632125|tangled_rope:0.630 snare:0.370
+informant_recruitment_through_false_solidarity|snare|tangled_rope|0.670159|0.643941|tangled_rope:0.670 snare:0.329
+infrastructure_interoperability_decay|snare|tangled_rope|0.898701|0.816974|tangled_rope:0.899 snare:0.101
+institutional_framing_tangled_rope|snare|tangled_rope|0.840459|0.754762|tangled_rope:0.840 snare:0.159
+iran_hijab_law|snare|tangled_rope|0.814278|0.731414|tangled_rope:0.814 snare:0.186
+iran_nuclear_deal_informal_2023|snare|tangled_rope|0.818755|0.735764|tangled_rope:0.819 snare:0.181
+israel_override_clause|snare|tangled_rope|0.705088|0.661508|tangled_rope:0.705 snare:0.295
+jordan_microfinance|snare|tangled_rope|0.677836|0.649147|tangled_rope:0.678 snare:0.322
+kidney_exchange_market|tangled_rope|rope|0.980642|0.942972|rope:0.981 scaffold:0.017
+kim_jong_un_succession|snare|tangled_rope|0.886946|0.780395|tangled_rope:0.887 snare:0.100 piton:0.013
+legibility_asymmetry_as_survival|tangled_rope|rope|0.871246|0.785623|rope:0.871 scaffold:0.129
+lehman_repo_105|snare|piton|0.860475|0.727714|tangled_rope:0.040 snare:0.099 piton:0.860
+lung_transplant_protocol|snare|tangled_rope|0.898701|0.816974|tangled_rope:0.899 snare:0.101
+maha_recovery_2026|snare|tangled_rope|0.682319|0.651076|tangled_rope:0.682 snare:0.318
+meta_nda|snare|tangled_rope|0.714458|0.666187|tangled_rope:0.714 snare:0.286
+microrobot_manipulation|tangled_rope|rope|0.864843|0.778946|rope:0.865 scaffold:0.135
+model_autonomy_creep|snare|tangled_rope|0.677836|0.649147|tangled_rope:0.678 snare:0.322
+msgs_asset_bundling|snare|tangled_rope|0.877436|0.792372|tangled_rope:0.877 snare:0.123
+ncaa_eligibility_rules|snare|tangled_rope|0.630118|0.632125|tangled_rope:0.630 snare:0.370
+necessary_day_job|snare|tangled_rope|0.830864|0.746321|tangled_rope:0.831 snare:0.169
+nero_imperial_expropriation|snare|tangled_rope|0.614666|0.616575|tangled_rope:0.615 snare:0.382
+net_zero_stabilization|snare|tangled_rope|0.675948|0.648333|tangled_rope:0.676 snare:0.324
+network_effects|snare|tangled_rope|0.898701|0.816974|tangled_rope:0.899 snare:0.101
+new_civilizational_rope|tangled_rope|rope|0.960351|0.906795|rope:0.960 scaffold:0.040
+nfl_superbowl_marketing_regulation|snare|tangled_rope|0.781514|0.706996|tangled_rope:0.782 snare:0.218
+nsl_hk|snare|tangled_rope|0.701466|0.659582|tangled_rope:0.701 snare:0.299
+nyc_metrocard_art_licensing|snare|tangled_rope|0.877436|0.792372|tangled_rope:0.877 snare:0.123
+openclaw_regulation|snare|tangled_rope|0.877436|0.792372|tangled_rope:0.877 snare:0.123
+optimization_as_entrapment|snare|tangled_rope|0.717952|0.667991|tangled_rope:0.718 snare:0.282
+orbital_data_center_2026|snare|tangled_rope|0.705088|0.661508|tangled_rope:0.705 snare:0.295
+panama_canal_ports|snare|tangled_rope|0.878616|0.793680|tangled_rope:0.879 snare:0.121
+perovskite_self_etching|snare|tangled_rope|0.830864|0.746321|tangled_rope:0.831 snare:0.169
+perseverance_ai_drive|tangled_rope|rope|0.927874|0.849370|rope:0.928 scaffold:0.070
+pla_loyalty_purge|snare|tangled_rope|0.723436|0.670881|tangled_rope:0.723 snare:0.277
+planetary_diet_constraint_2026|snare|tangled_rope|0.830864|0.746321|tangled_rope:0.831 snare:0.169
+platform_app_store_duopoly|snare|tangled_rope|0.696572|0.657464|tangled_rope:0.697 snare:0.303
+portugal_polarization_threshold_2026|snare|tangled_rope|0.830864|0.746321|tangled_rope:0.831 snare:0.169
+power_without_responsibility|snare|tangled_rope|0.625616|0.630588|tangled_rope:0.626 snare:0.374
+private_credit_market_opacity|snare|tangled_rope|0.705088|0.661508|tangled_rope:0.705 snare:0.295
+project_vault_extraction_2026|snare|tangled_rope|0.686763|0.653041|tangled_rope:0.687 snare:0.313
+proof_of_work_consensus|snare|tangled_rope|0.878616|0.793680|tangled_rope:0.879 snare:0.121
+protocol_capture_tangled_rope|snare|tangled_rope|0.803786|0.723674|tangled_rope:0.804 snare:0.196
+protocol_inversion_as_constraint_escape|snare|tangled_rope|0.878616|0.793680|tangled_rope:0.879 snare:0.121
+protocol_rigidity_under_unclassified_variance|tangled_rope|rope|0.994981|0.981141|rope:0.995
+quellcrist_falconer_justice|snare|tangled_rope|0.619312|0.628861|tangled_rope:0.619 snare:0.381
+quota_ratchet_asymmetry|snare|tangled_rope|0.717952|0.667991|tangled_rope:0.718 snare:0.282
+rare_earth_export_restrictions|snare|tangled_rope|0.760809|0.692954|tangled_rope:0.761 snare:0.239
+rare_earth_seabed_mining|snare|tangled_rope|0.803786|0.723674|tangled_rope:0.804 snare:0.196
+rent_seeking_equilibrium|snare|tangled_rope|0.675948|0.648333|tangled_rope:0.676 snare:0.324
+reputation_as_distributed_enforcement|snare|tangled_rope|0.878616|0.793680|tangled_rope:0.879 snare:0.121
+retroactive_criminalization_of_coerced_acts|snare|tangled_rope|0.988974|0.964066|tangled_rope:0.989
+risk_socialization_threshold|snare|tangled_rope|0.677836|0.649147|tangled_rope:0.678 snare:0.322
+ritualistic_transition_scaffold|tangled_rope|rope|0.748821|0.684834|rope:0.749 tangled_rope:0.251
+rogers_commission_institutional_analysis|snare|tangled_rope|0.625616|0.630588|tangled_rope:0.626 snare:0.374
+rotation_seven_kubo_ranking|snare|tangled_rope|0.619312|0.628861|tangled_rope:0.619 snare:0.381
+rules_based_international_order|snare|tangled_rope|0.748855|0.685159|tangled_rope:0.749 snare:0.251
+s1_visa_judgment_sharing_agreement|snare|tangled_rope|0.878616|0.793680|tangled_rope:0.879 snare:0.121
+silklink_2026|snare|tangled_rope|0.819379|0.736376|tangled_rope:0.819 snare:0.181
+social_narrative_casting|snare|tangled_rope|0.820034|0.736870|tangled_rope:0.820 snare:0.180
+streaming_bundling_mandate|snare|tangled_rope|0.803786|0.723674|tangled_rope:0.804 snare:0.196
+taiwan_storm_2026|snare|tangled_rope|0.696572|0.657464|tangled_rope:0.697 snare:0.303
+taiwan_strait_hegemony_shift|snare|tangled_rope|0.752339|0.687597|tangled_rope:0.752 snare:0.248
+taliban_slavery_law_2024|snare|tangled_rope|0.995283|0.983273|tangled_rope:0.995
+texas_hispanic_political_pivot|snare|tangled_rope|0.840459|0.754762|tangled_rope:0.840 snare:0.159
+thai_senate_veto_2026|snare|tangled_rope|0.877436|0.792372|tangled_rope:0.877 snare:0.123
+transformation_as_threshold_marker|snare|tangled_rope|0.865676|0.779811|tangled_rope:0.866 snare:0.134
+trump_epa_greenhouse_gas_reversal|snare|tangled_rope|0.705088|0.661508|tangled_rope:0.705 snare:0.295
+uk_help_to_buy_scheme|snare|tangled_rope|0.840459|0.754762|tangled_rope:0.840 snare:0.159
+ukraine_tight_gas_pilot|snare|tangled_rope|0.877436|0.792372|tangled_rope:0.877 snare:0.123
+ulysses_chp15|snare|tangled_rope|0.695703|0.600561|tangled_rope:0.696 snare:0.031 piton:0.273
+unilateral_condition_control|snare|tangled_rope|0.705088|0.661508|tangled_rope:0.705 snare:0.295
+union_protection_underperformance|snare|tangled_rope|0.877436|0.792372|tangled_rope:0.877 snare:0.123
+unrwa_eviction_order|snare|tangled_rope|0.625616|0.630588|tangled_rope:0.626 snare:0.374
+us_isolationism_policy_2026|snare|tangled_rope|0.625616|0.630588|tangled_rope:0.626 snare:0.374
+us_sanctions_moex_2024|snare|tangled_rope|0.735800|0.677741|tangled_rope:0.736 snare:0.264
+us_two_party_duopoly|snare|tangled_rope|0.630118|0.632125|tangled_rope:0.630 snare:0.370
+us_venezuela_oil_pressure|snare|tangled_rope|0.775898|0.703045|tangled_rope:0.776 snare:0.224
+us_venezuela_plausible_deniability_2025|snare|tangled_rope|0.625616|0.630588|tangled_rope:0.626 snare:0.374
+us_visa_lottery|snare|tangled_rope|0.830864|0.746321|tangled_rope:0.831 snare:0.169
+venezuela_oil_privatization_v1|snare|tangled_rope|0.630118|0.632125|tangled_rope:0.630 snare:0.370
+viral_emergence_covid19_exemplar|snare|tangled_rope|0.824793|0.740984|tangled_rope:0.825 snare:0.175
+winners_curse|snare|tangled_rope|0.877436|0.792372|tangled_rope:0.877 snare:0.123
+winter_olympics_2026|snare|tangled_rope|0.677265|0.640657|tangled_rope:0.677 snare:0.320
+yt_ai_slop_incentive|snare|tangled_rope|0.677836|0.649147|tangled_rope:0.678 snare:0.322
+ROPE_CLUSTER_ONLY: 169
+INVOLVES_MTN_SCAFFOLD_PITON: 2
+MOUNTAIN_PITON_DISAGREEMENTS:
+  MTN_PITON: cuny_light_2026 det=tangled_rope shadow=mountain eps=0.08 supp=0.02 theater=0.15 sig=false_ci_rope dist=mountain:0.999
+  MTN_PITON: lehman_repo_105 det=snare shadow=piton eps=0.78 supp=0.82 theater=0.88 sig=constructed_high_extraction dist=tangled_rope:0.040 snare:0.099 piton:0.860
+MEAN_SHADOW_TOP_P: 0.784717
+=== END TASK 3 ===
+
+=== TASK 4: NON-OVERLAPPING POPULATION ===
+HARD_TOTAL: 171
+MULTI_TYPE_ORBIT: 153
+SINGLE_TYPE_ORBIT: 18
+OVERLAP_PCT: 89.47
+SINGLE_TYPE_DETAILS:
+Constraint|DetType|ShadowType|OrbitTypes|Eps|Supp|Theater|NearestBoundary|BoundaryDist
+brazil_hiv_vtn_elimination|tangled_rope|rope|tangled_rope|0.22|0.35|0.38|rope_chi_ceiling|0.048615250112812924
+categorical_boundary_as_cognitive_load_limiter|tangled_rope|rope|tangled_rope|0.18|0.22|0.35|rope_chi_ceiling|0.10341247736502876
+categorical_instrument_blindness|tangled_rope|rope|tangled_rope|0.18|0.22|0.35|rope_chi_ceiling|0.10341247736502876
+cuny_light_2026|tangled_rope|mountain|tangled_rope|0.08|0.02|0.15|mountain_supp_ceiling|0.030000000000000002
+enforcement_gap_exploitation|tangled_rope|rope|tangled_rope|0.18|0.35|0.28|tangled_rope_supp_floor|0.050000000000000044
+epistemic_process_of_verification|tangled_rope|rope|tangled_rope|0.32|0.28|0.35|rope_chi_ceiling|0.0883778180177267
+erasmus_rejoining_scaffold|tangled_rope|rope|tangled_rope|0.28|0.35|0.52|rope_chi_ceiling|0.0335805907655109
+exclusion_as_preparation|tangled_rope|rope|tangled_rope|0.18|0.22|0.15|rope_chi_ceiling|0.10341247736502876
+formalization_translation_rope|tangled_rope|rope|tangled_rope|0.18|0.12|0.25|mountain_supp_ceiling|0.06999999999999999
+friction_as_intervention_medium|tangled_rope|rope|tangled_rope|0.18|0.22|0.15|rope_chi_ceiling|0.10341247736502876
+genetic_algorithms_evolution|tangled_rope|rope|tangled_rope|0.15|0.08|0.25|mountain_supp_ceiling|0.03
+kidney_exchange_market|tangled_rope|rope|tangled_rope|0.28|0.35|0.42|rope_chi_ceiling|0.0335805907655109
+legibility_asymmetry_as_survival|tangled_rope|rope|tangled_rope|0.18|0.32|0.28|tangled_rope_supp_floor|0.08000000000000002
+microrobot_manipulation|tangled_rope|rope|tangled_rope|0.18|0.08|0.22|mountain_supp_ceiling|0.03
+new_civilizational_rope|tangled_rope|rope|tangled_rope|0.28|0.18|0.35|rope_chi_ceiling|0.0335805907655109
+perseverance_ai_drive|tangled_rope|rope|tangled_rope|0.28|0.42|0.35|tangled_rope_supp_floor|0.019999999999999962
+protocol_rigidity_under_unclassified_variance|tangled_rope|rope|tangled_rope|0.22|0.35|0.48|rope_chi_ceiling|0.048615250112812924
+ritualistic_transition_scaffold|tangled_rope|rope|tangled_rope|0.28|0.35|0.65|rope_chi_ceiling|0.0335805907655109
+INVERSE_CHECK:
+Constraint|DetType|H_norm|OrbitTypes
+INVERSE_COUNT: 182
+adaptive_lag_trap|tangled_rope|0.070955|naturalized/tangled_rope
+agg1_genetic_determinism|snare|0.245238|naturalized/snare/tangled_rope
+ai_task_horizon_reliability|snare|0.253679|naturalized/rope/snare/tangled_rope
+airport_slot_use_it_or_lose_it|tangled_rope|0.049245|naturalized/tangled_rope
+alzheimers_levetiracetam|snare|0.220176|naturalized/snare/tangled_rope
+anticipatory_capacity_failure|snare|0.276326|rope/snare/tangled_rope
+apartheid_nuclear_program|snare|0.028996|naturalized/rope/snare
+arg_ev_tariff|snare|0.207628|naturalized/snare/tangled_rope
+armra_colostrum_regulation|snare|0.220176|snare/tangled_rope
+asshole_filter_2015|snare|0.207628|rope/snare/tangled_rope
+asymmetric_coordination_extraction|snare|0.206320|rope/snare/tangled_rope
+attritional_warfare_doctrine_ru_ua_2026|snare|0.057211|rope/snare/tangled_rope
+automatic_enrollment_defaults|tangled_rope|0.111998|rope/tangled_rope
+axiom_of_choice_determinacy|mountain|0.000496|mountain/rope
+bgs_eigenvector_thermalization|rope|0.009581|rope/tangled_rope
+blackstone_tax_receiveable_agreement|tangled_rope|0.008372|rope/tangled_rope
+board_of_peace_2026|tangled_rope|0.074461|rope/tangled_rope
+boiled_pineapple_trend_2026|rope|0.197825|piton/rope
+boltzmann_universality_2026|mountain|0.000496|mountain/rope
+brazil_mexico_financial_requirement|snare|0.247111|rope/snare/tangled_rope
+brilliance_as_structural_liability|snare|0.116784|rope/snare
+categorical_violence_as_structural_exclusion|tangled_rope|0.006708|rope/tangled_rope
+champions_bass_fishing_exclusion|tangled_rope|0.058277|rope/tangled_rope
+clarification_loop_structure|tangled_rope|0.041890|rope/tangled_rope
+climate_attribution_2026|tangled_rope|0.072760|naturalized/tangled_rope
+climate_catastrophe_belief|tangled_rope|0.146627|rope/tangled_rope
+colorado_sbe_decentralization_friction|snare|0.253679|naturalized/rope/snare/tangled_rope
+comitatus_bond|tangled_rope|0.013717|rope/tangled_rope
+commercial_data_brokerage|snare|0.075554|scaffold/snare/tangled_rope
+complexity_debt|tangled_rope|0.074461|naturalized/tangled_rope
+constraint_coupling_amplification|snare|0.022568|rope/snare
+conversational_dogmas_interuption|snare|0.207628|rope/snare/tangled_rope
+coordination_attack_vulnerability|snare|0.207628|rope/snare/tangled_rope
+coordination_failure_universality|snare|0.077947|naturalized/rope/snare
+coordination_fatigue|snare|0.190890|naturalized/snare/tangled_rope
+coordination_threshold_failure|tangled_rope|0.002111|rope/tangled_rope
+copyright_protection|snare|0.247111|naturalized/rope/snare/tangled_rope
+couples_residency_match|tangled_rope|0.002111|rope/tangled_rope
+cultural_refragmentation_2026|snare|0.080494|scaffold/snare
+dark_patterns_manipulation|snare|0.078167|scaffold/snare/tangled_rope
+dead_sea_effect|tangled_rope|0.001437|naturalized/tangled_rope
+debt_leverage_as_consent_manufacturing|tangled_rope|0.006708|rope/tangled_rope
+debt_trap_compounding|snare|0.116784|rope/snare
+debt_trap_microfinance|snare|0.097178|scaffold/snare/tangled_rope
+delta_force_selection_2026|snare|0.191969|rope/snare
+demand_response_cost_shift|tangled_rope|0.070955|rope/tangled_rope
+digital_euro_cbdc|snare|0.207628|naturalized/rope/snare/tangled_rope
+dionysaic_frenzy|snare|0.253679|naturalized/rope/snare/tangled_rope
+discover_core_2026|snare|0.245238|naturalized/rope/snare/tangled_rope
+distributed_memory_as_counter_disposal|tangled_rope|0.054337|naturalized/tangled_rope
+doomsday_clock_framework|snare|0.245238|naturalized/snare/tangled_rope
+dunning_kruger_effect|tangled_rope|0.001942|rope/tangled_rope
+duty_contamination_by_extraction|tangled_rope|0.003738|naturalized/tangled_rope
+e2ee_digital_privacy_2026|snare|0.292742|naturalized/rope/snare/tangled_rope
+epistemic_authority_erosion_through_unresolvable_anomaly|tangled_rope|0.081834|naturalized/rope/tangled_rope
+ergo_nipopows|tangled_rope|0.004137|rope/tangled_rope
+escalation_control_asymmetry|tangled_rope|0.026131|rope/tangled_rope
+eu_russian_asset_freeze_2025|snare|0.276291|naturalized/rope/snare
+exclusionary_coordination_asymmetry|tangled_rope|0.081834|rope/tangled_rope
+exploration_vs_exploitation|tangled_rope|0.002046|rope/tangled_rope
+false_mountain_persistence|tangled_rope|0.081834|naturalized/tangled_rope
+fda_accelerated_approval_alz|snare|0.264236|naturalized/rope/snare/tangled_rope
+fda_component_efficacy_standard|tangled_rope|0.001592|rope/tangled_rope
+fda_gonorrhea_efficacy_standard|snare|0.242660|rope/snare/tangled_rope
+finnish_ubi_experiment|tangled_rope|0.002375|scaffold/tangled_rope
+fiscal_dominance_trap|snare|0.276326|naturalized/snare/tangled_rope
+fiscal_equalization_friction|tangled_rope|0.001841|rope/tangled_rope
+fmt_oncology_realignment_2026|tangled_rope|0.001450|rope/tangled_rope
+fragmentation_as_arbitrage|tangled_rope|0.005564|rope/tangled_rope
+gale_shapley|tangled_rope|0.003182|rope/tangled_rope
+gaza_border_control_rafah|snare|0.172773|rope/snare
+gbff_funding_mechanism|snare|0.245238|naturalized/rope/snare/tangled_rope
+genetic_predisposition|snare|0.088796|scaffold/snare/tangled_rope
+goodharts_law|snare|0.245238|naturalized/snare/tangled_rope
+gpt_store_marketplace|snare|0.242660|rope/snare/tangled_rope
+hasbro_licensing_restriction|tangled_rope|0.058277|rope/tangled_rope
+hicbc_uk|tangled_rope|0.001505|rope/tangled_rope
+hk_nsl_civic_party_disbandment|snare|0.035934|rope/snare/tangled_rope
+hoa_covenants|snare|0.263130|naturalized/rope/snare/tangled_rope
+horizon_liability_contract|snare|0.250755|naturalized/rope/snare
+hormuz_leverage_paradox|tangled_rope|0.081834|rope/tangled_rope
+ice_safe_departure|snare|0.253679|rope/snare/tangled_rope
+incentive_surface_warping|tangled_rope|0.002375|rope/tangled_rope
+incumbent_steel_production|snare|0.206320|naturalized/rope/snare/tangled_rope
+independent_criticism_patronage|tangled_rope|0.003844|rope/tangled_rope
+india_france_horizon_2047|tangled_rope|0.071609|naturalized/tangled_rope
+indo_german_defense_pact|tangled_rope|0.071609|naturalized/tangled_rope
+indo_russian_submarine_lease_2025|snare|0.253679|rope/snare/tangled_rope
+infrastructure_interoperability_decay|snare|0.183026|naturalized/rope/snare/tangled_rope
+institutional_framing_tangled_rope|snare|0.245238|naturalized/rope/snare/tangled_rope
+institutional_mandate_vs_autonomy|tangled_rope|0.088493|rope/tangled_rope
+institutional_mutation_domestication|tangled_rope|0.072760|rope/tangled_rope
+institutional_mutation_without_selection|snare|0.029064|piton/rope/snare/tangled_rope
+insult_wisdom_training|snare|0.090015|scaffold/snare/tangled_rope
+intelligence_as_sovereignty_transfer|tangled_rope|0.002111|rope/tangled_rope
+internet_evolution_lifecycle|tangled_rope|0.023102|naturalized/tangled_rope
+iran_hijab_law|snare|0.268586|naturalized/rope/snare
+iran_nuclear_deal_informal_2023|snare|0.264236|naturalized/snare/tangled_rope
+israel_norwegian_law|tangled_rope|0.001942|rope/tangled_rope
+israel_surplus_vote_agreements|tangled_rope|0.025692|rope/tangled_rope
+kardashev_scale_progress_narrative|tangled_rope|0.074461|naturalized/tangled_rope
+kim_jong_un_succession|snare|0.219605|rope/snare/tangled_rope
+lehman_repo_105|snare|0.272286|piton/rope/snare
+linguistic_relativity_cultural_framing|tangled_rope|0.002145|naturalized/tangled_rope
+lp_pikachu_illustrator|snare|0.126050|piton/rope/snare
+lung_transplant_protocol|snare|0.183026|rope/snare/tangled_rope
+magna_carta_liberties|tangled_rope|0.015397|rope/tangled_rope
+manga_distribution_duopoly|snare|0.009191|naturalized/rope/snare/tangled_rope
+mco_unit_system_discontinuity|rope|0.094131|piton/rope
+measurement_timing_authority_erosion|tangled_rope|0.005564|rope/tangled_rope
+med_diet_consensus_2026|tangled_rope|0.002237|rope/tangled_rope
+medical_residency_match|tangled_rope|0.006708|rope/tangled_rope
+meritocratic_ideology_as_error_propagation|tangled_rope|0.088493|naturalized/rope/tangled_rope
+meta_nuclear_power_agreement|tangled_rope|0.001437|rope/tangled_rope
+moltbook_breach_2026|snare|0.003647|naturalized/rope/snare
+msgs_asset_bundling|snare|0.207628|rope/snare/tangled_rope
+mythic_scaffolding_vs_formal_fragmentation|tangled_rope|0.005564|rope/tangled_rope
+narrative_engineering_2026|tangled_rope|0.002046|naturalized/tangled_rope
+narrative_overfitting|tangled_rope|0.074461|naturalized/tangled_rope
+necessary_day_job|snare|0.253679|rope/snare/tangled_rope
+network_effects|snare|0.183026|naturalized/snare/tangled_rope
+nfl_superbowl_marketing_regulation|snare|0.293004|naturalized/rope/snare
+nyc_metrocard_art_licensing|snare|0.207628|rope/snare/tangled_rope
+oc_donation_model|tangled_rope|0.260865|rope/tangled_rope
+openai_api_access|tangled_rope|0.058277|rope/tangled_rope
+openai_health_review|snare|0.167840|scaffold/snare/tangled_rope
+openclaw_regulation|snare|0.207628|rope/snare/tangled_rope
+openscholar_peer_review|tangled_rope|0.074461|rope/tangled_rope
+oscar_campaign_spending|tangled_rope|0.002375|naturalized/tangled_rope
+panama_canal_ports|snare|0.206320|rope/snare/tangled_rope
+perovskite_self_etching|snare|0.253679|naturalized/rope/snare/tangled_rope
+pla_aerial_carrier_doctrine|snare|0.006184|naturalized/rope/snare/tangled_rope
+planetary_diet_constraint_2026|snare|0.253679|naturalized/snare/tangled_rope
+platform_cooperativism_governance|tangled_rope|0.072760|rope/tangled_rope
+portugal_polarization_threshold_2026|snare|0.253679|naturalized/rope/snare/tangled_rope
+prisoners_dilemma_equilibrium|mountain|0.000307|mountain/rope
+procedural_legitimacy_decay|snare|0.208371|rope/snare/tangled_rope
+proof_of_work_consensus|snare|0.206320|naturalized/snare/tangled_rope
+protocol_capture_tangled_rope|snare|0.276326|naturalized/snare/tangled_rope
+protocol_drift_accumulation|tangled_rope|0.074461|rope/tangled_rope
+protocol_inversion_as_constraint_escape|snare|0.206320|naturalized/snare/tangled_rope
+purity_drift_degradation|tangled_rope|0.081834|rope/tangled_rope
+rare_earth_seabed_mining|snare|0.276326|naturalized/snare/tangled_rope
+redemption_ambiguity|tangled_rope|0.004462|rope/tangled_rope
+reputation_as_distributed_enforcement|snare|0.206320|naturalized/rope/snare/tangled_rope
+retroactive_criminalization_of_coerced_acts|snare|0.035934|rope/snare/tangled_rope
+role_capture_through_cost_asymmetry|tangled_rope|0.081834|naturalized/rope/tangled_rope
+s1_visa_judgment_sharing_agreement|snare|0.206320|naturalized/snare/tangled_rope
+scam_doubt_manufacturing|snare|0.073966|scaffold/snare
+semiconductor_fabrication_chokepoint|snare|0.118964|scaffold/snare/tangled_rope
+silklink_2026|snare|0.263624|naturalized/snare/tangled_rope
+skills_based_hiring|tangled_rope|0.004137|rope/tangled_rope
+social_narrative_casting|snare|0.263130|rope/snare/tangled_rope
+sovereignty_as_arbitrage|tangled_rope|0.074461|naturalized/tangled_rope
+streaming_bundling_mandate|snare|0.276326|naturalized/rope/snare/tangled_rope
+structural_extraction_without_actor|snare|0.113250|piton/snare/tangled_rope
+taliban_slavery_law_2024|snare|0.016727|rope/snare/tangled_rope
+teaching_horses_to_sing|snare|0.031748|rope/snare
+temporal_scarcity|tangled_rope|0.074461|rope/tangled_rope
+texas_hispanic_political_pivot|snare|0.245238|naturalized/snare/tangled_rope
+thai_article_112_mountain|mountain|0.039611|mountain/rope
+thai_senate_veto_2026|snare|0.207628|rope/snare/tangled_rope
+transformation_as_threshold_marker|snare|0.220189|naturalized/snare
+trump_indian_tariffs_2026|tangled_rope|0.002145|naturalized/tangled_rope
+uk_help_to_buy_scheme|snare|0.245238|naturalized/rope/snare/tangled_rope
+uk_ssp_eligibility|snare|0.191518|scaffold/snare/tangled_rope
+uk_unpaid_care_system|snare|0.076068|scaffold/snare/tangled_rope
+ukraine_tight_gas_pilot|snare|0.207628|naturalized/snare/tangled_rope
+ulysses_chp01|snare|0.077947|scaffold/snare
+ulysses_chp09|tangled_rope|0.002535|naturalized/tangled_rope
+ulysses_chp13|snare|0.077947|scaffold/snare
+unclos_2026|tangled_rope|0.073259|naturalized/tangled_rope
+unconditional_university_offers_uk|tangled_rope|0.072760|rope/tangled_rope
+union_protection_underperformance|snare|0.207628|naturalized/rope/snare/tangled_rope
+us_greenland_envoy|snare|0.208371|rope/snare/tangled_rope
+us_venezuela_oil_pressure|snare|0.296955|naturalized/rope/snare
+us_visa_lottery|snare|0.253679|naturalized/snare/tangled_rope
+viral_emergence_covid19_exemplar|snare|0.259016|naturalized/rope/snare/tangled_rope
+winners_curse|snare|0.207628|rope/snare/tangled_rope
+witness_obligation_without_recipient|tangled_rope|0.088493|rope/tangled_rope
+worldscale_vlsfo_benchmark|tangled_rope|0.001437|rope/tangled_rope
+yoneda_lemma|mountain|0.000496|mountain/rope
+=== END TASK 4 ===
+
+=== TASK 5: GAUSSIAN PROFILES ===
+EMPIRICAL_PROFILES:
+Type|Metric|Mu|Sigma
+mountain|extractiveness|0.099868|0.029633
+mountain|suppression|0.023377|0.010000
+mountain|theater|0.127152|0.042619
+rope|extractiveness|0.205714|0.089898
+rope|suppression|0.280000|0.201424
+rope|theater|0.462857|0.249955
+tangled_rope|extractiveness|0.515758|0.113985
+tangled_rope|suppression|0.607136|0.125079
+tangled_rope|theater|0.579742|0.114358
+snare|extractiveness|0.594114|0.065624
+snare|suppression|0.696857|0.059980
+snare|theater|0.597886|0.106827
+scaffold|extractiveness|0.200000|0.120000
+scaffold|suppression|0.380000|0.200000
+scaffold|theater|0.140000|0.120000
+piton|extractiveness|0.650000|0.150000
+piton|suppression|0.690000|0.150000
+piton|theater|0.850000|0.080000
+LARGE_SIGMA_FLAGS:
+ROPE_EPS_DISTRIBUTION:
+ROPE_EPS_COUNT: 7
+  ROPE_EPS: 0.120000
+  ROPE_EPS: 0.180000
+  ROPE_EPS: 0.180000
+  ROPE_EPS: 0.180000
+  ROPE_EPS: 0.180000
+  ROPE_EPS: 0.180000
+  ROPE_EPS: 0.420000
+ROPE_EPS_BINS: [0,0.25]=6 [0.25,0.50]=1 [0.50,1.0]=0
+OVERRIDE_ROPE_ANALYSIS:
+OVERRIDE_ROPE_COUNT: 4
+  OVERRIDE_ROPE: ergo_lets_protocol sig=coupling_invariant_rope eps=0.180000 hn=0.155706
+  OVERRIDE_ROPE: guinea_worm_eradication sig=coupling_invariant_rope eps=0.120000 hn=0.155706
+  OVERRIDE_ROPE: open_source_commons sig=coupling_invariant_rope eps=0.180000 hn=0.155706
+  OVERRIDE_ROPE: stable_marriage_coordination sig=coupling_invariant_rope eps=0.180000 hn=0.155706
+NON_OVERRIDE_ROPE_ENTROPY_MEAN: 0.100513 (n=3)
+OVERRIDE_ROPE_ENTROPY_MEAN: 0.155706 (n=4)
+ALL_TYPE_EPS_STATS:
+  mountain: n=151 mean=0.099868 std=0.029633 min=0.000000 max=0.220000
+  rope: n=7 mean=0.205714 std=0.089898 min=0.120000 max=0.420000
+  tangled_rope: n=660 mean=0.515758 std=0.113985 min=0.080000 max=0.920000
+  snare: n=175 mean=0.594114 std=0.065624 min=0.520000 max=0.780000
+  scaffold: n=0 (insufficient)
+  piton: n=0 (insufficient)
+=== END TASK 5 ===
+
+=== TASK 6: CROSS-DIAGNOSTIC CORRELATION ===
+HIGH_ENTROPY_COUNT: 0 (threshold=0.4000)
+OMEGA_HIGH_ENTROPY: 0/0 (0.00%)
+OMEGA_LOW_ENTROPY: 1/993 (0.10%)
+BOLTZMANN_NC_HIGH_ENTROPY: 0/0 (0.00%)
+BOLTZMANN_NC_LOW_ENTROPY: 803/993 (80.87%)
+LOW_PURITY_HIGH_ENTROPY: 0/0 (0.00%)
+LOW_PURITY_LOW_ENTROPY: 680/993 (68.48%)
+PURITY_AVAILABLE_HIGH: 0/0
+PURITY_AVAILABLE_LOW: 993/993
+AVG_PURITY_HIGH_ENTROPY: na
+AVG_PURITY_LOW_ENTROPY: 0.5043440751930183
+MULTI_ORBIT_HIGH_ENTROPY: 0/0 (0.00%)
+MULTI_ORBIT_LOW_ENTROPY: 259/993 (26.08%)
+=== END TASK 6 ===
+
+=== END DIAGNOSTIC OUTPUT ===

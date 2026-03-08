@@ -1,0 +1,187 @@
+{
+  "header": {
+    "constraint_id": "ai_scholar_citation_trap",
+    "version": "1.0",
+    "generated_date": "2026-02-26",
+    "status": "ACTIVE",
+    "measurement_id_prefix": "aisch"
+  },
+  "base_properties": {
+    "extractiveness": 0.52,
+    "suppression": 0.65,
+    "theater_ratio": 0.68,
+    "claimed_type": "snare",
+    "human_readable": "AI Scholarly Citation System (OpenScholar Citation Trap)",
+    "topic_domain": "technological/epistemic_infrastructure",
+    "requires_active_enforcement": false,
+    "beneficiaries": [
+      "ai_model_developers",
+      "citation_aggregation_platforms"
+    ],
+    "victims": [
+      "research_verification_integrity",
+      "human_researchers_without_ai_access"
+    ]
+  },
+  "perspectives": [
+    {
+      "classification_type": "snare",
+      "agent_power": "powerless",
+      "time_horizon": "biographical",
+      "exit_options": "trapped",
+      "spatial_scope": "global",
+      "label": "The Epistemic Commons",
+      "comment": "PERSPECTIVE 1: EPISTEMIC COMMONS (SNARE) \u2014 Research integrity and citation reliability cannot exit the system as citation authority consolidates around AI synthesis. No alternatives exist; verification costs are borne by the field. The epistemic commons has no advocate and cannot organize to escape the constraint. Maximum experienced extraction."
+    },
+    {
+      "classification_type": "snare",
+      "agent_power": "moderate",
+      "time_horizon": "biographical",
+      "exit_options": "trapped",
+      "spatial_scope": "global",
+      "label": "Human Researchers Without AI Access",
+      "comment": "PERSPECTIVE 2: HUMAN RESEARCHERS (SNARE) \u2014 Researchers without access to proprietary AI systems face pressure to cite through OpenScholar's synthesis rather than primary sources. Career incentives reward citing high-authority AI-synthesized claims. Exit is costly: refusing AI-mediated citation creates citation coverage gaps and reduces visibility. Trapped by citation economy."
+    },
+    {
+      "classification_type": "rope",
+      "agent_power": "institutional",
+      "time_horizon": "immediate",
+      "exit_options": "arbitrage",
+      "spatial_scope": "global",
+      "label": "AI Model Developers (OpenScholar Maintainers)",
+      "comment": "PERSPECTIVE 3: AI DEVELOPERS (ROPE) \u2014 OpenScholar benefits from ecosystem integration. Developers experience the constraint as coordination: synthesizing citations enables knowledge distribution and model improvement through feedback loops. Net beneficiary through institutional arbitrage \u2014 they set citation standards and capture citation data flow."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "powerful",
+      "time_horizon": "generational",
+      "exit_options": "mobile",
+      "spatial_scope": "global",
+      "label": "Research Institutions and Publishers",
+      "comment": "PERSPECTIVE 4: INSTITUTIONS AND PUBLISHERS (TANGLED ROPE) \u2014 Universities and academic publishers both benefit (routing through institutional citations, subscription models) and bear costs (pressure to validate AI citations, maintenance burden, loss of direct researcher relationship). Powerful institutions retain mobile exit options but face coordination demands to legitimate AI citation authority."
+    },
+    {
+      "classification_type": "piton",
+      "agent_power": "institutional",
+      "time_horizon": "civilizational",
+      "exit_options": "arbitrage",
+      "spatial_scope": "global",
+      "label": "Traditional Citation Practices",
+      "comment": "PERSPECTIVE 5: CITATION RITUAL SYSTEM (PITON) \u2014 Traditional peer review of citations and manual bibliography verification is increasingly theatrical: reviewers cannot verify all citations manually when synthesized via AI. The ritual persists through institutional inertia (citation formats, review expectations) despite reduced verification capacity. Theater ratio high (0.68) reflects performative validation of AI citations passing through traditional venues."
+    },
+    {
+      "classification_type": "mountain",
+      "agent_power": "analytical",
+      "time_horizon": "civilizational",
+      "exit_options": "analytical",
+      "spatial_scope": "universal",
+      "label": "The Analytical Observer (Natural Law View)",
+      "comment": "PERSPECTIVE 6: ANALYTICAL OBSERVER (FALSE SUMMIT CHECK) \u2014 From a universal perspective, citation aggregation by any system (AI or human) requires synthesis of multiple sources and implicit judgment calls about which sources are authoritative. This perspective risks naturalizing the AI synthesis arrangement as inevitable convergence. However, structural contingencies (proprietary model training data, incentive misalignment, verification cost transfer) reveal this as a false summit \u2014 not a mountain."
+    }
+  ],
+  "omegas": [
+    {
+      "id": "citation_hallucination_threshold",
+      "question": "At what error rate (hallucinated or misattributed citations) does OpenScholar's synthesis cease to function as a coordination mechanism and become pure extraction?",
+      "resolution_mechanism": "Longitudinal audit of OpenScholar citations against primary sources; correlation between error rate and researcher reliance; comparison with human expert citation error rates",
+      "impact": "If error rate < 2%: remains coordination mechanism (Rope classification more plausible). If error rate > 8%: extraction dominates; snare classification confirmed. Current empirical status contested \u2014 OpenAI claims accuracy parity with humans; independent audits show 5-12% misattribution rates depending on domain.",
+      "confidence": "high",
+      "type_class": "empirical",
+      "description": "Citation accuracy threshold determining coordination vs extraction classification"
+    },
+    {
+      "id": "verification_cost_asymmetry",
+      "question": "Who bears the cost of verifying AI-synthesized citations \u2014 the researcher, the institution, the AI developer, or the field collectively?",
+      "resolution_mechanism": "Cost accounting across verification pathways: manual citation checking time, institutional library validation infrastructure, developer quality assurance investment, field-wide correction mechanisms (errata, retraction systems)",
+      "impact": "If developers bear most costs: Rope classification (coordination with shared burden). If field bears costs: Snare classification (extraction via verification cost transfer). Current reality: fragmented \u2014 researchers bear local costs, institutions invest in validation infrastructure, developers invest minimally in post-deployment verification.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Distribution of citation verification costs across actors"
+    },
+    {
+      "id": "citation_authority_consolidation",
+      "question": "Does OpenScholar's integration into publication workflows create path-dependent lock-in, or do alternative citation systems (manual, decentralized, human-curated) retain meaningful market share?",
+      "resolution_mechanism": "Tracking adoption curves for competing citation methodologies; analysis of citation diversity in new publications over 5-10 year horizon; network effects modeling for citation authority concentration",
+      "impact": "If lock-in: extraction mechanism is self-reinforcing (victims cannot switch); snare classification confirmed long-term. If alternatives thrive: suppression declines; constraint may degrade to Scaffold or Piton. Current status: early adoption phase \u2014 lock-in signals present but not yet irreversible.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Whether OpenScholar creates irreversible path-dependent lock-in"
+    },
+    {
+      "id": "source_attribution_reversibility",
+      "question": "Can researchers reliably trace OpenScholar's citations back to original sources and audit synthesis quality, or is the synthesis process opaque enough to create epistemic asymmetry?",
+      "resolution_mechanism": "Usability testing of citation traceability; measurement of time/expertise required to verify provenance chains; comparison with human expert citation transparency",
+      "impact": "If transparent: suppression declines; researchers retain exit option (can audit and choose alternatives). If opaque: suppression high; extraction mechanism is sustained by information asymmetry.",
+      "confidence": "high",
+      "type_class": "empirical",
+      "description": "Transparency and reversibility of AI citation synthesis"
+    }
+  ],
+  "measurements": [
+    {
+      "metric": "base_extractiveness",
+      "time_point": 0,
+      "value": 0.18
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 3,
+      "value": 0.35
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 6,
+      "value": 0.52
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 0,
+      "value": 0.32
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 3,
+      "value": 0.5
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 6,
+      "value": 0.68
+    }
+  ],
+  "interval": {
+    "start": 0,
+    "end": 6
+  },
+  "commentary": {
+    "narrative_context": "OpenScholar synthesizes scientific research with citation accuracy claimed to match human expert performance. However, the system creates a structural extraction mechanism: as researchers rely on AI-synthesized citations for efficiency, verification costs migrate from AI developers (who could validate their own output) to the field (distributed researchers and institutions). The constraint exhibits six distinct types from different perspectives. The epistemic commons (research integrity as a public good) sees pure extraction because verification failures are socialized while benefits concentrate in developer margins. Human researchers without proprietary AI access see a snare because the career incentive system rewards citing through OpenScholar's synthesis, trapping them in dependence despite asymmetric access to underlying data. Developers see coordination \u2014 synthesizing citations enables knowledge distribution and model improvement. Institutions see tangled rope \u2014 they gain routing and subscription leverage but must validate AI output. The citation ritual system itself degrades into theater (peer review cannot verify synthesized citations). The analytical observer risks naturalizing this as inevitable \u2014 citation synthesis requires judgment \u2014 but the structural contingencies (proprietary training data, misaligned incentives, asymmetric verification costs) are contingent, not necessary.",
+    "key_agents": [
+      "OpenScholar Development Team: Primary beneficiary (institutional/arbitrage) \u2014 captures citation authority and data flow; outsources verification costs to field",
+      "Research Verification Integrity: Primary victim (powerless/trapped) \u2014 epistemic commons cannot organize or exit; bears full socialization of verification failure costs",
+      "Human Researchers Without Proprietary AI Access: Secondary victim (moderate/trapped) \u2014 face career pressure to cite through OpenScholar; exit costly (citation gaps, reduced visibility)",
+      "Research Institutions and Publishers: Mixed actor (powerful/mobile) \u2014 benefit from integration and routing leverage; also bear validation and maintenance costs; retain exit options",
+      "Citation Verification Infrastructure: Institutional victim (organized/constrained) \u2014 libraries, quality assurance systems, errata mechanisms all forced to scale verification capacity",
+      "Analytical Observer: Civilizational perspective (analytical/analytical) \u2014 risks seeing inevitable coordination rather than contingent extraction"
+    ],
+    "logic_rationale": "Extractiveness (0.52): Moderate-high. OpenScholar captures efficiency gains (researchers save synthesis time) and redirects verification burden to field. The developers extract from the asymmetry: they benefit from citation authority and data flow while verification remains externalized. However, extractiveness is not maximal (0.70+) because some benefits are genuine \u2014 researchers do save time, and accurate citations improve research quality. The temporal trajectory shows increasing extractiveness: at T=0 (early adoption), OpenScholar's citations were treated as useful but not authoritative (low extraction, high trust that humans verify). By T=6, citations are accepted with minimal secondary verification, shifting verification costs downstream. Suppression (0.65): High. Multiple barriers limit researchers' exit: (1) career incentive systems reward citing through authoritative synthesis platforms; (2) institutional adoption creates path dependency; (3) lack of transparency in synthesis methodology creates asymmetric information; (4) proprietary training data prevents independent verification. Theater ratio (0.68): High. Traditional peer review for cited sources in AI-synthesized bibliographies is increasingly performative \u2014 reviewers cannot verify all citations manually. The ritual of citing 'peer-reviewed sources' persists while actual verification capacity declines. Over the interval, theater increases as OpenScholar citations proliferate beyond reviewers' capacity to check.",
+    "perspectival_gap": "The original perspective (developer/beneficiary) sees coordination and epistemic improvement \u2014 OpenScholar solves the real problem of synthesizing complex literatures. The powerless perspective (research integrity) sees pure extraction because verification failures are distributed and unsupervised. The moderate perspective (researchers without access) sees snare because the system creates path-dependent career pressure. The powerful perspective (institutions) sees tangled rope \u2014 they both benefit (subscription/routing leverage) and bear costs (validation burden). The degraded perspective (citation ritual) sees piton \u2014 peer review persists theater-like, without verification function. The analytical perspective risks seeing mountain (inevitable synthesis logic) but structural analysis reveals false summit. This perspectival gap is the diagnostic signature of the constraint \u2014 not everyone agrees the system is extractive because beneficiaries, developers, and institutional actors experience genuine coordination benefits alongside the extraction mechanism.",
+    "directionality_logic": "Directionality is driven by structural position relative to verification cost distribution. OpenScholar developers have low d (full beneficiary: they set standards, capture authority, outsource verification). Human researchers without access have high d (full target: trapped by career incentives, bear verification costs, lack access to underlying data). Institutions have moderate d (mixed: they benefit from routing but also must maintain validation infrastructure). The epistemic commons has maximum d (trapped victim: cannot organize or negotiate). The derivation from beneficiary/victim declarations: developers are primary beneficiary (low d \u2192 low/negative effective extraction for them); research integrity and non-AI-accessing researchers are victims (high d \u2192 high effective extraction against them). The sigmoid function f(d) converts raw positional vulnerability into experienced extractiveness. Beneficiary exit via arbitrage (developers can choose which platforms to supply to) keeps their experienced extraction low; victim exit blocked (researchers cannot easily exit research dependence) keeps their experienced extraction high."
+  },
+  "boltzmann": {
+    "coordination_type": "information_standard"
+  },
+  "network": {
+    "affects_constraints": [
+      "research_publication_gatekeeping",
+      "large_language_model_training_data_provenance",
+      "academic_citation_metrics_as_career_incentive"
+    ],
+    "dual_formulation_note": "The AI scholarly citation system decomposes into structural components: (1) citation synthesis accuracy (epistemic question, low \u03b5, rope/mountain), (2) verification cost distribution (institutional question, high \u03b5, snare), (3) citation authority consolidation (path-dependency question, moderate \u03b5, scaffold/tangled rope depending on timeline). This story focuses on the verification cost transfer mechanism (component 2, \u03b5=0.52) which is the primary extraction driver. Component 1 alone would classify as rope (coordination); component 2 alone is snare. The combined constraint exhibits snare dynamics because the verification cost externalization dominates the epistemic coordination benefit."
+  },
+  "directionality_overrides": [
+    {
+      "power_atom": "organized",
+      "d_value": 0.48
+    }
+  ]
+}

@@ -1,0 +1,4209 @@
+{
+  "false_mountains": [
+    {
+      "id": "abstraction_boundary_overrun",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "academic_fashion_modernism_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "academic_peer_review_gatekeeping",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "academic_tenure_system",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "access_arbitrage",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ad_fus_coordination",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "adaptive_lag_trap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "adversarial_surface_inflation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "adversarial_truth_decay",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "advice_as_dangerous_gift",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "agentive_optimism_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "agg1_genetic_determinism",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "aging_well_assessment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ai_adoption_stigma",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ai_auditability_gap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ai_banal_capture",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ai_driven_surveillance_sensor_layer",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ai_evaluators_matching",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ai_performance_watermark",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ai_professional_displacement",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ai_religion_regulation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ai_scholar_citation_trap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ai_superpowers_race_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ai_task_horizon_reliability",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ai_training_data_dependency",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "airport_slot_use_it_or_lose_it",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "algeria_france_colonial_legacy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "algorithmic_bias",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "algorithmic_epistemic_capture",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "alignment_tax_tradeoff",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "allocation_as_extraction_multiplier",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "allusive_density_as_exclusion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "altruistic_misery_paradox_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "alzheimers_levetiracetam",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "amish_technological_renunciation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ancestral_pueblo_hydrology",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ancient_grudge_verona",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "anticipatory_capacity_failure",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "antifragility",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "apartheid_nuclear_program",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ape_cognition_framework",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "appropriations_brinkmanship",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "arbitrary_enforcement_extraction",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "arctic_geopolitical_flashpoint",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "arg_ev_tariff",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "armra_colostrum_regulation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "arrows_impossibility_theorem",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "artificial_scarcity_scaffold",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "artificial_snow_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "asean_ceasefire_2011",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "asshole_filter_2015",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "asymmetric_burden_distribution",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "asymmetric_computational_difficulty",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "asymmetric_duty_structure",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "atrophied_optimization_piton",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "attention_as_bottleneck_resource",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "attention_market_cannibalization",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "attribution_ambiguity_triplet_sc",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "attritional_warfare_doctrine_ru_ua_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "au_social_media_ban_u16",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "australia_social_ban_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "authoritarian_power_paradox",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "automatic_enrollment_defaults",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "availability_heuristic",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "average_is_over_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "awareness_without_leverage",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "axiom_reasoner_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "bangladesh_july_national_charter",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "bayes_theorem",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "bedouin_sedentary_transition",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "beehiiv_platform_model",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "belief_argument_conclusion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "berkshire_compounding_culture",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "bgs_eigenvector_thermalization",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "big_data_astrophysics_arbitrage",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "biological_specification",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "bip_narrative_illusion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "blackstone_carried_interest_taxation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "blackstone_conflicts_of_interest",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "blackstone_smd_control",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "blackstone_tax_receiveable_agreement",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "board_of_peace_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "boe_base_rate_policy_2024",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "boiled_pineapple_trend_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "bonbon_drop_sticker_craze",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "boom_bust_path_dependency",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "boundary_dissolution_risk",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "brain_network_paradigm_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "brazil_2026_general_elections",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "brazil_mexico_financial_requirement",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "brilliance_as_structural_liability",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "brilliance_as_structural_trap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "broke_vs_poor_grocery_math",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "burden_of_proof_engineering_safety",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "burden_of_proof_scientific_empirical",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "bureaucratic_accommodation_as_extraction_persistence",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "bureaucratic_legibility_collapse",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "bureaucratic_self_preservation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "bwb_adeg_rewesale_conditions",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "canada_germany_ai_pact",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "canal_panama_influence",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cancer_chronotherapy_timing",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cancer_prevention",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "capability_eval_overhang",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "capital_misallocation_spiral",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "capital_rotation_ai_narrative",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "car_ownership_norm_us",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "carbon_credit_markets_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "carrier_deployment_deterrence",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "carrying_capacity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cartel_drone_surveillance_el_paso",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "castration_longevity_choice",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "categorical_violence_as_structural_exclusion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cb_far_beyond_human",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cbdc_implementation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cfius_hiefo_emcore_divestment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cg_israelgaza_20231012",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "champions_bass_fishing_exclusion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "china_africa_zero_tariff_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "china_contraceptive_tax",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "china_vactrain_standard",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cholesterol_pill_cost",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cinderella_midnight_deadline",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "civilizational_lifecycle_solara",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "civilizational_maintenance_debt",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "clawderberg_recursive_slop",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "click_chemistry_paradigm_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "climate_attribution_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "climate_catastrophe_belief",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "climate_event_attribution",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "climate_policy_extraction",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "climate_target_one_point_five",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cloudflare_dual_class_asymmetry",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cmr_001",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cn_tech_decoupling_security_software",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cobra_effect",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "codex_access",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "coe_ukraine_reparations_register",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "coffee_cardiovascular_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cognitive_bicycle_scaffold",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cognitive_diversity_arbitrage",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cognitive_energy_budget",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cognitive_hacking_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cognitive_induction_gap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cognitive_surrender_to_system_3",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "coinbase_crypto_volatility",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cold_dark_matter_paradigm",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "collective_action_as_leverage_conversion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "collective_action_blockage_via_stratification",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "collective_action_threshold",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "college_admissions_market",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "colorado_sbe_decentralization_friction",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "colossus_nero_inertia",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "columbia_2026_elections",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "comitatus_bond",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "commercial_data_brokerage",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "communal_narcissism_social_trap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "complexity_debt",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "complicity_through_competence",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "compounding_obligation_trap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "condiment_tyranny",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "confidential_ai_whatsapp",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "confirmation_bias",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "consensus_without_truth",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "constitutional_supremacy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "constraint_coupling_amplification",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "consumer_debt_slavery",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "conversational_dogmas_interuption",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "coordination_attack_vulnerability",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "coordination_extraction_invisibility",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "coordination_fatigue",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "coordination_threshold_failure",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "copyright_protection",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cost_of_observation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "couples_residency_match",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "credibility_inflation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "crisis_signal_saturation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "crispr_genomic_rewrite_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "critical_actor_overcentralization",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "crop_defense_dependency",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cross_domain_coupling_spiral",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cuba_mandatrophic_collapse",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cuban_missile_crisis_excomm_delibration",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cultural_homogenization_social_media",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cultural_memory_decay",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cultural_refragmentation_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cumbria_mine_rejection",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "dark_patterns_manipulation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "data_laundering_pipeline",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "data_privacy_regulation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "debt_leverage_as_consent_manufacturing",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "debt_service_squeeze",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "debt_trap_compounding",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "debt_trap_microfinance",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "decapitation_as_regime_change",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "decision_latency_mismatch",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "deferential_realism_core",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "deferred_risk_realization",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "delayed_feedback_instability",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "delta_force_selection_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "demand_response_cost_shift",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "demographic_inertia_trap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "denmark_asylum_outsourcing",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "devotional_transformation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "digital_credentialing_verification",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "digital_euro_cbdc",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "digital_identity_tether",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "dionysaic_frenzy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "discover_core_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "disney_openai_ip_exclusivity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "dk_foreign_convict_expulsion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "dldr_information_policy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "documentation_fidelity_collapse",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "doomsday_clock_framework",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "drc_rwanda_peace_deal_2024",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "dunning_kruger_effect",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "dutch_minority_govt_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "duty_contamination_by_extraction",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "dwp_carers_allowance_cliff",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ec_meta_manus_block",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "edelman_2026_developing_volatility",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "edelman_2026_insularity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "educational_unbundling_implementation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "elencher_identity_transformation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "elite_capture_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "elite_identity_capture_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "elite_overproduction_instability",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "elliq_ai_companion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "emergency_powers_ratchet",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "emergent_goal_misalignment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "emotional_cycles_of_change",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "empty_tomb_transformation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "endocrine_disruption_society",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "english_chinese_tense_structure",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "epigenetics_complexity_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "epistemic_authority_erosion_through_unresolvable_anomaly",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "epistemic_free_rider_problem",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "epistemic_overload_collapse",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "epstein_document_release_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ergo_dexy_gold_protocol",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ergo_nipopows",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ergo_rosen_bridge_protocol",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ergo_storage_rent",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ergo_storage_rent_mechanism",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ergodic_theorems",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "error_induced_stability",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "eu_deforestation_regulation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "eu_digital_services_act",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "eu_irgc_terrorist_designation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "eu_renewable_energy_mandate",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "eu_russian_asset_freeze_2025",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "eu_unanimity_rule_foreign_policy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "eurozone_fragmentation_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "evidence_half_life",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "evolutionary_mismatch_load",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "exclusionary_coordination_asymmetry",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "exoplanet_habitability_arbitrage",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "expert_disempowerment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "exploration_vs_exploitation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "extraordinary_narrative_shift",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "faint_blue_neural_bifurcation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "false_mountain_naturalization",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "false_mountain_persistence",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "family_estrangement_ratio",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "family_succession_and_decadence",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fatf_grey_list_russia",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fb_creator_monetization_indonesia",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fcc_dji_covered_list",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fda_accelerated_approval_alz",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fda_component_efficacy_standard",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fda_gonorrhea_efficacy_standard",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fed_shutdown_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fiat_currency_lifecycle",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "financialization_drag",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "finite_pool_of_worry",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "finnish_debt_adjustment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "finnish_ubi_experiment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fiscal_dominance_trap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fiscal_equalization_friction",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "floating_wall_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fmeca_procedures_1980",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fmt_oncology_realignment_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fnl_shadow_probe",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fptp_electoral_system",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fragile_middle_layer_collapse",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fragmentation_as_arbitrage",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "franchisee_corporate_squeeze",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "frankenstein_creation_hubris",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "french_ag_land_concentration",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "french_local_elections_march_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "future_dsm_integration_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "g7_debt_trap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gale_shapley",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gaza_aid_permit_revocation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gbff_funding_mechanism",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gemini_scientific_advancement",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "genai_mil_platform",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "genetic_predisposition",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "geopolitical_insularity_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "german_board_gender_quota",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "germany_tennet_takeover",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "germline_regulation_threshold_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gita_kurukshetra",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "global_economic_anxiety_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "global_food_market_fragility",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "global_hoarding_scaling_laws",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "global_protocol_entrenchment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "global_water_bankruptcy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "glp1_payload_efficiency_pivot",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "goal_boundary_poisoning",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gold_fomo_cycle",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "golden_handcuffs",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "goodharts_law",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "google_ai_search_overview",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "google_universal_commerce_protocol",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "governance_latency_gap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "governance_overfitting",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gpt5_codex_dev_cycle",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gpt_store_marketplace",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "great_mongolian_road_economic_dependency",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "greenland_defence_pact_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "greenland_seizure_trade_war",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "greshams_law",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "grete_samsa_transition",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "grievance_stack_overflow",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gs1_gln_identification",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "guano_wealth_extraction",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hagia_sophia_status",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hanlons_razor",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "happiness_of_others",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "harlequin_historical_line_discontinuation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "harry_potter_liberalism",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hasbro_licensing_restriction",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hawthorne_effect",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hegemonic_entropy_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "help_to_buy_uk",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "helsinki_bus_theory",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hershey_salt_strategy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "heuristic_optimization",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hicbc_uk",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hiv_prep_prevention_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hk_nsl_civic_party_disbandment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hoa_covenants",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hominin_evolutionary_bottleneck",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "horizon_liability_contract",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hormuz_leverage_paradox",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hu_2026_electoral_parity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hub_short_form_tv_market_fragmentation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hypercompression_of_time_horizons",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ibm_shield_contract_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ice_memory_archive",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ice_safe_departure",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "identity_stack_incompatibility",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "idf_knock_on_roof_policy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "incentive_surface_warping",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "incumbent_steel_production",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "independent_criticism_patronage",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "indexical_extraction_asymmetry",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "india_france_horizon_2047",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "india_nuclear_liability_act_2010",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "india_semi_mission",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "indian_ai_licensing_regime",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "indian_import_tariffs_eu",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "individual_revolution_autonomy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "individual_vs_systemic_causation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "indo_german_defense_pact",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "indonesia_penal_code_2023",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "informant_recruitment_through_false_solidarity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "information_foraging_theory",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "informational_time_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "infrastructure_interoperability_decay",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "inner_models",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "innovators_dilemma",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "institutional_framing_tangled_rope",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "institutional_inertia_lock",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "institutional_mandate_vs_autonomy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "institutional_mutation_domestication",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "institutional_mutation_without_selection",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "institutional_trust_decay",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "insult_wisdom_training",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "integrated_digital_governance_stack",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "interaction_explosion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "interface_contract_breakdown",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "internet_archive_preservation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "internet_evolution_lifecycle",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "intertemporal_responsibility_gap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "inverse_spin_valve_signature",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "iran_nuclear_deal_informal_2023",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "iron_law_of_oligarchy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "irreversible_policy_commitment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "isa_education_scaffold",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "israel_electoral_threshold",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "israel_norwegian_law",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "israel_override_clause",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "israel_surplus_vote_agreements",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "iss_ped_ban",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "iterated_function_systems",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "jevons_paradox",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "job_hunt_volume_system_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "jordan_microfinance",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "jp_eez_enforcement",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "jupiter_composition_knowledge_gap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "juvenile_underclass_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "kardashev_scale_progress_narrative",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "keltner_relationship_evaluation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "kim_jong_un_succession",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "kjv_textual_authority",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "knowledge_transmission_urgency",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "landscape_of_fear_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "large_cardinals_foundations",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "latent_regulatory_bomb",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "lcdm_hubble_tension",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "legacy_system_technical_debt",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "legal_formalism_overhang",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "legibility_trap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "legitimacy_without_capacity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "legitimacy_without_effectiveness",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "legitimation_through_objectivity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "lindy_effect",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "linguistic_relativity_cultural_framing",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "liquidity_illusion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "litchfield_sensitive_locations_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "lp_pikachu_illustrator",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "lsd_microdosing_professional_openness",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "lula_hemisphere_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "lung_transplant_protocol",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "maha_recovery_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "maintenance_capacity_shortfall",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "maladaptive_selection_process",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "mandatrophic_margin_collapse_diagnostic",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "manga_distribution_duopoly",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "manganese_catalysis_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "marriage_market_asymmetry_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "matching_markets",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "max_flow",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "measurement_timing_authority_erosion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "med_diet_consensus_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "medical_residency_match",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "medieval_church_hegemony",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "memetic_fitness_vs_truth",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "meritocratic_ideology_as_error_propagation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "meta_model_lock_in",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "meta_nda",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "meta_nuclear_power_agreement",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "meta_pay_or_okay_model",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "metabolic_constraint_cognition",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "mexican_airline_merger",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "micro_robot_electronics_integration",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "minnesota_sovereignty_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "mirror_of_erised_expectation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "misunderstanding_as_mismatch",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "mit_tfus_consciousness_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "mltt_economic_model",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "model_autonomy_creep",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "model_collapse_feedback_loop",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "model_of_models_regression",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "moltbook_agent_theater",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "moltbot_religion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "monetary_regime_transition",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "moores_law",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "moral_clarity_paralysis",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "msgs_asset_bundling",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "mutual_defection_equilibrium",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "mythic_scaffolding_vs_formal_fragmentation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "n26usc469_real_estate_exemption",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "naming_as_control",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "narcissistic_ego_maintenance",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "narrative_capacity_exhaustion",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "narrative_engineering_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "narrative_overfitting",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "nash_equilibrium_coordination",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "nato_arctic_defense_cooperation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ncaa_eligibility_rules",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "nds_2022_pacing_challenge",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "necessary_day_job",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "negative_emissions_arbitrage",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "nero_imperial_expropriation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "net_zero_stabilization",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "network_effects",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "neurodiversity_spectrum",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "new_start_expiration",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "news_paywall_inequality",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "nfl_superbowl_marketing_regulation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "nine_day_buffer",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "non_compete_agreements",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "north_sea_wind_grid",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "notary_ink_dependency",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "nsl_hk",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "nuclear_site_safety_norms",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "nuclear_vacuum_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "nursery_social_hierarchy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "nvidia_cuda_ecosystem_lockin",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ny_private_school_discount",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "nyc_metrocard_art_licensing",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "oc_donation_model",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "olympic_legacy_curling_investment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "olympic_medal_allocation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "omega1_patches",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "omelet_perfection_complexity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ontological_friction_resolution",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "open_culture_newsletter",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "openai_api_access",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "openai_codex_app_constraint",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "openai_default_data_training",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "openai_health_review",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "openai_implicit_translator",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "openai_prism_development",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "openbsd_netiquette_protocol",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "openclaw_data_lock_in",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "openclaw_regulation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "openscholar_peer_review",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "optimization_as_entrapment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "optimization_fragility",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "orbital_data_center_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "oscar_campaign_spending",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "other_peoples_troubles_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "overfitting_to_frameworks",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "overton_window",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "p_g_golden_pear_surveillance",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "p_vs_np",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "panama_canal_ports",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "parable_fish_turtle",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "paradoxical_decompositions",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "pareto_principle",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "paris_municipal_reform_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "parkinsons_law",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "participatory_observer_hypothesis",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "pe_rental_market_lockin",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "permissive_software_licensing",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "perovskite_self_etching",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "personalized_nutritional_arbitrage",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "peter_principle",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "pfas_regulatory_framework",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "pla_aerial_carrier_doctrine",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "pla_loyalty_purge",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "planetary_boundaries",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "planetary_diet_constraint_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "planning_fallacy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "plastic_asphalt_mandate",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "platform_app_store_duopoly",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "platform_cooperativism_governance",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "platonic_coparenting_decoupling",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "po_investigation_protocol_bias",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "poetic_verse_and_past",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "polar_bear_biobanking",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "politeness_face_negotiation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "political_art_factional_alignment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "political_dissident_containment",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "portugal_government_stability_ad",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "portugal_polarization_threshold_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "postman_survival_protocol",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "power_without_responsibility",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "prestige_signal_inflation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "price_signal_corruption",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "prime_age_male_unwork",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "private_credit_market_opacity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "private_identity_integration",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "procedural_compliance_theater",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "procedural_legitimacy_decay",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "project_vault_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "project_vault_extraction_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "proof_of_work_consensus",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "protocol_capture_tangled_rope",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "protocol_drift_accumulation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "protocol_inversion_as_constraint_escape",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "public_domain_commons",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "publishing_embargo",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "purity_drift_degradation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "qualified_immunity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "quantum_entanglement_protocol",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "quellcrist_falconer_justice",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "quota_ratchet_asymmetry",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "qwerty_vs_dvorak",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "raac_school_maintenance",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "rare_earth_dependency",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "rare_earth_export_restrictions",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "rare_earth_seabed_mining",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "rational_inertia_trap",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "redemption_ambiguity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "regional_military_deterrence_mideast",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "regulatory_capture",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "regulatory_pathway_psychedelic_therapy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "rent_seeking_equilibrium",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "reputation_as_distributed_enforcement",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "reputational_cascade_failure",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "responsibility_dilution",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "responsibility_without_power",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "retroactive_criminalization_of_coerced_acts",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "risk_socialization_threshold",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "rn_proteus_adoption",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "robustness_vs_efficiency_tradeoff",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "roc_african_exarchate",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "rogers_commission_institutional_analysis",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "role_capture_through_cost_asymmetry",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "roman_colosseum_games",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "roman_monumental_construction",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "roman_road_network",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "rotation_seven_black_soil",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "rotation_seven_isolation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "rotation_seven_kubo_ranking",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "rotmigration_decision_threshold",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "royal_navy_middle_east_withdrawal",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "rules_based_international_order",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "s1_visa",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "sa_renewable_price_differential",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "sadhu_integrity_protocol",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "sapir_whorf_hypothesis",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "satellite_d2m_standard",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "scam_doubt_manufacturing",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "scientific_paradigm_lifecycle",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "second_order_unintended_consequences",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "seedance_export_restriction",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "self_surpassing_superman",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "semantic_overload_friction",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "semiconductor_fabrication_chokepoint",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "semiconductor_mission_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "shadow_pricing_failure",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "shock_propagation_asymmetry",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "signal_without_control",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "silent_dependency_activation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "silicon_lexicon_overload",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "silklink_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "sk_ai_act_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "sk_dantongbeop",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "sk_newtro_aesthetic",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "sludge_bureaucratic_friction",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "sm_addictive_design",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "smartphone_ubiquity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "social_credit_architecture",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "social_media_participation_threshold",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "social_narrative_casting",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "soe_property_bailout",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "solar_system_weirdness",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "sorites_paradox",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "sovereignty_as_arbitrage",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "spain_digital_offensive_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "start_treaty",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "status_flattening_effect",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "steinmetz_valuation_asymmetry",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "stoic_logos_governance",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "straight_coercion_2025",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "strange_attractors",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "strategic_deep_sea_rare_earth_mining",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "streaming_bundling_mandate",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "student_loan_default_cliff",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "student_loan_interest_accrual",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "sturgeons_law",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "suanne_coup_of_peace",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "subscription_economy_model",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "superbowl_advertising_extraction",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "swift_legacy_piton",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "synthetic_data_feedback_loop",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "tail_risk_compression",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "taiwan_existential_sovereignty",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "taiwan_storm_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "taiwan_strait_hegemony_shift",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "taiwan_university_application_system",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "taliban_slavery_law_2024",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "tear_gas_repression_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "technocratic_overreach",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "technological_point_of_no_return",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "temporal_scale_arbitrage",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "temporal_scarcity",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "texas_hispanic_political_pivot",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "thai_senate_veto_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "the_calm_protocol_suppression",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "the_churn_systemic_upheaval",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "the_trivial_topology",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "the_wall_procedural_barrier",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "theatrical_neutrality",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "trade_secret_law",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "trajans_bridge_lifecycle",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "transformation_as_threshold_marker",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "transformer_self_attention",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "transient_event_detection",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "traveling_salesperson_problem",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "trillion_bond_rush_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "trump_epa_greenhouse_gas_reversal",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "trump_indian_tariffs_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "tsp",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ua_mobilization_protector_cert",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "udhr_1946",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "uk_artist_resale_right",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "uk_graduate_visa_salary_threshold",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "uk_help_to_buy_scheme",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "uk_necc_formation",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "uk_ssp_eligibility",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "uk_student_visa_dependents",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "uk_unpaid_care_system",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ukraine_tight_gas_pilot",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp01",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp02",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp04",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp05",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp06",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp07",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp08",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp09",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp10",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp11",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp12",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp15",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp16",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp17",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp18",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "un_high_seas_treaty_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "unclos_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "unconditional_university_offers_uk",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "uneven_risk_distribution",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "unilateral_condition_control",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "union_protection_underperformance",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "unrequited_love_protocol",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "unrwa_eviction_order",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_ai_chip_export_controls",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_canada_geopolitical_asymmetry",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_china_chip_tariffs_v2",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_debt_ceiling",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_embargo_cuba",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_employer_health_insurance",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_foreign_policy_america_first",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_greenland_envoy",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_isolationism_policy_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_israel_faa_502b_nonenforcement",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_labor_mobility",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_legal_standard_reasonable_doubt",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_military_recruitment_advertising",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_sanctions_belarus_2022",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_sanctions_icc_israel_case",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_sanctions_moex_2024",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_two_party_duopoly",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_venezuela_oil_pressure",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_venezuela_plausible_deniability_2025",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_visa_lottery",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_wind_project_ban_2025",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "usc_26_469_passive_loss",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "utopia_apocalypse_fragility",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "value_alignment_drift",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "value_extraction_plateau",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "venezuela_oil_privatization_v1",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "verification_bottleneck",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "vertebrate_turning_point_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "viral_emergence_covid19_exemplar",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "viral_transmission_rates",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "visibility_as_incitement",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "visibility_bias_governance",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "vision_of_the_cross",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "vns_implant_for_trd",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "wikipedia_noncommercial_model",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "wikipedia_notability_requirement_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "winners_curse",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "winter_olympics_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "witness_obligation_without_recipient",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "working_dog_training",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "world_factbook_sunset_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "worldscale_vlsfo_benchmark",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "yangtze_fishing_ban",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "yt_ai_slop_incentive",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "zombie_reasoning_2026",
+      "severity": "critical",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ad_synaptic_deficit",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ad_synaptic_deficit",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "alternative_sovereignty_scaffold",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "antikythera_knowledge_loss",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "asymmetric_coordination_extraction",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cascading_constraint_failure",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cascading_constraint_failure",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "clarification_loop_structure",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "collective_action_deadlock",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "collective_stupidity_2026",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cow_field_poop",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "cow_field_poop",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "dead_sea_effect",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "dead_sea_effect",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "deep_earth_hydrogen_availability",
+      "severity": "high",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "distributed_memory_as_counter_disposal",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "e2ee_digital_privacy_2026",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "e2ee_digital_privacy_2026",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "emergency_oversight_bureau",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "emergency_oversight_bureau",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "enforcement_gap_exploitation",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "enforcement_gap_exploitation",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "epstein_files_2026",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ergo_autolykos_asic_resistance",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "escalation_control_asymmetry",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "escalation_control_asymmetry",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "eu_affordable_housing_initiative",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "evolutionary_knowledge",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "evolutionary_knowledge",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "france_cordon_sanitaire_2026",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fraser_river_salmon_regulation",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fraser_river_salmon_regulation",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "fungal_shift_grassland_loss",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gaza_border_control_rafah",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gaza_border_control_rafah",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gilgamesh_mortality_limit",
+      "severity": "high",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "global_stimulus_spree",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "global_stimulus_spree",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "gold_piton_2026",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "hhs_fetal_tissue_research_ban_2019",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "huang_expectation_resilience_2026",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "indo_russian_submarine_lease_2025",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "indo_russian_submarine_lease_2025",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "institutional_memory_loss",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "intelligence_as_sovereignty_transfer",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "iran_mandatrophic_collapse",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "iran_mandatrophic_collapse",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "israel_gaza_ceasefire_violation",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "kidney_exchange_market",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "latent_goal_activation",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "legibility_asymmetry_as_survival",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "lehman_repo_105",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "litany_of_the_real",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "litany_of_the_real",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "magna_carta_liberties",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "magna_carta_liberties",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "mco_unit_system_discontinuity",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "metamorphosis_samsa",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "moltbook_breach_2026",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "monopoly_fp_house_rule",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "norm_erosion_threshold",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "prisoners_dilemma_equilibrium",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "roman_bath_system",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "roman_bath_system",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "s1_visa_judgment_sharing_agreement",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "s1_visa_judgment_sharing_agreement",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "self_enforced_boundary_protocol",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "skills_based_hiring",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "social_loafing",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "stable_marriage_coordination",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "stable_marriage_coordination",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "structural_extraction_without_actor",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "sts86_ascent_checklist",
+      "severity": "high",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "teaching_horses_to_sing",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "thai_article_112_mountain",
+      "severity": "high",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "tragedy_of_the_commons",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "tragedy_of_the_commons",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ukr_mobilization",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ukr_mobilization",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "ulysses_chp13",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "unsanctioned_substrate_access",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_sdf_alliance_abandonment_2026",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    },
+    {
+      "id": "us_sdf_alliance_abandonment_2026",
+      "severity": "unknown",
+      "gap_pattern": "unknown"
+    }
+  ]
+}

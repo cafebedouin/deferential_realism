@@ -25,6 +25,7 @@
     maxent_run/2,                    % maxent_run(Context, Summary)
     maxent_multi_run/2,              % maxent_multi_run(Contexts, Summaries)
     maxent_distribution/3,           % maxent_distribution(C, Context, Distribution)
+    maxent_distribution_raw/3,       % maxent_distribution_raw(C, Context, Distribution)
     maxent_confidence/3,             % maxent_confidence(C, Context, Confidence)
     maxent_entropy/3,                % maxent_entropy(C, Context, NormalizedEntropy)
     maxent_disagreement/3,           % maxent_disagreement(C, Context, DisagreementInfo)
@@ -38,6 +39,13 @@
     maxent_threshold_proximity/4,    % maxent_threshold_proximity(C, Context, Boundary, Distance)
     maxent_boundary_analysis/3,      % maxent_boundary_analysis(C, Context, Analysis)
 
+    % Indexed MaxEnt (quantum complexity diagnostic)
+    maxent_indexed_run/2,            % maxent_indexed_run(Context, Summary)
+    maxent_indexed_distribution/3,   % maxent_indexed_distribution(C, Context, Distribution)
+    maxent_classical_vs_indexed/4,   % maxent_classical_vs_indexed(C, Context, Classical, Indexed)
+    maxent_indexing_divergence/3,    % maxent_indexing_divergence(C, Context, Divergence)
+    maxent_indexing_divergences/3,   % maxent_indexing_divergences(Context, Threshold, Divergent)
+
     % Internals (exposed for testing)
     maxent_type_log_likelihood/5,    % maxent_type_log_likelihood(C, Type, Context, LogL, Details)
     maxent_cleanup/0,
@@ -49,7 +57,7 @@
 :- use_module(narrative_ontology).
 :- use_module(drl_core).
 :- use_module(constraint_indexing).
-:- use_module(structural_signatures).
+:- use_module(signature_detection, [constraint_signature/2]).
 :- use_module(covering_analysis).
 
 :- use_module(library(lists)).
@@ -59,9 +67,14 @@
    ================================================================ */
 
 :- dynamic maxent_dist/3.           % maxent_dist(Constraint, Context, TypeProbList)
+:- dynamic maxent_dist_raw/3.       % maxent_dist_raw(Constraint, Context, TypeProbList) — pre-override
 :- dynamic maxent_profile/3.        % maxent_profile(Type, MetricName, params(Mu, Sigma))
 :- dynamic maxent_prior/2.          % maxent_prior(Type, Prior)
 :- dynamic maxent_run_info/3.       % maxent_run_info(Context, NConstraints, Timestamp)
+
+% Indexed MaxEnt dynamic facts (power-scaled χ instead of raw ε)
+:- dynamic maxent_indexed_dist/3.   % maxent_indexed_dist(C, Context, TypeProbList)
+:- dynamic maxent_indexed_profile/3. % maxent_indexed_profile(Type, MetricName, params(Mu, Sigma))
 
 /* ================================================================
    CONFIGURATION
@@ -71,7 +84,7 @@ maxent_enabled :-
     config:param(maxent_enabled, 1).
 
 %% The six primary types for the shadow classifier.
-%  Excludes unknown and indexically_opaque (residual categories).
+%  Excludes unknown and naturalized (residual categories).
 maxent_type(mountain).
 maxent_type(rope).
 maxent_type(tangled_rope).
@@ -87,9 +100,12 @@ maxent_n_types(6).
 
 maxent_cleanup :-
     retractall(maxent_dist(_, _, _)),
+    retractall(maxent_dist_raw(_, _, _)),
     retractall(maxent_profile(_, _, _)),
     retractall(maxent_prior(_, _)),
-    retractall(maxent_run_info(_, _, _)).
+    retractall(maxent_run_info(_, _, _)),
+    retractall(maxent_indexed_dist(_, _, _)),
+    retractall(maxent_indexed_profile(_, _, _)).
 
 /* ================================================================
    GAUSSIAN LOG-LIKELIHOOD
@@ -295,7 +311,7 @@ set_uniform(U, Type-_, Type-U).
    ================================================================ */
 
 apply_signature_override(C, DistIn, DistOut) :-
-    (   catch(structural_signatures:constraint_signature(C, Sig), _, fail)
+    (   catch(signature_detection:constraint_signature(C, Sig), _, fail)
     ->  apply_override_for_sig(Sig, DistIn, DistOut)
     ;   DistOut = DistIn
     ).
@@ -366,6 +382,11 @@ entropy_acc(_Type-P, Acc, NewAcc) :-
 maxent_distribution(C, Context, Dist) :-
     maxent_dist(C, Context, Dist).
 
+%% maxent_distribution_raw(+C, +Context, -Distribution)
+%  Raw (pre-override) distribution for override impact analysis.
+maxent_distribution_raw(C, Context, Dist) :-
+    maxent_dist_raw(C, Context, Dist).
+
 %% maxent_entropy(+C, +Context, -HNorm)
 maxent_entropy(C, Context, HNorm) :-
     maxent_dist(C, Context, Dist),
@@ -411,9 +432,9 @@ maxent_disagreement(C, Context, Disagreement) :-
                           EntropyThresh, ProbThresh, Disagreement).
 
 residual_type(unknown).
-residual_type(indexically_opaque).
+residual_type(naturalized).
 
-%% Residual types (unknown, indexically_opaque) are not in the shadow model.
+%% Residual types (unknown, naturalized) are not in the shadow model.
 %  The shadow will always disagree — flag as residual_override, not hard.
 classify_disagreement(ShadowType, DetType, _DetProb, _HNorm, _ET, _PT,
                       residual_override(ShadowType, DetType)) :-
@@ -591,6 +612,7 @@ maxent_classify_one(C, Context) :-
         TypeLogLPairs),
     (   TypeLogLPairs \= []
     ->  normalize_log_probs(TypeLogLPairs, NormDist),
+        assertz(maxent_dist_raw(C, Context, NormDist)),
         apply_signature_override(C, NormDist, FinalDist),
         assertz(maxent_dist(C, Context, FinalDist))
     ;   true
@@ -709,12 +731,196 @@ maxent_multi_run_contexts([Ctx|Rest], Constraints, NTotal, [Summary|RestSummarie
     maxent_multi_run_contexts(Rest, Constraints, NTotal, RestSummaries).
 
 /* ================================================================
+   INDEXED MAXENT — POWER-SCALED CLASSICAL ORACLE
+   ================================================================
+   The classical MaxEnt (above) uses raw ε, σ, τ — observer-independent
+   structural metrics. This indexed variant uses power-scaled χ instead
+   of raw ε for the extractiveness likelihood, creating a "fully indexed"
+   probability distribution.
+
+   Diagnostic purpose: comparing classical vs indexed MaxEnt identifies
+   constraints where power-scaling changes the probabilistic picture.
+   This operationalizes Yuen's question: "can the classical oracle solve
+   the same problem?" When the two distributions diverge, the indexical
+   structure is doing non-trivial work.
+
+   Requires: maxent_run/2 must be called first (provides priors).
+   ================================================================ */
+
+%% get_constraint_metrics_indexed(+C, +Context, -Chi, -Supp, -Theater)
+%  Like get_constraint_metrics/3 but uses power-scaled χ instead of raw ε.
+get_constraint_metrics_indexed(C, Context, Chi, Supp, Theater) :-
+    (constraint_indexing:extractiveness_for_agent(C, Context, Chi0) -> Chi = Chi0 ; Chi = 0.0),
+    (drl_core:get_raw_suppression(C, Supp0) -> Supp = Supp0 ; Supp = 0.0),
+    config:param(theater_metric_name, TheaterName),
+    (narrative_ontology:constraint_metric(C, TheaterName, Theater0) -> Theater = Theater0 ; Theater = 0.0).
+
+%% metric_value_indexed(+C, +Context, +MetricName, -Val)
+%  Retrieves an indexed metric value. Extractiveness uses χ; others unchanged.
+metric_value_indexed(C, Context, extractiveness, Val) :-
+    (constraint_indexing:extractiveness_for_agent(C, Context, Val) -> true ; Val = 0.0).
+metric_value_indexed(C, _, suppression, Val) :-
+    drl_core:get_raw_suppression(C, Val).
+metric_value_indexed(C, _, theater, Val) :-
+    config:param(theater_metric_name, TheaterName),
+    (narrative_ontology:constraint_metric(C, TheaterName, Val) -> true ; Val = 0.0).
+
+%% continuous_log_likelihood_indexed(+C, +Type, +Context, -ContLL)
+%  Gaussian log-likelihood using indexed profiles and power-scaled metrics.
+continuous_log_likelihood_indexed(C, Type, Context, ContLL) :-
+    get_constraint_metrics_indexed(C, Context, Chi, Supp, Theater),
+    findall(LL, (
+        (   MetricName = extractiveness, X = Chi
+        ;   MetricName = suppression, X = Supp
+        ;   MetricName = theater, X = Theater
+        ),
+        maxent_indexed_profile(Type, MetricName, params(Mu, Sigma)),
+        gaussian_log_likelihood(X, Mu, Sigma, LL)
+    ), LLs),
+    (   LLs \= []
+    ->  sum_list(LLs, ContLL)
+    ;   ContLL = 0.0
+    ).
+
+%% maxent_type_log_likelihood_indexed(+C, +Type, +Context, -TotalLogL, -Details)
+maxent_type_log_likelihood_indexed(C, Type, Context, TotalLogL, Details) :-
+    maxent_type(Type),
+    continuous_log_likelihood_indexed(C, Type, Context, ContLL),
+    boolean_log_likelihood(C, Type, BoolLL),
+    prior_log_likelihood(Type, PriorLL),
+    TotalLogL is ContLL + BoolLL + PriorLL,
+    Details = ll_detail(ContLL, BoolLL, PriorLL).
+
+%% maxent_compute_profiles_indexed(+Constraints, +Context)
+%  Compute empirical mean/stddev of indexed metrics for each type.
+maxent_compute_profiles_indexed(Constraints, Context) :-
+    forall(maxent_type(Type), (
+        compute_type_profile_indexed(Constraints, Context, Type, extractiveness),
+        compute_type_profile_indexed(Constraints, Context, Type, suppression),
+        compute_type_profile_indexed(Constraints, Context, Type, theater)
+    )).
+
+compute_type_profile_indexed(Constraints, Context, Type, MetricName) :-
+    findall(Val,
+        (   member(C, Constraints),
+            drl_core:dr_type(C, Context, Type),
+            metric_value_indexed(C, Context, MetricName, Val)
+        ),
+        Values),
+    (   Values = [_,_|_]
+    ->  length(Values, N),
+        sum_list(Values, Sum),
+        Mu is Sum / N,
+        foldl(sum_sq_diff(Mu), Values, 0.0, SumSqDiff),
+        Variance is SumSqDiff / N,
+        Sigma is max(0.01, sqrt(Variance)),
+        assertz(maxent_indexed_profile(Type, MetricName, params(Mu, Sigma)))
+    ;   default_profile(Type, MetricName, Params),
+        assertz(maxent_indexed_profile(Type, MetricName, Params))
+    ).
+
+%% maxent_classify_all_indexed(+Constraints, +Context)
+maxent_classify_all_indexed(Constraints, Context) :-
+    forall(member(C, Constraints),
+        maxent_classify_one_indexed(C, Context)
+    ).
+
+maxent_classify_one_indexed(C, Context) :-
+    findall(Type-LogL,
+        (   maxent_type(Type),
+            maxent_type_log_likelihood_indexed(C, Type, Context, LogL, _)
+        ),
+        TypeLogLPairs),
+    (   TypeLogLPairs \= []
+    ->  normalize_log_probs(TypeLogLPairs, NormDist),
+        apply_signature_override(C, NormDist, FinalDist),
+        assertz(maxent_indexed_dist(C, Context, FinalDist))
+    ;   true
+    ).
+
+%% maxent_indexed_run(+Context, -Summary)
+%  Runs the indexed MaxEnt classifier using power-scaled χ for extraction
+%  likelihoods. Requires prior maxent_run/2 call (for priors).
+%  Stores distributions in maxent_indexed_dist/3.
+maxent_indexed_run(Context, Summary) :-
+    (   maxent_prior(_, _)
+    ->  true
+    ;   format(user_error, '[maxent_indexed] ERROR: Run maxent_run/2 first (priors needed).~n', []),
+        fail
+    ),
+    findall(C, (
+        narrative_ontology:constraint_claim(C, _),
+        \+ is_list(C),
+        atom(C)
+    ), RawConstraints),
+    sort(RawConstraints, Constraints),
+    length(Constraints, NTotal),
+    format(user_error, '[maxent_indexed] Found ~w constraints, computing indexed profiles...~n', [NTotal]),
+
+    retractall(maxent_indexed_dist(_, _, _)),
+    retractall(maxent_indexed_profile(_, _, _)),
+    maxent_compute_profiles_indexed(Constraints, Context),
+    maxent_classify_all_indexed(Constraints, Context),
+
+    % Summary statistics
+    findall(HN, (
+        maxent_indexed_dist(C2, Context, Dist),
+        shannon_entropy(Dist, H),
+        maxent_n_types(N),
+        HMax is log(N),
+        (HMax > 0 -> HN is H / HMax ; HN = 0.0)
+    ), Entropies),
+    (   Entropies \= []
+    ->  sum_list(Entropies, SumE), length(Entropies, NE),
+        MeanEntropy is SumE / NE
+    ;   MeanEntropy = 0.0
+    ),
+    Summary = maxent_indexed_summary(NTotal, MeanEntropy),
+    format(user_error, '[maxent_indexed] Done. Mean indexed entropy=~4f~n', [MeanEntropy]).
+
+%% maxent_indexed_distribution(+C, +Context, -Distribution)
+maxent_indexed_distribution(C, Context, Dist) :-
+    maxent_indexed_dist(C, Context, Dist).
+
+%% maxent_classical_vs_indexed(+C, +Context, -ClassicalDist, -IndexedDist)
+%  Returns both classical (raw ε) and indexed (power-scaled χ) distributions
+%  for direct comparison. Both runs must have been completed.
+maxent_classical_vs_indexed(C, Context, ClassicalDist, IndexedDist) :-
+    maxent_dist(C, Context, ClassicalDist),
+    maxent_indexed_dist(C, Context, IndexedDist).
+
+%% maxent_indexing_divergence(+C, +Context, -Divergence)
+%  Maximum absolute probability difference between classical and indexed MaxEnt.
+%  High divergence = power-scaling changes the probabilistic classification.
+%  These constraints should cluster at H^1 > 0 (cohomological obstruction).
+maxent_indexing_divergence(C, Context, Divergence) :-
+    maxent_dist(C, Context, ClassicalDist),
+    maxent_indexed_dist(C, Context, IndexedDist),
+    findall(AbsDiff, (
+        member(T-PC, ClassicalDist),
+        member(T-PI, IndexedDist),
+        AbsDiff is abs(PC - PI)
+    ), Diffs),
+    max_list(Diffs, Divergence).
+
+%% maxent_indexing_divergences(+Context, +Threshold, -Divergent)
+%  Batch query: all constraints where classical vs indexed MaxEnt diverge
+%  above Threshold. These are the constraints where power-scaling does
+%  non-trivial probabilistic work — the "quantum" cases.
+maxent_indexing_divergences(Context, Threshold, Divergent) :-
+    findall(C-Div, (
+        maxent_indexed_dist(C, Context, _),
+        maxent_indexing_divergence(C, Context, Div),
+        Div > Threshold
+    ), Divergent).
+
+/* ================================================================
    SELF-TEST
    ================================================================ */
 
 maxent_selftest :-
     format(user_error, '[maxent] Running self-test...~n', []),
-    covering_analysis:load_all_testsets,
+    corpus_loader:load_all_testsets,
     constraint_indexing:default_context(Context),
     maxent_run(Context, Summary),
     Summary = maxent_summary(NTotal, MeanEntropy, NHighUncertainty, NHard, NSoft),

@@ -1,0 +1,59 @@
+{
+  "corpus_size": 1151,
+  "type_distribution": {
+    "claimed": {
+      "tangled_rope": 752,
+      "mountain": 140,
+      "piton": 95,
+      "snare": 78,
+      "rope": 62,
+      "scaffold": 21,
+      "null": 2,
+      "[social_governance]": 1
+    },
+    "modal_resolved": {
+      "tangled_rope": 554,
+      "snare": 394,
+      "mountain": 142,
+      "rope": 54,
+      "naturalized": 5,
+      "unknown": 1,
+      "scaffold": 1
+    }
+  },
+  "signature_distribution": {
+    "false_ci_rope": 889,
+    "natural_law": 127,
+    "false_natural_law": 93,
+    "constructed_low_extraction": 16,
+    "constructed_high_extraction": 14,
+    "coupling_invariant_rope": 12
+  },
+  "signal_base_rates": {
+    "false_ci_rope_pct": 77.2,
+    "h1_gt_0_pct": 77.5,
+    "with_drift_events_pct": 91.9,
+    "critical_drift_pct": 67.6,
+    "broadly_stressed_pct": 19.8,
+    "critical_extraction_accumulation_pct": 64.6
+  },
+  "verdict_distribution": {
+    "yellow": 1052,
+    "green": 66,
+    "red": 33
+  },
+  "subsystems_available": 12,
+  "subsystems_unavailable": [],
+  "abductive_tensions": 1071,
+  "anomalies": {
+    "null_type_constraints": [],
+    "nonstandard_type_constraints": [
+      "ai_performance_watermark",
+      "catholic_church_1200",
+      "dk_us_alliance_espionage",
+      "openai_prism_development",
+      "semiconductor_fabrication_chokepoint",
+      "us_usmca_china_leverage"
+    ]
+  }
+}

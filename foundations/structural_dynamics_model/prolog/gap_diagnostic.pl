@@ -22,7 +22,6 @@
 :- use_module(config).
 :- use_module(narrative_ontology).
 :- use_module(constraint_indexing).
-:- use_module(structural_signatures).
 :- use_module(covering_analysis).
 :- use_module(library(lists)).
 
@@ -345,7 +344,7 @@ run_gap_diagnostic :-
     format('*Characterizes the d=0.000 to d=0.646 gap where 80% of missed transitions occur.*~n~n'),
     format('---~n~n'),
     % Load corpus
-    covering_analysis:load_all_testsets,
+    corpus_loader:load_all_testsets,
     covering_analysis:all_corpus_constraints(Cs),
     length(Cs, NC),
     format(user_error, '[gap] Analyzing ~w constraints...~n', [NC]),

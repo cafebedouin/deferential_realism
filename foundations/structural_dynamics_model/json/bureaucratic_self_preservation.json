@@ -1,0 +1,180 @@
+{
+  "header": {
+    "constraint_id": "bureaucratic_self_preservation",
+    "version": "1.0",
+    "generated_date": "2026-02-26",
+    "status": "ACTIVE",
+    "measurement_id_prefix": "bsp"
+  },
+  "base_properties": {
+    "extractiveness": 0.58,
+    "suppression": 0.65,
+    "theater_ratio": 0.68,
+    "claimed_type": "tangled_rope",
+    "human_readable": "The Inertial Office",
+    "topic_domain": "political/administrative",
+    "requires_active_enforcement": true,
+    "beneficiaries": [
+      "administrative_hierarchy",
+      "bureau_leadership"
+    ],
+    "victims": [
+      "public_interest",
+      "mission_effectiveness",
+      "taxpayers"
+    ]
+  },
+  "perspectives": [
+    {
+      "classification_type": "snare",
+      "agent_power": "powerless",
+      "time_horizon": "biographical",
+      "exit_options": "trapped",
+      "spatial_scope": "national",
+      "label": "The Public Interest",
+      "comment": "PERSPECTIVE 1: PUBLIC INTEREST (SNARE) \u2014 Citizens and beneficiaries of the bureau's original mission are trapped. They cannot exit the system; they are subject to its rules and dependent on its services. As the bureau prioritizes self-preservation over mission, the public bears extraction costs (tax resources, degraded service quality, mission drift) with no exit option. No alternative mechanism to satisfy the original mandate. Maximum experienced extraction."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "moderate",
+      "time_horizon": "biographical",
+      "exit_options": "constrained",
+      "spatial_scope": "regional",
+      "label": "Mid-Level Career Bureaucrats",
+      "comment": "PERSPECTIVE 2: MID-LEVEL CAREER BUREAUCRATS (TANGLED ROPE) \u2014 Face mixed incentives. The bureau's self-preservation creates job security and predictable advancement (coordination benefit). However, they are also trapped by the constraint: professional mission orientation conflicts with organizational survival logic; attempting to redirect resources toward original mission faces institutional resistance. Constrained exit \u2014 can transfer to other agencies but at career cost. Experience both coordination (job security through budget growth) and extraction (mission constraints, ethical compromise)."
+    },
+    {
+      "classification_type": "rope",
+      "agent_power": "institutional",
+      "time_horizon": "immediate",
+      "exit_options": "arbitrage",
+      "spatial_scope": "national",
+      "label": "Bureau Leadership",
+      "comment": "PERSPECTIVE 3: BUREAU LEADERSHIP (ROPE) \u2014 Direct beneficiaries with arbitrage options. Bureau growth creates larger budgets, expanded leadership positions, increased prestige, and control over resource allocation. Leadership can move to private sector or other agencies if necessary (arbitrage exit). Experiences the constraint as pure coordination: organizing internal resources to maximize budget and survive budget cycles. Net extraction flows toward leadership."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "organized",
+      "time_horizon": "generational",
+      "exit_options": "constrained",
+      "spatial_scope": "national",
+      "label": "Legislative Oversight Bodies",
+      "comment": "PERSPECTIVE 4: LEGISLATIVE OVERSIGHT (TANGLED ROPE) \u2014 Organized but constrained. Legislatures benefit from bureau infrastructure and capacity to implement policy (coordination function). However, they also experience extraction: bureaus lobby for budget preservation, resist mission realignment, and create information asymmetries about actual performance. Legislators are constrained by electoral cycles and political costs of agency reorganization. Can exit through abolition but faces institutional resistance and bureaucratic expertise capture."
+    },
+    {
+      "classification_type": "piton",
+      "agent_power": "institutional",
+      "time_horizon": "civilizational",
+      "exit_options": "arbitrage",
+      "spatial_scope": "global",
+      "label": "Civil Service System",
+      "comment": "PERSPECTIVE 5: CIVIL SERVICE SYSTEM (PITON) \u2014 The bureaucratic self-preservation constraint is now maintained largely through institutional theater. Civil service protections, pension systems, and seniority rules were designed to create professional insulation from political pressure. They now function primarily as inertial anchors preventing mission realignment. The original coordination function (protecting professional expertise) has degraded; the system persists through theatrical compliance with procedural legitimacy rather than functional necessity. Theater ratio high; effective coordination function low."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "analytical",
+      "time_horizon": "civilizational",
+      "exit_options": "analytical",
+      "spatial_scope": "global",
+      "label": "Analytical Observer",
+      "comment": "PERSPECTIVE 6: ANALYTICAL OBSERVER (TANGLED ROPE) \u2014 From civilizational view, bureaucratic self-preservation solves a genuine coordination problem (insulating professional judgment from short-term political pressure) while simultaneously creating extraction (budget maximization divorced from mission outcome). The constraint is neither pure coordination nor pure extraction but a hybrid that has degraded over time as budget defense has consumed mission alignment. Theater has increased; coordination function has decreased; extraction mechanism has hardened."
+    }
+  ],
+  "omegas": [
+    {
+      "id": "mission_versus_survival_causality",
+      "question": "Does budget growth occur because of successful mission execution or does mission drift occur as a consequence of budget-maximization incentives?",
+      "resolution_mechanism": "Time-series analysis of budget trajectories vs mission outcome metrics; causal inference from budget changes to subsequent mission scope changes; comparison of agencies with mission-aligned vs budget-aligned performance metrics",
+      "impact": "If growth driven by mission success: constraint is partly coordination (temporary misalignment). If growth driven by lobbying/survival logic: constraint is pure extraction masked as coordination. Classification changes from Tangled Rope to Snare.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Causal direction between budget growth and mission drift"
+    },
+    {
+      "id": "alternative_mission_providers",
+      "question": "Could the original bureau mission be more effectively delivered by alternative institutional structures (NGOs, market mechanisms, other agencies) if the original bureau dissolved?",
+      "resolution_mechanism": "Comparative institutional analysis; pilot programs using alternative delivery mechanisms; historical analysis of bureau reorganizations and outcomes; measurement of mission effectiveness under different institutional arrangements",
+      "impact": "If yes: the constraint is pure extraction (snare) \u2014 the bureau's existence itself is extractive. If no: constraint is legitimate coordination \u2014 the bureau's survival reflects genuine mission necessity. If mixed: tangled rope is correct.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Whether alternative institutional structures could deliver the same mission"
+    },
+    {
+      "id": "bureaucratic_capture_depth",
+      "question": "To what degree has the original regulatory/service mission been supplanted by internal bureaucratic processes (compliance theater, procedural legitimacy, administrative overhead) that no longer serve the public mission?",
+      "resolution_mechanism": "Audit of time allocation and budget distribution across mission vs administrative functions; measurement of service delivery quality vs administrative headcount; stakeholder perception surveys on whether bureau serves its stated mission",
+      "impact": "High capture (>70% theater): classification is Piton degradation. Low capture (<30% theater): constraint is primarily Tangled Rope. Classification changes substantively.",
+      "confidence": "high",
+      "type_class": "empirical",
+      "description": "Degree of bureaucratic capture by internal processes"
+    }
+  ],
+  "measurements": [
+    {
+      "metric": "theater_ratio",
+      "time_point": 0,
+      "value": 0.35
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 15,
+      "value": 0.52
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 30,
+      "value": 0.68
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 0,
+      "value": 0.28
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 15,
+      "value": 0.43
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 30,
+      "value": 0.58
+    }
+  ],
+  "interval": {
+    "start": 0,
+    "end": 30
+  },
+  "commentary": {
+    "narrative_context": "Bureaucratic self-preservation is a structural constraint that emerges when an administrative body's survival incentives diverge from its original mission. An office tasked with delivering a public service or enforcing a mandate develops institutional interest in budget growth, headcount expansion, and regulatory scope expansion \u2014 not primarily because leadership is individually corrupt, but because organizational survival in competitive budget cycles rewards growth metrics. This constraint creates a hybrid mechanism: the bureau coordinates internal resource allocation and protects professional expertise (genuine coordination function), while simultaneously extracting resources from the public and mission effectiveness (extraction function). The office becomes increasingly oriented toward demonstrating its own necessity rather than achieving its stated mission. Theater increases (compliance reports, procedural legitimacy, justifications for continued existence) while actual mission focus declines. Mid-level bureaucrats experience the constraint as mixed \u2014 job security through budget growth but ethical conflict with mission. Leadership experiences it as pure coordination. The public experiences it as snare \u2014 trapped in a system optimized for its own survival, not for service delivery.",
+    "key_agents": [
+      "Public Interest / Beneficiaries of Original Mission: Primary victim (powerless/trapped) \u2014 citizens and constituencies dependent on bureau services; bear extraction costs through resource diversion, service quality degradation, and mission drift",
+      "Bureau Leadership: Primary beneficiary (institutional/arbitrage) \u2014 executives, top administrators who benefit from budget expansion, increased authority, and larger organizational portfolios; can exit to private sector or other agencies",
+      "Mid-Level Career Bureaucrats: Secondary victim (moderate/constrained) \u2014 professional staff caught between mission orientation and organizational survival logic; face career constraints if they resist self-preservation mechanisms",
+      "Legislative Oversight: Organized actor (organized/constrained) \u2014 parliament, congressional committees, budget committees that provide funding but lack detailed information to distinguish mission drift from necessity",
+      "Civil Service System: Institutional structure (institutional/arbitrage) \u2014 seniority protections, pension rules, job classification systems that were designed to protect professional judgment but now function as inertial anchors",
+      "Analytical Observer: Civilizational view (analytical/analytical) \u2014 institutional analyst or political scientist examining the constraint from outside, able to see both coordination and extraction functions"
+    ],
+    "logic_rationale": "Extractiveness (0.58): Moderately high. The bureau captures resources through budget growth that diverges from mission-critical spending. Over the 30-year interval, extractiveness increased from 0.28 to 0.58 as mission metrics decoupled from resource allocation. The trajectory reflects Goodhart's law at work: as budget becomes the metric of organizational health, budget maximization supplants mission execution. Suppression (0.65): Moderately high. Multiple barriers prevent mission realignment: civil service protections make workforce reduction difficult, legislative inertia resists agency abolition or merger, budget cycles create dependencies on continuous expansion, and informational asymmetry (bureau controls data on its own performance) suppresses alternative narratives. However, suppression is not total \u2014 oversight bodies retain formal authority, budget scrutiny occurs, and political pressure can force reorganization (though at high cost). Theater ratio (0.68): High and increasing. Traditional bureaucratic procedures (annual budget justifications, performance metrics, organizational reorganizations) have increasingly become performative. The bureau justifies its existence through procedural legitimacy and demonstrated activity rather than outcome achievement. Over the interval, theater increased from 0.35 to 0.68, indicating classic Piton-like degradation where form persists beyond function.",
+    "directionality_logic": "Directionality values derive from structural position within the extraction flow. Bureau leadership occupies low d (0.1-0.2) \u2014 beneficiaries with arbitrage exit, experiencing the constraint as coordination. Mid-level bureaucrats occupy moderate-high d (0.55-0.65) \u2014 constrained victims who also benefit from job security. Public interest occupies maximum d (0.95+) \u2014 trapped without exit, bearing extraction with no compensation. Legislative oversight occupies moderate d (0.50-0.60) \u2014 constrained by information asymmetry and institutional path dependence, neither pure beneficiary nor full victim. Civil service system occupies low d (0.1) \u2014 institutional anchor that benefits from its own persistence. The analytical observer occupies d \u2248 0.72 (observer baseline) to see the full perspectival structure. The sigmoid f(d) converts these to experienced extractiveness: beneficiaries with low d see negative/neutral chi (coordination), victims with high d see high chi (snare), and mixed actors see intermediate chi (tangled rope).",
+    "perspectival_gap": "Bureau leadership and public interest occupy opposite ends of the extraction flow. Leadership sees the constraint as coordination \u2014 organizing resources, securing budget, managing personnel \u2014 experiencing net negative extraction (they benefit). The public sees snare \u2014 trapped in a system that increasingly serves its own survival rather than the original mission. Mid-level bureaucrats occupy the structural middle: they experience both coordination (job security through bureau growth) and extraction (mission constraints, ethical conflicts). Legislative oversight experiences asymmetric extraction: they fund the bureau but cannot directly control its spending priorities due to informational capture and organizational expertise. The civil service system embodies the perspectival gap most clearly: designed to provide coordination (insulating professional judgment from political pressure), it now functions as inertial extraction (preventing mission realignment, protecting budget growth from scrutiny). The analytical observer sees a Tangled Rope: genuine coordination function (professional insulation) degraded but still present; extraction mechanism (budget maximization) hardened and visible. The perspectival minimum is satisfied by range from powerless to institutional, with organized and analytical perspectives capturing the institutional dynamics.",
+    "mandatrophy_analysis": "This constraint resolves the mandatrophy by demonstrating that bureaucratic self-preservation is AUTHENTICALLY tangled \u2014 not pure coordination mislabeled as extraction, and not pure extraction mislabeled as coordination. The genuine coordination function is professional insulation: bureaus create expertise, institutional memory, and multi-year planning horizons that elected officials cannot. This is real coordination value. The extraction function is equally real: budget-maximization incentives diverge from mission outcome, resources flow to survival activities (justification, administrative overhead) rather than mission delivery. Over the 30-year interval, the ratio has shifted toward extraction (theater up, mission focus down), but both functions persist. The constraint is not a false snare (pretending to coordinate while purely extracting) nor a false rope (pretending to purely coordinate while also extracting). It is legitimately tangled. The mandatrophy resolves because the architecture is genuinely hybrid: abolishing the bureau loses professional insulation (real loss); maintaining status quo costs mission effectiveness (real loss). The tension cannot be resolved by reclassification \u2014 it reflects authentic structural conflict. The analytics task is to identify where in the tangled rope spectrum the constraint currently operates and whether the ratio is shifting toward unacceptable extraction (movement toward snare) or remaining within acceptable coordination-extraction balance."
+  },
+  "boltzmann": {
+    "coordination_type": "enforcement_mechanism"
+  },
+  "network": {
+    "affects_constraints": [
+      "regulatory_capture",
+      "principal_agent_divergence",
+      "budgetary_commons_tragedy"
+    ],
+    "dual_formulation_note": "Bureaucratic self-preservation can be decomposed into three structurally distinct constraints: (1) Information asymmetry between bureau and oversight (affecting observable performance reporting), (2) Budget cycle incentives that reward growth over efficiency (affecting fiscal structure), (3) Civil service inertia that makes workforce realignment costly (affecting labor market dynamics). Each has different \u03b5 and different perspectives. This story models the hybrid constraint; decomposed stories address the component mechanisms."
+  },
+  "directionality_overrides": [
+    {
+      "power_atom": "organized",
+      "d_value": 0.58
+    }
+  ]
+}

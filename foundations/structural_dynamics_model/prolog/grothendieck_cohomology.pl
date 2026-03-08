@@ -20,10 +20,12 @@
 % Rigor:
 %   H^0 computation: STRICT — literal global sections of a presheaf on a
 %     finite cover. This IS the definition of Cech H^0.
-%   H^1 proxy: STRUCTURAL — the disagreeing-pairs count is a well-motivated
-%     proxy for the Cech obstruction but is not formally identical to the
-%     quotient ker(delta^1)/im(delta^0) on a general site. On a discrete
-%     4-point site with the trivial topology, it coincides.
+%   H^1 proxy: STRUCTURAL — the disagreeing-pairs count is a combinatorial
+%     descent-failure count on the poset site. It measures how many
+%     restriction morphisms fail to preserve the type. This is NOT formal
+%     Cech H^1 (which requires ker(delta^1)/im(delta^0) and is trivially 0
+%     on a discrete site). On the linear poset with Alexandrov topology,
+%     it is a well-motivated obstruction measure with genuine diagnostic value.
 %   Descent condition: STRICT — descent holds iff H^1 = 0, which is exactly
 %     the condition that local sections glue to a global section.
 %
@@ -59,7 +61,7 @@
 :- use_module(drl_core).
 :- use_module(constraint_indexing).
 :- use_module(dirac_classification).
-:- use_module(structural_signatures).
+:- use_module(purity_scoring, [purity_score/2]).
 :- use_module(covering_analysis).
 :- use_module(library(lists)).
 
@@ -197,7 +199,7 @@ descent_status(C, fails_descent(H1, UniqueTypes)) :-
 %  Computes H0, H1 for all corpus constraints and aggregates.
 corpus_cohomology(Summary) :-
     cohomology_cleanup,
-    covering_analysis:load_all_testsets,
+    corpus_loader:load_all_testsets,
     covering_analysis:all_corpus_constraints(Constraints),
     length(Constraints, N),
     format(user_error, '[cohomology] Computing for ~w constraints...~n', [N]),
@@ -212,7 +214,7 @@ corpus_cohomology(Summary) :-
     % H0 by type — which types have global sections
     findall(Type-Cnt,
         (   member(Type, [mountain, rope, tangled_rope, snare, scaffold,
-                          piton, indexically_opaque, unknown]),
+                          piton, naturalized, unknown]),
             findall(C, (
                 cached_obstruction(C, 1, 0),
                 orbit_vector(C, [Type|_])
@@ -251,7 +253,7 @@ corpus_cohomology(Summary) :-
     % H1 by analytical-context type
     findall(AnalType-MeanH1,
         (   member(AnalType, [mountain, rope, tangled_rope, snare, scaffold,
-                               piton, indexically_opaque, unknown]),
+                               piton, naturalized, unknown]),
             findall(H1Val,
                 (   cached_obstruction(Cx, _, H1Val),
                     analytical_type(Cx, AnalType)
@@ -299,7 +301,7 @@ analytical_type(C, Type) :-
 
 cohomology_selftest :-
     format('~n=== Grothendieck Cohomology Selftest ===~n~n'),
-    covering_analysis:load_all_testsets,
+    corpus_loader:load_all_testsets,
 
     corpus_cohomology(Summary),
     Summary = cohomology_summary(
@@ -361,7 +363,7 @@ cohomology_selftest :-
         member(V, [0, 1, 2, 3, 4, 5, 6]),
         (   findall(P,
                 (cached_obstruction(C, _, V),
-                 structural_signatures:purity_score(C, P),
+                 purity_scoring:purity_score(C, P),
                  P >= 0.0),  % Exclude -1.0 sentinel
                 Purities),
             (   Purities \= []

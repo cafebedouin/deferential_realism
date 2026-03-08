@@ -1,0 +1,1232 @@
+testsets/abstraction_boundary_overrun.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/abstraction_leakage.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/academic_fashion_modernism_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/academic_tenure_system.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/ad_fus_coordination.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/ad_synaptic_deficit.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/adversarial_surface_inflation.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+
+testsets/adversarial_truth_decay.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/agency_atrophy.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+
+testsets/agentive_optimism_2026.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/agg1_genetic_determinism.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/aging_well_assessment.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/ai_auditability_gap.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/ai_compute_capital_moat.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/ai_driven_surveillance_sensor_layer.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/ai_nonconsensual_content_facilitation.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/ai_performance_watermark.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/ai_professional_displacement.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/ai_scholar_citation_trap.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/algorithmic_epistemic_capture.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/alignment_tax_tradeoff.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+  GENERIC_GROUP: constraint_victim uses generic group 'society'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/alternative_sovereignty_scaffold.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.1.
+  MISSING_VICTIM: Snare classification requires narrative_ontology:constraint_victim/2 to identify extraction target.
+
+testsets/alzheimers_levetiracetam.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'society'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/amish_technological_renunciation.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+
+testsets/ancestral_pueblo_hydrology.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/ancient_grudge_verona.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/antifragility.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.1.
+
+testsets/antikythera_knowledge_loss.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+
+testsets/antikythera_planetary_model.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/apartheid_nuclear_program.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/appropriations_brinkmanship.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/arrows_impossibility_theorem.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/art_market_decoupling.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'society'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/artificial_snow_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/asymmetric_computational_difficulty.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+
+testsets/attribution_ambiguity_triplet_sc.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/australia_social_ban_2026.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/authoritarian_power_paradox.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/automatic_enrollment_defaults.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.1.
+
+testsets/awareness_without_leverage.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/axiom_reasoner_2026.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/bay_of_pigs_operational_silo.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/belief_argument_conclusion.pl:
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/berkshire_compounding_culture.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/biological_curiosity.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.15 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  GENERIC_GROUP: constraint_beneficiary uses generic group 'individuals'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+  GENERIC_GROUP: constraint_beneficiary uses generic group 'society'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/blackstone_carried_interest_taxation.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/blackstone_conflicts_of_interest.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+
+testsets/boiled_pineapple_trend_2026.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/brazil_2026_general_elections.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/broke_vs_poor_grocery_math.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/buffons_needle_pi_estimation.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.15 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/burden_of_proof_scientific_empirical.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/bushman_money_magic.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/canada_germany_ai_pact.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+  MISSING_VICTIM: Tangled rope requires constraint_victim/2 (derives has_asymmetric_extraction).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/cancer_prevention.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/carbon_credit_markets_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.65.
+
+testsets/cascading_constraint_failure.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/cascading_uncertainty_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/china_contraceptive_tax.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/china_critical_mineral_chokepoint.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+
+testsets/china_taiwan_reunification_mandate.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/china_vactrain_standard.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/choice_architecture_design.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+
+testsets/cholesterol_pill_cost.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/citation_collapse_dynamics.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/civilizational_lifecycle_solara.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/civilizational_maintenance_debt.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/click_chemistry_paradigm_2026.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.2 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/climate_catastrophe_belief.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/climate_policy_extraction.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/cobra_effect.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/coffee_cardiovascular_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/cognitive_bicycle_scaffold.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+
+testsets/cognitive_diversity_arbitrage.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/cognitive_energy_budget.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/cognitive_hacking_2026.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+
+testsets/cognitive_mimicry_arbitrage.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/cognitive_surrender_to_system_3.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/coinbase_regulatory_uncertainty.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.35.
+
+testsets/collective_stupidity_2026.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/columbia_2026_elections.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+
+testsets/communal_narcissism_social_trap.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/complexity_debt.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/confidential_ai_whatsapp.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.3 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/confirmation_bias.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/consumer_debt_slavery.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.85 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/container_capacity_mismatch.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/coordination_attack_vulnerability.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+
+testsets/corporate_social_responsibility_theater.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/credibility_inflation.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/critical_actor_overcentralization.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/crop_defense_dependency.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/cuban_missile_crisis_excomm_delibration.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/cultural_refragmentation_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/cumbria_mine_rejection.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/decision_latency_mismatch.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/delayed_feedback_instability.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+
+testsets/demographic_inertia_trap.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/digital_identity_tether.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/djia_as_economic_barometer.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/dldr_information_policy.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.15 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/dutch_minority_govt_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/edelman_2026_developed_stagnation.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/edelman_2026_insularity.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/elite_capture_2026.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/emergency_oversight_bureau.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.25.
+
+testsets/emergency_powers_ratchet.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/emergent_goal_misalignment.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/emotional_cycles_of_change.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+
+testsets/empty_tomb_transformation.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/emrgency_medicine_clinical_guidelines.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  MISSING_VICTIM: Tangled rope requires constraint_victim/2 (derives has_asymmetric_extraction).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/endocrine_disruption_society.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/english_chinese_tense_structure.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/epigenetics_complexity_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/epistemic_overload_collapse.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/epistemic_process_of_verification.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.15 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  GENERIC_GROUP: constraint_beneficiary uses generic group 'society'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/epstein_document_release_2026.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/epstein_espionage_crisis_2026.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/epstein_kgb_honeytrap.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.85 requires resolution hook.
+
+testsets/erasmus_rejoining_scaffold.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/ergo_lets_protocol.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/ergo_nipopows.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/ergot_grain_poisoning.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/eu_affordable_housing_initiative.pl:
+  MISSING_VICTIM: Tangled rope requires constraint_victim/2 (derives has_asymmetric_extraction).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_VICTIM: Snare classification requires narrative_ontology:constraint_victim/2 to identify extraction target.
+
+testsets/eu_asylum_outsourcing_framework.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/eu_deforestation_regulation.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/eu_unanimity_rule_foreign_policy.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/event_fragmentation.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/evidence_half_life.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/factional_instability.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/faint_blue_neural_bifurcation.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/fb_creator_monetization_indonesia.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/fiat_currency_lifecycle.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/finite_pool_of_worry.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/fnl_shadow_probe.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/fptp_electoral_system.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/framing_effect.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/france_cordon_sanitaire_2026.pl:
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_VICTIM: Tangled rope requires constraint_victim/2 (derives has_asymmetric_extraction).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+  MISSING_VICTIM: Snare classification requires narrative_ontology:constraint_victim/2 to identify extraction target.
+
+testsets/fraser_river_salmon_regulation.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/fused_quartz_5d_archival.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+
+testsets/g7_debt_trap.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+
+testsets/gemini_scientific_advancement.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  MISSING_VICTIM: Tangled rope requires constraint_victim/2 (derives has_asymmetric_extraction).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/genetic_algorithms_evolution.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/genetic_predisposition_mania.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/germline_regulation_threshold_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/ghost_fishing_gear.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/gita_kurukshetra.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/global_stimulus_spree.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/gold_fomo_cycle.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/gold_piton_2026.pl:
+  INSUFFICIENT_VARIANCE: Found ['piton']. Need at least 2 different types across indices.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/google_ai_search_overview.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/governance_overfitting.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/graph_coloring_complexity.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+  MISSING_VICTIM: Tangled rope requires constraint_victim/2 (derives has_asymmetric_extraction).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/gs1_gln_identification.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.25 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/gs1_standardized_identification.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.3 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.1.
+
+testsets/guinea_worm_eradication.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.2 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/hanlons_razor.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/harry_potter_liberalism.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/hedonic_adaptation_baseline.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/heglig_oil_field_control.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/helsinki_bus_theory.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/heuristic_optimization.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  MISSING_VICTIM: Tangled rope requires constraint_victim/2 (derives has_asymmetric_extraction).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/hidden_interdependency_risk.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/hollow_state_syndrome.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/huang_expectation_resilience_2026.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/hypernormie_equilibrium.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/incumbent_steel_production.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/independent_criticism_patronage.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.2 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/india_semi_mission.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/individual_revolution_autonomy.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/infrastructure_interoperability_decay.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/inner_models.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/institutional_mutation_without_selection.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/international_seabed_mining_regime.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/internet_archive_preservation.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  GENERIC_GROUP: constraint_beneficiary uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/interpretive_frame_fragmentation.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/iran_hijab_law.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/iran_mandatrophic_collapse.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/irreversible_policy_commitment.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/isa_education_scaffold.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/israel_norwegian_law.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+
+testsets/israeli_settlement_policy_authority_restriction.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/job_hunt_volume_system_2026.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/jp_nativist_politics.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/jupiter_composition_knowledge_gap.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/keltner_relationship_evaluation.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.3 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/kjv_textual_authority.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/knowledge_action_gap.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/latent_goal_activation.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/latent_regulatory_bomb.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/legibility_trap.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/legitimacy_without_capacity.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/linguistic_relativity_cultural_framing.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/litchfield_sensitive_locations_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/lula_hemisphere_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/magna_carta_liberties.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/maintenance_capacity_shortfall.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/maladaptive_selection_process.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/mandatrophic_margin_collapse.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/mass_market_extinction_2026.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/matching_markets_general.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/mco_unit_system_discontinuity.pl:
+  INSUFFICIENT_VARIANCE: Found ['piton']. Need at least 2 different types across indices.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/mean_value_theorem.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.3 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/medical_residency_match.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  MISSING_VICTIM: Tangled rope requires constraint_victim/2 (derives has_asymmetric_extraction).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/memetic_fitness_vs_truth.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/meta_model_lock_in.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/microbiome_symbiosis.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/mil_std_461g_emi_control.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+
+testsets/misunderstanding_as_mismatch.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/mit_tfus_consciousness_2026.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+
+testsets/model_collapse_feedback_loop.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/moltbook_agent_theater.pl:
+  INSUFFICIENT_VARIANCE: Found ['piton']. Need at least 2 different types across indices.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/moltbook_breach_2026.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/monopoly_fp_house_rule.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/moral_outsourcing.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/multi_agent_reward_hacking.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/n8k_tv_limit_2026.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/narrative_engineering_2026.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.3 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/nash_equilibrium_coordination.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.15 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/nato_arctic_defense_cooperation.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/neurodiversity_spectrum.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/new_start_expiration.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/nfl_superbowl_marketing_regulation.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/nine_day_buffer.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/noncentrosymmetric_asoc_coupling.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.3 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/norm_erosion_threshold.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+
+testsets/north_korea_songun_mandatrophy.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.85 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/nsl_hk.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/nuclear_order_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/omelet_perfection_complexity.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/open_source_commons.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.15 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/opioid_political_realignment_2026.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/optimization_fragility.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/oral_glp1_market_access.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/overfitting_to_frameworks.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/parable_fish_turtle.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+
+testsets/pareto_principle.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.3 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+
+testsets/parkinsons_law.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/participatory_observer_hypothesis.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/path_dependence_lock_in.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/pe_rental_market_lockin.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/permissive_software_licensing.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/perseverance_ai_drive.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+
+testsets/peter_principle.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/pfas_regulatory_framework.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/planetary_diet_constraint_2026.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/platform_cooperativism_governance.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  MISSING_VICTIM: Tangled rope requires constraint_victim/2 (derives has_asymmetric_extraction).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/platonic_coparenting_decoupling.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/policy_implementation_gap.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/portuguese_presidential_term_limits.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.15 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/price_signal_corruption.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/prime_age_male_unwork.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/private_identity_integration.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/procedural_legitimacy_decay.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/public_domain_commons.pl:
+  GENERIC_GROUP: constraint_beneficiary uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/publishing_embargo.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/qualified_immunity.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/quantum_measurement_gap.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/quellcrist_falconer_justice.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/raac_school_maintenance.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/radiologic_diagnostic_threshold.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/rare_earth_coop_2026.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.2 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/rational_inertia_trap.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/regulatory_pathway_psychedelic_therapy.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/rent_seeking_equilibrium.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/repair_probe_incomplete.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.01 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/requirement_invasive_diabetes_testing.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/responsibility_dilution.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/responsibility_without_power.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/rfc9293_interoperability.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.1 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/rfc9293_state_machine.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+
+testsets/ritualistic_transition_scaffold.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.65.
+  MISSING_VICTIM: Tangled rope requires constraint_victim/2 (derives has_asymmetric_extraction).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/rogers_commission_institutional_analysis.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/rogue_wave_control_2026.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.15 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/roman_bath_system.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.15 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/roman_monumental_construction.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/rotation_seven_kubo_ranking.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/rotmigration_decision_threshold.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.1.
+
+testsets/rule_update_failure.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/s1_visa_judgment_sharing_agreement.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/sapir_whorf_hypothesis.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+
+testsets/scam_compound_grey_zone_2026.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.85 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/scientific_paradigm_lifecycle.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/self_enforced_boundary_protocol.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.2 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/semantic_attack_surface.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+  GENERIC_GROUP: constraint_victim uses generic group 'individuals'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/semantic_overload_friction.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/shadow_pricing_failure.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/shannon_entropy_limit.pl:
+  MISSING_VICTIM: Snare classification requires narrative_ontology:constraint_victim/2 to identify extraction target.
+
+testsets/shitty_feedback_handling.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/sludge_bureaucratic_friction.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/social_loafing.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+
+testsets/social_narrative_casting.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+
+testsets/solar_system_weirdness.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/somatic_focusing_awareness.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.15 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/south_china_sea_arbitration_2016_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/stable_marriage_coordination.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.05 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  GENERIC_GROUP: constraint_beneficiary uses generic group 'participants'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/stoic_logos_governance.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/straight_coercion_2025.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/structural_extraction_without_actor.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/sunk_cost_fallacy.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/tail_risk_compression.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/targeted_dream_incubation.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/technocratic_overreach.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/technological_point_of_no_return.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.85 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/temporal_scale_arbitrage.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/texas_insurance_market_instability.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/the_calm_protocol_suppression.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/the_churn_systemic_upheaval.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/theatrical_neutrality.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/theory_of_visitors.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.2.
+
+testsets/tiktok_us_divestiture_mandate.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/tragedy_of_the_commons.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/traveling_salesperson_problem.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/trump_epa_greenhouse_gas_reversal.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/trumps_second_term_authoritarianism_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/tsp.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.15 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/ua_mobilization_protector_cert.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/uk_artist_resale_right.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.15.
+
+testsets/uk_help_to_buy_scheme.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/uk_ssp_eligibility.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/ulysses_chp01.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/ulysses_chp02.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/ulysses_chp05.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  MISSING_VICTIM: Snare classification requires narrative_ontology:constraint_victim/2 to identify extraction target.
+
+testsets/ulysses_chp09.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/ulysses_chp12.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+
+testsets/ulysses_chp13.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/ulysses_chp18.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+  SCAFFOLD_DANGER_ZONE: eps=0.3 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  MISSING_VICTIM: Tangled rope requires constraint_victim/2 (derives has_asymmetric_extraction).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/unclos_2026.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(powerless).
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.15.
+
+testsets/union_protection_underperformance.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.4.
+
+testsets/unrequited_love_protocol.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_BENEFICIARY: Tangled rope requires constraint_beneficiary/2 (derives has_coordination_function).
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  MISSING_BENEFICIARY: Non-mountain constraints require narrative_ontology:constraint_beneficiary/2 for directionality derivation. Without it, the engine falls back to canonical d (power atom only).
+
+testsets/unrwa_eviction_order.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/us_arms_transfer_policy.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/us_foreign_policy_america_first.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/us_greenland_envoy.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/us_israel_faa_502b_nonenforcement.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.5.
+
+testsets/us_military_recruitment_advertising.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/us_sanctions_icc_israel_case.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/us_sdf_alliance_abandonment_2026.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+
+testsets/us_suburban_zoning_2025.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/us_venezuela_oil_pressure.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+
+testsets/us_venezuela_plausible_deniability_2025.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/value_alignment_drift.pl:
+  GENERIC_GROUP: constraint_victim uses generic group 'users'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+  GENERIC_GROUP: constraint_victim uses generic group 'society'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/value_extraction_plateau.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+  GENERIC_GROUP: constraint_victim uses generic group 'users'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/venezuela_oil_privatization_v1.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.75 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/vienna_quantum_superposition_2026.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.15 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/viral_emergence_covid19_exemplar.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/weierstrass_function.pl:
+  MISSING_VICTIM: Snare classification requires narrative_ontology:constraint_victim/2 to identify extraction target.
+
+testsets/wikipedia_crowdsourcing_2026.pl:
+  SCAFFOLD_DANGER_ZONE: eps=0.35 with beneficiary data, no enforcement, no sunset clause, and low theater. The engine's scaffold gate may fire at moderate/analytical perspectives. Either add has_sunset_clause/1 (if genuinely a scaffold) or verify that the intended classification is rope.
+
+testsets/womens_sizing_chaos.pl:
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.3.
+
+testsets/world_factbook_sunset_2026.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+  GENERIC_GROUP: constraint_victim uses generic group 'general_public'. Use a domain-specific group name (e.g., 'payday_lenders' not 'stakeholders').
+
+testsets/xi_mao_ideological_centralization.pl:
+  UNRESOLVED_MANDATROPHY: Extraction 0.8 requires resolution hook.
+  LOW_THEATER_RATIO: Piton requires theater_ratio >= 0.7, found 0.6.
+
+testsets/yangtze_fishing_ban.pl:
+  MISSING_SUNSET_CLAUSE: Scaffold with requires_active_enforcement needs narrative_ontology:has_sunset_clause/1.
+
+testsets/zombie_reasoning_2026.pl:
+  MISSING_ENFORCEMENT: Tangled rope requires requires_active_enforcement/1.
+

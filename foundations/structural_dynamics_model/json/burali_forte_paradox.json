@@ -1,0 +1,137 @@
+{
+  "header": {
+    "constraint_id": "burali_forte_paradox",
+    "version": "1.0",
+    "generated_date": "2026-02-26",
+    "status": "ACTIVE",
+    "measurement_id_prefix": "bfp"
+  },
+  "base_properties": {
+    "extractiveness": 0.12,
+    "suppression": 0.03,
+    "theater_ratio": 0.08,
+    "claimed_type": "mountain",
+    "human_readable": "Burali-Forti Paradox",
+    "topic_domain": "mathematical_logic/set_theory",
+    "emerges_naturally": true,
+    "accessibility_collapse": 0.92,
+    "resistance": 0.08
+  },
+  "perspectives": [
+    {
+      "classification_type": "mountain",
+      "agent_power": "analytical",
+      "time_horizon": "civilizational",
+      "exit_options": "analytical",
+      "spatial_scope": "universal",
+      "label": "The Mathematical Logician",
+      "comment": "PERSPECTIVE 1: MATHEMATICAL LOGICIAN (MOUNTAIN) \u2014 The paradox is an irreducible logical limit: any formal system that permits unrestricted set formation must distinguish between the 'collection of all ordinals' (which cannot be a set without contradiction) and legitimate sets. This constraint is a natural law of mathematical ontology, not a contingent institutional arrangement. Zero degrees of freedom."
+    },
+    {
+      "classification_type": "mountain",
+      "agent_power": "institutional",
+      "time_horizon": "civilizational",
+      "exit_options": "arbitrage",
+      "spatial_scope": "universal",
+      "label": "The Set Theory Community",
+      "comment": "PERSPECTIVE 2: SET THEORY COMMUNITY (MOUNTAIN) \u2014 Institutional mathematics accepts the constraint as immutable. All major formal systems (ZF, ZFC, NBG, MK) respond by restricting set formation (Separation, Replacement axioms) or distinguishing proper classes from sets. The constraint is inescapable \u2014 any alternative foundation encounters the same barrier under a different name. No arbitrage possible."
+    },
+    {
+      "classification_type": "mountain",
+      "agent_power": "powerless",
+      "time_horizon": "civilizational",
+      "exit_options": "trapped",
+      "spatial_scope": "universal",
+      "label": "The Novice Mathematician",
+      "comment": "PERSPECTIVE 3: NOVICE MATHEMATICIAN (MOUNTAIN) \u2014 First encountering the paradox, the student discovers an immutable fact: intuitive na\u00efve set theory (the assumption that any property defines a set) is incoherent. No amount of cleverness or institutional work can restore the na\u00efve approach. The paradox is a hard barrier to understanding."
+    }
+  ],
+  "omegas": [
+    {
+      "id": "ontological_commitment",
+      "question": "Is the paradox a constraint on the world's actual structure, or a constraint on human formal systems for describing the world?",
+      "resolution_mechanism": "Metaphysical analysis of whether ordinals are discovered or constructed; comparison of ontological costs across alternative formal systems",
+      "impact": "If world-structure: the constraint is noumenal (true independently). If formal-system: the constraint is epistemic (an artifact of our axioms). Classification remains Mountain either way, but interpretation differs.",
+      "confidence": "high",
+      "type_class": "conceptual",
+      "description": "Ontological status of the paradox constraint"
+    },
+    {
+      "id": "type_hierarchy_necessity",
+      "question": "Could a type-theoretic alternative (where objects have hierarchical types) eliminate the paradox-structure, or does the paradox re-emerge under different names in type systems?",
+      "resolution_mechanism": "Formal investigation of whether type hierarchies truly avoid self-application or merely defer the constraint to a metalevel; proof-theoretic comparison of consistency strength",
+      "impact": "If type systems avoid it: the constraint is specific to naive set theory (suggests decomposition). If it re-emerges: the constraint is universal to any recursively enumerable formal system (confirms Mountain).",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Whether alternative formal systems escape the paradox structure"
+    },
+    {
+      "id": "intuitionistic_alternatives",
+      "question": "Do constructivist or intuitionistic approaches that reject the Law of Excluded Middle experience a weaker or structurally different version of the Burali-Forti constraint?",
+      "resolution_mechanism": "Formal analysis of constructive set theory (CZF, IZF); comparison of what can and cannot be constructed in intuitionistic logic; proof that the paradox still emerges",
+      "impact": "If constructivism weakens the constraint: suggests the paradox depends on classical logic assumptions. If constraint persists: strengthens Mountain classification by showing universality across constructive foundations.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Whether constructivist logic avoids the paradox"
+    }
+  ],
+  "measurements": [
+    {
+      "metric": "theater_ratio",
+      "time_point": 0,
+      "value": 0.05
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 50,
+      "value": 0.08
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 100,
+      "value": 0.08
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 0,
+      "value": 0.1
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 50,
+      "value": 0.12
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 100,
+      "value": 0.12
+    }
+  ],
+  "interval": {
+    "start": 0,
+    "end": 100
+  },
+  "commentary": {
+    "narrative_context": "The Burali-Forti paradox reveals a fundamental limit of formal systems: any consistent mathematical framework must distinguish between the collection of all ordinal numbers and legitimate sets. If the collection of all ordinals were itself a set, it would have an ordinal rank greater than any ordinal in it \u2014 a logical contradiction. This constraint emerged in 1897 when Cesare Burali-Forti recognized that Cantor's informal ordinal theory encountered a self-referential barrier. The paradox is not a bug in a particular axiomatization but a deep structural feature: every formal system that permits transfinite arithmetic encounters this same boundary. The constraint exhibits zero degrees of freedom across all mathematical foundations. All major responses (ZFC's Separation and Replacement axioms, NBG's proper class distinction, category-theoretic approaches) accept the constraint as immutable and work within its bounds.",
+    "key_agents": [
+      "Mathematical Logic Community: Institutional observer (institutional/arbitrage) \u2014 treats the paradox as a law of reasoning, not contingent on human choices",
+      "Formal System Designers: Institutional architects (institutional/arbitrage) \u2014 design axiomatizations that respect the constraint rather than escape it",
+      "Students and Practitioners: End users (powerless/trapped) \u2014 encounter the constraint as an immovable barrier to naive intuition",
+      "Philosophers of Mathematics: Analytical observers (analytical/analytical) \u2014 debate whether the constraint reflects world-structure or formal-system structure"
+    ],
+    "logic_rationale": "Extractiveness (0.12): The paradox extracts almost no cost from any agent \u2014 it is purely revelatory, not extractive. The constraint identifies what cannot be done (form a set of all ordinals), but this identification requires no coercion or institutional enforcement. The modest extractiveness reflects the cost of re-education when students discover naive set theory is incoherent. Suppression (0.03): Minimal. The paradox cannot be suppressed \u2014 once discovered, it is logically transparent. Every agent in mathematics acknowledges it. No alternatives exist that bypass the constraint. Theater ratio (0.08): Extremely low. The paradox presents as pure logic with no performative content. The formal proof is straightforward and noncontroversial. No institutional ritual or theatrical activity is required to maintain the constraint. The slight elevation above zero reflects minor variations in pedagogical framing across textbooks.",
+    "perspectival_gap": "UNIFORM MOUNTAIN: All three perspectives classify the Burali-Forti paradox identically as Mountain. There is no perspectival gap. This is the canonical case of a uniform-type constraint where the classification is invariant across all observer positions. The paradox is neither more nor less extractive depending on the observer's power level or exit options. This uniformity demonstrates that the constraint is a genuine natural law of logic, not a social arrangement that different actors experience differently. The consensus across perspectives (logician, institutional community, novice) is the hallmark of Mountain classification.",
+    "directionality_logic": "MOUNTAIN CONSTRAINT \u2014 BENEFICIARY/VICTIM ANALYSIS NOT APPLICABLE: Mountains are natural laws. No agent benefits or bears cost from the Burali-Forti paradox in the structural sense required for directionality computation. The paradox is not extracted from anyone; it is discovered by everyone. There is no beneficiary asymmetry \u2014 no group that profits while others pay. The mathematical community collectively benefits from knowing the constraint (it prevents false theorems), but this is not extraction in the DR sense. There is no victim group. Directionality derivation is not performed for mountains, and no beneficiary/victim declarations are provided."
+  },
+  "boltzmann": {
+    "coordination_type": "information_standard"
+  },
+  "network": {
+    "affects_constraints": [
+      "cantor_diagonal_argument",
+      "russell_paradox",
+      "limitation_theorem_hierarchy"
+    ],
+    "dual_formulation_note": "The Burali-Forti paradox is structurally upstream of the Russell paradox and the G\u00f6del limitation hierarchy. All three are mountain constraints in mathematical logic, but they reveal different aspects of the same phenomenon: unrestricted self-reference in formal systems is incoherent. The network linkage shows how this constraint family establishes the universal bounds on what formal mathematics can express."
+  }
+}

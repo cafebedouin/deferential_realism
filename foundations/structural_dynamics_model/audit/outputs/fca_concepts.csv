@@ -1,0 +1,21 @@
+extent_size,intent_size,intent_gates_sample
+728,1,has_coordination_function
+716,1,eps_ge_tr_floor
+701,2,has_coordination_function; eps_ge_tr_floor
+689,1,sig_false_ci_rope
+685,2,has_coordination_function; sig_false_ci_rope
+675,1,has_asymmetric_extraction
+672,2,has_asymmetric_extraction; eps_ge_tr_floor
+669,2,eps_ge_tr_floor; chi_analytical_in_tr_range
+666,2,sig_false_ci_rope; eps_ge_tr_floor
+665,3,has_coordination_function; sig_false_ci_rope; eps_ge_tr_floor
+661,2,has_coordination_function; has_asymmetric_extraction
+658,3,has_coordination_function; has_asymmetric_extraction; eps_ge_tr_floor
+657,3,has_coordination_function; eps_ge_tr_floor; chi_analytical_in_tr_range
+651,1,supp_ge_enforcement
+649,2,has_asymmetric_extraction; supp_ge_enforcement
+647,2,eps_ge_tr_floor; supp_ge_enforcement
+646,3,has_asymmetric_extraction; eps_ge_tr_floor; supp_ge_enforcement
+645,2,eps_ge_tr_floor; chi_moderate_in_tr_range
+644,3,has_asymmetric_extraction; eps_ge_tr_floor; chi_moderate_in_tr_range
+635,3,has_coordination_function; has_asymmetric_extraction; supp_ge_enforcement

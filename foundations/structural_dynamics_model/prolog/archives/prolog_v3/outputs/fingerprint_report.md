@@ -1,0 +1,1658 @@
+# Logical Fingerprint Report
+
+*Generated: corpus-wide structural fingerprint analysis*
+
+## Summary
+
+- **Constraints analyzed**: 1151
+- **Distinct shift patterns**: 29
+
+## Shift Pattern Families
+
+Each family groups constraints with identical perspectival shift — same classification at each power level.
+
+### `shift(mountain, mountain, mountain, mountain)` — 127 constraints
+
+- `ancient_antibiotic_resistance`
+- `antikythera_knowledge_loss`
+- `banach_fixed_point`
+- `banach_fixed_point_theorem`
+- `banach_tarski_paradox`
+- `base_pair_complementarity`
+- `basel_problem_convergence`
+- `bgs_spectral_universality`
+- `bh_merger_gravitational_infall`
+- `biological_specification`
+- `birthday_paradox_collision`
+- `brouwer_fixed_point`
+- `busy_beaver_noncomputability`
+- `c_physical_blue_wavelength`
+- `cantor_set_topology`
+- `cantors_diagonal_argument`
+- `cap_theorem`
+- `central_limit_theorem`
+- `chaitins_omega_undecidability`
+- `church_turing_thesis`
+- `clt_convergence_2026`
+- `collatz_conjecture_determinism`
+- `constraint_borsuk_ulam`
+- `constraint_ftc`
+- `constraint_galois_solvability`
+- `constraint_lorenz_sensitivity`
+- `constraint_nonstandard_arithmetic`
+- `constraint_pythagorean`
+- `constraint_sylow`
+- `constraint_tarski_undefinability`
+- `constraint_twin_prime_conjecture`
+- `continuum_hypothesis_undecidability`
+- `conways_game_of_life_dynamics`
+- `cosmological_evolution_alpha_omega`
+- `countable_infinity_cardinality`
+- `deep_earth_hydrogen_availability`
+- `dunbars_number`
+- `ehrenfest_barrier`
+- `elencher_identity_transformation`
+- `english_chinese_tense_structure`
+- `epigenetics_complexity_2026`
+- `euler_characteristic_topology`
+- `event_fragmentation`
+- `fast_growing_hierarchy`
+- `feigenbaum_universality`
+- `fermat_proof_barrier`
+- `fgh_hierarchy_2026`
+- `finite_simple_group_classification`
+- `fossil_fuel_lock_in`
+- `four_color_theorem_topological_bound`
+- `fundamental_material_limits_nbre`
+- `fundamental_theorem_of_algebra`
+- `fungal_shift_grassland_loss`
+- `gauss_bonnet_topology`
+- `genetic_predisposition_mania`
+- `geophysics_superionic_core`
+- `goedels_incompleteness_theorems`
+- `goldbach_conjecture`
+- `gravitational_lensing_cosmic_dawn`
+- `halting_problem_undecidability`
+- `hamiltonian_path_complexity`
+- `hd101584_stellar_evolution`
+- `heine_borel`
+- `heisenberg_uncertainty`
+- `hilbert_hotel_infinite_capacity`
+- `hiv_prep_prevention_2026`
+- `indexical_relativity_core`
+- `kirby_paris_theorem`
+- `kleene_recursion_theorem`
+- `kolmogorov_complexity`
+- `large_cardinals_inaccessibility`
+- `legacy_identity_lock_in`
+- `liar_paradox`
+- `litany_of_the_real`
+- `lobs_theorem`
+- `local_vs_global_optima`
+- `lowenheim_skolem_theorem`
+- `lyapunov_stability`
+- `m82_outflow_suppression`
+- `martian_signal_latency`
+- `material_tensile_strength`
+- `minimax_decision_rule`
+- `monty_hall_conditional_probability`
+- `newtons_method_convergence`
+- `no_cloning_theorem`
+- `noether_theorem`
+- `noethers_theorem_symmetry`
+- `noncentrosymmetric_asoc_coupling`
+- `optimal_stopping_marriage`
+- `p_vs_np`
+- `pancreatic_cancer_lethality_v1`
+- `pareto_principle`
+- `plekha7_synaptic_pruning`
+- `poincare_conjecture`
+- `prime_number_theorem`
+- `prisoners_dilemma_equilibrium`
+- `pythagorean_geometric_constancy`
+- `quantum_measurement_gap`
+- `quantum_nonlocality_2026`
+- `ramsey_numbers`
+- `reciprocity_laws_math`
+- `relativity_of_simultaneity`
+- `relativity_physical_invariance`
+- `rices_theorem_undecidability`
+- `shannon_entropy_limit`
+- `shannon_source_coding`
+- `silver_scarcity_2026`
+- `spv_variations_us_cold`
+- `square_cube_law`
+- `star_formation_barrier_g0253`
+- `star_to_black_hole_observational_limit`
+- `sturgeons_law`
+- `suslin_hypothesis_proof_limits`
+- `suslin_hypothesis_undecidability`
+- `sylow_theorems_group_theory`
+- `terrain_inaccessibility_wheeled_vehicles`
+- `thermodynamics_entropy`
+- `three_body_problem_predictability_limit`
+- `three_body_unpredictability`
+- `treaty_land_entrenchment`
+- `two_domain_ancestry`
+- `uneven_risk_distribution`
+- `universal_mathematics_communication`
+- `van_der_waerden_theorem`
+- `weierstrass_proof_limits`
+- `whitehead_incompleteness`
+- `whitehead_problem_undecidability`
+
+### `shift(mountain, rope, rope, mountain)` — 1 constraints
+
+- `quine_self_replication`
+
+### `shift(mountain, scaffold, scaffold, mountain)` — 19 constraints
+
+- `axiom_of_choice`
+- `biological_curiosity`
+- `burali_forti_paradox`
+- `click_chemistry_paradigm_2026`
+- `climate_attribution_2026`
+- `currys_paradox`
+- `damped_harmonics`
+- `endowment_effect`
+- `ergo_nipopows`
+- `galois_theory_symmetry`
+- `genetic_algorithms_evolution`
+- `heuristic_optimization`
+- `hilberts_hotel_infinity`
+- `information_foraging_theory`
+- `lln_convergence`
+- `mvt_theorem_constraint`
+- `nonstandard_arithmetic_models`
+- `peano_curve_mapping`
+- `skolems_paradox`
+
+### `shift(naturalized, snare, rope, snare)` — 9 constraints
+
+- `ai_compute_capital_moat`
+- `digital_credentialing_verification`
+- `indonesia_penal_code_2023`
+- `jp_nativist_politics`
+- `meta_pay_or_okay_model`
+- `nvidia_cuda_ecosystem_lockin`
+- `pele_microreactor_deployment`
+- `us_embargo_cuba`
+- `verification_bottleneck`
+
+### `shift(naturalized, tangled_rope, rope, snare)` — 5 constraints
+
+- `ai_performance_watermark`
+- `dk_us_alliance_espionage`
+- `openai_prism_development`
+- `semiconductor_fabrication_chokepoint`
+- `us_usmca_china_leverage`
+
+### `shift(naturalized, tangled_rope, rope, tangled_rope)` — 5 constraints
+
+- `canada_germany_ai_pact`
+- `eu_mercosur_trade_agreement`
+- `indo_german_defense_pact`
+- `polar_bear_biobanking`
+- `shield_east_fortification`
+
+### `shift(naturalized, tangled_rope, tangled_rope, snare)` — 1 constraints
+
+- `google_universal_commerce_protocol`
+
+### `shift(piton, piton, piton, piton)` — 74 constraints
+
+- `academic_fashion_modernism_2026`
+- `adversarial_truth_decay`
+- `agent_opt_2026`
+- `algorithmic_epistemic_capture`
+- `alignment_tax_tradeoff`
+- `altruistic_misery_paradox_2026`
+- `anticipatory_capacity_failure`
+- `art_market_decoupling`
+- `asymmetric_burden_distribution`
+- `asymmetric_computational_difficulty`
+- `atrophied_optimization_piton`
+- `boiled_pineapple_trend_2026`
+- `bureaucratic_self_preservation`
+- `citation_collapse_dynamics`
+- `clawderberg_recursive_slop`
+- `communal_narcissism_social_trap`
+- `coordination_attack_vulnerability`
+- `corporate_social_responsibility_theater`
+- `crisis_signal_saturation`
+- `elite_capture_2026`
+- `epstein_espionage_2026`
+- `epstein_files_2026`
+- `epstein_honeytrap`
+- `fiscal_dominance_trap`
+- `france_cordon_sanitaire_2026`
+- `global_economic_anxiety_2026`
+- `gold_piton_2026`
+- `hoa_covenants`
+- `huang_expectation_resilience_2026`
+- `infrastructure_interoperability_decay`
+- `institutional_memory_loss`
+- `institutional_trust_decay`
+- `juvenile_underclass_2026`
+- `legal_formalism_overhang`
+- `legitimacy_without_effectiveness`
+- `litchfield_sensitive_locations_2026`
+- `maintenance_capacity_shortfall`
+- `mco_unit_system_discontinuity`
+- `memetic_fitness_vs_truth`
+- `minnesota_sovereignty_2026`
+- `moltbook_agent_theater`
+- `narcissistic_ego_maintenance`
+- `notary_ink_dependency`
+- `other_peoples_troubles_2026`
+- `procedural_compliance_theater`
+- `railway_gauge_standard`
+- `riot_incentive_loop_2026`
+- `rule_update_failure`
+- `second_order_unintended_consequences`
+- `shadow_pricing_failure`
+- `structural_extraction_without_actor`
+- `swift_legacy_piton`
+- `taxonomy_drift`
+- `temporal_scarcity`
+- `ulysses_aeolus_1904`
+- `ulysses_calypso_1904`
+- `ulysses_circe_1904`
+- `ulysses_cyclops_1904`
+- `ulysses_eumaeus_1904`
+- `ulysses_hades_1904`
+- `ulysses_ithaca_1904`
+- `ulysses_lestrygonians_1904`
+- `ulysses_lotus_1904`
+- `ulysses_nausicaa_1904`
+- `ulysses_oxen_1904`
+- `ulysses_penelope_1904`
+- `ulysses_proteus_1904`
+- `ulysses_rocks_1904`
+- `ulysses_school_1904`
+- `ulysses_scylla_1904`
+- `ulysses_sirens_1904`
+- `ulysses_tower_1904`
+- `womens_sizing_chaos`
+- `world_factbook_sunset_2026`
+
+### `shift(piton, piton, rope, tangled_rope)` — 2 constraints
+
+- `ritual_transition_scaffold`
+- `ship_of_theseus`
+
+### `shift(piton, rope, rope, rope)` — 4 constraints
+
+- `boom_bust_path_dependency`
+- `kjv_linguistic_residue`
+- `milano_cortina_2026`
+- `viral_emergence_covid19_exemplar`
+
+### `shift(rope, rope, rope, rope)` — 31 constraints
+
+- `acip_hep_b_infant_mandate`
+- `alternative_sovereignty_scaffold`
+- `asean_ceasefire_2011`
+- `automatic_enrollment_defaults`
+- `berkshire_compounding_culture`
+- `boundary_protocol`
+- `brazil_hiv_vtn_elimination`
+- `cancer_chronotherapy_timing`
+- `cinderella_midnight_deadline`
+- `copyleft_viral_licensing`
+- `cuny_light_2026`
+- `decentralized_infrastructure_rope`
+- `fair_use_doctrine`
+- `ice_memory_archive`
+- `legacy_system_technical_debt`
+- `microrobot_manipulation`
+- `mom_z14_2026`
+- `open_source_commons`
+- `perseverance_rover_autonomy`
+- `planetary_diet_constraint_2026`
+- `portuguese_presidential_term_limits`
+- `public_domain_commons`
+- `rafah_crossing_lifeline`
+- `rare_earth_coop_2026`
+- `sts86_ascent_checklist`
+- `swift_piton_snap`
+- `thai_article_112_mountain`
+- `trajans_bridge_lifecycle`
+- `vertebrate_turning_point_2026`
+- `wikipedia_crowdsourcing_2026`
+- `wikipedia_noncommercial_model`
+
+### `shift(rope, rope, rope, tangled_rope)` — 1 constraints
+
+- `social_narrative_casting`
+
+### `shift(scaffold, scaffold, scaffold, tangled_rope)` — 5 constraints
+
+- `france_local_elections_march_2026`
+- `glp1_payload_efficiency_pivot`
+- `layered_brain_processing`
+- `portugal_ad_stability_2026`
+- `sig_usd_protocol`
+
+### `shift(snare, snare, rope, snare)` — 337 constraints
+
+- `26usc469_real_estate_exemption`
+- `abstraction_boundary_overrun`
+- `academic_tenure_system`
+- `ad_synaptic_deficit`
+- `adaptive_lag_trap`
+- `adversarial_surface_inflation`
+- `agency_atrophy`
+- `agg1_genetic_determinism`
+- `ai_banal_capture`
+- `ai_driven_surveillance_sensor_layer`
+- `ai_evaluators_matching`
+- `ai_nonconsensual_content_facilitation`
+- `ai_professional_displacement`
+- `airport_slot_use_it_or_lose_it`
+- `algeria_france_colonial_legacy`
+- `algorithmic_bias`
+- `amish_technological_renunciation`
+- `ancient_grudge_verona`
+- `antifragility`
+- `apartheid_nuclear_program`
+- `appropriations_brinkmanship`
+- `arctic_geopolitical_flashpoint`
+- `asshole_filter_2015`
+- `attention_as_bottleneck_resource`
+- `attention_market_cannibalization`
+- `attritional_warfare_doctrine_ru_ua_2026`
+- `australia_social_ban_2026`
+- `authoritarian_power_paradox`
+- `autonomous_toolchain_sprawl`
+- `average_is_over_2026`
+- `awareness_without_leverage`
+- `bay_of_pigs_operational_silo`
+- `bedouin_sedentary_transition`
+- `belief_argument_conclusion`
+- `bip_narrative_illusion`
+- `blackstone_conflicts_of_interest`
+- `blackstone_smd_control`
+- `blackstone_tra`
+- `bonbon_drop_sticker_craze`
+- `bor_tax_exemption_nl`
+- `boundary_dissolution_risk`
+- `brazil_mexico_financial_requirement`
+- `broke_vs_poor_grocery_math`
+- `burden_of_proof_engineering_safety`
+- `bureaucratic_legibility_collapse`
+- `bushman_money_magic`
+- `capability_eval_overhang`
+- `capital_misallocation_spiral`
+- `carrying_capacity`
+- `cartel_drone_surveillance_el_paso`
+- `cascading_constraint_failure`
+- `cascading_uncertainty_2026`
+- `cb_far_beyond_human`
+- `cbdc_implementation`
+- `cfius_hiefo_emcore_divestment`
+- `cg_israelgaza_20231012`
+- `challenger_o_ring_integrity`
+- `child_marriage`
+- `china_critical_mineral_chokepoint`
+- `china_taiwan_reunification_mandate`
+- `cholesterol_pill_cost`
+- `chrome_imagen2_integration`
+- `cia_fbi_legal_wall`
+- `circadian_decoupling_arbitrage`
+- `civilizational_lifecycle_solara`
+- `climate_policy_extraction`
+- `cloudflare_dual_class_asymmetry`
+- `coe_ukraine_reparations_register`
+- `cognitive_energy_budget`
+- `cognitive_hacking_2026`
+- `cognitive_induction_gap`
+- `cognitive_surrender_to_system_3`
+- `coinbase_regulatory_uncertainty`
+- `collective_action_deadlock`
+- `collective_stupidity_2026`
+- `colorado_sbe_decentralization_friction`
+- `commercial_data_brokerage`
+- `complexity_debt`
+- `consensus_without_truth`
+- `constraint_interaction_explosion`
+- `consumer_debt_slavery`
+- `container_capacity_mismatch`
+- `coordination_fatigue`
+- `credibility_inflation`
+- `critical_actor_overcentralization`
+- `cross_domain_coupling_spiral`
+- `cultural_memory_decay`
+- `cultural_refragmentation_2026`
+- `cumbria_mine_rejection`
+- `cz_plea_agreement_2026`
+- `dark_patterns_manipulation`
+- `data_laundering_pipeline`
+- `debt_service_squeeze`
+- `deferred_risk_realization`
+- `delayed_feedback_instability`
+- `delta_force_selection_2026`
+- `demographic_inertia_trap`
+- `denmark_asylum_outsourcing`
+- `dk_foreign_convict_expulsion`
+- `dwp_carers_allowance_cliff`
+- `elite_identity_capture_2026`
+- `emergency_mode_lock_in`
+- `emergent_goal_misalignment`
+- `endocrine_disruption_society`
+- `epistemic_free_rider_problem`
+- `epistemic_overload_collapse`
+- `ergot_grain_poisoning`
+- `erised_expectation`
+- `eu_asylum_outsourcing_framework`
+- `eu_russian_asset_freeze_2025`
+- `evidence_half_life`
+- `evolutionary_mismatch_load`
+- `expert_disempowerment`
+- `faint_blue_neural_bifurcation`
+- `family_estrangement_ratio`
+- `family_succession_system`
+- `fatf_grey_list_russia`
+- `fb_creator_monetization_indonesia`
+- `feedback_loop_desynchronization`
+- `fiat_currency_lifecycle`
+- `financial_drag`
+- `finite_pool_of_worry`
+- `finnish_debt_adjustment`
+- `floating_wall_2026`
+- `fptp_electoral_system`
+- `fragile_middle_layer_collapse`
+- `frankenstein_creation_hubris`
+- `frontex_pushback_coordination`
+- `gale_shapley`
+- `generational_replacement_inertia`
+- `ghost_fishing_gear`
+- `gig_economy_algorithmic_management`
+- `gilgamesh_mortality_limit`
+- `global_hoarding_scaling_laws`
+- `global_protocol_entrenchment`
+- `global_water_bankruptcy`
+- `goal_boundary_poisoning`
+- `gold_fomo_cycle`
+- `governance_latency_gap`
+- `governance_overfitting`
+- `greenland_seizure_trade_war`
+- `grievance_stack_overflow`
+- `guinea_junta_legitimization_2024`
+- `guthrie_kidnapping_2026`
+- `harlequin_historical_line_discontinuation`
+- `heglig_oil_field_control`
+- `hhs_fetal_tissue_research_ban_2019`
+- `hicbc_uk`
+- `hidden_interdependency_risk`
+- `hk_nsl_civic_party_disbandment`
+- `hollow_state_syndrome`
+- `hominin_evolutionary_bottleneck`
+- `hypercompression_of_time_horizons`
+- `hypernormie_equilibrium`
+- `ibm_shield_2026`
+- `ibm_shield_contract_2026`
+- `ice_raids_minnesota_2026`
+- `ice_safe_departure`
+- `identity_stack_incompatibility`
+- `incentive_surface_warping`
+- `individual_revolution_autonomy`
+- `individual_vs_systemic_causation`
+- `indo_russian_submarine_lease_2025`
+- `inference_cost_scaling_law`
+- `informational_time_2026`
+- `institutional_mutation_domestication`
+- `institutional_mutation_without_selection`
+- `integrated_digital_governance_stack`
+- `interface_contract_breakdown`
+- `internet_evolution_lifecycle`
+- `interpretive_frame_fragmentation`
+- `intertemporal_responsibility_gap`
+- `invisible_infrastructure_dependency`
+- `iran_guardian_council_vetting`
+- `iran_hijab_law`
+- `iran_mandatrophic_collapse`
+- `iran_nin_repression`
+- `iran_war_room_2026`
+- `irreversible_policy_commitment`
+- `israel_override_clause`
+- `job_hunt_volume_system_2026`
+- `khantivadin_radical_patience`
+- `latent_goal_activation`
+- `latent_regulatory_bomb`
+- `lavender_ai_targeting`
+- `legibility_trap`
+- `legitimacy_without_capacity`
+- `lehman_repo_105`
+- `liquidity_illusion`
+- `lp_pikachu_illustrator`
+- `lula_hemisphere_2026`
+- `maladaptive_selection_process`
+- `mandatrophic_margin_collapse`
+- `mandatrophy_systemic_collapse`
+- `marriage_market_asymmetry_2026`
+- `mass_market_extinction_2026`
+- `medieval_church_hegemony`
+- `meta_governance_overload`
+- `meta_model_lock_in`
+- `metabolic_constraint_cognition`
+- `metamorphosis_samsa`
+- `misunderstanding_as_mismatch`
+- `model_autonomy_creep`
+- `model_collapse_feedback_loop`
+- `model_of_models_regression`
+- `moltbook_breach_2026`
+- `moral_outsourcing`
+- `multi_agent_reward_hacking`
+- `multi_planetary_latency_lock`
+- `mutual_defection_equilibrium`
+- `naming_as_control`
+- `narrative_capacity_exhaustion`
+- `narrative_overfitting`
+- `nasa_faster_better_cheaper`
+- `necessary_day_job`
+- `nero_imperial_expropriation`
+- `non_compete_agreements`
+- `norm_erosion_threshold`
+- `north_korea_songun_mandatrophy`
+- `nsl_hk`
+- `ontological_friction_resolution`
+- `opioid_political_realignment_2026`
+- `optimization_fragility`
+- `orbital_data_center_2026`
+- `overfitting_to_frameworks`
+- `panama_canal_ports`
+- `parable_fish_turtle`
+- `path_dependence_lock_in`
+- `pe_fund_level_leverage`
+- `pe_rental_market_lockin`
+- `pfas_regulatory_framework`
+- `pla_loyalty_purge`
+- `planetary_boundaries`
+- `poetic_verse_and_past`
+- `policy_lag_catastrophe`
+- `political_art_factional_alignment`
+- `political_dissident_containment`
+- `power_without_responsibility`
+- `prestige_signal_inflation`
+- `price_signal_corruption`
+- `prime_age_male_unwork`
+- `procedural_legitimacy_decay`
+- `project_vault_extraction_2026`
+- `protocol_drift_accumulation`
+- `qualified_immunity`
+- `quellcrist_falconer_justice`
+- `radiologic_diagnostic_threshold`
+- `rational_inertia_trap`
+- `regional_military_deterrence_mideast`
+- `rent_seeking_equilibrium`
+- `reputational_cascade_failure`
+- `requirement_invasive_diabetes_testing`
+- `responsibility_dilution`
+- `responsibility_without_power`
+- `risk_socialization_threshold`
+- `ritual_without_belief`
+- `robustness_vs_efficiency_tradeoff`
+- `roc_african_exarchate`
+- `rogers_commission_institutional_analysis`
+- `rotation_seven_isolation`
+- `rotation_seven_kubo_ranking`
+- `rules_based_international_order`
+- `russian_war_cannibalization`
+- `scam_compound_2026`
+- `scam_doubt_manufacturing`
+- `scurvy_maritime_extraction`
+- `self_surpassing`
+- `semantic_attack_surface`
+- `shock_propagation_asymmetry`
+- `signal_without_control`
+- `silent_dependency_activation`
+- `silicon_lexicon_overload`
+- `sleep_debt_externality`
+- `slow_crisis_invisibility`
+- `sludge_bureaucratic_friction`
+- `social_credit_architecture`
+- `soft_authoritarian_drift`
+- `spain_digital_offensive_2026`
+- `starwars_evolutionary_mutation`
+- `statecraft_virtu`
+- `status_flattening_effect`
+- `stoic_logos_governance`
+- `suanne_coup_of_peace`
+- `suanne_face_restoration`
+- `synthetic_data_feedback_loop`
+- `systemic_blindspot`
+- `tail_risk_compression`
+- `taiwan_existential_sovereignty`
+- `taiwan_grand_bargain`
+- `taiwan_storm_2026`
+- `taiwan_strait_hegemony_shift`
+- `taliban_slavery_law_2024`
+- `tear_gas_repression_2026`
+- `technocratic_overreach`
+- `technological_point_of_no_return`
+- `thai_senate_veto_2026`
+- `the_bacchae_madness_protocol`
+- `the_calm_protocol_suppression`
+- `the_wall_procedural_barrier`
+- `theatrical_neutrality`
+- `toxic_social_infection`
+- `tractarian_logic_limit`
+- `tx_hispanic_pivot`
+- `ua_mobilization_protector_cert`
+- `ua_wartime_mobilization`
+- `uk_graduate_visa_salary_threshold`
+- `uk_hicbc_2024`
+- `uk_ssp_eligibility`
+- `uk_unpaid_care_system`
+- `ukr_mobilization`
+- `unrwa_eviction_order`
+- `us_foreign_policy_america_first`
+- `us_greenland_envoy`
+- `us_isolationism_policy_2026`
+- `us_israel_faa_502b_nonenforcement`
+- `us_sanctions_belarus_2022`
+- `us_sanctions_moex_2024`
+- `us_sdf_alliance_abandonment_2026`
+- `us_suburban_zoning_2025`
+- `us_two_party_duopoly`
+- `us_vaccine_recommendation_dismantling_2026`
+- `us_venezuela_blockade`
+- `us_venezuela_oil_pressure`
+- `us_venezuela_plausible_deniability_2025`
+- `us_wind_project_ban_2025`
+- `utopia_apocalypse_fragility`
+- `value_alignment_drift`
+- `value_extraction_plateau`
+- `venezuela_oil_privatization_v1`
+- `viral_transmission_rates`
+- `vision_of_the_cross`
+- `winners_curse`
+- `worldscale_vlsfo_benchmark`
+- `xi_mao_ideological_centralization`
+- `yt_ai_slop_incentive`
+- `zipfs_law`
+- `zombie_reasoning_2026`
+
+### `shift(snare, snare, scaffold, snare)` — 23 constraints
+
+- `ad_fus_coordination`
+- `ai_scholar_citation_trap`
+- `ai_superpowers_2026`
+- `alzheimers_nlrp3_inflammasome`
+- `ancestral_pueblo_hydrology`
+- `axiom_reasoner_2026`
+- `coordination_threshold_failure`
+- `emergency_powers_ratchet`
+- `gamblers_ruin_stochastic_extinction`
+- `genie_ip_constraint`
+- `hygiene_disposal_protocol`
+- `mit_tfus_2026`
+- `nsw_transmission_bottleneck`
+- `openai_api_access`
+- `openai_codex_app_constraint`
+- `openscholar_peer_review`
+- `platonic_coparenting_decoupling`
+- `recipe_scaling_ai`
+- `russells_paradox_self_reference`
+- `the_churn_systemic_upheaval`
+- `toxoplasma_hub_2026`
+- `trillion_bond_rush_2026`
+- `unrequited_love_protocol`
+
+### `shift(snare, snare, snare, snare)` — 2 constraints
+
+- `horizon_liability_contract`
+- `sm_addictive_design`
+
+### `shift(tangled_rope, rope, rope, rope)` — 22 constraints
+
+- `astm_d638_tensile_testing`
+- `boltzmann_universality_2026`
+- `burden_of_proof_legal_criminal`
+- `cuban_missile_crisis_excomm_deliberation`
+- `deferential_realism_framework`
+- `dexy_gold_protocol`
+- `dldr_information_policy`
+- `electrification_scale_2026`
+- `gita_kurukshetra`
+- `guinea_worm_eradication`
+- `kjv_puritan_new_world_exit`
+- `lindy_effect`
+- `omelet_perfection_complexity`
+- `postman_survival_protocol`
+- `quantum_entanglement_protocol`
+- `rfc9293_state_machine`
+- `skills_based_hiring`
+- `somatic_focusing_awareness`
+- `targeted_dream_incubation`
+- `tcp_rfc9293_interoperability`
+- `tsp_duplicate_elimination`
+- `udhr_1948`
+
+### `shift(tangled_rope, rope, rope, tangled_rope)` — 10 constraints
+
+- `blackstone_carried_interest_taxation`
+- `climate_target_one_point_five`
+- `fnl_shadow_probe`
+- `gs1_gln_identification`
+- `inner_model_theory_constraints`
+- `large_cardinal_foundations`
+- `migration_decision_threshold`
+- `moores_law`
+- `sadhu_integrity_protocol`
+- `unclos_2026`
+
+### `shift(tangled_rope, snare, rope, snare)` — 29 constraints
+
+- `ai_religion_regulation`
+- `airbnb_str_regulation`
+- `canal_panama_influence`
+- `constitutional_consecration`
+- `crop_defense_dependency`
+- `cuba_mandatrophic_collapse`
+- `dionysiac_frenzy`
+- `eu_irgc_terrorist_designation`
+- `fitts_law_industrial_application`
+- `gaza_aid_permit_revocation`
+- `geopolitical_insularity_2026`
+- `greshams_law`
+- `hawthorne_effect`
+- `iron_law_of_oligarchy`
+- `israel_gaza_ceasefire_violation`
+- `jordan_microfinance`
+- `medical_residency_match`
+- `meta_nda`
+- `microwave_weapon_1`
+- `moltbot_religion`
+- `new_start_expiration`
+- `openbsd_netiquette_protocol`
+- `rare_earth_dependency`
+- `traveling_salesperson_problem`
+- `trojan_war_spoils`
+- `trump_second_term_authoritarianism_2026`
+- `us_iran_drone_conflict`
+- `us_sanctions_icc_israel_case`
+- `vienna_quantum_superposition_2026`
+
+### `shift(tangled_rope, snare, tangled_rope, snare)` — 1 constraints
+
+- `epstein_document_release_2026`
+
+### `shift(tangled_rope, tangled_rope, naturalized, snare)` — 2 constraints
+
+- `international_seabed_mining_regime`
+- `trump_epa_greenhouse_gas_reversal`
+
+### `shift(tangled_rope, tangled_rope, naturalized, tangled_rope)` — 1 constraints
+
+- `regulatory_pathway_psychedelic_therapy`
+
+### `shift(tangled_rope, tangled_rope, rope, snare)` — 159 constraints
+
+- `ai_adoption_stigma`
+- `ai_auditability_gap`
+- `antikythera_planetary_model`
+- `ape_cognition_framework`
+- `arctic_maritime_control`
+- `arg_ev_tariff`
+- `brain_network_paradigm_2026`
+- `cancer_prevention`
+- `car_ownership_norm_us`
+- `carbon_credit_markets_2026`
+- `carrier_deployment_deterrence`
+- `china_contraceptive_tax`
+- `china_ev_export_oversupply`
+- `china_vactrain_standard`
+- `climate_catastrophe_belief`
+- `climate_event_attribution`
+- `cn_tech_decoupling_security_software`
+- `codex_access`
+- `cognac_geopolitical_risk`
+- `constitutional_supremacy`
+- `conversational_dogmas_interruption`
+- `couples_residency_match`
+- `credentialism_national_security`
+- `cultural_homogenization_social_media`
+- `data_privacy_regulation`
+- `debt_trap_microfinance`
+- `digital_euro_cbdc`
+- `digital_identity_tether`
+- `discover_core_2026`
+- `disney_openai_ip_exclusivity`
+- `dn_paywall`
+- `doomsday_clock_framework`
+- `drc_rwanda_peace_deal_2024`
+- `dsa_transparency_requirements`
+- `dunning_kruger_effect`
+- `ec_meta_manus_block`
+- `edelman_2026_developed_stagnation`
+- `edelman_2026_insularity`
+- `elite_overproduction_instability`
+- `elliq_ai_companion`
+- `eu_digital_services_act`
+- `eu_ev_tariff_wall`
+- `eu_unanimity_rule_foreign_policy`
+- `evolutionary_knowledge`
+- `exploration_vs_exploitation`
+- `fcc_dji_covered_list`
+- `fda_component_efficacy_standard`
+- `fed_shutdown_2026`
+- `fiber_optic_chip_tech`
+- `fine_particle_policy`
+- `fraser_river_salmon_regulation`
+- `french_ag_land_concentration`
+- `future_dsm_integration`
+- `g7_debt_trap`
+- `gaza_border_control_rafah`
+- `gender_performance_cost`
+- `geocentric_cosmology`
+- `germline_regulation_threshold_2026`
+- `glen_canyon_water_allocation`
+- `global_digital_divide`
+- `global_food_market_fragility`
+- `global_trade_externalities_neobiota`
+- `goodharts_law`
+- `google_ai_search_overview`
+- `great_awakening_rekindling`
+- `great_mongolian_road_economic_dependency`
+- `greenland_defence_pact_2026`
+- `guano_wealth_extraction`
+- `hammurabi_lex_talionis`
+- `harm_principle_liberty`
+- `help_to_buy_uk`
+- `hollywood_four_quadrant_model`
+- `hu_2026_election_rules`
+- `hub_short_form_tv_market_fragmentation`
+- `humanities_phd_funding_model`
+- `idf_knock_on_roof_policy`
+- `incumbent_steel_production`
+- `india_nuclear_liability_act_2010`
+- `indian_import_tariffs_eu`
+- `inner_model_confirmation_bias`
+- `innovators_dilemma`
+- `iran_nuclear_deal_informal_2023`
+- `israel_norwegian_law`
+- `israeli_settlement_policy_authority_restriction`
+- `iss_ped_ban`
+- `japanese_energy_scaffold_2025`
+- `jp_eez_enforcement`
+- `kim_jong_un_succession`
+- `lung_transplant_protocol`
+- `max_flow_min_cut`
+- `mexican_airline_merger`
+- `micro_robot_electronics_integration`
+- `mrna_melanoma_therapy`
+- `ncaa_eligibility_rules`
+- `network_effects`
+- `neural_substrate_2026`
+- `nfl_superbowl_marketing_regulation`
+- `nine_day_buffer`
+- `nuclear_order_2026`
+- `nuclear_vacuum_2026`
+- `openai_default_data_training`
+- `openai_health_review`
+- `openai_implicit_translator`
+- `openclaw_data_lock_in`
+- `openclaw_regulation`
+- `oral_glp1_market_access`
+- `p_g_golden_pear_surveillance`
+- `peter_principle`
+- `pla_aerial_carrier_doctrine`
+- `planning_fallacy`
+- `platform_app_store_duopoly`
+- `po_investigation_protocol_bias`
+- `portugal_polarization_threshold_2026`
+- `proof_of_work_consensus`
+- `protocol_capture_eee`
+- `raac_school_maintenance`
+- `rare_earth_export_restrictions`
+- `roman_colosseum_games`
+- `roman_road_network`
+- `sapir_whorf_hypothesis`
+- `seedance_export_restriction`
+- `semantic_overload_friction`
+- `shadow_fleet_sanctions_evasion`
+- `sk_ai_act_2026`
+- `sk_dantongbeop`
+- `soe_property_bailout`
+- `south_china_sea_arbitration_2016_2026`
+- `start_treaty`
+- `sti_clinical_testing_bottleneck`
+- `strait_coercion_2025`
+- `strange_attractor_dynamics`
+- `strange_attractor_systemic_risk`
+- `strategic_deep_sea_rare_earth_mining`
+- `streaming_bundling_mandate`
+- `student_loan_default_cliff`
+- `student_loan_interest_accrual`
+- `subscription_economy_model`
+- `sunk_cost_fallacy`
+- `taiwan_ids_program`
+- `taiwan_university_application_system`
+- `texas_insurance_market_instability`
+- `trump_indian_tariffs_2026`
+- `uk_help_to_buy_scheme`
+- `uk_hicbc_trap`
+- `uk_student_visa_dependents`
+- `unconditional_university_offers_uk`
+- `us_ai_chip_export_controls`
+- `us_arms_transfer_policy`
+- `us_china_chip_tariffs_v2`
+- `us_debt_ceiling`
+- `us_employer_health_insurance`
+- `us_military_recruitment_advertising`
+- `us_taiwan_arms_sales`
+- `us_visa_lottery`
+- `usc_26_469_passive_loss`
+- `visibility_bias_governance`
+- `vns_implant_for_trd`
+- `wpl_scotland`
+- `yangtze_fishing_ban`
+
+### `shift(tangled_rope, tangled_rope, rope, tangled_rope)` — 237 constraints
+
+- `abstraction_leakage`
+- `academic_peer_review_gatekeeping`
+- `access_arbitrage`
+- `adverse_possession`
+- `advice_as_dangerous_gift`
+- `aging_longevity_tests`
+- `ai_edu_decentralization`
+- `ai_task_horizon_reliability`
+- `ai_training_data_dependency`
+- `alzheimers_levetiracetam`
+- `armra_colostrum_regulation`
+- `arrows_impossibility_theorem`
+- `artificial_snow_2026`
+- `asce_7_22_seismic_design`
+- `attribution_ambiguity_triplet_sc`
+- `au_social_media_ban_u16`
+- `availability_heuristic`
+- `bayes_theorem_cognitive_bias`
+- `beehiiv_platform_model`
+- `bgs_eigenvector_thermalization`
+- `big_data_astrophysics_arbitrage`
+- `bnpl_payment_systems`
+- `board_of_peace_2026`
+- `boe_base_rate_policy_2024`
+- `brazil_2026_general_elections`
+- `buffons_needle_pi_estimation`
+- `burden_of_proof_scientific`
+- `bwb_adeg_rewesale_conditions`
+- `capital_rotation_ai_narrative`
+- `castration_longevity_choice`
+- `champions_bass_fishing_exclusion`
+- `china_africa_zero_tariff_2026`
+- `china_export_led_growth`
+- `choice_architecture_design`
+- `civilizational_maintenance_debt`
+- `cma`
+- `cmr_001`
+- `coalition_disinfo_framework_2026`
+- `cobra_effect`
+- `coinbase_crypto_volatility`
+- `cold_dark_matter_paradigm`
+- `college_admissions_market`
+- `colombia_2026_presidential_election`
+- `colossus_nero_inertia`
+- `comitatus_bond`
+- `compounding_logic`
+- `condiment_tyranny`
+- `confidential_ai_whatsapp`
+- `confirmation_bias`
+- `constraint_lagrange_multipliers`
+- `constraint_riemann_mapping`
+- `constraint_yoneda`
+- `copyright_protection`
+- `cost_of_observation`
+- `cow_field_poop`
+- `creative_commons_licensing`
+- `crispr_genomic_rewrite_2026`
+- `cs_ecmo_bridge`
+- `data_replication_paradox`
+- `decision_latency_mismatch`
+- `demand_response_cost_shift`
+- `devotional_transformation`
+- `djia_as_economic_barometer`
+- `dutch_minority_govt_2026`
+- `edelman_2026_developing_volatility`
+- `education_unbundling_implementation`
+- `em_clinical_guidelines`
+- `empty_tomb_transformation`
+- `epistemic_process_of_verification`
+- `ergo_mixer_protocol`
+- `ergo_storage_rent`
+- `ergodic_theorems`
+- `eu_affordable_housing_initiative`
+- `eu_deforestation_regulation`
+- `eu_renewable_energy_mandate`
+- `eurozone_fragmentation_2026`
+- `evfta_trade_agreement`
+- `extraordinary_narrative_shift`
+- `faa_boeing_regulatory_capture`
+- `factional_instability`
+- `fda_accelerated_approval_alz`
+- `fda_gonorrhea_efficacy_standard`
+- `fmeca_procedures_1980`
+- `framing_effect`
+- `france_2027_presidential_election`
+- `franchisee_corporate_squeeze`
+- `fused_quartz_5d_archival`
+- `gbff_funding_mechanism`
+- `gemini_scientific_advancement`
+- `genai_mil_platform`
+- `genetic_predisposition`
+- `german_board_gender_quota`
+- `germany_tennet_takeover`
+- `goodstein_theorem_finite_proof`
+- `gpt5_codex_dev_cycle`
+- `gpt_store_marketplace`
+- `graph_coloring_complexity`
+- `grete_samsa_transition`
+- `gs1_standardized_identification`
+- `gs_market_clearing`
+- `hagia_sophia_status`
+- `hanlons_razor`
+- `happiness_of_others`
+- `hasbro_licensing_restriction`
+- `hedonic_adaptation_baseline`
+- `hegemonic_entropy_2026`
+- `helsinki_bus_theory`
+- `hershey_salt_strategy`
+- `hp_liberalism`
+- `hydra_game`
+- `independent_criticism_patronage`
+- `india_france_horizon_2047`
+- `india_semi_mission`
+- `indian_ai_licensing_regime`
+- `institutional_inertia_lock`
+- `insult_wisdom_training`
+- `inverse_spin_valve_signature`
+- `israel_egypt_gas_deal`
+- `israel_electoral_threshold`
+- `israel_surplus_vote_agreements`
+- `iterated_function_system_convergence`
+- `ivt_accessibility_barrier`
+- `jevons_paradox`
+- `jupiter_composition_knowledge_gap`
+- `kardashev_scale_progress_narrative`
+- `keltner_relationship_evaluation`
+- `kjv_textual_authority`
+- `knowledge_action_gap`
+- `labor_union_dues`
+- `landscape_of_fear_2026`
+- `law_of_diminishing_returns`
+- `lcdm_hubble_tension`
+- `lcdm_small_scale_anomalies`
+- `linguistic_relativity_cultural_framing`
+- `logistic_map_dynamics`
+- `lorenz_attractor_dynamics`
+- `lsd_microdosing_professional_openness`
+- `magna_carta_liberties`
+- `manga_distribution_duopoly`
+- `mars_rovers_navigational_autonomy`
+- `matching_market_congestion_externality`
+- `med_diet_consensus_2026`
+- `meta_nuclear_power_agreement`
+- `microbiome_symbiosis`
+- `mil_std_461g_emi_control`
+- `mil_std_810f_tailoring`
+- `minimax_theorem_game_equilibrium`
+- `mltt_economic_model`
+- `monetary_regime_transition`
+- `monopoly_fp_house_rule`
+- `msgs_asset_bundling`
+- `nash_equilibrium_coordination`
+- `nato_arctic_defense_cooperation`
+- `nds_2022_pacing_challenge`
+- `negative_emissions_arbitrage`
+- `net_zero_stabilization`
+- `neural_interoperability`
+- `neurodiversity_spectrum`
+- `neuroplasticity_plateau`
+- `news_paywall_inequality`
+- `nfl_superbowl_halftime_exclusivity`
+- `noether_isomorphism_access`
+- `north_sea_wind_grid`
+- `nuclear_site_safety_norms`
+- `ny_private_school_discount`
+- `nyc_metrocard_art_licensing`
+- `oc_donation_model`
+- `olympic_legacy_curling_investment`
+- `olympic_medal_allocation`
+- `omega1_patching_process`
+- `open_culture_newsletter`
+- `oscar_campaign_spending`
+- `overton_window`
+- `paris_municipal_reform_2026`
+- `parkinsons_law`
+- `participatory_observer_hypothesis`
+- `paxsilica_framework`
+- `plastic_asphalt_mandate`
+- `pna`
+- `policy_implementation_gap`
+- `politeness_face_negotiation`
+- `power_set_axiomatic_extraction`
+- `private_identity_integration`
+- `publishing_embargo`
+- `qwerty_vs_dvorak`
+- `rare_earth_hydrogen_extraction`
+- `rare_earth_seabed_mining`
+- `regulatory_capture`
+- `repair_probe_incomplete`
+- `roman_bath_system`
+- `roman_monumental_construction`
+- `rosen_bridge_protocol`
+- `rotation_seven_black_soil`
+- `royal_navy_middle_east_withdrawal`
+- `sa_renewable_price_differential`
+- `sat_csp_complexity`
+- `satellite_d2m_standard`
+- `scientific_paradigm_lifecycle`
+- `semiconductor_mission_2026`
+- `shitty_feedback_handling`
+- `shobies_existential_commitment`
+- `sk_newtro_aesthetic`
+- `smartphone_ubiquity`
+- `social_loafing`
+- `social_media_participation_threshold`
+- `sorites_paradox`
+- `sovereignty_as_arbitrage`
+- `st_petersburg_paradox`
+- `stable_marriage_coordination`
+- `steinmetz_valuation_asymmetry`
+- `superbowl_advertising_extraction`
+- `teaching_horses_to_sing`
+- `temporal_scale_arbitrage`
+- `theory_of_visitors`
+- `tiktok_us_divestiture_mandate`
+- `trade_secret_law`
+- `tragedy_of_the_commons`
+- `transformer_self_attention`
+- `transient_event_detection`
+- `trivial_topology_info_asymmetry`
+- `trump_critical_minerals`
+- `trump_making_china_great_2026`
+- `tsp_computational_complexity`
+- `uk_artist_resale_right`
+- `uk_necc_formation`
+- `ukraine_tight_gas_pilot`
+- `un_high_seas_treaty_2026`
+- `union_protection_underperformance`
+- `us_canada_geopolitical_asymmetry`
+- `us_labor_mobility`
+- `us_legal_standard_reasonable_doubt`
+- `us_tariffs_2025`
+- `visa_ipo_regulatory_compliance`
+- `visa_judgment_sharing_agreement`
+- `wikipedia_notability_requirement_2026`
+- `working_dog_training`
+- `yc_equity_squeeze`
+
+### `shift(tangled_rope, tangled_rope, scaffold, snare)` — 6 constraints
+
+- `absorbing_markov_chain_trap`
+- `bangladesh_july_national_charter`
+- `emergency_bridge_scaffold`
+- `ia_digital_preservation`
+- `perovskite_self_etching`
+- `project_vault_2026`
+
+### `shift(tangled_rope, tangled_rope, scaffold, tangled_rope)` — 8 constraints
+
+- `artificial_scarcity_scaffold`
+- `dead_sea_effect`
+- `emotional_cycles_2026`
+- `exoplanetary_habitability_arbitrage`
+- `global_stimulus_spree`
+- `isa_education_scaffold`
+- `maha_recovery_2026`
+- `nursery_social_hierarchy`
+
+### `shift(tangled_rope, tangled_rope, tangled_rope, snare)` — 2 constraints
+
+- `lethal_targeting_of_journalists`
+- `private_credit_market_opacity`
+
+### `shift(tangled_rope, tangled_rope, tangled_rope, tangled_rope)` — 27 constraints
+
+- `ai_cognitive_diversity_arbitrage`
+- `canada_goose_realignment_2026`
+- `coffee_cardiovascular_2026`
+- `cognitive_bicycle_scaffold`
+- `cognitive_diversity_arbitrage`
+- `e2ee_digital_privacy_2026`
+- `emergency_oversight_bureau`
+- `erasmus_rejoining_scaffold`
+- `ergo_autolykos_asic_resistance`
+- `ergo_lets_protocol`
+- `ergo_storage_rent_mechanism`
+- `finnish_ubi_experiment`
+- `fiscal_equalization_friction`
+- `fmt_oncology_2026`
+- `golden_handcuffs`
+- `gradient_descent_optimization`
+- `kidney_exchange_market`
+- `manganese_catalysis_2026`
+- `matching_markets_general`
+- `narrative_engineering_2026`
+- `permissive_software_licensing`
+- `perseverance_ai_drive`
+- `platform_cooperativism_governance`
+- `rn_proteus_adoption`
+- `rogue_wave_control_2026`
+- `silklink_2026`
+- `solar_system_weirdness`
+
+### `shift(unknown, unknown, unknown, unknown)` — 1 constraints
+
+- `catholic_church_1200`
+
+## Scope Differentiation
+
+Constraints where changing scope (local vs national vs global) changes the classification type, holding power/time/exit constant.
+
+- **Scope-sensitive constraints**: 350 / 1151
+
+- `absorbing_markov_chain_trap`: local=tangled_rope, national=tangled_rope, global=snare
+- `advice_as_dangerous_gift`: local=rope, national=tangled_rope, global=tangled_rope
+- `ai_adoption_stigma`: local=tangled_rope, national=tangled_rope, global=snare
+- `ai_auditability_gap`: local=tangled_rope, national=tangled_rope, global=snare
+- `ai_banal_capture`: local=tangled_rope, national=snare, global=snare
+- `ai_compute_capital_moat`: local=tangled_rope, national=snare, global=snare
+- `ai_performance_watermark`: local=tangled_rope, national=tangled_rope, global=snare
+- `ai_professional_displacement`: local=tangled_rope, national=snare, global=snare
+- `ai_religion_regulation`: local=tangled_rope, national=snare, global=snare
+- `airbnb_str_regulation`: local=tangled_rope, national=snare, global=snare
+- `alzheimers_levetiracetam`: local=rope, national=tangled_rope, global=tangled_rope
+- `antikythera_planetary_model`: local=tangled_rope, national=tangled_rope, global=snare
+- `ape_cognition_framework`: local=tangled_rope, national=tangled_rope, global=snare
+- `appropriations_brinkmanship`: local=tangled_rope, national=snare, global=snare
+- `arctic_maritime_control`: local=tangled_rope, national=tangled_rope, global=snare
+- `arg_ev_tariff`: local=tangled_rope, national=tangled_rope, global=snare
+- `artificial_scarcity_scaffold`: local=scaffold, national=tangled_rope, global=tangled_rope
+- `artificial_snow_2026`: local=piton, national=tangled_rope, global=tangled_rope
+- `asce_7_22_seismic_design`: local=rope, national=tangled_rope, global=tangled_rope
+- `australia_social_ban_2026`: local=tangled_rope, national=snare, global=snare
+- `average_is_over_2026`: local=tangled_rope, national=snare, global=snare
+- `awareness_without_leverage`: local=tangled_rope, national=snare, global=snare
+- `axiom_reasoner_2026`: local=scaffold, national=snare, global=snare
+- `bangladesh_july_national_charter`: local=tangled_rope, national=tangled_rope, global=snare
+- `belief_argument_conclusion`: local=tangled_rope, national=snare, global=snare
+- `blackstone_carried_interest_taxation`: local=rope, national=rope, global=tangled_rope
+- `brain_network_paradigm_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `canal_panama_influence`: local=tangled_rope, national=snare, global=snare
+- `cancer_prevention`: local=tangled_rope, national=tangled_rope, global=snare
+- `car_ownership_norm_us`: local=tangled_rope, national=tangled_rope, global=snare
+- `carbon_credit_markets_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `carrier_deployment_deterrence`: local=tangled_rope, national=tangled_rope, global=snare
+- `carrying_capacity`: local=tangled_rope, national=snare, global=snare
+- `cb_far_beyond_human`: local=tangled_rope, national=snare, global=snare
+- `cfius_hiefo_emcore_divestment`: local=tangled_rope, national=snare, global=snare
+- `cg_israelgaza_20231012`: local=tangled_rope, national=snare, global=snare
+- `china_africa_zero_tariff_2026`: local=rope, national=tangled_rope, global=tangled_rope
+- `china_contraceptive_tax`: local=tangled_rope, national=tangled_rope, global=snare
+- `china_ev_export_oversupply`: local=tangled_rope, national=tangled_rope, global=snare
+- `china_vactrain_standard`: local=tangled_rope, national=tangled_rope, global=snare
+- `cholesterol_pill_cost`: local=tangled_rope, national=snare, global=snare
+- `chrome_imagen2_integration`: local=tangled_rope, national=snare, global=snare
+- `cia_fbi_legal_wall`: local=tangled_rope, national=snare, global=snare
+- `circadian_decoupling_arbitrage`: local=tangled_rope, national=snare, global=snare
+- `climate_catastrophe_belief`: local=tangled_rope, national=tangled_rope, global=snare
+- `climate_event_attribution`: local=tangled_rope, national=tangled_rope, global=snare
+- `climate_policy_extraction`: local=tangled_rope, national=snare, global=snare
+- `climate_target_one_point_five`: local=rope, national=rope, global=tangled_rope
+- `cn_tech_decoupling_security_software`: local=tangled_rope, national=tangled_rope, global=snare
+- `codex_access`: local=tangled_rope, national=tangled_rope, global=snare
+- `coe_ukraine_reparations_register`: local=tangled_rope, national=snare, global=snare
+- `cognac_geopolitical_risk`: local=tangled_rope, national=tangled_rope, global=snare
+- `cognitive_hacking_2026`: local=tangled_rope, national=snare, global=snare
+- `cognitive_induction_gap`: local=tangled_rope, national=snare, global=snare
+- `cognitive_surrender_to_system_3`: local=tangled_rope, national=snare, global=snare
+- `coinbase_regulatory_uncertainty`: local=tangled_rope, national=snare, global=snare
+- `colorado_sbe_decentralization_friction`: local=tangled_rope, national=snare, global=snare
+- `constitutional_consecration`: local=tangled_rope, national=snare, global=snare
+- `constitutional_supremacy`: local=tangled_rope, national=tangled_rope, global=snare
+- `constraint_lagrange_multipliers`: local=rope, national=tangled_rope, global=tangled_rope
+- `constraint_riemann_mapping`: local=rope, national=tangled_rope, global=tangled_rope
+- `consumer_debt_slavery`: local=tangled_rope, national=snare, global=snare
+- `conversational_dogmas_interruption`: local=tangled_rope, national=tangled_rope, global=snare
+- `couples_residency_match`: local=tangled_rope, national=tangled_rope, global=snare
+- `credentialism_national_security`: local=tangled_rope, national=tangled_rope, global=snare
+- `crop_defense_dependency`: local=tangled_rope, national=snare, global=snare
+- `cultural_homogenization_social_media`: local=tangled_rope, national=tangled_rope, global=snare
+- `cultural_refragmentation_2026`: local=tangled_rope, national=snare, global=snare
+- `cumbria_mine_rejection`: local=tangled_rope, national=snare, global=snare
+- `data_privacy_regulation`: local=tangled_rope, national=tangled_rope, global=snare
+- `dead_sea_effect`: local=scaffold, national=tangled_rope, global=tangled_rope
+- `debt_service_squeeze`: local=tangled_rope, national=snare, global=snare
+- `debt_trap_microfinance`: local=naturalized, national=tangled_rope, global=tangled_rope
+- `digital_credentialing_verification`: local=tangled_rope, national=snare, global=snare
+- `digital_euro_cbdc`: local=tangled_rope, national=tangled_rope, global=snare
+- `digital_identity_tether`: local=tangled_rope, national=tangled_rope, global=snare
+- `discover_core_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `disney_openai_ip_exclusivity`: local=tangled_rope, national=tangled_rope, global=snare
+- `dk_us_alliance_espionage`: local=tangled_rope, national=tangled_rope, global=snare
+- `dn_paywall`: local=tangled_rope, national=tangled_rope, global=snare
+- `doomsday_clock_framework`: local=tangled_rope, national=tangled_rope, global=snare
+- `drc_rwanda_peace_deal_2024`: local=tangled_rope, national=tangled_rope, global=snare
+- `dsa_transparency_requirements`: local=tangled_rope, national=tangled_rope, global=snare
+- `dunning_kruger_effect`: local=tangled_rope, national=tangled_rope, global=snare
+- `ec_meta_manus_block`: local=tangled_rope, national=tangled_rope, global=snare
+- `edelman_2026_developed_stagnation`: local=tangled_rope, national=tangled_rope, global=snare
+- `edelman_2026_insularity`: local=tangled_rope, national=tangled_rope, global=snare
+- `elite_overproduction_instability`: local=tangled_rope, national=tangled_rope, global=snare
+- `elliq_ai_companion`: local=tangled_rope, national=tangled_rope, global=snare
+- `emergency_bridge_scaffold`: local=scaffold, national=tangled_rope, global=tangled_rope
+- `epistemic_process_of_verification`: local=rope, national=tangled_rope, global=tangled_rope
+- `epstein_document_release_2026`: local=tangled_rope, national=snare, global=snare
+- `ergodic_theorems`: local=rope, national=tangled_rope, global=tangled_rope
+- `erised_expectation`: local=tangled_rope, national=snare, global=snare
+- `eu_digital_services_act`: local=tangled_rope, national=tangled_rope, global=snare
+- `eu_ev_tariff_wall`: local=tangled_rope, national=tangled_rope, global=snare
+- `eu_irgc_terrorist_designation`: local=tangled_rope, national=snare, global=snare
+- `eu_unanimity_rule_foreign_policy`: local=tangled_rope, national=tangled_rope, global=snare
+- `evolutionary_knowledge`: local=tangled_rope, national=tangled_rope, global=snare
+- `exoplanetary_habitability_arbitrage`: local=scaffold, national=tangled_rope, global=tangled_rope
+- `expert_disempowerment`: local=tangled_rope, national=snare, global=snare
+- `exploration_vs_exploitation`: local=tangled_rope, national=tangled_rope, global=snare
+- `fatf_grey_list_russia`: local=tangled_rope, national=snare, global=snare
+- `fb_creator_monetization_indonesia`: local=tangled_rope, national=snare, global=snare
+- `fcc_dji_covered_list`: local=tangled_rope, national=tangled_rope, global=snare
+- `fda_component_efficacy_standard`: local=tangled_rope, national=tangled_rope, global=snare
+- `fed_shutdown_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `feedback_loop_desynchronization`: local=tangled_rope, national=snare, global=snare
+- `fiber_optic_chip_tech`: local=tangled_rope, national=tangled_rope, global=snare
+- `fine_particle_policy`: local=tangled_rope, national=tangled_rope, global=snare
+- `finnish_debt_adjustment`: local=tangled_rope, national=snare, global=snare
+- `fitts_law_industrial_application`: local=tangled_rope, national=snare, global=snare
+- `floating_wall_2026`: local=tangled_rope, national=snare, global=snare
+- `fnl_shadow_probe`: local=rope, national=rope, global=tangled_rope
+- `france_local_elections_march_2026`: local=scaffold, national=scaffold, global=tangled_rope
+- `fraser_river_salmon_regulation`: local=tangled_rope, national=tangled_rope, global=snare
+- `french_ag_land_concentration`: local=tangled_rope, national=tangled_rope, global=snare
+- `frontex_pushback_coordination`: local=tangled_rope, national=snare, global=snare
+- `future_dsm_integration`: local=tangled_rope, national=tangled_rope, global=snare
+- `g7_debt_trap`: local=tangled_rope, national=tangled_rope, global=snare
+- `gaza_border_control_rafah`: local=tangled_rope, national=tangled_rope, global=snare
+- `gemini_scientific_advancement`: local=rope, national=tangled_rope, global=tangled_rope
+- `gender_performance_cost`: local=tangled_rope, national=tangled_rope, global=snare
+- `geocentric_cosmology`: local=tangled_rope, national=tangled_rope, global=snare
+- `geopolitical_insularity_2026`: local=tangled_rope, national=snare, global=snare
+- `germany_tennet_takeover`: local=rope, national=tangled_rope, global=tangled_rope
+- `germline_regulation_threshold_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `glen_canyon_water_allocation`: local=tangled_rope, national=tangled_rope, global=snare
+- `global_digital_divide`: local=tangled_rope, national=tangled_rope, global=snare
+- `global_food_market_fragility`: local=tangled_rope, national=tangled_rope, global=snare
+- `global_trade_externalities_neobiota`: local=tangled_rope, national=tangled_rope, global=snare
+- `glp1_payload_efficiency_pivot`: local=scaffold, national=scaffold, global=tangled_rope
+- `gold_fomo_cycle`: local=tangled_rope, national=snare, global=snare
+- `goodharts_law`: local=tangled_rope, national=tangled_rope, global=snare
+- `google_ai_search_overview`: local=tangled_rope, national=tangled_rope, global=snare
+- `google_universal_commerce_protocol`: local=tangled_rope, national=tangled_rope, global=snare
+- `governance_overfitting`: local=tangled_rope, national=snare, global=snare
+- `great_awakening_rekindling`: local=tangled_rope, national=tangled_rope, global=snare
+- `great_mongolian_road_economic_dependency`: local=tangled_rope, national=tangled_rope, global=snare
+- `greenland_defence_pact_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `greshams_law`: local=tangled_rope, national=snare, global=snare
+- `gs1_gln_identification`: local=rope, national=rope, global=tangled_rope
+- `gs1_standardized_identification`: local=rope, national=tangled_rope, global=tangled_rope
+- `gs_market_clearing`: local=rope, national=tangled_rope, global=tangled_rope
+- `guano_wealth_extraction`: local=tangled_rope, national=tangled_rope, global=snare
+- `guinea_junta_legitimization_2024`: local=tangled_rope, national=snare, global=snare
+- `hammurabi_lex_talionis`: local=tangled_rope, national=tangled_rope, global=snare
+- `harm_principle_liberty`: local=tangled_rope, national=tangled_rope, global=snare
+- `hawthorne_effect`: local=tangled_rope, national=snare, global=snare
+- `help_to_buy_uk`: local=tangled_rope, national=tangled_rope, global=snare
+- `hicbc_uk`: local=tangled_rope, national=snare, global=snare
+- `hollywood_four_quadrant_model`: local=tangled_rope, national=tangled_rope, global=snare
+- `hu_2026_election_rules`: local=tangled_rope, national=tangled_rope, global=snare
+- `hub_short_form_tv_market_fragmentation`: local=tangled_rope, national=tangled_rope, global=snare
+- `humanities_phd_funding_model`: local=tangled_rope, national=tangled_rope, global=snare
+- `ia_digital_preservation`: local=tangled_rope, national=tangled_rope, global=snare
+- `ibm_shield_2026`: local=tangled_rope, national=snare, global=snare
+- `ibm_shield_contract_2026`: local=tangled_rope, national=snare, global=snare
+- `idf_knock_on_roof_policy`: local=tangled_rope, national=tangled_rope, global=snare
+- `incumbent_steel_production`: local=tangled_rope, national=tangled_rope, global=snare
+- `independent_criticism_patronage`: local=tangled_rope, national=tangled_rope, global=snare
+- `india_nuclear_liability_act_2010`: local=tangled_rope, national=tangled_rope, global=snare
+- `indian_import_tariffs_eu`: local=tangled_rope, national=tangled_rope, global=snare
+- `individual_vs_systemic_causation`: local=tangled_rope, national=snare, global=snare
+- `indo_russian_submarine_lease_2025`: local=tangled_rope, national=snare, global=snare
+- `inner_model_confirmation_bias`: local=tangled_rope, national=tangled_rope, global=snare
+- `inner_model_theory_constraints`: local=rope, national=rope, global=tangled_rope
+- `innovators_dilemma`: local=tangled_rope, national=tangled_rope, global=snare
+- `institutional_mutation_domestication`: local=tangled_rope, national=snare, global=snare
+- `international_seabed_mining_regime`: local=tangled_rope, national=tangled_rope, global=snare
+- `internet_evolution_lifecycle`: local=tangled_rope, national=snare, global=snare
+- `inverse_spin_valve_signature`: local=rope, national=tangled_rope, global=tangled_rope
+- `iran_nuclear_deal_informal_2023`: local=tangled_rope, national=tangled_rope, global=snare
+- `iron_law_of_oligarchy`: local=tangled_rope, national=snare, global=snare
+- `irreversible_policy_commitment`: local=tangled_rope, national=snare, global=snare
+- `isa_education_scaffold`: local=scaffold, national=tangled_rope, global=tangled_rope
+- `israel_gaza_ceasefire_violation`: local=tangled_rope, national=snare, global=snare
+- `israel_norwegian_law`: local=tangled_rope, national=tangled_rope, global=snare
+- `israeli_settlement_policy_authority_restriction`: local=tangled_rope, national=tangled_rope, global=snare
+- `iss_ped_ban`: local=tangled_rope, national=tangled_rope, global=snare
+- `japanese_energy_scaffold_2025`: local=tangled_rope, national=tangled_rope, global=snare
+- `jordan_microfinance`: local=tangled_rope, national=snare, global=snare
+- `jp_eez_enforcement`: local=tangled_rope, national=tangled_rope, global=snare
+- `jp_nativist_politics`: local=tangled_rope, national=snare, global=snare
+- `jupiter_composition_knowledge_gap`: local=rope, national=tangled_rope, global=tangled_rope
+- `keltner_relationship_evaluation`: local=rope, national=tangled_rope, global=tangled_rope
+- `kim_jong_un_succession`: local=tangled_rope, national=tangled_rope, global=snare
+- `large_cardinal_foundations`: local=rope, national=rope, global=tangled_rope
+- `layered_brain_processing`: local=scaffold, national=scaffold, global=tangled_rope
+- `lethal_targeting_of_journalists`: local=tangled_rope, national=tangled_rope, global=snare
+- `logistic_map_dynamics`: local=rope, national=tangled_rope, global=tangled_rope
+- `lp_pikachu_illustrator`: local=tangled_rope, national=snare, global=snare
+- `lung_transplant_protocol`: local=tangled_rope, national=tangled_rope, global=snare
+- `maha_recovery_2026`: local=scaffold, national=tangled_rope, global=tangled_rope
+- `marriage_market_asymmetry_2026`: local=tangled_rope, national=snare, global=snare
+- `mass_market_extinction_2026`: local=tangled_rope, national=snare, global=snare
+- `matching_market_congestion_externality`: local=rope, national=tangled_rope, global=tangled_rope
+- `max_flow_min_cut`: local=tangled_rope, national=tangled_rope, global=snare
+- `medical_residency_match`: local=tangled_rope, national=snare, global=snare
+- `medieval_church_hegemony`: local=tangled_rope, national=snare, global=snare
+- `meta_nda`: local=tangled_rope, national=snare, global=snare
+- `mexican_airline_merger`: local=tangled_rope, national=tangled_rope, global=snare
+- `micro_robot_electronics_integration`: local=tangled_rope, national=tangled_rope, global=snare
+- `microwave_weapon_1`: local=tangled_rope, national=snare, global=snare
+- `migration_decision_threshold`: local=rope, national=rope, global=tangled_rope
+- `moltbook_breach_2026`: local=tangled_rope, national=snare, global=snare
+- `moltbot_religion`: local=tangled_rope, national=snare, global=snare
+- `moores_law`: local=rope, national=rope, global=tangled_rope
+- `mrna_melanoma_therapy`: local=tangled_rope, national=tangled_rope, global=snare
+- `ncaa_eligibility_rules`: local=tangled_rope, national=tangled_rope, global=snare
+- `necessary_day_job`: local=tangled_rope, national=snare, global=snare
+- `network_effects`: local=tangled_rope, national=tangled_rope, global=snare
+- `neural_substrate_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `new_start_expiration`: local=tangled_rope, national=snare, global=snare
+- `nfl_superbowl_marketing_regulation`: local=tangled_rope, national=tangled_rope, global=snare
+- `nine_day_buffer`: local=tangled_rope, national=tangled_rope, global=snare
+- `nuclear_order_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `nuclear_vacuum_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `nvidia_cuda_ecosystem_lockin`: local=tangled_rope, national=snare, global=snare
+- `oc_donation_model`: local=rope, national=tangled_rope, global=tangled_rope
+- `olympic_legacy_curling_investment`: local=rope, national=tangled_rope, global=tangled_rope
+- `olympic_medal_allocation`: local=rope, national=tangled_rope, global=tangled_rope
+- `ontological_friction_resolution`: local=tangled_rope, national=snare, global=snare
+- `open_culture_newsletter`: local=rope, national=tangled_rope, global=tangled_rope
+- `openai_default_data_training`: local=tangled_rope, national=tangled_rope, global=snare
+- `openai_health_review`: local=tangled_rope, national=tangled_rope, global=snare
+- `openai_implicit_translator`: local=tangled_rope, national=tangled_rope, global=snare
+- `openai_prism_development`: local=tangled_rope, national=tangled_rope, global=snare
+- `openbsd_netiquette_protocol`: local=tangled_rope, national=snare, global=snare
+- `openclaw_data_lock_in`: local=tangled_rope, national=tangled_rope, global=snare
+- `openclaw_regulation`: local=tangled_rope, national=tangled_rope, global=snare
+- `opioid_political_realignment_2026`: local=tangled_rope, national=snare, global=snare
+- `oral_glp1_market_access`: local=tangled_rope, national=tangled_rope, global=snare
+- `p_g_golden_pear_surveillance`: local=tangled_rope, national=tangled_rope, global=snare
+- `panama_canal_ports`: local=tangled_rope, national=snare, global=snare
+- `parable_fish_turtle`: local=tangled_rope, national=snare, global=snare
+- `participatory_observer_hypothesis`: local=rope, national=tangled_rope, global=tangled_rope
+- `path_dependence_lock_in`: local=tangled_rope, national=snare, global=snare
+- `pe_fund_level_leverage`: local=tangled_rope, national=snare, global=snare
+- `pe_rental_market_lockin`: local=tangled_rope, national=snare, global=snare
+- `pele_microreactor_deployment`: local=tangled_rope, national=snare, global=snare
+- `perovskite_self_etching`: local=tangled_rope, national=tangled_rope, global=snare
+- `peter_principle`: local=tangled_rope, national=tangled_rope, global=snare
+- `pla_aerial_carrier_doctrine`: local=tangled_rope, national=tangled_rope, global=snare
+- `planning_fallacy`: local=tangled_rope, national=tangled_rope, global=snare
+- `platform_app_store_duopoly`: local=tangled_rope, national=tangled_rope, global=snare
+- `platonic_coparenting_decoupling`: local=scaffold, national=snare, global=snare
+- `po_investigation_protocol_bias`: local=tangled_rope, national=tangled_rope, global=snare
+- `political_art_factional_alignment`: local=tangled_rope, national=snare, global=snare
+- `portugal_ad_stability_2026`: local=scaffold, national=scaffold, global=tangled_rope
+- `portugal_polarization_threshold_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `prime_age_male_unwork`: local=tangled_rope, national=snare, global=snare
+- `private_credit_market_opacity`: local=tangled_rope, national=tangled_rope, global=snare
+- `project_vault_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `proof_of_work_consensus`: local=tangled_rope, national=tangled_rope, global=snare
+- `protocol_capture_eee`: local=tangled_rope, national=tangled_rope, global=snare
+- `publishing_embargo`: local=rope, national=tangled_rope, global=tangled_rope
+- `raac_school_maintenance`: local=tangled_rope, national=tangled_rope, global=snare
+- `radiologic_diagnostic_threshold`: local=tangled_rope, national=snare, global=snare
+- `rare_earth_dependency`: local=tangled_rope, national=snare, global=snare
+- `rare_earth_export_restrictions`: local=tangled_rope, national=tangled_rope, global=snare
+- `recipe_scaling_ai`: local=scaffold, national=snare, global=snare
+- `regional_military_deterrence_mideast`: local=tangled_rope, national=snare, global=snare
+- `ritual_transition_scaffold`: local=rope, national=piton, global=tangled_rope
+- `roc_african_exarchate`: local=tangled_rope, national=snare, global=snare
+- `roman_colosseum_games`: local=tangled_rope, national=tangled_rope, global=snare
+- `roman_road_network`: local=tangled_rope, national=tangled_rope, global=snare
+- `sadhu_integrity_protocol`: local=rope, national=rope, global=tangled_rope
+- `sapir_whorf_hypothesis`: local=tangled_rope, national=tangled_rope, global=snare
+- `seedance_export_restriction`: local=tangled_rope, national=tangled_rope, global=snare
+- `semantic_overload_friction`: local=tangled_rope, national=tangled_rope, global=snare
+- `semiconductor_fabrication_chokepoint`: local=tangled_rope, national=tangled_rope, global=snare
+- `shadow_fleet_sanctions_evasion`: local=tangled_rope, national=tangled_rope, global=snare
+- `ship_of_theseus`: local=rope, national=piton, global=tangled_rope
+- `sig_usd_protocol`: local=scaffold, national=scaffold, global=tangled_rope
+- `sk_ai_act_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `sk_dantongbeop`: local=tangled_rope, national=tangled_rope, global=snare
+- `sludge_bureaucratic_friction`: local=tangled_rope, national=snare, global=snare
+- `sm_addictive_design`: local=tangled_rope, national=snare, global=snare
+- `social_narrative_casting`: local=rope, national=rope, global=tangled_rope
+- `soe_property_bailout`: local=tangled_rope, national=tangled_rope, global=snare
+- `south_china_sea_arbitration_2016_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `spain_digital_offensive_2026`: local=tangled_rope, national=snare, global=snare
+- `start_treaty`: local=tangled_rope, national=tangled_rope, global=snare
+- `statecraft_virtu`: local=tangled_rope, national=snare, global=snare
+- `sti_clinical_testing_bottleneck`: local=tangled_rope, national=tangled_rope, global=snare
+- `strait_coercion_2025`: local=tangled_rope, national=tangled_rope, global=snare
+- `strange_attractor_dynamics`: local=tangled_rope, national=tangled_rope, global=snare
+- `strange_attractor_systemic_risk`: local=tangled_rope, national=tangled_rope, global=snare
+- `strategic_deep_sea_rare_earth_mining`: local=tangled_rope, national=tangled_rope, global=snare
+- `streaming_bundling_mandate`: local=tangled_rope, national=tangled_rope, global=snare
+- `student_loan_default_cliff`: local=tangled_rope, national=tangled_rope, global=snare
+- `student_loan_interest_accrual`: local=tangled_rope, national=tangled_rope, global=snare
+- `subscription_economy_model`: local=tangled_rope, national=tangled_rope, global=snare
+- `sunk_cost_fallacy`: local=tangled_rope, national=tangled_rope, global=snare
+- `taiwan_existential_sovereignty`: local=tangled_rope, national=snare, global=snare
+- `taiwan_grand_bargain`: local=tangled_rope, national=snare, global=snare
+- `taiwan_ids_program`: local=tangled_rope, national=tangled_rope, global=snare
+- `taiwan_university_application_system`: local=tangled_rope, national=tangled_rope, global=snare
+- `technocratic_overreach`: local=tangled_rope, national=snare, global=snare
+- `texas_insurance_market_instability`: local=tangled_rope, national=tangled_rope, global=snare
+- `thai_senate_veto_2026`: local=tangled_rope, national=snare, global=snare
+- `theatrical_neutrality`: local=tangled_rope, national=snare, global=snare
+- `tractarian_logic_limit`: local=tangled_rope, national=snare, global=snare
+- `traveling_salesperson_problem`: local=tangled_rope, national=snare, global=snare
+- `trump_epa_greenhouse_gas_reversal`: local=tangled_rope, national=tangled_rope, global=snare
+- `trump_indian_tariffs_2026`: local=tangled_rope, national=tangled_rope, global=snare
+- `tx_hispanic_pivot`: local=tangled_rope, national=snare, global=snare
+- `ua_mobilization_protector_cert`: local=tangled_rope, national=snare, global=snare
+- `uk_help_to_buy_scheme`: local=tangled_rope, national=tangled_rope, global=snare
+- `uk_hicbc_2024`: local=tangled_rope, national=snare, global=snare
+- `uk_hicbc_trap`: local=tangled_rope, national=tangled_rope, global=snare
+- `uk_ssp_eligibility`: local=tangled_rope, national=snare, global=snare
+- `uk_student_visa_dependents`: local=tangled_rope, national=tangled_rope, global=snare
+- `ukr_mobilization`: local=tangled_rope, national=snare, global=snare
+- `unclos_2026`: local=rope, national=rope, global=tangled_rope
+- `unconditional_university_offers_uk`: local=tangled_rope, national=tangled_rope, global=snare
+- `us_ai_chip_export_controls`: local=tangled_rope, national=tangled_rope, global=snare
+- `us_arms_transfer_policy`: local=tangled_rope, national=tangled_rope, global=snare
+- `us_china_chip_tariffs_v2`: local=tangled_rope, national=tangled_rope, global=snare
+- `us_debt_ceiling`: local=tangled_rope, national=tangled_rope, global=snare
+- `us_embargo_cuba`: local=tangled_rope, national=snare, global=snare
+- `us_employer_health_insurance`: local=tangled_rope, national=tangled_rope, global=snare
+- `us_greenland_envoy`: local=tangled_rope, national=snare, global=snare
+- `us_iran_drone_conflict`: local=tangled_rope, national=snare, global=snare
+- `us_isolationism_policy_2026`: local=tangled_rope, national=snare, global=snare
+- `us_military_recruitment_advertising`: local=tangled_rope, national=tangled_rope, global=snare
+- `us_sanctions_belarus_2022`: local=tangled_rope, national=snare, global=snare
+- `us_sanctions_icc_israel_case`: local=tangled_rope, national=snare, global=snare
+- `us_sdf_alliance_abandonment_2026`: local=tangled_rope, national=snare, global=snare
+- `us_suburban_zoning_2025`: local=tangled_rope, national=snare, global=snare
+- `us_taiwan_arms_sales`: local=tangled_rope, national=tangled_rope, global=snare
+- `us_usmca_china_leverage`: local=tangled_rope, national=tangled_rope, global=snare
+- `us_venezuela_oil_pressure`: local=tangled_rope, national=snare, global=snare
+- `us_venezuela_plausible_deniability_2025`: local=tangled_rope, national=snare, global=snare
+- `us_visa_lottery`: local=tangled_rope, national=tangled_rope, global=snare
+- `usc_26_469_passive_loss`: local=tangled_rope, national=tangled_rope, global=snare
+- `utopia_apocalypse_fragility`: local=tangled_rope, national=snare, global=snare
+- `value_alignment_drift`: local=tangled_rope, national=snare, global=snare
+- `verification_bottleneck`: local=tangled_rope, national=snare, global=snare
+- `vienna_quantum_superposition_2026`: local=tangled_rope, national=snare, global=snare
+- `viral_transmission_rates`: local=tangled_rope, national=snare, global=snare
+- `visibility_bias_governance`: local=tangled_rope, national=tangled_rope, global=snare
+- `vns_implant_for_trd`: local=tangled_rope, national=tangled_rope, global=snare
+- `winners_curse`: local=tangled_rope, national=snare, global=snare
+- `working_dog_training`: local=rope, national=tangled_rope, global=tangled_rope
+- `worldscale_vlsfo_benchmark`: local=tangled_rope, national=snare, global=snare
+- `wpl_scotland`: local=tangled_rope, national=tangled_rope, global=snare
+- `yangtze_fishing_ban`: local=tangled_rope, national=tangled_rope, global=snare
+- `zombie_reasoning_2026`: local=tangled_rope, national=snare, global=snare
+## Metric Zone Distribution
+
+### Extraction Zones
+
+| extreme | 817 |
+| low | 107 |
+| negligible | 226 |
+
+### Suppression Zones
+
+| extreme | 755 |
+| high | 174 |
+| low | 60 |
+| moderate | 10 |
+| negligible | 152 |
+
+## Orbit Cross-Reference
+
+Maps shift pattern families to gauge orbit signatures.
+
+- `shift(mountain, mountain, mountain, mountain)` (127 constraints): orbit `[mountain]`
+- `shift(mountain, rope, rope, mountain)` (1 constraints): orbit `[mountain,rope]`
+- `shift(mountain, scaffold, scaffold, mountain)` (19 constraints): orbit `[mountain,scaffold]`
+- `shift(naturalized, snare, rope, snare)` (9 constraints): orbit `[naturalized,rope,snare]`
+- `shift(naturalized, tangled_rope, rope, snare)` (5 constraints): orbit `[naturalized,rope,snare,tangled_rope]`
+- `shift(naturalized, tangled_rope, rope, tangled_rope)` (5 constraints): orbit `[naturalized,rope,tangled_rope]`
+- `shift(naturalized, tangled_rope, tangled_rope, snare)` (1 constraints): orbit `[naturalized,snare,tangled_rope]`
+- `shift(piton, piton, piton, piton)` (74 constraints): orbit `[piton]`
+- `shift(piton, piton, rope, tangled_rope)` (2 constraints): orbit `[piton,rope,tangled_rope]`
+- `shift(piton, rope, rope, rope)` (4 constraints): orbit `[piton,rope]`
+- `shift(rope, rope, rope, rope)` (31 constraints): orbit `[rope]`
+- `shift(rope, rope, rope, tangled_rope)` (1 constraints): orbit `[rope,tangled_rope]`
+- `shift(scaffold, scaffold, scaffold, tangled_rope)` (5 constraints): orbit `[scaffold,tangled_rope]`
+- `shift(snare, snare, rope, snare)` (337 constraints): orbit `[rope,snare]`
+- `shift(snare, snare, scaffold, snare)` (23 constraints): orbit `[scaffold,snare]`
+- `shift(snare, snare, snare, snare)` (2 constraints): orbit `[snare]`
+- `shift(tangled_rope, rope, rope, rope)` (22 constraints): orbit `[rope,tangled_rope]`
+- `shift(tangled_rope, rope, rope, tangled_rope)` (10 constraints): orbit `[rope,tangled_rope]`
+- `shift(tangled_rope, snare, rope, snare)` (29 constraints): orbit `[rope,snare,tangled_rope]`
+- `shift(tangled_rope, snare, tangled_rope, snare)` (1 constraints): orbit `[snare,tangled_rope]`
+- `shift(tangled_rope, tangled_rope, naturalized, snare)` (2 constraints): orbit `[naturalized,snare,tangled_rope]`
+- `shift(tangled_rope, tangled_rope, naturalized, tangled_rope)` (1 constraints): orbit `[naturalized,tangled_rope]`
+- `shift(tangled_rope, tangled_rope, rope, snare)` (159 constraints): orbit `[rope,snare,tangled_rope]`
+- `shift(tangled_rope, tangled_rope, rope, tangled_rope)` (237 constraints): orbit `[rope,tangled_rope]`
+- `shift(tangled_rope, tangled_rope, scaffold, snare)` (6 constraints): orbit `[scaffold,snare,tangled_rope]`
+- `shift(tangled_rope, tangled_rope, scaffold, tangled_rope)` (8 constraints): orbit `[scaffold,tangled_rope]`
+- `shift(tangled_rope, tangled_rope, tangled_rope, snare)` (2 constraints): orbit `[snare,tangled_rope]`
+- `shift(tangled_rope, tangled_rope, tangled_rope, tangled_rope)` (27 constraints): orbit `[tangled_rope]`
+- `shift(unknown, unknown, unknown, unknown)` (1 constraints): orbit `[unknown]`
+---
+*End of fingerprint report*

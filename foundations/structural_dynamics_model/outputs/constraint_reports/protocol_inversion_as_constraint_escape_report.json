@@ -1,0 +1,86 @@
+{
+  "constraint_id": "protocol_inversion_as_constraint_escape",
+  "iteration_round": null,
+  "verdict": "YELLOW",
+  "subsystems_checked": [
+    12,
+    12
+  ],
+  "tensions": [
+    {
+      "subsystem": "abductive",
+      "code": "abductive_tension",
+      "detail": "abductive_tension([trigger(convergent_structural_stress,0.9,multi_signal_convergence,genuine),trigger(epistemic_trap,0.78,restricted_view_divergence,genuine),trigger(classical_oracle_failure,0.78,confident_oracle_with_obstruction,genuine)])"
+    },
+    {
+      "subsystem": "drift",
+      "code": "critical_drift",
+      "detail": "critical_drift([drift(metric_substitution,evidence(theater_delta,0,9,0.35,0.52),warning),drift(extraction_accumulation,evidence(extraction_delta,0,9,0.48,0.6),critical),drift(coupling_drift,evidence(coupling_score,1.0,threshold,0.25,extraction_trend,increasing),critical),drift(purity_drift,evidence(current_purity,0.2788333333333334,decline_signals,[extraction_rising,coupling_above_threshold(1.0),theater_rising,excess_above_floor(0.48)]),critical)])"
+    }
+  ],
+  "tension_count": 2,
+  "expected_conflicts": [
+    {
+      "subsystem": "maxent",
+      "code": "cohomological_fracture_divergence"
+    },
+    {
+      "subsystem": "cohomology",
+      "code": "cohomological_fracture_divergence"
+    },
+    {
+      "subsystem": "signature",
+      "code": "fcr_deferred_signature_mismatch"
+    },
+    {
+      "subsystem": "boltzmann",
+      "code": "constructed_non_compliance"
+    },
+    {
+      "subsystem": "gauge_orbit",
+      "code": "perspectival_orbit_variance"
+    }
+  ],
+  "convergent_rejections": "none",
+  "classification": {
+    "claimed_type": "tangled_rope",
+    "classified_type": "tangled_rope",
+    "mismatch": false,
+    "confidence": 0.876209,
+    "confidence_band": "deep",
+    "rival_type": "snare",
+    "rival_p": 0.123791,
+    "boundary": "tangled_rope->snare",
+    "psi": 0.991987,
+    "psi_label": "snare_leaning"
+  },
+  "hard_disagreement": null,
+  "drift_events": [
+    {
+      "severity": "warning",
+      "type": "metric_substitution"
+    },
+    {
+      "severity": "critical",
+      "type": "extraction_accumulation"
+    },
+    {
+      "severity": "critical",
+      "type": "coupling_drift"
+    },
+    {
+      "severity": "critical",
+      "type": "purity_drift"
+    }
+  ],
+  "mandatrophy_gap": {
+    "delta_chi": 0.05,
+    "severity": "moderate"
+  },
+  "structural_signature": "false_ci_rope",
+  "purity": {
+    "value": 0.278833,
+    "band": "degraded"
+  },
+  "post_synthesis_flags": []
+}

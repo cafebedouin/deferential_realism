@@ -2,7 +2,7 @@
 
 **Version 4.0**  
 **Purpose:** Single source of truth for all system parameters  
-**Source:** config.pl (lines 71-410)  
+**Source:** config.pl (lines 71-503)  
 **Last Updated:** February 2026
 
 ---
@@ -31,7 +31,10 @@ This document provides the **canonical threshold values** for all parameters in 
 7. Network Dynamics â€” Contamination propagation parameters
 8. Lifecycle Drift â€” Threshold values for detecting degradation
 9. Action Layer â€” Energy costs and decision gates
-10. Defaults & Meta â€” Fallback values
+10. Defaults & Meta — Fallback values
+11. Maximum Entropy Shadow Classifier (v6.2) — Diagnostic probability distributions
+12. Abductive Reasoning Engine (v6.3) — Cross-subsystem anomaly detection
+13. Trajectory Mining (v6.4) — Structural family detection and isomorphisms
 
 ---
 
@@ -78,11 +81,48 @@ This document provides the **canonical threshold values** for all parameters in 
 
 ---
 
+## 2b. Sigmoid Directionality (v5.0)
+
+**Formula:** `f(d) = L + (U - L) / (1 + e^(-k*(d - d0)))`
+**Purpose:** Replaces discrete power_modifier dispatch with continuous sigmoid mapping from directionality `d ∈ [0.0, 1.0]` to modifier value
+
+### Sigmoid Shape Parameters
+
+| Parameter | Value | Stage | Logic/Significance |
+|-----------|-------|-------|-------------------|
+| `sigmoid_lower` | **-0.20** | 7 | L: lower asymptote (institutional end) |
+| `sigmoid_upper` | **1.50** | 7 | U: upper asymptote (powerless end) |
+| `sigmoid_midpoint` | **0.50** | 7 | d0: inflection point |
+| `sigmoid_steepness` | **6.00** | 7 | k: steepness of transition |
+
+### Canonical Directionality Positions
+
+These calibrate the sigmoid so `f(d) ≈ π(P)` for each power level:
+
+| Parameter | Value | Stage | Corresponding π | Logic/Significance |
+|-----------|-------|-------|-----------------|-------------------|
+| `canonical_d_powerless` | **1.00** | 7 | 1.50 | f(1.0)≈1.42 vs 1.50 — tail residual, beyond gate boundaries |
+| `canonical_d_analytical` | **0.7250** | 7 | 1.15 | Analyst position in directionality space |
+| `canonical_d_moderate` | **0.6459** | 7 | 1.00 | Exact match at mid-range |
+| `canonical_d_powerful` | **0.4804** | 7 | 0.60 | Exact match at mid-range |
+| `canonical_d_organized` | **0.3990** | 7 | 0.40 | Exact match at mid-range |
+| `canonical_d_institutional` | **0.00** | 7 | -0.20 | f(0.0)≈-0.12 vs -0.20 — tail residual, beyond gate boundaries |
+
+**Implementation:** `config.pl` Section 4C
+
+**Key Notes:**
+- Mid-range atoms (moderate, powerful, organized) match exactly
+- Extremes (institutional, powerless) have small residuals because sigmoid asymptotes are unreachable
+- Residuals are at tails where χ is well beyond gate boundaries, so no classification shifts result
+- The relationship between canonical d positions and legacy power modifiers enables smooth transition from discrete to continuous directionality
+
+---
+
 ## 3. Classification Gates
 
 ### 3a. Mountain (â– C[I])
 
-**Formal:** `â– C[I] â†” Îµ(C) â‰¤ 0.25 âˆ§ Supp(C) â‰¤ 0.05 âˆ§ Immutable(C, I.T, I.E)`
+**Formal:** `â– C[I] â†” Îµ(C) â‰¤ 0.25 âˆ§ Supp(C) â‰¤ 0.05 âˆ§ NaturalEmergence(C) âˆ§ Immutable(C, I.T, I.E)`
 
 | Parameter | Value | Stage | Logic/Significance |
 |-----------|-------|-------|-------------------|
@@ -119,7 +159,7 @@ Mountain_valid(C) ↔ ε(C) ≤ 0.25 ∧ TR(C) ≤ 0.10 ∧ ¬requires_active_en
 |-----------|-------|-------|-------------------|
 | `rope_chi_ceiling` | **0.35** | 1-6 | Max power-scaled extraction for pure coordination |
 | `rope_epsilon_ceiling` | **0.45** | 1-6 | Max base extraction for coordination (wider gate than Mountain) |
-| `rope_suppression_ceiling` | **0.16** | 1-6 | Base suppression ceiling for pure coordination |
+| `rope_suppression_ceiling` | **0.16** | 1-6 | Base suppression ceiling for pure coordination. **Note:** Not currently checked in `classify_from_metrics/6` rope gate. Reserved for future use or used by other predicates. |
 | `rope_extractiveness_min` | **0.0** | 1-6 | Theoretical minimum |
 
 **Implementation:** `classify_from_metrics/6` line 2970 (drl_core.pl)  
@@ -172,11 +212,11 @@ Mountain_valid(C) ↔ ε(C) ≤ 0.25 ∧ TR(C) ≤ 0.10 ∧ ¬requires_active_en
 
 ### 3e. Scaffold (âŠ¡C[I])
 
-**Formal:** `âŠ¡C[I] â†” Ï‡(C, I.P, I.S) â‰¤ 0.30 âˆ§ Coord(C) âˆ§ Sunset(C) âˆ§ Theater(C) â‰¤ 0.70`
+**Formal:** `âŠ¡C[I] â†” Ï‡(C, I.P, I.S) â‰¤ 0.45 âˆ§ Coord(C) âˆ§ Sunset(C) âˆ§ Theater(C) â‰¤ 0.70`
 
 | Parameter | Value | Stage | Logic/Significance |
 |-----------|-------|-------|-------------------|
-| `scaffold_extraction_ceil` | **0.30** | 1-6 | Max extraction for temporary support |
+| `scaffold_extraction_ceil` | **0.45** | 1-6 | Max extraction for temporary support |
 
 **Implementation:** `classify_from_metrics/6` line 2962 (drl_core.pl)
 
@@ -189,11 +229,11 @@ Mountain_valid(C) ↔ ε(C) ≤ 0.25 ∧ TR(C) ≤ 0.10 ∧ ¬requires_active_en
 
 ### 3f. Piton (âŠŸC[I])
 
-**Formal:** `âŠŸC[I] â†” Ï‡(C, I.P, I.S) â‰¤ 0.25 âˆ§ Îµ(C) > 0.10 âˆ§ Theater(C) â‰¥ 0.70`
+**Formal:** `âŠŸC[I] â†” Ï‡(C, I.P, I.S) â‰¤ 0.45 âˆ§ Îµ(C) > 0.10 âˆ§ Theater(C) â‰¥ 0.70`
 
 | Parameter | Value | Stage | Logic/Significance |
 |-----------|-------|-------|-------------------|
-| `piton_extraction_ceiling` | **0.25** | 1-6 | Minimal effective extraction for anyone |
+| `piton_extraction_ceiling` | **0.45** | 1-6 | Minimal effective extraction for anyone |
 | `piton_epsilon_floor` | **0.10** | 1-6 | Still costs energy to maintain (distinguishes from Îµ=0) |
 | `piton_theater_floor` | **0.70** | 1-6 | High theater ratio distinguishes from low-extraction ropes |
 
@@ -215,7 +255,7 @@ Mountain_valid(C) ↔ ε(C) ≤ 0.25 ∧ TR(C) ≤ 0.10 ∧ ¬requires_active_en
 | `natural_law_suppression_max` | **0.15** | 3 | No enforcement needed |
 | `natural_law_resistance_max` | **0.15** | 3 | Cannot be resisted |
 
-**Implementation:** `structural_signatures.pl` natural_law_signature/1
+**Implementation:** `signature_detection.pl` natural_law_signature/1
 
 **Enhancement (Stage 7):** NL claims must pass `boltzmann_invariant_mountain/2` test:
 - Factorization across Power Ã— Scope
@@ -233,7 +273,7 @@ Mountain_valid(C) ↔ ε(C) ≤ 0.25 ∧ TR(C) ≤ 0.10 ∧ ¬requires_active_en
 | `coordination_suppression_max` | **0.15** | 3 | Voluntary compliance |
 | `coordination_resistance_max` | **0.15** | 3 | Minimal opposition |
 
-**Implementation:** `structural_signatures.pl` coordination_scaffold_signature/1
+**Implementation:** `signature_detection.pl` coordination_scaffold_signature/1
 
 **Key Difference from NL:** Alternatives existed (path-dependent), but this path won.
 
@@ -247,7 +287,7 @@ Mountain_valid(C) ↔ ε(C) ≤ 0.25 ∧ TR(C) ≤ 0.10 ∧ ¬requires_active_en
 | `constructed_resistance_min` | **0.20** | 3 | Faces opposition |
 | `constructed_beneficiary_min` | **2** | 3 | Asymmetric gains threshold (count of beneficiaries) |
 
-**Implementation:** `structural_signatures.pl` constructed_constraint_signature/1
+**Implementation:** `signature_detection.pl` constructed_constraint_signature/1
 
 **Sub-categories:** CC_low, CC_mid, CC_high based on extraction levels
 
@@ -278,7 +318,7 @@ Mountain_valid(C) ↔ ε(C) ≤ 0.25 ∧ TR(C) ≤ 0.10 ∧ ¬requires_active_en
 | `boltzmann_factorization_tolerance` | **0.10** | 7 | Relative error margin for Ï‡(P,S) â‰ˆ f(P)Ã—g(S) test |
 | `boltzmann_min_classifications` | **3** | 7 | Min indexed classifications for reliable test (epistemic access) |
 
-**Implementation:** `structural_signatures.pl` boltzmann_compliant/2, cross_index_coupling/2
+**Implementation:** `boltzmann_compliance.pl` boltzmann_compliant/2, cross_index_coupling/2
 
 **Key Insight:** If Ï‡ doesn't factorize â†’ constraint couples independent variables â†’ constructed, not natural.
 
@@ -314,7 +354,7 @@ Mountain_valid(C) ↔ ε(C) ≤ 0.25 ∧ TR(C) ≤ 0.10 ∧ ¬requires_active_en
 | `boltzmann_floor_global_infrastructure` | **0.20** | 7 | Planetary-scale coordination is expensive |
 | `boltzmann_floor_default` | **0.05** | 7 | Fallback |
 
-**Implementation:** `structural_signatures.pl` excess_extraction/2
+**Implementation:** `boltzmann_compliance.pl` excess_extraction/2
 
 **Formula:** Excess = Îµ(C) - BoltzmannFloor(coordination_type)
 
@@ -345,7 +385,7 @@ Mountain_valid(C) ↔ ε(C) ≤ 0.25 ∧ TR(C) ≤ 0.10 ∧ ¬requires_active_en
 
 > **Note (February 2026):** `coupling_drift_threshold` (0.10) was removed â€" it was an orphan parameter never wired into any code. `detect_coupling_drift` uses `boltzmann_coupling_threshold` (0.25) as the actual coupling gate.
 
-**Implementation:** `drl_lifecycle.pl` detect_coupling_drift/3, boltzmann_floor_drift/2
+**Implementation:** `drift_events.pl` (via `drl_lifecycle.pl` facade) `detect_coupling_drift/1`, `detect_boltzmann_floor_drift/1`
 
 **Purpose:** Distinguish necessary complexity increase from extractive complexity increase.
 
@@ -392,7 +432,7 @@ purity_score = 0.30 Ã— (1.0 - coupling_score)
 | `purity_surgical_reform_gate` | **0.30** | 7 | **Min purity for surgical reform** â€” below this, reform fails |
 | `purity_scaffold_health_gate` | **0.50** | 7 | Min scaffold purity for safe transition |
 
-**Implementation:** `drl_modal_logic.pl` purity_qualified_action/4, action_composition_gate/3
+**Implementation:** `drl_boltzmann_analysis.pl` (via `drl_modal_logic.pl` facade) `purity_qualified_action/4`, `action_composition_gate/3`
 
 **Key Insight:** Degraded constraints (< 0.30) block reform â€” transition to Cut/Exit.
 
@@ -425,7 +465,7 @@ purity_score = 0.30 Ã— (1.0 - coupling_score)
 | `network_coupling_threshold` | **0.50** | 8 | Min inferred coupling for network edge |
 | `network_shared_agent_min` | **1** | 8 | Min shared agents (beneficiary/victim) for edge |
 
-**Implementation:** `drl_modal_logic.pl` constraint_neighbors/3
+**Implementation:** `drl_purity_network.pl` constraint_neighbors/3
 
 ---
 
@@ -437,7 +477,7 @@ purity_score = 0.30 Ã— (1.0 - coupling_score)
 | `purity_attenuation_factor` | **0.50** | 8 | **Edge strength scaling** (contamination loses 50% per hop) |
 | `purity_contamination_source_floor` | **0.50** | 8 | Below â†’ active contamination source |
 
-**Implementation:** `drl_modal_logic.pl` effective_purity/4, purity_contamination_pressure/4
+**Implementation:** `drl_purity_network.pl` effective_purity/4, purity_contamination_pressure/4
 
 **Key Rule:** Downward-only contamination (Snare â†’ Rope, not vice versa)
 
@@ -452,22 +492,47 @@ purity_score = 0.30 Ã— (1.0 - coupling_score)
 | `contamination_strength_snare` | **1.0** | 8 | Maximum contamination (pure extraction) |
 | `contamination_strength_piton` | **0.8** | 8 | High contamination (degraded state) |
 | `contamination_strength_tangled_rope` | **0.5** | 8 | Moderate contamination (hybrid) |
+| `contamination_strength_naturalized` | **0.3** | 8 | Moderate-low contamination (ambiguous structure) |
 | `contamination_strength_scaffold` | **0.2** | 8 | Low contamination (temporary support) |
 | `contamination_strength_rope` | **0.1** | 8 | Minimal contamination (pure coordination) |
 | `contamination_strength_mountain` | **0.0** | 8 | **Mountains don't contaminate** (natural laws) |
 
-**Implementation:** `drl_modal_logic.pl` type_contamination_strength/2
+**Implementation:** `drl_purity_network.pl` type_contamination_strength/2
+
+**Note:** These values are hardcoded as facts in `drl_purity_network.pl`, not wired through `config.pl`. The `contamination_strength_*` parameters in `config.pl` exist but are unused (dead params). Values match between the two locations.
 
 ---
 
-### 7d. Network Metrics
+### 7d. Type Immunity (Target Susceptibility)
+
+**Purpose:** Different target types have different susceptibility to contamination from neighbors. Immunity scales the total contamination before subtraction from intrinsic purity.
+
+| Type | Immunity | Stage | Logic/Significance |
+|------|----------|-------|-------------------|
+| `mountain` | **0.0** | 8 | **Immune** â€" natural laws unaffected by neighbor contamination |
+| `piton` | **0.3** | 8 | Low susceptibility â€" degraded state already resistant |
+| `snare` | **0.5** | 8 | Moderate susceptibility |
+| `naturalized` | **0.7** | 8 | High susceptibility â€" ambiguous structures easily influenced |
+| `tangled_rope` | **0.8** | 8 | High susceptibility â€" hybrid state easily influenced |
+| `scaffold` | **0.9** | 8 | Very high susceptibility â€" temporary structures fragile |
+| `rope` | **1.0** | 8 | **Fully susceptible** â€" pure coordination most affected |
+
+**Implementation:** `drl_purity_network.pl` type_immunity/2
+
+**Key Insight:** Mountains (immunity 0.0) are completely immune to contamination; Ropes (immunity 1.0) receive full contamination pressure. This reflects the asymmetry: natural laws are structurally robust, while pure coordination is structurally fragile.
+
+**Formula integration:** `EffPurity = max(0.0, Intrinsic - TotalContam Ã— Immunity)`
+
+---
+
+### 7e. Network Metrics
 
 | Parameter | Value | Stage | Logic/Significance |
 |-----------|-------|-------|-------------------|
 | `network_contamination_risk_threshold` | **2** | 8 | Low-purity neighbors â†’ "at_risk" classification |
 | `network_cluster_degraded_floor` | **0.40** | 8 | Below â†’ cluster classified as "degraded" |
 
-**Implementation:** `drl_modal_logic.pl` network_purity_metrics/2
+**Implementation:** `drl_purity_network.pl` network_purity_metrics/2
 
 ---
 
@@ -536,16 +601,123 @@ purity_score = 0.30 Ã— (1.0 - coupling_score)
 
 ---
 
+## 10d. Fixed-Point Network Iteration (v5.3)
+
+**Purpose:** Controls FPN convergence behavior for purity propagation
+
+| Parameter | Value | Stage | Logic/Significance |
+|-----------|-------|-------|-------------------|
+| `fpn_epsilon` | **0.001** | 8 | Convergence threshold (< min zone gap 0.20) |
+| `fpn_max_iterations` | **20** | 8 | Hard cap (2× theoretical worst case) |
+| `fpn_enabled` | **1** | 8 | Graduated Phase 7-T2: FPN iteration enabled |
+
+**Implementation:** `drl_fpn.pl`
+
+**Key Notes:**
+- Convergence threshold must be smaller than the minimum zone gap (0.20) to prevent oscillation across zone boundaries
+- Max iterations cap prevents infinite loops in degenerate topologies
+- Enable flag graduated Phase 7-T2: computation runs unconditionally
+
+---
+
+## 11. Maximum Entropy Shadow Classifier (v6.2)
+
+**Purpose:** Diagnostic shadow classifier producing probability distributions, entropy scores, and disagreement flags alongside the deterministic cascade
+
+| Parameter | Value | Stage | Logic/Significance |
+|-----------|-------|-------|-------------------|
+| `maxent_enabled` | **1** | 7 | Graduated Phase 7-T1: computation runs unconditionally |
+| `maxent_uncertainty_threshold` | **0.40** | 7 | H_norm above this = flagged as uncertain |
+| `maxent_disagreement_prob_threshold` | **0.50** | 7 | P(det_type) below this = soft disagreement with deterministic classifier |
+| `maxent_boolean_penalty` | **-4.0** | 7 | Log-likelihood for violated boolean gate |
+| `maxent_boolean_bonus` | **1.0** | 7 | Log-likelihood for satisfied bonus feature |
+| `maxent_prior_mode` | **corpus** | 7 | Prior distribution source: `corpus` or `uniform` |
+| `maxent_signature_override_strength` | **0.95** | 7 | P assigned to unconditional override target |
+
+**Implementation:** `maxent_classifier.pl`
+
+**Key Notes:**
+- Runs as shadow classifier — produces diagnostics only, does not modify `classify_from_metrics/6`
+- Entropy score H_norm measures classifier uncertainty; high values flag ambiguous constraints
+- Prior mode `corpus` uses empirical type frequencies; `uniform` assigns equal probability to all types
+
+---
+
+## 12. Abductive Reasoning Engine (v6.3)
+
+**Purpose:** Cross-subsystem anomaly detection synthesizing signals from structural signatures, MaxEnt, FPN, Dirac orbits, drift detection, and logical fingerprints
+
+### 12a. Core Parameters
+
+| Parameter | Value | Stage | Logic/Significance |
+|-----------|-------|-------|-------------------|
+| `abductive_enabled` | **1** | 7 | Graduated Phase 7-T1: computation runs unconditionally |
+| `abductive_confidence_floor` | **0.30** | 7 | Hypotheses below this confidence not stored |
+| `abductive_fpn_divergence_threshold` | **0.02** | 7 | FPN EP divergence threshold for triggers |
+| `abductive_maxent_mountain_deception` | **0.50** | 7 | P(mountain) threshold for deep_deception trigger |
+| `abductive_dormant_entropy_ceiling` | **0.15** | 7 | Max H_norm for dormant_extraction trigger |
+
+### 12b. Trigger-Specific Thresholds
+
+| Parameter | Value | Trigger | Logic/Significance |
+|-----------|-------|---------|-------------------|
+| `abductive_shadow_divergence_threshold` | **0.85** | T9 | Min P(MaxEntTop) for shadow divergence |
+| `abductive_stress_convergence_min` | **4** | T10 | Min signals for common core (rare gate provides selectivity) |
+| `abductive_snare_lean_psi_threshold` | **0.90** | T11 | Min ψ for snare-leaning tangled |
+| `abductive_snare_lean_psnare_floor` | **0.85** | T11 | Min P(snare) for snare-leaning tangled |
+| `abductive_stress_purity_threshold` | **0.60** | T10 | Purity below this = stressed indicator |
+| `abductive_stress_coupling_threshold` | **0.75** | T10 | Coupling above this = stressed indicator |
+| `abductive_stress_entropy_threshold` | **0.15** | T10 | Entropy above this = stressed indicator |
+| `abductive_stress_drift_mode` | **any** | T10 | Drift indicator mode: `any`, `critical`, or `count_2plus` |
+| `abductive_maxent_divergence_threshold` | **0.05** | T13 | Min indexing divergence to fire |
+| `abductive_hub_conflict_h1_threshold` | **4** | T14 | Exact H¹ band for hub conflict |
+| `abductive_oracle_entropy_ceiling` | **0.40** | T16 | Max H_norm for "confident oracle" |
+
+### 12c. Post-Synthesis Divergence (T12)
+
+| Parameter | Value | Stage | Logic/Significance |
+|-----------|-------|-------|-------------------|
+| `post_synthesis_enabled` | **1** | 7 | T12 master switch |
+| `post_synthesis_green_trigger_threshold` | **2** | 7 | Case 2: min genuine triggers for green divergence |
+
+**Implementation:** `abductive_engine.pl`
+
+---
+
+## 13. Trajectory Mining (v6.4)
+
+**Purpose:** Extends 24 orbit families (type-only) into richer structural families incorporating continuous metrics, entropy, coupling, drift, and fingerprint voids. Detects structural isomorphisms — constraints from different domains that behave identically under observer shift.
+
+| Parameter | Value | Stage | Logic/Significance |
+|-----------|-------|-------|-------------------|
+| `trajectory_enabled` | **0** | 9 | 0=disabled, 1=enabled. Deferred — requires runtime benchmarking |
+| `trajectory_distance_shift_weight` | **0.35** | 9 | Weight for shift (type sequence) distance |
+| `trajectory_distance_metric_weight` | **0.25** | 9 | Weight for metric (χ, entropy) distance |
+| `trajectory_distance_stability_weight` | **0.25** | 9 | Weight for stability (coupling, purity) distance |
+| `trajectory_distance_pathology_weight` | **0.15** | 9 | Weight for pathology (drift, voids) distance |
+| `trajectory_family_cut_level` | **0.30** | 9 | Dendrogram cut height for family assignment |
+| `trajectory_isomorphism_threshold` | **0.15** | 9 | Max distance for trajectory isomorphism |
+| `trajectory_coupling_band_width` | **0.15** | 9 | Coupling match tolerance for isomorphism |
+
+**Implementation:** `trajectory_mining.pl`
+
+**Key Notes:**
+- Currently disabled (`trajectory_enabled = 0`) — checked at pipeline level (run_pipeline.py), entire trajectory mining step is skipped
+- Distance metric is a weighted sum of four components (shift, metric, stability, pathology)
+- Isomorphism detection finds constraints from different domains with near-identical structural trajectories
+
+---
+
 ## Implementation Notes
 
 ### Priority Ordering (classify_from_metrics/6)
 ```
-Mountain > Snare > Scaffold > Rope > Tangled Rope > Piton > unknown
+Mountain > Snare > Scaffold > Rope > Tangled Rope > Piton > Naturalized > unknown
 ```
 
 ### Two-Regime Architecture
 1. **Metrics-first** (`drl_core.pl`): Uses thresholds from this registry
-2. **Signature-override** (`structural_signatures.pl`): Can override metric classification
+2. **Signature-override** (`signature_detection.pl` via wrapper `structural_signatures.pl`): Can override metric classification
 
 ### Shadow Mode (Stages 7-9)
 Boltzmann/Purity/Network logic runs alongside core, doesn't modify `classify_from_metrics/6`.
@@ -597,7 +769,7 @@ Boltzmann/Purity/Network logic runs alongside core, doesn't modify `classify_fro
 **For formal definitions** â†’ logic.md Â§II  
 **For implementation architecture** â†’ logic_extensions.md Â§6  
 **For calibration methodology** â†’ validation/validation_report.md  
-**For Prolog source** â†’ config.pl (lines 71-410)
+**For Prolog source** â†’ config.pl (lines 71-503)
 
 ---
 

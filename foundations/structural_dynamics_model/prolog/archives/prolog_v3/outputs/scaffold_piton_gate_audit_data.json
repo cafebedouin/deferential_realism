@@ -1,0 +1,3166 @@
+{
+  "metadata": {
+    "generated": "2026-02-23 19:56:17",
+    "script": "python/scaffold_piton_gate_audit.py",
+    "source": "outputs/enriched_pipeline.json",
+    "total_corpus": 1171,
+    "scaffold_count": 21,
+    "piton_count": 95
+  },
+  "step1_population": {
+    "total_corpus": 1171,
+    "target_count": 116,
+    "scaffold": {
+      "label": "scaffold",
+      "count": 21,
+      "signature_dist": {
+        "false_ci_rope": 15,
+        "coupling_invariant_rope": 5,
+        "false_natural_law": 1
+      },
+      "maxent_top_type_dist": {
+        "rope": 10,
+        "tangled_rope": 9,
+        "snare": 2
+      },
+      "raw_maxent_top_type_dist": {
+        "rope": 11,
+        "tangled_rope": 7,
+        "snare": 3
+      },
+      "confidence_band_dist": {
+        "borderline": 21
+      },
+      "boundary_dist": {
+        "scaffold->rope": 10,
+        "scaffold->tangled_rope": 9,
+        "scaffold->snare": 2
+      },
+      "rival_type_dist": {
+        "rope": 10,
+        "tangled_rope": 9,
+        "snare": 2
+      },
+      "coalition_dist": {
+        "uniform_tangled": 8,
+        "institutional_dissent": 5,
+        "other": 5,
+        "split_field": 2,
+        "analytical_dissent": 1
+      },
+      "base_extractiveness_stats": {
+        "n": 21,
+        "mean": 0.25,
+        "median": 0.2,
+        "std": 0.161952,
+        "min": 0.0,
+        "max": 0.64,
+        "q25": 0.15,
+        "q75": 0.35
+      },
+      "suppression_stats": {
+        "n": 21,
+        "mean": 0.437619,
+        "median": 0.4,
+        "std": 0.246536,
+        "min": 0.1,
+        "max": 0.95,
+        "q25": 0.25,
+        "q75": 0.45
+      },
+      "theater_ratio_stats": {
+        "n": 21,
+        "mean": 0.197143,
+        "median": 0.15,
+        "std": 0.167393,
+        "min": 0.05,
+        "max": 0.65,
+        "q25": 0.1,
+        "q75": 0.2
+      },
+      "purity_score_stats": {
+        "n": 21,
+        "mean": 0.712873,
+        "median": 0.825833,
+        "std": 0.2642,
+        "min": 0.308333,
+        "max": 1.0,
+        "q25": 0.446167,
+        "q75": 0.972
+      },
+      "confidence_stats": {
+        "n": 21,
+        "mean": 0.01915,
+        "median": 0.01,
+        "std": 0.02688,
+        "min": 0.0,
+        "max": 0.121341,
+        "q25": 0.00087,
+        "q75": 0.016557
+      },
+      "confidence_margin_stats": {
+        "n": 21,
+        "mean": -0.886894,
+        "median": -0.94,
+        "std": 0.115104,
+        "min": -0.998511,
+        "max": -0.547382,
+        "q25": -0.94,
+        "q75": -0.851712
+      },
+      "confidence_entropy_stats": {
+        "n": 21,
+        "mean": 0.173656,
+        "median": 0.155706,
+        "std": 0.122225,
+        "min": 0.00433,
+        "max": 0.476042,
+        "q25": 0.127144,
+        "q75": 0.218803
+      }
+    },
+    "piton": {
+      "label": "piton",
+      "count": 95,
+      "signature_dist": {
+        "false_ci_rope": 81,
+        "false_natural_law": 11,
+        "constructed_high_extraction": 2,
+        "constructed_low_extraction": 1
+      },
+      "maxent_top_type_dist": {
+        "snare": 69,
+        "tangled_rope": 18,
+        "rope": 7,
+        "piton": 1
+      },
+      "raw_maxent_top_type_dist": {
+        "snare": 78,
+        "rope": 11,
+        "tangled_rope": 5,
+        "piton": 1
+      },
+      "confidence_band_dist": {
+        "borderline": 94,
+        "moderate": 1
+      },
+      "boundary_dist": {
+        "piton->snare": 70,
+        "piton->tangled_rope": 18,
+        "piton->rope": 7
+      },
+      "rival_type_dist": {
+        "snare": 70,
+        "tangled_rope": 18,
+        "rope": 7
+      },
+      "coalition_dist": {
+        "institutional_dissent": 65,
+        "split_field": 12,
+        "uniform_tangled": 11,
+        "other": 7
+      },
+      "base_extractiveness_stats": {
+        "n": 95,
+        "mean": 0.629474,
+        "median": 0.68,
+        "std": 0.219628,
+        "min": 0.03,
+        "max": 0.92,
+        "q25": 0.49,
+        "q75": 0.83
+      },
+      "suppression_stats": {
+        "n": 95,
+        "mean": 0.676105,
+        "median": 0.73,
+        "std": 0.218378,
+        "min": 0.04,
+        "max": 0.96,
+        "q25": 0.64,
+        "q75": 0.82
+      },
+      "theater_ratio_stats": {
+        "n": 95,
+        "mean": 0.847895,
+        "median": 0.85,
+        "std": 0.071611,
+        "min": 0.72,
+        "max": 0.99,
+        "q25": 0.78,
+        "q75": 0.91
+      },
+      "purity_score_stats": {
+        "n": 95,
+        "mean": 0.501244,
+        "median": 0.575,
+        "std": 0.143776,
+        "min": 0.276333,
+        "max": 0.8875,
+        "q25": 0.354167,
+        "q75": 0.575
+      },
+      "confidence_stats": {
+        "n": 95,
+        "mean": 0.023012,
+        "median": 0.009971,
+        "std": 0.076783,
+        "min": 0.0,
+        "max": 0.730049,
+        "q25": 0.007428,
+        "q75": 0.016423
+      },
+      "confidence_margin_stats": {
+        "n": 95,
+        "mean": -0.867874,
+        "median": -0.94,
+        "std": 0.199264,
+        "min": -0.99925,
+        "max": 0.587812,
+        "q25": -0.970288,
+        "q75": -0.822729
+      },
+      "confidence_entropy_stats": {
+        "n": 95,
+        "mean": 0.169871,
+        "median": 0.155706,
+        "std": 0.130719,
+        "min": 0.003427,
+        "max": 0.494943,
+        "q25": 0.061514,
+        "q75": 0.276193
+      }
+    }
+  },
+  "step2_gate_profiles": {
+    "scaffold": {
+      "label": "scaffold",
+      "count": 21,
+      "profiles": [
+        {
+          "gate_tuple": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "label": "EN=F, RAE=F, HCF=T, HAE=T",
+          "count": 10,
+          "pct": 47.6,
+          "rival_type_dist": {
+            "rope": 7,
+            "snare": 2,
+            "tangled_rope": 1
+          },
+          "confidence_band_dist": {
+            "borderline": 10
+          },
+          "metrics": {
+            "base_extractiveness": {
+              "n": 10,
+              "mean": 0.266,
+              "median": 0.18,
+              "std": 0.182494,
+              "min": 0.1,
+              "max": 0.64,
+              "q25": 0.12,
+              "q75": 0.42
+            },
+            "suppression": {
+              "n": 10,
+              "mean": 0.569,
+              "median": 0.45,
+              "std": 0.240934,
+              "min": 0.25,
+              "max": 0.95,
+              "q25": 0.4,
+              "q75": 0.84
+            },
+            "theater_ratio": {
+              "n": 10,
+              "mean": 0.189,
+              "median": 0.12,
+              "std": 0.188385,
+              "min": 0.05,
+              "max": 0.65,
+              "q25": 0.08,
+              "q75": 0.15
+            },
+            "purity_score": {
+              "n": 10,
+              "mean": 0.756617,
+              "median": 0.948,
+              "std": 0.273866,
+              "min": 0.3245,
+              "max": 1.0,
+              "q25": 0.4325,
+              "q75": 0.972
+            },
+            "confidence": {
+              "n": 10,
+              "mean": 0.030162,
+              "median": 0.021182,
+              "std": 0.035318,
+              "min": 0.0,
+              "max": 0.121341,
+              "q25": 2.8e-05,
+              "q75": 0.04595
+            }
+          }
+        },
+        {
+          "gate_tuple": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "label": "EN=F, RAE=T, HCF=T, HAE=T",
+          "count": 9,
+          "pct": 42.9,
+          "rival_type_dist": {
+            "tangled_rope": 7,
+            "rope": 2
+          },
+          "confidence_band_dist": {
+            "borderline": 9
+          },
+          "metrics": {
+            "base_extractiveness": {
+              "n": 9,
+              "mean": 0.26,
+              "median": 0.22,
+              "std": 0.129872,
+              "min": 0.04,
+              "max": 0.48,
+              "q25": 0.2,
+              "q75": 0.35
+            },
+            "suppression": {
+              "n": 9,
+              "mean": 0.361111,
+              "median": 0.35,
+              "std": 0.174448,
+              "min": 0.1,
+              "max": 0.75,
+              "q25": 0.25,
+              "q75": 0.45
+            },
+            "theater_ratio": {
+              "n": 9,
+              "mean": 0.177778,
+              "median": 0.2,
+              "std": 0.071146,
+              "min": 0.05,
+              "max": 0.3,
+              "q25": 0.15,
+              "q75": 0.2
+            },
+            "purity_score": {
+              "n": 9,
+              "mean": 0.659074,
+              "median": 0.621167,
+              "std": 0.242763,
+              "min": 0.308333,
+              "max": 1.0,
+              "q25": 0.446167,
+              "q75": 0.825833
+            },
+            "confidence": {
+              "n": 9,
+              "mean": 0.008948,
+              "median": 0.01,
+              "std": 0.006522,
+              "min": 3.7e-05,
+              "max": 0.016557,
+              "q25": 0.00087,
+              "q75": 0.015987
+            }
+          }
+        },
+        {
+          "gate_tuple": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "label": "EN=F, RAE=F, HCF=T, HAE=F",
+          "count": 2,
+          "pct": 9.5,
+          "rival_type_dist": {
+            "rope": 1,
+            "tangled_rope": 1
+          },
+          "confidence_band_dist": {
+            "borderline": 2
+          },
+          "metrics": {
+            "base_extractiveness": {
+              "n": 2,
+              "mean": 0.125,
+              "median": 0.125,
+              "std": 0.125,
+              "min": 0.0,
+              "max": 0.25,
+              "q25": 0.0,
+              "q75": 0.25
+            },
+            "suppression": {
+              "n": 2,
+              "mean": 0.125,
+              "median": 0.125,
+              "std": 0.025,
+              "min": 0.1,
+              "max": 0.15,
+              "q25": 0.1,
+              "q75": 0.15
+            },
+            "theater_ratio": {
+              "n": 2,
+              "mean": 0.325,
+              "median": 0.325,
+              "std": 0.275,
+              "min": 0.05,
+              "max": 0.6,
+              "q25": 0.05,
+              "q75": 0.6
+            },
+            "purity_score": {
+              "n": 2,
+              "mean": 0.73625,
+              "median": 0.73625,
+              "std": 0.26375,
+              "min": 0.4725,
+              "max": 1.0,
+              "q25": 0.4725,
+              "q75": 1.0
+            },
+            "confidence": {
+              "n": 2,
+              "mean": 0.01,
+              "median": 0.01,
+              "std": 0.0,
+              "min": 0.01,
+              "max": 0.01,
+              "q25": 0.01,
+              "q75": 0.01
+            }
+          }
+        }
+      ],
+      "marginals": {
+        "emerges_naturally": {
+          "true": 0,
+          "false": 21,
+          "p_true": 0.0
+        },
+        "requires_active_enforcement": {
+          "true": 9,
+          "false": 12,
+          "p_true": 0.4286
+        },
+        "has_coordination_function": {
+          "true": 21,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "has_asymmetric_extraction": {
+          "true": 19,
+          "false": 2,
+          "p_true": 0.9048
+        }
+      },
+      "rae_f_count": 12,
+      "rae_f_rate": 0.5714,
+      "rae_f_enrichment_vs_fcr": 8.47
+    },
+    "piton": {
+      "label": "piton",
+      "count": 95,
+      "profiles": [
+        {
+          "gate_tuple": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "label": "EN=F, RAE=T, HCF=T, HAE=T",
+          "count": 71,
+          "pct": 74.7,
+          "rival_type_dist": {
+            "snare": 60,
+            "tangled_rope": 11
+          },
+          "confidence_band_dist": {
+            "borderline": 71
+          },
+          "metrics": {
+            "base_extractiveness": {
+              "n": 71,
+              "mean": 0.689155,
+              "median": 0.75,
+              "std": 0.159751,
+              "min": 0.35,
+              "max": 0.92,
+              "q25": 0.52,
+              "q75": 0.84
+            },
+            "suppression": {
+              "n": 71,
+              "mean": 0.749155,
+              "median": 0.75,
+              "std": 0.118188,
+              "min": 0.3,
+              "max": 0.96,
+              "q25": 0.68,
+              "q75": 0.82
+            },
+            "theater_ratio": {
+              "n": 71,
+              "mean": 0.855634,
+              "median": 0.85,
+              "std": 0.068232,
+              "min": 0.72,
+              "max": 0.99,
+              "q25": 0.82,
+              "q75": 0.91
+            },
+            "purity_score": {
+              "n": 71,
+              "mean": 0.476019,
+              "median": 0.575,
+              "std": 0.113579,
+              "min": 0.276333,
+              "max": 0.595,
+              "q25": 0.354167,
+              "q75": 0.575
+            },
+            "confidence": {
+              "n": 71,
+              "mean": 0.014393,
+              "median": 0.009971,
+              "std": 0.013211,
+              "min": 0.00127,
+              "max": 0.085589,
+              "q25": 0.008275,
+              "q75": 0.017904
+            }
+          }
+        },
+        {
+          "gate_tuple": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "label": "EN=F, RAE=F, HCF=T, HAE=T",
+          "count": 24,
+          "pct": 25.3,
+          "rival_type_dist": {
+            "snare": 10,
+            "rope": 7,
+            "tangled_rope": 7
+          },
+          "confidence_band_dist": {
+            "borderline": 23,
+            "moderate": 1
+          },
+          "metrics": {
+            "base_extractiveness": {
+              "n": 24,
+              "mean": 0.452917,
+              "median": 0.415,
+              "std": 0.271531,
+              "min": 0.03,
+              "max": 0.85,
+              "q25": 0.2,
+              "q75": 0.72
+            },
+            "suppression": {
+              "n": 24,
+              "mean": 0.46,
+              "median": 0.475,
+              "std": 0.291476,
+              "min": 0.04,
+              "max": 0.91,
+              "q25": 0.2,
+              "q75": 0.72
+            },
+            "theater_ratio": {
+              "n": 24,
+              "mean": 0.825,
+              "median": 0.8,
+              "std": 0.076322,
+              "min": 0.72,
+              "max": 0.98,
+              "q25": 0.76,
+              "q75": 0.85
+            },
+            "purity_score": {
+              "n": 24,
+              "mean": 0.575868,
+              "median": 0.575,
+              "std": 0.19029,
+              "min": 0.354167,
+              "max": 0.8875,
+              "q25": 0.354167,
+              "q75": 0.758833
+            },
+            "confidence": {
+              "n": 24,
+              "mean": 0.048507,
+              "median": 0.00858,
+              "std": 0.148157,
+              "min": 0.0,
+              "max": 0.730049,
+              "q25": 0.003421,
+              "q75": 0.016423
+            }
+          }
+        }
+      ],
+      "marginals": {
+        "emerges_naturally": {
+          "true": 0,
+          "false": 95,
+          "p_true": 0.0
+        },
+        "requires_active_enforcement": {
+          "true": 71,
+          "false": 24,
+          "p_true": 0.7474
+        },
+        "has_coordination_function": {
+          "true": 95,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "has_asymmetric_extraction": {
+          "true": 95,
+          "false": 0,
+          "p_true": 1.0
+        }
+      },
+      "rae_f_count": 24,
+      "rae_f_rate": 0.2526,
+      "rae_f_enrichment_vs_fcr": 3.74
+    },
+    "scaffold_xref": {
+      "dominant_FTTT": 9,
+      "atypical_FFTT": 10,
+      "other": 2
+    },
+    "piton_xref": {
+      "dominant_FTTT": 71,
+      "atypical_FFTT": 24,
+      "other": 0
+    },
+    "fcr_base_rates": {
+      "total": 904,
+      "rae_f_count": 61,
+      "rae_f_rate": 0.0675
+    }
+  },
+  "step3_gate_trace": {
+    "scaffold": {
+      "label": "scaffold",
+      "count": 21,
+      "prolog_result_dist": {
+        "unknown": 10,
+        "scaffold": 9,
+        "tangled_rope": 2
+      },
+      "claimed_vs_prolog": {
+        "mismatch": 12,
+        "match": 9
+      },
+      "interception_count": 12,
+      "interception_pct": 57.1,
+      "interception_by_gate": {
+        "unknown": 10,
+        "tangled_rope": 2
+      },
+      "temporality_summary": {
+        "rae_f_count": 12,
+        "rae_f_note": "Temporality auto-passes (sunset clause irrelevant)",
+        "rae_t_count": 9,
+        "rae_t_note": "Temporality depends on has_sunset_clause (unobservable)",
+        "rae_t_ids": [
+          "alternative_sovereignty_scaffold",
+          "artificial_scarcity_scaffold",
+          "asean_ceasefire_2011",
+          "erasmus_rejoining_scaffold",
+          "finnish_ubi_experiment",
+          "isa_education_scaffold",
+          "portugal_ad_stability_2026",
+          "rn_proteus_adoption",
+          "swift_piton_snap"
+        ]
+      },
+      "theater_summary": null,
+      "sample_traces": [
+        {
+          "id": "ai_superpowers_2026",
+          "claimed_type": "scaffold",
+          "eps": 0.64,
+          "chi_proxy": 0.64,
+          "sigma": 0.7,
+          "tau": 0.45,
+          "gates": {
+            "EN": false,
+            "RAE": false,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": false,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": false,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": true,
+                "tr_not_gt_070": true
+              },
+              "passes": false,
+              "passes_if_sunset": false,
+              "temporality_note": "RAE=F \u2192 auto-pass"
+            },
+            {
+              "gate": "rope",
+              "line": "drl_core.pl:314-323",
+              "checks": {
+                "chi_le_ceil": false,
+                "eps_le_ceil_or_chi_neg": false,
+                "emerges_naturally_or_rope_immutability": false
+              },
+              "passes": false,
+              "note": "immutability check partial (emerges_naturally only)"
+            },
+            {
+              "gate": "tangled_rope",
+              "line": "drl_core.pl:325-337",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": true,
+                "chi_le_ceil": true,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true,
+                "requires_active_enforcement": false,
+                "has_coordination_function": true,
+                "has_asymmetric_extraction": true
+              },
+              "passes": false
+            },
+            {
+              "gate": "piton",
+              "line": "drl_core.pl:339-347",
+              "checks": {
+                "chi_le_ceil": false,
+                "eps_gt_floor": true,
+                "tr_ge_floor": false
+              },
+              "passes": false
+            },
+            {
+              "gate": "naturalized",
+              "line": "drl_core.pl:352-356",
+              "passes": false
+            }
+          ],
+          "prolog_result": "unknown",
+          "first_ambiguity": {
+            "threshold": "chi_vs_snare_floor",
+            "distance": 0.02,
+            "threshold_value": 0.66
+          },
+          "notes": [],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_snare_floor",
+              "distance": 0.02
+            },
+            {
+              "threshold": "sigma_vs_snare_floor",
+              "distance": 0.1
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.18
+            }
+          ]
+        },
+        {
+          "id": "alternative_sovereignty_scaffold",
+          "claimed_type": "scaffold",
+          "eps": 0.22,
+          "chi_proxy": 0.22,
+          "sigma": 0.35,
+          "tau": 0.1,
+          "gates": {
+            "EN": false,
+            "RAE": true,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": true,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": false
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": true,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": "unknown_sunset",
+                "tr_not_gt_070": true
+              },
+              "passes": false,
+              "passes_if_sunset": true,
+              "temporality_note": "RAE=T \u2192 depends on has_sunset_clause (unobservable)"
+            },
+            {
+              "gate": "rope",
+              "line": "drl_core.pl:314-323",
+              "checks": {
+                "chi_le_ceil": true,
+                "eps_le_ceil_or_chi_neg": true,
+                "emerges_naturally_or_rope_immutability": false
+              },
+              "passes": false,
+              "note": "immutability check partial (emerges_naturally only)"
+            },
+            {
+              "gate": "tangled_rope",
+              "line": "drl_core.pl:325-337",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "chi_le_ceil": true,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": false,
+                "requires_active_enforcement": true,
+                "has_coordination_function": true,
+                "has_asymmetric_extraction": true
+              },
+              "passes": false
+            },
+            {
+              "gate": "piton",
+              "line": "drl_core.pl:339-347",
+              "checks": {
+                "chi_le_ceil": true,
+                "eps_gt_floor": true,
+                "tr_ge_floor": false
+              },
+              "passes": false
+            },
+            {
+              "gate": "naturalized",
+              "line": "drl_core.pl:352-356",
+              "passes": false
+            }
+          ],
+          "prolog_result": "unknown",
+          "first_ambiguity": {
+            "threshold": "chi_vs_scaffold_ceil",
+            "distance": 0.08,
+            "threshold_value": 0.3
+          },
+          "notes": [
+            "Scaffold gate passes IF has_sunset_clause=T (unobservable from JSON)"
+          ],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_scaffold_ceil",
+              "distance": 0.08
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.24
+            },
+            {
+              "threshold": "sigma_vs_snare_floor",
+              "distance": 0.25
+            }
+          ]
+        },
+        {
+          "id": "artificial_scarcity_scaffold",
+          "claimed_type": "scaffold",
+          "eps": 0.48,
+          "chi_proxy": 0.48,
+          "sigma": 0.75,
+          "tau": 0.2,
+          "gates": {
+            "EN": false,
+            "RAE": true,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": false,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": false,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": "unknown_sunset",
+                "tr_not_gt_070": true
+              },
+              "passes": false,
+              "passes_if_sunset": false,
+              "temporality_note": "RAE=T \u2192 depends on has_sunset_clause (unobservable)"
+            },
+            {
+              "gate": "rope",
+              "line": "drl_core.pl:314-323",
+              "checks": {
+                "chi_le_ceil": false,
+                "eps_le_ceil_or_chi_neg": false,
+                "emerges_naturally_or_rope_immutability": false
+              },
+              "passes": false,
+              "note": "immutability check partial (emerges_naturally only)"
+            },
+            {
+              "gate": "tangled_rope",
+              "line": "drl_core.pl:325-337",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": true,
+                "chi_le_ceil": true,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true,
+                "requires_active_enforcement": true,
+                "has_coordination_function": true,
+                "has_asymmetric_extraction": true
+              },
+              "passes": true
+            }
+          ],
+          "prolog_result": "tangled_rope",
+          "first_ambiguity": {
+            "threshold": "eps_vs_snare_floor",
+            "distance": 0.02,
+            "threshold_value": 0.46
+          },
+          "notes": [],
+          "ambiguity_ranking": [
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.02
+            },
+            {
+              "threshold": "sigma_vs_snare_floor",
+              "distance": 0.15
+            },
+            {
+              "threshold": "chi_vs_scaffold_ceil",
+              "distance": 0.18
+            }
+          ]
+        },
+        {
+          "id": "asean_ceasefire_2011",
+          "claimed_type": "scaffold",
+          "eps": 0.15,
+          "chi_proxy": 0.15,
+          "sigma": 0.25,
+          "tau": 0.2,
+          "gates": {
+            "EN": false,
+            "RAE": true,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": true,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": false
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": true,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": "unknown_sunset",
+                "tr_not_gt_070": true
+              },
+              "passes": false,
+              "passes_if_sunset": true,
+              "temporality_note": "RAE=T \u2192 depends on has_sunset_clause (unobservable)"
+            },
+            {
+              "gate": "rope",
+              "line": "drl_core.pl:314-323",
+              "checks": {
+                "chi_le_ceil": true,
+                "eps_le_ceil_or_chi_neg": true,
+                "emerges_naturally_or_rope_immutability": false
+              },
+              "passes": false,
+              "note": "immutability check partial (emerges_naturally only)"
+            },
+            {
+              "gate": "tangled_rope",
+              "line": "drl_core.pl:325-337",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "chi_le_ceil": true,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": false,
+                "requires_active_enforcement": true,
+                "has_coordination_function": true,
+                "has_asymmetric_extraction": true
+              },
+              "passes": false
+            },
+            {
+              "gate": "piton",
+              "line": "drl_core.pl:339-347",
+              "checks": {
+                "chi_le_ceil": true,
+                "eps_gt_floor": true,
+                "tr_ge_floor": false
+              },
+              "passes": false
+            },
+            {
+              "gate": "naturalized",
+              "line": "drl_core.pl:352-356",
+              "passes": false
+            }
+          ],
+          "prolog_result": "unknown",
+          "first_ambiguity": {
+            "threshold": "chi_vs_scaffold_ceil",
+            "distance": 0.15,
+            "threshold_value": 0.3
+          },
+          "notes": [
+            "Scaffold gate passes IF has_sunset_clause=T (unobservable from JSON)"
+          ],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_scaffold_ceil",
+              "distance": 0.15
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.31
+            },
+            {
+              "threshold": "sigma_vs_snare_floor",
+              "distance": 0.35
+            }
+          ]
+        },
+        {
+          "id": "boundary_protocol",
+          "claimed_type": "scaffold",
+          "eps": 0,
+          "chi_proxy": 0,
+          "sigma": 0.1,
+          "tau": 0.05,
+          "gates": {
+            "EN": false,
+            "RAE": false,
+            "HCF": true,
+            "HAE": false
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": true,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": false
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": true,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": true,
+                "tr_not_gt_070": true
+              },
+              "passes": true,
+              "passes_if_sunset": false,
+              "temporality_note": "RAE=F \u2192 auto-pass"
+            }
+          ],
+          "prolog_result": "scaffold",
+          "first_ambiguity": {
+            "threshold": "chi_vs_scaffold_ceil",
+            "distance": 0.3,
+            "threshold_value": 0.3
+          },
+          "notes": [],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_scaffold_ceil",
+              "distance": 0.3
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.46
+            },
+            {
+              "threshold": "sigma_vs_snare_floor",
+              "distance": 0.5
+            }
+          ]
+        },
+        {
+          "id": "canada_goose_realignment_2026",
+          "claimed_type": "scaffold",
+          "eps": 0.25,
+          "chi_proxy": 0.25,
+          "sigma": 0.15,
+          "tau": 0.6,
+          "gates": {
+            "EN": false,
+            "RAE": false,
+            "HCF": true,
+            "HAE": false
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": true,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": false
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": true,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": true,
+                "tr_not_gt_070": true
+              },
+              "passes": true,
+              "passes_if_sunset": false,
+              "temporality_note": "RAE=F \u2192 auto-pass"
+            }
+          ],
+          "prolog_result": "scaffold",
+          "first_ambiguity": {
+            "threshold": "chi_vs_scaffold_ceil",
+            "distance": 0.05,
+            "threshold_value": 0.3
+          },
+          "notes": [],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_scaffold_ceil",
+              "distance": 0.05
+            },
+            {
+              "threshold": "tau_vs_070",
+              "distance": 0.1
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.21
+            }
+          ]
+        },
+        {
+          "id": "cinderella_midnight_deadline",
+          "claimed_type": "scaffold",
+          "eps": 0.1,
+          "chi_proxy": 0.1,
+          "sigma": 0.9,
+          "tau": 0.12,
+          "gates": {
+            "EN": false,
+            "RAE": false,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": true,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": true
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": true,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": true,
+                "tr_not_gt_070": true
+              },
+              "passes": true,
+              "passes_if_sunset": false,
+              "temporality_note": "RAE=F \u2192 auto-pass"
+            }
+          ],
+          "prolog_result": "scaffold",
+          "first_ambiguity": {
+            "threshold": "chi_vs_scaffold_ceil",
+            "distance": 0.2,
+            "threshold_value": 0.3
+          },
+          "notes": [],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_scaffold_ceil",
+              "distance": 0.2
+            },
+            {
+              "threshold": "sigma_vs_snare_floor",
+              "distance": 0.3
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.36
+            }
+          ]
+        },
+        {
+          "id": "coffee_cardiovascular_2026",
+          "claimed_type": "scaffold",
+          "eps": 0.12,
+          "chi_proxy": 0.12,
+          "sigma": 0.4,
+          "tau": 0.1,
+          "gates": {
+            "EN": false,
+            "RAE": false,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": true,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": false
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": true,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": true,
+                "tr_not_gt_070": true
+              },
+              "passes": true,
+              "passes_if_sunset": false,
+              "temporality_note": "RAE=F \u2192 auto-pass"
+            }
+          ],
+          "prolog_result": "scaffold",
+          "first_ambiguity": {
+            "threshold": "chi_vs_scaffold_ceil",
+            "distance": 0.18,
+            "threshold_value": 0.3
+          },
+          "notes": [],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_scaffold_ceil",
+              "distance": 0.18
+            },
+            {
+              "threshold": "sigma_vs_snare_floor",
+              "distance": 0.2
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.34
+            }
+          ]
+        },
+        {
+          "id": "erasmus_rejoining_scaffold",
+          "claimed_type": "scaffold",
+          "eps": 0.28,
+          "chi_proxy": 0.28,
+          "sigma": 0.2,
+          "tau": 0.25,
+          "gates": {
+            "EN": false,
+            "RAE": true,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": false,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": false
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": true,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": "unknown_sunset",
+                "tr_not_gt_070": true
+              },
+              "passes": false,
+              "passes_if_sunset": true,
+              "temporality_note": "RAE=T \u2192 depends on has_sunset_clause (unobservable)"
+            },
+            {
+              "gate": "rope",
+              "line": "drl_core.pl:314-323",
+              "checks": {
+                "chi_le_ceil": true,
+                "eps_le_ceil_or_chi_neg": true,
+                "emerges_naturally_or_rope_immutability": false
+              },
+              "passes": false,
+              "note": "immutability check partial (emerges_naturally only)"
+            },
+            {
+              "gate": "tangled_rope",
+              "line": "drl_core.pl:325-337",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "chi_le_ceil": true,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": false,
+                "requires_active_enforcement": true,
+                "has_coordination_function": true,
+                "has_asymmetric_extraction": true
+              },
+              "passes": false
+            },
+            {
+              "gate": "piton",
+              "line": "drl_core.pl:339-347",
+              "checks": {
+                "chi_le_ceil": false,
+                "eps_gt_floor": true,
+                "tr_ge_floor": false
+              },
+              "passes": false
+            },
+            {
+              "gate": "naturalized",
+              "line": "drl_core.pl:352-356",
+              "passes": false
+            }
+          ],
+          "prolog_result": "unknown",
+          "first_ambiguity": {
+            "threshold": "chi_vs_scaffold_ceil",
+            "distance": 0.02,
+            "threshold_value": 0.3
+          },
+          "notes": [
+            "Scaffold gate passes IF has_sunset_clause=T (unobservable from JSON)"
+          ],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_scaffold_ceil",
+              "distance": 0.02
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.18
+            },
+            {
+              "threshold": "chi_vs_snare_floor",
+              "distance": 0.38
+            }
+          ]
+        },
+        {
+          "id": "finnish_ubi_experiment",
+          "claimed_type": "scaffold",
+          "eps": 0.2,
+          "chi_proxy": 0.2,
+          "sigma": 0.35,
+          "tau": 0.15,
+          "gates": {
+            "EN": false,
+            "RAE": true,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": true,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": false
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": true,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": "unknown_sunset",
+                "tr_not_gt_070": true
+              },
+              "passes": false,
+              "passes_if_sunset": true,
+              "temporality_note": "RAE=T \u2192 depends on has_sunset_clause (unobservable)"
+            },
+            {
+              "gate": "rope",
+              "line": "drl_core.pl:314-323",
+              "checks": {
+                "chi_le_ceil": true,
+                "eps_le_ceil_or_chi_neg": true,
+                "emerges_naturally_or_rope_immutability": false
+              },
+              "passes": false,
+              "note": "immutability check partial (emerges_naturally only)"
+            },
+            {
+              "gate": "tangled_rope",
+              "line": "drl_core.pl:325-337",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "chi_le_ceil": true,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": false,
+                "requires_active_enforcement": true,
+                "has_coordination_function": true,
+                "has_asymmetric_extraction": true
+              },
+              "passes": false
+            },
+            {
+              "gate": "piton",
+              "line": "drl_core.pl:339-347",
+              "checks": {
+                "chi_le_ceil": true,
+                "eps_gt_floor": true,
+                "tr_ge_floor": false
+              },
+              "passes": false
+            },
+            {
+              "gate": "naturalized",
+              "line": "drl_core.pl:352-356",
+              "passes": false
+            }
+          ],
+          "prolog_result": "unknown",
+          "first_ambiguity": {
+            "threshold": "chi_vs_scaffold_ceil",
+            "distance": 0.1,
+            "threshold_value": 0.3
+          },
+          "notes": [
+            "Scaffold gate passes IF has_sunset_clause=T (unobservable from JSON)"
+          ],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_scaffold_ceil",
+              "distance": 0.1
+            },
+            {
+              "threshold": "sigma_vs_snare_floor",
+              "distance": 0.25
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.26
+            }
+          ]
+        }
+      ],
+      "total_traces": 21
+    },
+    "piton": {
+      "label": "piton",
+      "count": 95,
+      "prolog_result_dist": {
+        "snare": 47,
+        "tangled_rope": 30,
+        "unknown": 10,
+        "piton": 8
+      },
+      "claimed_vs_prolog": {
+        "mismatch": 87,
+        "match": 8
+      },
+      "interception_count": 87,
+      "interception_pct": 91.6,
+      "interception_by_gate": {
+        "snare": 47,
+        "tangled_rope": 30,
+        "unknown": 10
+      },
+      "temporality_summary": null,
+      "theater_summary": {
+        "tr_ge_070_count": 95,
+        "tr_lt_070_count": 0,
+        "tr_ge_070_pct": 100.0,
+        "tr_lt_070_pct": 0.0,
+        "tr_lt_070_note": "These pitons fail the Prolog piton gate (TR < 0.70). They are claimed as piton but classify_from_metrics would not assign them as piton.",
+        "tr_fail_prolog_results": {}
+      },
+      "sample_traces": [
+        {
+          "id": "academic_fashion_modernism_2026",
+          "claimed_type": "piton",
+          "eps": 0.68,
+          "chi_proxy": 0.68,
+          "sigma": 0.78,
+          "tau": 0.85,
+          "gates": {
+            "EN": false,
+            "RAE": false,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": false,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": true,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true
+              },
+              "passes": true,
+              "note": "immutability check omitted"
+            }
+          ],
+          "prolog_result": "snare",
+          "first_ambiguity": {
+            "threshold": "chi_vs_snare_floor",
+            "distance": 0.02,
+            "threshold_value": 0.66
+          },
+          "notes": [
+            "Snare gate fires BEFORE scaffold/piton \u2014 higher priority. This constraint is intercepted by the snare gate."
+          ],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_snare_floor",
+              "distance": 0.02
+            },
+            {
+              "threshold": "tau_vs_piton_floor",
+              "distance": 0.15
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.22
+            }
+          ]
+        },
+        {
+          "id": "acip_hep_b_infant_mandate",
+          "claimed_type": "piton",
+          "eps": 0.18,
+          "chi_proxy": 0.18,
+          "sigma": 0.55,
+          "tau": 0.75,
+          "gates": {
+            "EN": false,
+            "RAE": false,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": true,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": false
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": true,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": true,
+                "tr_not_gt_070": false
+              },
+              "passes": false,
+              "passes_if_sunset": false,
+              "temporality_note": "RAE=F \u2192 auto-pass"
+            },
+            {
+              "gate": "rope",
+              "line": "drl_core.pl:314-323",
+              "checks": {
+                "chi_le_ceil": true,
+                "eps_le_ceil_or_chi_neg": true,
+                "emerges_naturally_or_rope_immutability": false
+              },
+              "passes": false,
+              "note": "immutability check partial (emerges_naturally only)"
+            },
+            {
+              "gate": "tangled_rope",
+              "line": "drl_core.pl:325-337",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "chi_le_ceil": true,
+                "eps_ge_floor": false,
+                "sigma_ge_floor": true,
+                "requires_active_enforcement": false,
+                "has_coordination_function": true,
+                "has_asymmetric_extraction": true
+              },
+              "passes": false
+            },
+            {
+              "gate": "piton",
+              "line": "drl_core.pl:339-347",
+              "checks": {
+                "chi_le_ceil": true,
+                "eps_gt_floor": true,
+                "tr_ge_floor": true
+              },
+              "passes": true
+            }
+          ],
+          "prolog_result": "piton",
+          "first_ambiguity": {
+            "threshold": "tau_vs_piton_floor",
+            "distance": 0.05,
+            "threshold_value": 0.7
+          },
+          "notes": [],
+          "ambiguity_ranking": [
+            {
+              "threshold": "tau_vs_piton_floor",
+              "distance": 0.05
+            },
+            {
+              "threshold": "chi_vs_piton_ceil",
+              "distance": 0.07
+            },
+            {
+              "threshold": "eps_vs_piton_floor",
+              "distance": 0.08
+            }
+          ]
+        },
+        {
+          "id": "adversarial_truth_decay",
+          "claimed_type": "piton",
+          "eps": 0.89,
+          "chi_proxy": 0.89,
+          "sigma": 0.78,
+          "tau": 0.94,
+          "gates": {
+            "EN": false,
+            "RAE": true,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": false,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": true,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true
+              },
+              "passes": true,
+              "note": "immutability check omitted"
+            }
+          ],
+          "prolog_result": "snare",
+          "first_ambiguity": {
+            "threshold": "chi_vs_snare_floor",
+            "distance": 0.23,
+            "threshold_value": 0.66
+          },
+          "notes": [
+            "Snare gate fires BEFORE scaffold/piton \u2014 higher priority. This constraint is intercepted by the snare gate."
+          ],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_snare_floor",
+              "distance": 0.23
+            },
+            {
+              "threshold": "tau_vs_piton_floor",
+              "distance": 0.24
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.43
+            }
+          ]
+        },
+        {
+          "id": "agent_opt_2026",
+          "claimed_type": "piton",
+          "eps": 0.7,
+          "chi_proxy": 0.7,
+          "sigma": 0.65,
+          "tau": 0.74,
+          "gates": {
+            "EN": false,
+            "RAE": false,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": false,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": true,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true
+              },
+              "passes": true,
+              "note": "immutability check omitted"
+            }
+          ],
+          "prolog_result": "snare",
+          "first_ambiguity": {
+            "threshold": "chi_vs_snare_floor",
+            "distance": 0.04,
+            "threshold_value": 0.66
+          },
+          "notes": [
+            "Snare gate fires BEFORE scaffold/piton \u2014 higher priority. This constraint is intercepted by the snare gate."
+          ],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_snare_floor",
+              "distance": 0.04
+            },
+            {
+              "threshold": "tau_vs_piton_floor",
+              "distance": 0.04
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.24
+            }
+          ]
+        },
+        {
+          "id": "algorithmic_epistemic_capture",
+          "claimed_type": "piton",
+          "eps": 0.85,
+          "chi_proxy": 0.85,
+          "sigma": 0.74,
+          "tau": 0.82,
+          "gates": {
+            "EN": false,
+            "RAE": true,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": false,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": true,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true
+              },
+              "passes": true,
+              "note": "immutability check omitted"
+            }
+          ],
+          "prolog_result": "snare",
+          "first_ambiguity": {
+            "threshold": "tau_vs_piton_floor",
+            "distance": 0.12,
+            "threshold_value": 0.7
+          },
+          "notes": [
+            "Snare gate fires BEFORE scaffold/piton \u2014 higher priority. This constraint is intercepted by the snare gate."
+          ],
+          "ambiguity_ranking": [
+            {
+              "threshold": "tau_vs_piton_floor",
+              "distance": 0.12
+            },
+            {
+              "threshold": "chi_vs_snare_floor",
+              "distance": 0.19
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.39
+            }
+          ]
+        },
+        {
+          "id": "alignment_tax_tradeoff",
+          "claimed_type": "piton",
+          "eps": 0.84,
+          "chi_proxy": 0.84,
+          "sigma": 0.62,
+          "tau": 0.76,
+          "gates": {
+            "EN": false,
+            "RAE": true,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": false,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": true,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true
+              },
+              "passes": true,
+              "note": "immutability check omitted"
+            }
+          ],
+          "prolog_result": "snare",
+          "first_ambiguity": {
+            "threshold": "tau_vs_piton_floor",
+            "distance": 0.06,
+            "threshold_value": 0.7
+          },
+          "notes": [
+            "Snare gate fires BEFORE scaffold/piton \u2014 higher priority. This constraint is intercepted by the snare gate."
+          ],
+          "ambiguity_ranking": [
+            {
+              "threshold": "tau_vs_piton_floor",
+              "distance": 0.06
+            },
+            {
+              "threshold": "chi_vs_snare_floor",
+              "distance": 0.18
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.38
+            }
+          ]
+        },
+        {
+          "id": "altruistic_misery_paradox_2026",
+          "claimed_type": "piton",
+          "eps": 0.62,
+          "chi_proxy": 0.62,
+          "sigma": 0.68,
+          "tau": 0.75,
+          "gates": {
+            "EN": false,
+            "RAE": true,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": false,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": false,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": "unknown_sunset",
+                "tr_not_gt_070": false
+              },
+              "passes": false,
+              "passes_if_sunset": false,
+              "temporality_note": "RAE=T \u2192 depends on has_sunset_clause (unobservable)"
+            },
+            {
+              "gate": "rope",
+              "line": "drl_core.pl:314-323",
+              "checks": {
+                "chi_le_ceil": false,
+                "eps_le_ceil_or_chi_neg": false,
+                "emerges_naturally_or_rope_immutability": false
+              },
+              "passes": false,
+              "note": "immutability check partial (emerges_naturally only)"
+            },
+            {
+              "gate": "tangled_rope",
+              "line": "drl_core.pl:325-337",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": true,
+                "chi_le_ceil": true,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true,
+                "requires_active_enforcement": true,
+                "has_coordination_function": true,
+                "has_asymmetric_extraction": true
+              },
+              "passes": true
+            }
+          ],
+          "prolog_result": "tangled_rope",
+          "first_ambiguity": {
+            "threshold": "chi_vs_snare_floor",
+            "distance": 0.04,
+            "threshold_value": 0.66
+          },
+          "notes": [],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_snare_floor",
+              "distance": 0.04
+            },
+            {
+              "threshold": "tau_vs_piton_floor",
+              "distance": 0.05
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.16
+            }
+          ]
+        },
+        {
+          "id": "anticipatory_capacity_failure",
+          "claimed_type": "piton",
+          "eps": 0.83,
+          "chi_proxy": 0.83,
+          "sigma": 0.71,
+          "tau": 0.9,
+          "gates": {
+            "EN": false,
+            "RAE": true,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": false,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": true,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true
+              },
+              "passes": true,
+              "note": "immutability check omitted"
+            }
+          ],
+          "prolog_result": "snare",
+          "first_ambiguity": {
+            "threshold": "chi_vs_snare_floor",
+            "distance": 0.17,
+            "threshold_value": 0.66
+          },
+          "notes": [
+            "Snare gate fires BEFORE scaffold/piton \u2014 higher priority. This constraint is intercepted by the snare gate."
+          ],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_snare_floor",
+              "distance": 0.17
+            },
+            {
+              "threshold": "tau_vs_piton_floor",
+              "distance": 0.2
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.37
+            }
+          ]
+        },
+        {
+          "id": "art_market_decoupling",
+          "claimed_type": "piton",
+          "eps": 0.84,
+          "chi_proxy": 0.84,
+          "sigma": 0.75,
+          "tau": 0.92,
+          "gates": {
+            "EN": false,
+            "RAE": true,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": false,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": true,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": true
+              },
+              "passes": true,
+              "note": "immutability check omitted"
+            }
+          ],
+          "prolog_result": "snare",
+          "first_ambiguity": {
+            "threshold": "chi_vs_snare_floor",
+            "distance": 0.18,
+            "threshold_value": 0.66
+          },
+          "notes": [
+            "Snare gate fires BEFORE scaffold/piton \u2014 higher priority. This constraint is intercepted by the snare gate."
+          ],
+          "ambiguity_ranking": [
+            {
+              "threshold": "chi_vs_snare_floor",
+              "distance": 0.18
+            },
+            {
+              "threshold": "tau_vs_piton_floor",
+              "distance": 0.22
+            },
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.38
+            }
+          ]
+        },
+        {
+          "id": "artificial_snow_2026",
+          "claimed_type": "piton",
+          "eps": 0.48,
+          "chi_proxy": 0.48,
+          "sigma": 0.3,
+          "tau": 0.85,
+          "gates": {
+            "EN": false,
+            "RAE": false,
+            "HCF": true,
+            "HAE": true
+          },
+          "gate_checks": [
+            {
+              "gate": "mountain",
+              "line": "drl_core.pl:288-294",
+              "checks": {
+                "sigma_le_ceil": false,
+                "eps_le_max": false,
+                "emerges_naturally": false
+              },
+              "passes": false,
+              "note": "immutability check omitted (not in JSON)"
+            },
+            {
+              "gate": "snare",
+              "line": "drl_core.pl:296-304",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": false,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": false
+              },
+              "passes": false,
+              "note": "immutability check omitted"
+            },
+            {
+              "gate": "scaffold",
+              "line": "drl_core.pl:306-312",
+              "checks": {
+                "chi_le_ceil": false,
+                "has_coordination_function": true,
+                "scaffold_temporality_check": true,
+                "tr_not_gt_070": false
+              },
+              "passes": false,
+              "passes_if_sunset": false,
+              "temporality_note": "RAE=F \u2192 auto-pass"
+            },
+            {
+              "gate": "rope",
+              "line": "drl_core.pl:314-323",
+              "checks": {
+                "chi_le_ceil": false,
+                "eps_le_ceil_or_chi_neg": false,
+                "emerges_naturally_or_rope_immutability": false
+              },
+              "passes": false,
+              "note": "immutability check partial (emerges_naturally only)"
+            },
+            {
+              "gate": "tangled_rope",
+              "line": "drl_core.pl:325-337",
+              "checks": {
+                "not_nlwb": true,
+                "chi_ge_floor": true,
+                "chi_le_ceil": true,
+                "eps_ge_floor": true,
+                "sigma_ge_floor": false,
+                "requires_active_enforcement": false,
+                "has_coordination_function": true,
+                "has_asymmetric_extraction": true
+              },
+              "passes": false
+            },
+            {
+              "gate": "piton",
+              "line": "drl_core.pl:339-347",
+              "checks": {
+                "chi_le_ceil": false,
+                "eps_gt_floor": true,
+                "tr_ge_floor": true
+              },
+              "passes": false
+            },
+            {
+              "gate": "naturalized",
+              "line": "drl_core.pl:352-356",
+              "passes": false
+            }
+          ],
+          "prolog_result": "unknown",
+          "first_ambiguity": {
+            "threshold": "eps_vs_snare_floor",
+            "distance": 0.02,
+            "threshold_value": 0.46
+          },
+          "notes": [],
+          "ambiguity_ranking": [
+            {
+              "threshold": "eps_vs_snare_floor",
+              "distance": 0.02
+            },
+            {
+              "threshold": "tau_vs_piton_floor",
+              "distance": 0.15
+            },
+            {
+              "threshold": "chi_vs_snare_floor",
+              "distance": 0.18
+            }
+          ]
+        }
+      ],
+      "total_traces": 95
+    },
+    "chi_proxy_note": "Chi (power-scaled extractiveness) is not stored in enriched_pipeline.json. This trace uses base_extractiveness (epsilon) as a proxy. For the analytical context (default), d\u22480 so f(d)\u22481.0, making Chi \u2248 epsilon. Minor deviations are possible from scope scaling \u03c3(S)."
+  },
+  "step4_rival_analysis": {
+    "scaffold": {
+      "label": "scaffold",
+      "count": 21,
+      "rival_groups": {
+        "rope": {
+          "count": 10,
+          "pct": 47.6,
+          "gate_profile_dist": {
+            "EN=F, RAE=F, HCF=T, HAE=T": 7,
+            "EN=F, RAE=T, HCF=T, HAE=T": 2,
+            "EN=F, RAE=F, HCF=T, HAE=F": 1
+          },
+          "confidence_band_dist": {
+            "borderline": 10
+          },
+          "metrics": {
+            "base_extractiveness": {
+              "n": 10,
+              "mean": 0.127,
+              "median": 0.135,
+              "std": 0.068564,
+              "min": 0.0,
+              "max": 0.25,
+              "q25": 0.1,
+              "q75": 0.18
+            },
+            "suppression": {
+              "n": 10,
+              "mean": 0.425,
+              "median": 0.4,
+              "std": 0.278613,
+              "min": 0.1,
+              "max": 0.95,
+              "q25": 0.25,
+              "q75": 0.45
+            },
+            "theater_ratio": {
+              "n": 10,
+              "mean": 0.097,
+              "median": 0.09,
+              "std": 0.04859,
+              "min": 0.05,
+              "max": 0.2,
+              "q25": 0.05,
+              "q75": 0.12
+            },
+            "purity_score": {
+              "n": 10,
+              "mean": 0.92405,
+              "median": 0.976,
+              "std": 0.165095,
+              "min": 0.4325,
+              "max": 1.0,
+              "q25": 0.948,
+              "q75": 1.0
+            },
+            "confidence": {
+              "n": 10,
+              "mean": 0.033157,
+              "median": 0.021182,
+              "std": 0.032981,
+              "min": 0.01,
+              "max": 0.121341,
+              "q25": 0.01,
+              "q75": 0.04595
+            }
+          }
+        },
+        "tangled_rope": {
+          "count": 9,
+          "pct": 42.9,
+          "gate_profile_dist": {
+            "EN=F, RAE=T, HCF=T, HAE=T": 7,
+            "EN=F, RAE=F, HCF=T, HAE=F": 1,
+            "EN=F, RAE=F, HCF=T, HAE=T": 1
+          },
+          "confidence_band_dist": {
+            "borderline": 9
+          },
+          "metrics": {
+            "base_extractiveness": {
+              "n": 9,
+              "mean": 0.313333,
+              "median": 0.28,
+              "std": 0.100775,
+              "min": 0.2,
+              "max": 0.48,
+              "q25": 0.22,
+              "q75": 0.42
+            },
+            "suppression": {
+              "n": 9,
+              "mean": 0.377778,
+              "median": 0.35,
+              "std": 0.16178,
+              "min": 0.15,
+              "max": 0.75,
+              "q25": 0.35,
+              "q75": 0.45
+            },
+            "theater_ratio": {
+              "n": 9,
+              "mean": 0.288889,
+              "median": 0.2,
+              "std": 0.188234,
+              "min": 0.1,
+              "max": 0.65,
+              "q25": 0.15,
+              "q75": 0.3
+            },
+            "purity_score": {
+              "n": 9,
+              "mean": 0.561241,
+              "median": 0.526333,
+              "std": 0.170254,
+              "min": 0.308333,
+              "max": 0.825833,
+              "q25": 0.446167,
+              "q75": 0.627
+            },
+            "confidence": {
+              "n": 9,
+              "mean": 0.00784,
+              "median": 0.009922,
+              "std": 0.007073,
+              "min": 2.8e-05,
+              "max": 0.016557,
+              "q25": 0.000598,
+              "q75": 0.015987
+            }
+          }
+        },
+        "snare": {
+          "count": 2,
+          "pct": 9.5,
+          "gate_profile_dist": {
+            "EN=F, RAE=F, HCF=T, HAE=T": 2
+          },
+          "confidence_band_dist": {
+            "borderline": 2
+          },
+          "metrics": {
+            "base_extractiveness": {
+              "n": 2,
+              "mean": 0.58,
+              "median": 0.58,
+              "std": 0.06,
+              "min": 0.52,
+              "max": 0.64,
+              "q25": 0.52,
+              "q75": 0.64
+            },
+            "suppression": {
+              "n": 2,
+              "mean": 0.77,
+              "median": 0.77,
+              "std": 0.07,
+              "min": 0.7,
+              "max": 0.84,
+              "q25": 0.7,
+              "q75": 0.84
+            },
+            "theater_ratio": {
+              "n": 2,
+              "mean": 0.285,
+              "median": 0.285,
+              "std": 0.165,
+              "min": 0.12,
+              "max": 0.45,
+              "q25": 0.12,
+              "q75": 0.45
+            },
+            "purity_score": {
+              "n": 2,
+              "mean": 0.339334,
+              "median": 0.339334,
+              "std": 0.014833,
+              "min": 0.3245,
+              "max": 0.354167,
+              "q25": 0.3245,
+              "q75": 0.354167
+            },
+            "confidence": {
+              "n": 2,
+              "mean": 1.4e-05,
+              "median": 1.4e-05,
+              "std": 1.4e-05,
+              "min": 0.0,
+              "max": 2.8e-05,
+              "q25": 0.0,
+              "q75": 2.8e-05
+            }
+          }
+        }
+      }
+    },
+    "piton": {
+      "label": "piton",
+      "count": 95,
+      "rival_groups": {
+        "snare": {
+          "count": 70,
+          "pct": 73.7,
+          "gate_profile_dist": {
+            "EN=F, RAE=T, HCF=T, HAE=T": 60,
+            "EN=F, RAE=F, HCF=T, HAE=T": 10
+          },
+          "confidence_band_dist": {
+            "borderline": 69,
+            "moderate": 1
+          },
+          "metrics": {
+            "base_extractiveness": {
+              "n": 70,
+              "mean": 0.717571,
+              "median": 0.75,
+              "std": 0.141436,
+              "min": 0.46,
+              "max": 0.92,
+              "q25": 0.58,
+              "q75": 0.84
+            },
+            "suppression": {
+              "n": 70,
+              "mean": 0.743143,
+              "median": 0.75,
+              "std": 0.100847,
+              "min": 0.4,
+              "max": 0.95,
+              "q25": 0.68,
+              "q75": 0.81
+            },
+            "theater_ratio": {
+              "n": 70,
+              "mean": 0.850714,
+              "median": 0.85,
+              "std": 0.066145,
+              "min": 0.72,
+              "max": 0.95,
+              "q25": 0.8,
+              "q75": 0.91
+            },
+            "purity_score": {
+              "n": 70,
+              "mean": 0.481229,
+              "median": 0.575,
+              "std": 0.109875,
+              "min": 0.3125,
+              "max": 0.575,
+              "q25": 0.354167,
+              "q75": 0.575
+            },
+            "confidence": {
+              "n": 70,
+              "mean": 0.023704,
+              "median": 0.009532,
+              "std": 0.085736,
+              "min": 0.00127,
+              "max": 0.730049,
+              "q25": 0.007718,
+              "q75": 0.016423
+            }
+          }
+        },
+        "tangled_rope": {
+          "count": 18,
+          "pct": 18.9,
+          "gate_profile_dist": {
+            "EN=F, RAE=T, HCF=T, HAE=T": 11,
+            "EN=F, RAE=F, HCF=T, HAE=T": 7
+          },
+          "confidence_band_dist": {
+            "borderline": 18
+          },
+          "metrics": {
+            "base_extractiveness": {
+              "n": 18,
+              "mean": 0.465,
+              "median": 0.485,
+              "std": 0.193053,
+              "min": 0.03,
+              "max": 0.85,
+              "q25": 0.35,
+              "q75": 0.55
+            },
+            "suppression": {
+              "n": 18,
+              "mean": 0.568333,
+              "median": 0.625,
+              "std": 0.321977,
+              "min": 0.04,
+              "max": 0.96,
+              "q25": 0.3,
+              "q75": 0.9
+            },
+            "theater_ratio": {
+              "n": 18,
+              "mean": 0.843333,
+              "median": 0.85,
+              "std": 0.082057,
+              "min": 0.72,
+              "max": 0.99,
+              "q25": 0.75,
+              "q75": 0.9
+            },
+            "purity_score": {
+              "n": 18,
+              "mean": 0.469907,
+              "median": 0.432167,
+              "std": 0.164812,
+              "min": 0.276333,
+              "max": 0.8875,
+              "q25": 0.3245,
+              "q75": 0.575
+            },
+            "confidence": {
+              "n": 18,
+              "mean": 0.028073,
+              "median": 0.01,
+              "std": 0.048234,
+              "min": 0.001304,
+              "max": 0.2113,
+              "q25": 0.01,
+              "q75": 0.019276
+            }
+          }
+        },
+        "rope": {
+          "count": 7,
+          "pct": 7.4,
+          "gate_profile_dist": {
+            "EN=F, RAE=F, HCF=T, HAE=T": 7
+          },
+          "confidence_band_dist": {
+            "borderline": 7
+          },
+          "metrics": {
+            "base_extractiveness": {
+              "n": 7,
+              "mean": 0.171429,
+              "median": 0.18,
+              "std": 0.042234,
+              "min": 0.11,
+              "max": 0.22,
+              "q25": 0.12,
+              "q75": 0.22
+            },
+            "suppression": {
+              "n": 7,
+              "mean": 0.282857,
+              "median": 0.2,
+              "std": 0.222435,
+              "min": 0.05,
+              "max": 0.65,
+              "q25": 0.08,
+              "q75": 0.55
+            },
+            "theater_ratio": {
+              "n": 7,
+              "mean": 0.831429,
+              "median": 0.8,
+              "std": 0.090147,
+              "min": 0.72,
+              "max": 0.98,
+              "q25": 0.75,
+              "q75": 0.94
+            },
+            "purity_score": {
+              "n": 7,
+              "mean": 0.781976,
+              "median": 0.758833,
+              "std": 0.068019,
+              "min": 0.690833,
+              "max": 0.8635,
+              "q25": 0.710833,
+              "q75": 0.8595
+            },
+            "confidence": {
+              "n": 7,
+              "mean": 0.003076,
+              "median": 1.3e-05,
+              "std": 0.007334,
+              "min": 0.0,
+              "max": 0.021038,
+              "q25": 6e-06,
+              "q75": 0.000441
+            }
+          }
+        }
+      }
+    }
+  },
+  "step5_sunset_inference": {
+    "scaffold": {
+      "total": 21,
+      "rae_t": {
+        "count": 9,
+        "inference": "scaffold_temporality_check requires has_sunset_clause=T when RAE=T (drl_core.pl:273-276). If the Prolog classified these as scaffold, has_sunset_clause must be T.",
+        "ids": [
+          "alternative_sovereignty_scaffold",
+          "artificial_scarcity_scaffold",
+          "asean_ceasefire_2011",
+          "erasmus_rejoining_scaffold",
+          "finnish_ubi_experiment",
+          "isa_education_scaffold",
+          "portugal_ad_stability_2026",
+          "rn_proteus_adoption",
+          "swift_piton_snap"
+        ],
+        "metrics": {
+          "base_extractiveness": {
+            "n": 9,
+            "mean": 0.26,
+            "median": 0.22,
+            "std": 0.129872,
+            "min": 0.04,
+            "max": 0.48,
+            "q25": 0.2,
+            "q75": 0.35
+          },
+          "suppression": {
+            "n": 9,
+            "mean": 0.361111,
+            "median": 0.35,
+            "std": 0.174448,
+            "min": 0.1,
+            "max": 0.75,
+            "q25": 0.25,
+            "q75": 0.45
+          },
+          "theater_ratio": {
+            "n": 9,
+            "mean": 0.177778,
+            "median": 0.2,
+            "std": 0.071146,
+            "min": 0.05,
+            "max": 0.3,
+            "q25": 0.15,
+            "q75": 0.2
+          },
+          "purity_score": {
+            "n": 9,
+            "mean": 0.659074,
+            "median": 0.621167,
+            "std": 0.242763,
+            "min": 0.308333,
+            "max": 1.0,
+            "q25": 0.446167,
+            "q75": 0.825833
+          },
+          "confidence": {
+            "n": 9,
+            "mean": 0.008948,
+            "median": 0.01,
+            "std": 0.006522,
+            "min": 3.7e-05,
+            "max": 0.016557,
+            "q25": 0.00087,
+            "q75": 0.015987
+          }
+        }
+      },
+      "rae_f": {
+        "count": 12,
+        "inference": "scaffold_temporality_check auto-passes when RAE=F (drl_core.pl:276). Sunset clause status is unknown.",
+        "ids": [
+          "ai_superpowers_2026",
+          "boundary_protocol",
+          "canada_goose_realignment_2026",
+          "cinderella_midnight_deadline",
+          "coffee_cardiovascular_2026",
+          "fmt_oncology_2026",
+          "ice_memory_archive",
+          "maha_recovery_2026",
+          "manganese_catalysis_2026",
+          "mit_tfus_2026",
+          "narrative_engineering_2026",
+          "silklink_2026"
+        ],
+        "metrics": {
+          "base_extractiveness": {
+            "n": 12,
+            "mean": 0.2425,
+            "median": 0.18,
+            "std": 0.181986,
+            "min": 0.0,
+            "max": 0.64,
+            "q25": 0.12,
+            "q75": 0.42
+          },
+          "suppression": {
+            "n": 12,
+            "mean": 0.495,
+            "median": 0.425,
+            "std": 0.275424,
+            "min": 0.1,
+            "max": 0.95,
+            "q25": 0.35,
+            "q75": 0.84
+          },
+          "theater_ratio": {
+            "n": 12,
+            "mean": 0.211667,
+            "median": 0.12,
+            "std": 0.211535,
+            "min": 0.05,
+            "max": 0.65,
+            "q25": 0.08,
+            "q75": 0.45
+          },
+          "purity_score": {
+            "n": 12,
+            "mean": 0.753222,
+            "median": 0.948,
+            "std": 0.272312,
+            "min": 0.3245,
+            "max": 1.0,
+            "q25": 0.4725,
+            "q75": 1.0
+          },
+          "confidence": {
+            "n": 12,
+            "mean": 0.026802,
+            "median": 0.01,
+            "std": 0.033104,
+            "min": 0.0,
+            "max": 0.121341,
+            "q25": 0.01,
+            "q75": 0.04595
+          }
+        }
+      }
+    },
+    "piton": {
+      "total": 95,
+      "rae_t": {
+        "count": 71,
+        "note": "Pitons with RAE=T: requires active enforcement but claimed as dead/theatrical code. These are enforced pitons \u2014 the constraint persists through enforcement even though its function is theatrical."
+      },
+      "rae_f": {
+        "count": 24,
+        "note": "Pitons with RAE=F: no enforcement required. This is the 'institutional inertia' pattern \u2014 the constraint persists through neglect, not through active maintenance.",
+        "ids": [
+          "academic_fashion_modernism_2026",
+          "acip_hep_b_infant_mandate",
+          "agent_opt_2026",
+          "artificial_snow_2026",
+          "asymmetric_computational_difficulty",
+          "boom_bust_path_dependency",
+          "clawderberg_recursive_slop",
+          "cultural_refragmentation_2026",
+          "elite_capture_2026",
+          "epstein_espionage_2026",
+          "epstein_files_2026",
+          "global_economic_anxiety_2026",
+          "gold_piton_2026",
+          "hegemonic_entropy_2026",
+          "kjv_linguistic_residue",
+          "legacy_system_technical_debt",
+          "mco_unit_system_discontinuity",
+          "milano_cortina_2026",
+          "moltbook_breach_2026",
+          "railway_gauge_standard",
+          "ship_of_theseus",
+          "temporal_scarcity",
+          "trajans_bridge_lifecycle",
+          "womens_sizing_chaos"
+        ],
+        "metrics": {
+          "base_extractiveness": {
+            "n": 24,
+            "mean": 0.452917,
+            "median": 0.415,
+            "std": 0.271531,
+            "min": 0.03,
+            "max": 0.85,
+            "q25": 0.2,
+            "q75": 0.72
+          },
+          "suppression": {
+            "n": 24,
+            "mean": 0.46,
+            "median": 0.475,
+            "std": 0.291476,
+            "min": 0.04,
+            "max": 0.91,
+            "q25": 0.2,
+            "q75": 0.72
+          },
+          "theater_ratio": {
+            "n": 24,
+            "mean": 0.825,
+            "median": 0.8,
+            "std": 0.076322,
+            "min": 0.72,
+            "max": 0.98,
+            "q25": 0.76,
+            "q75": 0.85
+          },
+          "purity_score": {
+            "n": 24,
+            "mean": 0.575868,
+            "median": 0.575,
+            "std": 0.19029,
+            "min": 0.354167,
+            "max": 0.8875,
+            "q25": 0.354167,
+            "q75": 0.758833
+          },
+          "confidence": {
+            "n": 24,
+            "mean": 0.048507,
+            "median": 0.00858,
+            "std": 0.148157,
+            "min": 0.0,
+            "max": 0.730049,
+            "q25": 0.003421,
+            "q75": 0.016423
+          }
+        }
+      }
+    }
+  },
+  "step6_hypothesis": {
+    "H1": {
+      "piton_total": 95,
+      "piton_rae_f_count": 24,
+      "piton_rae_f_rate": 0.2526,
+      "fcr_rae_f_rate": 0.0675,
+      "enrichment_ratio": 3.74,
+      "piton_rae_f_rival_dist": {
+        "snare": 10,
+        "rope": 7,
+        "tangled_rope": 7
+      },
+      "piton_rae_f_borderline_count": 23,
+      "piton_rae_f_borderline_pct": 95.8,
+      "verdict": "SUPPORTED",
+      "explanation": "Piton RAE=F rate (25.3%) is 3.74x the false_ci_rope base rate (6.8%). RAE=F is significantly overrepresented in pitons."
+    },
+    "H2": {
+      "scaffold_total": 21,
+      "scaffold_rae_t_count": 9,
+      "scaffold_rae_t_note": "These scaffolds depend on has_sunset_clause for temporality check. Sunset clause status is unobservable from JSON.",
+      "scaffold_rae_f_count": 12,
+      "scaffold_rae_f_borderline": 12,
+      "scaffold_rae_f_borderline_pct": 100.0,
+      "scaffold_total_borderline": 21,
+      "scaffold_total_borderline_pct": 100.0,
+      "verdict": "PARTIALLY SUPPORTED",
+      "explanation": "RAE=F scaffolds are also 100% borderline, meaning sunset clause unobservability is not the SOLE source of ambiguity. Continuous metric proximity to the tangled_rope/rope boundary also contributes."
+    },
+    "H3": {
+      "fcr_rae_f_total": 61,
+      "fcr_rae_f_piton_scaffold": 26,
+      "fcr_rae_f_piton_scaffold_pct": 42.6,
+      "fcr_piton_scaffold_total": 96,
+      "fcr_piton_scaffold_rate": 0.1062,
+      "fcr_piton_scaffold_rate_pct": 10.6,
+      "fcr_rae_f_claimed_dist": {
+        "piton": 18,
+        "snare": 11,
+        "rope": 10,
+        "mountain": 9,
+        "scaffold": 8,
+        "tangled_rope": 5
+      },
+      "verdict": "SUPPORTED",
+      "explanation": "26/61 (42.6%) of RAE=F false_ci_rope constraints are piton/scaffold, vs 10.6% in the full false_ci_rope population. Pitons and scaffolds are significantly concentrated in the RAE=F subgroup."
+    }
+  },
+  "step7_recommendations": [
+    {
+      "id": "R1",
+      "title": "Expose has_sunset_clause in enriched_pipeline.json",
+      "rationale": "9 scaffolds have RAE=T, meaning their scaffold classification depends entirely on has_sunset_clause \u2014 a gate that is invisible to the MaxEnt classifier. Exposing this gate would give the classifier a direct feature for distinguishing scaffold from tangled_rope in the RAE=T subpopulation.",
+      "impact": "high"
+    },
+    {
+      "id": "R2",
+      "title": "Address piton gate interception by higher-priority gates",
+      "rationale": "All 95/95 pitons pass the TR \u2265 0.70 gate, so theater ratio is not the bottleneck. The real issue is gate priority: 87/95 pitons (91.6%) are intercepted by higher-priority gates before the piton gate is reached. Interceptions: {'snare': 47, 'tangled_rope': 30, 'unknown': 10}. Most pitons have epsilon > 0.25 (the piton Chi ceiling), so the snare and tangled_rope gates fire first. The MaxEnt classifier should encode the piton gate's Chi \u2264 0.25 ceiling and TR \u2265 0.70 floor as joint boolean features. Without these, the classifier has no way to distinguish piton from snare/tangled_rope.",
+      "impact": "high"
+    },
+    {
+      "id": "R3",
+      "title": "Consider splitting false_ci_rope subcategories by RAE gate",
+      "rationale": "H3 verdict: SUPPORTED. 26/61 (42.6%) of RAE=F false_ci_rope constraints are piton/scaffold, vs 10.6% in the full false_ci_rope population. Pitons and scaffolds are significantly concentrated in the RAE=F subgroup.",
+      "impact": "moderate"
+    },
+    {
+      "id": "R4",
+      "title": "Review gate-trace mismatches as reclassification candidates",
+      "rationale": "99 constraints are claimed as scaffold/piton but would be classified differently by the Prolog gate priority chain. Piton interceptions: {'snare': 47, 'tangled_rope': 30, 'unknown': 10}. Scaffold interceptions: {'unknown': 10, 'tangled_rope': 2}. These are candidates for reclassification or for documenting why the LLM's claimed type diverges from the gate logic.",
+      "impact": "high"
+    }
+  ]
+}

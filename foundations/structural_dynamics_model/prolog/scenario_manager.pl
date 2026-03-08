@@ -6,6 +6,7 @@
 
 :- use_module(narrative_ontology).
 :- use_module(test_harness).
+:- use_module(data_repair).
 
 % 1. FORCE DYNAMIC STATE
 % This prevents "Redefined static procedure" errors even if the dataset 
@@ -52,7 +53,7 @@ clear_kb :-
     retractall(narrative_ontology:intent_resistance_level(_, _, _, _)),
     retractall(narrative_ontology:intent_norm_strength(_, _, _)),
     % Classification memoization cache
-    structural_signatures:clear_classification_cache,
+    boltzmann_compliance:clear_classification_cache,
     format('[OK] Knowledge Base is empty.~n').
 
 % =============================================================================
@@ -97,7 +98,11 @@ load_and_run(File, IntervalID) :-
 
 	% INJECT STRUCTURAL ANCHOR: Resolves [STEP 1] errors
         % This provides the audit suite with the interval it expects.
-        assertz(narrative_ontology:interval(IntervalID, 0, 10)),
+        % Guard: testset may already declare this interval.
+        (   narrative_ontology:interval(IntervalID, _, _)
+        ->  true
+        ;   assertz(narrative_ontology:interval(IntervalID, 0, 10))
+        ),
         inject_minimal_measurements(IntervalID),
 	
         % FIX: Repair ALL intervals found in the KB, not just the primary one.

@@ -1,0 +1,124 @@
+{
+  "header": {
+    "constraint_id": "26usc469_real_estate_exemption_u2_exp_r5",
+    "version": "1.1",
+    "generated_date": "2024-05-21",
+    "status": "ACTIVE",
+    "module_name_override": "constraint_26usc469_real_estate_exemption_u2_exp_r5"
+  },
+  "base_properties": {
+    "extractiveness": 0.55,
+    "suppression": 0.62,
+    "theater_ratio": 0.15,
+    "claimed_type": "tangled_rope",
+    "human_readable": "The Real Estate Professional Exemption (Passive Activity Loss Rules)",
+    "topic_domain": "economic/legal",
+    "requires_active_enforcement": true,
+    "beneficiaries": [
+      "full_time_real_estate_professionals"
+    ],
+    "victims": [
+      "hybrid_w2_investors"
+    ]
+  },
+  "perspectives": [
+    {
+      "classification_type": "snare",
+      "agent_power": "powerless",
+      "time_horizon": "biographical",
+      "exit_options": "trapped",
+      "spatial_scope": "national",
+      "label": "The High-Income W-2 Investor",
+      "comment": "For an individual with a primary career, the two-part test is often impossible to meet, trapping their passive losses without recourse. The only exit is to abandon their primary career, a prohibitively high cost."
+    },
+    {
+      "classification_type": "rope",
+      "agent_power": "moderate",
+      "time_horizon": "biographical",
+      "exit_options": "mobile",
+      "spatial_scope": "national",
+      "label": "The Full-Time Real Estate Pro",
+      "comment": "For those whose primary business is real estate, the rule is a clear coordination mechanism that defines their professional status and unlocks significant tax advantages, with minimal perceived extraction."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "institutional",
+      "time_horizon": "generational",
+      "exit_options": "constrained",
+      "spatial_scope": "national",
+      "label": "The Enforcing Agency (IRS)",
+      "comment": "The IRS is constrained to enforce the law as written. It sees both the coordination function (defining a class of taxpayer) and the extractive result (increased tax revenue from the disallowed losses of the W-2 group)."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "analytical",
+      "time_horizon": "civilizational",
+      "exit_options": "analytical",
+      "spatial_scope": "global",
+      "label": "The Tax Policy Analyst",
+      "comment": "The analyst sees a hybrid system: a legitimate attempt to distinguish active from passive participation (coordination) that is implemented via a rigid, bright-line test with highly asymmetric outcomes (extraction)."
+    }
+  ],
+  "omegas": [
+    {
+      "id": "rep_status_policy_intent",
+      "question": "Is the strict 'more than half of personal services' test a necessary guardrail against abuse, or a deliberate barrier to protect a professional class and increase tax revenue from high-earners?",
+      "resolution_mechanism": "Analysis of the legislative history of the Tax Reform Act of 1986 and subsequent CBO scoring of the provision's impact on different income quintiles.",
+      "impact": "If deemed a necessary guardrail, the constraint leans more towards a high-friction Rope. If a deliberate barrier, it confirms the Tangled Rope/Snare classification.",
+      "confidence": "medium",
+      "type_class": "conceptual",
+      "description": "The core ambiguity in the policy's intent: abuse prevention vs. targeted extraction."
+    }
+  ],
+  "measurements": [
+    {
+      "metric": "base_extractiveness",
+      "time_point": 1986,
+      "value": 0.5
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 2005,
+      "value": 0.52
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 2024,
+      "value": 0.55
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 1986,
+      "value": 0.1
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 2005,
+      "value": 0.12
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 2024,
+      "value": 0.15
+    }
+  ],
+  "interval": {
+    "start": 1986,
+    "end": 2024
+  },
+  "commentary": {
+    "narrative_context": "Section 469 of the US tax code, introduced in 1986, limits the ability of taxpayers to deduct passive activity losses against other income. The Real Estate Professional (REP) status provides a significant exemption. However, qualifying requires meeting a strict two-part test: (1) performing more than 750 hours of service in real property trades or businesses, AND (2) performing more than half of one's total personal services in those trades. This second prong creates a nearly insurmountable barrier for individuals with demanding, high-income W-2 careers, bifurcating taxpayers into a beneficiary class that can deduct losses and a victim class that cannot.",
+    "key_agents": [
+      "Hybrid W-2 Investors: Primary target (powerless/trapped) \u2014 High-income professionals who invest in real estate but cannot meet the 'more than half' test.",
+      "Full-Time Real Estate Professionals: Primary beneficiary (moderate/mobile) \u2014 Individuals whose primary work is in real estate and can easily meet the test.",
+      "The IRS: Enforcing institution (institutional/constrained) \u2014 Administers the tax code as written by Congress."
+    ],
+    "logic_rationale": "The base extractiveness (\u03b5=0.55) represents the significant tax value of the disallowed losses, which are effectively transferred from the W-2 investor to the state. The suppression score (0.62) reflects the rigidity of the two-part test; for the target group, there are no legal alternatives to achieve the same tax treatment without abandoning their primary career, making the constraint highly coercive.",
+    "perspectival_gap": "A significant gap exists between the Hybrid W-2 Investor and the Full-Time Real Estate Professional. The investor experiences the rule as a Snare, a trap that penalizes their attempt to build wealth through a common investment vehicle. The full-time professional sees it as a Rope, a clear and fair rule that recognizes their active participation and provides a deserved business advantage. This gap is the core of the constraint's structure.",
+    "directionality_logic": "The constraint's directionality is unambiguous. It extracts from 'hybrid_w2_investors' by disallowing deductions they would otherwise be able to take. The value flows to the government in the form of higher tax revenue. 'full_time_real_estate_professionals' are the explicit beneficiaries, as the rule carves out an exception specifically for them, shielding them from the extraction applied to others.",
+    "mandatrophy_analysis": "Classifying this as a Tangled Rope correctly captures its dual nature. It is not a pure Snare, as it's built around a legitimate policy goal of distinguishing active from passive business participation. However, it is not a pure Rope, because the mechanism chosen to achieve this goal generates severe, asymmetric extraction. The Tangled Rope classification avoids mislabeling a functional but highly extractive policy as either pure coordination or pure predation."
+  },
+  "boltzmann": {
+    "coordination_type": "enforcement_mechanism"
+  }
+}

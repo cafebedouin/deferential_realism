@@ -11,23 +11,31 @@ where d is directionality in [0.0, 1.0].
 """
 
 import math
+import sys
+from pathlib import Path
 
-# Sigmoid parameters (match config.pl)
-SIGMOID_LOWER = -0.20       # L: lower asymptote
-SIGMOID_UPPER = 1.50        # U: upper asymptote
-SIGMOID_MIDPOINT = 0.50     # d0: inflection point
-SIGMOID_STEEPNESS = 6.00    # k: steepness
+from shared.loader import read_config
 
-# Canonical d positions (match config.pl)
-# Mid-range atoms match legacy pi exactly; extremes have small residuals
-# (institutional: f(0.0)=-0.12 vs -0.20, powerless: f(1.0)=1.42 vs 1.50)
+# =============================================================================
+# THRESHOLDS — loaded from prolog/config.pl (single source of truth)
+# =============================================================================
+
+_CFG = read_config()
+
+# Sigmoid parameters
+SIGMOID_LOWER = _CFG.get('sigmoid_lower', -0.20)
+SIGMOID_UPPER = _CFG.get('sigmoid_upper', 1.50)
+SIGMOID_MIDPOINT = _CFG.get('sigmoid_midpoint', 0.50)
+SIGMOID_STEEPNESS = _CFG.get('sigmoid_steepness', 6.00)
+
+# Canonical d positions
 CANONICAL_D = {
-    "powerless":     1.00,
-    "moderate":      0.6459,
-    "powerful":      0.4804,
-    "organized":     0.3990,
-    "institutional": 0.00,
-    "analytical":    0.7250,
+    "powerless":     _CFG.get('canonical_d_powerless', 1.00),
+    "moderate":      _CFG.get('canonical_d_moderate', 0.6459),
+    "powerful":      _CFG.get('canonical_d_powerful', 0.4804),
+    "organized":     _CFG.get('canonical_d_organized', 0.3990),
+    "institutional": _CFG.get('canonical_d_institutional', 0.00),
+    "analytical":    _CFG.get('canonical_d_analytical', 0.7250),
 }
 
 

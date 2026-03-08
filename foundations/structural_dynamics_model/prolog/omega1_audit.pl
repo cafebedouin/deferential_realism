@@ -5,7 +5,8 @@
 :- use_module(config).
 :- use_module(narrative_ontology).
 :- use_module(constraint_indexing).
-:- use_module(structural_signatures).
+:- use_module(signature_detection, [constraint_signature/2]).
+:- use_module(boltzmann_compliance, [coupling_test_context/3]).
 :- use_module(drl_core).
 :- use_module(covering_analysis).
 :- use_module(library(lists)).
@@ -29,7 +30,7 @@
 
 run_omega1_audit :-
     format(user_error, '[omega1] Starting Omega1 Unknown Audit...~n', []),
-    covering_analysis:load_all_testsets,
+    corpus_loader:load_all_testsets,
     covering_analysis:all_corpus_constraints(Cs),
     length(Cs, NC),
     format(user_error, '[omega1] Corpus: ~w constraints~n', [NC]),
@@ -114,7 +115,7 @@ compute_one_profile(C, Ctx) :-
     ;   Theater = 0.0
     ),
     % Structural signature
-    (   catch(structural_signatures:constraint_signature(C, Sig0), _, Sig0 = error)
+    (   catch(signature_detection:constraint_signature(C, Sig0), _, Sig0 = error)
     ->  Sig = Sig0
     ;   Sig = no_signature
     ),
@@ -273,13 +274,13 @@ determine_gates_for(C, Ctx) :-
     ;   true
     ),
 
-    % --- Indexically Opaque (line 314) ---
+    % --- Naturalized (line 314) ---
     (   BaseEps =< REpsCeil
-    ->  assertz(omega1_blocking_gate(C, opaque_eps_at_or_below_045))
+    ->  assertz(omega1_blocking_gate(C, naturalized_eps_at_or_below_045))
     ;   true
     ),
     (   Chi >= TRChiFloor
-    ->  assertz(omega1_blocking_gate(C, opaque_chi_at_or_above_040))
+    ->  assertz(omega1_blocking_gate(C, naturalized_chi_at_or_above_040))
     ;   true
     ),
 
@@ -374,11 +375,11 @@ compute_all_cross_context(Unknowns) :-
 
 compute_cross_context(C) :-
     % Institutional/Local
-    structural_signatures:coupling_test_context(institutional, local, CtxInst),
+    boltzmann_compliance:coupling_test_context(institutional, local, CtxInst),
     classify_safe(C, CtxInst, TypeInst),
     assertz(omega1_cross_context(C, 'Institutional/Local', CtxInst, TypeInst)),
     % Moderate/National
-    structural_signatures:coupling_test_context(moderate, national, CtxMod),
+    boltzmann_compliance:coupling_test_context(moderate, national, CtxMod),
     classify_safe(C, CtxMod, TypeMod),
     assertz(omega1_cross_context(C, 'Moderate/National', CtxMod, TypeMod)),
     % Analytical/Global (should be unknown by definition)
@@ -487,7 +488,7 @@ report_full(NC, NU, ConsistencyResult) :-
     report_structural_flags,
 
     % Opaque impossibility proof
-    report_opaque_impossibility,
+    report_naturalized_impossibility,
 
     % Structural signature analysis
     report_signature_analysis,
@@ -639,8 +640,8 @@ report_blocking_gates :-
         piton_chi_above_025 - 'Chi > 0.25',
         piton_eps_at_or_below_010 - 'BaseEps <= 0.10',
         piton_theater_below_070 - 'Theater < 0.70',
-        opaque_eps_at_or_below_045 - 'BaseEps <= 0.45',
-        opaque_chi_at_or_above_040 - 'Chi >= 0.40'
+        naturalized_eps_at_or_below_045 - 'BaseEps <= 0.45',
+        naturalized_chi_at_or_above_040 - 'Chi >= 0.40'
     ],
     forall(member(Gate - Desc, GateDescs), (
         findall(C, omega1_blocking_gate(C, Gate), Cs),
@@ -773,9 +774,9 @@ report_flag_row(Label, Present, Total) :-
 
 /* ---- Opaque Impossibility Proof ---- */
 
-report_opaque_impossibility :-
-    format('## Indexically Opaque Impossibility at Analytical Context~n~n'),
-    format('**Claim**: The `indexically_opaque` clause (drl_core.pl:314-318) can NEVER fire '),
+report_naturalized_impossibility :-
+    format('## Naturalized Impossibility at Analytical Context~n~n'),
+    format('**Claim**: The `naturalized` clause (drl_core.pl:314-318) can NEVER fire '),
     format('at the analytical/global context.~n~n'),
     format('**Proof**:~n'),
     format('- The clause requires: `BaseEps > 0.45 AND Chi < 0.40`~n'),
@@ -801,7 +802,7 @@ report_opaque_impossibility :-
     format('- Constraints satisfying BOTH BaseEps > 0.45 AND Chi < 0.40: **~w** (expected: 0)~n',
            [NExc]),
     (   NExc =:= 0
-    ->  format('- **Confirmed**: The opaque clause is structurally impossible at analytical context.~n~n')
+    ->  format('- **Confirmed**: The naturalized clause is structurally impossible at analytical context.~n~n')
     ;   format('- **UNEXPECTED**: Found ~w exceptions! Investigate: ~w~n~n', [NExc, Exceptions])
     ).
 

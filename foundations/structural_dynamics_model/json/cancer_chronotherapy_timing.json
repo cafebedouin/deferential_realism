@@ -1,0 +1,214 @@
+{
+  "header": {
+    "constraint_id": "cancer_chronotherapy_timing",
+    "version": "1.0",
+    "generated_date": "2026-02-26",
+    "status": "ACTIVE",
+    "measurement_id_prefix": "chrono"
+  },
+  "base_properties": {
+    "extractiveness": 0.32,
+    "suppression": 0.48,
+    "theater_ratio": 0.58,
+    "claimed_type": "tangled_rope",
+    "human_readable": "The Circadian Lifeline: Cancer Chronotherapy Timing Constraint",
+    "topic_domain": "health/medical_technology",
+    "requires_active_enforcement": true,
+    "beneficiaries": [
+      "early_chronotype_patients",
+      "oncology_research_programs",
+      "pharmaceutical_manufacturers"
+    ],
+    "victims": [
+      "late_chronotype_patients",
+      "shift_workers",
+      "global_south_populations"
+    ]
+  },
+  "perspectives": [
+    {
+      "classification_type": "snare",
+      "agent_power": "powerless",
+      "time_horizon": "biographical",
+      "exit_options": "trapped",
+      "spatial_scope": "global",
+      "label": "The Night-Shift Worker with Cancer",
+      "comment": "PERSPECTIVE 1: NIGHT-SHIFT WORKER WITH CANCER (SNARE) \u2014 Circadian timing of immunotherapy is structurally incompatible with work schedule. No exit: cannot abandon treatment window or employment. Bears full cost of pharmacokinetic mismatch. T-cell congregation peaks at times when patient is asleep or working; optimal treatment window is unavailable. Maximum experienced extraction \u2014 trapped between biological constraint and labor necessity."
+    },
+    {
+      "classification_type": "snare",
+      "agent_power": "powerless",
+      "time_horizon": "biographical",
+      "exit_options": "trapped",
+      "spatial_scope": "global",
+      "label": "The Late Chronotype Patient",
+      "comment": "PERSPECTIVE 2: LATE CHRONOTYPE PATIENT (SNARE) \u2014 Circadian immune response is genetically distributed; ~30% of population are constitutive late chronotypes. These patients have peak T-cell congregation 3-5 hours after the protocol window (3pm). Trapped: cannot shift chronotype without severe health and social costs. Protocol suppresses awareness of chronotype variation. Maximum extraction \u2014 optimal treatment time is physiologically inaccessible."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "moderate",
+      "time_horizon": "generational",
+      "exit_options": "constrained",
+      "spatial_scope": "global",
+      "label": "The Global South Population",
+      "comment": "PERSPECTIVE 3: GLOBAL SOUTH POPULATION (TANGLED ROPE) \u2014 Benefit: access to immunotherapy previously unavailable. Constraint: treatment timing protocol assumes urban electricity access, predictable work schedules, and healthcare infrastructure synchronized to Western time zones. Many patients operate on subsistence agriculture or informal labor with highly variable daily schedules. Constrained exit: treatment is life-saving but requires behavioral reorganization. Mixed extraction \u2014 significant benefit but also significant access asymmetry and implicit labor/schedule coercion."
+    },
+    {
+      "classification_type": "rope",
+      "agent_power": "institutional",
+      "time_horizon": "immediate",
+      "exit_options": "arbitrage",
+      "spatial_scope": "national",
+      "label": "The Oncology Research Program",
+      "comment": "PERSPECTIVE 4: ONCOLOGY RESEARCH PROGRAM (ROPE) \u2014 Sees chronotherapy as a pure coordination achievement: discovering and disseminating the T-cell congregation timing window solves a critical problem (tumor heterogeneity, variable treatment response). Benefits from research priority, publication advantage, and therapeutic protocol ownership. Can exit or modify protocol based on new data. Low extraction \u2014 the constraint is experienced as scientific progress and institutional reputation."
+    },
+    {
+      "classification_type": "rope",
+      "agent_power": "institutional",
+      "time_horizon": "immediate",
+      "exit_options": "arbitrage",
+      "spatial_scope": "continental",
+      "label": "The Pharmaceutical Manufacturer",
+      "comment": "PERSPECTIVE 5: PHARMACEUTICAL MANUFACTURER (ROPE) \u2014 Chronotherapy timing creates a measurable, protocol-driven market: dosing windows, timing devices, patient monitoring systems. Can arbitrage regulatory approval (timing specificity increases novelty claims), market segmentation (early chronotypes become the primary addressable market), and supply chain optimization (dosing window creates predictable demand cycles). High agency \u2014 can modify protocol, adjust market strategy, or pivot to alternative interventions. Low extraction \u2014 the constraint creates commercial value."
+    },
+    {
+      "classification_type": "scaffold",
+      "agent_power": "organized",
+      "time_horizon": "generational",
+      "exit_options": "constrained",
+      "spatial_scope": "global",
+      "label": "The Chronotherapy Equity Coalition",
+      "comment": "PERSPECTIVE 6: CHRONOTHERAPY EQUITY COALITION (SCAFFOLD) \u2014 Organized effort (patient advocates, sleep researchers, global health organizations) to develop chronotype-stratified protocols and dosing windows tuned to individual circadian phases. See the current 3pm-only protocol as a temporary, improvable constraint with an 8-15 year sunset: personalized circadian measurement (wearables, core temperature monitoring, actigraphy) is becoming accessible and could enable individualized dosing windows. Constraints are real but temporary. Theater ratio declining as precision medicine tooling matures."
+    },
+    {
+      "classification_type": "piton",
+      "agent_power": "institutional",
+      "time_horizon": "civilizational",
+      "exit_options": "arbitrage",
+      "spatial_scope": "global",
+      "label": "The Clinical Trial Standardization System",
+      "comment": "PERSPECTIVE 7: CLINICAL TRIAL STANDARDIZATION SYSTEM (PITON) \u2014 The 3pm dosing window originated from a small cohort study with early-chronotype predominance (morning people, standard working hours). Institutional inertia: regulatory pathways require fixed-time protocols for comparability across trials. The 'universal 3pm rule' persists largely through procedural momentum, not through repeated verification of its optimality across chronotype distributions. Theater: trial protocol adherence is meticulously tracked and reported, masking the underlying chronotype sampling bias. Low actual verification of optimality \u2014 maintained through regulatory and institutional routine rather than functional necessity."
+    },
+    {
+      "classification_type": "mountain",
+      "agent_power": "analytical",
+      "time_horizon": "civilizational",
+      "exit_options": "analytical",
+      "spatial_scope": "universal",
+      "label": "The Analytical Observer (Circadian Biology View)",
+      "comment": "PERSPECTIVE 8: ANALYTICAL OBSERVER / CIRCADIAN BIOLOGY VIEW (MOUNTAIN) \u2014 From a civilizational view, circadian-dependent immune timing is a natural constraint of mammalian biology: T-cell congregation around tumors IS time-dependent due to circadian lymphocyte trafficking. This appears as an immutable natural law. However, the structural data reveals this as a false summit: the 'universal 3pm window' naturalizes a protocol choice derived from a biased cohort, not from biological universality. The underlying biology is natural; the protocol enforcement is institutional. Engine false summit detection flags this."
+    }
+  ],
+  "omegas": [
+    {
+      "id": "chronotype_heterogeneity_distribution",
+      "question": "What is the true population distribution of circadian peak immune timing, and what proportion of cancer patients cannot access the standard 3pm protocol window?",
+      "resolution_mechanism": "Large-scale chronotype surveys in oncology populations; measurement of actual peak T-cell congregation times across diverse populations; correlation of chronotype distribution with treatment access and outcomes",
+      "impact": "If >40% of patients are late chronotypes or shift workers: protocol should stratify by chronotype. If <20%: current protocol adequately covers the population. Different outcomes suggest different constraint types for different patient subgroups.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Population distribution of circadian immune peak timing relative to protocol window"
+    },
+    {
+      "id": "personalized_dosing_window_feasibility",
+      "question": "Can wearable circadian monitoring (actigraphy, core temperature, melatonin salivary sampling) deliver personalized dosing windows at scale without prohibitive cost or patient burden?",
+      "resolution_mechanism": "Cost analysis of personalized circadian measurement; clinical trials with individualized vs standard dosing; patient adherence rates; healthcare system adoption barriers",
+      "impact": "If feasible: scaffold perspective is valid, sunset timeline is real, constraint is transitional. If not feasible: personalization remains aspirational, scaffold is premature, constraint persists.",
+      "confidence": "high",
+      "type_class": "empirical",
+      "description": "Feasibility of scaled personalized circadian monitoring for dosing"
+    },
+    {
+      "id": "protocol_origin_bias_documentation",
+      "question": "What was the actual chronotype composition of the original cohort that established the 3pm window? Was it deliberately validated across diverse chronotypes, or was it derived from a convenience sample?",
+      "resolution_mechanism": "Historical analysis of original trial protocols and participant demographics; reconstruction of circadian measurement methodology; comparison with modern chronotype measurement standards",
+      "impact": "If deliberate cross-chronotype validation: protocol is evidence-based universality. If convenience sample bias: current protocol is institutional inertia masquerading as biology. Changes classification from natural constraint to institutional extraction.",
+      "confidence": "high",
+      "type_class": "empirical",
+      "description": "Chronotype composition and validation scope of original protocol-establishing trial"
+    },
+    {
+      "id": "treatment_outcome_variance_by_chronotype",
+      "question": "Do late chronotype patients treated outside their peak T-cell window experience measurably worse outcomes (response rate, survival, adverse events) compared to early chronotypes, or is outcome variance driven by other factors (tumor heterogeneity, comorbidity)?",
+      "resolution_mechanism": "Retrospective outcome analysis stratified by chronotype; prospective trials with chronotype-matched and mismatched cohorts; multivariate analysis controlling for tumor biology and patient factors",
+      "impact": "If outcome variance is large by chronotype: extraction magnitude is high (snare classification confirmed). If variance is minimal: timing constraint may be theoretical rather than clinically enforcing, reclassifying as false extraction or piton.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Treatment outcome variance attributable to chronotype-protocol timing mismatch"
+    }
+  ],
+  "measurements": [
+    {
+      "metric": "theater_ratio",
+      "time_point": 0,
+      "value": 0.38
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 5,
+      "value": 0.52
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 10,
+      "value": 0.58
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 0,
+      "value": 0.18
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 5,
+      "value": 0.28
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 10,
+      "value": 0.32
+    }
+  ],
+  "interval": {
+    "start": 0,
+    "end": 10
+  },
+  "commentary": {
+    "narrative_context": "Cancer chronotherapy timing creates a structural constraint where the biological optimum (T-cell congregation circadian timing) intersects with institutional standardization (universal 3pm protocol) and population heterogeneity (chronotype diversity). The constraint exhibits mixed characteristics: genuine coordination value (discovering optimal timing windows), legitimate extraction (late chronotypes and shift workers cannot access peak efficacy times), institutional inertia (protocol enforcement persists partly through regulatory momentum), and real potential for sunset (personalized circadian measurement is becoming feasible). This is not a natural law \u2014 circadian biology is natural, but the universal 3pm protocol is institutional. Night-shift workers, late chronotypes (~30% of population), and populations with subsistence labor schedules face hard extraction: their peak immune response occurs outside the protocol window with no feasible exit. Early chronotypes and standard-schedule workers benefit from alignment. The research program and pharmaceutical manufacturer benefit through protocol ownership and market segmentation. An organized equity coalition sees this as a temporary problem solvable through personalized dosing windows within 8-15 years as wearable circadian measurement becomes routine.",
+    "key_agents": [
+      "Night-shift workers with cancer (powerless/trapped) \u2014 circadian desynchrony from both labor and treatment protocol; no exit; maximum extraction",
+      "Late chronotype patients (powerless/trapped) \u2014 ~30% of population; peak immune response 3-5 hours after protocol window; physiologically trapped",
+      "Global South populations (moderate/constrained) \u2014 benefit from treatment access but face schedule/infrastructure constraints; informal labor incompatible with fixed dosing windows",
+      "Oncology research programs (institutional/arbitrage) \u2014 discovered protocol; benefit from priority and therapeutic ownership; high agency",
+      "Pharmaceutical manufacturers (institutional/arbitrage) \u2014 benefit from protocol-driven market; can stratify patients and optimize supply chains",
+      "Chronotherapy equity coalition (organized/constrained) \u2014 organized advocates and researchers developing chronotype-stratified protocols and personalized approaches; see sunset mechanism",
+      "Clinical trial standardization system (institutional/arbitrage) \u2014 maintains fixed-time protocol for trial comparability; benefits from standardization; low functional verification",
+      "Analytical observer (analytical/analytical) \u2014 risks naturalizing institutional protocol choice as biological universality"
+    ],
+    "logic_rationale": "Extractiveness (0.32): Moderate. The constraint extracts value from patients whose circadian timing is misaligned with the 3pm window, but it also provides genuine therapeutic benefit (T-cell targeting works). The extraction is real but not maximal \u2014 late chronotypes still receive the immunotherapy, just with suboptimal pharmacokinetics. The value is lower than snare-level because the underlying intervention is beneficial and because organized efforts to personalize dosing are advancing. Suppression (0.48): Moderate-high. Barriers include: (1) protocol rigidity enforced through regulatory standardization, (2) low awareness of chronotype variation in cancer populations, (3) infeasibility of schedule modification for shift workers and subsistence laborers, (4) sleep inertia making early treatment difficult for late chronotypes. But suppression is not total \u2014 some patients can and do modify schedules, and wearable technology is reducing measurement barriers. Theater ratio (0.58): Moderate-high and rising. Initial protocol was presented as derived from biological universality ('optimal circadian window'), but it originated from a convenience sample with early chronotype bias. Trial reports emphasize protocol adherence tracking and statistical rigor, masking the chronotype sampling bias. Theater increased as the protocol became standardized \u2014 the procedural and reporting layer grew thicker relative to functional verification. Declining theater is possible as personalized approaches mature (scaffold perspective).",
+    "perspectival_gap": "Night-shift workers and late chronotypes see pure extraction (Snare) \u2014 the constraint extracts maximal cost with no exit. Global South populations see mixed effects (Tangled Rope) \u2014 significant benefit but also schedule coercion. Research programs and manufacturers see coordination (Rope) \u2014 they solved an important problem. The equity coalition sees a temporary barrier (Scaffold) \u2014 real but solvable with 8-15 year timeline. The trial standardization system sees procedural necessity (Piton) \u2014 maintains the rule through institutional routine, not functional verification. The civilizational analytical view risks naturalizing it as biology (Mountain) \u2014 but the structural data reveals the protocol as an institutional choice layered on top of real biological variation. The perspectival gap is largest between victims (trapped agents experiencing snare-level extraction) and beneficiaries (research/industry experiencing rope-level coordination value).",
+    "directionality_logic": "Directionality values are derived from structural position. Late chronotype patients: beneficiary status (they receive treatment) but trapped exit (cannot modify schedule without severe costs) and victim status (excluded from peak efficacy window). The engine derives high d \u2192 high f(d) \u2192 high experienced extractiveness. Night-shift workers: similar derivation. Early chronotype patients: beneficiary status + mobile exit (can arrange morning schedule) + beneficiary alignment \u2192 low d \u2192 low or negative experienced extractiveness (constraint subsidizes them). Research programs: institutional beneficiary (priority, publications, therapeutic ownership) + arbitrage exit (can modify protocol or pivot) \u2192 very low d \u2192 negative \u03c7 (institutional subsidy effect). Global South populations: mixed beneficiary (access to therapy) and victim (schedule constraints) status with constrained exit \u2192 moderate d \u2192 moderate \u03c7. Equity coalition: organized power + constrained exit (working to change protocol) \u2192 moderate d, but the organized status moderates the experienced extraction below the victim level.",
+    "mandatrophy_analysis": "TANGLED ROPE RESOLUTION: The constraint satisfies the tangled rope definition: (1) genuine coordination function \u2014 discovering circadian-optimized timing solves tumor heterogeneity problem; (2) asymmetric extraction \u2014 late chronotypes and shift workers are targets; (3) active enforcement \u2014 regulatory protocols mandate 3pm timing; (4) base extraction (0.32) and suppression (0.48) both meet thresholds (0.30 \u2264 \u03b5, suppression \u2265 0.40). The mandatrophy is resolved by showing that no single type adequately captures the constraint from all perspectives. Night-shift workers and late chronotypes experience Snare (high extraction, no exit). Early chronotypes and research programs experience Rope (low extraction, coordination value). The equity coalition experiences Scaffold (temporary, solvable). The system-level analyst sees institutional inertia (Piton). The false summit risk is the 'natural circadian law' framing \u2014 circadian biology is natural; the 3pm protocol is not. The constraint's true structure is: real biological variation (natural) + standardized protocol (institutional) + population heterogeneity in chronotype (natural, not captured by standard) = systematic extraction of late chronotypes + asymmetric benefit to early chronotypes + real research/industry coordination value. This is institutional extraction layered on biological reality, not pure biology."
+  },
+  "boltzmann": {
+    "coordination_type": "resource_allocation"
+  },
+  "network": {
+    "affects_constraints": [
+      "circadian_drug_metabolism",
+      "sleep_debt_immune_suppression",
+      "shift_work_cancer_risk"
+    ],
+    "dual_formulation_note": "The circadian chronotherapy timing constraint decomposes into three related but structurally distinct claims: (1) circadian_drug_metabolism (\u03b5 \u2248 0.12, Mountain) \u2014 pharmacokinetics of immunotherapy exhibit circadian variation; (2) sleep_debt_immune_suppression (\u03b5 \u2248 0.24, Mountain-to-Rope) \u2014 sleep disruption reduces immune function generally; (3) cancer_chronotherapy_timing (this story, \u03b5 = 0.32, Tangled Rope) \u2014 the institutional protocol choice that enforces a universal timing window despite population heterogeneity. This story is downstream of the first two (depends on their evidence) but adds institutional and social constraints not present in the underlying biology."
+  },
+  "directionality_overrides": [
+    {
+      "power_atom": "powerless",
+      "d_value": 0.92
+    },
+    {
+      "power_atom": "moderate",
+      "d_value": 0.58
+    }
+  ]
+}

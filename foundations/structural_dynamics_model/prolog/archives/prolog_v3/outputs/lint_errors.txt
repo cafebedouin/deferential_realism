@@ -1,0 +1,14 @@
+testsets/26usc469_real_estate_exemption.pl:
+  METRIC_SOURCE_INCONSISTENCY: Missing extractiveness — engine will use default 0.1.
+  METRIC_SOURCE_INCONSISTENCY: Missing suppression_requirement — engine will use default 0.1.
+  METRIC_SOURCE_INCONSISTENCY: Missing theater_ratio — engine will use default 0.0.
+
+testsets/gender_performance_cost.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+  INSUFFICIENT_TEMPORAL_DATA: Found 5 measurement(s), need at least 6 (3 time points x 2 metrics: theater_ratio, base_extractiveness).
+
+testsets/ontological_friction_resolution.pl:
+  MISSING_PERSPECTIVE: Must include agent_power(institutional).
+  UNRESOLVED_MANDATROPHY: Extraction 0.72 requires resolution hook.
+  INSUFFICIENT_TEMPORAL_DATA: Found 4 measurement(s), need at least 6 (3 time points x 2 metrics: theater_ratio, base_extractiveness).
+

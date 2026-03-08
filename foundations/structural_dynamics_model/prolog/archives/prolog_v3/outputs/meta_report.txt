@@ -1,0 +1,78 @@
+
+================================================================================
+                      META-REPORT: Test Suite Analysis
+================================================================================
+
+📊 TEST EXECUTION SUMMARY
+--------------------------------------------------------------------------------
+  Total Tests Run: 1
+  Passed:          0 (0.0%)
+  Failed:          1
+  Failure Details:
+
+📚 CORPUS OVERVIEW
+--------------------------------------------------------------------------------
+  Total Constraints Analyzed: 1151
+  Identified Constraint Type Distribution:
+    - tangled_rope   :  503 (43.7%)
+    - snare          :  363 (31.5%)
+    - mountain       :  127 (11.0%)
+    - piton          :   76 (6.6%)
+    - rope           :   58 (5.0%)
+    - scaffold       :   22 (1.9%)
+    - [social_governance]:    1 (0.1%)
+
+❓ EPISTEMOLOGICAL GAPS (Omegas)
+--------------------------------------------------------------------------------
+  Total Unique Omegas Found: 984
+  - CONCEPTUAL: 916
+  - EMPIRICAL: 68
+
+🔬 STRUCTURAL PURITY OVERVIEW (v5.1)
+--------------------------------------------------------------------------------
+  Constraints with Purity Data: 1125
+  Average Purity:               0.577
+  Purity Distribution:
+    - pristine       :  173
+    - sound          :  123
+    - borderline     :  366
+    - contaminated   :  448
+    - degraded       :   15
+  Drift Events (all types):     2909
+    - critical       : 1668
+    - warning        : 1102
+    - watch          :  139
+
+⚡ BOLTZMANN COMPLIANCE SUMMARY (v5.0)
+--------------------------------------------------------------------------------
+  Boltzmann Structural Signatures Detected: 899
+    - False Natural Law (FNL):     10
+    - Coupling-Invariant Rope:     15
+    - False CI-Rope (FCR):         874
+  Coupling Analysis (1151 constraints):
+    - independent         :  247
+    - weakly_coupled      :   50
+    - strongly_coupled    :  827
+    - inconclusive        :   26
+    - nonsensically_coupled:    1
+
+🌐 NETWORK DYNAMICS (v5.2)
+--------------------------------------------------------------------------------
+  Network Stability: cascading
+  ⚠ CASCADE WARNING: network in cascading state
+
+GAUGE ORBIT FAMILIES
+--------------------------------------------------------------------------------
+  Constraints with Orbit Data: 1150
+  Total Orbit Families:        21
+  Gauge-Invariant:             261
+  Gauge-Variant:               889
+  Top Families:
+    - [rope, snare]                           :  337
+    - [rope, tangled_rope]                    :  270
+    - [rope, snare, tangled_rope]             :  188
+    - [mountain]                              :  127
+    - [piton]                                 :   74
+  Unknown-Containing Orbits:   5 families (23 constraints)
+
+================================================================================

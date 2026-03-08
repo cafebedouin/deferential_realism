@@ -129,11 +129,11 @@ This is closer to **perspectival realism in science** than to postmodern relativ
 
 **What we know:**
 - Framework developed in Western analytical tradition
-- Corpus (467 constraints) heavily weighted toward Western contexts
+- Corpus (691 constraints) heavily weighted toward Western contexts
 - Cross-cultural validation is **ongoing**, not complete
 
 **What we don't know:**
-- Do these four categories apply equally well to non-Western contexts?
+- Do these six categories apply equally well to non-Western contexts?
 - Do power modifiers need adjustment for different cultural power structures?
 - Are there missing categories only visible in non-Western systems?
 
@@ -145,9 +145,9 @@ This is closer to **perspectival realism in science** than to postmodern relativ
 - External validation by researchers from diverse backgrounds is essential
 - If categories don't fit, framework should be revised or replaced
 
-**Not claiming:** "These four categories are universal human cognitive structures."
+**Not claiming:** "These six categories are universal human cognitive structures."
 
-**Claiming:** "These four categories classified 467 constraints (mostly Western) with 0% collisions. Does it work elsewhere? Test it and report back."
+**Claiming:** "These six categories classified 691 constraints (mostly Western) with 0% collisions. Does it work elsewhere? Test it and report back."
 
 **Intellectual humility required here.** See `validation_report.md` for complete epistemic positioning.
 
@@ -319,39 +319,27 @@ Use `quick_reference.md` as decision-support tool. Keep it printed at your desk.
 
 ## Framework Design Questions
 
-### Q10: Why only four categories? Couldn't there be more?
+### Q10: Why these six categories? Couldn't there be more?
 
-**Current status: Four categories + one hybrid (Tangled Rope) are empirically sufficient.**
+**Current status: Six categories are empirically sufficient.**
 
-**Evidence:**
-- 467 constraints classified with 0% collision rate
-- No cases required additional categories
-- Pattern mining discovered Tangled Rope (not predicted by theory)
-- No other hybrids detected in corpus
+The framework started with four core types (Mountain, Rope, Snare, Scaffold). Pattern mining discovered Tangled Rope as a distinct hybrid (36% prevalence — not an edge case). Pitons were elevated from "degraded Rope" to full category when analysis showed distinct formation dynamics, response protocols, and lifecycle patterns. The current six — Mountain, Rope, Tangled Rope, Snare, Scaffold, Piton — classify 691 constraints with 0% collision rate.
 
-**What would justify adding categories:**
+**What would justify adding a seventh:**
 
 **1. Collision evidence**
 - Same constraint requires different categories from same index
-- Example: "This is simultaneously Mountain AND Snare from powerless/biographical/trapped/national"
-- Would indicate four categories are insufficient
+- Would indicate six categories are insufficient
 
 **2. Pattern mining discovery**
 - Systematic cluster analysis reveals new stable pattern
 - Must be present in >10% of corpus to justify distinct category
-- Tangled Rope met this bar (36% prevalence)
-
-**3. Theoretical necessity**
-- New category captures structural distinction the four miss
 - Must be functionally different (different decay rates, different responses)
 
-**Current candidates under consideration:**
+**3. Real-world archetype discovery**
+- Thailand's Judicial Gatekeeping Snare and Portugal's Fragmentation Marsh have been proposed as electoral subtypes — but these are currently classifiable within the existing six using index specification rather than new categories
 
-**Scaffold** - Currently treated as temporal qualifier (temporary Rope), not distinct category. If permanence drift is systematic rather than exceptional, might justify elevation.
-
-**Piton** - Currently treated as degradation state (decayed Rope), not distinct category. If formation dynamics are distinct from Rope decay, might justify elevation.
-
-**Framework position:** Start with minimal sufficient set. Add categories only when empirical evidence demands it. Four + Tangled Rope currently sufficient for 467 constraints analyzed.
+**Framework position:** Start with minimal sufficient set. Add categories only when empirical evidence demands it. Six currently sufficient for 691 constraints analyzed.
 
 **Falsification criterion:** If independent researchers find constraints requiring new categories (with 0% collision rate not maintainable), framework should expand.
 
@@ -362,7 +350,7 @@ Use `quick_reference.md` as decision-support tool. Keep it printed at your desk.
 **You're correct to be skeptical. Here's the honest answer:**
 
 **Source of values:**
-- Calibrated to minimize classification errors across the 467-constraint corpus
+- Calibrated to minimize classification errors across the 691-constraint corpus
 - Empirically derived, not theoretically deduced
 - Represent **averages within our corpus**, not universal constants
 
@@ -370,7 +358,7 @@ Use `quick_reference.md` as decision-support tool. Keep it printed at your desk.
 
 **Why medium, not high:**
 1. Values are corpus-specific (may need adjustment for other contexts)
-2. Sample size is 467 (decent but not massive)
+2. Sample size is 691 (decent but not massive)
 3. Calibration methodology is transparent but could be refined
 4. Cross-cultural validation has not been done
 
@@ -394,8 +382,33 @@ Use `quick_reference.md` as decision-support tool. Keep it printed at your desk.
 - Use modifiers for qualitative reasoning ("powerless agents hit harder by extraction")
 - Don't over-precision ("exactly 1.47× more extraction")
 - Update when you have better local data
+- Remember: these are routing values, not truth claims (see Q11b and `metrics_as_routing.md`)
 
 See `validation_report.md` Finding 6 for complete calibration methodology.
+
+---
+
+### Q11b: Aren't the thresholds arbitrary? Why ε ≥ 0.46 for Snare and not 0.50 or 0.40?
+
+**They are arbitrary — and that's the point.**
+
+The thresholds are **governance stands**, not truth measurements. ε ≥ 0.46 means "at this line, we route toward resistance rather than reform." The value is in making that decision explicit, consistent, and revisable — not in claiming it maps to some natural joint in reality.
+
+Think of it like a thermostat setting, not a thermometer reading. A thermometer claims to measure objective temperature. A thermostat routes behavior: below this number, the heater turns on. You don't criticize a thermostat for being "arbitrary" — you evaluate whether it keeps the room comfortable.
+
+**What the thresholds actually do:**
+- ε ≤ 0.15 routes to "maintain" (Rope behavior)
+- ε 0.16–0.45 routes to "reform" (Tangled Rope behavior)
+- ε ≥ 0.46 routes to "resist" (Snare behavior)
+
+**Why these specific values:**
+- Calibrated against the 691-constraint corpus to minimize classification errors
+- Chosen to separate observed clusters (constraints do cluster, not distribute evenly)
+- The exact numbers are less important than the routing being consistent across cases
+
+**The productive question isn't "are these thresholds objectively correct?"** It's "do these thresholds route to appropriate action?" If two analysts estimate ε = 0.38 and ε = 0.44 and both land in Tangled Rope territory, the disagreement is operationally irrelevant. If one gets 0.44 and the other 0.48, that routing divergence is worth investigating.
+
+See `metrics_as_routing.md` for the complete routing-vs-truth distinction.
 
 ---
 
@@ -526,7 +539,7 @@ See `validation_report.md` Finding 6 for complete calibration methodology.
 - A systematic method for constraint classification
 - A set of diagnostic tests to prevent common errors
 - A vocabulary for discussing ambiguous situations
-- An empirically grounded starting point (467 constraints, 0% collisions)
+- An empirically grounded starting point (691 constraints, 0% collisions)
 
 **Framework is NOT:**
 - Infallible oracle of truth
@@ -555,7 +568,7 @@ See `validation_report.md` Finding 6 for complete calibration methodology.
 - When you're confident, verify against framework as sanity check
 
 **4. Contribute to refinement**
-- Framework is version 3.2, not final truth
+- Framework is version 4.1, not final truth
 - External validation ongoing
 - Your domain expertise improves collective knowledge
 - Report adjustments, challenges, improvements
@@ -611,25 +624,25 @@ See `validation_report.md` Finding 6 for complete calibration methodology.
 
 **Version control and transparent revision process:**
 
-**Current version:** 3.2 (January 2026)
+**Current version:** 4.1 (February 2026)
 
 **Revision triggers:**
 
 **1. Collision detection** (high priority)
 - Same indices → different types = falsification
 - Requires either: additional indices, category refinement, or framework replacement
-- Would trigger major version increment (4.0)
+- Would trigger major version increment (5.0)
 
 **2. New category discovery** (medium priority)
-- Pattern mining reveals stable cluster not captured by four categories
+- Pattern mining reveals stable cluster not captured by six categories
 - Prevalence >10% of corpus
 - Functionally distinct from existing categories
-- Would trigger minor version increment (3.3)
+- Would trigger minor version increment (4.2)
 
 **3. Threshold recalibration** (low priority)
 - New corpus analysis suggests different power modifiers
 - Domain-specific adjustments validated
-- Would trigger patch version increment (3.2.1)
+- Would trigger patch version increment (4.1.1)
 
 **4. Documentation clarity** (ongoing)
 - Misunderstandings reveal communication failures
@@ -652,10 +665,10 @@ See `validation_report.md` Finding 6 for complete calibration methodology.
 - See `validation_report.md` for current known limitations
 
 **Current known issues requiring future revision:**
-- Cross-cultural validation (may require category adjustment)
-- Temporal dynamics (Rope → Tangled Rope transitions not well specified)
-- Piton status (degradation state vs. distinct category)
-- Scaffold permanence drift (systematic pattern vs. exceptional failure)
+- Cross-cultural validation (may require category adjustment for non-WEIRD contexts)
+- Tangled Rope subtypes (by-design vs. by-drift — formalization pending)
+- Perceived vs. actual power sub-framework (π currently treats power as given)
+- Self-application paragraph (framework's own constraint status unexamined)
 
 ---
 
@@ -676,8 +689,8 @@ See `validation_report.md` Finding 6 for complete calibration methodology.
 
 **3. Category proliferation**
 - Require 10+ categories to classify constraints without forcing
-- Four categories become minority of actual classifications
-- **Indicates:** Four-category structure was arbitrary, not natural
+- Six categories become minority of actual classifications
+- **Indicates:** Six-category structure was arbitrary, not natural
 
 **4. Complete context-dependence**
 - Framework works only for Western, contemporary, analyzed-by-framework-creator contexts
@@ -721,6 +734,6 @@ These FAQs reveal a pattern: **Most objections stem from either misunderstanding
 
 ---
 
-**Deferential Realism FAQ v3.2**  
-**January 2026**  
-**Word count: ~6,500 words**
+**Deferential Realism FAQ v4.1**  
+**February 2026**  
+**Word count: ~7,000 words**

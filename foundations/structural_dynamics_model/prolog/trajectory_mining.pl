@@ -51,7 +51,9 @@
 :- use_module(narrative_ontology).
 :- use_module(drl_core).
 :- use_module(constraint_indexing).
-:- use_module(structural_signatures).
+:- use_module(boltzmann_compliance, [cross_index_coupling/2, boltzmann_compliant/2]).
+:- use_module(signature_detection, [constraint_signature/2]).
+:- use_module(purity_scoring, [purity_score/2]).
 :- use_module(dirac_classification).
 :- use_module(logical_fingerprint).
 :- use_module(drl_lifecycle).
@@ -175,17 +177,17 @@ build_trajectory_summary(C, Summary) :-
     ;   Preservation = unknown
     ),
     % Coupling
-    (   catch(structural_signatures:cross_index_coupling(C, Coupling), _, fail)
+    (   catch(boltzmann_compliance:cross_index_coupling(C, Coupling), _, fail)
     ->  true
     ;   Coupling = 0.0
     ),
     % Purity
-    (   catch(structural_signatures:purity_score(C, Purity), _, fail)
+    (   catch(purity_scoring:purity_score(C, Purity), _, fail)
     ->  true
     ;   Purity = -1.0
     ),
     % Signature
-    (   catch(structural_signatures:constraint_signature(C, Sig), _, fail)
+    (   catch(signature_detection:constraint_signature(C, Sig), _, fail)
     ->  true
     ;   Sig = unknown
     ),
@@ -207,7 +209,7 @@ build_trajectory_summary(C, Summary) :-
     ;   Zone = zone(unknown, unknown)
     ),
     % Boltzmann compliance
-    (   catch(structural_signatures:boltzmann_compliant(C, Boltzmann), _, fail)
+    (   catch(boltzmann_compliance:boltzmann_compliant(C, Boltzmann), _, fail)
     ->  true
     ;   Boltzmann = inconclusive(no_data)
     ),
@@ -286,28 +288,28 @@ type_distance_lookup(mountain, scaffold, 0.7).
 type_distance_lookup(mountain, snare, 1.0).
 type_distance_lookup(mountain, tangled_rope, 0.9).
 type_distance_lookup(mountain, unknown, 0.5).
-type_distance_lookup(mountain, indexically_opaque, 0.5).
+type_distance_lookup(mountain, naturalized, 0.5).
 type_distance_lookup(piton, rope, 0.4).
 type_distance_lookup(piton, scaffold, 0.3).
 type_distance_lookup(piton, snare, 0.6).
 type_distance_lookup(piton, tangled_rope, 0.5).
 type_distance_lookup(piton, unknown, 0.4).
-type_distance_lookup(piton, indexically_opaque, 0.4).
+type_distance_lookup(piton, naturalized, 0.4).
 type_distance_lookup(rope, scaffold, 0.2).
 type_distance_lookup(rope, snare, 0.6).
 type_distance_lookup(rope, tangled_rope, 0.3).
 type_distance_lookup(rope, unknown, 0.4).
-type_distance_lookup(rope, indexically_opaque, 0.4).
+type_distance_lookup(rope, naturalized, 0.4).
 type_distance_lookup(scaffold, snare, 0.5).
 type_distance_lookup(scaffold, tangled_rope, 0.4).
 type_distance_lookup(scaffold, unknown, 0.4).
-type_distance_lookup(scaffold, indexically_opaque, 0.4).
+type_distance_lookup(scaffold, naturalized, 0.4).
 type_distance_lookup(snare, tangled_rope, 0.3).
 type_distance_lookup(snare, unknown, 0.4).
-type_distance_lookup(snare, indexically_opaque, 0.4).
+type_distance_lookup(snare, naturalized, 0.4).
 type_distance_lookup(tangled_rope, unknown, 0.4).
-type_distance_lookup(tangled_rope, indexically_opaque, 0.4).
-type_distance_lookup(indexically_opaque, unknown, 0.3).
+type_distance_lookup(tangled_rope, naturalized, 0.4).
+type_distance_lookup(naturalized, unknown, 0.3).
 
 %% trajectory_distance(+C1, +C2, +Context, -Distance)
 %  Computes the weighted 4-component distance between two trajectories.
@@ -762,8 +764,8 @@ compute_isomorphism_evidence(C1, C2, Evidence) :-
     ),
     % Coupling band match
     config:param(trajectory_coupling_band_width, BandWidth),
-    (   catch(structural_signatures:cross_index_coupling(C1, Coup1), _, fail),
-        catch(structural_signatures:cross_index_coupling(C2, Coup2), _, fail)
+    (   catch(boltzmann_compliance:cross_index_coupling(C1, Coup1), _, fail),
+        catch(boltzmann_compliance:cross_index_coupling(C2, Coup2), _, fail)
     ->  (abs(Coup1 - Coup2) =< BandWidth -> CouplingMatch = true ; CouplingMatch = false)
     ;   CouplingMatch = unknown
     ),
@@ -914,7 +916,7 @@ ensure_maxent(Context) :-
 
 trajectory_selftest :-
     format('=== Trajectory Mining Self-Test ===~n~n'),
-    covering_analysis:load_all_testsets,
+    corpus_loader:load_all_testsets,
     constraint_indexing:default_context(Context),
 
     format('Running trajectory mining...~n'),

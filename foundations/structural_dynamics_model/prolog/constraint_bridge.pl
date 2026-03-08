@@ -1,5 +1,5 @@
 :- module(constraint_bridge, [
-    dr_diagnostic_report/1,
+    derive_diagnostic_state/1,
     constraint_status/3,
     recommendation_feasibility/3,
     derive_veto_actors/0
@@ -98,7 +98,7 @@ compute_veto_actors(Actors) :-
 
 %% derive_veto_actors
 %  Legacy API: computes veto actors and asserts them into narrative_ontology.
-%  Kept for backward compatibility with dr_diagnostic_report/1.
+%  Kept for backward compatibility with derive_diagnostic_state/1.
 derive_veto_actors :-
     compute_veto_actors(Actors),
     forall(
@@ -107,36 +107,13 @@ derive_veto_actors :-
     ).
 
 
-%% dr_diagnostic_report(+IntervalID)
-%  Enhanced v4.1: Consolidates diagnostic reporting with High-Risk Isomorphism Alerting.
-dr_diagnostic_report(IntervalID) :-
-    % Automated Veto Player Derivation
-    derive_veto_actors,
-    
-    format('~n=== DEFERENTIAL REALISM (DR) DIAGNOSTIC: ~w ===~n', [IntervalID]),
-    
-    % --- SECTION 1: CONSTRAINT INVENTORY ---
-    format('~n[CONSTRAINT INVENTORY]~n'),
-    (   setof(line(Name, State, Intensity), 
-              (constraint_status(Name, State, Intensity), 
-               narrative_ontology:constraint_metric(Name, _, _)), 
-              UniqueLines)
-    ->  forall(member(line(N, S, I), UniqueLines),
-               (   format('  - ~w: ~w (Intensity: ~2f)~n', [N, S, I]),
-                   % Trigger Isomorphism Check for High-Risk Types
-                   check_for_social_twins(N, S)
-               ))
-    ;   format('  No active constraints found.~n')
-    ),
-    
-    % --- SECTION 2: FEASIBILITY BRIDGE ---
-    format('~n[FEASIBILITY BRIDGE]~n'),
-    % Using _ConsName resolves the singleton variable warning
-    forall((narrative_ontology:recommendation(RID, Summary),
-            narrative_ontology:affects_constraint(RID, _ConsName)),
-           (recommendation_feasibility(RID, Stat, Vs),
-            format('  - ~w (~w): ~w | Vetoes: ~w~n', [RID, Summary, Stat, Vs]))),
-    format('====================================================~n').
+%% derive_diagnostic_state(+IntervalID)
+%  Derives veto actors and other diagnostic state needed by downstream
+%  report sections (UKE_DR feasibility bridge, recommendation_feasibility/3).
+%  Formerly dr_diagnostic_report/1 — header output removed since the
+%  original diagnostic sections (7a/7b) were cut.
+derive_diagnostic_state(_IntervalID) :-
+    derive_veto_actors.
 
 %% check_for_social_twins(+Name, +State)
 %  Internal helper that alerts the user if a high-risk technical constraint 

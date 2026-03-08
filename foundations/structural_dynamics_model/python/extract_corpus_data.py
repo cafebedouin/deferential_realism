@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
 """
-Corpus Data Extractor - Parses both output.txt and raw .pl files
+Corpus Data Extractor - Parses pipeline_output.json
 
-Combines:
-- Diagnostic output from Prolog engine (output.txt)
-- Raw structural data from .pl files
-- Merges into unified constraint objects
+Reads all constraint metadata from pipeline_output.json (the single authoritative
+source) and enriches with orbit data from orbit_data.json.
 """
 
-import re
 import json
 from pathlib import Path
 from collections import defaultdict
@@ -37,10 +34,11 @@ class ConstraintData:
         # Classifications (multiple per constraint)
         self.classifications = []  # [(type, context), ...]
 
-        # From output.txt analysis
+        # From pipeline analysis
         self.structural_signature = None
         self.is_constructed = None
         self.omegas = []
+        self.maxent_probs = None
 
         # Orbit data (from orbit_data.json)
         self.orbit_signature = None
@@ -74,6 +72,7 @@ class ConstraintData:
                 'structural_signature': self.structural_signature,
                 'is_constructed': self.is_constructed,
                 'omegas': self.omegas,
+                'maxent_probs': self.maxent_probs,
                 'variance_ratio': self.variance_ratio,
                 'index_configs': self.index_configs_count,
                 'types_produced': self.types_produced_count,
@@ -85,269 +84,79 @@ class ConstraintData:
 class CorpusExtractor:
     """Main extraction engine"""
 
-    def __init__(self, output_txt_path, testsets_dir):
+    def __init__(self, output_txt_path):
         self.output_txt_path = Path(output_txt_path)
-        self.testsets_dir = Path(testsets_dir)
         self.constraints = {}  # id -> ConstraintData
 
     def extract_all(self):
         """Run complete extraction pipeline"""
-        print("Step 1: Parsing output.txt...")
-        self.parse_output_txt()
+        print("Step 1: Parsing pipeline_output.json...")
+        self.parse_pipeline_json()
 
-        print("Step 2: Parsing raw .pl files...")
-        self.parse_pl_files()
-
-        print("Step 3: Calculating derived metrics...")
+        print("Step 2: Calculating derived metrics...")
         self.calculate_variance()
 
-        print("Step 4: Inferring missing data...")
+        print("Step 3: Inferring missing data...")
         self.infer_domains()
 
-        print("Step 5: Loading orbit data...")
+        print("Step 4: Loading orbit data...")
         self.load_orbit_data()
 
         return self.constraints
 
-    def parse_output_txt(self):
-        """Extract diagnostic data from Prolog engine output"""
-        if not self.output_txt_path.exists():
-            print(f"Warning: {self.output_txt_path} not found")
+    def parse_pipeline_json(self):
+        """Extract all constraint data from pipeline_output.json"""
+        pipeline_path = self.output_txt_path.parent / 'pipeline_output.json'
+        if not pipeline_path.exists():
+            print(f"Warning: {pipeline_path} not found")
             return
 
-        with open(self.output_txt_path, 'r', encoding='utf-8') as f:
-            content = f.read()
+        with open(pipeline_path, 'r', encoding='utf-8') as f:
+            pipeline = json.load(f)
 
-        # Build a mapping from internal constraint IDs (from interval/3) to
-        # filename-based IDs.  output.txt has lines like:
-        #   [7] EXECUTING: testsets/continuum_hypothesis_2026.pl
-        #   ...
-        #   Constraint: ch_undecidability_2026
-        # We use the filename stem as the canonical ID to avoid double-counting.
-        internal_to_filename = {}
-        current_filename_id = None
-        for line in content.splitlines():
-            exec_match = re.search(r'EXECUTING:\s+testsets/(.+?)\.pl', line)
-            if exec_match:
-                current_filename_id = exec_match.group(1)
-            constraint_match = re.search(r'^Constraint:\s+(\w+)', line)
-            if constraint_match and current_filename_id:
-                internal_id = constraint_match.group(1)
-                if internal_id != current_filename_id:
-                    internal_to_filename[internal_id] = current_filename_id
+        for entry in pipeline['per_constraint']:
+            cid = entry['id']
+            constraint = self.constraints.setdefault(cid, ConstraintData(cid))
 
-        # Split into constraint blocks
-        # Pattern: "Constraint: {id}" starts a block
-        constraint_blocks = re.split(r'(?=Constraint:\s+\w+)', content)
+            # Direct field mapping
+            constraint.claimed_type = entry.get('claimed_type')
+            constraint.extractiveness = entry.get('base_extractiveness')
+            constraint.suppression = entry.get('suppression')
+            constraint.resistance = entry.get('resistance')
+            constraint.beneficiaries = entry.get('beneficiaries', [])
+            constraint.victims = entry.get('victims', [])
 
-        for block in constraint_blocks:
-            if not block.strip():
-                continue
+            # Fields previously parsed from .pl files
+            constraint.human_readable = entry.get('human_readable')
+            # Prefer topic_domain (subject area) over domain (classification type)
+            constraint.domain = entry.get('topic_domain') or entry.get('domain')
+            constraint.emerges_naturally = entry.get('emerges_naturally')
+            constraint.requires_enforcement = entry.get('requires_active_enforcement')
 
-            # Extract constraint ID
-            id_match = re.search(r'Constraint:\s+(\w+)', block)
-            if not id_match:
-                continue
+            # MaxEnt probability distributions
+            maxent = entry.get('maxent_probs')
+            if maxent and isinstance(maxent, dict):
+                constraint.maxent_probs = maxent
 
-            internal_id = id_match.group(1)
-            # Use filename-based ID as canonical key when available
-            constraint_id = internal_to_filename.get(internal_id, internal_id)
+            # Signature → is_constructed + structural_signature
+            sig = entry.get('signature')
+            if sig:
+                constraint.structural_signature = sig
+                constraint.is_constructed = sig not in ('natural_law',)
 
-            # Get or create constraint data
-            if constraint_id not in self.constraints:
-                self.constraints[constraint_id] = ConstraintData(constraint_id)
+            # Omegas
+            for omega in entry.get('omegas', []):
+                constraint.omegas.append({
+                    'id': omega['id'],
+                    'type': omega['type']
+                })
 
-            constraint = self.constraints[constraint_id]
-
-            # Extract claimed type (first encountered wins — the file's
-            # declared type takes priority over bridge-derived types from
-            # internal/interval IDs that map to the same canonical ID)
-            type_match = re.search(r'Claimed Type:\s+(\w+)', block)
-            if type_match and not constraint.claimed_type:
-                constraint.claimed_type = type_match.group(1)
-
-            # Extract perspectives/classifications
-            perspectives_section = re.search(
-                r'Perspectives:(.*?)(?=\n\n|\nConstraint:|\Z)',
-                block,
-                re.DOTALL
-            )
-
-            if perspectives_section:
-                persp_text = perspectives_section.group(1)
-                # Parse lines like: "- [context(...)]: type"
-                for match in re.finditer(
-                    r'-\s*\[([^\]]+)\]:\s*(\w+)',
-                    persp_text
-                ):
-                    context_str = match.group(1)
-                    constraint_type = match.group(2)
-                    constraint.classifications.append((constraint_type, context_str))
-
-            # Extract extractiveness
-            extr_match = re.search(
-                r'extractive_noose.*?Intensity:\s*([\d.]+)',
-                block
-            )
-            if extr_match:
-                constraint.extractiveness = float(extr_match.group(1))
-
-            # Alternative extraction pattern
-            extr_match2 = re.search(r'Base Extractiveness:\s*([\d.]+)', block)
-            if extr_match2:
-                constraint.extractiveness = float(extr_match2.group(1))
-
-            # Extract suppression
-            supp_match = re.search(r'Suppression Requirement:\s*([\d.]+)', block)
-            if supp_match:
-                constraint.suppression = float(supp_match.group(1))
-
-            # Extract resistance
-            resist_match = re.search(r'Resistance to Change:\s*([\d.]+)', block)
-            if resist_match:
-                constraint.resistance = float(resist_match.group(1))
-
-            # Detect constructed constraint
-            if 'CONSTRUCTED CONSTRAINT signature' in block:
-                constraint.is_constructed = True
-                constraint.structural_signature = 'constructed'
-            elif 'natural_constraint' in block.lower():
-                constraint.is_constructed = False
-                constraint.structural_signature = 'natural'
-
-            # Extract omegas
-            for omega_match in re.finditer(r'Ω:\s+(omega_\w+)\s+\((\w+)\)', block):
-                omega_id = omega_match.group(1)
-                omega_type = omega_match.group(2)
-                constraint.omegas.append({'id': omega_id, 'type': omega_type})
-
-    def parse_pl_files(self):
-        """Extract structured data from raw .pl files"""
-        if not self.testsets_dir.exists():
-            print(f"Warning: {self.testsets_dir} not found")
-            return
-
-        pl_files = list(self.testsets_dir.glob('*.pl'))
-        print(f"  Found {len(pl_files)} .pl files")
-
-        for filepath in pl_files:
-            constraint_id = filepath.stem
-
-            try:
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    content = f.read()
-            except Exception as e:
-                print(f"  Error reading {filepath.name}: {e}")
-                continue
-
-            # Get or create constraint
-            if constraint_id not in self.constraints:
-                self.constraints[constraint_id] = ConstraintData(constraint_id)
-
-            constraint = self.constraints[constraint_id]
-
-            # Extract human-readable description
-            hr_match = re.search(r'human_readable:\s*["\']([^"\']+)["\']', content)
-            if hr_match:
-                constraint.human_readable = hr_match.group(1)
-
-            # Extract domain
-            domain_match = re.search(r'domain:\s*(\w+)', content)
-            if domain_match:
-                constraint.domain = domain_match.group(1)
-
-            # Alternative domain extraction from category_of
-            cat_match = re.search(
-                r'domain_priors:category_of\([^,]+,\s*(\w+)\)',
-                content
-            )
-            if cat_match and not constraint.domain:
-                constraint.domain = cat_match.group(1)
-
-            # Extract base_extractiveness
-            extr_match = re.search(
-                r'base_extractiveness\([^,]+,\s*([\d.]+)\)',
-                content
-            )
-            if extr_match and not constraint.extractiveness:
-                constraint.extractiveness = float(extr_match.group(1))
-
-            # Extract suppression_score
-            supp_match = re.search(
-                r'suppression_score\([^,]+,\s*([\d.]+)\)',
-                content
-            )
-            if supp_match and not constraint.suppression:
-                constraint.suppression = float(supp_match.group(1))
-
-            # Extract emerges_naturally
-            if re.search(r'emerges_naturally\([^)]+\)', content):
-                constraint.emerges_naturally = True
-                constraint.requires_enforcement = False
-
-            # Extract requires_active_enforcement
-            if re.search(r'requires_active_enforcement\([^)]+\)', content):
-                constraint.requires_enforcement = True
-                constraint.emerges_naturally = False
-
-            # Extract beneficiaries
-            for ben_match in re.finditer(
-                r'constraint_beneficiary\([^,]+,\s*(\w+)\)',
-                content
-            ):
-                beneficiary = ben_match.group(1)
-                if beneficiary not in constraint.beneficiaries:
-                    constraint.beneficiaries.append(beneficiary)
-
-            # Extract victims
-            for vic_match in re.finditer(
-                r'constraint_victim\([^,]+,\s*(\w+)\)',
-                content
-            ):
-                victim = vic_match.group(1)
-                if victim not in constraint.victims:
-                    constraint.victims.append(victim)
-
-            # Extract claimed type from constraint_claim
-            claim_match = re.search(
-                r'constraint_claim\([^,]+,\s*(\w+)\)',
-                content
-            )
-            if claim_match and not constraint.claimed_type:
-                constraint.claimed_type = claim_match.group(1)
-
-            # Extract classifications
-            # Pattern: constraint_classification(id, type, context(...))
-            # Only match valid type atoms (lowercase) — excludes Prolog variables
-            # like Type1, T1, etc. that appear in test blocks
-            for class_match in re.finditer(
-                r'constraint_classification\s*\(\s*[^,]+,\s*(mountain|rope|tangled_rope|snare|scaffold|piton),\s*context\(([^)]+)\)',
-                content,
-                re.DOTALL
-            ):
-                constraint_type = class_match.group(1)
-                context_params = class_match.group(2)
-
-                # Parse context parameters
-                # agent_power(X), time_horizon(Y), exit_options(Z), spatial_scope(W)
-                context_dict = {}
-                for param in ['agent_power', 'time_horizon', 'exit_options', 'spatial_scope']:
-                    param_match = re.search(
-                        rf'{param}\(([^)]+)\)',
-                        context_params
-                    )
-                    if param_match:
-                        context_dict[param] = param_match.group(1).strip()
-
-                # Create context tuple for comparison
-                context_tuple = (
-                    context_dict.get('agent_power'),
-                    context_dict.get('time_horizon'),
-                    context_dict.get('exit_options'),
-                    context_dict.get('spatial_scope')
-                )
-
-                constraint.classifications.append((constraint_type, context_tuple))
+            # Classifications from authoritative classifications array
+            for cls in entry.get('classifications', []):
+                constraint.classifications.append((
+                    cls['type'],
+                    cls['context']
+                ))
 
     def calculate_variance(self):
         """Calculate variance ratios for each constraint"""
@@ -358,13 +167,14 @@ class CorpusExtractor:
                 constraint.types_produced_count = 0
                 continue
 
-            # Get unique index configs
+            # Get unique index configs (convert dicts to frozen tuples for set membership)
             unique_contexts = set()
             for _, context in constraint.classifications:
-                if isinstance(context, tuple):
+                if isinstance(context, dict):
+                    unique_contexts.add(tuple(sorted(context.items())))
+                elif isinstance(context, tuple):
                     unique_contexts.add(context)
                 else:
-                    # String representation - count it
                     unique_contexts.add(context)
 
             constraint.index_configs_count = len(unique_contexts)
@@ -436,43 +246,12 @@ class CorpusExtractor:
             print(f"  Error reading orbit_data.json: {e}")
             return
 
-        # Build reverse mapping: internal_id → set of filenames that define it
-        internal_to_filenames = {}
-        id_pattern = re.compile(
-            r'(?:constraint_metric|base_extractiveness)\s*\(\s*(\w+)\s*,'
-        )
-        if self.testsets_dir.exists():
-            for pl_file in self.testsets_dir.glob('*.pl'):
-                try:
-                    content = pl_file.read_text(encoding='utf-8', errors='replace')
-                except OSError:
-                    continue
-                for match in id_pattern.finditer(content):
-                    atom = match.group(1)
-                    if atom[0].isupper() or atom.startswith('_'):
-                        continue
-                    if atom not in internal_to_filenames:
-                        internal_to_filenames[atom] = set()
-                    internal_to_filenames[atom].add(pl_file.stem)
-
         matched = 0
         for cid, entry in orbit_data.items():
-            sig = entry.get('orbit_signature')
-            ctx = entry.get('contexts')
-            # Try direct match (internal ID == corpus ID)
             if cid in self.constraints:
-                self.constraints[cid].orbit_signature = sig
-                self.constraints[cid].orbit_contexts = ctx
+                self.constraints[cid].orbit_signature = entry.get('orbit_signature')
+                self.constraints[cid].orbit_contexts = entry.get('contexts')
                 matched += 1
-            else:
-                # Try filename-based match via reverse mapping
-                for fname in internal_to_filenames.get(cid, set()):
-                    if fname in self.constraints:
-                        self.constraints[fname].orbit_signature = sig
-                        self.constraints[fname].orbit_contexts = ctx
-                        matched += 1
-                        break
-
         print(f"  Matched orbit data for {matched}/{len(orbit_data)} constraints")
 
     def save_json(self, output_path):
@@ -510,17 +289,12 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(
-        description='Extract corpus data from output.txt and .pl files'
+        description='Extract corpus data from pipeline_output.json'
     )
     parser.add_argument(
         '--output-txt',
         default='../outputs/output.txt',
-        help='Path to output.txt'
-    )
-    parser.add_argument(
-        '--testsets',
-        default='../prolog/testsets/',
-        help='Path to testsets directory'
+        help='Path to outputs directory anchor (pipeline_output.json is read as sibling)'
     )
     parser.add_argument(
         '--json-output',
@@ -530,7 +304,7 @@ def main():
 
     args = parser.parse_args()
 
-    extractor = CorpusExtractor(args.output_txt, args.testsets)
+    extractor = CorpusExtractor(args.output_txt)
     constraints = extractor.extract_all()
 
     print(f"\nExtracted {len(constraints)} constraints")

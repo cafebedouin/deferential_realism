@@ -1,0 +1,136 @@
+{
+  "header": {
+    "constraint_id": "epistemic_process_of_verification_u2_exp_r5",
+    "version": "1.0",
+    "generated_date": "2023-10-27",
+    "status": "ACTIVE",
+    "module_name_override": "constraint_epistemic_process_of_verification_u2_exp_r5"
+  },
+  "base_properties": {
+    "extractiveness": 0.48,
+    "suppression": 0.62,
+    "theater_ratio": 0.3,
+    "claimed_type": "tangled_rope",
+    "human_readable": "Epistemic Process of Scientific Verification",
+    "topic_domain": "scientific/epistemology",
+    "requires_active_enforcement": true,
+    "beneficiaries": [
+      "established_principal_investigators",
+      "funding_agencies",
+      "scientific_community_at_large"
+    ],
+    "victims": [
+      "junior_researchers_postdocs",
+      "researchers_at_underfunded_institutions",
+      "proposers_of_novel_paradigms"
+    ]
+  },
+  "perspectives": [
+    {
+      "classification_type": "snare",
+      "agent_power": "powerless",
+      "time_horizon": "biographical",
+      "exit_options": "trapped",
+      "spatial_scope": "national",
+      "label": "The Junior Researcher",
+      "comment": "For the postdoc or graduate student whose career depends on successfully navigating this process, it feels like a high-stakes snare. The cost of failed replication (in time and reputation) is borne personally, while the benefits of successful replication are diffuse."
+    },
+    {
+      "classification_type": "rope",
+      "agent_power": "institutional",
+      "time_horizon": "generational",
+      "exit_options": "arbitrage",
+      "spatial_scope": "global",
+      "label": "The Established Principal Investigator",
+      "comment": "From the perspective of a tenured lab head, the process is a pure coordination mechanism (Rope) that filters out noise, protects the field's integrity, and ensures that new claims are robust before they overturn established work."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "institutional",
+      "time_horizon": "biographical",
+      "exit_options": "constrained",
+      "spatial_scope": "national",
+      "label": "The Funding Agency Program Manager",
+      "comment": "The funder sees both sides. They need the coordination to ensure their investments produce reliable knowledge, but they are also aware of the immense waste and human cost (extraction) involved in the process."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "analytical",
+      "time_horizon": "civilizational",
+      "exit_options": "analytical",
+      "spatial_scope": "global",
+      "label": "The Historian of Science",
+      "comment": "The analytical view recognizes the essential coordination function for building reliable collective knowledge, while also acknowledging the significant and asymmetric costs extracted from the most vulnerable participants in the system."
+    }
+  ],
+  "omegas": [
+    {
+      "id": "verification_cost_necessity",
+      "question": "Is the high cost imposed on junior researchers an unavoidable feature of epistemic rigor, or a contingent bug of the current academic incentive structure?",
+      "resolution_mechanism": "Comparative analysis of outcomes from alternative scientific structures, such as registered reports, lottery-based funding, or different models for crediting replication work.",
+      "impact": "If the cost is a necessary feature, the constraint is closer to a harsh Rope. If it's a contingent bug, it is a classic Tangled Rope that is a prime target for reform.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Whether the high extraction from junior scientists is a necessary feature or a reformable bug."
+    }
+  ],
+  "measurements": [
+    {
+      "metric": "base_extractiveness",
+      "time_point": 1970,
+      "value": 0.3
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 1995,
+      "value": 0.4
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 2020,
+      "value": 0.48
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 1970,
+      "value": 0.1
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 1995,
+      "value": 0.22
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 2020,
+      "value": 0.3
+    }
+  ],
+  "interval": {
+    "start": 1970,
+    "end": 2020
+  },
+  "commentary": {
+    "narrative_context": "This constraint represents the scientific method's requirement for independent replication before a claim is accepted. While it serves an essential coordination function for the entire scientific community\u2014building a shared, reliable map of reality\u2014it imposes immense, asymmetric costs on junior researchers, who perform the bulk of this high-risk labor. The process filters noise but also extracts career potential and resources from its most vulnerable participants.",
+    "key_agents": [
+      "Junior Researchers/Postdocs: Primary targets (powerless/trapped) who bear the labor and career risk of replication.",
+      "Established Principal Investigators: Primary beneficiaries (institutional/arbitrage) who benefit from the system's stability and quality control.",
+      "Funding Agencies: Institutional enforcers (institutional/constrained) who require verification to justify resource allocation.",
+      "Researchers at underfunded institutions: Secondary victims (moderate/constrained) who are often excluded from participating in cutting-edge verification due to high equipment costs."
+    ],
+    "logic_rationale": "The base extractiveness (\u03b5=0.48) reflects the significant cost in time, resources, and career risk imposed on those performing replication. The suppression score (0.62) represents the high bar set by peer review, the cost of entry for building a capable lab, and the institutional pressure to conform to established paradigms. The process is actively enforced by the entire academic apparatus of peer review, grant allocation, and tenure.",
+    "perspectival_gap": "The gap is stark: for the established PI, the system is a Rope that ensures quality. For the postdoc whose career hinges on replicating a novel, potentially spurious result, it is a Snare. The PI has already passed through the filter and now benefits from its operation, while the postdoc is the one being filtered, bearing the full cost of failure.",
+    "directionality_logic": "Beneficiaries are the established scientific players and the community at large, who receive a reliable knowledge base. The victims are the junior researchers and those at less-prestigious institutions who provide the labor and absorb the risk for this public good. The flow of value is from the labor and risk-taking of the precarious to the stability and certainty of the established.",
+    "mandatrophy_analysis": "Classifying this process as a pure Rope would be a classic mandatrophy error, ignoring the severe extraction from postdocs. Classifying it as a pure Snare would be equally wrong, as it would deny the indispensable coordination function it provides for all of science. The Tangled Rope classification correctly identifies its dual nature: a system of coordination built upon a foundation of asymmetric extraction."
+  },
+  "boltzmann": {
+    "coordination_type": "information_standard"
+  },
+  "network": {
+    "affects_constraints": [
+      "academic_tenure_system",
+      "grant_funding_process",
+      "journal_peer_review"
+    ]
+  }
+}

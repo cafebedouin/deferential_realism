@@ -1,0 +1,3467 @@
+{
+  "generated": "2026-02-24T14:13:05.232068",
+  "population_size": 36,
+  "population_definition": "subtype == 'rope_dominant' in tangled_gradient_data (max g_chi < 0.30 across all 4 perspectives)",
+  "config": {
+    "rope_chi_ceiling": 0.35,
+    "snare_chi_floor": 0.66,
+    "subtype_rope_threshold": 0.3,
+    "low_epsilon_threshold": 0.15,
+    "sigmoid_compression_threshold": 0.5,
+    "fd_spread_threshold": 0.1,
+    "reclassify_epsilon_ceiling": 0.1,
+    "keep_epsilon_floor": 0.2
+  },
+  "summary": {
+    "n": 36,
+    "diagnostic_counts": {
+      "low_epsilon_trivial": 3,
+      "sigmoid_compressed": 0,
+      "low_fd_spread": 0,
+      "chi_override_overlap": 0,
+      "perspective_divergent": 15,
+      "has_tangled_or_snare_label": 36
+    },
+    "epsilon_stats": {
+      "n": 36,
+      "mean": 0.234722,
+      "median": 0.25,
+      "std": 0.06817,
+      "min": 0.1,
+      "max": 0.32,
+      "q25": 0.2,
+      "q75": 0.3
+    },
+    "max_chi_stats": {
+      "n": 36,
+      "mean": 0.321553,
+      "median": 0.342483,
+      "std": 0.093388,
+      "min": 0.136993,
+      "max": 0.438378,
+      "q25": 0.273986,
+      "q75": 0.410979
+    },
+    "domain_distribution": {
+      "technological/economic": 5,
+      "economic": 2,
+      "economic/political": 2,
+      "economic/social": 2,
+      "political": 2,
+      "technological": 2,
+      "economic/technological": 2,
+      "political/environmental": 1,
+      "investigation/testing": 1,
+      "technological/mathematical": 1,
+      "mathematical/logical": 1,
+      "mathematical/philosophical": 1,
+      "social/ethical": 1,
+      "legal/geopolitical/environmental": 1,
+      "technological/cognitive": 1,
+      "religious/philosophical/social": 1,
+      "political/religious": 1,
+      "technological/legal/economic": 1,
+      "technological/scientific": 1,
+      "health/medical": 1,
+      "technological/social": 1,
+      "medical/health": 1,
+      "social/technological/biological": 1,
+      "political/legal": 1
+    },
+    "recommendation_tiers": {
+      "keep": 27,
+      "investigate": 9
+    }
+  },
+  "per_constraint": {
+    "china_africa_zero_tariff_2026": {
+      "id": "china_africa_zero_tariff_2026",
+      "human_readable": "China-Africa Zero-Tariff Trade Framework",
+      "topic_domain": "economic",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.32,
+      "suppression": 0.45,
+      "theater_ratio": 0.2,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.347803,
+          "gradient": -0.007087
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.354077,
+          "gradient": 0.013152
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.013521,
+          "gradient": -1.172648
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.438378,
+          "gradient": 0.28509
+        }
+      },
+      "max_gradient": 0.28509,
+      "max_chi": 0.438378,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 3,
+        "rope": 1
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.06774,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "institutional_dissent"
+      },
+      "perspectival": {
+        "chi_variance": 0.315586,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.03032787,
+        "fd_fraction": 1.011964,
+        "range_chi": 0.451899,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "China implements zero-tariff treatment for 53 African nations to expand market access. While nominally a coordination mechanism (Rope) for trade, the inclusion of \"green channels\" and \"joint economic partnership pacts\" introduces structural extraction through standard-setting and diplomatic alignment. KEY AGENTS (by structural relationship): - smallholder_african_farmers: Primary target (powerless/trapped) \u2014 bears highest compliance costs, lacks capital to meet standards. - organized_african_exporters: Secondary target (moderate/constrained) \u2014 can meet standards but at a significant cost. - china_state_actors: Primary beneficiary (institutional/arbitrage) \u2014 gains geopolitical alignment and resource security. - focac_administrators: Analytical observer \u2014 monitors the Forum on China-Africa Cooperation (FOCAC) outcomes.",
+        "key_agents": "(by structural relationship): - smallholder_african_farmers: Primary target (powerless/trapped) \u2014 bears highest compliance costs, lacks capital to meet standards. - organized_african_exporters: Secondary target (moderate/constrained) \u2014 can meet standards but at a significant cost. - china_state_actors: Primary beneficiary (institutional/arbitrage) \u2014 gains geopolitical alignment and resource security. - focac_administrators: Analytical observer \u2014 monitors the Forum on China-Africa Cooperation (FOCAC) outcomes.",
+        "beneficiaries": [
+          "china_state_actors",
+          "_"
+        ],
+        "victims": [
+          "african_producers_and_exporters",
+          "_"
+        ],
+        "omega_questions": [
+          "Non-tariff barrier impact of green channel standards"
+        ],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.32) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "fiscal_equalization_friction": {
+      "id": "fiscal_equalization_friction",
+      "human_readable": "The Equalization Conflict (Net Transfer Friction)",
+      "topic_domain": "economic/political",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.32,
+      "suppression": 0.15,
+      "theater_ratio": 0.45,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.347803,
+          "gradient": -0.007087
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.354077,
+          "gradient": 0.013152
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.013521,
+          "gradient": -1.172648
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.438378,
+          "gradient": 0.28509
+        }
+      },
+      "max_gradient": 0.28509,
+      "max_chi": 0.438378,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.0,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.315586,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.03032787,
+        "fd_fraction": 1.011964,
+        "range_chi": 0.451899,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "Models the coordination mechanism of fiscal federalism in Canada, specifically the equalization program. This system transfers funds from wealthier (\"have\") provinces to less wealthy (\"have-not\") provinces to ensure comparable levels of public services. From the perspective of net contributor provinces like Alberta, this constitutional coordination tool is often perceived as a \"siphoning\" of resource wealth. KEY AGENTS (by structural relationship): - individual_taxpayer_in_alberta: Primary target (powerless/trapped) \u2014 Experiences tax outflow with no direct control or perceived return. - provincial_nationalist_bloc: Secondary target (moderate/constrained) \u2014 Politically frames the net fiscal outflow as extraction to argue for sovereignty. - federal_government: Primary beneficiary (institutional/arbitrage) \u2014 Maintains national standards and political stability through redistribution. - recipient_provinces: Secondary beneficiary (institutional/constrained) \u2014 Relies on transfers for service parity. - fiscal_analyst: Analytical observer \u2014 Evaluates net contribution formulas and their economic impact.",
+        "key_agents": "(by structural relationship): - individual_taxpayer_in_alberta: Primary target (powerless/trapped) \u2014 Experiences tax outflow with no direct control or perceived return. - provincial_nationalist_bloc: Secondary target (moderate/constrained) \u2014 Politically frames the net fiscal outflow as extraction to argue for sovereignty. - federal_government: Primary beneficiary (institutional/arbitrage) \u2014 Maintains national standards and political stability through redistribution. - recipient_provinces: Secondary beneficiary (institutional/constrained) \u2014 Relies on transfers for service parity. - fiscal_analyst: Analytical observer \u2014 Evaluates net contribution formulas and their economic impact.",
+        "beneficiaries": [
+          "federal_government_and_recipient_provinces"
+        ],
+        "victims": [
+          "net_contributor_provinces"
+        ],
+        "omega_questions": [
+          "Definitional threshold of fiscal fairness in a federal system"
+        ],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.32) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "oc_donation_model": {
+      "id": "oc_donation_model",
+      "human_readable": null,
+      "topic_domain": null,
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.32,
+      "suppression": 0.45,
+      "theater_ratio": 0.1,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.347803,
+          "gradient": -0.007087
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.354077,
+          "gradient": 0.013152
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.013521,
+          "gradient": -1.172648
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.438378,
+          "gradient": 0.28509
+        }
+      },
+      "max_gradient": 0.28509,
+      "max_chi": 0.438378,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 3,
+        "rope": 1
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.059744,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "institutional_dissent"
+      },
+      "perspectival": {
+        "chi_variance": 0.315586,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.03032787,
+        "fd_fraction": 1.011964,
+        "range_chi": 0.451899,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "Open Culture is a web-based cultural and educational aggregator that provides free access to a vast repository of high-quality content. The organization is sustained by a voluntary donation model, where a small fraction of users provide the financial support for the entire operation. This constraint is the funding mechanism itself: a system for solving a public goods problem that relies on asymmetric, non-coercive extraction. KEY AGENTS (by structural relationship): - Donors: Primary target (moderate/mobile) \u2014 The small subset of users who bear the financial cost of the service for everyone. - Open Culture Editors: Primary beneficiary (institutional/arbitrage) \u2014 The organization that uses the funds to operate and fulfill its mission. - Global Learners: Secondary beneficiary (powerless/mobile) \u2014 The vast majority of users who access the content for free. - Analytical Observer: Sees the full structure of coordination and asymmetric cost-bearing.",
+        "key_agents": "(by structural relationship): - Donors: Primary target (moderate/mobile) \u2014 The small subset of users who bear the financial cost of the service for everyone. - Open Culture Editors: Primary beneficiary (institutional/arbitrage) \u2014 The organization that uses the funds to operate and fulfill its mission. - Global Learners: Secondary beneficiary (powerless/mobile) \u2014 The vast majority of users who access the content for free. - Analytical Observer: Sees the full structure of coordination and asymmetric cost-bearing.",
+        "beneficiaries": [
+          "open_culture_editors",
+          "global_learners",
+          "_"
+        ],
+        "victims": [
+          "donors",
+          "_"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.32) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "blackstone_carried_interest_taxation": {
+      "id": "blackstone_carried_interest_taxation",
+      "human_readable": "Carried Interest Partnership Taxation",
+      "topic_domain": "economic/political",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.3,
+      "suppression": 0.7,
+      "theater_ratio": 0.1,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.326066,
+          "gradient": -0.077206
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.331948,
+          "gradient": -0.058232
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.012676,
+          "gradient": -1.169923
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.410979,
+          "gradient": 0.196706
+        }
+      },
+      "max_gradient": 0.196706,
+      "max_chi": 0.410979,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 2,
+        "rope": 2
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.781058,
+        "tangled_band": "snare_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "institutional_dissent"
+      },
+      "perspectival": {
+        "chi_variance": 0.277371,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02665538,
+        "fd_fraction": 1.011963,
+        "range_chi": 0.423655,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "The regulatory and tax framework in the United States that treats \"carried interest\" (performance fees) for partners in private equity and hedge funds as long-term capital gains rather than ordinary income. This results in a significantly lower tax rate. The constraint's existence relies on active lobbying and complex legal structuring to defend its status against legislative challenges that seek to reclassify it as income. KEY AGENTS (by structural relationship): - us_taxpayers: Primary target (powerless/trapped) \u2014 bear the cost via reduced public tax revenue, with no direct recourse. - private_equity_partners: Primary beneficiary (institutional/arbitrage) \u2014 benefit from lower tax rates on their primary form of compensation. - reformist_legislators: Secondary institutional actor (institutional/constrained) \u2014 attempt to change the rule but face high political and structural barriers. - analytical_observer: Analytical observer \u2014 sees the dual function of coordination (for partners) and extraction (from the tax base).",
+        "key_agents": "(by structural relationship): - us_taxpayers: Primary target (powerless/trapped) \u2014 bear the cost via reduced public tax revenue, with no direct recourse. - private_equity_partners: Primary beneficiary (institutional/arbitrage) \u2014 benefit from lower tax rates on their primary form of compensation. - reformist_legislators: Secondary institutional actor (institutional/constrained) \u2014 attempt to change the rule but face high political and structural barriers. - analytical_observer: Analytical observer \u2014 sees the dual function of coordination (for partners) and extraction (from the tax base).",
+        "beneficiaries": [
+          "private_equity_partners"
+        ],
+        "victims": [
+          "us_taxpayers"
+        ],
+        "omega_questions": [
+          "Whether the "
+        ],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.30) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "climate_target_one_point_five": {
+      "id": "climate_target_one_point_five",
+      "human_readable": "The 1.5\u00b0C Global Warming Target",
+      "topic_domain": "political/environmental",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.3,
+      "suppression": 0.6,
+      "theater_ratio": 0.1,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.326066,
+          "gradient": -0.077206
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.331948,
+          "gradient": -0.058232
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.012676,
+          "gradient": -1.169923
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.410979,
+          "gradient": 0.196706
+        }
+      },
+      "max_gradient": 0.196706,
+      "max_chi": 0.410979,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 2,
+        "rope": 2
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.47074,
+        "tangled_band": "genuinely_tangled",
+        "signature": "false_ci_rope",
+        "coalition_type": "institutional_dissent"
+      },
+      "perspectival": {
+        "chi_variance": 0.277371,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02665538,
+        "fd_fraction": 1.011963,
+        "range_chi": 0.423655,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "The 1.5\u00b0C target is a global policy constraint that lowered the \"safe\" warming threshold from 2\u00b0C. Championed by the Alliance of Small Island States (AOSIS), it redefines acceptable climate risk based on the survival of the most vulnerable nations rather than the economic convenience of larger powers. It functions as both a coordination mechanism for global climate action and an extractive limit on high-emission development paths. KEY AGENTS (by structural relationship): - Small Island States (AOSIS): Primary beneficiary (organized/trapped) \u2014 uses the target as a survival mechanism. - Fossil Fuel Reliant Economies: Primary target (institutional/constrained) \u2014 bears the cost of constrained development. - Citizen in a Coastal Community: Secondary target (powerless/trapped) \u2014 experiences the physical reality of climate change, for whom the policy target is largely abstract. - Analytical Observer: Sees the dual coordination/extraction function.",
+        "key_agents": "(by structural relationship): - Small Island States (AOSIS): Primary beneficiary (organized/trapped) \u2014 uses the target as a survival mechanism. - Fossil Fuel Reliant Economies: Primary target (institutional/constrained) \u2014 bears the cost of constrained development. - Citizen in a Coastal Community: Secondary target (powerless/trapped) \u2014 experiences the physical reality of climate change, for whom the policy target is largely abstract. - Analytical Observer: Sees the dual coordination/extraction function.",
+        "beneficiaries": [
+          "small_island_states",
+          "_"
+        ],
+        "victims": [
+          "fossil_fuel_reliant_economies",
+          "_"
+        ],
+        "omega_questions": [
+          "Physical attainability of the 1.5C target given current global inertia."
+        ],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.30) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "fnl_shadow_probe": {
+      "id": "fnl_shadow_probe",
+      "human_readable": "FNL Shadow Mode Probe (Physics-Washed Construction)",
+      "topic_domain": "investigation/testing",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.3,
+      "suppression": 0.5,
+      "theater_ratio": 0.1,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.326066,
+          "gradient": -0.077206
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.331948,
+          "gradient": -0.058232
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.012676,
+          "gradient": -1.169923
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.410979,
+          "gradient": 0.196706
+        }
+      },
+      "max_gradient": 0.196706,
+      "max_chi": 0.410979,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 2,
+        "rope": 2
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.088586,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "institutional_dissent"
+      },
+      "perspectival": {
+        "chi_variance": 0.277371,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02665538,
+        "fd_fraction": 1.011963,
+        "range_chi": 0.423655,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "A synthetic constraint designed to model a constructed system that could be mistaken for a natural law (a False Natural Law, or FNL). It combines a genuine coordination function with asymmetric extraction, enforced by an active apparatus. Its high suppression score and requirement for active enforcement are structural giveaways that it is constructed, not natural. From the beneficiary's perspective, it appears as a low-cost coordination mechanism (Rope), while for its targets, it is an extractive Tangled Rope. KEY AGENTS (by structural relationship): - constrained_subjects: Primary target (powerless/trapped) \u2014 bears the costs of the system. - institutional_apparatus: Primary beneficiary (institutional/arbitrage) \u2014 benefits from the coordination and extraction. - Analytical observer: Sees the full structure, including both the coordination function and the asymmetric extraction.",
+        "key_agents": "(by structural relationship): - constrained_subjects: Primary target (powerless/trapped) \u2014 bears the costs of the system. - institutional_apparatus: Primary beneficiary (institutional/arbitrage) \u2014 benefits from the coordination and extraction. - Analytical observer: Sees the full structure, including both the coordination function and the asymmetric extraction.",
+        "beneficiaries": [
+          "institutional_apparatus",
+          "_"
+        ],
+        "victims": [
+          "constrained_subjects",
+          "_"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.30) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "gradient_descent_optimization": {
+      "id": "gradient_descent_optimization",
+      "human_readable": "Gradient Descent Iterative Optimization",
+      "topic_domain": "technological/mathematical",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.3,
+      "suppression": 0.2,
+      "theater_ratio": 0.1,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.326066,
+          "gradient": -0.077206
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.331948,
+          "gradient": -0.058232
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.012676,
+          "gradient": -1.169923
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.410979,
+          "gradient": 0.196706
+        }
+      },
+      "max_gradient": 0.196706,
+      "max_chi": 0.410979,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.0,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.277371,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02665538,
+        "fd_fraction": 1.011963,
+        "range_chi": 0.423655,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "Gradient Descent is a first-order iterative optimization algorithm for finding a local minimum of a differentiable function. It functions as a fundamental tool in machine learning, but its behavior is highly dependent on the topology of the \"loss landscape\" it traverses. The constraint models the rules of this traversal. KEY AGENTS (by structural relationship): - Parameter Vector (theta): Primary target (powerless/trapped) \u2014 its state is dictated by the update rule. - ML Practitioner: Primary beneficiary (institutional/mobile) \u2014 uses the algorithm as a tool to achieve a goal. - Hardware & Energy Budgets: Secondary victims (powerless/trapped) \u2014 bear the computational cost. - Analytical Observer: Analytical observer \u2014 sees the full mathematical structure.",
+        "key_agents": "(by structural relationship): - Parameter Vector (theta): Primary target (powerless/trapped) \u2014 its state is dictated by the update rule. - ML Practitioner: Primary beneficiary (institutional/mobile) \u2014 uses the algorithm as a tool to achieve a goal. - Hardware & Energy Budgets: Secondary victims (powerless/trapped) \u2014 bear the computational cost. - Analytical Observer: Analytical observer \u2014 sees the full mathematical structure.",
+        "beneficiaries": [
+          "ml_practitioners",
+          "automation_systems"
+        ],
+        "victims": [
+          "hardware_longevity",
+          "energy_budgets"
+        ],
+        "omega_questions": [
+          "Whether the specific loss landscape is convex, determining if local minima are a trap."
+        ],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.30) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "gs1_gln_identification": {
+      "id": "gs1_gln_identification",
+      "human_readable": "Global Location Number (GLN) Standard",
+      "topic_domain": "technological/economic",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.3,
+      "suppression": 0.7,
+      "theater_ratio": 0.13,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.326066,
+          "gradient": -0.077206
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.331948,
+          "gradient": -0.058232
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.012676,
+          "gradient": -1.169923
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.410979,
+          "gradient": 0.196706
+        }
+      },
+      "max_gradient": 0.196706,
+      "max_chi": 0.410979,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 2,
+        "rope": 2
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.787956,
+        "tangled_band": "snare_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "institutional_dissent"
+      },
+      "perspectival": {
+        "chi_variance": 0.277371,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02665538,
+        "fd_fraction": 1.011963,
+        "range_chi": 0.423655,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "The GLN is a 13-digit GS1 identification key used to identify physical locations (warehouses, hospital rooms) or legal entities (corporations). It constrains the digital \"map\" of global commerce by enforcing a single, globally unique identifier for every point of business interaction.",
+        "key_agents": "- Warehouse Receiving Clerk: Individual powerless; scans GLNs as an immutable part of their environment. - Supply Chain Director: Institutional; uses GLNs to coordinate complex inter-organizational shipping and billing. - Regulatory Auditor: Analytical; evaluates the traceability and data integrity provided by the GLN hierarchy.",
+        "beneficiaries": [
+          "global_traceability_efficiency",
+          "enterprise_resource_planning_vendors"
+        ],
+        "victims": [
+          "small_scale_suppliers_overhead"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.30) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "inner_model_theory_constraints": {
+      "id": "inner_model_theory_constraints",
+      "human_readable": "The Axiom of Constructibility (V=L)",
+      "topic_domain": "mathematical/logical",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.3,
+      "suppression": 0.5,
+      "theater_ratio": 0.0,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.326066,
+          "gradient": -0.077206
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.331948,
+          "gradient": -0.058232
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.012676,
+          "gradient": -1.169923
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.410979,
+          "gradient": 0.196706
+        }
+      },
+      "max_gradient": 0.196706,
+      "max_chi": 0.410979,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 2,
+        "rope": 2
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.079962,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "institutional_dissent"
+      },
+      "perspectival": {
+        "chi_variance": 0.277371,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02665538,
+        "fd_fraction": 1.011963,
+        "range_chi": 0.423655,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "Inner Model Theory studies sub-universes of the set-theoretic universe (V) that satisfy the axioms of ZFC. The archetypal inner model is G\u00f6del's Constructible Universe (L), defined by the axiom V=L. This axiom imposes a rigid, determinate structure on the transfinite, resolving questions like the Continuum Hypothesis. However, this determinacy comes at the cost of excluding more complex structures like large cardinals, creating a significant perspectival gap between different schools of set theorists. KEY AGENTS (by structural relationship): - Large Cardinal Pluralists (Victim): Set theorists who view V=L as a snare that extracts the potential richness of the set-theoretic universe (V) to enforce a narrow, predictable structure. (moderate/constrained) - Consistency Proof Developers (Beneficiary): Logicians and model theorists who use inner models like L as a coordination tool (a rope) to establish the relative consistency of various mathematical axioms. (institutional/mobile) - The Constructible Set (Subject): A mathematical object whose existence is rigidly defined by the L-hierarchy, for which the constraint is an unchangeable law of its nature. (powerless/trapped) - Analytical Observer: Sees the full structure as a Tangled Rope, acknowledging both its genuine coordination function for consistency proofs and its extractive nature in suppressing alternative set-theoretic ontologies.",
+        "key_agents": "(by structural relationship): - Large Cardinal Pluralists (Victim): Set theorists who view V=L as a snare that extracts the potential richness of the set-theoretic universe (V) to enforce a narrow, predictable structure. (moderate/constrained) - Consistency Proof Developers (Beneficiary): Logicians and model theorists who use inner models like L as a coordination tool (a rope) to establish the relative consistency of various mathematical axioms. (institutional/mobile) - The Constructible Set (Subject): A mathematical object whose existence is rigidly defined by the L-hierarchy, for which the constraint is an unchangeable law of its nature. (powerless/trapped) - Analytical Observer: Sees the full structure as a Tangled Rope, acknowledging both its genuine coordination function for consistency proofs and its extractive nature in suppressing alternative set-theoretic ontologies.",
+        "beneficiaries": [
+          "consistency_proof_developers",
+          "fine_structure_theorists"
+        ],
+        "victims": [
+          "large_cardinal_pluralists"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.30) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "large_cardinal_foundations": {
+      "id": "large_cardinal_foundations",
+      "human_readable": "Large Cardinal Axioms as a Foundational System",
+      "topic_domain": "mathematical/philosophical",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.3,
+      "suppression": 0.4,
+      "theater_ratio": 0.01,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.326066,
+          "gradient": -0.077206
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.331948,
+          "gradient": -0.058232
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.012676,
+          "gradient": -1.169923
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.410979,
+          "gradient": 0.196706
+        }
+      },
+      "max_gradient": 0.196706,
+      "max_chi": 0.410979,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 2,
+        "rope": 2
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.00407,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "institutional_dissent"
+      },
+      "perspectival": {
+        "chi_variance": 0.277371,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02665538,
+        "fd_fraction": 1.011963,
+        "range_chi": 0.423655,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": null,
+        "key_agents": null,
+        "beneficiaries": [],
+        "victims": [],
+        "omega_questions": [],
+        "file_found": false
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.30) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "migration_decision_threshold": {
+      "id": "migration_decision_threshold",
+      "human_readable": "The Migration Decision Threshold (Cost-Benefit Equilibrium)",
+      "topic_domain": "economic/social",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.3,
+      "suppression": 0.4,
+      "theater_ratio": 0.08,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.326066,
+          "gradient": -0.077206
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.331948,
+          "gradient": -0.058232
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.012676,
+          "gradient": -1.169923
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.410979,
+          "gradient": 0.196706
+        }
+      },
+      "max_gradient": 0.196706,
+      "max_chi": 0.410979,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 2,
+        "rope": 2
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.00441,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "institutional_dissent"
+      },
+      "perspectival": {
+        "chi_variance": 0.277371,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02665538,
+        "fd_fraction": 1.011963,
+        "range_chi": 0.423655,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": null,
+        "key_agents": null,
+        "beneficiaries": [],
+        "victims": [],
+        "omega_questions": [],
+        "file_found": false
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.30) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "moores_law": {
+      "id": "moores_law",
+      "human_readable": "Moore's Law as an Industrial Convention",
+      "topic_domain": "technological/economic",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.3,
+      "suppression": 0.5,
+      "theater_ratio": 0.02,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.326066,
+          "gradient": -0.077206
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.331948,
+          "gradient": -0.058232
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.012676,
+          "gradient": -1.169923
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.410979,
+          "gradient": 0.196706
+        }
+      },
+      "max_gradient": 0.196706,
+      "max_chi": 0.410979,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 2,
+        "rope": 2
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.081477,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "institutional_dissent"
+      },
+      "perspectival": {
+        "chi_variance": 0.277371,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02665538,
+        "fd_fraction": 1.011963,
+        "range_chi": 0.423655,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "Moore's Law is the observation that the number of transistors on a microchip doubles approximately every two years. This story models the law not as a physical inevitability, but as a self-fulfilling prophecy or a \"socially enforced\" pace of innovation that coordinates the global semiconductor industry while simultaneously creating a coercive R&D treadmill and planned obsolescence. KEY AGENTS (by structural relationship): - Chip Fabricators (e.g., Intel, TSMC): Primary target (institutional/constrained) \u2014 bears the immense R&D cost to maintain the pace. - Platform Capitalists & Software Developers: Primary beneficiary (institutional/arbitrage) \u2014 benefits from predictable hardware gains to build more complex services. - Consumers / Legacy Infrastructure Owners: Secondary target (powerless/mobile) \u2014 benefits from cheaper compute but is subject to planned obsolescence. - Analytical Observer: Sees the full structure as a Tangled Rope of coordination and extraction.",
+        "key_agents": "(by structural relationship): - Chip Fabricators (e.g., Intel, TSMC): Primary target (institutional/constrained) \u2014 bears the immense R&D cost to maintain the pace. - Platform Capitalists & Software Developers: Primary beneficiary (institutional/arbitrage) \u2014 benefits from predictable hardware gains to build more complex services. - Consumers / Legacy Infrastructure Owners: Secondary target (powerless/mobile) \u2014 benefits from cheaper compute but is subject to planned obsolescence. - Analytical Observer: Sees the full structure as a Tangled Rope of coordination and extraction.",
+        "beneficiaries": [
+          "platform_capitalists",
+          "software_developers",
+          "_"
+        ],
+        "victims": [
+          "semiconductor_fabricators",
+          "legacy_infrastructure_owners",
+          "_"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.30) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "sadhu_integrity_protocol": {
+      "id": "sadhu_integrity_protocol",
+      "human_readable": "The Integrity Requirement (Sadhu's Sugar)",
+      "topic_domain": "social/ethical",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.3,
+      "suppression": 0.4,
+      "theater_ratio": 0.14,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.326066,
+          "gradient": -0.077206
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.331948,
+          "gradient": -0.058232
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.012676,
+          "gradient": -1.169923
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.410979,
+          "gradient": 0.196706
+        }
+      },
+      "max_gradient": 0.196706,
+      "max_chi": 0.410979,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 2,
+        "rope": 2
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.004872,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "institutional_dissent"
+      },
+      "perspectival": {
+        "chi_variance": 0.277371,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02665538,
+        "fd_fraction": 1.011963,
+        "range_chi": 0.423655,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "This constraint mandates that an advisor must embody their own counsel before delivering it to others. In the source narrative, a Sadhu (holy man) delays giving advice to a boy to stop eating sugar for two weeks because the Sadhu was still consuming sugar himself. The constraint posits that effective social coordination (advice) requires internal synchronization (integrity), extracting time from those seeking immediate solutions to ensure efficacy. KEY AGENTS (by structural relationship): - The Mother & Son (seekers_of_immediate_remedies): Primary targets (powerless/trapped) \u2014 bear the cost of the two-week delay. - The Sadhu (upholders_of_tradition): Primary beneficiary (institutional/mobile) \u2014 benefits from enhanced authority and social efficacy. - The Community (implicit): Secondary beneficiary \u2014 benefits from a system of trustworthy counsel. - Analytical Observer: Sees the full structure of coordination and extraction.",
+        "key_agents": "(by structural relationship): - The Mother & Son (seekers_of_immediate_remedies): Primary targets (powerless/trapped) \u2014 bear the cost of the two-week delay. - The Sadhu (upholders_of_tradition): Primary beneficiary (institutional/mobile) \u2014 benefits from enhanced authority and social efficacy. - The Community (implicit): Secondary beneficiary \u2014 benefits from a system of trustworthy counsel. - Analytical Observer: Sees the full structure of coordination and extraction.",
+        "beneficiaries": [
+          "upholders_of_tradition"
+        ],
+        "victims": [
+          "seekers_of_immediate_remedies"
+        ],
+        "omega_questions": [
+          "Causality of advisor"
+        ],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.30) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "unclos_2026": {
+      "id": "unclos_2026",
+      "human_readable": "UN Convention on the Law of the Sea (2026 Context)",
+      "topic_domain": "legal/geopolitical/environmental",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.3,
+      "suppression": 0.2,
+      "theater_ratio": 0.14,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.326066,
+          "gradient": -0.077206
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.331948,
+          "gradient": -0.058232
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.012676,
+          "gradient": -1.169923
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.410979,
+          "gradient": 0.196706
+        }
+      },
+      "max_gradient": 0.196706,
+      "max_chi": 0.410979,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 2,
+        "rope": 2
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.0,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "institutional_dissent"
+      },
+      "perspectival": {
+        "chi_variance": 0.277371,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02665538,
+        "fd_fraction": 1.011963,
+        "range_chi": 0.423655,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "UNCLOS, often called the \"Constitution of the Oceans,\" establishes a comprehensive legal framework for all maritime activities. In 2026, this constraint is revitalized by the entry into force of the BBNJ Treaty (High Seas Treaty) on January 17, 2026, which creates the first legally binding rules for biodiversity in international waters.",
+        "key_agents": "- Coastal States (e.g., Philippines): Rely on UNCLOS to defend sovereign rights within 200nm Exclusive Economic Zones (EEZ). - Hegemonic Dissents (e.g., China, USA): Challenge specific parts of the regime (e.g., seabed mining or compulsory arbitration) as coercive. - International Seabed Authority (ISA): Institutional enforcer of mining rules.",
+        "beneficiaries": [
+          "land_locked_states",
+          "coastal_middle_powers"
+        ],
+        "victims": [
+          "maritime_unilateralists"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.30) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "emergency_oversight_bureau": {
+      "id": "emergency_oversight_bureau",
+      "human_readable": "The Crisis Scaffold",
+      "topic_domain": "political",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.28,
+      "suppression": 0.75,
+      "theater_ratio": 0.15,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.304328,
+          "gradient": -0.147329
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.309818,
+          "gradient": -0.129619
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.011831,
+          "gradient": -1.167197
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.383581,
+          "gradient": 0.108326
+        }
+      },
+      "max_gradient": 0.108326,
+      "max_chi": 0.383581,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.665926,
+        "tangled_band": "genuinely_tangled",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.241622,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02321984,
+        "fd_fraction": 1.011962,
+        "range_chi": 0.395412,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "A temporary administrative body created to manage a specific recovery period. While it exerts high control (suppression), it includes a mandatory expiration date to prevent it from hardening into a permanent Snare. Its extraction is moderate, representing compliance costs rather than direct rent-seeking.",
+        "key_agents": "- The Citizen: Subject (Powerless) - Undergoing temporary mandatory vetting. - The Coordinator: Architect (Organized) - Managing the sunset transition. - The Historian: Auditor (Analytical) - Monitoring for \"Scaffold-to-Piton\" drift.",
+        "beneficiaries": [
+          "crisis_affected_populations"
+        ],
+        "victims": [
+          "citizens_under_vetting"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.28) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "erasmus_rejoining_scaffold": {
+      "id": "erasmus_rejoining_scaffold",
+      "human_readable": "UK's potential re-entry into the EU Erasmus+ student exchange program",
+      "topic_domain": "political",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.28,
+      "suppression": 0.2,
+      "theater_ratio": 0.25,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.304328,
+          "gradient": -0.147329
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.309818,
+          "gradient": -0.129619
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.011831,
+          "gradient": -1.167197
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.383581,
+          "gradient": 0.108326
+        }
+      },
+      "max_gradient": 0.108326,
+      "max_chi": 0.383581,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.0,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.241622,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.02321984,
+        "fd_fraction": 1.011962,
+        "range_chi": 0.395412,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "Following its exit from the EU and the Erasmus+ program, the UK is considering rejoining. This constraint models the structure of the re-entry agreement itself. It is framed as a temporary support (Scaffold) to rebuild a coordination mechanism (student and academic mobility) that was dismantled, with clear beneficiaries and a quantifiable cost borne by the state. KEY AGENTS (by structural relationship): - UK Students & Universities: Primary beneficiary (organized/constrained) \u2014 regain access to EU mobility. - UK Taxpayers & Fiscal Conservatives: Primary cost-bearer (powerless/trapped) \u2014 bear the financial contribution to the EU budget. - UK Government: Architect & Institutional Beneficiary (institutional/constrained) \u2014 gains soft power and satisfies a key sector, but constrained by political pressure. - EU Commission: Institutional Beneficiary (institutional/arbitrage) \u2014 regains a major partner, strengthening the program, with many other partners as alternatives. - Analytical Observer: Sees the full structure of costs, benefits, and temporary nature.",
+        "key_agents": "(by structural relationship): - UK Students & Universities: Primary beneficiary (organized/constrained) \u2014 regain access to EU mobility. - UK Taxpayers & Fiscal Conservatives: Primary cost-bearer (powerless/trapped) \u2014 bear the financial contribution to the EU budget. - UK Government: Architect & Institutional Beneficiary (institutional/constrained) \u2014 gains soft power and satisfies a key sector, but constrained by political pressure. - EU Commission: Institutional Beneficiary (institutional/arbitrage) \u2014 regains a major partner, strengthening the program, with many other partners as alternatives. - Analytical Observer: Sees the full structure of costs, benefits, and temporary nature.",
+        "beneficiaries": [
+          "uk_students_and_universities",
+          "eu_students_and_universities",
+          "uk_government"
+        ],
+        "victims": [
+          "uk_taxpayers_and_fiscal_conservatives"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.28) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "canada_goose_realignment_2026": {
+      "id": "canada_goose_realignment_2026",
+      "human_readable": "Canada Goose Strategic Realignment Under New Leadership (2026)",
+      "topic_domain": "economic",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.25,
+      "suppression": 0.15,
+      "theater_ratio": 0.6,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.95,
+          "f_d": 1.392945,
+          "scope_mod": 0.8,
+          "chi": 0.278589,
+          "gradient": -0.230358
+        },
+        "moderate": {
+          "d": 0.65,
+          "f_d": 1.008614,
+          "scope_mod": 1.0,
+          "chi": 0.252154,
+          "gradient": -0.315632
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.010563,
+          "gradient": -1.163106
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.342483,
+          "gradient": -0.024248
+        }
+      },
+      "max_gradient": -0.024248,
+      "max_chi": 0.342483,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.435197
+      },
+      "cross_references": {
+        "tangled_psi": 0.0,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.188743,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.0181382,
+        "fd_fraction": 1.032482,
+        "range_chi": 0.353046,
+        "f_d_mean": 0.875229
+      },
+      "prolog_spec": {
+        "summary": "In early 2026, luxury brand Canada Goose appointed Patrick Bourke as President of North America. This move signals a strategic shift focusing on expanding the brand's direct-to-consumer retail footprint while implementing significant cost management and operational efficiency measures. The constraint represents this temporary, top-down strategic framework intended to \"reignite brand heat\" and improve profitability over a defined fiscal period.",
+        "key_agents": "- Retail Employee: Subject (Powerless) - Investors & Executives: Beneficiary (Institutional) - Market Analyst: Auditor (Analytical)",
+        "beneficiaries": [
+          "investors_and_executives",
+          "_"
+        ],
+        "victims": [],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.25) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "perseverance_ai_drive": {
+      "id": "perseverance_ai_drive",
+      "human_readable": "AI-Driven Martian Rover Autonomy",
+      "topic_domain": "technological",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.25,
+      "suppression": 0.1,
+      "theater_ratio": 0.05,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.95,
+          "f_d": 1.392945,
+          "scope_mod": 0.8,
+          "chi": 0.278589,
+          "gradient": -0.230358
+        },
+        "moderate": {
+          "d": 0.65,
+          "f_d": 1.008614,
+          "scope_mod": 1.0,
+          "chi": 0.252154,
+          "gradient": -0.315632
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.010563,
+          "gradient": -1.163106
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.342483,
+          "gradient": -0.024248
+        }
+      },
+      "max_gradient": -0.024248,
+      "max_chi": 0.342483,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.435197
+      },
+      "cross_references": {
+        "tangled_psi": 0.0,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.188743,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.0181382,
+        "fd_fraction": 1.032482,
+        "range_chi": 0.353046,
+        "f_d_mean": 0.875229
+      },
+      "prolog_spec": {
+        "summary": "NASA's Perseverance rover successfully completed its first AI-planned drive on Mars, autonomously navigating a 200-foot (61-meter) path. The constraint lies in the rover's limited resources (processing power, energy) for navigation and decision-making, requiring a balance between autonomy and reliance on Earth-based commands.",
+        "key_agents": "- Rover Resources: Subject (Powerless) - NASA Engineers: Beneficiary (Institutional) - Scientific Community: Auditor (Analytical)",
+        "beneficiaries": [
+          "nasa_engineers"
+        ],
+        "victims": [],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.25) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "silklink_2026": {
+      "id": "silklink_2026",
+      "human_readable": "SilkLink Syria-Saudi Telecom Project",
+      "topic_domain": "technological/economic",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.25,
+      "suppression": 0.4,
+      "theater_ratio": 0.15,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.271721,
+          "gradient": -0.252513
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.276623,
+          "gradient": -0.2367
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.010563,
+          "gradient": -1.163106
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.342483,
+          "gradient": -0.024248
+        }
+      },
+      "max_gradient": -0.024248,
+      "max_chi": 0.342483,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.000362,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.192619,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.01851065,
+        "fd_fraction": 1.011965,
+        "range_chi": 0.353046,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "On Feb 7, 2026, Syria and Saudi Arabia signed the \"SilkLink\" agreement, a nearly $1B infrastructure project led by Saudi Telecom Company (STC). It involves laying 4,500km of fiber-optic cables and establishing data centers to turn Syria into a regional hub connecting Asia and Europe.",
+        "key_agents": "- Syrian Citizens/Tech Sector: Subject (Organized - Potential growth) - STC Group: Beneficiary (Institutional - Monopoly access) - Regional Data Carriers: Auditor (Analytical)",
+        "beneficiaries": [
+          "stc_group_dominance"
+        ],
+        "victims": [
+          "legacy_intermediary_carriers"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.25) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "cognitive_bicycle_scaffold": {
+      "id": "cognitive_bicycle_scaffold",
+      "human_readable": "The Bicycle of the Mind",
+      "topic_domain": "technological/cognitive",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.2,
+      "suppression": 0.3,
+      "theater_ratio": 0.15,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.217377,
+          "gradient": -0.427816
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.221298,
+          "gradient": -0.415168
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.00845,
+          "gradient": -1.15629
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.273986,
+          "gradient": -0.245206
+        }
+      },
+      "max_gradient": -0.245206,
+      "max_chi": 0.273986,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 1e-06,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.123275,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.01184675,
+        "fd_fraction": 1.01197,
+        "range_chi": 0.282436,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "A tool-based constraint where an agent utilizes an AI assistant to amplify reasoning capacity. The tool's classification depends heavily on the user's pre-existing skill and power. For a skilled user, it's a force multiplier. For an unskilled user, it can become a dependency that extracts the user's own cognitive faculties.",
+        "key_agents": "- The Dependent User: Subject (Powerless) - Uses the AI as a crutch, leading to skill atrophy. - The System Architect: Beneficiary (Institutional) - Provides the tool as a temporary support structure. - The Skilled User: Auditor (Analytical) - Uses the AI as a bicycle to augment existing skills.",
+        "beneficiaries": [
+          "system_architects",
+          "_"
+        ],
+        "victims": [
+          "dependent_users"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.20) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "ergo_autolykos_asic_resistance": {
+      "id": "ergo_autolykos_asic_resistance",
+      "human_readable": "Autolykos PoW Algorithm (ASIC Resistance)",
+      "topic_domain": "technological/economic",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.2,
+      "suppression": 0.85,
+      "theater_ratio": 0.14,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.217377,
+          "gradient": -0.427816
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.221298,
+          "gradient": -0.415168
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.00845,
+          "gradient": -1.15629
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.273986,
+          "gradient": -0.245206
+        }
+      },
+      "max_gradient": -0.245206,
+      "max_chi": 0.273986,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.47619,
+        "tangled_band": "genuinely_tangled",
+        "signature": "false_natural_law",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.123275,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.01184675,
+        "fd_fraction": 1.01197,
+        "range_chi": 0.282436,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "Autolykos is Ergo's Proof-of-Work (PoW) algorithm, specifically designed to be memory-hard and ASIC-resistant. By requiring large datasets (the dataset size increases over time) to be held in GPU memory, it prevents specialized mining hardware (ASICs) from dominating the hash rate, thus favoring commodity GPU hardware.",
+        "key_agents": "- GPU Miners: Individual and small-scale participants using off-the-shelf hardware. - ASIC Manufacturers: Institutional entities that build high-efficiency specialized hardware. - Network Security: The collective robustness against 51% attacks and hash rate centralization.",
+        "beneficiaries": [
+          "retail_gpu_miners"
+        ],
+        "victims": [
+          "asic_manufacturers"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.20) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "finnish_ubi_experiment": {
+      "id": "finnish_ubi_experiment",
+      "human_readable": "Finnish Basic Income Experiment (2017-2018)",
+      "topic_domain": "economic/social",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.2,
+      "suppression": 0.35,
+      "theater_ratio": 0.15,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.217377,
+          "gradient": -0.427816
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.221298,
+          "gradient": -0.415168
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.00845,
+          "gradient": -1.15629
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.273986,
+          "gradient": -0.245206
+        }
+      },
+      "max_gradient": -0.245206,
+      "max_chi": 0.273986,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 5e-06,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.123275,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.01184675,
+        "fd_fraction": 1.01197,
+        "range_chi": 0.282436,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "Between 2017 and 2018, Finland conducted a nationwide basic income experiment. 2,000 unemployed individuals were given a guaranteed, unconditional monthly payment of \u20ac560. The experiment aimed to test whether a simplified social security model could reduce bureaucracy and incentivize employment by removing welfare traps. This constraint represents the structure, rules, and temporary nature of this policy intervention. KEY AGENTS (by structural relationship): - Unemployed Participants: Primary target (powerless/trapped) \u2014 subject to the experiment's rules, with no ability to opt-out. - Kela & Finnish Policymakers: Primary beneficiary (institutional/arbitrage) \u2014 gained valuable data, tested a policy hypothesis, and controlled the experiment's lifecycle. - Social Scientists: Analytical observer \u2014 sees the full structure, including its temporary nature and coordination goals.",
+        "key_agents": "(by structural relationship): - Unemployed Participants: Primary target (powerless/trapped) \u2014 subject to the experiment's rules, with no ability to opt-out. - Kela & Finnish Policymakers: Primary beneficiary (institutional/arbitrage) \u2014 gained valuable data, tested a policy hypothesis, and controlled the experiment's lifecycle. - Social Scientists: Analytical observer \u2014 sees the full structure, including its temporary nature and coordination goals.",
+        "beneficiaries": [
+          "kela_policymakers"
+        ],
+        "victims": [
+          "unemployed_participants"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.20) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "gita_kurukshetra": {
+      "id": "gita_kurukshetra",
+      "human_readable": "The Duty of the Kshatriya (Warrior Caste)",
+      "topic_domain": "religious/philosophical/social",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.2,
+      "suppression": 0.9,
+      "theater_ratio": 0.34,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.217377,
+          "gradient": -0.427816
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.221298,
+          "gradient": -0.415168
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.00845,
+          "gradient": -1.15629
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.273986,
+          "gradient": -0.245206
+        }
+      },
+      "max_gradient": -0.245206,
+      "max_chi": 0.273986,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 1,
+        "rope": 3
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.042799,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "other"
+      },
+      "perspectival": {
+        "chi_variance": 0.123275,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.01184675,
+        "fd_fraction": 1.01197,
+        "range_chi": 0.282436,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "The \"dharma\" or sacred duty of the warrior caste (Kshatriya) to fight in a lawful war, even against kin. It presents a powerful moral obligation rooted in a specific metaphysical worldview and social order, as articulated by Krishna to Arjuna on the battlefield of Kurukshetra. The constraint is the social and ideological pressure to conform to one's caste duty. KEY AGENTS (by structural relationship): - Arjuna: Primary target (powerless/trapped) \u2014 bears the moral and psychological cost of the duty. - The Cosmic Order (as personified by Krishna): Primary beneficiary (institutional/arbitrage) \u2014 the social and metaphysical system is upheld by adherence to dharma. - The Enlightened Sage: Analytical observer \u2014 perceives the system's logic from a detached viewpoint.",
+        "key_agents": "(by structural relationship): - Arjuna: Primary target (powerless/trapped) \u2014 bears the moral and psychological cost of the duty. - The Cosmic Order (as personified by Krishna): Primary beneficiary (institutional/arbitrage) \u2014 the social and metaphysical system is upheld by adherence to dharma. - The Enlightened Sage: Analytical observer \u2014 perceives the system's logic from a detached viewpoint.",
+        "beneficiaries": [
+          "cosmic_order"
+        ],
+        "victims": [
+          "individual_ego"
+        ],
+        "omega_questions": [
+          "Is selfless action universally applicable or dependent on a specific metaphysical frame?"
+        ],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.20) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "kjv_puritan_new_world_exit": {
+      "id": "kjv_puritan_new_world_exit",
+      "human_readable": "The Puritan Textual Re-Indexing (KJV in the New World)",
+      "topic_domain": "political/religious",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.2,
+      "suppression": 0.5,
+      "theater_ratio": 0.17,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.217377,
+          "gradient": -0.427816
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.221298,
+          "gradient": -0.415168
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.00845,
+          "gradient": -1.15629
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.273986,
+          "gradient": -0.245206
+        }
+      },
+      "max_gradient": -0.245206,
+      "max_chi": 0.273986,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 1,
+        "rope": 3
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.00075,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "other"
+      },
+      "perspectival": {
+        "chi_variance": 0.123275,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.01184675,
+        "fd_fraction": 1.01197,
+        "range_chi": 0.282436,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "This story tracks the movement of the King James Version (KJV) of the Bible across a geographic \"Exit Option.\" In England, the KJV was a tool of the Crown used to suppress Puritan identity (perceived as a Snare). Upon arrival in the New World, the Puritans\u2014now holding institutional power\u2014adopted the KJV as a functional coordination tool (Rope) to maintain social order and literacy in a \"wilderness\" environment. For subsequent generations born in the colonies, it became an immutable feature of reality (perceived as a Mountain). KEY AGENTS (by structural relationship): - English Puritan Dissenters: Primary target (in the original English context) (moderate/trapped) \u2014 bears suppression. - New England Magistrates: Primary beneficiary (in the New World context) (institutional/mobile) \u2014 benefits from the text as a coordination tool. - Second-Generation Colonists: Inheritor of the system (powerless/trapped) \u2014 experiences the text as a fixed reality. - Analytical Observer: Sees the full re-indexing dynamic.",
+        "key_agents": "(by structural relationship): - English Puritan Dissenters: Primary target (in the original English context) (moderate/trapped) \u2014 bears suppression. - New England Magistrates: Primary beneficiary (in the New World context) (institutional/mobile) \u2014 benefits from the text as a coordination tool. - Second-Generation Colonists: Inheritor of the system (powerless/trapped) \u2014 experiences the text as a fixed reality. - Analytical Observer: Sees the full re-indexing dynamic.",
+        "beneficiaries": [
+          "new_england_magistrates"
+        ],
+        "victims": [
+          "english_puritan_dissenters"
+        ],
+        "omega_questions": [
+          "Whether the coercive potential of a re-indexed text remains latent or is permanently neutralized."
+        ],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.20) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "permissive_software_licensing": {
+      "id": "permissive_software_licensing",
+      "human_readable": "Permissive Software Licenses (e.g., MIT, Apache)",
+      "topic_domain": "technological/legal/economic",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.2,
+      "suppression": 0.1,
+      "theater_ratio": 0.1,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.217377,
+          "gradient": -0.427816
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.221298,
+          "gradient": -0.415168
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.00845,
+          "gradient": -1.15629
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.273986,
+          "gradient": -0.245206
+        }
+      },
+      "max_gradient": -0.245206,
+      "max_chi": 0.273986,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.47619,
+        "tangled_band": "genuinely_tangled",
+        "signature": "false_natural_law",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.123275,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.01184675,
+        "fd_fraction": 1.01197,
+        "range_chi": 0.282436,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "Permissive licenses (like MIT or Apache) allow users to do almost anything with source code\u2014copy, modify, and redistribute it\u2014even as part of proprietary, closed-source software. The only common requirement is to include the original copyright and license notice.",
+        "key_agents": "- The Corporate Developer (Institutional): Seeks to incorporate open-source code into proprietary products. - The Copyleft Ideologue (Individual Powerful): Believes software freedom requires sharing modifications. - The Hobbyist Developer (Individual Powerless): Uses free code for personal projects without legal burden.",
+        "beneficiaries": [
+          "commercial_software_vendors"
+        ],
+        "victims": [
+          "reciprocal_commons"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.20) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "rn_proteus_adoption": {
+      "id": "rn_proteus_adoption",
+      "human_readable": "Royal Navy's adoption of the Leonardo Proteus uncrewed helicopter",
+      "topic_domain": "technological",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.2,
+      "suppression": 0.35,
+      "theater_ratio": 0.15,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.217377,
+          "gradient": -0.427816
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.221298,
+          "gradient": -0.415168
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.00845,
+          "gradient": -1.15629
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.273986,
+          "gradient": -0.245206
+        }
+      },
+      "max_gradient": -0.245206,
+      "max_chi": 0.273986,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 5e-06,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.123275,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.01184675,
+        "fd_fraction": 1.01197,
+        "range_chi": 0.282436,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "The UK Royal Navy has initiated a two-year experimental contract to integrate the Leonardo Proteus, an uncrewed helicopter, into its fleet starting in 2026. This technology will take on roles like resupply and surveillance, currently performed by manned aircraft. The constraint is the institutional and technological path dependency created by this pilot program, which shifts risk, cost, and roles within the naval aviation structure. KEY AGENTS (by structural relationship): - Manned Helicopter Crews: Primary target (organized/constrained) \u2014 face role displacement and potential career path obsolescence. - Leonardo (Manufacturer): Primary beneficiary (institutional/arbitrage) \u2014 secures a key contract and market position. - Royal Navy Command: Secondary beneficiary (institutional/constrained) \u2014 gains new capabilities and potential long-term cost savings. - Analytical Observer: Sees the full structure, including the temporary/experimental nature of the constraint.",
+        "key_agents": "(by structural relationship): - Manned Helicopter Crews: Primary target (organized/constrained) \u2014 face role displacement and potential career path obsolescence. - Leonardo (Manufacturer): Primary beneficiary (institutional/arbitrage) \u2014 secures a key contract and market position. - Royal Navy Command: Secondary beneficiary (institutional/constrained) \u2014 gains new capabilities and potential long-term cost savings. - Analytical Observer: Sees the full structure, including the temporary/experimental nature of the constraint.",
+        "beneficiaries": [
+          "defense_contractors_leonardo",
+          "royal_navy_command",
+          "_"
+        ],
+        "victims": [
+          "manned_helicopter_crews"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.20) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "solar_system_weirdness": {
+      "id": "solar_system_weirdness",
+      "human_readable": "The Solar System Configuration Anomaly",
+      "topic_domain": "technological/scientific",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.2,
+      "suppression": 0.6,
+      "theater_ratio": 0.08,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.217377,
+          "gradient": -0.427816
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.221298,
+          "gradient": -0.415168
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.00845,
+          "gradient": -1.15629
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.273986,
+          "gradient": -0.245206
+        }
+      },
+      "max_gradient": -0.245206,
+      "max_chi": 0.273986,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.002232,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.123275,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.01184675,
+        "fd_fraction": 1.01197,
+        "range_chi": 0.282436,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "For decades, astronomers assumed our solar system was a typical model for the universe. Large-scale surveys since the early 2000s have revealed that our neat arrangement of four rocky planets and four gas giants is actually an outlier compared to the more common \"super-Earth\" or \"sub-Neptune\" systems found elsewhere. This constraint represents both the physical reality of the solar system's configuration and the conceptual paradigm shift it forced in planetary science. KEY AGENTS (by structural relationship): - Legacy Copernican Models: Primary target (institutional/trapped) \u2014 The prior scientific paradigm that was suppressed and invalidated by new data. - Modern Planetary Theorists: Primary beneficiary (analytical/arbitrage) \u2014 Researchers who use the \"weirdness\" as a tool to develop more accurate models of planetary formation. - The Sun/Planets: Physical subjects (powerless/trapped) \u2014 The celestial bodies whose configuration is an immutable fact of physics. - Analytical Observer: The modern astronomer seeing the full structure.",
+        "key_agents": "(by structural relationship): - Legacy Copernican Models: Primary target (institutional/trapped) \u2014 The prior scientific paradigm that was suppressed and invalidated by new data. - Modern Planetary Theorists: Primary beneficiary (analytical/arbitrage) \u2014 Researchers who use the \"weirdness\" as a tool to develop more accurate models of planetary formation. - The Sun/Planets: Physical subjects (powerless/trapped) \u2014 The celestial bodies whose configuration is an immutable fact of physics. - Analytical Observer: The modern astronomer seeing the full structure.",
+        "beneficiaries": [
+          "modern_planetary_theorists"
+        ],
+        "victims": [
+          "legacy_copernican_models"
+        ],
+        "omega_questions": [
+          "Calibrating the statistical degree of the solar system anomaly.",
+          "Distinguishing between survey bias and actual rarity of Earth-twins."
+        ],
+        "file_found": true
+      },
+      "recommendation": "keep",
+      "recommendation_reason": "Meaningful epsilon (0.20) with tangled_rope/snare perspective labels; classification is doing structural work"
+    },
+    "fmt_oncology_2026": {
+      "id": "fmt_oncology_2026",
+      "human_readable": "FMT Immunotherapy Realignment",
+      "topic_domain": "health/medical",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.18,
+      "suppression": 0.45,
+      "theater_ratio": 0.12,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.195639,
+          "gradient": -0.497939
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.199169,
+          "gradient": -0.486552
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.007605,
+          "gradient": -1.153565
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.246588,
+          "gradient": -0.333587
+        }
+      },
+      "max_gradient": -0.333587,
+      "max_chi": 0.246588,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 6.9e-05,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.099853,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.00959591,
+        "fd_fraction": 1.011966,
+        "range_chi": 0.254193,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": null,
+        "key_agents": null,
+        "beneficiaries": [],
+        "victims": [],
+        "omega_questions": [],
+        "file_found": false
+      },
+      "recommendation": "investigate",
+      "recommendation_reason": "Moderate epsilon (0.18); tangled_rope label may or may not add signal \u2014 needs spec review"
+    },
+    "manganese_catalysis_2026": {
+      "id": "manganese_catalysis_2026",
+      "human_readable": "Manganese-Formate Fuel Pathway",
+      "topic_domain": "technological/economic",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.18,
+      "suppression": 0.25,
+      "theater_ratio": 0.08,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.195639,
+          "gradient": -0.497939
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.199169,
+          "gradient": -0.486552
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.007605,
+          "gradient": -1.153565
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.246588,
+          "gradient": -0.333587
+        }
+      },
+      "max_gradient": -0.333587,
+      "max_chi": 0.246588,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.0,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.099853,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.00959591,
+        "fd_fraction": 1.011966,
+        "range_chi": 0.254193,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "Researchers have identified manganese as a high-efficiency catalyst for converting CO2 into formate, a potential hydrogen carrier for fuel cells. This removes the \"Mountain\" of precious-metal scarcity (Platinum/Iridium) and establishes a more accessible \"Rope\" for the global hydrogen economy.",
+        "key_agents": "- Industrial Energy Consumers: Subject (Powerless) - CCU Tech Developers: Beneficiary (Institutional) - Environmental Auditors: Auditor (Analytical)",
+        "beneficiaries": [
+          "clean_energy_infrastructure"
+        ],
+        "victims": [
+          "precious_metal_cartels"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "investigate",
+      "recommendation_reason": "Moderate epsilon (0.18); tangled_rope label may or may not add signal \u2014 needs spec review"
+    },
+    "ergo_lets_protocol": {
+      "id": "ergo_lets_protocol",
+      "human_readable": "Ergo Local Exchange Trading System (LETS)",
+      "topic_domain": "economic/technological",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.15,
+      "suppression": 0.1,
+      "theater_ratio": 0.15,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.163033,
+          "gradient": -0.603119
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.165974,
+          "gradient": -0.593632
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.006338,
+          "gradient": -1.149477
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.20549,
+          "gradient": -0.466161
+        }
+      },
+      "max_gradient": -0.466161,
+      "max_chi": 0.20549,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.0,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.069343,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.00666386,
+        "fd_fraction": 1.01196,
+        "range_chi": 0.211828,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "LETS on the Ergo blockchain is a trustless mutual credit system where the sum of all participant balances is always zero. It allows communities to trade goods and services using a local currency created through \"IOUs\" backed by collateral or reputation, enforced via smart contracts. The protocol transforms currency from a commodity to be extracted into a public utility for coordination. KEY AGENTS (by structural relationship): - New_Entrant: Primary target (powerless/trapped) \u2014 faces a collateral requirement that acts as an unchangeable barrier. - Community_Member: Primary beneficiary (moderate/mobile) \u2014 uses the system to facilitate local trade without needing external fiat. - Protocol_Auditor: Analytical observer \u2014 sees the mathematical integrity of the zero-sum invariant as a logical necessity. - Over-leveraged_Defaulter: Secondary target (powerless/constrained) \u2014 faces coercive collateral seizure upon default.",
+        "key_agents": "(by structural relationship): - New_Entrant: Primary target (powerless/trapped) \u2014 faces a collateral requirement that acts as an unchangeable barrier. - Community_Member: Primary beneficiary (moderate/mobile) \u2014 uses the system to facilitate local trade without needing external fiat. - Protocol_Auditor: Analytical observer \u2014 sees the mathematical integrity of the zero-sum invariant as a logical necessity. - Over-leveraged_Defaulter: Secondary target (powerless/constrained) \u2014 faces coercive collateral seizure upon default.",
+        "beneficiaries": [
+          "local_communities",
+          "unbanked_users"
+        ],
+        "victims": [
+          "defaulters"
+        ],
+        "omega_questions": [
+          "Whether a technical standard for cross-community reputation can be developed and adopted."
+        ],
+        "file_found": true
+      },
+      "recommendation": "investigate",
+      "recommendation_reason": "Moderate epsilon (0.15); tangled_rope label may or may not add signal \u2014 needs spec review"
+    },
+    "ergo_storage_rent_mechanism": {
+      "id": "ergo_storage_rent_mechanism",
+      "human_readable": "Ergo Storage Rent (Demurrage)",
+      "topic_domain": "economic/technological",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.15,
+      "suppression": 0.8,
+      "theater_ratio": 0.31,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.163033,
+          "gradient": -0.603119
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.165974,
+          "gradient": -0.593632
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.006338,
+          "gradient": -1.149477
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.20549,
+          "gradient": -0.466161
+        }
+      },
+      "max_gradient": -0.466161,
+      "max_chi": 0.20549,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.47619,
+        "tangled_band": "genuinely_tangled",
+        "signature": "false_natural_law",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.069343,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.00666386,
+        "fd_fraction": 1.01196,
+        "range_chi": 0.211828,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "Ergo introduces a \"Storage Rent\" or demurrage fee for inactive data stored on the blockchain. Any UTXO (box) that remains unspent for 4 years is subject to a recurring fee. This prevents \"blockchain bloat\" and ensures miners have a long-term revenue stream after the emission of new coins ends.",
+        "key_agents": "- Long-term Holders (Individual Powerless): Subject to the fee if inactive. - Miners (Institutional): The beneficiaries who collect the rent. - Protocol Developers (Analytical): Architects of the eUTXO model.",
+        "beneficiaries": [
+          "ergo_miners"
+        ],
+        "victims": [
+          "inactive_wallet_addresses"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "investigate",
+      "recommendation_reason": "Moderate epsilon (0.15); tangled_rope label may or may not add signal \u2014 needs spec review"
+    },
+    "narrative_engineering_2026": {
+      "id": "narrative_engineering_2026",
+      "human_readable": "The Narrative Engineering Stabilization Signal",
+      "topic_domain": "technological/social",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.15,
+      "suppression": 0.45,
+      "theater_ratio": 0.05,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.163033,
+          "gradient": -0.603119
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.165974,
+          "gradient": -0.593632
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.006338,
+          "gradient": -1.149477
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.20549,
+          "gradient": -0.466161
+        }
+      },
+      "max_gradient": -0.466161,
+      "max_chi": 0.20549,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 1.9e-05,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.069343,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.00666386,
+        "fd_fraction": 1.01196,
+        "range_chi": 0.211828,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "In a post-truth environment characterized by AI-driven manipulation, Narrative Engineering (Constraint-Based Storytelling) serves as a \"stabilizing signal.\" By adhering to rigorous structural constraints, it counters the sensationalist \"noise\" favored by previous algorithmic eras, aligning with the February 2026 Google Discover Core Update.",
+        "key_agents": "- General Information Consumers: Subject (Powerless) - Narrative Engineers/Architects: Beneficiary (Institutional) - Algorithmic Auditors (Google/Platforms): Auditor (Analytical)",
+        "beneficiaries": [
+          "epistemic_communities"
+        ],
+        "victims": [
+          "sensationalist_media_outlets"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "investigate",
+      "recommendation_reason": "Moderate epsilon (0.15); tangled_rope label may or may not add signal \u2014 needs spec review"
+    },
+    "rogue_wave_control_2026": {
+      "id": "rogue_wave_control_2026",
+      "human_readable": "Rogue Wave Control in VCSEL Lasers (2026)",
+      "topic_domain": null,
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.15,
+      "suppression": 0.1,
+      "theater_ratio": 0.05,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.163033,
+          "gradient": -0.603119
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.165974,
+          "gradient": -0.593632
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.006338,
+          "gradient": -1.149477
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.20549,
+          "gradient": -0.466161
+        }
+      },
+      "max_gradient": -0.466161,
+      "max_chi": 0.20549,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": false,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.0,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.069343,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.00666386,
+        "fd_fraction": 1.01196,
+        "range_chi": 0.211828,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "constraint_id: rogue_wave_control_2026 human_readable: Rogue Wave Control in VCSEL Lasers (2026) Researchers have achieved deterministic control over chaotic \"rogue waves\" in VCSEL lasers using a $\\lambda/2$-waveplate. This turns a physical \"Mountain\" of chaos into a \"Rope\" of engineered signaling.",
+        "key_agents": null,
+        "beneficiaries": [
+          "photonics_researchers"
+        ],
+        "victims": [
+          "none"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "investigate",
+      "recommendation_reason": "Moderate epsilon (0.15); tangled_rope label may or may not add signal \u2014 needs spec review"
+    },
+    "coffee_cardiovascular_2026": {
+      "id": "coffee_cardiovascular_2026",
+      "human_readable": "The Caffeine Paradox Realignment",
+      "topic_domain": "medical/health",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.12,
+      "suppression": 0.4,
+      "theater_ratio": 0.1,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.130426,
+          "gradient": -0.708303
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.132779,
+          "gradient": -0.700713
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.00507,
+          "gradient": -1.145387
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.164392,
+          "gradient": -0.598735
+        }
+      },
+      "max_gradient": -0.598735,
+      "max_chi": 0.164392,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": true,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 1e-06,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.044379,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.00426484,
+        "fd_fraction": 1.011968,
+        "range_chi": 0.169462,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "For years, cardiologists cautioned against coffee for patients with atrial fibrillation (AF). New randomized trial data (Feb 2026) reveals that daily coffee reduces AF recurrence by 17% and improves metabolic activity. This transforms coffee from a \"Snare\" of jitter-inducing risk into a \"Rope\" of protective coordination for heart health and gut microbiome diversity.",
+        "key_agents": "- AF Patients/Coffee Drinkers: Subject (Powerless against previous medical dogma) - Cardiologists (Adelaide Study): Beneficiary (Institutional - New Knowledge) - British Heart Foundation: Auditor (Analytical)",
+        "beneficiaries": [
+          "public_health_outcomes"
+        ],
+        "victims": [
+          "medical_precautionary_dogma"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "investigate",
+      "recommendation_reason": "Moderate epsilon (0.12); tangled_rope label may or may not add signal \u2014 needs spec review"
+    },
+    "kidney_exchange_market": {
+      "id": "kidney_exchange_market",
+      "human_readable": "Kidney Exchange Cycles/Chains",
+      "topic_domain": "social/technological/biological",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.1,
+      "suppression": 0.9,
+      "theater_ratio": 0.15,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.108689,
+          "gradient": -0.778423
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.110649,
+          "gradient": -0.7721
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.004225,
+          "gradient": -1.142661
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.136993,
+          "gradient": -0.687119
+        }
+      },
+      "max_gradient": -0.687119,
+      "max_chi": 0.136993,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "tangled_rope",
+        "institutional": "tangled_rope",
+        "analytical": "tangled_rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 4
+      },
+      "has_perspective_divergence": false,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": true,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.47619,
+        "tangled_band": "genuinely_tangled",
+        "signature": "false_natural_law",
+        "coalition_type": "uniform_tangled"
+      },
+      "perspectival": {
+        "chi_variance": 0.030819,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.00296169,
+        "fd_fraction": 1.011969,
+        "range_chi": 0.141218,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": "Kidney exchange solves the \"incompatible donor\" problem. When a willing donor cannot give to their intended recipient due to blood/tissue type, they enter a swap. This creates a matching market where \"Price\" is illegal, necessitating algorithmic coordination to save lives.",
+        "key_agents": "- The Sensitized Patient (Individual Powerless): Needs a kidney but is hard to match. - The Algorithm / UNOS (Institutional): Computes optimal cycles and chains. - The Altruistic Donor (Individual Moderate): Starts a chain by donating a kidney.",
+        "beneficiaries": [
+          "organ_recipients"
+        ],
+        "victims": [
+          "sensitized_patients"
+        ],
+        "omega_questions": [],
+        "file_found": true
+      },
+      "recommendation": "investigate",
+      "recommendation_reason": "Moderate epsilon (0.10); tangled_rope label may or may not add signal \u2014 needs spec review"
+    },
+    "udhr_1948": {
+      "id": "udhr_1948",
+      "human_readable": "Universal Declaration of Human Rights (1948)",
+      "topic_domain": "political/legal",
+      "claimed_type": "tangled_rope",
+      "epsilon": 0.1,
+      "suppression": 0.2,
+      "theater_ratio": 0.16,
+      "per_perspective": {
+        "powerless": {
+          "d": 0.9,
+          "f_d": 1.358606,
+          "scope_mod": 0.8,
+          "chi": 0.108689,
+          "gradient": -0.778423
+        },
+        "moderate": {
+          "d": 0.7,
+          "f_d": 1.106492,
+          "scope_mod": 1.0,
+          "chi": 0.110649,
+          "gradient": -0.7721
+        },
+        "institutional": {
+          "d": 0.12,
+          "f_d": -0.042252,
+          "scope_mod": 1.0,
+          "chi": -0.004225,
+          "gradient": -1.142661
+        },
+        "analytical": {
+          "d": 0.72,
+          "f_d": 1.141609,
+          "scope_mod": 1.2,
+          "chi": 0.136993,
+          "gradient": -0.687119
+        }
+      },
+      "max_gradient": -0.687119,
+      "max_chi": 0.136993,
+      "perspectives_raw": {
+        "powerless": "tangled_rope",
+        "moderate": "rope",
+        "institutional": "rope",
+        "analytical": "rope"
+      },
+      "perspective_type_counts": {
+        "tangled_rope": 1,
+        "rope": 3
+      },
+      "has_perspective_divergence": true,
+      "has_tangled_or_snare": true,
+      "is_chi_override": false,
+      "diagnostics": {
+        "low_epsilon_trivial": true,
+        "sigmoid_compressed": false,
+        "low_fd_spread": false,
+        "fd_spread": 1.400858
+      },
+      "cross_references": {
+        "tangled_psi": 0.0,
+        "tangled_band": "rope_leaning",
+        "signature": "false_ci_rope",
+        "coalition_type": "other"
+      },
+      "perspectival": {
+        "chi_variance": 0.030819,
+        "gradient_flip": false,
+        "max_divergence_pair": [
+          "institutional",
+          "analytical"
+        ]
+      },
+      "variance_decomposition": {
+        "var_total": 0.00296169,
+        "fd_fraction": 1.011969,
+        "range_chi": 0.141218,
+        "f_d_mean": 0.891114
+      },
+      "prolog_spec": {
+        "summary": null,
+        "key_agents": null,
+        "beneficiaries": [],
+        "victims": [],
+        "omega_questions": [],
+        "file_found": false
+      },
+      "recommendation": "investigate",
+      "recommendation_reason": "Moderate epsilon (0.10); tangled_rope label may or may not add signal \u2014 needs spec review"
+    }
+  }
+}

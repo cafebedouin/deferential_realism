@@ -1,0 +1,4 @@
+group,n,mean_epsilon,mean_chi_analytical,mean_h1,mean_corrected_tvd,mean_audit_tvd,mean_d_FR,mean_KL,pct_mountain,pct_rope,pct_tangled_rope,pct_snare,pct_scaffold,pct_piton
+A,6,0.4933,0.6478,3.83,0.256802,0.822258,0.822654,0.720699,16.7,0.0,50.0,33.3,0.0,0.0
+B,208,0.5452,0.7457,4.59,0.003147,0.785156,0.015955,0.001720,1.9,1.0,25.0,72.1,0.0,0.0
+C,1,0.1800,0.2466,3.00,0.010227,0.021050,0.091901,0.004788,0.0,100.0,0.0,0.0,0.0,0.0

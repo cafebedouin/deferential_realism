@@ -1,0 +1,72 @@
+{
+  "constraint_id": "knowledge_transmission_urgency",
+  "iteration_round": null,
+  "verdict": "YELLOW",
+  "subsystems_checked": [
+    12,
+    12
+  ],
+  "tensions": [
+    {
+      "subsystem": "abductive",
+      "code": "abductive_tension",
+      "detail": "abductive_tension([trigger(epistemic_trap,0.78,restricted_view_divergence,genuine)])"
+    }
+  ],
+  "tension_count": 1,
+  "expected_conflicts": [
+    {
+      "subsystem": "boltzmann",
+      "code": "constructed_non_compliance"
+    },
+    {
+      "subsystem": "dirac",
+      "code": "pre_post_override_divergence"
+    },
+    {
+      "subsystem": "context_gap",
+      "code": "pre_post_override_divergence"
+    }
+  ],
+  "convergent_rejections": "none",
+  "classification": {
+    "claimed_type": "snare",
+    "classified_type": "tangled_rope",
+    "mismatch": true,
+    "confidence": 0.01,
+    "confidence_band": "borderline",
+    "rival_type": "tangled_rope",
+    "rival_p": 0.95,
+    "boundary": "snare->tangled_rope",
+    "psi": null,
+    "psi_label": null
+  },
+  "hard_disagreement": {
+    "pipeline": "snare",
+    "maxent": "tangled_rope"
+  },
+  "drift_events": [
+    {
+      "severity": "critical",
+      "type": "extraction_accumulation"
+    },
+    {
+      "severity": "critical",
+      "type": "coupling_drift"
+    },
+    {
+      "severity": "warning",
+      "type": "purity_drift"
+    }
+  ],
+  "mandatrophy_gap": {
+    "delta_chi": 0.19,
+    "severity": "moderate"
+  },
+  "structural_signature": "false_natural_law",
+  "purity": {
+    "value": 0.354167,
+    "band": "contaminated"
+  },
+  "post_synthesis_flags": []
+}

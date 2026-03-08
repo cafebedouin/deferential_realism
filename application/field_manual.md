@@ -50,7 +50,7 @@ Run constraint through decision tree:
 ### Test F: Obsolescence Check
 **Question:** Maintenance cost > benefit? Function lost? Persists through inertia?
 - **YES** → **PITON** (Bypass or eliminate)
-- **NO** → **UNCLASSIFIED** (Gather more information or reconsider indices)
+- **NO** → **UNCLASSIFIED** (Gather more information or reconsider indices). *Exception: if base extraction is high (ε > 0.45) but power-scaled extraction is low (χ < 0.40), classify as **Naturalized** and use `investigate_naturalization` rather than generic investigation.*
 
 ---
 
@@ -87,6 +87,8 @@ Same classified constraint, different responses based on values:
 
 ## Critical Reminders
 
+**Metrics route action, not truth:** Extraction coefficients, power modifiers, and purity scores are governance stands that trigger responses — not precision measurements of objective reality. ε ≥ 0.46 means "route toward resistance," not "exactly 46% extractive." The value is in consistent, explicit decision-making. (See `metrics_as_routing.md`.)
+
 **Power-scaling matters:** Same constraint experienced differently by position
 - Powerless: Extraction amplified (Snare feel)
 - Moderate: See both functions (Tangled Rope)
@@ -103,6 +105,12 @@ Same classified constraint, different responses based on values:
 - Present vs. Future
 - These are **overhangs to traverse**, not problems to solve
 - Contain them, don't force resolution
+- **But first:** Confirm it's actually a paradox, not a misclassification — many apparent paradoxes are drift errors or underspecified queries that dissolve under scrutiny (see `debugging_philosophy.md`, Step 0 of Containment Protocol)
+
+**Monitor purity over time:**
+- Purity > 0.70: healthy Rope, maintain
+- Purity 0.40–0.70: degrading toward Tangled Rope, watch closely
+- Purity < 0.40: approaching Snare behavior, intervene or exit
 
 ---
 
@@ -138,7 +146,7 @@ Same classified constraint, different responses based on values:
 
 ---
 
-## Quick Reference: The Six Categories
+## Quick Reference: The Seven Categories
 
 | Category | One-Line Test | Action |
 |----------|---------------|--------|
@@ -148,6 +156,7 @@ Same classified constraint, different responses based on values:
 | **Snare** | Power-maintained extraction | Resist, exit, expose |
 | **Scaffold** | Temporary with sunset | Use then dismantle |
 | **Piton** | High cost, no benefit | Bypass, eliminate |
+| **Naturalized** | High base extraction (ε > 0.45) with low power-scaled extraction (χ < 0.40) — power position masking extraction | investigate_naturalization |
 
 ---
 
@@ -155,9 +164,11 @@ Same classified constraint, different responses based on values:
 **For worked examples:** See `applied_guide.md`  
 **For ethical integration:** See `ethics.md`  
 **For internal constraints:** See `psychology.md`  
-**For social constraints:** See `sociology.md`
+**For social constraints:** See `sociology.md`  
+**For paradox triage:** See `debugging_philosophy.md`  
+**For understanding thresholds:** See `metrics_as_routing.md`
 
 ---
 
-**Version 3.3**  
+**Version 4.1**  
 **Deferential Realism: Systematic constraint classification for finite agents**

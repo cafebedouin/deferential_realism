@@ -14,7 +14,7 @@ This document presents the epistemological foundations: intellectual lineage, co
 
 **What this document covers:**
 - Where these ideas come from (intellectual lineage)
-- What constraints are and how they differ (six-category ontology + detection patterns)
+- What constraints are and how they differ (seven-category ontology + detection patterns)
 - How to classify them systematically (methodology)
 - What creates apparent constraints that dissolve under analysis (constraint illusions)
 - What we can and cannot know (limitations, epistemic positioning, empirically confirmed failure modes)
@@ -35,7 +35,7 @@ This document presents the epistemological foundations: intellectual lineage, co
 
 We live in a world saturated with claims about necessity. Governments declare policies "unavoidable given economic reality." Corporations insist their market dominance reflects "natural competitive dynamics." Social institutions frame their practices as rooted in "human nature" or "biological imperatives."
 
-Yet history demonstrates repeatedly that many supposedly ironclad constraints dissolve when power shiftsâ€”what was "impossible" becomes routine, what was "natural" is revealed as constructed.
+Yet history demonstrates repeatedly that many supposedly ironclad constraints dissolve when power shifts—what was "impossible" becomes routine, what was "natural" is revealed as constructed.
 
 **The epistemic crisis:** How do we distinguish genuine constraints from manufactured ones? How do we tell the difference between physics (which we must navigate) and politics (which we might change)?
 
@@ -52,7 +52,7 @@ Traditional philosophy offers limited guidance:
 4. **Power blindness** (Type III) - Treating extraction (Snares) as coordination (Ropes) enables perpetuation of harm
 5. **Reform failure** (Type VI) - Mishandling hybrids (Tangled Ropes) either maintains extraction or destroys coordination
 
-Deferential Realism addresses this gap by developing systematic methods for constraint classificationâ€”a toolkit for telling the difference between what we must accept and what we can (and perhaps should) change.
+Deferential Realism addresses this gap by developing systematic methods for constraint classification—a toolkit for telling the difference between what we must accept and what we can (and perhaps should) change.
 
 ---
 
@@ -66,7 +66,7 @@ Deferential Realism inherits core insights from several philosophical traditions
 
 The Stoics distinguished sharply between things "in our power" (our judgments, desires, actions) and things "not in our power" (external events, others' opinions, fate). Epictetus counseled focusing energy on the former while accepting the latter with equanimity.
 
-**Advancement:** The Stoic "not in our power" category is monolithicâ€”it treats gravity and tax policy as equivalent types of constraint. Deferential Realism makes this category analytically tractable by distinguishing:
+**Advancement:** The Stoic "not in our power" category is monolithic—it treats gravity and tax policy as equivalent types of constraint. Deferential Realism makes this category analytically tractable by distinguishing:
 
 - Natural constraints (Mountains) that truly cannot be changed
 - Coordination mechanisms (Ropes) that serve collective function
@@ -77,13 +77,13 @@ The Stoics distinguished sharply between things "in our power" (our judgments, d
 
 The difference between "cannot be changed by anyone" and "cannot be changed by me given current power dynamics" becomes explicit through **indexical specification** (WHO/WHEN/WHERE/HOW_MUCH).
 
-**Why this matters:** The appropriate response to gravity is navigation; the appropriate response to unjust law might be civil disobedience, reform advocacy, or strategic exitâ€”not stoic acceptance. The appropriate response to a Tangled Rope is reform (preserve coordination, excise extraction), not blanket acceptance or rejection.
+**Why this matters:** The appropriate response to gravity is navigation; the appropriate response to unjust law might be civil disobedience, reform advocacy, or strategic exit—not stoic acceptance. The appropriate response to a Tangled Rope is reform (preserve coordination, excise extraction), not blanket acceptance or rejection.
 
 ### B. From Existentialism: Freedom Within Situation
 
 **Inherited insight:** Even within severe constraints, agency remains. We choose how to interpret our situation and how to respond. Claiming "I had no choice" is often bad faith.
 
-Sartre emphasized radical freedomâ€”we are "condemned to be free" even in constrained circumstances. But freedom is always situated: a prisoner is free to choose their attitude but not free to leave their cell.
+Sartre emphasized radical freedom—we are "condemned to be free" even in constrained circumstances. But freedom is always situated: a prisoner is free to choose their attitude but not free to leave their cell.
 
 **Advancement:** Existentialism can slip into treating all constraints as equally "given" while emphasizing only our interpretive freedom. Deferential Realism adds:
 
@@ -92,11 +92,11 @@ Sartre emphasized radical freedomâ€”we are "condemned to be free" even in c
 - Framework for distinguishing authentic limits (demanding creative navigation) from artificial limits (demanding resistance)
 - **Containment logic** for structural paradoxes that cannot be resolved, only navigated (overhangs)
 
-**Why this matters:** This prevents existentialism from collapsing into quietism ("everything is interpretation") while retaining its core insight about situated agency. It also acknowledges some tensions are structurally permanentâ€”forcing resolution causes collapse.
+**Why this matters:** This prevents existentialism from collapsing into quietism ("everything is interpretation") while retaining its core insight about situated agency. It also acknowledges some tensions are structurally permanent—forcing resolution causes collapse.
 
 ### C. From Pragmatism: Truth as What Works
 
-**Inherited insight:** We learn about reality through systematic testingâ€”try things, observe results, update models. The test of constraint-classification is whether it enables effective action.
+**Inherited insight:** We learn about reality through systematic testing—try things, observe results, update models. The test of constraint-classification is whether it enables effective action.
 
 Pragmatists like Dewey and James argued that truth is better understood through consequences than correspondence. A belief is "true" if acting on it produces expected results.
 
@@ -130,9 +130,9 @@ Frankfurt School theorists emphasized how ideology presents socially constructed
 
 Type C paradoxes arise when one question packages multiple distinct queries: "Is immigration good?" means different things for capital (labor supply), workers (wage pressure), immigrants (opportunity), and communities (integration challenges). The contradiction is in the question structure, not reality.
 
-**Core innovation:** **Indexical specification** dissolves Type C paradoxes by forcing explicit statement of WHO/WHEN/WHERE/HOW_MUCH before classification. The carbon credit example demonstrates: same system is simultaneously Mountain (powerless consumer), Tangled Rope (moderate business), Rope (institution), and Snare (analyst)â€”all objectively true at their respective indices.
+**Core innovation:** **Indexical specification** dissolves Type C paradoxes by forcing explicit statement of WHO/WHEN/WHERE/HOW_MUCH before classification. The carbon credit example demonstrates: same system is simultaneously Mountain (powerless consumer), Tangled Rope (moderate business), Rope (institution), and Snare (analyst)—all objectively true at their respective indices.
 
-**Why this matters:** Most political/policy disagreements are Type C paradoxes misdiagnosed as factual disputes or value conflicts. Indexical specification reveals these as structuralâ€”different positions expose different properties of the same constraint.
+**Why this matters:** Most political/policy disagreements are Type C paradoxes misdiagnosed as factual disputes or value conflicts. Indexical specification reveals these as structural—different positions expose different properties of the same constraint.
 
 ---
 
@@ -207,8 +207,8 @@ See `core.md` for compressed version. This section provides epistemological dept
 
 **Quality spectrum:**
 - **Good Ropes** - Efficient, broadly beneficial, enabling
-- **Degrading Ropes** - Ossifying, accumulating extraction (â†’ Tangled Rope)
-- **Failed Ropes** - Don't actually solve claimed problem (â†’ Piton)
+- **Degrading Ropes** - Ossifying, accumulating extraction (→ Tangled Rope)
+- **Failed Ropes** - Don't actually solve claimed problem (→ Piton)
 
 **Knowledge methods:**
 - Functional analysis (does it solve the coordination problem?)
@@ -247,9 +247,9 @@ See `core.md` for compressed version. This section provides epistemological dept
 **Power-scaling mechanism (critical for classification):**
 
 Same base extraction (e.g., 0.40) experienced as:
-- **Powerless agents** (extraction amplified): 0.60+ â†’ Snare territory
-- **Moderate agents** (baseline): 0.40 â†’ Tangled Rope threshold
-- **Institutional agents** (extraction reduced): -0.08 â†’ Net benefit, Rope experience
+- **Powerless agents** (extraction amplified): 0.60+ → Snare territory
+- **Moderate agents** (baseline): 0.40 → Tangled Rope threshold
+- **Institutional agents** (extraction reduced): -0.08 → Net benefit, Rope experience
 
 This explains **indexical relativity**: same structure genuinely functions differently based on observable power position (control over exit, enforcement, resources).
 
@@ -316,7 +316,7 @@ This explains **indexical relativity**: same structure genuinely functions diffe
 - Power conceals information precisely where it's most vulnerable
 - Naturalization is sophisticated (uses real Mountains to justify artificial Snares)
 - Beneficiaries have resources to produce counter-evidence
-- Victims may internalize the Snare (external â†’ internal constraint)
+- Victims may internalize the Snare (external → internal constraint)
 
 **Terminology note:** Previously called "Snare" (execution device). "Snare" better fits climbing metaphor (trap in terrain) while maintaining the "tightening trap" concept.
 
@@ -352,8 +352,8 @@ This explains **indexical relativity**: same structure genuinely functions diffe
 **Epistemic confidence:** MEDIUM to HIGH for obvious cases (training wheels), LOW for contested cases (which "temporary" measures have calcified?).
 
 **Degradation paths:**
-- **Scaffold â†’ Piton** (purpose served but not removed â†’ bureaucratic inertia)
-- **Scaffold â†’ Tangled Rope** (extraction added to temporary support â†’ permanent rent-seeking)
+- **Scaffold → Piton** (purpose served but not removed → bureaucratic inertia)
+- **Scaffold → Tangled Rope** (extraction added to temporary support → permanent rent-seeking)
 
 **Hidden Tangled Rope risk:** Some "scaffolds" claim temporality but extract rent while entrenc
 
@@ -409,33 +409,33 @@ For any constraint, apply these tests in sequence:
 
 **Test 1: Reality Enforcement**
 - Question: If ignored, does system collapse due to **reality** (not punishment)?
-- YES â†’ **Mountain** (proceed to False Summit check)
-- NO â†’ Continue to Test 2
+- YES → **Mountain** (proceed to False Summit check)
+- NO → Continue to Test 2
 
 **Test 2: Coordination Function**
 - Question: Does this solve genuine coordination problems? Is benefit reciprocal?
-- NO â†’ Skip to Test 4 (power maintenance check)
-- YES â†’ Continue to Test 3
+- NO → Skip to Test 4 (power maintenance check)
+- YES → Continue to Test 3
 
 **Test 3: Extraction Present?**
 - Question: Does this also extract value asymmetrically? Can functions be separated?
-- NO â†’ **Rope**
-- YES â†’ **Tangled Rope** (proceed to power-scaling assessment)
+- NO → **Rope**
+- YES → **Tangled Rope** (proceed to power-scaling assessment)
 
 **Test 4: Power Maintenance**
 - Question: Requires active enforcement? Alternatives suppressed? Who benefits?
-- YES â†’ **Snare**
-- NO â†’ Continue to Test 5
+- YES → **Snare**
+- NO → Continue to Test 5
 
 **Test 5: Temporal Limitation**
 - Question: Explicit sunset clause? Designed for transition?
-- YES â†’ **Scaffold**
-- NO â†’ Continue to Test 6
+- YES → **Scaffold**
+- NO → Continue to Test 6
 
 **Test 6: Obsolescence**
 - Question: Maintenance cost > benefit? Function lost? Persists through inertia?
-- YES â†’ **Piton**
-- NO â†’ **UNCLASSIFIED** (gather more information or reconsider indices)
+- YES → **Piton**
+- NO → **UNCLASSIFIED** (gather more information or reconsider indices)
 
 ### B. Hybrid Decomposition Protocol (For Suspected Tangled Ropes)
 
@@ -578,7 +578,7 @@ See logic_extensions.md §3 (FNL/FCR detection signatures), logic_thresholds.md 
 
 **Relativism:** Constraint types are purely subjective. "X is a Mountain for you, a Snare for me" means we just disagree.
 
-**Indexical realism (Deferential Realism's position):** Constraint types are **position-relative but objectively determinable at each position**. "X is a Mountain at index Iâ‚ and a Snare at index Iâ‚‚" are both objectively trueâ€”different positions expose different structural properties of X.
+**Indexical realism (Deferential Realism's position):** Constraint types are **position-relative but objectively determinable at each position**. "X is a Mountain at index I₁ and a Snare at index I₂" are both objectively true—different positions expose different structural properties of X.
 
 ### B. Four Indices
 
@@ -603,17 +603,17 @@ Classification requires specifying:
 - **Relativism:** If I believe I can fly, that's true "for me"
 - **Indexical realism:** Whether I can fly depends on objective structural facts (gravity, my body) PLUS my power position (do I have a plane?). Belief doesn't change structure.
 
-**Epistemic test:** Indexed claims are falsifiable. If agent at index Iâ‚ classifies constraint as Mountain but it turns out to snap back quickly when enforcement stops (Snare test), the classification was **wrong**, not just "different perspective."
+**Epistemic test:** Indexed claims are falsifiable. If agent at index I₁ classifies constraint as Mountain but it turns out to snap back quickly when enforcement stops (Snare test), the classification was **wrong**, not just "different perspective."
 
 ### D. Dissolving Type C Paradoxes
 
 Many apparent contradictions are indexical underspecification:
 
 **"Is carbon credit trading good?"**
-- For powerless consumer [Iâ‚]: Mountain (cannot change)
-- For moderate business [Iâ‚‚]: Tangled Rope (see both coordination + extraction)
-- For institution [Iâ‚ƒ]: Rope (net benefit from coordination)
-- For policy analyst [Iâ‚„]: Snare (extraction exceeds coordination value)
+- For powerless consumer [I₁]: Mountain (cannot change)
+- For moderate business [I₂]: Tangled Rope (see both coordination + extraction)
+- For institution [I₃]: Rope (net benefit from coordination)
+- For policy analyst [I₄]: Snare (extraction exceeds coordination value)
 
 These aren't four opinions about one underlying type. They're four **structurally different functional relationships** between the same constraint and four different agents.
 
@@ -653,7 +653,7 @@ See metrics_as_routing.md for the full thermostat/thermometer distinction.
 
 ### A. Measurement Access Problems
 
-**Power limits epistemic access:** The more power-maintained a constraint (Snare â†’ Tangled Rope â†’ Snare again), the harder it is to gather evidence about:
+**Power limits epistemic access:** The more power-maintained a constraint (Snare → Tangled Rope → Snare again), the harder it is to gather evidence about:
 - True beneficiary distribution
 - Suppressed alternatives
 - Enforcement mechanisms
@@ -709,7 +709,7 @@ See metrics_as_routing.md for the full thermostat/thermometer distinction.
 - Cognitive load (indexing is expensive)
 - Information access (power limits what we can know)
 - Ideological capture (our own position biases perception)
-- Collective action problems (knowing â‰  ability to change)
+- Collective action problems (knowing ≠ ability to change)
 
 **Probably yes, but TBD through practice.**
 
@@ -810,9 +810,9 @@ Four patterns create apparent constraints or paradoxes that dissolve under analy
 ### A. What We Know
 
 **With high confidence:**
-- Core structure (6 categories + 4 indices) is internally coherent
+- Core structure (7 categories + 4 indices) is internally coherent
 - Tangled Rope is empirically necessary (36% prevalence, cannot be reduced)
-- Power-scaling reduces collisions (8.2% â†’ 0%)
+- Power-scaling reduces collisions (8.2% → 0%)
 - Cross-domain applicability appears strong (psychology/sociology isomorphism holds)
 
 **With medium confidence:**
@@ -840,8 +840,8 @@ Four patterns create apparent constraints or paradoxes that dissolve under analy
 
 **Requires temporal observation:**
 - Do predicted degradation paths materialize?
-- What triggers Rope â†’ Tangled Rope transitions?
-- Can we build predictive lifecycle models?
+- What triggers Rope → Tangled Rope transitions?
+- Do implemented predictive lifecycle models (Stage 9 cascade prediction) generalize across domains? Calibration thresholds remain in shadow mode pending validation.
 
 ### C. Epistemic Stance
 
@@ -868,7 +868,7 @@ We remain open to:
 
 1. Test against constraints you know well (use your domain expertise)
 2. Check if classifications align with your experience
-3. Where they diverge, investigateâ€”either framework needs revision or your model does
+3. Where they diverge, investigate—either framework needs revision or your model does
 4. Contribute refinements based on your findings
 
 ### If you have critiques:
@@ -899,7 +899,7 @@ Deferential Realism provides:
 - **Empirically confirmed failure modes** with verification architecture to catch them (parser vulnerability, Mountain naturalization, WHO assignment limits)
 - **Honest limitations** acknowledging measurement-access constraints, implementation gaps, and uncertainty
 
-The goal is not perfect knowledge but **strategic clarity**: knowing which constraints to accept (Mountains), which to maintain (Ropes), which to reform (Tangled Ropes), which to resist (Snares), which to use temporarily (Scaffolds), and which to eliminate (Pitons).
+The goal is not perfect knowledge but **strategic clarity**: knowing which constraints to accept (Mountains), which to maintain (Ropes), which to reform (Tangled Ropes), which to resist (Snares), which to use temporarily (Scaffolds), which to eliminate (Pitons), and which require naturalization investigation before classification (Naturalized).
 
 **The framework is a tool.** Use it where helpful. Modify where needed. Replace if something better emerges. The goal is accurate constraint classification enabling effective action, not defense of this particular system.
 

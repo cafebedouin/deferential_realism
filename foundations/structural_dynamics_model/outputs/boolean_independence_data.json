@@ -1,0 +1,564 @@
+{
+  "metadata": {
+    "total_constraints": 993,
+    "has_scipy": true,
+    "features_analyzed": [
+      "emerges_naturally",
+      "requires_active_enforcement",
+      "has_coordination_function",
+      "has_asymmetric_extraction",
+      "natural_law_without_beneficiary",
+      "is_constructed"
+    ],
+    "candidates": []
+  },
+  "per_feature": {
+    "emerges_naturally": {
+      "definition": "Constraint arises from natural/structural dynamics without deliberate design",
+      "boolean_specs": "mountain: required, rope: bonus",
+      "global_counts": {
+        "true": 154,
+        "false": 839
+      },
+      "independence_score": 0.012773,
+      "within_type": {
+        "mountain": {
+          "n": 151,
+          "true": 151,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "rope": {
+          "n": 28,
+          "true": 2,
+          "false": 26,
+          "p_true": 0.071429
+        },
+        "tangled_rope": {
+          "n": 603,
+          "true": 0,
+          "false": 603,
+          "p_true": 0.0
+        },
+        "snare": {
+          "n": 192,
+          "true": 1,
+          "false": 191,
+          "p_true": 0.005208
+        },
+        "scaffold": {
+          "n": 10,
+          "true": 0,
+          "false": 10,
+          "p_true": 0.0
+        },
+        "piton": {
+          "n": 9,
+          "true": 0,
+          "false": 9,
+          "p_true": 0.0
+        }
+      },
+      "chi_squared": {
+        "chi2": 971.2352,
+        "p_value": 0.0,
+        "dof": 5,
+        "cramers_v": 0.989,
+        "contingency_table": {
+          "rows": [
+            "false",
+            "true"
+          ],
+          "cols": [
+            "mountain",
+            "rope",
+            "tangled_rope",
+            "snare",
+            "scaffold",
+            "piton"
+          ],
+          "data": [
+            [
+              0,
+              26,
+              603,
+              191,
+              10,
+              9
+            ],
+            [
+              151,
+              2,
+              0,
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "mutual_information": {
+        "mi": 0.602867,
+        "h_b": 0.622422,
+        "h_t": 1.582052,
+        "nmi": 0.968582
+      }
+    },
+    "requires_active_enforcement": {
+      "definition": "Constraint requires ongoing enforcement mechanisms to persist",
+      "boolean_specs": "mountain: forbidden, tangled_rope: required",
+      "global_counts": {
+        "true": 724,
+        "false": 269
+      },
+      "independence_score": 0.092932,
+      "within_type": {
+        "mountain": {
+          "n": 151,
+          "true": 0,
+          "false": 151,
+          "p_true": 0.0
+        },
+        "rope": {
+          "n": 28,
+          "true": 1,
+          "false": 27,
+          "p_true": 0.035714
+        },
+        "tangled_rope": {
+          "n": 603,
+          "true": 603,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "snare": {
+          "n": 192,
+          "true": 111,
+          "false": 81,
+          "p_true": 0.578125
+        },
+        "scaffold": {
+          "n": 10,
+          "true": 9,
+          "false": 1,
+          "p_true": 0.9
+        },
+        "piton": {
+          "n": 9,
+          "true": 0,
+          "false": 9,
+          "p_true": 0.0
+        }
+      },
+      "chi_squared": {
+        "chi2": 746.4705,
+        "p_value": 0.0,
+        "dof": 5,
+        "cramers_v": 0.867,
+        "contingency_table": {
+          "rows": [
+            "false",
+            "true"
+          ],
+          "cols": [
+            "mountain",
+            "rope",
+            "tangled_rope",
+            "snare",
+            "scaffold",
+            "piton"
+          ],
+          "data": [
+            [
+              151,
+              27,
+              0,
+              81,
+              1,
+              9
+            ],
+            [
+              0,
+              1,
+              603,
+              111,
+              9,
+              0
+            ]
+          ]
+        }
+      },
+      "mutual_information": {
+        "mi": 0.641823,
+        "h_b": 0.842748,
+        "h_t": 1.582052,
+        "nmi": 0.761583
+      }
+    },
+    "has_coordination_function": {
+      "definition": "Constraint has beneficiaries (len(beneficiaries) > 0)",
+      "boolean_specs": "scaffold: required, tangled_rope: required",
+      "global_counts": {
+        "true": 814,
+        "false": 179
+      },
+      "independence_score": 0.041956,
+      "within_type": {
+        "mountain": {
+          "n": 151,
+          "true": 0,
+          "false": 151,
+          "p_true": 0.0
+        },
+        "rope": {
+          "n": 28,
+          "true": 28,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "tangled_rope": {
+          "n": 603,
+          "true": 603,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "snare": {
+          "n": 192,
+          "true": 165,
+          "false": 27,
+          "p_true": 0.859375
+        },
+        "scaffold": {
+          "n": 10,
+          "true": 10,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "piton": {
+          "n": 9,
+          "true": 8,
+          "false": 1,
+          "p_true": 0.888889
+        }
+      },
+      "chi_squared": {
+        "chi2": 829.96,
+        "p_value": 0.0,
+        "dof": 5,
+        "cramers_v": 0.9142,
+        "contingency_table": {
+          "rows": [
+            "false",
+            "true"
+          ],
+          "cols": [
+            "mountain",
+            "rope",
+            "tangled_rope",
+            "snare",
+            "scaffold",
+            "piton"
+          ],
+          "data": [
+            [
+              151,
+              0,
+              0,
+              27,
+              0,
+              1
+            ],
+            [
+              0,
+              28,
+              603,
+              165,
+              10,
+              8
+            ]
+          ]
+        }
+      },
+      "mutual_information": {
+        "mi": 0.562808,
+        "h_b": 0.68065,
+        "h_t": 1.582052,
+        "nmi": 0.826868
+      }
+    },
+    "has_asymmetric_extraction": {
+      "definition": "Constraint has victims (len(victims) > 0)",
+      "boolean_specs": "tangled_rope: required",
+      "global_counts": {
+        "true": 811,
+        "false": 182
+      },
+      "independence_score": 0.09709,
+      "within_type": {
+        "mountain": {
+          "n": 151,
+          "true": 0,
+          "false": 151,
+          "p_true": 0.0
+        },
+        "rope": {
+          "n": 28,
+          "true": 2,
+          "false": 26,
+          "p_true": 0.071429
+        },
+        "tangled_rope": {
+          "n": 603,
+          "true": 603,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "snare": {
+          "n": 192,
+          "true": 192,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "scaffold": {
+          "n": 10,
+          "true": 6,
+          "false": 4,
+          "p_true": 0.6
+        },
+        "piton": {
+          "n": 9,
+          "true": 8,
+          "false": 1,
+          "p_true": 0.888889
+        }
+      },
+      "chi_squared": {
+        "chi2": 958.6221,
+        "p_value": 0.0,
+        "dof": 5,
+        "cramers_v": 0.9825,
+        "contingency_table": {
+          "rows": [
+            "false",
+            "true"
+          ],
+          "cols": [
+            "mountain",
+            "rope",
+            "tangled_rope",
+            "snare",
+            "scaffold",
+            "piton"
+          ],
+          "data": [
+            [
+              151,
+              26,
+              0,
+              0,
+              4,
+              1
+            ],
+            [
+              0,
+              2,
+              603,
+              192,
+              6,
+              8
+            ]
+          ]
+        }
+      },
+      "mutual_information": {
+        "mi": 0.6624,
+        "h_b": 0.687207,
+        "h_t": 1.582052,
+        "nmi": 0.963902
+      }
+    },
+    "natural_law_without_beneficiary": {
+      "definition": "emerges_naturally AND has no beneficiaries \u2014 pure natural constraint",
+      "boolean_specs": "snare: forbidden, tangled_rope: forbidden",
+      "global_counts": {
+        "true": 152,
+        "false": 841
+      },
+      "independence_score": 0.000868,
+      "within_type": {
+        "mountain": {
+          "n": 151,
+          "true": 151,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "rope": {
+          "n": 28,
+          "true": 0,
+          "false": 28,
+          "p_true": 0.0
+        },
+        "tangled_rope": {
+          "n": 603,
+          "true": 0,
+          "false": 603,
+          "p_true": 0.0
+        },
+        "snare": {
+          "n": 192,
+          "true": 1,
+          "false": 191,
+          "p_true": 0.005208
+        },
+        "scaffold": {
+          "n": 10,
+          "true": 0,
+          "false": 10,
+          "p_true": 0.0
+        },
+        "piton": {
+          "n": 9,
+          "true": 0,
+          "false": 9,
+          "p_true": 0.0
+        }
+      },
+      "chi_squared": {
+        "chi2": 985.3265,
+        "p_value": 0.0,
+        "dof": 5,
+        "cramers_v": 0.9961,
+        "contingency_table": {
+          "rows": [
+            "false",
+            "true"
+          ],
+          "cols": [
+            "mountain",
+            "rope",
+            "tangled_rope",
+            "snare",
+            "scaffold",
+            "piton"
+          ],
+          "data": [
+            [
+              0,
+              28,
+              603,
+              191,
+              10,
+              9
+            ],
+            [
+              151,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "mutual_information": {
+        "mi": 0.608386,
+        "h_b": 0.617474,
+        "h_t": 1.582052,
+        "nmi": 0.985283
+      }
+    },
+    "is_constructed": {
+      "definition": "Constraint is constructed (not natural) per corpus analysis",
+      "boolean_specs": "(not used in MaxEnt boolean_spec, structural metadata only)",
+      "global_counts": {
+        "true": 847,
+        "false": 146
+      },
+      "independence_score": 0.005519,
+      "within_type": {
+        "mountain": {
+          "n": 151,
+          "true": 5,
+          "false": 146,
+          "p_true": 0.033113
+        },
+        "rope": {
+          "n": 28,
+          "true": 28,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "tangled_rope": {
+          "n": 603,
+          "true": 603,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "snare": {
+          "n": 192,
+          "true": 192,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "scaffold": {
+          "n": 10,
+          "true": 10,
+          "false": 0,
+          "p_true": 1.0
+        },
+        "piton": {
+          "n": 9,
+          "true": 9,
+          "false": 0,
+          "p_true": 1.0
+        }
+      },
+      "chi_squared": {
+        "chi2": 954.4514,
+        "p_value": 0.0,
+        "dof": 5,
+        "cramers_v": 0.9804,
+        "contingency_table": {
+          "rows": [
+            "false",
+            "true"
+          ],
+          "cols": [
+            "mountain",
+            "rope",
+            "tangled_rope",
+            "snare",
+            "scaffold",
+            "piton"
+          ],
+          "data": [
+            [
+              146,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              28,
+              603,
+              192,
+              10,
+              9
+            ]
+          ]
+        }
+      },
+      "mutual_information": {
+        "mi": 0.570457,
+        "h_b": 0.602356,
+        "h_t": 1.582052,
+        "nmi": 0.947044
+      }
+    }
+  },
+  "pairwise": {}
+}

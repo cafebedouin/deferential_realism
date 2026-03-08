@@ -1,0 +1,43 @@
+{
+  "constraint_id": "ghost_gdp_circulation",
+  "iteration_round": null,
+  "verdict": "GREEN",
+  "subsystems_checked": [
+    12,
+    12
+  ],
+  "tensions": [],
+  "tension_count": 0,
+  "expected_conflicts": [],
+  "convergent_rejections": "none",
+  "classification": {
+    "claimed_type": "rope",
+    "classified_type": "rope",
+    "mismatch": false,
+    "confidence": 0.95,
+    "confidence_band": "deep",
+    "rival_type": "mountain",
+    "rival_p": 0.01,
+    "boundary": "rope->mountain",
+    "psi": null,
+    "psi_label": null
+  },
+  "hard_disagreement": null,
+  "drift_events": [
+    {
+      "severity": "watch",
+      "type": "purity_drift"
+    },
+    {
+      "severity": "watch",
+      "type": "network_drift"
+    }
+  ],
+  "mandatrophy_gap": null,
+  "structural_signature": "coupling_invariant_rope",
+  "purity": {
+    "value": 0.988,
+    "band": "pristine"
+  },
+  "post_synthesis_flags": []
+}

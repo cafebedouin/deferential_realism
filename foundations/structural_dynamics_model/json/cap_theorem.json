@@ -1,0 +1,134 @@
+{
+  "header": {
+    "constraint_id": "cap_theorem",
+    "version": "1.0",
+    "generated_date": "2026-02-26",
+    "status": "ACTIVE",
+    "measurement_id_prefix": "cap"
+  },
+  "base_properties": {
+    "extractiveness": 0.12,
+    "suppression": 0.03,
+    "theater_ratio": 0.15,
+    "claimed_type": "mountain",
+    "human_readable": "CAP Theorem (Brewer's Theorem)",
+    "topic_domain": "technological/distributed_systems",
+    "emerges_naturally": true,
+    "accessibility_collapse": 0.92,
+    "resistance": 0.08
+  },
+  "perspectives": [
+    {
+      "classification_type": "mountain",
+      "agent_power": "analytical",
+      "time_horizon": "civilizational",
+      "exit_options": "analytical",
+      "spatial_scope": "universal",
+      "label": "The Theoretical Consensus",
+      "comment": "PERSPECTIVE 1: THEORETICAL CONSENSUS (MOUNTAIN) \u2014 The CAP theorem is a proven mathematical constraint on distributed systems. From a formal logic perspective, any distributed database must sacrifice one of three properties. This is invariant across all implementations, architectures, and design choices. Zero degrees of freedom. The constraint emerges from the incompleteness of information propagation across partitioned networks."
+    },
+    {
+      "classification_type": "mountain",
+      "agent_power": "powerful",
+      "time_horizon": "civilizational",
+      "exit_options": "arbitrage",
+      "spatial_scope": "global",
+      "label": "The Systems Architect",
+      "comment": "PERSPECTIVE 2: SYSTEMS ARCHITECT (MOUNTAIN) \u2014 Even with unlimited resources and engineering skill, the CAP constraint cannot be circumvented. The architect cannot buy their way out, cannot design around it, cannot implement a system that violates the theorem. The constraint is a ceiling on design possibility, not a friction cost. Recognized by every major database vendor as an immutable architecture tradeoff."
+    },
+    {
+      "classification_type": "mountain",
+      "agent_power": "organized",
+      "time_horizon": "generational",
+      "exit_options": "constrained",
+      "spatial_scope": "global",
+      "label": "The Engineering Organization",
+      "comment": "PERSPECTIVE 3: ENGINEERING ORGANIZATION (MOUNTAIN) \u2014 Distributed systems teams across decades and continents have arrived independently at the same conclusion: all production systems choose two of three. No organizational coalition, standards body, or market competition has produced a system that violates CAP. The constraint persists as a structural reality independent of economic incentives or collective action."
+    },
+    {
+      "classification_type": "mountain",
+      "agent_power": "moderate",
+      "time_horizon": "biographical",
+      "exit_options": "mobile",
+      "spatial_scope": "global",
+      "label": "The Database Developer",
+      "comment": "PERSPECTIVE 4: DATABASE DEVELOPER (MOUNTAIN) \u2014 Individual engineers implementing distributed data stores encounter the CAP constraint as an unavoidable design forcing function. Choosing which two of three to provide is not optional; it is the primary decision. The constraint appears as a natural law of system behavior, not as an external rule imposed on them."
+    }
+  ],
+  "omegas": [
+    {
+      "id": "partition_tolerance_necessity",
+      "question": "Is partition tolerance truly optional, or do all practical distributed systems require it because network partitions are empirically inevitable?",
+      "resolution_mechanism": "Analysis of production systems claiming CA (no partition tolerance): examine failure modes when network partitions occur; compare stated guarantees to actual behavior under adverse conditions",
+      "impact": "If partition tolerance is empirically unavoidable: effective CAP reduces to CP vs AP choice in practice. The theorem remains mathematical but the practical space is narrower.",
+      "confidence": "high",
+      "type_class": "empirical",
+      "description": "Whether partition tolerance is truly optional or empirically unavoidable"
+    },
+    {
+      "id": "consistency_definition_boundary",
+      "question": "Does the theorem's definition of 'consistency' (linearizability) capture all forms of data correctness that systems require, or do weaker consistency models (eventual, causal) represent a different constraint class?",
+      "resolution_mechanism": "Formal analysis of consistency hierarchy; examination of systems that claim to exceed CAP via weaker consistency models; determine if these systems have simply redefined 'consistency' rather than violated the theorem",
+      "impact": "If weaker models are a different constraint: CAP remains invariant for its formal definition but does not address practical system design. If they violate CAP: theorem requires revision.",
+      "confidence": "high",
+      "type_class": "conceptual",
+      "description": "Whether consistency definitions beyond linearizability constitute theorem violations"
+    }
+  ],
+  "measurements": [
+    {
+      "metric": "theater_ratio",
+      "time_point": 0,
+      "value": 0.1
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 20,
+      "value": 0.15
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 40,
+      "value": 0.15
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 0,
+      "value": 0.1
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 20,
+      "value": 0.12
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 40,
+      "value": 0.12
+    }
+  ],
+  "interval": {
+    "start": 0,
+    "end": 40
+  },
+  "commentary": {
+    "narrative_context": "The CAP theorem (formalized by Eric Brewer, proven by Lynch and Gilbert) establishes that any distributed data storage system can guarantee at most two of three properties: Consistency (every read returns the most recent write), Availability (every request receives a response), and Partition Tolerance (the system continues operating during network partitions). This constraint is invariant across all implementations, market conditions, engineering skill levels, and economic incentives. It is not a friction cost that can be engineered away, not a regulation that can be reformed, not a coordination problem that can be solved by coalition. It is a logical consequence of the structure of distributed information systems operating under adversarial network conditions. All major database systems (PostgreSQL, MongoDB, Cassandra, Dynamo, Spanner) recognize and design around this constraint by explicitly choosing their position in the CA-CP-AP space.",
+    "key_agents": [
+      "Distributed Systems Theory: Analytical observer \u2014 derives the theorem from first principles; sees pure mathematical constraint",
+      "Systems Architects: Powerful/analytical \u2014 design production systems; face the constraint as an unavoidable tradeoff; cannot escape through engineering",
+      "Database Vendors: Institutional/arbitrage \u2014 implement systems that choose two of three; compete on which two they prioritize",
+      "Application Developers: Moderate/constrained \u2014 must select databases that match their consistency/availability requirements; face the tradeoff indirectly through vendor choices",
+      "Network Infrastructure: Powerless/trapped \u2014 cannot prevent partitions; subjected to the constraint's reality"
+    ],
+    "logic_rationale": "Extractiveness (0.12): Minimal. The constraint imposes no extraction from any party \u2014 it does not transfer resources or opportunities from one agent to another. It is a purely structural limit, not a distribution mechanism. The value is near-zero, reflecting only the minor friction of having to make an explicit choice among three options. Suppression (0.03): Negligible. The constraint suppresses no alternatives \u2014 engineers are free to choose any two of the three; there is no coercion or reduction of choices. The small value reflects only the fact that one choice (the third guarantee) must be forgone. Theater ratio (0.15): Very low. The constraint exhibits no performative content. Its function is purely technical: it partitions design possibility space. There is no gap between the declared function (mathematical proof) and actual behavior. The small value reflects minor pedagogical theater in how the theorem is taught (simplified examples vs full formal proof).",
+    "perspectival_gap": "All four perspectives classify as Mountain because the CAP constraint is invariant across all observation points. No perspectival gap exists \u2014 the theoretical consensus, the architect, the organization, and the developer all encounter the same immutable constraint. This uniformity is diagnostic: it indicates a genuine natural law of distributed systems. Unlike the verification bottleneck exemplar (which showed all six types from different perspectives of a contingent institutional arrangement), the CAP constraint exhibits no perspectival variance. This is the signature of a true mountain.",
+    "directionality_logic": "Directionality is not applicable to mountain constraints. There is no extraction flow, no beneficiary/victim structure, and no power asymmetry to model. The constraint operates identically regardless of the observer's power level, exit options, or time horizon. Every agent experiences the same logical ceiling on design possibility."
+  },
+  "network": {
+    "affects_constraints": [
+      "eventual_consistency_semantics",
+      "quorum_consensus_protocols"
+    ],
+    "dual_formulation_note": "The CAP theorem has two decompositions in the literature: (1) Lynch-Gilbert formal proof (2003), which rigorously establishes the incompatibility of strong consistency with partition tolerance; (2) Brewer's original conjecture (2000), which stated the tradeoff informally. Both converge on the same constraint structure. Network links reflect constraints that are downstream of or conditional on CAP: eventual consistency models represent design choices acknowledging the AP or CP selection; consensus protocols (Raft, Paxos) are implementations that explicitly choose the CP position."
+  }
+}

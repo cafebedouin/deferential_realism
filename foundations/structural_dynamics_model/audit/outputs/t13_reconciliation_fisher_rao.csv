@@ -1,0 +1,7 @@
+constraint_id,h1,corrected_tvd,kl_fwd,kl_rev,d_FR,H_sq,asymmetry_ratio,frac_mountain,frac_rope,frac_tangled_rope,frac_snare,frac_scaffold,frac_piton,argmax_cl,argmax_idx
+automatic_enrollment_defaults,3,0.084935,0.577755,0.087911,0.577333,0.082751,0.8478,0.0000,0.9734,0.0228,0.0000,0.0038,0.0000,tangled_rope,tangled_rope
+lehman_repo_105,5,0.544286,0.680398,1.095229,1.299683,0.407641,0.3788,0.0000,0.0000,0.4558,0.2626,0.0000,0.2816,piton,piton
+oc_donation_model,3,0.293484,1.962432,0.344688,1.117036,0.303917,0.8244,0.0000,0.9141,0.0839,0.0000,0.0020,0.0000,tangled_rope,tangled_rope
+thai_article_112_mountain,4,0.059880,0.027390,0.037577,0.252501,0.015918,0.2711,0.0602,0.9398,0.0000,0.0000,0.0000,0.0000,mountain,mountain
+ulysses_chp15,5,0.325617,0.733054,0.340502,0.977790,0.234295,0.5355,0.0000,0.0000,0.1388,0.0009,0.0000,0.8602,tangled_rope,tangled_rope
+working_dog_training,3,0.232607,0.343167,0.195160,0.711583,0.125258,0.4313,0.0000,0.0000,0.1278,0.8722,0.0000,0.0000,tangled_rope,tangled_rope

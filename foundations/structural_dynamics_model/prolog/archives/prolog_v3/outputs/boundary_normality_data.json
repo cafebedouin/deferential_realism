@@ -1,0 +1,2878 @@
+{
+  "metadata": {
+    "total_constraints": 1151,
+    "total_with_boundary": 1149,
+    "has_scipy": true,
+    "has_sklearn": true,
+    "has_statsmodels": false
+  },
+  "boundaries": {
+    "snare->tangled_rope": {
+      "count": 258,
+      "descriptive": {
+        "n": 258,
+        "mean": 0.071706,
+        "median": 0.027075,
+        "std": 0.09826,
+        "min": 0.000103,
+        "max": 0.585514,
+        "q25": 0.012528,
+        "q75": 0.096068,
+        "iqr": 0.08354
+      },
+      "normality_tests": {
+        "shapiro_wilk": {
+          "statistic": 0.683132,
+          "p_value": 0.0,
+          "reject_at_005": true
+        },
+        "dagostino_pearson": {
+          "statistic": 150.379328,
+          "p_value": 0.0,
+          "reject_at_005": true
+        },
+        "anderson_darling": {
+          "statistic": 27.507974,
+          "critical_values": {
+            "15.0%": 0.567,
+            "10.0%": 0.646,
+            "5.0%": 0.775,
+            "2.5%": 0.904,
+            "1.0%": 1.076
+          },
+          "reject_at_005": true
+        },
+        "skewness": 2.451112,
+        "kurtosis": 7.018756
+      },
+      "distribution_fits": {
+        "normal": {
+          "params": {
+            "mu": 0.071706,
+            "sigma": 0.09826
+          },
+          "log_likelihood": 232.5097,
+          "aic": -461.0195,
+          "k": 2
+        },
+        "beta": {
+          "params": {
+            "a": 0.672051,
+            "b": 8.405028
+          },
+          "log_likelihood": 425.7048,
+          "aic": -847.4095,
+          "k": 2
+        },
+        "uniform": {
+          "params": {
+            "lo": 0.000103,
+            "hi": 0.585514
+          },
+          "log_likelihood": 138.1438,
+          "aic": -272.2876,
+          "k": 2
+        },
+        "gaussian_mixture_2": {
+          "params": {
+            "means": [
+              0.019863,
+              0.157994
+            ],
+            "variances": [
+              0.00017,
+              0.013525
+            ],
+            "weights": [
+              0.624686,
+              0.375314
+            ]
+          },
+          "log_likelihood": 411.3589,
+          "aic": -812.7178,
+          "bic": -794.953,
+          "k": 5
+        }
+      },
+      "qq_table": [
+        {
+          "percentile": 10,
+          "expected": -0.054219,
+          "observed": 0.00655,
+          "deviation": 0.060769
+        },
+        {
+          "percentile": 20,
+          "expected": -0.010992,
+          "observed": 0.010138,
+          "deviation": 0.02113
+        },
+        {
+          "percentile": 30,
+          "expected": 0.020178,
+          "observed": 0.015605,
+          "deviation": -0.004573
+        },
+        {
+          "percentile": 40,
+          "expected": 0.046812,
+          "observed": 0.022755,
+          "deviation": -0.024057
+        },
+        {
+          "percentile": 50,
+          "expected": 0.071706,
+          "observed": 0.027075,
+          "deviation": -0.044631
+        },
+        {
+          "percentile": 60,
+          "expected": 0.0966,
+          "observed": 0.037763,
+          "deviation": -0.058837
+        },
+        {
+          "percentile": 70,
+          "expected": 0.123233,
+          "observed": 0.070712,
+          "deviation": -0.052521
+        },
+        {
+          "percentile": 80,
+          "expected": 0.154404,
+          "observed": 0.111552,
+          "deviation": -0.042852
+        },
+        {
+          "percentile": 90,
+          "expected": 0.197631,
+          "observed": 0.21554,
+          "deviation": 0.017909
+        }
+      ],
+      "member_ids": [
+        "26usc469_real_estate_exemption",
+        "academic_tenure_system",
+        "ad_fus_coordination",
+        "ad_synaptic_deficit",
+        "agg1_genetic_determinism",
+        "ai_banal_capture",
+        "ai_compute_capital_moat",
+        "ai_driven_surveillance_sensor_layer",
+        "ai_evaluators_matching",
+        "ai_nonconsensual_content_facilitation",
+        "ai_performance_watermark",
+        "ai_professional_displacement",
+        "ai_religion_regulation",
+        "ai_superpowers_2026",
+        "airbnb_str_regulation",
+        "airport_slot_use_it_or_lose_it",
+        "algeria_france_colonial_legacy",
+        "algorithmic_bias",
+        "alzheimers_nlrp3_inflammasome",
+        "amish_technological_renunciation",
+        "ancestral_pueblo_hydrology",
+        "appropriations_brinkmanship",
+        "asshole_filter_2015",
+        "attritional_warfare_doctrine_ru_ua_2026",
+        "australia_social_ban_2026",
+        "average_is_over_2026",
+        "awareness_without_leverage",
+        "bedouin_sedentary_transition",
+        "bip_narrative_illusion",
+        "blackstone_conflicts_of_interest",
+        "blackstone_smd_control",
+        "blackstone_tra",
+        "bonbon_drop_sticker_craze",
+        "bor_tax_exemption_nl",
+        "brazil_mexico_financial_requirement",
+        "broke_vs_poor_grocery_math",
+        "burden_of_proof_engineering_safety",
+        "bushman_money_magic",
+        "canal_panama_influence",
+        "carrying_capacity",
+        "cartel_drone_surveillance_el_paso",
+        "cascading_constraint_failure",
+        "cb_far_beyond_human",
+        "cbdc_implementation",
+        "cfius_hiefo_emcore_divestment",
+        "cg_israelgaza_20231012",
+        "challenger_o_ring_integrity",
+        "child_marriage",
+        "china_critical_mineral_chokepoint",
+        "cholesterol_pill_cost",
+        "chrome_imagen2_integration",
+        "cia_fbi_legal_wall",
+        "circadian_decoupling_arbitrage",
+        "cloudflare_dual_class_asymmetry",
+        "coe_ukraine_reparations_register",
+        "cognitive_hacking_2026",
+        "cognitive_induction_gap",
+        "cognitive_surrender_to_system_3",
+        "coinbase_regulatory_uncertainty",
+        "colorado_sbe_decentralization_friction",
+        "commercial_data_brokerage",
+        "complexity_debt",
+        "constitutional_consecration",
+        "constraint_interaction_explosion",
+        "consumer_debt_slavery",
+        "coordination_threshold_failure",
+        "crop_defense_dependency",
+        "cuba_mandatrophic_collapse",
+        "cumbria_mine_rejection",
+        "cz_plea_agreement_2026",
+        "dark_patterns_manipulation",
+        "debt_service_squeeze",
+        "deferred_risk_realization",
+        "delayed_feedback_instability",
+        "demographic_inertia_trap",
+        "denmark_asylum_outsourcing",
+        "digital_credentialing_verification",
+        "dionysiac_frenzy",
+        "dk_foreign_convict_expulsion",
+        "dk_us_alliance_espionage",
+        "dwp_carers_allowance_cliff",
+        "endocrine_disruption_society",
+        "epstein_document_release_2026",
+        "ergot_grain_poisoning",
+        "eu_asylum_outsourcing_framework",
+        "eu_irgc_terrorist_designation",
+        "eu_russian_asset_freeze_2025",
+        "evolutionary_mismatch_load",
+        "family_estrangement_ratio",
+        "family_succession_system",
+        "fatf_grey_list_russia",
+        "fb_creator_monetization_indonesia",
+        "feedback_loop_desynchronization",
+        "finite_pool_of_worry",
+        "finnish_debt_adjustment",
+        "fitts_law_industrial_application",
+        "floating_wall_2026",
+        "fptp_electoral_system",
+        "frontex_pushback_coordination",
+        "gale_shapley",
+        "gaza_aid_permit_revocation",
+        "generational_replacement_inertia",
+        "genie_ip_constraint",
+        "geopolitical_insularity_2026",
+        "ghost_fishing_gear",
+        "gig_economy_algorithmic_management",
+        "global_water_bankruptcy",
+        "gold_fomo_cycle",
+        "governance_overfitting",
+        "greenland_seizure_trade_war",
+        "greshams_law",
+        "guinea_junta_legitimization_2024",
+        "harlequin_historical_line_discontinuation",
+        "hawthorne_effect",
+        "heglig_oil_field_control",
+        "hhs_fetal_tissue_research_ban_2019",
+        "hicbc_uk",
+        "hk_nsl_civic_party_disbandment",
+        "hygiene_disposal_protocol",
+        "ibm_shield_2026",
+        "ibm_shield_contract_2026",
+        "ice_raids_minnesota_2026",
+        "ice_safe_departure",
+        "individual_revolution_autonomy",
+        "individual_vs_systemic_causation",
+        "indo_russian_submarine_lease_2025",
+        "indonesia_penal_code_2023",
+        "informational_time_2026",
+        "institutional_mutation_domestication",
+        "integrated_digital_governance_stack",
+        "internet_evolution_lifecycle",
+        "iran_guardian_council_vetting",
+        "iran_hijab_law",
+        "iran_mandatrophic_collapse",
+        "iran_nin_repression",
+        "iron_law_of_oligarchy",
+        "irreversible_policy_commitment",
+        "israel_gaza_ceasefire_violation",
+        "israel_override_clause",
+        "job_hunt_volume_system_2026",
+        "jordan_microfinance",
+        "jp_nativist_politics",
+        "khantivadin_radical_patience",
+        "latent_regulatory_bomb",
+        "lavender_ai_targeting",
+        "lehman_repo_105",
+        "mandatrophic_margin_collapse",
+        "marriage_market_asymmetry_2026",
+        "mass_market_extinction_2026",
+        "medical_residency_match",
+        "medieval_church_hegemony",
+        "meta_nda",
+        "meta_pay_or_okay_model",
+        "metabolic_constraint_cognition",
+        "microwave_weapon_1",
+        "misunderstanding_as_mismatch",
+        "moltbot_religion",
+        "multi_planetary_latency_lock",
+        "naming_as_control",
+        "necessary_day_job",
+        "nero_imperial_expropriation",
+        "new_start_expiration",
+        "non_compete_agreements",
+        "north_korea_songun_mandatrophy",
+        "nsl_hk",
+        "nvidia_cuda_ecosystem_lockin",
+        "ontological_friction_resolution",
+        "openai_prism_development",
+        "openbsd_netiquette_protocol",
+        "opioid_political_realignment_2026",
+        "optimization_fragility",
+        "orbital_data_center_2026",
+        "panama_canal_ports",
+        "parable_fish_turtle",
+        "pe_fund_level_leverage",
+        "pe_rental_market_lockin",
+        "pele_microreactor_deployment",
+        "pfas_regulatory_framework",
+        "pla_loyalty_purge",
+        "planetary_boundaries",
+        "poetic_verse_and_past",
+        "political_art_factional_alignment",
+        "political_dissident_containment",
+        "prime_age_male_unwork",
+        "quellcrist_falconer_justice",
+        "radiologic_diagnostic_threshold",
+        "rare_earth_dependency",
+        "regional_military_deterrence_mideast",
+        "requirement_invasive_diabetes_testing",
+        "robustness_vs_efficiency_tradeoff",
+        "roc_african_exarchate",
+        "rotation_seven_isolation",
+        "rotation_seven_kubo_ranking",
+        "rules_based_international_order",
+        "russian_war_cannibalization",
+        "scam_doubt_manufacturing",
+        "scurvy_maritime_extraction",
+        "semiconductor_fabrication_chokepoint",
+        "silent_dependency_activation",
+        "silicon_lexicon_overload",
+        "sleep_debt_externality",
+        "slow_crisis_invisibility",
+        "sludge_bureaucratic_friction",
+        "social_credit_architecture",
+        "spain_digital_offensive_2026",
+        "statecraft_virtu",
+        "suanne_coup_of_peace",
+        "suanne_face_restoration",
+        "taiwan_existential_sovereignty",
+        "taiwan_grand_bargain",
+        "taiwan_storm_2026",
+        "taliban_slavery_law_2024",
+        "technocratic_overreach",
+        "the_bacchae_madness_protocol",
+        "the_calm_protocol_suppression",
+        "toxic_social_infection",
+        "toxoplasma_hub_2026",
+        "tractarian_logic_limit",
+        "traveling_salesperson_problem",
+        "trump_second_term_authoritarianism_2026",
+        "tx_hispanic_pivot",
+        "ua_mobilization_protector_cert",
+        "ua_wartime_mobilization",
+        "uk_graduate_visa_salary_threshold",
+        "uk_hicbc_2024",
+        "uk_ssp_eligibility",
+        "uk_unpaid_care_system",
+        "ukr_mobilization",
+        "unrequited_love_protocol",
+        "unrwa_eviction_order",
+        "us_embargo_cuba",
+        "us_foreign_policy_america_first",
+        "us_greenland_envoy",
+        "us_iran_drone_conflict",
+        "us_isolationism_policy_2026",
+        "us_israel_faa_502b_nonenforcement",
+        "us_sanctions_belarus_2022",
+        "us_sanctions_icc_israel_case",
+        "us_sanctions_moex_2024",
+        "us_sdf_alliance_abandonment_2026",
+        "us_suburban_zoning_2025",
+        "us_two_party_duopoly",
+        "us_usmca_china_leverage",
+        "us_vaccine_recommendation_dismantling_2026",
+        "us_venezuela_blockade",
+        "us_venezuela_oil_pressure",
+        "us_venezuela_plausible_deniability_2025",
+        "us_wind_project_ban_2025",
+        "utopia_apocalypse_fragility",
+        "value_alignment_drift",
+        "venezuela_oil_privatization_v1",
+        "verification_bottleneck",
+        "vienna_quantum_superposition_2026",
+        "viral_transmission_rates",
+        "vision_of_the_cross",
+        "winners_curse",
+        "worldscale_vlsfo_benchmark",
+        "yt_ai_slop_incentive"
+      ]
+    },
+    "tangled_rope->snare": {
+      "count": 421,
+      "descriptive": {
+        "n": 421,
+        "mean": 0.477984,
+        "median": 0.531496,
+        "std": 0.328977,
+        "min": 1e-06,
+        "max": 0.999873,
+        "q25": 0.171597,
+        "q75": 0.733657,
+        "iqr": 0.56206
+      },
+      "normality_tests": {
+        "shapiro_wilk": {
+          "statistic": 0.918924,
+          "p_value": 0.0,
+          "reject_at_005": true
+        },
+        "dagostino_pearson": {
+          "statistic": 1115.145871,
+          "p_value": 0.0,
+          "reject_at_005": true
+        },
+        "anderson_darling": {
+          "statistic": 10.284736,
+          "critical_values": {
+            "15.0%": 0.571,
+            "10.0%": 0.65,
+            "5.0%": 0.78,
+            "2.5%": 0.909,
+            "1.0%": 1.082
+          },
+          "reject_at_005": true
+        },
+        "skewness": -0.063578,
+        "kurtosis": -1.348352
+      },
+      "distribution_fits": {
+        "normal": {
+          "params": {
+            "mu": 0.477984,
+            "sigma": 0.328977
+          },
+          "log_likelihood": -129.3186,
+          "aic": 262.6373,
+          "k": 2
+        },
+        "beta": {
+          "params": {
+            "a": 0.547032,
+            "b": 0.638568
+          },
+          "log_likelihood": 60.0259,
+          "aic": -116.0519,
+          "k": 2
+        },
+        "uniform": {
+          "params": {
+            "lo": 1e-06,
+            "hi": 0.999873
+          },
+          "log_likelihood": 0.0539,
+          "aic": 3.8922,
+          "k": 2
+        },
+        "gaussian_mixture_2": {
+          "params": {
+            "means": [
+              0.141031,
+              0.729086
+            ],
+            "variances": [
+              0.01737,
+              0.028272
+            ],
+            "weights": [
+              0.427005,
+              0.572995
+            ]
+          },
+          "log_likelihood": -59.8017,
+          "aic": 129.6034,
+          "bic": 149.8165,
+          "k": 5
+        }
+      },
+      "qq_table": [
+        {
+          "percentile": 10,
+          "expected": 0.056383,
+          "observed": 0.009924,
+          "deviation": -0.046459
+        },
+        {
+          "percentile": 20,
+          "expected": 0.20111,
+          "observed": 0.076632,
+          "deviation": -0.124478
+        },
+        {
+          "percentile": 30,
+          "expected": 0.305468,
+          "observed": 0.264186,
+          "deviation": -0.041282
+        },
+        {
+          "percentile": 40,
+          "expected": 0.394639,
+          "observed": 0.330894,
+          "deviation": -0.063745
+        },
+        {
+          "percentile": 50,
+          "expected": 0.477984,
+          "observed": 0.531496,
+          "deviation": 0.053512
+        },
+        {
+          "percentile": 60,
+          "expected": 0.561329,
+          "observed": 0.652754,
+          "deviation": 0.091425
+        },
+        {
+          "percentile": 70,
+          "expected": 0.650499,
+          "observed": 0.69763,
+          "deviation": 0.047131
+        },
+        {
+          "percentile": 80,
+          "expected": 0.754858,
+          "observed": 0.786083,
+          "deviation": 0.031225
+        },
+        {
+          "percentile": 90,
+          "expected": 0.899584,
+          "observed": 0.941858,
+          "deviation": 0.042274
+        }
+      ],
+      "member_ids": [
+        "absorbing_markov_chain_trap",
+        "abstraction_leakage",
+        "academic_peer_review_gatekeeping",
+        "access_arbitrage",
+        "adverse_possession",
+        "aging_longevity_tests",
+        "ai_adoption_stigma",
+        "ai_auditability_gap",
+        "ai_cognitive_diversity_arbitrage",
+        "ai_edu_decentralization",
+        "ai_scholar_citation_trap",
+        "ai_task_horizon_reliability",
+        "ai_training_data_dependency",
+        "ancient_grudge_verona",
+        "antifragility",
+        "apartheid_nuclear_program",
+        "ape_cognition_framework",
+        "arctic_geopolitical_flashpoint",
+        "arctic_maritime_control",
+        "arg_ev_tariff",
+        "armra_colostrum_regulation",
+        "arrows_impossibility_theorem",
+        "artificial_scarcity_scaffold",
+        "asce_7_22_seismic_design",
+        "attribution_ambiguity_triplet_sc",
+        "au_social_media_ban_u16",
+        "availability_heuristic",
+        "bangladesh_july_national_charter",
+        "bayes_theorem_cognitive_bias",
+        "beehiiv_platform_model",
+        "bgs_eigenvector_thermalization",
+        "big_data_astrophysics_arbitrage",
+        "blackstone_carried_interest_taxation",
+        "bnpl_payment_systems",
+        "boe_base_rate_policy_2024",
+        "brain_network_paradigm_2026",
+        "buffons_needle_pi_estimation",
+        "burden_of_proof_scientific",
+        "bwb_adeg_rewesale_conditions",
+        "canada_germany_ai_pact",
+        "cancer_prevention",
+        "capital_rotation_ai_narrative",
+        "car_ownership_norm_us",
+        "carbon_credit_markets_2026",
+        "carrier_deployment_deterrence",
+        "castration_longevity_choice",
+        "champions_bass_fishing_exclusion",
+        "china_contraceptive_tax",
+        "china_ev_export_oversupply",
+        "china_export_led_growth",
+        "china_taiwan_reunification_mandate",
+        "china_vactrain_standard",
+        "choice_architecture_design",
+        "civilizational_maintenance_debt",
+        "climate_catastrophe_belief",
+        "climate_event_attribution",
+        "climate_policy_extraction",
+        "climate_target_one_point_five",
+        "cma",
+        "cmr_001",
+        "cn_tech_decoupling_security_software",
+        "coalition_disinfo_framework_2026",
+        "cobra_effect",
+        "codex_access",
+        "cognac_geopolitical_risk",
+        "cognitive_diversity_arbitrage",
+        "cognitive_energy_budget",
+        "coinbase_crypto_volatility",
+        "cold_dark_matter_paradigm",
+        "college_admissions_market",
+        "colombia_2026_presidential_election",
+        "comitatus_bond",
+        "compounding_logic",
+        "condiment_tyranny",
+        "confidential_ai_whatsapp",
+        "confirmation_bias",
+        "constitutional_supremacy",
+        "conversational_dogmas_interruption",
+        "copyright_protection",
+        "cost_of_observation",
+        "couples_residency_match",
+        "credentialism_national_security",
+        "cultural_homogenization_social_media",
+        "data_privacy_regulation",
+        "data_replication_paradox",
+        "dead_sea_effect",
+        "debt_trap_microfinance",
+        "decision_latency_mismatch",
+        "demand_response_cost_shift",
+        "digital_euro_cbdc",
+        "digital_identity_tether",
+        "discover_core_2026",
+        "disney_openai_ip_exclusivity",
+        "djia_as_economic_barometer",
+        "dn_paywall",
+        "doomsday_clock_framework",
+        "drc_rwanda_peace_deal_2024",
+        "dsa_transparency_requirements",
+        "dunning_kruger_effect",
+        "dutch_minority_govt_2026",
+        "ec_meta_manus_block",
+        "edelman_2026_developed_stagnation",
+        "edelman_2026_developing_volatility",
+        "edelman_2026_insularity",
+        "elite_overproduction_instability",
+        "elliq_ai_companion",
+        "em_clinical_guidelines",
+        "emergency_bridge_scaffold",
+        "emergency_oversight_bureau",
+        "ergo_mixer_protocol",
+        "ergodic_theorems",
+        "eu_affordable_housing_initiative",
+        "eu_deforestation_regulation",
+        "eu_digital_services_act",
+        "eu_ev_tariff_wall",
+        "eu_mercosur_trade_agreement",
+        "eu_renewable_energy_mandate",
+        "eu_unanimity_rule_foreign_policy",
+        "eurozone_fragmentation_2026",
+        "evfta_trade_agreement",
+        "evolutionary_knowledge",
+        "exoplanetary_habitability_arbitrage",
+        "exploration_vs_exploitation",
+        "faa_boeing_regulatory_capture",
+        "factional_instability",
+        "faint_blue_neural_bifurcation",
+        "fcc_dji_covered_list",
+        "fda_accelerated_approval_alz",
+        "fda_component_efficacy_standard",
+        "fda_gonorrhea_efficacy_standard",
+        "fiber_optic_chip_tech",
+        "fine_particle_policy",
+        "fmeca_procedures_1980",
+        "framing_effect",
+        "france_2027_presidential_election",
+        "franchisee_corporate_squeeze",
+        "frankenstein_creation_hubris",
+        "fraser_river_salmon_regulation",
+        "french_ag_land_concentration",
+        "fused_quartz_5d_archival",
+        "future_dsm_integration",
+        "g7_debt_trap",
+        "gamblers_ruin_stochastic_extinction",
+        "gaza_border_control_rafah",
+        "gbff_funding_mechanism",
+        "genai_mil_platform",
+        "genetic_predisposition",
+        "geocentric_cosmology",
+        "german_board_gender_quota",
+        "germany_tennet_takeover",
+        "germline_regulation_threshold_2026",
+        "gilgamesh_mortality_limit",
+        "glen_canyon_water_allocation",
+        "global_digital_divide",
+        "global_food_market_fragility",
+        "global_hoarding_scaling_laws",
+        "global_protocol_entrenchment",
+        "global_stimulus_spree",
+        "global_trade_externalities_neobiota",
+        "goodharts_law",
+        "google_ai_search_overview",
+        "google_universal_commerce_protocol",
+        "gpt5_codex_dev_cycle",
+        "gpt_store_marketplace",
+        "graph_coloring_complexity",
+        "great_awakening_rekindling",
+        "great_mongolian_road_economic_dependency",
+        "greenland_defence_pact_2026",
+        "grete_samsa_transition",
+        "gs1_gln_identification",
+        "gs1_standardized_identification",
+        "guano_wealth_extraction",
+        "hagia_sophia_status",
+        "hammurabi_lex_talionis",
+        "hanlons_razor",
+        "happiness_of_others",
+        "harm_principle_liberty",
+        "hasbro_licensing_restriction",
+        "hedonic_adaptation_baseline",
+        "help_to_buy_uk",
+        "helsinki_bus_theory",
+        "hershey_salt_strategy",
+        "hollywood_four_quadrant_model",
+        "hominin_evolutionary_bottleneck",
+        "horizon_liability_contract",
+        "hu_2026_election_rules",
+        "hub_short_form_tv_market_fragmentation",
+        "humanities_phd_funding_model",
+        "hydra_game",
+        "ia_digital_preservation",
+        "idf_knock_on_roof_policy",
+        "incumbent_steel_production",
+        "independent_criticism_patronage",
+        "india_france_horizon_2047",
+        "india_nuclear_liability_act_2010",
+        "india_semi_mission",
+        "indian_ai_licensing_regime",
+        "indian_import_tariffs_eu",
+        "indo_german_defense_pact",
+        "inner_model_confirmation_bias",
+        "innovators_dilemma",
+        "insult_wisdom_training",
+        "international_seabed_mining_regime",
+        "inverse_spin_valve_signature",
+        "iran_nuclear_deal_informal_2023",
+        "isa_education_scaffold",
+        "israel_egypt_gas_deal",
+        "israel_electoral_threshold",
+        "israel_norwegian_law",
+        "israel_surplus_vote_agreements",
+        "israeli_settlement_policy_authority_restriction",
+        "iss_ped_ban",
+        "iterated_function_system_convergence",
+        "ivt_accessibility_barrier",
+        "japanese_energy_scaffold_2025",
+        "jevons_paradox",
+        "jp_eez_enforcement",
+        "kardashev_scale_progress_narrative",
+        "kim_jong_un_succession",
+        "kjv_textual_authority",
+        "knowledge_action_gap",
+        "labor_union_dues",
+        "landscape_of_fear_2026",
+        "layered_brain_processing",
+        "lcdm_hubble_tension",
+        "lcdm_small_scale_anomalies",
+        "lethal_targeting_of_journalists",
+        "linguistic_relativity_cultural_framing",
+        "lorenz_attractor_dynamics",
+        "lsd_microdosing_professional_openness",
+        "lula_hemisphere_2026",
+        "lung_transplant_protocol",
+        "magna_carta_liberties",
+        "mandatrophy_systemic_collapse",
+        "manga_distribution_duopoly",
+        "mars_rovers_navigational_autonomy",
+        "matching_market_congestion_externality",
+        "matching_markets_general",
+        "max_flow_min_cut",
+        "med_diet_consensus_2026",
+        "meta_nuclear_power_agreement",
+        "metamorphosis_samsa",
+        "mexican_airline_merger",
+        "micro_robot_electronics_integration",
+        "microbiome_symbiosis",
+        "mil_std_461g_emi_control",
+        "mil_std_810f_tailoring",
+        "minimax_theorem_game_equilibrium",
+        "mit_tfus_2026",
+        "mltt_economic_model",
+        "monetary_regime_transition",
+        "monopoly_fp_house_rule",
+        "mrna_melanoma_therapy",
+        "msgs_asset_bundling",
+        "mutual_defection_equilibrium",
+        "nasa_faster_better_cheaper",
+        "nash_equilibrium_coordination",
+        "nato_arctic_defense_cooperation",
+        "ncaa_eligibility_rules",
+        "nds_2022_pacing_challenge",
+        "negative_emissions_arbitrage",
+        "net_zero_stabilization",
+        "network_effects",
+        "neural_interoperability",
+        "neural_substrate_2026",
+        "neurodiversity_spectrum",
+        "neuroplasticity_plateau",
+        "news_paywall_inequality",
+        "nfl_superbowl_halftime_exclusivity",
+        "nfl_superbowl_marketing_regulation",
+        "nine_day_buffer",
+        "noether_isomorphism_access",
+        "north_sea_wind_grid",
+        "nsw_transmission_bottleneck",
+        "nuclear_order_2026",
+        "nuclear_site_safety_norms",
+        "nuclear_vacuum_2026",
+        "ny_private_school_discount",
+        "nyc_metrocard_art_licensing",
+        "olympic_medal_allocation",
+        "omega1_patching_process",
+        "openai_api_access",
+        "openai_codex_app_constraint",
+        "openai_default_data_training",
+        "openai_health_review",
+        "openai_implicit_translator",
+        "openclaw_data_lock_in",
+        "openclaw_regulation",
+        "openscholar_peer_review",
+        "oral_glp1_market_access",
+        "oscar_campaign_spending",
+        "overton_window",
+        "p_g_golden_pear_surveillance",
+        "parkinsons_law",
+        "participatory_observer_hypothesis",
+        "path_dependence_lock_in",
+        "paxsilica_framework",
+        "perovskite_self_etching",
+        "peter_principle",
+        "pla_aerial_carrier_doctrine",
+        "planning_fallacy",
+        "plastic_asphalt_mandate",
+        "platform_app_store_duopoly",
+        "pna",
+        "po_investigation_protocol_bias",
+        "polar_bear_biobanking",
+        "policy_implementation_gap",
+        "politeness_face_negotiation",
+        "portugal_polarization_threshold_2026",
+        "power_set_axiomatic_extraction",
+        "private_credit_market_opacity",
+        "private_identity_integration",
+        "project_vault_2026",
+        "proof_of_work_consensus",
+        "protocol_capture_eee",
+        "publishing_embargo",
+        "qualified_immunity",
+        "qwerty_vs_dvorak",
+        "raac_school_maintenance",
+        "rare_earth_export_restrictions",
+        "rare_earth_hydrogen_extraction",
+        "rare_earth_seabed_mining",
+        "regulatory_pathway_psychedelic_therapy",
+        "rogers_commission_institutional_analysis",
+        "roman_bath_system",
+        "roman_colosseum_games",
+        "roman_monumental_construction",
+        "roman_road_network",
+        "rotation_seven_black_soil",
+        "royal_navy_middle_east_withdrawal",
+        "russells_paradox_self_reference",
+        "sa_renewable_price_differential",
+        "sapir_whorf_hypothesis",
+        "sat_csp_complexity",
+        "satellite_d2m_standard",
+        "scientific_paradigm_lifecycle",
+        "seedance_export_restriction",
+        "self_surpassing",
+        "semantic_overload_friction",
+        "semiconductor_mission_2026",
+        "shadow_fleet_sanctions_evasion",
+        "shield_east_fortification",
+        "shobies_existential_commitment",
+        "sk_ai_act_2026",
+        "sk_dantongbeop",
+        "sk_newtro_aesthetic",
+        "sm_addictive_design",
+        "smartphone_ubiquity",
+        "social_loafing",
+        "social_media_participation_threshold",
+        "soe_property_bailout",
+        "sorites_paradox",
+        "south_china_sea_arbitration_2016_2026",
+        "st_petersburg_paradox",
+        "start_treaty",
+        "starwars_evolutionary_mutation",
+        "steinmetz_valuation_asymmetry",
+        "sti_clinical_testing_bottleneck",
+        "stoic_logos_governance",
+        "strait_coercion_2025",
+        "strange_attractor_dynamics",
+        "strange_attractor_systemic_risk",
+        "strategic_deep_sea_rare_earth_mining",
+        "streaming_bundling_mandate",
+        "student_loan_default_cliff",
+        "student_loan_interest_accrual",
+        "subscription_economy_model",
+        "sunk_cost_fallacy",
+        "superbowl_advertising_extraction",
+        "taiwan_ids_program",
+        "taiwan_strait_hegemony_shift",
+        "taiwan_university_application_system",
+        "teaching_horses_to_sing",
+        "technological_point_of_no_return",
+        "temporal_scale_arbitrage",
+        "texas_insurance_market_instability",
+        "the_churn_systemic_upheaval",
+        "the_wall_procedural_barrier",
+        "theory_of_visitors",
+        "tiktok_us_divestiture_mandate",
+        "trade_secret_law",
+        "tragedy_of_the_commons",
+        "transformer_self_attention",
+        "transient_event_detection",
+        "trivial_topology_info_asymmetry",
+        "trojan_war_spoils",
+        "trump_critical_minerals",
+        "trump_epa_greenhouse_gas_reversal",
+        "trump_indian_tariffs_2026",
+        "trump_making_china_great_2026",
+        "tsp_computational_complexity",
+        "uk_artist_resale_right",
+        "uk_help_to_buy_scheme",
+        "uk_hicbc_trap",
+        "uk_necc_formation",
+        "uk_student_visa_dependents",
+        "ukraine_tight_gas_pilot",
+        "un_high_seas_treaty_2026",
+        "unconditional_university_offers_uk",
+        "union_protection_underperformance",
+        "us_ai_chip_export_controls",
+        "us_arms_transfer_policy",
+        "us_canada_geopolitical_asymmetry",
+        "us_china_chip_tariffs_v2",
+        "us_debt_ceiling",
+        "us_employer_health_insurance",
+        "us_labor_mobility",
+        "us_legal_standard_reasonable_doubt",
+        "us_military_recruitment_advertising",
+        "us_taiwan_arms_sales",
+        "us_tariffs_2025",
+        "us_visa_lottery",
+        "usc_26_469_passive_loss",
+        "visa_ipo_regulatory_compliance",
+        "visa_judgment_sharing_agreement",
+        "visibility_bias_governance",
+        "vns_implant_for_trd",
+        "wikipedia_notability_requirement_2026",
+        "wpl_scotland",
+        "yangtze_fishing_ban",
+        "yc_equity_squeeze"
+      ]
+    },
+    "snare->piton": {
+      "count": 105,
+      "descriptive": {
+        "n": 105,
+        "mean": 0.439627,
+        "median": 0.522082,
+        "std": 0.18403,
+        "min": 0.00804,
+        "max": 0.710898,
+        "q25": 0.399869,
+        "q75": 0.551703,
+        "iqr": 0.151834
+      },
+      "normality_tests": {
+        "shapiro_wilk": {
+          "statistic": 0.80129,
+          "p_value": 0.0,
+          "reject_at_005": true
+        },
+        "dagostino_pearson": {
+          "statistic": 22.295852,
+          "p_value": 1.4e-05,
+          "reject_at_005": true
+        },
+        "anderson_darling": {
+          "statistic": 8.722908,
+          "critical_values": {
+            "15.0%": 0.556,
+            "10.0%": 0.633,
+            "5.0%": 0.76,
+            "2.5%": 0.886,
+            "1.0%": 1.054
+          },
+          "reject_at_005": true
+        },
+        "skewness": -1.274125,
+        "kurtosis": 0.412938
+      },
+      "distribution_fits": {
+        "normal": {
+          "params": {
+            "mu": 0.439627,
+            "sigma": 0.18403
+          },
+          "log_likelihood": 28.7404,
+          "aic": -53.4808,
+          "k": 2
+        },
+        "beta": {
+          "params": {
+            "a": 1.534206,
+            "b": 2.232597
+          },
+          "log_likelihood": 14.9524,
+          "aic": -25.9049,
+          "k": 2
+        },
+        "uniform": {
+          "params": {
+            "lo": 0.00804,
+            "hi": 0.710898
+          },
+          "log_likelihood": 37.023,
+          "aic": -70.0461,
+          "k": 2
+        },
+        "gaussian_mixture_2": {
+          "params": {
+            "means": [
+              0.532126,
+              0.150355
+            ],
+            "variances": [
+              0.003687,
+              0.017816
+            ],
+            "weights": [
+              0.75771,
+              0.24229
+            ]
+          },
+          "log_likelihood": 72.4403,
+          "aic": -134.8806,
+          "bic": -121.6108,
+          "k": 5
+        }
+      },
+      "qq_table": [
+        {
+          "percentile": 10,
+          "expected": 0.203783,
+          "observed": 0.094043,
+          "deviation": -0.10974
+        },
+        {
+          "percentile": 20,
+          "expected": 0.284743,
+          "observed": 0.315013,
+          "deviation": 0.03027
+        },
+        {
+          "percentile": 30,
+          "expected": 0.343121,
+          "observed": 0.450325,
+          "deviation": 0.107204
+        },
+        {
+          "percentile": 40,
+          "expected": 0.393003,
+          "observed": 0.49299,
+          "deviation": 0.099987
+        },
+        {
+          "percentile": 50,
+          "expected": 0.439627,
+          "observed": 0.522082,
+          "deviation": 0.082455
+        },
+        {
+          "percentile": 60,
+          "expected": 0.48625,
+          "observed": 0.533267,
+          "deviation": 0.047017
+        },
+        {
+          "percentile": 70,
+          "expected": 0.536132,
+          "observed": 0.54873,
+          "deviation": 0.012598
+        },
+        {
+          "percentile": 80,
+          "expected": 0.59451,
+          "observed": 0.560506,
+          "deviation": -0.034004
+        },
+        {
+          "percentile": 90,
+          "expected": 0.675471,
+          "observed": 0.58543,
+          "deviation": -0.090041
+        }
+      ],
+      "member_ids": [
+        "abstraction_boundary_overrun",
+        "adaptive_lag_trap",
+        "adversarial_surface_inflation",
+        "agency_atrophy",
+        "attention_as_bottleneck_resource",
+        "attention_market_cannibalization",
+        "authoritarian_power_paradox",
+        "autonomous_toolchain_sprawl",
+        "bay_of_pigs_operational_silo",
+        "belief_argument_conclusion",
+        "boundary_dissolution_risk",
+        "bureaucratic_legibility_collapse",
+        "capability_eval_overhang",
+        "capital_misallocation_spiral",
+        "cascading_uncertainty_2026",
+        "civilizational_lifecycle_solara",
+        "collective_action_deadlock",
+        "collective_stupidity_2026",
+        "consensus_without_truth",
+        "container_capacity_mismatch",
+        "coordination_fatigue",
+        "credibility_inflation",
+        "critical_actor_overcentralization",
+        "cross_domain_coupling_spiral",
+        "cultural_memory_decay",
+        "cultural_refragmentation_2026",
+        "data_laundering_pipeline",
+        "delta_force_selection_2026",
+        "elite_identity_capture_2026",
+        "emergency_mode_lock_in",
+        "emergency_powers_ratchet",
+        "emergent_goal_misalignment",
+        "epistemic_free_rider_problem",
+        "epistemic_overload_collapse",
+        "erised_expectation",
+        "evidence_half_life",
+        "expert_disempowerment",
+        "fiat_currency_lifecycle",
+        "financial_drag",
+        "fragile_middle_layer_collapse",
+        "goal_boundary_poisoning",
+        "governance_latency_gap",
+        "grievance_stack_overflow",
+        "guthrie_kidnapping_2026",
+        "hidden_interdependency_risk",
+        "hollow_state_syndrome",
+        "hypercompression_of_time_horizons",
+        "hypernormie_equilibrium",
+        "identity_stack_incompatibility",
+        "incentive_surface_warping",
+        "inference_cost_scaling_law",
+        "institutional_mutation_without_selection",
+        "interface_contract_breakdown",
+        "interpretive_frame_fragmentation",
+        "intertemporal_responsibility_gap",
+        "invisible_infrastructure_dependency",
+        "iran_war_room_2026",
+        "latent_goal_activation",
+        "legibility_trap",
+        "legitimacy_without_capacity",
+        "liquidity_illusion",
+        "lp_pikachu_illustrator",
+        "maladaptive_selection_process",
+        "meta_governance_overload",
+        "meta_model_lock_in",
+        "model_autonomy_creep",
+        "model_collapse_feedback_loop",
+        "model_of_models_regression",
+        "moltbook_breach_2026",
+        "moral_outsourcing",
+        "multi_agent_reward_hacking",
+        "narrative_capacity_exhaustion",
+        "narrative_overfitting",
+        "norm_erosion_threshold",
+        "overfitting_to_frameworks",
+        "policy_lag_catastrophe",
+        "power_without_responsibility",
+        "prestige_signal_inflation",
+        "price_signal_corruption",
+        "procedural_legitimacy_decay",
+        "project_vault_extraction_2026",
+        "protocol_drift_accumulation",
+        "rational_inertia_trap",
+        "rent_seeking_equilibrium",
+        "reputational_cascade_failure",
+        "responsibility_dilution",
+        "responsibility_without_power",
+        "risk_socialization_threshold",
+        "ritual_without_belief",
+        "scam_compound_2026",
+        "semantic_attack_surface",
+        "shock_propagation_asymmetry",
+        "signal_without_control",
+        "soft_authoritarian_drift",
+        "status_flattening_effect",
+        "synthetic_data_feedback_loop",
+        "systemic_blindspot",
+        "tail_risk_compression",
+        "tear_gas_repression_2026",
+        "thai_senate_veto_2026",
+        "theatrical_neutrality",
+        "value_extraction_plateau",
+        "xi_mao_ideological_centralization",
+        "zipfs_law",
+        "zombie_reasoning_2026"
+      ]
+    },
+    "piton->snare": {
+      "count": 69,
+      "descriptive": {
+        "n": 69,
+        "mean": 0.434522,
+        "median": 0.451591,
+        "std": 0.198518,
+        "min": 0.011138,
+        "max": 0.911102,
+        "q25": 0.29511,
+        "q75": 0.523161,
+        "iqr": 0.228051
+      },
+      "normality_tests": {
+        "shapiro_wilk": {
+          "statistic": 0.978904,
+          "p_value": 0.293821,
+          "reject_at_005": false
+        },
+        "dagostino_pearson": {
+          "statistic": 0.872166,
+          "p_value": 0.646564,
+          "reject_at_005": false
+        },
+        "anderson_darling": {
+          "statistic": 0.519859,
+          "critical_values": {
+            "15.0%": 0.547,
+            "10.0%": 0.623,
+            "5.0%": 0.748,
+            "2.5%": 0.872,
+            "1.0%": 1.037
+          },
+          "reject_at_005": false
+        },
+        "skewness": 0.241601,
+        "kurtosis": -0.034624
+      },
+      "distribution_fits": {
+        "normal": {
+          "params": {
+            "mu": 0.434522,
+            "sigma": 0.198518
+          },
+          "log_likelihood": 13.6577,
+          "aic": -23.3153,
+          "k": 2
+        },
+        "beta": {
+          "params": {
+            "a": 1.968236,
+            "b": 2.588539
+          },
+          "log_likelihood": 12.7112,
+          "aic": -21.4224,
+          "k": 2
+        },
+        "uniform": {
+          "params": {
+            "lo": 0.011138,
+            "hi": 0.911102
+          },
+          "log_likelihood": 7.2726,
+          "aic": -10.5453,
+          "k": 2
+        },
+        "gaussian_mixture_2": {
+          "params": {
+            "means": [
+              0.729193,
+              0.381656
+            ],
+            "variances": [
+              0.019087,
+              0.024684
+            ],
+            "weights": [
+              0.152116,
+              0.847884
+            ]
+          },
+          "log_likelihood": 14.5602,
+          "aic": -19.1203,
+          "bic": -7.9498,
+          "k": 5
+        }
+      },
+      "qq_table": [
+        {
+          "percentile": 10,
+          "expected": 0.180111,
+          "observed": 0.162578,
+          "deviation": -0.017533
+        },
+        {
+          "percentile": 20,
+          "expected": 0.267445,
+          "observed": 0.2675,
+          "deviation": 5.5e-05
+        },
+        {
+          "percentile": 30,
+          "expected": 0.330419,
+          "observed": 0.335049,
+          "deviation": 0.00463
+        },
+        {
+          "percentile": 40,
+          "expected": 0.384228,
+          "observed": 0.403468,
+          "deviation": 0.01924
+        },
+        {
+          "percentile": 50,
+          "expected": 0.434522,
+          "observed": 0.451591,
+          "deviation": 0.017069
+        },
+        {
+          "percentile": 60,
+          "expected": 0.484816,
+          "observed": 0.474178,
+          "deviation": -0.010638
+        },
+        {
+          "percentile": 70,
+          "expected": 0.538625,
+          "observed": 0.501015,
+          "deviation": -0.03761
+        },
+        {
+          "percentile": 80,
+          "expected": 0.601599,
+          "observed": 0.549612,
+          "deviation": -0.051987
+        },
+        {
+          "percentile": 90,
+          "expected": 0.688933,
+          "observed": 0.752649,
+          "deviation": 0.063716
+        }
+      ],
+      "member_ids": [
+        "academic_fashion_modernism_2026",
+        "adversarial_truth_decay",
+        "agent_opt_2026",
+        "algorithmic_epistemic_capture",
+        "alignment_tax_tradeoff",
+        "altruistic_misery_paradox_2026",
+        "anticipatory_capacity_failure",
+        "art_market_decoupling",
+        "asymmetric_burden_distribution",
+        "asymmetric_computational_difficulty",
+        "atrophied_optimization_piton",
+        "boiled_pineapple_trend_2026",
+        "bureaucratic_self_preservation",
+        "citation_collapse_dynamics",
+        "clawderberg_recursive_slop",
+        "communal_narcissism_social_trap",
+        "coordination_attack_vulnerability",
+        "corporate_social_responsibility_theater",
+        "crisis_signal_saturation",
+        "elite_capture_2026",
+        "epstein_espionage_2026",
+        "epstein_files_2026",
+        "epstein_honeytrap",
+        "fiscal_dominance_trap",
+        "france_cordon_sanitaire_2026",
+        "global_economic_anxiety_2026",
+        "huang_expectation_resilience_2026",
+        "infrastructure_interoperability_decay",
+        "institutional_memory_loss",
+        "institutional_trust_decay",
+        "juvenile_underclass_2026",
+        "legal_formalism_overhang",
+        "legitimacy_without_effectiveness",
+        "litchfield_sensitive_locations_2026",
+        "maintenance_capacity_shortfall",
+        "memetic_fitness_vs_truth",
+        "minnesota_sovereignty_2026",
+        "moltbook_agent_theater",
+        "narcissistic_ego_maintenance",
+        "notary_ink_dependency",
+        "other_peoples_troubles_2026",
+        "procedural_compliance_theater",
+        "riot_incentive_loop_2026",
+        "ritual_transition_scaffold",
+        "rule_update_failure",
+        "second_order_unintended_consequences",
+        "shadow_pricing_failure",
+        "structural_extraction_without_actor",
+        "swift_legacy_piton",
+        "taxonomy_drift",
+        "ulysses_aeolus_1904",
+        "ulysses_calypso_1904",
+        "ulysses_circe_1904",
+        "ulysses_cyclops_1904",
+        "ulysses_eumaeus_1904",
+        "ulysses_hades_1904",
+        "ulysses_ithaca_1904",
+        "ulysses_lestrygonians_1904",
+        "ulysses_lotus_1904",
+        "ulysses_nausicaa_1904",
+        "ulysses_oxen_1904",
+        "ulysses_penelope_1904",
+        "ulysses_proteus_1904",
+        "ulysses_rocks_1904",
+        "ulysses_school_1904",
+        "ulysses_scylla_1904",
+        "ulysses_sirens_1904",
+        "ulysses_tower_1904",
+        "world_factbook_sunset_2026"
+      ]
+    },
+    "rope->piton": {
+      "count": 7,
+      "descriptive": {
+        "n": 7,
+        "mean": 0.068372,
+        "median": 0.015719,
+        "std": 0.097402,
+        "min": 0.00086,
+        "max": 0.292341,
+        "q25": 0.001393,
+        "q75": 0.100128,
+        "iqr": 0.098735
+      },
+      "normality_tests": {},
+      "distribution_fits": {},
+      "qq_table": [],
+      "member_ids": [
+        "acip_hep_b_infant_mandate",
+        "boom_bust_path_dependency",
+        "kjv_linguistic_residue",
+        "legacy_system_technical_debt",
+        "milano_cortina_2026",
+        "trajans_bridge_lifecycle",
+        "viral_emergence_covid19_exemplar"
+      ]
+    },
+    "tangled_rope->scaffold": {
+      "count": 36,
+      "descriptive": {
+        "n": 36,
+        "mean": 0.014193,
+        "median": 0.003487,
+        "std": 0.05138,
+        "min": 0.000261,
+        "max": 0.303067,
+        "q25": 0.001948,
+        "q75": 0.004654,
+        "iqr": 0.002706
+      },
+      "normality_tests": {
+        "shapiro_wilk": {
+          "statistic": 0.252278,
+          "p_value": 0.0,
+          "reject_at_005": true
+        },
+        "dagostino_pearson": {
+          "statistic": 76.317774,
+          "p_value": 0.0,
+          "reject_at_005": true
+        },
+        "anderson_darling": {
+          "statistic": 11.272759,
+          "critical_values": {
+            "15.0%": 0.528,
+            "10.0%": 0.601,
+            "5.0%": 0.721,
+            "2.5%": 0.841,
+            "1.0%": 1.0
+          },
+          "reject_at_005": true
+        },
+        "skewness": 5.055289,
+        "kurtosis": 24.972222
+      },
+      "distribution_fits": {
+        "normal": {
+          "params": {
+            "mu": 0.014193,
+            "sigma": 0.05138
+          },
+          "log_likelihood": 55.7843,
+          "aic": -107.5685,
+          "k": 2
+        },
+        "beta": {
+          "params": {
+            "a": 0.403313,
+            "b": 25.566703
+          },
+          "log_likelihood": 128.4524,
+          "aic": -252.9047,
+          "k": 2
+        },
+        "uniform": {
+          "params": {
+            "lo": 0.000261,
+            "hi": 0.303067
+          },
+          "log_likelihood": 43.0079,
+          "aic": -82.0157,
+          "k": 2
+        },
+        "gaussian_mixture_2": {
+          "params": {
+            "means": [
+              0.00594,
+              0.303067
+            ],
+            "variances": [
+              0.000264,
+              1e-06
+            ],
+            "weights": [
+              0.972222,
+              0.027778
+            ]
+          },
+          "log_likelihood": 96.0144,
+          "aic": -182.0289,
+          "bic": -174.1113,
+          "k": 5
+        }
+      },
+      "qq_table": [
+        {
+          "percentile": 10,
+          "expected": -0.051653,
+          "observed": 0.0007,
+          "deviation": 0.052353
+        },
+        {
+          "percentile": 20,
+          "expected": -0.029049,
+          "observed": 0.00138,
+          "deviation": 0.030429
+        },
+        {
+          "percentile": 30,
+          "expected": -0.01275,
+          "observed": 0.001948,
+          "deviation": 0.014698
+        },
+        {
+          "percentile": 40,
+          "expected": 0.001176,
+          "observed": 0.002259,
+          "deviation": 0.001083
+        },
+        {
+          "percentile": 50,
+          "expected": 0.014193,
+          "observed": 0.003579,
+          "deviation": -0.010614
+        },
+        {
+          "percentile": 60,
+          "expected": 0.02721,
+          "observed": 0.004357,
+          "deviation": -0.022853
+        },
+        {
+          "percentile": 70,
+          "expected": 0.041137,
+          "observed": 0.004443,
+          "deviation": -0.036694
+        },
+        {
+          "percentile": 80,
+          "expected": 0.057436,
+          "observed": 0.005141,
+          "deviation": -0.052295
+        },
+        {
+          "percentile": 90,
+          "expected": 0.08004,
+          "observed": 0.007055,
+          "deviation": -0.072985
+        }
+      ],
+      "member_ids": [
+        "advice_as_dangerous_gift",
+        "alzheimers_levetiracetam",
+        "axiom_reasoner_2026",
+        "china_africa_zero_tariff_2026",
+        "constraint_lagrange_multipliers",
+        "constraint_riemann_mapping",
+        "constraint_yoneda",
+        "cow_field_poop",
+        "creative_commons_licensing",
+        "crispr_genomic_rewrite_2026",
+        "cs_ecmo_bridge",
+        "devotional_transformation",
+        "education_unbundling_implementation",
+        "empty_tomb_transformation",
+        "epistemic_process_of_verification",
+        "ergo_storage_rent",
+        "extraordinary_narrative_shift",
+        "gemini_scientific_advancement",
+        "golden_handcuffs",
+        "goodstein_theorem_finite_proof",
+        "gs_market_clearing",
+        "jupiter_composition_knowledge_gap",
+        "law_of_diminishing_returns",
+        "logistic_map_dynamics",
+        "oc_donation_model",
+        "olympic_legacy_curling_investment",
+        "open_culture_newsletter",
+        "paris_municipal_reform_2026",
+        "platonic_coparenting_decoupling",
+        "recipe_scaling_ai",
+        "rosen_bridge_protocol",
+        "shitty_feedback_handling",
+        "sig_usd_protocol",
+        "stable_marriage_coordination",
+        "trillion_bond_rush_2026",
+        "working_dog_training"
+      ]
+    },
+    "rope->tangled_rope": {
+      "count": 35,
+      "descriptive": {
+        "n": 35,
+        "mean": 0.294186,
+        "median": 0.178392,
+        "std": 0.275209,
+        "min": 0.00318,
+        "max": 0.950005,
+        "q25": 0.040565,
+        "q75": 0.508437,
+        "iqr": 0.467872
+      },
+      "normality_tests": {
+        "shapiro_wilk": {
+          "statistic": 0.866111,
+          "p_value": 0.000547,
+          "reject_at_005": true
+        },
+        "dagostino_pearson": {
+          "statistic": 4.852889,
+          "p_value": 0.08835,
+          "reject_at_005": false
+        },
+        "anderson_darling": {
+          "statistic": 1.703268,
+          "critical_values": {
+            "15.0%": 0.527,
+            "10.0%": 0.6,
+            "5.0%": 0.719,
+            "2.5%": 0.839,
+            "1.0%": 0.998
+          },
+          "reject_at_005": true
+        },
+        "skewness": 0.843572,
+        "kurtosis": -0.531563
+      },
+      "distribution_fits": {
+        "normal": {
+          "params": {
+            "mu": 0.294186,
+            "sigma": 0.275209
+          },
+          "log_likelihood": -4.505,
+          "aic": 13.01,
+          "k": 2
+        },
+        "beta": {
+          "params": {
+            "a": 0.646165,
+            "b": 1.460219
+          },
+          "log_likelihood": 9.6516,
+          "aic": -15.3031,
+          "k": 2
+        },
+        "uniform": {
+          "params": {
+            "lo": 0.00318,
+            "hi": 0.950005
+          },
+          "log_likelihood": 1.9124,
+          "aic": 0.1751,
+          "k": 2
+        },
+        "gaussian_mixture_2": {
+          "params": {
+            "means": [
+              0.560749,
+              0.097586
+            ],
+            "variances": [
+              0.046957,
+              0.005913
+            ],
+            "weights": [
+              0.424473,
+              0.575527
+            ]
+          },
+          "log_likelihood": 5.7018,
+          "aic": -1.4036,
+          "bic": 6.3732,
+          "k": 5
+        }
+      },
+      "qq_table": [
+        {
+          "percentile": 10,
+          "expected": -0.058509,
+          "observed": 0.027779,
+          "deviation": 0.086288
+        },
+        {
+          "percentile": 20,
+          "expected": 0.062564,
+          "observed": 0.040124,
+          "deviation": -0.02244
+        },
+        {
+          "percentile": 30,
+          "expected": 0.149866,
+          "observed": 0.083129,
+          "deviation": -0.066737
+        },
+        {
+          "percentile": 40,
+          "expected": 0.224463,
+          "observed": 0.146105,
+          "deviation": -0.078358
+        },
+        {
+          "percentile": 50,
+          "expected": 0.294186,
+          "observed": 0.178392,
+          "deviation": -0.115794
+        },
+        {
+          "percentile": 60,
+          "expected": 0.363909,
+          "observed": 0.272509,
+          "deviation": -0.0914
+        },
+        {
+          "percentile": 70,
+          "expected": 0.438506,
+          "observed": 0.397443,
+          "deviation": -0.041063
+        },
+        {
+          "percentile": 80,
+          "expected": 0.525808,
+          "observed": 0.642897,
+          "deviation": 0.117089
+        },
+        {
+          "percentile": 90,
+          "expected": 0.646881,
+          "observed": 0.680503,
+          "deviation": 0.033622
+        }
+      ],
+      "member_ids": [
+        "alternative_sovereignty_scaffold",
+        "asean_ceasefire_2011",
+        "astm_d638_tensile_testing",
+        "berkshire_compounding_culture",
+        "boltzmann_universality_2026",
+        "burden_of_proof_legal_criminal",
+        "copyleft_viral_licensing",
+        "cuban_missile_crisis_excomm_deliberation",
+        "decentralized_infrastructure_rope",
+        "deferential_realism_framework",
+        "dexy_gold_protocol",
+        "dldr_information_policy",
+        "e2ee_digital_privacy_2026",
+        "electrification_scale_2026",
+        "fair_use_doctrine",
+        "guinea_worm_eradication",
+        "lindy_effect",
+        "omelet_perfection_complexity",
+        "perseverance_rover_autonomy",
+        "planetary_diet_constraint_2026",
+        "platform_cooperativism_governance",
+        "portuguese_presidential_term_limits",
+        "quantum_entanglement_protocol",
+        "rafah_crossing_lifeline",
+        "rfc9293_state_machine",
+        "skills_based_hiring",
+        "social_narrative_casting",
+        "somatic_focusing_awareness",
+        "sts86_ascent_checklist",
+        "tcp_rfc9293_interoperability",
+        "thai_article_112_mountain",
+        "tsp_duplicate_elimination",
+        "vertebrate_turning_point_2026",
+        "wikipedia_crowdsourcing_2026",
+        "wikipedia_noncommercial_model"
+      ]
+    },
+    "mountain->rope": {
+      "count": 127,
+      "descriptive": {
+        "n": 127,
+        "mean": 0.031904,
+        "median": 0.005277,
+        "std": 0.134109,
+        "min": 0.003414,
+        "max": 0.999987,
+        "q25": 0.004512,
+        "q75": 0.010005,
+        "iqr": 0.005493
+      },
+      "normality_tests": {
+        "shapiro_wilk": {
+          "statistic": 0.197936,
+          "p_value": 0.0,
+          "reject_at_005": true
+        },
+        "dagostino_pearson": {
+          "statistic": 194.762488,
+          "p_value": 0.0,
+          "reject_at_005": true
+        },
+        "anderson_darling": {
+          "statistic": 41.003868,
+          "critical_values": {
+            "15.0%": 0.559,
+            "10.0%": 0.637,
+            "5.0%": 0.764,
+            "2.5%": 0.891,
+            "1.0%": 1.06
+          },
+          "reject_at_005": true
+        },
+        "skewness": 6.349164,
+        "kurtosis": 41.044532
+      },
+      "distribution_fits": {
+        "normal": {
+          "params": {
+            "mu": 0.031904,
+            "sigma": 0.134109
+          },
+          "log_likelihood": 74.9509,
+          "aic": -145.9019,
+          "k": 2
+        },
+        "beta": {
+          "params": {
+            "a": 0.23738,
+            "b": 1.672807
+          },
+          "log_likelihood": 289.4412,
+          "aic": -574.8824,
+          "k": 2
+        },
+        "uniform": {
+          "params": {
+            "lo": 0.003414,
+            "hi": 0.999987
+          },
+          "log_likelihood": 0.436,
+          "aic": 3.128,
+          "k": 2
+        },
+        "gaussian_mixture_2": {
+          "params": {
+            "means": [
+              0.016416,
+              0.999919
+            ],
+            "variances": [
+              0.003041,
+              1e-06
+            ],
+            "weights": [
+              0.984252,
+              0.015748
+            ]
+          },
+          "log_likelihood": 186.5538,
+          "aic": -363.1076,
+          "bic": -348.8866,
+          "k": 5
+        }
+      },
+      "qq_table": [
+        {
+          "percentile": 10,
+          "expected": -0.139963,
+          "observed": 0.003675,
+          "deviation": 0.143638
+        },
+        {
+          "percentile": 20,
+          "expected": -0.080965,
+          "observed": 0.004315,
+          "deviation": 0.08528
+        },
+        {
+          "percentile": 30,
+          "expected": -0.038422,
+          "observed": 0.004512,
+          "deviation": 0.042934
+        },
+        {
+          "percentile": 40,
+          "expected": -0.002072,
+          "observed": 0.004999,
+          "deviation": 0.007071
+        },
+        {
+          "percentile": 50,
+          "expected": 0.031904,
+          "observed": 0.005277,
+          "deviation": -0.026627
+        },
+        {
+          "percentile": 60,
+          "expected": 0.06588,
+          "observed": 0.006914,
+          "deviation": -0.058966
+        },
+        {
+          "percentile": 70,
+          "expected": 0.102231,
+          "observed": 0.009222,
+          "deviation": -0.093009
+        },
+        {
+          "percentile": 80,
+          "expected": 0.144773,
+          "observed": 0.011887,
+          "deviation": -0.132886
+        },
+        {
+          "percentile": 90,
+          "expected": 0.203772,
+          "observed": 0.024285,
+          "deviation": -0.179487
+        }
+      ],
+      "member_ids": [
+        "ancient_antibiotic_resistance",
+        "antikythera_knowledge_loss",
+        "banach_fixed_point",
+        "banach_fixed_point_theorem",
+        "banach_tarski_paradox",
+        "base_pair_complementarity",
+        "basel_problem_convergence",
+        "bgs_spectral_universality",
+        "bh_merger_gravitational_infall",
+        "biological_specification",
+        "birthday_paradox_collision",
+        "brouwer_fixed_point",
+        "busy_beaver_noncomputability",
+        "c_physical_blue_wavelength",
+        "cantor_set_topology",
+        "cantors_diagonal_argument",
+        "cap_theorem",
+        "central_limit_theorem",
+        "chaitins_omega_undecidability",
+        "church_turing_thesis",
+        "clt_convergence_2026",
+        "collatz_conjecture_determinism",
+        "constraint_borsuk_ulam",
+        "constraint_ftc",
+        "constraint_galois_solvability",
+        "constraint_lorenz_sensitivity",
+        "constraint_nonstandard_arithmetic",
+        "constraint_pythagorean",
+        "constraint_sylow",
+        "constraint_tarski_undefinability",
+        "constraint_twin_prime_conjecture",
+        "continuum_hypothesis_undecidability",
+        "conways_game_of_life_dynamics",
+        "cosmological_evolution_alpha_omega",
+        "countable_infinity_cardinality",
+        "deep_earth_hydrogen_availability",
+        "dunbars_number",
+        "ehrenfest_barrier",
+        "elencher_identity_transformation",
+        "english_chinese_tense_structure",
+        "epigenetics_complexity_2026",
+        "euler_characteristic_topology",
+        "event_fragmentation",
+        "fast_growing_hierarchy",
+        "feigenbaum_universality",
+        "fermat_proof_barrier",
+        "fgh_hierarchy_2026",
+        "finite_simple_group_classification",
+        "fossil_fuel_lock_in",
+        "four_color_theorem_topological_bound",
+        "fundamental_material_limits_nbre",
+        "fundamental_theorem_of_algebra",
+        "fungal_shift_grassland_loss",
+        "gauss_bonnet_topology",
+        "genetic_predisposition_mania",
+        "geophysics_superionic_core",
+        "goedels_incompleteness_theorems",
+        "goldbach_conjecture",
+        "gravitational_lensing_cosmic_dawn",
+        "halting_problem_undecidability",
+        "hamiltonian_path_complexity",
+        "hd101584_stellar_evolution",
+        "heine_borel",
+        "heisenberg_uncertainty",
+        "hilbert_hotel_infinite_capacity",
+        "hiv_prep_prevention_2026",
+        "indexical_relativity_core",
+        "kirby_paris_theorem",
+        "kleene_recursion_theorem",
+        "kolmogorov_complexity",
+        "large_cardinals_inaccessibility",
+        "legacy_identity_lock_in",
+        "liar_paradox",
+        "litany_of_the_real",
+        "lobs_theorem",
+        "local_vs_global_optima",
+        "lowenheim_skolem_theorem",
+        "lyapunov_stability",
+        "m82_outflow_suppression",
+        "martian_signal_latency",
+        "material_tensile_strength",
+        "minimax_decision_rule",
+        "monty_hall_conditional_probability",
+        "newtons_method_convergence",
+        "no_cloning_theorem",
+        "noether_theorem",
+        "noethers_theorem_symmetry",
+        "noncentrosymmetric_asoc_coupling",
+        "optimal_stopping_marriage",
+        "p_vs_np",
+        "pancreatic_cancer_lethality_v1",
+        "pareto_principle",
+        "plekha7_synaptic_pruning",
+        "poincare_conjecture",
+        "prime_number_theorem",
+        "prisoners_dilemma_equilibrium",
+        "pythagorean_geometric_constancy",
+        "quantum_measurement_gap",
+        "quantum_nonlocality_2026",
+        "ramsey_numbers",
+        "reciprocity_laws_math",
+        "relativity_of_simultaneity",
+        "relativity_physical_invariance",
+        "rices_theorem_undecidability",
+        "shannon_entropy_limit",
+        "shannon_source_coding",
+        "silver_scarcity_2026",
+        "spv_variations_us_cold",
+        "square_cube_law",
+        "star_formation_barrier_g0253",
+        "star_to_black_hole_observational_limit",
+        "sturgeons_law",
+        "suslin_hypothesis_proof_limits",
+        "suslin_hypothesis_undecidability",
+        "sylow_theorems_group_theory",
+        "terrain_inaccessibility_wheeled_vehicles",
+        "thermodynamics_entropy",
+        "three_body_problem_predictability_limit",
+        "three_body_unpredictability",
+        "treaty_land_entrenchment",
+        "two_domain_ancestry",
+        "uneven_risk_distribution",
+        "universal_mathematics_communication",
+        "van_der_waerden_theorem",
+        "weierstrass_proof_limits",
+        "whitehead_incompleteness",
+        "whitehead_problem_undecidability"
+      ]
+    },
+    "tangled_rope->piton": {
+      "count": 15,
+      "descriptive": {
+        "n": 15,
+        "mean": 0.6716,
+        "median": 0.662487,
+        "std": 0.243827,
+        "min": 0.048992,
+        "max": 0.999375,
+        "q25": 0.546854,
+        "q75": 0.915839,
+        "iqr": 0.368985
+      },
+      "normality_tests": {
+        "shapiro_wilk": {
+          "statistic": 0.928413,
+          "p_value": 0.258339,
+          "reject_at_005": false
+        },
+        "anderson_darling": {
+          "statistic": 0.341908,
+          "critical_values": {
+            "15.0%": 0.498,
+            "10.0%": 0.568,
+            "5.0%": 0.681,
+            "2.5%": 0.794,
+            "1.0%": 0.945
+          },
+          "reject_at_005": false
+        },
+        "skewness": -0.756023,
+        "kurtosis": 0.489795
+      },
+      "distribution_fits": {},
+      "qq_table": [
+        {
+          "percentile": 10,
+          "expected": 0.359123,
+          "observed": 0.435925,
+          "deviation": 0.076802
+        },
+        {
+          "percentile": 20,
+          "expected": 0.46639,
+          "observed": 0.546854,
+          "deviation": 0.080464
+        },
+        {
+          "percentile": 30,
+          "expected": 0.543737,
+          "observed": 0.5762,
+          "deviation": 0.032463
+        },
+        {
+          "percentile": 40,
+          "expected": 0.609827,
+          "observed": 0.588615,
+          "deviation": -0.021212
+        },
+        {
+          "percentile": 50,
+          "expected": 0.6716,
+          "observed": 0.662487,
+          "deviation": -0.009113
+        },
+        {
+          "percentile": 60,
+          "expected": 0.733373,
+          "observed": 0.7591,
+          "deviation": 0.025727
+        },
+        {
+          "percentile": 70,
+          "expected": 0.799463,
+          "observed": 0.825291,
+          "deviation": 0.025828
+        },
+        {
+          "percentile": 80,
+          "expected": 0.87681,
+          "observed": 0.956355,
+          "deviation": 0.079545
+        },
+        {
+          "percentile": 90,
+          "expected": 0.984077,
+          "observed": 0.963434,
+          "deviation": -0.020643
+        }
+      ],
+      "member_ids": [
+        "antikythera_planetary_model",
+        "artificial_snow_2026",
+        "board_of_peace_2026",
+        "brazil_2026_general_elections",
+        "colossus_nero_inertia",
+        "emotional_cycles_2026",
+        "fed_shutdown_2026",
+        "gender_performance_cost",
+        "hegemonic_entropy_2026",
+        "hp_liberalism",
+        "institutional_inertia_lock",
+        "maha_recovery_2026",
+        "nursery_social_hierarchy",
+        "regulatory_capture",
+        "sovereignty_as_arbitrage"
+      ]
+    },
+    "rope->scaffold": {
+      "count": 14,
+      "descriptive": {
+        "n": 14,
+        "mean": 0.02024,
+        "median": 0.020519,
+        "std": 0.009084,
+        "min": 0.003239,
+        "max": 0.038671,
+        "q25": 0.016533,
+        "q75": 0.022934,
+        "iqr": 0.006401
+      },
+      "normality_tests": {
+        "shapiro_wilk": {
+          "statistic": 0.948913,
+          "p_value": 0.543962,
+          "reject_at_005": false
+        },
+        "anderson_darling": {
+          "statistic": 0.408556,
+          "critical_values": {
+            "15.0%": 0.497,
+            "10.0%": 0.566,
+            "5.0%": 0.68,
+            "2.5%": 0.793,
+            "1.0%": 0.943
+          },
+          "reject_at_005": false
+        },
+        "skewness": 0.052768,
+        "kurtosis": -0.014235
+      },
+      "distribution_fits": {},
+      "qq_table": [
+        {
+          "percentile": 10,
+          "expected": 0.008598,
+          "observed": 0.00519,
+          "deviation": -0.003408
+        },
+        {
+          "percentile": 20,
+          "expected": 0.012595,
+          "observed": 0.015725,
+          "deviation": 0.00313
+        },
+        {
+          "percentile": 30,
+          "expected": 0.015476,
+          "observed": 0.017197,
+          "deviation": 0.001721
+        },
+        {
+          "percentile": 40,
+          "expected": 0.017938,
+          "observed": 0.017717,
+          "deviation": -0.000221
+        },
+        {
+          "percentile": 50,
+          "expected": 0.02024,
+          "observed": 0.021168,
+          "deviation": 0.000928
+        },
+        {
+          "percentile": 60,
+          "expected": 0.022541,
+          "observed": 0.021235,
+          "deviation": -0.001306
+        },
+        {
+          "percentile": 70,
+          "expected": 0.025003,
+          "observed": 0.022178,
+          "deviation": -0.002825
+        },
+        {
+          "percentile": 80,
+          "expected": 0.027885,
+          "observed": 0.028393,
+          "deviation": 0.000508
+        },
+        {
+          "percentile": 90,
+          "expected": 0.031881,
+          "observed": 0.033308,
+          "deviation": 0.001427
+        }
+      ],
+      "member_ids": [
+        "automatic_enrollment_defaults",
+        "boundary_protocol",
+        "brazil_hiv_vtn_elimination",
+        "cancer_chronotherapy_timing",
+        "cinderella_midnight_deadline",
+        "ice_memory_archive",
+        "microrobot_manipulation",
+        "mom_z14_2026",
+        "open_source_commons",
+        "postman_survival_protocol",
+        "public_domain_commons",
+        "rare_earth_coop_2026",
+        "swift_piton_snap",
+        "targeted_dream_incubation"
+      ]
+    },
+    "scaffold->mountain": {
+      "count": 19,
+      "descriptive": {
+        "n": 19,
+        "mean": 0.950419,
+        "median": 0.959072,
+        "std": 0.060375,
+        "min": 0.702096,
+        "max": 0.989923,
+        "q25": 0.955099,
+        "q75": 0.975793,
+        "iqr": 0.020694
+      },
+      "normality_tests": {
+        "shapiro_wilk": {
+          "statistic": 0.468283,
+          "p_value": 0.0,
+          "reject_at_005": true
+        },
+        "anderson_darling": {
+          "statistic": 3.653002,
+          "critical_values": {
+            "15.0%": 0.505,
+            "10.0%": 0.575,
+            "5.0%": 0.69,
+            "2.5%": 0.804,
+            "1.0%": 0.957
+          },
+          "reject_at_005": true
+        },
+        "skewness": -3.612006,
+        "kurtosis": 12.090068
+      },
+      "distribution_fits": {},
+      "qq_table": [
+        {
+          "percentile": 10,
+          "expected": 0.873045,
+          "observed": 0.935317,
+          "deviation": 0.062272
+        },
+        {
+          "percentile": 20,
+          "expected": 0.899606,
+          "observed": 0.955099,
+          "deviation": 0.055493
+        },
+        {
+          "percentile": 30,
+          "expected": 0.918758,
+          "observed": 0.955099,
+          "deviation": 0.036341
+        },
+        {
+          "percentile": 40,
+          "expected": 0.935123,
+          "observed": 0.95731,
+          "deviation": 0.022187
+        },
+        {
+          "percentile": 50,
+          "expected": 0.950419,
+          "observed": 0.959072,
+          "deviation": 0.008653
+        },
+        {
+          "percentile": 60,
+          "expected": 0.965715,
+          "observed": 0.966052,
+          "deviation": 0.000337
+        },
+        {
+          "percentile": 70,
+          "expected": 0.98208,
+          "observed": 0.974464,
+          "deviation": -0.007616
+        },
+        {
+          "percentile": 80,
+          "expected": 1.001233,
+          "observed": 0.977454,
+          "deviation": -0.023779
+        },
+        {
+          "percentile": 90,
+          "expected": 1.027794,
+          "observed": 0.985651,
+          "deviation": -0.042143
+        }
+      ],
+      "member_ids": [
+        "axiom_of_choice",
+        "biological_curiosity",
+        "burali_forti_paradox",
+        "click_chemistry_paradigm_2026",
+        "climate_attribution_2026",
+        "currys_paradox",
+        "damped_harmonics",
+        "endowment_effect",
+        "ergo_nipopows",
+        "galois_theory_symmetry",
+        "genetic_algorithms_evolution",
+        "heuristic_optimization",
+        "hilberts_hotel_infinity",
+        "information_foraging_theory",
+        "lln_convergence",
+        "mvt_theorem_constraint",
+        "nonstandard_arithmetic_models",
+        "peano_curve_mapping",
+        "skolems_paradox"
+      ]
+    },
+    "tangled_rope->rope": {
+      "count": 30,
+      "descriptive": {
+        "n": 30,
+        "mean": 0.588732,
+        "median": 0.766752,
+        "std": 0.379894,
+        "min": 0.012646,
+        "max": 0.999541,
+        "q25": 0.136417,
+        "q75": 0.934355,
+        "iqr": 0.797938
+      },
+      "normality_tests": {
+        "shapiro_wilk": {
+          "statistic": 0.818755,
+          "p_value": 0.000147,
+          "reject_at_005": true
+        },
+        "dagostino_pearson": {
+          "statistic": 13.925299,
+          "p_value": 0.000947,
+          "reject_at_005": true
+        },
+        "anderson_darling": {
+          "statistic": 2.031366,
+          "critical_values": {
+            "15.0%": 0.521,
+            "10.0%": 0.593,
+            "5.0%": 0.712,
+            "2.5%": 0.83,
+            "1.0%": 0.988
+          },
+          "reject_at_005": true
+        },
+        "skewness": -0.476643,
+        "kurtosis": -1.430249
+      },
+      "distribution_fits": {
+        "normal": {
+          "params": {
+            "mu": 0.588732,
+            "sigma": 0.379894
+          },
+          "log_likelihood": -13.5323,
+          "aic": 31.0645,
+          "k": 2
+        },
+        "beta": {
+          "params": {
+            "a": 0.529093,
+            "b": 0.42997
+          },
+          "log_likelihood": 9.4583,
+          "aic": -14.9167,
+          "k": 2
+        },
+        "uniform": {
+          "params": {
+            "lo": 0.012646,
+            "hi": 0.999541
+          },
+          "log_likelihood": 0.3957,
+          "aic": 3.2085,
+          "k": 2
+        },
+        "gaussian_mixture_2": {
+          "params": {
+            "means": [
+              0.223094,
+              0.906571
+            ],
+            "variances": [
+              0.053255,
+              0.006246
+            ],
+            "weights": [
+              0.465032,
+              0.534968
+            ]
+          },
+          "log_likelihood": -0.5528,
+          "aic": 11.1055,
+          "bic": 18.1115,
+          "k": 5
+        }
+      },
+      "qq_table": [
+        {
+          "percentile": 10,
+          "expected": 0.101878,
+          "observed": 0.017167,
+          "deviation": -0.084711
+        },
+        {
+          "percentile": 20,
+          "expected": 0.269005,
+          "observed": 0.065001,
+          "deviation": -0.204004
+        },
+        {
+          "percentile": 30,
+          "expected": 0.389515,
+          "observed": 0.424399,
+          "deviation": 0.034884
+        },
+        {
+          "percentile": 40,
+          "expected": 0.492487,
+          "observed": 0.522994,
+          "deviation": 0.030507
+        },
+        {
+          "percentile": 50,
+          "expected": 0.588732,
+          "observed": 0.776621,
+          "deviation": 0.187889
+        },
+        {
+          "percentile": 60,
+          "expected": 0.684977,
+          "observed": 0.885237,
+          "deviation": 0.20026
+        },
+        {
+          "percentile": 70,
+          "expected": 0.787948,
+          "observed": 0.934287,
+          "deviation": 0.146339
+        },
+        {
+          "percentile": 80,
+          "expected": 0.908459,
+          "observed": 0.951676,
+          "deviation": 0.043217
+        },
+        {
+          "percentile": 90,
+          "expected": 1.075585,
+          "observed": 0.9668,
+          "deviation": -0.108785
+        }
+      ],
+      "member_ids": [
+        "canada_goose_realignment_2026",
+        "coffee_cardiovascular_2026",
+        "cognitive_bicycle_scaffold",
+        "erasmus_rejoining_scaffold",
+        "ergo_autolykos_asic_resistance",
+        "ergo_lets_protocol",
+        "ergo_storage_rent_mechanism",
+        "finnish_ubi_experiment",
+        "fiscal_equalization_friction",
+        "fmt_oncology_2026",
+        "fnl_shadow_probe",
+        "gita_kurukshetra",
+        "gradient_descent_optimization",
+        "inner_model_theory_constraints",
+        "kidney_exchange_market",
+        "kjv_puritan_new_world_exit",
+        "large_cardinal_foundations",
+        "manganese_catalysis_2026",
+        "migration_decision_threshold",
+        "moores_law",
+        "narrative_engineering_2026",
+        "permissive_software_licensing",
+        "perseverance_ai_drive",
+        "rn_proteus_adoption",
+        "rogue_wave_control_2026",
+        "sadhu_integrity_protocol",
+        "silklink_2026",
+        "solar_system_weirdness",
+        "udhr_1948",
+        "unclos_2026"
+      ]
+    },
+    "rope->mountain": {
+      "count": 2,
+      "descriptive": {
+        "n": 2,
+        "mean": 0.223885,
+        "median": 0.223885,
+        "std": 0.209762,
+        "min": 0.014122,
+        "max": 0.433647,
+        "q25": 0.014122,
+        "q75": 0.433647,
+        "iqr": 0.419525
+      },
+      "normality_tests": {},
+      "distribution_fits": {},
+      "qq_table": [],
+      "member_ids": [
+        "cuny_light_2026",
+        "quine_self_replication"
+      ]
+    },
+    "scaffold->tangled_rope": {
+      "count": 3,
+      "descriptive": {
+        "n": 3,
+        "mean": 0.802273,
+        "median": 0.995714,
+        "std": 0.273567,
+        "min": 0.41539,
+        "max": 0.995714,
+        "q25": 0.41539,
+        "q75": 0.995714,
+        "iqr": 0.580324
+      },
+      "normality_tests": {},
+      "distribution_fits": {},
+      "qq_table": [],
+      "member_ids": [
+        "france_local_elections_march_2026",
+        "glp1_payload_efficiency_pivot",
+        "portugal_ad_stability_2026"
+      ]
+    },
+    "piton->rope": {
+      "count": 6,
+      "descriptive": {
+        "n": 6,
+        "mean": 0.524411,
+        "median": 0.531038,
+        "std": 0.376378,
+        "min": 0.00954,
+        "max": 0.985578,
+        "q25": 0.115195,
+        "q75": 0.974078,
+        "iqr": 0.858883
+      },
+      "normality_tests": {},
+      "distribution_fits": {},
+      "qq_table": [],
+      "member_ids": [
+        "gold_piton_2026",
+        "mco_unit_system_discontinuity",
+        "railway_gauge_standard",
+        "ship_of_theseus",
+        "temporal_scarcity",
+        "womens_sizing_chaos"
+      ]
+    },
+    "piton->tangled_rope": {
+      "count": 1,
+      "descriptive": {
+        "n": 1,
+        "mean": 0.210085,
+        "median": 0.210085,
+        "std": 0.0,
+        "min": 0.210085,
+        "max": 0.210085,
+        "q25": 0.210085,
+        "q75": 0.210085,
+        "iqr": 0.0
+      },
+      "normality_tests": {},
+      "distribution_fits": {},
+      "qq_table": [],
+      "member_ids": [
+        "hoa_covenants"
+      ]
+    },
+    "[social_governance]->tangled_rope": {
+      "count": 1,
+      "descriptive": {
+        "n": 1,
+        "mean": 0.993061,
+        "median": 0.993061,
+        "std": 0.0,
+        "min": 0.993061,
+        "max": 0.993061,
+        "q25": 0.993061,
+        "q75": 0.993061,
+        "iqr": 0.0
+      },
+      "normality_tests": {},
+      "distribution_fits": {},
+      "qq_table": [],
+      "member_ids": [
+        "keltner_relationship_evaluation"
+      ]
+    }
+  },
+  "override_subpopulation": {
+    "affected_count": 418,
+    "unaffected_count": 3,
+    "affected": {
+      "descriptive": {
+        "n": 418,
+        "mean": 0.479566,
+        "median": 0.533514,
+        "std": 0.329391,
+        "min": 1e-06,
+        "max": 0.999873,
+        "q25": 0.171597,
+        "q75": 0.733657,
+        "iqr": 0.56206
+      },
+      "normality_tests": {
+        "shapiro_wilk": {
+          "statistic": 0.91824,
+          "p_value": 0.0,
+          "reject_at_005": true
+        },
+        "dagostino_pearson": {
+          "statistic": 1113.215174,
+          "p_value": 0.0,
+          "reject_at_005": true
+        },
+        "anderson_darling": {
+          "statistic": 10.342983,
+          "critical_values": {
+            "15.0%": 0.571,
+            "10.0%": 0.65,
+            "5.0%": 0.78,
+            "2.5%": 0.909,
+            "1.0%": 1.082
+          },
+          "reject_at_005": true
+        },
+        "skewness": -0.07327,
+        "kurtosis": -1.349106
+      },
+      "signatures": {
+        "false_ci_rope": 394,
+        "constructed_high_extraction": 24
+      }
+    },
+    "unaffected": {
+      "descriptive": {
+        "n": 3,
+        "mean": 0.257539,
+        "median": 0.250972,
+        "std": 0.145805,
+        "min": 0.08234,
+        "max": 0.439306,
+        "q25": 0.08234,
+        "q75": 0.439306,
+        "iqr": 0.356966
+      },
+      "normality_tests": {},
+      "signatures": {
+        "false_natural_law": 3
+      }
+    }
+  },
+  "coalition_snare_crosstab": {
+    "matched_count": 421,
+    "unmatched_count": 0,
+    "unmatched_ids": [],
+    "cluster_totals": {
+      "low_snare": 202,
+      "high_snare": 219
+    },
+    "cross_tab": {
+      "uniform_tangled": {
+        "low_snare": 4,
+        "high_snare": 0
+      },
+      "institutional_dissent": {
+        "low_snare": 168,
+        "high_snare": 72
+      },
+      "analytical_dissent": {
+        "low_snare": 0,
+        "high_snare": 3
+      },
+      "split_field": {
+        "low_snare": 30,
+        "high_snare": 141
+      },
+      "other": {
+        "low_snare": 0,
+        "high_snare": 3
+      }
+    },
+    "per_coalition": {
+      "uniform_tangled": {
+        "n": 4,
+        "mean": 0.208334,
+        "median": 0.166656,
+        "std": 0.15234,
+        "min": 0.06072,
+        "max": 0.439306,
+        "q25": 0.08234,
+        "q75": 0.439306,
+        "iqr": 0.356966
+      },
+      "institutional_dissent": {
+        "n": 240,
+        "mean": 0.339534,
+        "median": 0.264903,
+        "std": 0.341014,
+        "min": 1e-06,
+        "max": 0.999873,
+        "q25": 0.030552,
+        "q75": 0.547141,
+        "iqr": 0.516589
+      },
+      "analytical_dissent": {
+        "n": 3,
+        "mean": 0.818921,
+        "median": 0.823027,
+        "std": 0.059418,
+        "min": 0.744183,
+        "max": 0.889553,
+        "q25": 0.744183,
+        "q75": 0.889553,
+        "iqr": 0.14537
+      },
+      "split_field": {
+        "n": 171,
+        "mean": 0.665207,
+        "median": 0.69763,
+        "std": 0.183125,
+        "min": 0.171076,
+        "max": 0.99649,
+        "q25": 0.627062,
+        "q75": 0.786083,
+        "iqr": 0.159021
+      },
+      "other": {
+        "n": 3,
+        "mean": 0.900855,
+        "median": 0.978297,
+        "std": 0.122517,
+        "min": 0.727904,
+        "max": 0.996364,
+        "q25": 0.727904,
+        "q75": 0.996364,
+        "iqr": 0.26846
+      }
+    },
+    "chi_squared": {
+      "chi2": 119.9618,
+      "p_value": 0.0,
+      "dof": 4,
+      "reject_at_005": true
+    }
+  }
+}

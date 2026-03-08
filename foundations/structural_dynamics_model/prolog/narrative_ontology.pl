@@ -6,6 +6,8 @@
 
     % CE v2.0 constraint layer
     constraint_claim/2,
+    human_readable/2,
+    topic_domain/2,
     recommendation/2,
     affects_constraint/2,
     veto_actor/1,
@@ -40,6 +42,9 @@
     coordination_type/2,
     boltzmann_floor_override/2,
 
+    % Coordination vitality (v7.0 — piton gate revision)
+    coordination_vitality/2,
+
     % Validation entry point
     validate_ontology/0
 ]).
@@ -52,19 +57,20 @@
 
 :- multifile
     entity/2, interval/3, event/4,
-    constraint_claim/2, recommendation/2, affects_constraint/2,
+    constraint_claim/2, human_readable/2, topic_domain/2, recommendation/2, affects_constraint/2,
     veto_actor/1, veto_exposed/2, constraint_metric/3, omega_variable/3,
     measurement/5, intent_viable_alternative/3, intent_alternative_rejected/3,
     intent_beneficiary_class/2, intent_power_change/3,
     intent_suppression_level/4, intent_resistance_level/4,
     intent_norm_strength/3, theater_ratio/2,
     constraint_beneficiary/2, constraint_victim/2, input_vector/2,
-    coupling_profile/2, coordination_type/2, boltzmann_floor_override/2.
+    coupling_profile/2, coordination_type/2, boltzmann_floor_override/2,
+    coordination_vitality/2.
 
 :- dynamic
     attribute/3, has_mandatrophy_declaration/1,
     entity/2, interval/3, event/4,
-    constraint_claim/2, recommendation/2, affects_constraint/2,
+    constraint_claim/2, human_readable/2, topic_domain/2, recommendation/2, affects_constraint/2,
     veto_actor/1, veto_exposed/2, constraint_metric/3, omega_variable/3,
     measurement/5, has_sunset_clause/1,
     intent_viable_alternative/3, intent_alternative_rejected/3,
@@ -72,7 +78,8 @@
     intent_suppression_level/4, intent_resistance_level/4,
     intent_norm_strength/3, constraint_claim/3,
     constraint_beneficiary/2, constraint_victim/2, input_vector/2,
-    coupling_profile/2, coordination_type/2, boltzmann_floor_override/2.
+    coupling_profile/2, coordination_type/2, boltzmann_floor_override/2,
+    coordination_vitality/2.
 
 /* ============================================================
    2. VALIDATION LOGIC
@@ -135,7 +142,7 @@ validate_constraint_claims :-
         ( % Skip list-wrapped legacy claims (data artifacts from older testset format)
           (is_list(Name) ; is_list(Type))
         -> true
-        ; member(Type, [mountain, rope, tangled_rope, snare, scaffold, piton, indexically_opaque])
+        ; member(Type, [mountain, rope, tangled_rope, snare, scaffold, piton, naturalized])
         -> true
         ;  format('ERROR: Ontological Violation in ~w: "~w" is not a valid constraint type.~n', [Name, Type]),
            fail
@@ -209,7 +216,7 @@ constraint_type(tangled_rope).  % Validated by corpus analysis (168/467 constrai
 constraint_type(snare).
 constraint_type(scaffold).
 constraint_type(piton).
-constraint_type(indexically_opaque).
+constraint_type(naturalized).
 
 %% constraint_type_name(?Type, ?Name)
 %  Human-readable names for constraint types.
@@ -219,7 +226,7 @@ constraint_type_name(tangled_rope, 'Tangled Rope (Hybrid Coordination/Extraction
 constraint_type_name(snare, 'Snare (Pure Extraction)').
 constraint_type_name(scaffold, 'Scaffold (Temporary Support)').
 constraint_type_name(piton, 'Piton (Degraded Coordination)').
-constraint_type_name(indexically_opaque, 'Indexically Opaque (Consent Dimension Unresolvable)').
+constraint_type_name(naturalized, 'Naturalized (Structurally Pervasive Extraction)').
 
 
 %% is_tangled_rope(+ConstraintID)
@@ -322,6 +329,12 @@ is_indexical_resolution_declared(ID) :-
 % Add-ons
 
 has_sunset_clause(_) :- fail. % Default fail if not explicitly defined in instance
+
+% v7.0: Coordination vitality for piton gate revision.
+% Status is one of: dead, degrading, active.
+% Default: fail (coordination presumed alive unless declared otherwise).
+% Declared in testset .pl files for pitons with dead/degrading coordination.
+coordination_vitality(_, _) :- fail.
 
 % Maps claim/2 into claim/3 for context-indexed lookups
 constraint_claim(ID, Type, _Context) :- 

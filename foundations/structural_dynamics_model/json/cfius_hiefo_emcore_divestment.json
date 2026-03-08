@@ -1,0 +1,190 @@
+{
+  "header": {
+    "constraint_id": "cfius_hiefo_emcore_divestment",
+    "version": "1.0",
+    "generated_date": "2026-02-26",
+    "status": "ACTIVE",
+    "measurement_id_prefix": "cfius"
+  },
+  "base_properties": {
+    "extractiveness": 0.58,
+    "suppression": 0.72,
+    "theater_ratio": 0.68,
+    "claimed_type": "tangled_rope",
+    "human_readable": "CFIUS authority to force divestment of strategic assets",
+    "topic_domain": "geopolitical/economic",
+    "requires_active_enforcement": true,
+    "beneficiaries": [
+      "us_national_security_apparatus",
+      "incumbent_domestic_competitors"
+    ],
+    "victims": [
+      "foreign_acquirers",
+      "market_certainty",
+      "cross_border_capital_allocation"
+    ],
+    "mandatrophy_resolved": false
+  },
+  "perspectives": [
+    {
+      "classification_type": "snare",
+      "agent_power": "powerless",
+      "time_horizon": "biographical",
+      "exit_options": "trapped",
+      "spatial_scope": "national",
+      "label": "The Foreign Acquirer Post-Closing",
+      "comment": "PERSPECTIVE 1: FOREIGN ACQUIRER POST-CLOSING (SNARE) \u2014 After acquiring a U.S. strategic asset (semiconductors, defense-adjacent technology), the foreign entity faces retroactive unwind authority with no meaningful exit. CFIUS can force divestment years after closing with minimal recourse. The acquirer bears full extractive cost: sunk capital, reputational damage, operational disruption. Suppression is near-total \u2014 no alternative to compliance once CFIUS acts."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "powerful",
+      "time_horizon": "biographical",
+      "exit_options": "constrained",
+      "spatial_scope": "national",
+      "label": "The Domestic Strategic Industry",
+      "comment": "PERSPECTIVE 2: DOMESTIC STRATEGIC INDUSTRY (TANGLED ROPE) \u2014 Benefits from CFIUS enforcement: prevents foreign ownership of critical suppliers, maintains domestic control of supply chains, reduces foreign leverage over U.S. strategic capacity. But also bears costs: chilling foreign investment reduces capital inflow, constrains exit options for domestic firms seeking foreign liquidity, creates regulatory uncertainty that increases cost of capital. Mixed extraction and coordination \u2014 benefits from protection but constrained by reduced liquidity."
+    },
+    {
+      "classification_type": "rope",
+      "agent_power": "institutional",
+      "time_horizon": "immediate",
+      "exit_options": "arbitrage",
+      "spatial_scope": "national",
+      "label": "The U.S. National Security Apparatus",
+      "comment": "PERSPECTIVE 3: U.S. NATIONAL SECURITY APPARATUS (ROPE) \u2014 CFIUS authority solves a genuine coordination problem: preventing strategic asset concentration in potentially hostile hands. The apparatus experiences the constraint as enabling \u2014 it creates the authority structure needed to maintain national security governance. No extraction against this agent; net beneficiary. The arbitrage option (can selectively enforce or grant exemptions) amplifies the coordination benefit."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "organized",
+      "time_horizon": "generational",
+      "exit_options": "constrained",
+      "spatial_scope": "global",
+      "label": "Allied Foreign Governments",
+      "comment": "PERSPECTIVE 4: ALLIED FOREIGN GOVERNMENTS (TANGLED ROPE) \u2014 Allied nations (Japan, South Korea, Canada, EU) benefit from CFIUS enforcement against hostile actors (China, Russia) but face growing restriction on their own strategic investments. Experienced as mixed: coordination against common adversaries, but asymmetric extraction as their firms face increasing scrutiny. Exit options constrained by political alliance requirements and retaliatory fears. Active enforcement gate satisfied: CFIUS requires regular reporting and political justification."
+    },
+    {
+      "classification_type": "piton",
+      "agent_power": "institutional",
+      "time_horizon": "civilizational",
+      "exit_options": "arbitrage",
+      "spatial_scope": "global",
+      "label": "The Formal International Trade Regime",
+      "comment": "PERSPECTIVE 5: FORMAL INTERNATIONAL TRADE REGIME (PITON) \u2014 The WTO and multilateral trade agreements presume non-discriminatory capital flows. CFIUS enforcement creates performative compliance with trade rules while substantively restricting capital flows. The formal regime persists through institutional inertia (invocations of national security exception, grandfather clauses) despite functional degradation of its core principle (capital mobility). Theater ratio (0.68) reflects gap between stated non-discrimination and actual selective enforcement based on geopolitical calculation."
+    },
+    {
+      "classification_type": "mountain",
+      "agent_power": "analytical",
+      "time_horizon": "civilizational",
+      "exit_options": "analytical",
+      "spatial_scope": "universal",
+      "label": "The Analytical Observer (Natural Law View)",
+      "comment": "PERSPECTIVE 6: ANALYTICAL OBSERVER / NATURAL LAW VIEW (MOUNTAIN) \u2014 From a civilizational perspective, the tension between national security and free capital flows is inherent to state sovereignty: no nation can credibly commit to irreversible capital transfer to potential adversaries. The constraint appears as a natural law of geopolitics \u2014 the structural inevitability that states must retain some unilateral power over strategic asset ownership. However, the structural data contradicts the mountain classification: CFIUS is a contingent 1975 statutory authority, its scope has expanded through executive interpretation, and alternative governance structures exist (fixed thresholds, transparent criteria, binding arbitration). The analytical observer risks naturalizing a strategic choice as inevitable."
+    }
+  ],
+  "omegas": [
+    {
+      "id": "national_security_definition_scope",
+      "question": "What constitutes 'national security' for CFIUS purposes? How broadly does the term extend from defense-industrial base to general economic competition?",
+      "resolution_mechanism": "Analysis of CFIUS cases: tracking expansion of 'national security' framing from semiconductor foundries (clearly defense-relevant) to cloud computing, AI, rare earth processing, biotech. Measurement of case definitions over time.",
+      "impact": "If narrowly defined: CFIUS is coordination mechanism (Rope). If broadly defined to include competitive advantage: CFIUS is extraction mechanism (Snare/Tangled Rope). Current trajectory toward broad definition empirically shifts classification toward Snare.",
+      "confidence": "high",
+      "type_class": "empirical",
+      "description": "Whether 'national security' includes general economic competition"
+    },
+    {
+      "id": "retroactive_unwinding_frequency",
+      "question": "How frequently does CFIUS actually invoke retroactive divestment authority post-closing? Is it a credible threat or rarely-used backstop?",
+      "resolution_mechanism": "Historical count of post-closing divestment orders vs. total completed transactions subject to CFIUS review. Timeline analysis: average delay between closing and divestment order if it occurs.",
+      "impact": "If frequency < 1%: threat value exceeds actual extraction (classification shifts toward theater-heavy Piton). If frequency > 5%: credible enforcement (classification confirmed as Snare/Tangled Rope). Current rate unclear from public data.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Actual frequency of retroactive CFIUS divestment orders"
+    },
+    {
+      "id": "alternative_governance_viability",
+      "question": "Would alternative structures (fixed thresholds, transparent criteria, binding arbitration) eliminate the extraction mechanism while preserving national security coordination?",
+      "resolution_mechanism": "Comparative analysis of CFIUS vs. EU foreign investment review mechanisms vs. proposed CFIUS reform frameworks. Modeling of coordination sufficiency under constrained vs. discretionary authority.",
+      "impact": "If viable: current CFIUS design represents extractive discretion rather than necessary coordination (Snare classification confirmed). If not viable: discretion is required for security (Tangled Rope/Mountain classification confirmed).",
+      "confidence": "low",
+      "type_class": "conceptual",
+      "description": "Whether alternative transparent governance structures could preserve security"
+    },
+    {
+      "id": "geopolitical_alignment_bias",
+      "question": "Does CFIUS enforcement correlate with geopolitical alignment? Are allied nation acquisitions treated differently than adversary acquisitions?",
+      "resolution_mechanism": "Statistical analysis of CFIUS approval rates by acquirer nation origin. Controlled comparison of case details (asset type, strategic relevance) across approved vs. rejected transactions by country alignment.",
+      "impact": "If significant bias: CFIUS is selective extraction mechanism favoring aligned powers (Tangled Rope classification toward upper range \u03c7). If no bias: CFIUS is neutral security mechanism (Rope/Mountain). Preliminary data suggests substantial bias.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Correlation between geopolitical alignment and CFIUS enforcement"
+    }
+  ],
+  "measurements": [
+    {
+      "metric": "base_extractiveness",
+      "time_point": 0,
+      "value": 0.35
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 15,
+      "value": 0.48
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 30,
+      "value": 0.58
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 0,
+      "value": 0.52
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 15,
+      "value": 0.61
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 30,
+      "value": 0.68
+    }
+  ],
+  "interval": {
+    "start": 0,
+    "end": 30
+  },
+  "commentary": {
+    "narrative_context": "CFIUS authority to retroactively force divestment of strategic assets represents a tangled coordination-extraction hybrid that has evolved over 50 years from narrow defense-industrial focus to increasingly broad geopolitical gatekeeping. The constraint operates between foreign acquirers (victims), the U.S. national security apparatus (primary beneficiary), domestic strategic industries (mixed beneficiary/victim), and allied foreign governments (constrained beneficiary). The core tension is structural: preventing hostile nations from controlling critical U.S. assets is a genuine coordination problem requiring unilateral state authority, but that same authority can be exploited for competitive advantage against allies and for selective extraction from foreign investors. The extractiveness measurement has risen from 0.35 (1975, narrow defense focus) to 0.58 (2026, expanded 'national security' definition). Theater ratio rising from 0.52 to 0.68 reflects increasing gap between formal CFIUS review process (transparent, criteria-based rhetoric) and actual decision-making (discretionary, geopolitically-calibrated enforcement). The constraint is Tangled Rope, not Mountain, because CFIUS authority is contingent statutory law (not a law of nature), its scope has expanded through executive interpretation (not fixed by physics), and alternative governance structures exist (not logically inevitable).",
+    "key_agents": [
+      "Foreign Acquirers (China, Russia, allies): Victims (powerless/trapped) \u2014 face retroactive unwind authority with minimal recourse after capital deployment",
+      "U.S. National Security Apparatus (DoD, CFIUS committee): Primary beneficiary (institutional/arbitrage) \u2014 controls unilateral authority to approve or block transactions; selectively enforces based on geopolitical alignment",
+      "Domestic Strategic Industries (semiconductor, defense-adjacent tech): Mixed beneficiary/victim (powerful/constrained) \u2014 benefit from foreign ownership prevention but bear cost of reduced capital inflow and exit liquidity",
+      "Allied Foreign Governments (Japan, South Korea, Canada, EU): Constrained beneficiary (organized/constrained) \u2014 benefit from CFIUS enforcement against adversaries but face asymmetric restrictions on their own strategic investments",
+      "International Trade Regime (WTO, multilateral agreements): Performative actor (institutional/arbitrage) \u2014 formally presumed non-discrimination in capital flows; functionally degraded by selective CFIUS enforcement",
+      "Analytical Observer: Civilizational view (analytical/analytical) \u2014 risks naturalizing contingent statutory authority as inevitable law of geopolitics"
+    ],
+    "logic_rationale": "Extractiveness (0.58): Moderate-high, rising over interval. Base extractiveness reflects that CFIUS authority captures significant value for the U.S. security apparatus and domestic incumbents at the cost of foreign acquirers: reduced capital inflow, capital losses from forced divestitures, chilled future investment. The rise from 0.35 to 0.58 reflects scope expansion \u2014 'national security' has broadened from defense contractors to cloud computing, AI, rare earths \u2014 capturing more transactions and higher extraction intensity. Suppression (0.72): High. Foreign acquirers face near-total suppression of alternatives once CFIUS determines divestment is necessary: no meaningful legal recourse, no bilateral trade remedies, no arbitration mechanism, limited transparency in decision criteria. Domestic industries face softer suppression: they can advocate for broader CFIUS scope or exemptions, but face political constraints and foreign retaliation risks. Theater ratio (0.68): Moderate-high. The CFIUS process presents formal criteria (defense-industrial relevance, critical infrastructure, supply chain resilience) but actual decisions are geopolitically calibrated and discretionary. The theater has increased as the formal criteria have become more performative \u2014 nearly any technology can be framed as 'national security' relevant. The gap between stated criteria and actual enforcement reflects strategic interest alignment over rule-following.",
+    "perspectival_gap": "The foreign acquirer sees pure extraction (Snare) \u2014 they bear unilateral cost with no exit, no recourse, retroactive enforcement. The domestic strategic industry sees mixed benefits and constraints (Tangled Rope) \u2014 they gain supply chain security but lose capital inflow and liquidity options. Allied foreign governments see the same mixed picture but organized (Tangled Rope) \u2014 they benefit from CFIUS enforcement against adversaries but face asymmetric restrictions on their own strategic bets. The U.S. security apparatus sees pure coordination (Rope) \u2014 CFIUS solves the legitimate problem of preventing hostile asset concentration. The formal international trade regime sees its core principle (non-discriminatory capital flows) degraded to theater (Piton) \u2014 the formal multilateral agreements presume capital mobility, but CFIUS selective enforcement undermines it. The analytical observer risks seeing a natural law (Mountain) \u2014 that states must retain unilateral control over strategic assets \u2014 but this naturalizes a contingent 1975 statutory choice that could be reformed with transparent thresholds and binding arbitration.",
+    "directionality_logic": "Directionality d is determined by structural position: Who benefits? Who bears costs? What are the exit options? Foreign acquirers are victims (high d toward 1.0) with trapped exit \u2014 they deployed capital, cannot recover it, face retroactive enforcement with no meaningful recourse. The engine computes high f(d) from d \u2248 0.92 (victim + trapped), amplifying experienced extraction. The U.S. security apparatus are beneficiaries (low d toward 0.0) with arbitrage exit \u2014 they gain unilateral authority and can selectively enforce; the engine computes negative f(d) from d \u2248 0.08, making their \u03c7 negative (coordination benefit). Domestic strategic industries occupy middle ground (d \u2248 0.55-0.60): they benefit from foreign ownership prevention (lowering d) but face constrained exit options and reduced capital inflow (raising d). Allied governments face similar middle positioning but with organized power, shifting their d somewhat lower (\u22480.45) due to their ability to coordinate countermeasures. The scope modifier \u03c3(national) = 1.0 applies \u2014 CFIUS operates at national scale. The constraint's extractiveness is scaled by these directionality values, producing different experienced \u03c7 for each perspective: victims experience high \u03c7 (extraction), beneficiaries experience low/negative \u03c7 (coordination), mixed actors experience moderate \u03c7 (balanced pressure).",
+    "mandatrophy_analysis": "CFIUS authority exhibits mandatrophy: it conflates a genuine coordination function (preventing hostile acquisition of strategic assets) with an extraction mechanism (selective enforcement favoring geopolitical allies and domestic incumbents). The classification resolves mandatrophy by recognizing both functions in the Tangled Rope type: beneficiaries = [u.s._national_security_apparatus, incumbent_domestic_competitors] (coordination), victims = [foreign_acquirers, market_certainty, cross_border_capital_allocation] (extraction), requires_active_enforcement = true (distinguishing from pure Rope). The perspectival gap reveals that coordination is asymmetric: it coordinates against adversaries but extracts from allies. The rise in extractiveness (0.35 \u2192 0.58) and theater ratio (0.52 \u2192 0.68) indicates rent-seeking layering onto coordination: as CFIUS scope has expanded beyond core defense-industrial assets into competitive technology domains, the coordination logic has weakened and the extraction logic has strengthened. Alternative governance (fixed thresholds, transparent criteria, binding arbitration for allies) could preserve coordination while reducing extraction. The fact that such alternatives are politically infeasible (omega_3) suggests that current discretion serves extractive interests beyond pure coordination. Mandatrophy is NOT resolved (mandatrophy_resolved: false) because the tension between coordination and extraction remains unresolved \u2014 the CFIUS structure admits both readings, and the policy discourse emphasizes coordination while the enforcement pattern emphasizes extraction against non-adversaries."
+  },
+  "boltzmann": {
+    "coordination_type": "enforcement_mechanism"
+  },
+  "network": {
+    "affects_constraints": [
+      "semiconductor_supply_chain_concentration",
+      "allied_capital_mobility_restriction",
+      "rare_earth_dependency"
+    ],
+    "dual_formulation_note": "CFIUS authority operates at the intersection of three distinct structural claims: (1) preventing hostile acquisition of strategic assets (coordination, Mountain), (2) managing allied competition for strategic assets (Tangled Rope), (3) selective enforcement favoring geopolitical alignment over neutral criteria (Snare). These decompose into separate stories with different \u03b5 values and different upstream/downstream relationships. The current story focuses on claim (2) \u2014 the mixed extraction-coordination hybrid. Upstream constraints establish the necessity of strategic asset protection; downstream constraints model how CFIUS decisions ripple through specific supply chains and geopolitical relationships."
+  },
+  "directionality_overrides": [
+    {
+      "power_atom": "organized",
+      "d_value": 0.48
+    }
+  ]
+}

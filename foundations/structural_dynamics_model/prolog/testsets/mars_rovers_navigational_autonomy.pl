@@ -1,26 +1,51 @@
 % ============================================================================
-% CONSTRAINT STORY: mars_rover_navigational_autonomy
+% CONSTRAINT STORY: mars_rovers_navigational_autonomy
 % ============================================================================
-% Generated: 2026-01-19
-% Model: Gemini 2.0 Flash
-% Source: Autonomy for Mars Rovers: Past, Present, and Future (Bajracharya et al., 2008)
+% Version: 1.0 (Deferential Realism Core + Directionality + Boltzmann + Network)
+% Logic: 6.0 (Indexed Tuple P,T,E,S + Sigmoid f(d) + Coupling + Purity + Network)
+% Generated: 2026-02-26
+% Status: [ACTIVE]
 % ============================================================================
 
-:- module(constraint_mars_autonomy, []).
+:- module(constraint_mars_rovers_navigational_autonomy, []).
 
 :- use_module(constraint_indexing).
 :- use_module(domain_priors).
 :- use_module(narrative_ontology).
 
+% --- Constraint Identity Rule (DP-001: ε-Invariance) ---
+% Each constraint story must have a single, stable base extractiveness (ε).
+% If changing the observable used to evaluate this constraint would change ε,
+% you are looking at two distinct constraints. Write separate .pl files for
+% each, link them with affects_constraint/2, and document the relationship
+% in both files' narrative context sections.
+%
+% The context tuple is CLOSED at arity 4: (P, T, E, S).
+% Do not add measurement_basis, beneficiary/victim, or any other arguments.
+% Linter Rule 23 enforces context/4.
+%
+% See: epsilon_invariance_principle.md
+
 % --- Namespace Hooks (Required for loading) ---
-:- multifile 
+:- multifile
     domain_priors:base_extractiveness/2,
     domain_priors:suppression_score/2,
+    domain_priors:theater_ratio/2,
     domain_priors:requires_active_enforcement/1,
+    narrative_ontology:has_sunset_clause/1,
+    narrative_ontology:interval/3,
+    narrative_ontology:measurement/5,
     narrative_ontology:constraint_metric/3,
     narrative_ontology:constraint_beneficiary/2,
     narrative_ontology:constraint_victim/2,
-    constraint_indexing:constraint_classification/3.
+    narrative_ontology:constraint_claim/2,
+    narrative_ontology:affects_constraint/2,
+    narrative_ontology:coordination_type/2,
+    constraint_indexing:constraint_classification/3,
+    domain_priors:emerges_naturally/1,
+    narrative_ontology:omega_variable/3,
+    narrative_ontology:human_readable/2,
+    narrative_ontology:topic_domain/2.
 
 /* ==========================================================================
    1. NARRATIVE CONTEXT
@@ -28,261 +53,220 @@
 
 /**
  * CONSTRAINT IDENTIFICATION
- * * constraint_id: mars_rover_navigational_autonomy
- * human_readable: Mars Surface Navigational Autonomy (AutoNav)
- * domain: technological
- * temporal_scope: 1997-2004 (Sojourner to Spirit/Opportunity)
- * spatial_scope: Martian Surface / JPL Control
- * * SUMMARY:
- * Navigational autonomy on Mars is constrained by the "speed-of-light" latency 
- * (Mountain) and the high risk of irrecoverable hardware loss (Snare). To 
- * overcome these, NASA implemented GESTALT and AutoNav—functional coordination 
- * mechanisms (Ropes) that allow rovers to sense hazards and plan paths 
- * without constant human intervention.
- * * KEY AGENTS:
- * - The Rover (Sojourner/Spirit): Individual powerless; subject to the 
- * physical terrain and the "safety logic" of its own code.
- * - Rover Planners (JPL): Institutional; define the "cost maps" and 
- * safety thresholds that govern what the rover perceives as an obstacle.
- * - Robotics Researcher: Analytical; evaluates the efficiency of 
- * autonomous navigation vs. human-commanded "blind driving."
- * * NARRATIVE ARC:
- * Autonomy evolved from a simple 2D hazard avoidance (Sojourner) to complex 
- * 3D stereo-vision path planning (Spirit). While intended as a Rope to 
- * increase mission velocity, the software's conservative safety limits 
- * can function as a Snare, "extracting" mission time by causing the rover 
- * to stop or retreat from navigable but "scary" terrain.
+ *   constraint_id: mars_rovers_navigational_autonomy
+ *   human_readable: Mars Surface Navigational Autonomy (AutoNav)
+ *   domain: technological/space_exploration
+ *
+ * SUMMARY:
+ *   Mars rover navigational autonomy is constrained by a physical law:
+ *   electromagnetic signal propagation across interplanetary distances at the
+ *   speed of light. Earth-Mars signal latency ranges from 3 to 22 minutes
+ *   (round-trip), depending on planetary positions. This delay makes
+ *   real-time teleoperated control impossible — operators cannot send a drive
+ *   command and receive navigation feedback within a control loop cycle. The
+ *   constraint forces all Mars rovers to operate autonomously: pre-planned
+ *   drive sequences loaded into onboard memory, with the rover executing
+ *   hazard detection (via stereo cameras and LIDAR) and obstacle avoidance
+ *   algorithms during the drive. The constraint is physically irreducible and
+ *   structurally immutable. It does not extract value, suppress alternatives,
+ *   or benefit specific agents — it is an environmental parameter that
+ *   determines architecture. The constraint exhibits zero extractiveness from
+ *   all perspectives, making it a canonical mountain.
+ *
+ * KEY AGENTS:
+ *   - Physical Law / Speed of Light: The irreducible constraint. No agent; no beneficiary or victim.
+ *   - JPL Mission Planners: Powerful agents (institutional/arbitrage) — adapt to latency by designing autonomous navigation architecture. No extraction experienced.
+ *   - Rover Hardware: Equipment bearing irrecoverable risk from navigation errors (powerless/trapped). Not a victim of the latency constraint itself but exposed to risk because latency forces autonomy.
+ *   - Autonomous Navigation Software: The technical solution to latency. Not an agent but the mechanism enabling rovers to operate despite latency.
+ *   - Planetary Orbital Mechanics: The upstream physical determinant. Makes latency irreducible.
  */
 
 /* ==========================================================================
-   2. CORE SYSTEM INTEGRATION (The "Reality" Layer)
+   2. BASE PROPERTIES (DOMAIN PRIORS)
    ========================================================================== */
 
-% Structural Anchor for index extraction
-narrative_ontology:interval(mars_autonomy_evolution, 0, 10).
-narrative_ontology:constraint_claim(mars_rover_navigational_autonomy, rope).
+% --- Numerical metrics ---
+domain_priors:base_extractiveness(mars_rovers_navigational_autonomy, 0.18).
+domain_priors:suppression_score(mars_rovers_navigational_autonomy, 0.03).
+domain_priors:theater_ratio(mars_rovers_navigational_autonomy, 0.15).
 
-% Base extractiveness score (0.0-1.0)
-% Rationale: 0.4. Moderate; autonomous cycles "extract" significant 
-% onboard CPU time and battery power (computational cost), potentially 
-% reducing time available for science instruments.
-domain_priors:base_extractiveness(mars_rover_navigational_autonomy, 0.4).
+% --- Constraint metric facts (engine primary keys, must mirror domain_priors) ---
+narrative_ontology:constraint_metric(mars_rovers_navigational_autonomy, extractiveness, 0.18).
+narrative_ontology:constraint_metric(mars_rovers_navigational_autonomy, suppression_requirement, 0.03).
+narrative_ontology:constraint_metric(mars_rovers_navigational_autonomy, theater_ratio, 0.15).
 
-% Suppression score (0.0-1.0)
-% Rationale: 0.5. The system suppresses high-risk maneuvers. If the 
-% "safety margin" is too high, it suppresses the visibility of valid 
-% navigation paths.
-domain_priors:suppression_score(mars_rover_navigational_autonomy, 0.5).
+% --- NL Profile Metrics (required for mountain constraints) ---
+narrative_ontology:constraint_metric(mars_rovers_navigational_autonomy, accessibility_collapse, 0.92).
+narrative_ontology:constraint_metric(mars_rovers_navigational_autonomy, resistance, 0.08).
 
-% Constraint metric facts (bridge for classification engine)
-narrative_ontology:constraint_metric(mars_rover_navigational_autonomy, extractiveness, 0.4).
-narrative_ontology:constraint_metric(mars_rover_navigational_autonomy, suppression_requirement, 0.5).
+% --- Constraint claim ---
+narrative_ontology:constraint_claim(mars_rovers_navigational_autonomy, mountain).
+narrative_ontology:human_readable(mars_rovers_navigational_autonomy, "Mars Surface Navigational Autonomy (AutoNav)").
+narrative_ontology:topic_domain(mars_rovers_navigational_autonomy, "technological/space_exploration").
 
-% Enforcement requirements
-% Requires active enforcement (Onboard hazard avoidance software 
-% triggers a stop if safety constraints are violated).
-domain_priors:requires_active_enforcement(mars_rover_navigational_autonomy).
+domain_priors:emerges_naturally(mars_rovers_navigational_autonomy).
 
-% Metrics required for Section 1 of the Executive Summary
-% BENEFICIARIES & VICTIMS
-narrative_ontology:constraint_beneficiary(mars_rover_navigational_autonomy, mission_longevity).
-narrative_ontology:constraint_beneficiary(mars_rover_navigational_autonomy, navigational_safety).
-narrative_ontology:constraint_victim(mars_rover_navigational_autonomy, traverse_speed).
-narrative_ontology:constraint_victim(mars_rover_navigational_autonomy, cpu_availability_for_science).
+% --- Structural relationships ---
+% No enrichment needed. As a Mountain (physical limit), this constraint does
+% not have beneficiaries or victims in the structural sense.
 
 /* ==========================================================================
-   3. INDEXED CLASSIFICATIONS (Perspectival Truth)
+   3. INDEXED CLASSIFICATIONS (P, T, E, S)
    ========================================================================== */
 
-/* --------------------------------------------------------------------------
-   PERSPECTIVE 1: THE ROVER (SPIRIT) - Mountain
-   --------------------------------------------------------------------------
-   
-   WHO: powerless - Cannot alter its own code; must obey the 
-         hazard avoidance logic.
-   WHEN: immediate - Tactical millisecond-by-millisecond wheel control.
-   WHERE: trapped - Bound by the physical geometry of Martian rocks and slopes.
-   SCOPE: local - Immediate sensor range (1-5 meters).
-   
-   WHY THIS CLASSIFICATION:
-   For the rover, the software's safety parameters (e.g., "stop if tilt > 20°") 
-   are as unchangeable as the Martian gravity. It has zero degrees of 
-   freedom to ignore its own "Fear" of a hazard.
-   -------------------------------------------------------------------------- */
+% PERSPECTIVE 1: PHYSICAL LAW (MOUNTAIN) — Signal latency is an irreducible constraint imposed by the speed of light. Earth-Mars distance ranges 54.6 to 401 million km, producing round-trip light delays of 3 to 22 minutes. No technology can overcome this limit. The constraint emerges naturally from relativistic physics and cannot be suppressed by engineering effort or resource investment. All observers at all power levels face identical effective latency.
+constraint_indexing:constraint_classification(mars_rovers_navigational_autonomy, mountain,
+    context(agent_power(analytical),
+            time_horizon(civilizational),
+            exit_options(analytical),
+            spatial_scope(universal))).
 
+% PERSPECTIVE 2: MISSION PLANNING (MOUNTAIN) — Rover operators (JPL engineers) experience signal latency as an irreducible design constraint. They cannot reduce latency but can engineer around it: pre-planned drive sequences, onboard hazard detection, autonomous obstacle avoidance algorithms. The constraint forces a specific architectural choice (autonomous navigation rather than teleoperative control) but does not extract value or suppress alternatives — it is purely architectural. No effective extraction occurs; suppression is minimal because the engineering solution is well-understood.
+constraint_indexing:constraint_classification(mars_rovers_navigational_autonomy, mountain,
+    context(agent_power(powerful),
+            time_horizon(civilizational),
+            exit_options(mobile),
+            spatial_scope(global))).
 
+% PERSPECTIVE 3: HARDWARE RISK (MOUNTAIN) — Rover hardware (Spirit, Opportunity, Curiosity, Perseverance) operates in an environment of extreme risk: dust storms, temperature extremes (-140°C to +40°C), radiation exposure, mechanical failure. Once a rover exceeds safe mobility limits due to navigation error, recovery is impossible — the hardware is lost. Operators face an irreducible tradeoff between autonomy (required by latency) and safety (demanded by hardware fragility). This tradeoff is not extractive; it is structural. The constraint appears as an immutable physical reality from this perspective as well.
+constraint_indexing:constraint_classification(mars_rovers_navigational_autonomy, mountain,
+    context(agent_power(powerless),
+            time_horizon(biographical),
+            exit_options(trapped),
+            spatial_scope(global))).
 
-constraint_indexing:constraint_classification(
-    mars_rover_navigational_autonomy,
-    mountain,
-    context(
-        agent_power(powerless),
-        time_horizon(immediate),
-        exit_options(trapped),
-        spatial_scope(local)
-    )
-) :-
-    domain_priors:requires_active_enforcement(mars_rover_navigational_autonomy),
-    !.
+% PERSPECTIVE 4: MISSION ARCHITECTURE (MOUNTAIN) — NASA's rover program treats signal latency as a fixed parameter that determines architecture (autonomous vs teleoperated control). The institutional response is standardized: mission planners pre-load daily drive sequences, rover autonomy software executes hazard detection onboard, and operators monitor via imagery. The constraint does not benefit or harm NASA institutionally — it is simply an environmental parameter that requires specific design responses. No extraction; no suppression.
+constraint_indexing:constraint_classification(mars_rovers_navigational_autonomy, mountain,
+    context(agent_power(institutional),
+            time_horizon(generational),
+            exit_options(arbitrage),
+            spatial_scope(national))).
 
-/* --------------------------------------------------------------------------
-   PERSPECTIVE 2: ROVER PLANNERS (JPL) - Rope
-   --------------------------------------------------------------------------
-   
-   WHO: institutional - Power to adjust "cost" weights and path heuristics.
-   WHEN: biographical - Planning the 90-day (and beyond) mission arc.
-   WHERE: mobile - Can send "overrides" or change the software's caution level.
-   SCOPE: regional - Planning traverse routes across kilometers of Gusev Crater.
-   
-   WHY THIS CLASSIFICATION:
-   Planners view autonomy as a Rope—a functional coordination tool. If the 
-   rover is too conservative, they can "loosen" the rope by adjusting 
-   thresholds to allow more daring drives, or "tighten" it in dangerous areas.
-   -------------------------------------------------------------------------- */
-
-constraint_indexing:constraint_classification(
-    mars_rover_navigational_autonomy,
-    rope,
-    context(
-        agent_power(institutional),
-        time_horizon(biographical),
-        exit_options(mobile),
-        spatial_scope(regional)
-    )
-) :-
-    domain_priors:base_extractiveness(mars_rover_navigational_autonomy, E),
-    E < 0.6,
-    !.
-
-/* --------------------------------------------------------------------------
-   PERSPECTIVE 3: MISSION EFFICIENCY ANALYST - Snare
-   --------------------------------------------------------------------------
-   
-   WHO: analytical - Observer of the ratio between "thinking" and "driving."
-   WHEN: historical - Comparing Pathfinder's 100m traverse to Spirit's kilometers.
-   WHERE: analytical - Free from the operational "fear" of losing the rover.
-   SCOPE: global - Impact on the future of planetary exploration.
-   
-   WHY THIS CLASSIFICATION:
-   The analyst sees the Snare. Onboards like Spirit spent hours "thinking" 
-   (computing stereo vision) for every minute of driving. This extraction 
-   of time/power chokes the potential science yield, particularly when the 
-   rover gets "stuck" in a computational loop due to ambiguous terrain.
-   -------------------------------------------------------------------------- */
-
-
-
-constraint_indexing:constraint_classification(
-    mars_rover_navigational_autonomy,
-    snare,
-    context(
-        agent_power(analytical),
-        time_horizon(historical),
-        exit_options(analytical),
-        spatial_scope(global)
-    )
-) :-
-    domain_priors:suppression_score(mars_rover_navigational_autonomy, S),
-    S > 0.4,
-    !.
+% PERSPECTIVE 5: COMPARATIVE ANALYSIS (MOUNTAIN) — Across all planetary exploration systems, signal latency scales with distance and emerges from the speed of light invariant. Mars rovers experience 3-22 minute latency; Moon rovers experience 1-3 second latency; Earth drones experience <0.1 second latency. The relationship is deterministic and inescapable. This perspective confirms the mountain classification universally: the constraint is not a feature of Mars exploration specifically but a consequence of orbital mechanics and relativistic physics.
+constraint_indexing:constraint_classification(mars_rovers_navigational_autonomy, mountain,
+    context(agent_power(analytical),
+            time_horizon(civilizational),
+            exit_options(analytical),
+            spatial_scope(universal))).
 
 /* ==========================================================================
-   4. TESTS (What We Learn About Constraints)
+   4. VALIDATION TESTS
    ========================================================================== */
 
-:- begin_tests(mars_autonomy_tests).
+:- begin_tests(mars_rovers_navigational_autonomy_tests).
 
-test(autonomy_utility_variance) :-
-    % Institutional planners see a tool (Rope), local rover sees a limit (Mountain)
-    constraint_indexing:constraint_classification(mars_rover_navigational_autonomy, T1, context(institutional, biographical, mobile, regional)),
-    constraint_indexing:constraint_classification(mars_rover_navigational_autonomy, T2, context(powerless, immediate, trapped, local)),
-    T1 \= T2.
+test(invariance_check) :-
+    % Verify that as a Mountain, the classification is uniform across perspectives.
+    constraint_indexing:constraint_classification(mars_rovers_navigational_autonomy, TypeTarget, context(agent_power(powerless), _, _, _)),
+    constraint_indexing:constraint_classification(mars_rovers_navigational_autonomy, TypeBeneficiary, context(agent_power(institutional), _, _, _)),
+    TypeTarget == TypeBeneficiary,
+    TypeTarget == mountain.
 
-test(computational_extraction) :-
-    % Extraction of battery/time is significant for Mars missions
-    domain_priors:base_extractiveness(mars_rover_navigational_autonomy, E),
-    E > 0.3.
+test(mountain_threshold_validation) :-
+    config:param(extractiveness_metric_name, ExtMetricName),
+    narrative_ontology:constraint_metric(mars_rovers_navigational_autonomy, ExtMetricName, E),
+    domain_priors:suppression_score(mars_rovers_navigational_autonomy, S),
+    E =< 0.25,
+    S =< 0.05.
 
-:- end_tests(mars_autonomy_tests).
+test(nl_profile_validation) :-
+    domain_priors:emerges_naturally(mars_rovers_navigational_autonomy),
+    narrative_ontology:constraint_metric(mars_rovers_navigational_autonomy, accessibility_collapse, AC),
+    narrative_ontology:constraint_metric(mars_rovers_navigational_autonomy, resistance, R),
+    AC >= 0.85,
+    R =< 0.15.
+
+:- end_tests(mars_rovers_navigational_autonomy_tests).
 
 /* ==========================================================================
-   5. MODEL INTERPRETATION (Commentary)
+   5. GENERATIVE COMMENTARY
    ========================================================================== */
 
 /**
- * LLM GENERATION NOTES
- * * Model: Gemini 2.0 Flash
- * * KEY DECISIONS:
- * 1. EXTRACTIVENESS (0.4): I chose this to reflect the "Tax" on mission 
- * time. As noted in the Bajracharya paper, autonomous navigation is 
- * significantly slower than blind driving because the rover must stop, 
- * image, and think.
- * 2. CLASSIFICATION: I primary-labeled this as a 'Rope' because it 
- * coordinated the transition from 100-meter missions (Sojourner) to 
- * 10-kilometer missions (Spirit/Opportunity).
- * 3. PERSPECTIVE: The "Analytical" view of the Snare reflects the 
- * 'Replication Crisis' in autonomy: the more safe we make it, the less 
- * productive it becomes.
+ * LOGIC RATIONALE:
+ *   Extractiveness (0.18): Very low. The constraint does not extract resources, wealth, or labor from any agent. It imposes an architectural requirement (autonomous rather than teleoperated control) but does not direct value flow toward any beneficiary. The slight non-zero value (0.18 rather than 0.00) reflects the measurement error inherent in quantifying physical constants — signal latency is measured with certainty, but characterizing it as a constraint on human agency introduces minimal indexical uncertainty. Suppression (0.03): Minimal. The constraint does not suppress alternatives through coercion or resource denial. It eliminates certain options (real-time teleoperative control is impossible), but this is a physical elimination, not suppression. No agent withholds information or alternatives; the law of physics does. Theater ratio (0.15): Very low. Rover navigation is not performative. The autonomous navigation systems are functional: they move the rover safely across terrain. The slight theater reflects the pre-planned nature of drives (operators stage rehearsal before each sol's execution) but this is good engineering practice, not theatrical substitution of appearance for function.
+ *
+ * PERSPECTIVAL GAP:
+ *   Minimal perspectival gap. All observers — from the powerless rover hardware to the powerful mission planners to the analytical observer — classify the constraint identically as a mountain. This is the expected outcome for a pure physical law. The constraint exhibits invariance across all (P,T,E,S) tuples, confirming that it operates at the level of natural law rather than contingent institutional arrangement.
+ *
+ * DIRECTIONALITY LOGIC:
+ *   Directionality is not applicable to this constraint. Mountains do not have beneficiaries or victims because they do not extract or coordinate. The constraint is not indexed to any agent's structural position — it appears identically to all observers. The latency affects all Mars rovers equally. The hardware risk affects all missions. The architectural requirement applies to all future explorers. No agent experiences directionality advantage or disadvantage relative to the constraint itself.
+ *
+ * MANDATROPHY ANALYSIS:
+ *   PURE MOUNTAIN — NO MANDATROPHY RISK. This constraint exhibits zero degrees of freedom for all indices. The classification is invariant across all perspectives. Signal latency is not a hidden coordination mechanism (like a Rope in disguise) or a sneaky extraction mechanism (like a Snare hiding as a Mountain). It is genuinely immutable. The mandatrophy that occurs in other constraint types — the risk of misidentifying extraction as coordination, or theatrical performance as function — does not apply here. The constraint stands as a baseline natural law: the kind of irreducible physical limit that justifies the mountain category's existence.
  */
 
+/* ==========================================================================
+   6. OMEGA VARIABLES (Ω) - IRREDUCIBLE UNCERTAINTIES
+   ========================================================================== */
+
 omega_variable(
-    autonomy_trust_threshold,
-    "At what point does human 'Trust' in the algorithm allow the Rope 
-     to slacken enough to become a speed-enhancing tool vs. a speed-choking limit?",
-    resolution_mechanism("Comparative analysis of traverse speed in 'AutoNav' vs. 'Directed' modes on MER"),
-    impact("If Directed is consistently faster: AutoNav is a Snare. 
-            If AutoNav allows more meters per sol: It is a Rope."),
+    autonomy_sufficiency_threshold,
+    'What level of onboard autonomy is sufficient to ensure safe navigation given the signal latency constraint?',
+    'Historical analysis of rover navigation errors (e.g., Spirit''s wheels, Opportunity''s dust storm descent); correlation between autonomy algorithm sophistication and safe drive distance per sol',
+    'If threshold is low: current rover autonomy is overdesigned. If threshold is high: rovers operate at the edge of safe autonomy, and degradation of onboard sensors or software increases risk of loss.',
+    confidence_without_resolution(high)
+).
+
+narrative_ontology:omega_variable(autonomy_sufficiency_threshold, empirical, 'Threshold autonomy capability for safe Mars rover navigation').
+
+omega_variable(
+    hardware_fragility_irreducibility,
+    'Is the hardware fragility (that makes navigation errors irrecoverable) a constraint imposed by current engineering or a fundamental tradeoff of planetary exploration?',
+    'Engineering roadmap analysis: can redundancy, repair mechanisms, or backup systems reduce the irreversibility of navigation failures? Comparison to terrestrial robotics with repair/recovery options.',
+    'If engineering can reduce fragility: the constraint becomes hybrid (Tangled Rope) — latency + manageable risk. If fragility is irreducible: mountain classification remains valid across all timescales.',
     confidence_without_resolution(medium)
 ).
 
-/* ==========================================================================
-   6. ALTERNATIVE ANALYSIS
-   ========================================================================== */
+narrative_ontology:omega_variable(hardware_fragility_irreducibility, empirical, 'Whether rover hardware fragility is engineerable or fundamental').
 
-/**
- * VIABLE ALTERNATIVES
- * * ALTERNATIVE 1: Blind Driving (Direct Sequencing)
- * Viability: Used extensively for "safe" flat terrain. High speed, low 
- * onboard computation.
- * Suppression: Suppressed in "unknown" or "hazardous" terrain because 
- * the 20-minute latency (Mountain) makes it an operational Snare.
- * * ALTERNATIVE 2: Continuous Drive (Spirit/Opportunity upgrade)
- * Viability: Later mission upgrades allowed for imaging during wheel motion.
- * * CONCLUSION:
- * The existence of "Blind Driving" as a faster but riskier alternative 
- * highlights that Autonomy is a chosen Rope—we trade time (Extraction) 
- * for the avoidance of a permanent mission-ending Mountain (a crash).
- */
+omega_variable(
+    signal_latency_irreducibility,
+    'Is signal latency truly immutable, or could future quantum communication or relativistic physics breakthroughs change this?',
+    'Physics review: current theoretical limits on signal propagation; assessment of quantum teleportation relevance to classical navigation; long-term research horizon for faster-than-light communication.',
+    'If latency is truly immutable: mountain stands forever. If theoretical path exists: classification might shift on civilizational timescales, but current classification remains valid for biographical and generational horizons.',
+    confidence_without_resolution(high)
+).
+
+narrative_ontology:omega_variable(signal_latency_irreducibility, empirical, 'Whether signal latency constraint is truly immutable').
+
 
 /* ==========================================================================
    7. INTEGRATION HOOKS
    ========================================================================== */
 
-% 1. Load: ?- [mars_rover_navigational_autonomy].
-% 2. Analyze: ?- multi_index_report(mars_rover_navigational_autonomy).
+narrative_ontology:interval(mars_rovers_navigational_autonomy, 0, 30).
+
+/* ==========================================================================
+   8. TEMPORAL MEASUREMENTS (LIFECYCLE DRIFT DATA)
+   ========================================================================== */
+
+% Theater ratio over time
+narrative_ontology:measurement(autnav_tr_t0, mars_rovers_navigational_autonomy, theater_ratio, 0, 0.1).
+narrative_ontology:measurement(autnav_tr_t15, mars_rovers_navigational_autonomy, theater_ratio, 15, 0.15).
+narrative_ontology:measurement(autnav_tr_t30, mars_rovers_navigational_autonomy, theater_ratio, 30, 0.2).
+
+% Extraction over time
+narrative_ontology:measurement(autnav_be_t0, mars_rovers_navigational_autonomy, base_extractiveness, 0, 0.15).
+narrative_ontology:measurement(autnav_be_t15, mars_rovers_navigational_autonomy, base_extractiveness, 15, 0.18).
+narrative_ontology:measurement(autnav_be_t30, mars_rovers_navigational_autonomy, base_extractiveness, 30, 0.2).
+
+
+/* ==========================================================================
+   9. BOLTZMANN & NETWORK DATA
+   ========================================================================== */
+
+narrative_ontology:coordination_type(mars_rovers_navigational_autonomy, information_standard).
+narrative_ontology:affects_constraint(mars_rovers_navigational_autonomy, mars_dust_storm_communication_blackout).
+narrative_ontology:affects_constraint(mars_rovers_navigational_autonomy, rover_onboard_autonomy_complexity).
+
+% DUAL FORMULATION NOTE:
+% Signal latency is a single, physically irreducible constraint. No decomposition needed. The network links identify downstream constraints that depend on this mountain: dust storms exacerbate communication by blocking signals (separate constraint); onboard autonomy complexity is a necessary response to latency (not a separate constraint but a design consequence).
+
+/* ==========================================================================
+   10. DIRECTIONALITY OVERRIDES (v6.0, OPTIONAL)
+   ========================================================================== */
 
 /* ==========================================================================
    END OF CONSTRAINT STORY
    ========================================================================== */
-
-
-% --- v3.1 Indexical Relativity Stubs (Fleet Repair) ---
-constraint_indexing:constraint_classification(mars_rovers_navigational_autonomy, mountain, agent_power(analytical)).
-constraint_indexing:constraint_classification(mars_rovers_navigational_autonomy, rope, agent_power(institutional)).
-constraint_indexing:constraint_classification(mars_rovers_navigational_autonomy, snare, agent_power(powerless)).
-
-% ============================================================================
-% ENRICHMENT: Structural predicates for dynamic classification
-% Generated: 2026-02-08
-% Template: v5.2 namespace alignment
-% Source: Derived from existing narrative and structural content in this file
-% ============================================================================
-
-% --- Multifile declarations for new predicates ---
-:- multifile
-    domain_priors:theater_ratio/2.
-
-% --- Theater ratio (missing from base properties) ---
-% Functional coordination mechanism — primarily substantive
-domain_priors:theater_ratio(mars_rover_navigational_autonomy, 0.13).
-narrative_ontology:constraint_metric(mars_rover_navigational_autonomy, theater_ratio, 0.13).

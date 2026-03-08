@@ -1,0 +1,89 @@
+{
+  "constraint_id": "documentation_fidelity_collapse",
+  "iteration_round": null,
+  "verdict": "YELLOW",
+  "subsystems_checked": [
+    12,
+    12
+  ],
+  "tensions": [
+    {
+      "subsystem": "abductive",
+      "code": "abductive_tension",
+      "detail": "abductive_tension([trigger(convergent_structural_stress,0.9,multi_signal_convergence,genuine),trigger(classical_oracle_failure,0.78,confident_oracle_with_obstruction,genuine)])"
+    },
+    {
+      "subsystem": "drift",
+      "code": "critical_drift",
+      "detail": "critical_drift([drift(metric_substitution,evidence(theater_delta,0,9,0.45,0.78),critical),drift(extraction_accumulation,evidence(extraction_delta,0,9,0.42,0.68),critical),drift(coupling_drift,evidence(coupling_score,1.0,threshold,0.25,extraction_trend,increasing),critical),drift(purity_drift,evidence(current_purity,0.3125,decline_signals,[extraction_rising,coupling_above_threshold(1.0),theater_rising,excess_above_floor(0.66)]),warning)])"
+    }
+  ],
+  "tension_count": 2,
+  "expected_conflicts": [
+    {
+      "subsystem": "maxent",
+      "code": "cohomological_fracture_divergence"
+    },
+    {
+      "subsystem": "cohomology",
+      "code": "cohomological_fracture_divergence"
+    },
+    {
+      "subsystem": "signature",
+      "code": "fcr_deferred_signature_mismatch"
+    },
+    {
+      "subsystem": "boltzmann",
+      "code": "constructed_non_compliance"
+    },
+    {
+      "subsystem": "gauge_orbit",
+      "code": "perspectival_orbit_variance"
+    }
+  ],
+  "convergent_rejections": "none",
+  "classification": {
+    "claimed_type": "snare",
+    "classified_type": "tangled_rope",
+    "mismatch": true,
+    "confidence": 0.350636,
+    "confidence_band": "borderline",
+    "rival_type": "tangled_rope",
+    "rival_p": 0.645651,
+    "boundary": "snare->tangled_rope",
+    "psi": null,
+    "psi_label": null
+  },
+  "hard_disagreement": {
+    "pipeline": "snare",
+    "maxent": "tangled_rope"
+  },
+  "drift_events": [
+    {
+      "severity": "critical",
+      "type": "metric_substitution"
+    },
+    {
+      "severity": "critical",
+      "type": "extraction_accumulation"
+    },
+    {
+      "severity": "critical",
+      "type": "coupling_drift"
+    },
+    {
+      "severity": "warning",
+      "type": "purity_drift"
+    }
+  ],
+  "mandatrophy_gap": {
+    "delta_chi": 0.38,
+    "severity": "moderate"
+  },
+  "structural_signature": "false_ci_rope",
+  "purity": {
+    "value": 0.3125,
+    "band": "contaminated"
+  },
+  "post_synthesis_flags": []
+}

@@ -8,7 +8,7 @@
 
 ## For Artists, Designers, Writers, and Makers: A Field Manual for Creativity
 
-This document is not philosophy wearing an artist costume. It is a **working aesthetic frameworkâ€”a field manual for creativity under constraint**â€”designed for anyone who makes things and navigates the complex interplay of limits and possibilities.
+This document is not philosophy wearing an artist costume. It is a **working aesthetic framework—a field manual for creativity under constraint**—designed for anyone who makes things and navigates the complex interplay of limits and possibilities.
 
 **What this document provides:**
 - Language for talking about how constraints shape creative work
@@ -38,7 +38,7 @@ Every constraint in your work falls into one of six categories. Your aesthetic c
 
 ### A. Mountains: The Medium Itself
 
-**What they are:** Constraints that come with the mediumâ€”physics, materials, biology, logic. You can't negotiate with them.
+**What they are:** Constraints that come with the medium—physics, materials, biology, logic. You can't negotiate with them.
 
 **Examples:**
 - **Painting:** Canvas is 2D, paint dries, certain pigments mix to make mud, light requires surface
@@ -119,7 +119,7 @@ Every constraint in your work falls into one of six categories. Your aesthetic c
 
 **Why this works:** Forces new seeing. Audience must find new way to engage. You're creating new possibilities.
 
-**The trap:** Every revolution eventually becomes tradition (Rope). Free verse is now convention. Abstraction is now taught. The question is whether you're aware of which Rope you're inâ€”even "no rules" becomes a rule.
+**The trap:** Every revolution eventually becomes tradition (Rope). Free verse is now convention. Abstraction is now taught. The question is whether you're aware of which Rope you're in—even "no rules" becomes a rule.
 
 **Exercise:** List three conventions in your medium. For each: Do you follow it, bend it, or break it? What happens to audience experience in each case?
 
@@ -242,7 +242,7 @@ Every constraint in your work falls into one of six categories. Your aesthetic c
 - Use residency for focused project, then return to practice
 - Accept commission, deliver work, move on
 
-**Prevent calcification (Scaffold â†’ Piton):**
+**Prevent calcification (Scaffold → Piton):**
 - Set exit dates: "I'll work this day job for 2 years max"
 - Define completion: "Once I've mastered X, I'll stop using Y"
 - Avoid identity fusion: "I'm in an MFA" not "I'm an MFA student forever"
@@ -767,7 +767,7 @@ Before making aesthetic choice about constraint, know what type it is:
 - Scaffolds: Should use temporarily
 - Pitons: Should eliminate
 
-**Wrong classification â†’ wrong strategy â†’ waste energy or creative harm**
+**Wrong classification → wrong strategy → waste energy or creative harm**
 
 ### 2. Visibility Is Choice, Not Virtue
 
@@ -784,14 +784,14 @@ To break Rope knowingly (not accidentally):
 - Master execution first
 - Then violate strategically
 
-**Ignorant rule-breaking â‰  artistic innovation. It's just incompetence.**
+**Ignorant rule-breaking ≠ artistic innovation. It's just incompetence.**
 
 ### 4. Reform Hybrid, Don't Just Accept or Reject
 
 Tangled Ropes (galleries, labels, publishers, platforms) are most common modern constraint:
-- Treating as pure Rope â†’ defend extraction
-- Treating as pure Snare â†’ destroy coordination
-- Correct response â†’ surgical reform (preserve/build coordination, reduce extraction)
+- Treating as pure Rope → defend extraction
+- Treating as pure Snare → destroy coordination
+- Correct response → surgical reform (preserve/build coordination, reduce extraction)
 
 **This is hardest aesthetic work: precision, not purity.**
 
@@ -803,7 +803,7 @@ When constraint is pure extraction masquerading as necessity:
 - Exit when able
 - Help others exit by documenting alternatives
 
-**Exposing Snare while trapped â‰  same as leaving.**
+**Exposing Snare while trapped ≠ same as leaving.**
 
 ### 6. Use Scaffolds, Then Dismantle
 
@@ -820,7 +820,7 @@ Temporary supports (residencies, grants, training) serve development:
 Obsolete constraints waste energy:
 - Question every "because that's how I learned"
 - Environment shifts make old Ropes into Pitons
-- Maintenance cost > benefit â†’ stop maintaining
+- Maintenance cost > benefit → stop maintaining
 - Redirect saved energy to actual creative problems
 
 **Craft is skill accumulation. Dogma is Piton accumulation.**
@@ -828,9 +828,9 @@ Obsolete constraints waste energy:
 ### 8. Navigate Paradoxes, Don't Force Resolution
 
 Some creative tensions are structural (containment required):
-- Innovation â‡„ Communication (break too many Ropes â†’ incomprehensible; break none â†’ boring)
-- Autonomy â‡„ Audience (make only for self â†’ isolation; make only for market â†’ soul death)
-- Material â‡„ Concept (pure craft â†’ empty; pure idea â†’ bloodless)
+- Innovation ⇄ Communication (break too many Ropes → incomprehensible; break none → boring)
+- Autonomy ⇄ Audience (make only for self → isolation; make only for market → soul death)
+- Material ⇄ Concept (pure craft → empty; pure idea → bloodless)
 
 **Response:** Sequential alternation, not simultaneous optimization. Accept incompletion.
 
@@ -840,9 +840,9 @@ Some creative tensions are structural (containment required):
 
 **Some tensions cannot be resolved, only navigated:**
 
-### A. Innovation â‡„ Communication
+### A. Innovation ⇄ Communication
 
-**Paradox:** Break conventions â†’ create new possibilities. But break too many â†’ lose audience entirely.
+**Paradox:** Break conventions → create new possibilities. But break too many → lose audience entirely.
 
 **Not resolvable:** Every innovative work exists in tension with communicability.
 
@@ -852,11 +852,11 @@ Some creative tensions are structural (containment required):
 - Sequential alternation across work
 - Accept you can't maximize both in single piece
 
-**Example:** Picasso alternated between experimental periods and more accessible work. Not failure of visionâ€”skillful containment.
+**Example:** Picasso alternated between experimental periods and more accessible work. Not failure of vision—skillful containment.
 
-### B. Autonomy â‡„ Audience
+### B. Autonomy ⇄ Audience
 
-**Paradox:** Make only what you want â†’ artistic integrity. But make only what sells â†’ soul death.
+**Paradox:** Make only what you want → artistic integrity. But make only what sells → soul death.
 
 **Not resolvable:** Creative independence and commercial viability always in tension.
 
@@ -866,11 +866,11 @@ Some creative tensions are structural (containment required):
 - Don't force false resolution ("I'll make uncommercial work that sells!")
 - Accept partial satisfaction on each pole
 
-**Example:** Many writers do commercial work to fund experimental projects. Not selling outâ€”conscious containment.
+**Example:** Many writers do commercial work to fund experimental projects. Not selling out—conscious containment.
 
-### C. Material â‡„ Concept
+### C. Material ⇄ Concept
 
-**Paradox:** Pure craft without concept â†’ decorative emptiness. Pure concept without craft â†’ bloodless intellectualism.
+**Paradox:** Pure craft without concept → decorative emptiness. Pure concept without craft → bloodless intellectualism.
 
 **Not resolvable:** Great work needs both, but perfect balance impossible.
 
@@ -882,9 +882,9 @@ Some creative tensions are structural (containment required):
 
 **Example:** Minimalist sculpture (materiality emphasis) vs. Conceptual art (idea emphasis). Both valid, neither "better."
 
-### D. Individual Vision â‡„ Collaboration
+### D. Individual Vision ⇄ Collaboration
 
-**Paradox:** Solo work â†’ full control but limited scale. Collaboration â†’ greater capacity but compromised vision.
+**Paradox:** Solo work → full control but limited scale. Collaboration → greater capacity but compromised vision.
 
 **Not resolvable:** Control and collective capacity always trade off.
 

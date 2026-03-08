@@ -64,8 +64,9 @@
 
 :- use_module(narrative_ontology).
 :- use_module(config).
-:- use_module(structural_signatures).
+:- use_module(signature_detection, [constraint_signature/2, integrate_signature_with_modal/3]).
 :- use_module(constraint_indexing).
+:- use_module(constraint_data).
 :- use_module(constraint_instances).
 :- use_module(domain_priors).
 
@@ -80,12 +81,8 @@
 % Multifile declarations above allow testsets to contribute directly,
 % but v3.4 testsets assert into domain_priors: namespace, so we bridge here.
 % Delegate to narrative_ontology for dynamic metric retrieval
-base_extractiveness(C, V) :- 
-    config:param(extractiveness_metric_name, ExtMetricName),
-    narrative_ontology:constraint_metric(C, ExtMetricName, V).
-suppression_score(C, V) :- 
-    config:param(suppression_metric_name, SuppMetricName),
-    narrative_ontology:constraint_metric(C, SuppMetricName, V).
+base_extractiveness(C, V) :- constraint_data:base_extractiveness(C, V).
+suppression_score(C, V) :- constraint_data:suppression_score(C, V).
 requires_active_enforcement(C) :- domain_priors:requires_active_enforcement(C).
 emerges_naturally(C) :- domain_priors:emerges_naturally(C).
 
@@ -170,10 +167,48 @@ is_piton(_C, _Context, fail).
 % This is the CANONICAL threshold logic — all modules delegate here.
 % C needed for structural property lookups (coordination, enforcement, theater).
 %
-% Priority: Mountain > Snare > Scaffold > Rope > Tangled Rope > Piton > unknown
+% Priority: Mountain > Piton(dead-coordination) > Snare > Scaffold > Rope >
+%           Tangled Rope > Piton(fallback) > Naturalized > unknown
+%
+% TWO-HUB ARCHITECTURE:
+%   Classification variation across observers originates from TWO independent hubs:
+%
+%   Hub 1 — Power-scaling sigmoid (constraint_indexing.pl:231-238)
+%     derive_directionality/3 → sigmoid_f/2 → χ = ε × f(d) × σ(S)
+%     Drives: snare Chi gate, tangled_rope Chi gate, rope Chi gate,
+%             scaffold Chi ceiling, piton Chi ceiling.
+%     Source of variation: different observer positions yield different d values,
+%     producing different χ values that cross different threshold gates.
+%
+%   Hub 2 — Effective immutability table (constraint_indexing.pl:151-177)
+%     effective_immutability(TimeHorizon, ExitOptions) → mountain | rope
+%     Drives: mountain gate (requires immutability = mountain),
+%             rope gate (requires immutability = rope OR emerges_naturally),
+%             snare_immutability_check (cross-stalk: ANY context sees rope).
+%     Source of variation: different time/exit positions yield different
+%     mutability perceptions, independently of power-scaling.
+%
+%   Hub interaction points:
+%     - Mountain gate: requires BOTH low χ (Hub 1) AND immutability = mountain (Hub 2)
+%     - snare_immutability_check/1: crosses stalk boundaries via Hub 2 to verify
+%       that at least one standard context perceives changeability (rope)
+%     - Constraints where Hub 1 and Hub 2 give conflicting signals
+%       (e.g., high χ but immutability = mountain) are exactly the false mountains
+%
+%   Outside both hubs:
+%     - Piton: uses theater_ratio, which is structurally fixed (not power-indexed).
+%       Pitons appear in H^0 (global sections) — same type from every position.
+%     - Boolean features (emerges_naturally, requires_active_enforcement,
+%       has_coordination_function): structural facts, not observer-indexed.
 
 % Categorical: Cross-stalk query (existential) — checks mutability across site points
 %% snare_immutability_check(+Context)
+%  Hub 2 interaction point: this predicate crosses stalk boundaries by
+%  checking Hub 2 (effective_immutability) across ALL standard contexts.
+%  This is where the two hubs interact most critically — Hub 1 (sigmoid)
+%  may push Chi above the snare floor, but Hub 2 must confirm that the
+%  constraint is perceived as changeable from at least one position.
+%
 %  The snare gate should only be blocked by STRUCTURAL immutability
 %  (genuine mountains like gravity), not POWER-INDEXED immutability
 %  (constraints that appear immutable from powerless but are changeable
@@ -251,6 +286,17 @@ natural_law_without_beneficiary(C) :-
     \+ requires_active_enforcement(C),
     \+ narrative_ontology:constraint_beneficiary(C, _).
 
+%% coordination_dead(+C)
+%  True when coordination vitality is declared dead or degrading.
+%  Degrading pitons behave like terminal pitons (diagnostic evidence:
+%  mean epsilon 0.66 for both, vs 0.39 for transitional).
+%  Default (no declaration): coordination assumed alive — falls through
+%  to normal priority chain.
+coordination_dead(C) :-
+    narrative_ontology:coordination_vitality(C, dead).
+coordination_dead(C) :-
+    narrative_ontology:coordination_vitality(C, degrading).
+
 classify_from_metrics(C, BaseEps, _Chi, Supp, Context, mountain) :-
     config:param(mountain_suppression_ceiling, SuppCeil),
     Supp =< SuppCeil,
@@ -259,9 +305,23 @@ classify_from_metrics(C, BaseEps, _Chi, Supp, Context, mountain) :-
     emerges_naturally(C),
     constraint_indexing:effective_immutability_for_context(Context, mountain), !.
 
-classify_from_metrics(C, _BaseEps, _Chi, _Supp, _Context, snare) :-
-    natural_law_without_beneficiary(C), !, fail.     % Block snare for natural laws
-classify_from_metrics(_C, BaseEps, Chi, Supp, Context, snare) :-
+% v7.0: Piton pre-check — dead coordination + high theater overrides extraction-based
+% classification.  Fires before snare gate when coordination vitality is explicitly
+% declared dead/degrading.  Without declaration, falls through to normal priority chain.
+% Does NOT check Chi or suppression: a dead-coordination constraint with high theater
+% is a piton regardless of extraction level.  Epsilon > 0.10 floor retained to prevent
+% zero-extraction mountains from misclassifying.
+classify_from_metrics(C, BaseEps, _Chi, _Supp, _Context, piton) :-
+    coordination_dead(C),
+    config:param(piton_epsilon_floor, EpsFloor),
+    BaseEps > EpsFloor,
+    config:param(theater_metric_name, TheaterMetricName),
+    narrative_ontology:constraint_metric(C, TheaterMetricName, TR),
+    config:param(piton_theater_floor, TRFloor),
+    TR >= TRFloor, !.
+
+classify_from_metrics(C, BaseEps, Chi, Supp, Context, snare) :-
+    \+ natural_law_without_beneficiary(C),            % Block snare for natural laws
     config:param(snare_chi_floor, ChiFloor),
     Chi >= ChiFloor,
     config:param(snare_epsilon_floor, EpsFloor),
@@ -289,9 +349,8 @@ classify_from_metrics(C, BaseEps, Chi, _Supp, Context, rope) :-
     ;   emerges_naturally(C)  % Domain-invariant: bypass power-indexed immutability
     ), !.
 
-classify_from_metrics(C, _BaseEps, _Chi, _Supp, _Context, tangled_rope) :-
-    natural_law_without_beneficiary(C), !, fail.     % Block tangled_rope for natural laws
 classify_from_metrics(C, BaseEps, Chi, Supp, _Context, tangled_rope) :-
+    \+ natural_law_without_beneficiary(C),            % Block tangled_rope for natural laws
     config:param(tangled_rope_chi_floor, ChiFloor),
     config:param(tangled_rope_chi_ceil, ChiCeil),
     Chi >= ChiFloor,
@@ -314,7 +373,10 @@ classify_from_metrics(C, BaseEps, Chi, _Supp, _Context, piton) :-
     config:param(piton_theater_floor, TRFloor),
     TR >= TRFloor, !.
 
-classify_from_metrics(_C, BaseEps, Chi, _Supp, _Context, indexically_opaque) :-
+% Naturalized: high structural extraction (ε > rope ceiling) compressed below
+% detection threshold (χ < tangled_rope floor) by power scaling.  This is the
+% primary substrate for false_summit rhetoric — see dr_claim_mismatch/4 Type 1.
+classify_from_metrics(_C, BaseEps, Chi, _Supp, _Context, naturalized) :-
     config:param(rope_epsilon_ceiling, EpsCeil),
     BaseEps > EpsCeil,
     config:param(tangled_rope_chi_floor, ChiFloor),
@@ -345,7 +407,7 @@ dr_type(C, Context, Type) :-
     % from leaking into resolve_modal_signature_conflict head unification,
     % which would bypass override clauses and fall through to the identity
     % fallback. Unify with caller's Type AFTER computation completes.
-    structural_signatures:integrate_signature_with_modal(C, MetricType, FinalType),
+    signature_detection:integrate_signature_with_modal(C, MetricType, FinalType),
     !,
     Type = FinalType.
 
@@ -401,8 +463,8 @@ dr_action(C, Context, monitor_sunset) :-
 dr_action(C, Context, bypass) :-
     dr_type(C, Context, piton), !.
 
-dr_action(C, Context, investigate_opacity) :-
-    dr_type(C, Context, indexically_opaque), !.
+dr_action(C, Context, investigate_naturalization) :-
+    dr_type(C, Context, naturalized), !.
 
 dr_action(_C, _Context, investigate).
 
@@ -470,7 +532,10 @@ dr_mismatch(C, perspectival_gap(Type1, Ctx1, Type2, Ctx2),
 % ----------------------------------------------------------------------------
 
 % Type 1: False Mountain (Indexed)
-% Claimed as Mountain but ISN'T from this context
+% Claimed as Mountain but ISN'T from this context.
+% Naturalized constraints are the primary vector: extraction so structurally
+% pervasive it registers as ambient background, letting a false Mountain claim
+% go unchallenged from lower-power positions.  See classify_from_metrics/6.
 dr_claim_mismatch(C, Context, type_1_false_summit, severe) :-
     narrative_ontology:constraint_claim(C, mountain),
     is_mountain(C, Context, fail),
@@ -514,7 +579,7 @@ dr_mismatch(C, perspectival_incoherence, informational) :-
 %        fundamental structure, not perspectival appearance
 
 dr_signature(C, Signature) :-
-    structural_signatures:constraint_signature(C, Signature).
+    signature_detection:constraint_signature(C, Signature).
 
 % ============================================================================
 % PERSPECTIVAL GAP DETECTION (NEW)

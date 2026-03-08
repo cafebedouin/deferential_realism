@@ -8,14 +8,23 @@
 :- use_module(config).             % Grounded Weights & Thresholds
 
 % 2. Load Data & Priors
+:- use_module(corpus_loader).        % Centralized testset loading
 :- use_module(domain_priors).
 :- use_module(constraint_instances).
 
 % 3. Load Core Logic
 :- use_module(constraint_indexing).
-:- use_module(structural_signatures).
+:- use_module(boltzmann_compliance, []).
+:- use_module(signature_detection, []).
+:- use_module(purity_scoring, []).
+:- use_module(structural_signatures).   % facade kept for backward-compat qualified calls
 :- use_module(drl_core).
-:- use_module(drl_modal_logic, []).
+:- use_module(drl_composition, []).
+:- use_module(drl_counterfactual, []).
+:- use_module(drl_boltzmann_analysis, []).
+:- use_module(drl_purity_network, []).
+:- use_module(drl_fpn, []).
+:- use_module(drl_modal_logic, []).    % facade kept for backward-compat qualified calls
 :- use_module(drl_audit_core, []).
 
 % 4. Load Management & Control (NEW)
@@ -27,7 +36,11 @@
 :- use_module(data_verification, []).
 :- use_module(pattern_analysis, []).
 :- use_module(intent_engine, []).
-:- use_module(drl_lifecycle, []).       % Drift event detection & lifecycle analysis
+:- use_module(drift_events, []).
+:- use_module(transition_paths, []).
+:- use_module(network_dynamics, []).
+:- use_module(drift_report, []).
+:- use_module(drl_lifecycle, []).       % facade — reexports from above
 
 % 4. Load Diagnostic & UI
 :- use_module(constraint_bridge, []).

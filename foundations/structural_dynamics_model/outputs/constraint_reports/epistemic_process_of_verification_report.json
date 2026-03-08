@@ -1,0 +1,64 @@
+{
+  "constraint_id": "epistemic_process_of_verification",
+  "iteration_round": null,
+  "verdict": "GREEN",
+  "subsystems_checked": [
+    12,
+    12
+  ],
+  "tensions": [],
+  "tension_count": 0,
+  "expected_conflicts": [
+    {
+      "subsystem": "maxent",
+      "code": "signature_override_artifact"
+    },
+    {
+      "subsystem": "boltzmann",
+      "code": "constructed_non_compliance"
+    },
+    {
+      "subsystem": "dirac",
+      "code": "pre_post_override_divergence"
+    }
+  ],
+  "convergent_rejections": "none",
+  "classification": {
+    "claimed_type": "rope",
+    "classified_type": "rope",
+    "mismatch": false,
+    "confidence": 0.944032,
+    "confidence_band": "deep",
+    "rival_type": "scaffold",
+    "rival_p": 0.05571,
+    "boundary": "rope->scaffold",
+    "psi": null,
+    "psi_label": null
+  },
+  "hard_disagreement": null,
+  "drift_events": [
+    {
+      "severity": "warning",
+      "type": "extraction_accumulation"
+    },
+    {
+      "severity": "watch",
+      "type": "coupling_drift"
+    },
+    {
+      "severity": "warning",
+      "type": "purity_drift"
+    },
+    {
+      "severity": "critical",
+      "type": "network_drift"
+    }
+  ],
+  "mandatrophy_gap": null,
+  "structural_signature": "false_ci_rope",
+  "purity": {
+    "value": 0.725833,
+    "band": "sound"
+  },
+  "post_synthesis_flags": []
+}

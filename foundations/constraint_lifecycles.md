@@ -20,7 +20,7 @@
 3. **Degradation Phase** - Drift events and transitions
 4. **Terminal States** - Endpoints and dissolution
 
-**Core insight:** Most constraint suffering arises from **lifecycle ignorance**â€”treating young Ropes as if they're permanent Mountains, maintaining Pitons as if they're functional Ropes, expecting Scaffolds to last forever, missing Rope â†’ Tangled Rope transitions until extraction is severe.
+**Core insight:** Most constraint suffering arises from **lifecycle ignorance**—treating young Ropes as if they're permanent Mountains, maintaining Pitons as if they're functional Ropes, expecting Scaffolds to last forever, missing Rope → Tangled Rope transitions until extraction is severe.
 
 **Empirical grounding:** Analysis of 137+ constraint trajectories across domains (social norms, institutions, personal habits, technological systems) over temporal ranges from months to centuries.
 
@@ -32,20 +32,20 @@
 
 Every non-Mountain constraint moves through temporal phases:
 
-**Genesis** â†’ **Maturation** â†’ **Degradation** â†’ **Terminal State**
+**Genesis** → **Maturation** → **Degradation** → **Terminal State**
 
 **Mountains are exceptional:** They don't have genesis (exist prior to observation), maturation (always stable), or degradation (unchanging). They're eternal features of constraint-space. All other types are temporal.
 
 **Key variables:**
-- **tâ‚€** = Genesis moment (constraint created or recognized)
+- **t₀** = Genesis moment (constraint created or recognized)
 - **t_stable** = Maturation period (stable operation)
 - **t_drift** = Degradation trigger (transition event)
 - **t_terminal** = Terminal state (endpoint reached)
 
 **Lifecycle velocity:** Time between phases varies enormously:
-- Fast: Social media algorithm (genesis â†’ degradation in months)
-- Medium: Professional norms (genesis â†’ degradation in decades)
-- Slow: Constitutional provisions (genesis â†’ degradation in centuries)
+- Fast: Social media algorithm (genesis → degradation in months)
+- Medium: Professional norms (genesis → degradation in decades)
+- Slow: Constitutional provisions (genesis → degradation in centuries)
 
 ---
 
@@ -87,31 +87,31 @@ Every non-Mountain constraint moves through temporal phases:
 **Genesis characteristics:**
 - **Intentional** (someone designed this, even if informal)
 - **Responsive** (addresses genuine coordination need)
-- **Low extraction at tâ‚€** (Îµ â‰¤ 0.15 initially)
-- **Voluntary adoption** (in principleâ€”power affects access but mechanism isn't coercive)
+- **Low extraction at t₀** (ε ≤ 0.15 initially)
+- **Voluntary adoption** (in principle—power affects access but mechanism isn't coercive)
 
 **Examples:**
 
 **Traffic lights:**
-- tâ‚€ = 1914 (first electric traffic light, Cleveland)
+- t₀ = 1914 (first electric traffic light, Cleveland)
 - Problem: Collision risk at intersections
 - Solution: Time-sharing coordination (alternating right-of-way)
 - Initial extraction: Minimal (wait time reciprocal)
 
 **Academic peer review:**
-- tâ‚€ = ~1665 (Royal Society formalization)
+- t₀ = ~1665 (Royal Society formalization)
 - Problem: Quality control for knowledge claims
 - Solution: Expert vetting before publication
 - Initial extraction: Low (experts donate time, community benefits)
 
 **Open-source collaboration norms:**
-- tâ‚€ = ~1980s (formalized in GPL, etc.)
+- t₀ = ~1980s (formalized in GPL, etc.)
 - Problem: Coordinating distributed code contributions
 - Solution: License agreements, version control protocols
 - Initial extraction: Minimal (contribution reciprocal to benefit)
 
 **Creation quality markers:**
-- Clear problem â†’ coordination fit
+- Clear problem → coordination fit
 - Reciprocal benefit distribution
 - Minimal enforcement needed (people adopt because it works)
 - Designed with refinement in mind (not claimed eternal)
@@ -122,7 +122,7 @@ Every non-Mountain constraint moves through temporal phases:
 
 **Path 1: Designed Hybrid (Intentional from Inception)**
 
-Some structures are created with **both** coordination and extraction built in from tâ‚€.
+Some structures are created with **both** coordination and extraction built in from t₀.
 
 **Creation sequence:**
 1. Coordination problem genuine
@@ -132,48 +132,48 @@ Some structures are created with **both** coordination and extraction built in f
 
 **Genesis characteristics:**
 - Coordination function real (not pretense)
-- Extraction present at tâ‚€ (0.40 â‰¤ Îµ â‰¤ 0.90)
+- Extraction present at t₀ (0.40 ≤ ε ≤ 0.90)
 - Often defended as "necessary bundling" (can't have coordination without extraction)
 - Created by those with power to capture value
 
 **Examples:**
 
 **Carbon credit markets:**
-- tâ‚€ = ~1997 (Kyoto Protocol)
+- t₀ = ~1997 (Kyoto Protocol)
 - Coordination: Incentivize emissions reduction
 - Extraction: Financial intermediation, rent from trading
 - **Designed hybrid:** Both functions intended from start
-- Îµ(tâ‚€) â‰ˆ 0.42 (moderate extraction from inception)
+- ε(t₀) ≈ 0.42 (moderate extraction from inception)
 
 **Employer-sponsored health insurance (U.S.):**
-- tâ‚€ = 1940s (WWII wage controls â†’ fringe benefits)
+- t₀ = 1940s (WWII wage controls → fringe benefits)
 - Coordination: Risk pooling, economies of scale
 - Extraction: Job lock-in, administrative overhead
 - **Designed hybrid:** Coordination real, extraction opportunistic
-- Îµ(tâ‚€) â‰ˆ 0.38 (moderate extraction from inception)
+- ε(t₀) ≈ 0.38 (moderate extraction from inception)
 
 **Venture capital:**
-- tâ‚€ = ~1946 (American Research and Development Corporation)
+- t₀ = ~1946 (American Research and Development Corporation)
 - Coordination: Match capital with innovation
 - Extraction: Control provisions, exit pressure
 - **Designed hybrid:** Both functions explicit
-- Îµ(tâ‚€) â‰ˆ 0.45 (moderate-high extraction from inception)
+- ε(t₀) ≈ 0.45 (moderate-high extraction from inception)
 
 **Path 2: Degraded Rope (Extraction Accumulates)**
 
 More common: Rope starts clean, extraction added over time.
 
 **Degradation sequence:**
-1. Rope created with low extraction (Îµ â‰¤ 0.15)
+1. Rope created with low extraction (ε ≤ 0.15)
 2. **Drift event:** Rent-seeking opportunity recognized
-3. Extraction mechanism added (Îµ increases)
-4. Hybrid state reached (0.40 â‰¤ Îµ â‰¤ 0.90)
+3. Extraction mechanism added (ε increases)
+4. Hybrid state reached (0.40 ≤ ε ≤ 0.90)
 
 **This is a degradation event, covered in Phase III.**
 
 **Genesis quality markers:**
-- If Îµ(tâ‚€) > 0.40: Designed hybrid (Tangled from birth)
-- If Îµ(tâ‚€) â‰¤ 0.15: Started as Rope (degraded later)
+- If ε(t₀) > 0.40: Designed hybrid (Tangled from birth)
+- If ε(t₀) ≤ 0.15: Started as Rope (degraded later)
 
 ---
 
@@ -190,38 +190,38 @@ More common: Rope starts clean, extraction added over time.
 **Genesis characteristics:**
 - **Predatory** (designed to extract, not coordinate)
 - **Power-dependent** (requires active enforcement)
-- **High extraction at tâ‚€** (Îµ â‰¥ 0.46)
+- **High extraction at t₀** (ε ≥ 0.46)
 - **Masquerade** (claims to be Mountain or Rope)
 
 **Examples:**
 
 **Payday loans:**
-- tâ‚€ = ~1990s (widespread adoption in U.S.)
+- t₀ = ~1990s (widespread adoption in U.S.)
 - Claimed coordination: Short-term liquidity for poor
 - Actual function: Debt trap (300-600% APR)
 - Genesis: Power asymmetry (desperate borrowers, predatory lenders)
-- Îµ(tâ‚€) â‰ˆ 0.72 (high extraction from inception)
+- ε(t₀) ≈ 0.72 (high extraction from inception)
 
 **Non-compete clauses (low-wage workers):**
-- tâ‚€ = ~2000s (spread from executives to hourly workers)
+- t₀ = ~2000s (spread from executives to hourly workers)
 - Claimed coordination: Protect trade secrets
 - Actual function: Suppress wage competition
 - Genesis: Employer power over desperate workers
-- Îµ(tâ‚€) â‰ˆ 0.68 (high extraction from inception)
+- ε(t₀) ≈ 0.68 (high extraction from inception)
 
 **Gerrymandering:**
-- tâ‚€ = 1812 (term coined, practice older)
+- t₀ = 1812 (term coined, practice older)
 - Claimed coordination: District creation
 - Actual function: Electoral outcome manipulation
 - Genesis: Party in power redraws districts
-- Îµ(tâ‚€) â‰ˆ 0.65 (high extraction from inception)
+- ε(t₀) ≈ 0.65 (high extraction from inception)
 
 **Creation concealment:**
 - Often claims to be Mountain ("natural," "necessary," "always been this way")
-- Erases tâ‚€ from collective memory
+- Erases t₀ from collective memory
 - Resistance is "unrealistic" or "naive"
 
-**Detection:** Find tâ‚€. If someone created it recently, it's not a Mountain. If beneficiaries are concentrated, likely Snare.
+**Detection:** Find t₀. If someone created it recently, it's not a Mountain. If beneficiaries are concentrated, likely Snare.
 
 ---
 
@@ -244,29 +244,29 @@ More common: Rope starts clean, extraction added over time.
 **Examples:**
 
 **Post-war occupation governments:**
-- tâ‚€ = 1945 (Germany, Japan occupation begins)
-- Transition: Defeat â†’ stable democracy
+- t₀ = 1945 (Germany, Japan occupation begins)
+- Transition: Defeat → stable democracy
 - Support: Allied military governance, reconstruction
 - Sunset: 1949 (Germany), 1952 (Japan) - sovereignty restored
 - **Success:** Actually dissolved on schedule
 
 **Constitutional conventions:**
-- tâ‚€ = 1787 (Philadelphia Convention), 1994 (South Africa)
-- Transition: Regime change â†’ new constitutional order
+- t₀ = 1787 (Philadelphia Convention), 1994 (South Africa)
+- Transition: Regime change → new constitutional order
 - Support: Temporary body drafts founding document
 - Sunset: Adjourn after ratification
 - **Success:** Both dissolved after document complete
 
 **Truth and Reconciliation Commissions:**
-- tâ‚€ = 1995 (South Africa TRC begins)
-- Transition: Apartheid â†’ democracy without endless prosecution
+- t₀ = 1995 (South Africa TRC begins)
+- Transition: Apartheid → democracy without endless prosecution
 - Support: Hearing process, amnesty mechanism
 - Sunset: 1998 (commission dissolved after hearings)
 - **Success:** Completed function, disbanded
 
 **Therapeutic Scaffolds:**
-- tâ‚€ = Crisis/trauma occurrence
-- Transition: Dysregulation â†’ self-regulation
+- t₀ = Crisis/trauma occurrence
+- Transition: Dysregulation → self-regulation
 - Support: Coping strategies (breathing, grounding, structure)
 - Sunset: When regulation internalized
 - **Success:** Techniques become automatic, conscious practice unnecessary
@@ -291,10 +291,10 @@ More common: Rope starts clean, extraction added over time.
 **"Genesis" is actually:** Degradation of parent constraint + failure to eliminate residue
 
 **Parent constraint types:**
-- Rope â†’ Piton (function lost, inertia remains)
-- Tangled Rope â†’ Piton (both coordination and extraction dried up)
-- Scaffold â†’ Piton (sunset ignored, zombie support persists)
-- Snare â†’ Piton (enforcement stops but habits remain)
+- Rope → Piton (function lost, inertia remains)
+- Tangled Rope → Piton (both coordination and extraction dried up)
+- Scaffold → Piton (sunset ignored, zombie support persists)
+- Snare → Piton (enforcement stops but habits remain)
 
 **This is covered in Phase III: Degradation.**
 
@@ -304,10 +304,10 @@ More common: Rope starts clean, extraction added over time.
 
 ### A. Mountains: Eternal Stability
 
-**No maturation curve.** Mountains don't "mature"â€”they simply exist.
+**No maturation curve.** Mountains don't "mature"—they simply exist.
 
 **Temporal invariance:**
-- Same properties at tâ‚ and tâ‚â‚€â‚€â‚€
+- Same properties at t₁ and t₁₀₀₀
 - Observable measurement may improve (we understand thermodynamics better) but constraint doesn't change
 - No maintenance required (self-enforcing through reality)
 
@@ -318,7 +318,7 @@ More common: Rope starts clean, extraction added over time.
 - **But the Mountain itself is unchanged**
 
 **Example: Speed of light**
-- 1676: RÃ¸mer measures (first observation)
+- 1676: Rømer measures (first observation)
 - 1983: Defined as exact constant (formalization)
 - Constraint itself identical at both moments
 - Only our **relationship to it** changed
@@ -346,7 +346,7 @@ More common: Rope starts clean, extraction added over time.
 - Example: Meeting schedules adapt to remote work
 
 **3. Drift monitoring:**
-- Watch for extraction accumulation (Îµ increasing)
+- Watch for extraction accumulation (ε increasing)
 - Example: Peer review adding commercial gatekeeping
 - Example: Open-source adding corporate capture
 
@@ -356,13 +356,13 @@ More common: Rope starts clean, extraction added over time.
 - Example: New scientists learn peer review ethics
 
 **Stable maturation markers:**
-- Îµ remains low (< 0.20 across maturation period)
+- ε remains low (< 0.20 across maturation period)
 - Voluntary compliance high (people maintain it because it works)
 - Alternatives tolerated (not suppressed)
 - Benefit distribution approximately reciprocal
 
 **Unstable maturation (pre-degradation signals):**
-- Îµ creeping upward (extraction accumulating)
+- ε creeping upward (extraction accumulating)
 - Enforcement increasing (less voluntary compliance)
 - Alternatives being suppressed (defensive behavior)
 - Benefit concentration (asymmetry developing)
@@ -373,12 +373,12 @@ The pre-degradation signals above are all observable in individual metrics. But 
 **Example: Academic peer review maturation**
 
 **Stable period (1665-1950s):**
-- Îµ â‰ˆ 0.12 (low extraction - scholars donate time reciprocally)
+- ε ≈ 0.12 (low extraction - scholars donate time reciprocally)
 - Voluntary participation (community norm)
 - Quality coordination function (gatekeeping works)
 
 **Unstable period (1980s-present):**
-- Îµ increasing (0.12 â†’ 0.38, commercial publishers capture value)
+- ε increasing (0.12 → 0.38, commercial publishers capture value)
 - Enforcement increasing (tenure requirements coerce participation)
 - Alternatives suppressed (preprints initially stigmatized)
 - Benefit concentration (publishers extract, scholars give freely)
@@ -417,8 +417,8 @@ The pre-degradation signals above are all observable in individual metrics. But 
 **Example: U.S. health insurance**
 - Coordination: Risk pooling (genuine function)
 - Extraction: Administrative costs, denial mechanisms, job lock-in
-- Trajectory: Îµ increasing (0.38 â†’ 0.52 over decades)
-- **Approaching Snare threshold** (Îµ â‰¥ 0.46)
+- Trajectory: ε increasing (0.38 → 0.52 over decades)
+- **Approaching Snare threshold** (ε ≥ 0.46)
 
 **Maintenance activities:**
 
@@ -442,7 +442,7 @@ The pre-degradation signals above are all observable in individual metrics. But 
 - Medium degradation: Professional norms (decades)
 - Slow degradation: Constitutional structures (generations)
 
-**Critical threshold:** When Îµ crosses 0.60, Tangled Rope often becomes indistinguishable from Snare from powerless perspective (power-scaling amplifies: 0.60 Ã— 1.5 = 0.90).
+**Critical threshold:** When ε crosses 0.60, Tangled Rope often becomes indistinguishable from Snare from powerless perspective (power-scaling amplifies: 0.60 × 1.5 = 0.90).
 
 ---
 
@@ -479,20 +479,20 @@ The pre-degradation signals above are all observable in individual metrics. But 
 - Symbolic concessions (change form, maintain extraction)
 
 **Stable Snare (mature extraction):**
-- Îµ high but stable (0.60-0.75 range)
+- ε high but stable (0.60-0.75 range)
 - Enforcement routinized (no longer contested)
 - Population internalized constraint (sees as Mountain)
 - Naturalization complete (alternatives unthinkable)
 
 **Example: Company scrip (historical)**
-- Îµ â‰ˆ 0.70 (workers paid in tokens only valid at company store)
+- ε ≈ 0.70 (workers paid in tokens only valid at company store)
 - Enforcement: Geographic isolation, debt bondage
 - Naturalization: "This is how coal towns work"
 - Duration: Decades of stable extraction (late 1800s - 1930s)
 - Terminal: Outlawed (external intervention, not internal collapse)
 
 **Unstable Snare (pre-collapse signals):**
-- Îµ increasing (beneficiaries extracting more)
+- ε increasing (beneficiaries extracting more)
 - Enforcement intensifying (resistance growing)
 - Naturalization failing (population recognizes as Snare)
 - External shock vulnerability (regime change, legal intervention)
@@ -541,7 +541,7 @@ The pre-degradation signals above are all observable in individual metrics. But 
 - "Just a little longer" (legitimate extension)
 - Completion criteria adjusted (reasonable)
 - Still designed to end (temporality maintained)
-- Risk: Extension â†’ permanent
+- Risk: Extension → permanent
 
 **3. Failed maturation (sunset ignored):**
 - Permanence creep ("emergency" becomes normal)
@@ -563,7 +563,7 @@ The pre-degradation signals above are all observable in individual metrics. But 
 
 ### F. Pitons: Inertial Persistence
 
-**Pitons don't matureâ€”they're already degraded.**
+**Pitons don't mature—they're already degraded.**
 
 **Persistence characteristics:**
 - **Low maintenance** (coasting on inertia)
@@ -609,11 +609,11 @@ The pre-degradation signals above are all observable in individual metrics. But 
 
 ## III. Degradation Phase: Drift Events and Transitions
 
-**Core insight:** Constraints don't degrade smoothly. They degrade through **drift events**â€”specific moments or processes that trigger state transitions.
+**Core insight:** Constraints don't degrade smoothly. They degrade through **drift events**—specific moments or processes that trigger state transitions.
 
 ### Drift Event Taxonomy
 
-**Type 1: Metric Substitution** (Rope/Scaffold â†’ Tangled Rope)
+**Type 1: Metric Substitution** (Rope/Scaffold → Tangled Rope)
 
 **Mechanism:** Proxy metric becomes goal itself, original value forgotten or deprioritized.
 
@@ -629,19 +629,19 @@ The pre-degradation signals above are all observable in individual metrics. But 
 **Genesis (Rope):**
 - Original value V: Human connection
 - Proxy metric M: "Engagement" (likes, comments, time on site)
-- tâ‚€ â‰ˆ 2004-2006 (Facebook, Twitter launch)
-- Îµ(tâ‚€) â‰ˆ 0.08 (low extraction, genuine coordination)
+- t₀ ≈ 2004-2006 (Facebook, Twitter launch)
+- ε(t₀) ≈ 0.08 (low extraction, genuine coordination)
 
-**Maturation (Rope â†’ Tangled Rope):**
-- t_drift â‰ˆ 2009-2012 (algorithmic feed optimization)
+**Maturation (Rope → Tangled Rope):**
+- t_drift ≈ 2009-2012 (algorithmic feed optimization)
 - **Metric substitution:** Engagement becomes goal, connection becomes byproduct
-- V (connection) â†’ M (engagement metrics)
-- Îµ(t_drift) â‰ˆ 0.42 (Tangled Rope territory)
+- V (connection) → M (engagement metrics)
+- ε(t_drift) ≈ 0.42 (Tangled Rope territory)
 
-**Current (Tangled Rope â†’ Snare):**
-- t_present â‰ˆ 2020s
-- M optimization now harms V (engagement â‰  connection, often opposite)
-- Îµ(t_present) â‰ˆ 0.58 (approaching Snare threshold)
+**Current (Tangled Rope → Snare):**
+- t_present ≈ 2020s
+- M optimization now harms V (engagement ≠ connection, often opposite)
+- ε(t_present) ≈ 0.58 (approaching Snare threshold)
 
 **Formal detection:**
 ```
@@ -650,44 +650,44 @@ metric_substitution(C, V, M, t_drift) :-
     proxy_metric(C, M, V),
     optimization_shift(C, V, M, t_drift),
     value_harm(C, V, M, t_drift),
-    Îµ(C, t_drift) > 0.40.
+    ε(C, t_drift) > 0.40.
 ```
 
 **Other examples:**
-- Education: Learning (V) â†’ Test scores (M)
-- Healthcare: Patient wellness (V) â†’ Billing codes (M)
-- Open source: Code quality (V) â†’ Commit counts (M)
-- Academic research: Knowledge (V) â†’ Citation counts (M)
+- Education: Learning (V) → Test scores (M)
+- Healthcare: Patient wellness (V) → Billing codes (M)
+- Open source: Code quality (V) → Commit counts (M)
+- Academic research: Knowledge (V) → Citation counts (M)
 
 ---
 
-**Type 2: Extraction Accumulation** (Rope â†’ Tangled Rope)
+**Type 2: Extraction Accumulation** (Rope → Tangled Rope)
 
 **Mechanism:** Rent-seeking opportunities recognized and exploited, coordination function maintained.
 
 **Process:**
-1. Rope operating with low extraction (Îµ â‰¤ 0.15)
+1. Rope operating with low extraction (ε ≤ 0.15)
 2. **Drift trigger:** Power asymmetry recognized OR external capture opportunity
 3. Extraction mechanism added (fees, gatekeeping, control provisions)
-4. Îµ increases while coordination persists
-5. Tangled Rope state reached (0.40 â‰¤ Îµ â‰¤ 0.90)
+4. ε increases while coordination persists
+5. Tangled Rope state reached (0.40 ≤ ε ≤ 0.90)
 
 **Example: Academic Publishing**
 
 **Genesis (Rope):**
-- tâ‚€ â‰ˆ 1665 (peer review formalized)
+- t₀ ≈ 1665 (peer review formalized)
 - Coordination: Quality control, knowledge dissemination
-- Îµ(tâ‚€) â‰ˆ 0.12 (scholars donate time, reciprocal benefit)
+- ε(t₀) ≈ 0.12 (scholars donate time, reciprocal benefit)
 
 **Extraction accumulation:**
-- t_drift â‰ˆ 1970s-1980s (commercial publishers consolidate)
+- t_drift ≈ 1970s-1980s (commercial publishers consolidate)
 - **Capture event:** Private firms recognize monopoly opportunity
 - Paywalls added, subscription costs explode
 - Scholars still provide labor for free
-- Îµ(t_drift) â‰ˆ 0.38 (Tangled Rope)
+- ε(t_drift) ≈ 0.38 (Tangled Rope)
 
 **Current:**
-- Îµ(t_present) â‰ˆ 0.45 (high Tangled Rope, approaching Snare)
+- ε(t_present) ≈ 0.45 (high Tangled Rope, approaching Snare)
 - Coordination: Still functions (quality control works)
 - Extraction: Journal profits 35-40%, researchers unpaid
 - Power-scaling: Institution pays, individual researcher trapped
@@ -695,8 +695,8 @@ metric_substitution(C, V, M, t_drift) :-
 **Formal detection:**
 ```
 extraction_accumulation(C, t_start, t_drift) :-
-    Îµ(C, t_start) â‰¤ 0.15,
-    Îµ(C, t_drift) â‰¥ 0.40,
+    ε(C, t_start) ≤ 0.15,
+    ε(C, t_drift) ≥ 0.40,
     coordination_function_preserved(C, t_drift),
     power_asymmetry_exploited(C, t_drift).
 ```
@@ -708,7 +708,7 @@ extraction_accumulation(C, t_start, t_drift) :-
 
 ---
 
-**Type 3: Coordination Loss** (Tangled Rope â†’ Snare)
+**Type 3: Coordination Loss** (Tangled Rope → Snare)
 
 **Mechanism:** Coordination function withers while extraction persists or intensifies.
 
@@ -716,33 +716,33 @@ extraction_accumulation(C, t_start, t_drift) :-
 1. Tangled Rope operating (coordination + extraction)
 2. **Drift trigger:** Coordination function becomes obsolete OR extraction crowds it out
 3. Coordination withers, extraction remains
-4. Îµ may increase further
-5. Pure Snare state (Îµ â‰¥ 0.60, no coordination)
+4. ε may increase further
+5. Pure Snare state (ε ≥ 0.60, no coordination)
 
 **Example: Cable Television**
 
 **Genesis (Rope):**
-- tâ‚€ â‰ˆ 1950s (cable delivery to areas without broadcast)
+- t₀ ≈ 1950s (cable delivery to areas without broadcast)
 - Coordination: Access to TV in remote areas
-- Îµ(tâ‚€) â‰ˆ 0.18 (infrastructure costs, modest profit)
+- ε(t₀) ≈ 0.18 (infrastructure costs, modest profit)
 
 **Tangled Rope phase:**
 - 1980s-2000s: Exclusive content created
 - Coordination: Content delivery
 - Extraction: Bundling, rising costs
-- Îµ â‰ˆ 0.42 (Tangled Rope)
+- ε ≈ 0.42 (Tangled Rope)
 
 **Coordination loss:**
-- t_drift â‰ˆ 2010s (streaming alternatives emerge)
+- t_drift ≈ 2010s (streaming alternatives emerge)
 - **Drift event:** Internet delivery makes cable infrastructure obsolete
 - Coordination function replaceable (streaming better)
 - Extraction persists (contracts, bundling, fees)
-- Îµ(t_drift) â‰ˆ 0.68 (Snare territory)
+- ε(t_drift) ≈ 0.68 (Snare territory)
 
 **Current:**
 - Cable as Snare: No coordination benefit over streaming, pure extraction
 - Trapped users (contracts, habit, elderly)
-- Îµ(t_present) â‰ˆ 0.72 (high Snare)
+- ε(t_present) ≈ 0.72 (high Snare)
 
 **Formal detection:**
 ```
@@ -751,7 +751,7 @@ coordination_loss(C, t_drift) :-
     coordination_function_obsolete(C, t_drift) OR
     coordination_function_crowded_out(C, t_drift),
     extraction_persists(C, t_drift),
-    Îµ(C, t_drift) â‰¥ 0.60.
+    ε(C, t_drift) ≥ 0.60.
 ```
 
 **Other examples:**
@@ -761,7 +761,7 @@ coordination_loss(C, t_drift) :-
 
 ---
 
-**Type 4: Function Obsolescence** (Rope/Tangled â†’ Piton)
+**Type 4: Function Obsolescence** (Rope/Tangled → Piton)
 
 **Mechanism:** Environment changes such that coordination function no longer needed.
 
@@ -775,12 +775,12 @@ coordination_loss(C, t_drift) :-
 **Example: Office Dress Codes**
 
 **Genesis (Rope):**
-- tâ‚€ â‰ˆ Early 20th century
+- t₀ ≈ Early 20th century
 - Coordination: Professional signaling, client trust
-- Îµ(tâ‚€) â‰ˆ 0.10 (clothing cost, mild extraction)
+- ε(t₀) ≈ 0.10 (clothing cost, mild extraction)
 
 **Obsolescence:**
-- t_drift â‰ˆ 1990s-2010s (tech industry, remote work)
+- t_drift ≈ 1990s-2010s (tech industry, remote work)
 - **Environmental shift:** Professional signaling decouples from formal attire
 - Function obsolete (clients don't care, productivity unaffected)
 - Structure persists (corporate inertia, "professionalism" rhetoric)
@@ -809,7 +809,7 @@ function_obsolescence(C, t_drift) :-
 
 ---
 
-**Type 5: Sunset Violation** (Scaffold â†’ Piton)
+**Type 5: Sunset Violation** (Scaffold → Piton)
 
 **Mechanism:** Designed dissolution ignored, temporary structure becomes permanent zombie.
 
@@ -823,10 +823,10 @@ function_obsolescence(C, t_drift) :-
 **Example: Thailand Senate (2017-2024)**
 
 **Genesis (Scaffold):**
-- tâ‚€ = 2017 (appointed Senate created)
+- t₀ = 2017 (appointed Senate created)
 - Purpose: "Temporary stabilization during democratic transition"
 - Sunset clause: PM selection power expires 2024
-- Extraction during scaffold: Îµ â‰ˆ 0.52 (moderate-high, justified as temporary)
+- Extraction during scaffold: ε ≈ 0.52 (moderate-high, justified as temporary)
 
 **Sunset moment:**
 - t_sunset = 2024 (PM selection power expires)
@@ -843,7 +843,7 @@ function_obsolescence(C, t_drift) :-
 **Formal detection:**
 ```
 sunset_violation(C, t_sunset) :-
-    scaffold(C, tâ‚€, purpose(P)),
+    scaffold(C, t₀, purpose(P)),
     sunset_clause(C, t_sunset),
     purpose_complete(C, P, t_sunset),
     structure_persists(C, t_post),
@@ -859,15 +859,15 @@ sunset_violation(C, t_sunset) :-
 
 ---
 
-**Type 6: Extraction Dried Up** (Tangled Rope/Snare â†’ Piton)
+**Type 6: Extraction Dried Up** (Tangled Rope/Snare → Piton)
 
 **Mechanism:** Extraction mechanism fails but structure persists as zombie.
 
 **Process:**
-1. Tangled Rope/Snare extracting value (Îµ â‰¥ 0.40)
+1. Tangled Rope/Snare extracting value (ε ≥ 0.40)
 2. **Drift trigger:** Source of extraction disappears OR extraction becomes unsustainable
 3. Beneficiaries exit or lose power
-4. Extraction collapses (Îµ â†’ near 0)
+4. Extraction collapses (ε → near 0)
 5. Coordination may also collapse
 6. Piton state (zombie persistence without function)
 
@@ -876,7 +876,7 @@ sunset_violation(C, t_sunset) :-
 **Operating state (Snare/Tangled):**
 - t_pre = 1970s-1980s (Soviet era)
 - Function: Party control + limited coordination
-- Îµ â‰ˆ 0.68 (high extraction for regime maintenance)
+- ε ≈ 0.68 (high extraction for regime maintenance)
 
 **Regime collapse:**
 - t_drift = 1991 (Soviet Union dissolution)
@@ -888,14 +888,14 @@ sunset_violation(C, t_sunset) :-
 - Structure persists (bureaucratic inertia)
 - No function (neither extraction nor coordination)
 - Zombie committees (meet, produce reports no one reads)
-- Îµ â‰ˆ 0.05 (near-zero extraction, pure waste)
+- ε ≈ 0.05 (near-zero extraction, pure waste)
 
 **Formal detection:**
 ```
 extraction_collapse(C, t_drift) :-
-    Îµ(C, t_pre) â‰¥ 0.40,
+    ε(C, t_pre) ≥ 0.40,
     extraction_source_eliminated(C, t_drift),
-    Îµ(C, t_post) < 0.20,
+    ε(C, t_post) < 0.20,
     structure_persists(C, t_post),
     function_absent(C, t_post).
 ```
@@ -907,7 +907,7 @@ extraction_collapse(C, t_drift) :-
 
 ---
 
-**Type 7: Algorithm Shutdown â†’ Internalized Piton** (Snare â†’ I-Piton)
+**Type 7: Algorithm Shutdown → Internalized Piton** (Snare → I-Piton)
 
 **THE CREEPIEST DEGRADATION PATH**
 
@@ -926,7 +926,7 @@ extraction_collapse(C, t_drift) :-
 - t_pre = 2015-2020 (peak algorithmic manipulation)
 - Mechanism: Engagement optimization algorithm
 - Behavior: Doom-scrolling, compulsive checking
-- Îµ â‰ˆ 0.65 (high extraction - attention, mental health)
+- ε ≈ 0.65 (high extraction - attention, mental health)
 
 **Algorithm shutdown:**
 - t_drift = 2025 (hypothetical: algorithm disabled)
@@ -939,7 +939,7 @@ extraction_collapse(C, t_drift) :-
 - No active extraction (algorithm off)
 - **Self-extraction persists** (users police own behavior)
 - Hardest to clear (no visible enforcer to resist)
-- Îµ â‰ˆ 0.45 (extraction continues through internalization)
+- ε ≈ 0.45 (extraction continues through internalization)
 
 **Distinguishing feature:** 
 - Regular Piton: External structure persists (fax machine remains)
@@ -1258,7 +1258,7 @@ Functions as Rope in legal and moral contexts (coordinates responsibility attrib
 **Outcome:** Rope continues functioning across generations
 **Conditions:**
 - Coordination need persists
-- Extraction remains low (Îµ < 0.20)
+- Extraction remains low (ε < 0.20)
 - Active maintenance sustained
 - Alternatives tolerated
 
@@ -1278,7 +1278,7 @@ Functions as Rope in legal and moral contexts (coordinates responsibility attrib
 
 **Outcome:** Function becomes unnecessary, structure persists
 **Process:** See Drift Type 4 (Function Obsolescence)
-**Example:** Fax requirements â†’ email replacement â†’ zombie persistence
+**Example:** Fax requirements → email replacement → zombie persistence
 
 ---
 
@@ -1295,8 +1295,8 @@ Functions as Rope in legal and moral contexts (coordinates responsibility attrib
 **Example:** New Zealand Electoral Reform (1996)
 - Before: First-Past-The-Post (Tangled Rope - coordination + wasted votes)
 - Reform: Mixed-Member Proportional (MMP)
-- After: Better coordination, reduced extraction (Îµ: 0.42 â†’ 0.22)
-- **Success:** Tangled Rope â†’ Rope (rare achievement)
+- After: Better coordination, reduced extraction (ε: 0.42 → 0.22)
+- **Success:** Tangled Rope → Rope (rare achievement)
 
 **Terminal State 2: Degradation to Snare** (Common)
 
@@ -1327,7 +1327,7 @@ Functions as Rope in legal and moral contexts (coordinates responsibility attrib
 
 ### D. Snares: Four Terminal States
 
-**Terminal State 1: Resistance â†’ Dismantlement** (Aspirational)
+**Terminal State 1: Resistance → Dismantlement** (Aspirational)
 
 **Outcome:** Snare eliminated through collective action, extraction ended
 **Requirements:**
@@ -1359,20 +1359,20 @@ Functions as Rope in legal and moral contexts (coordinates responsibility attrib
 **Terminal State 3: Degradation to I-Piton** (Creepy)
 
 **Outcome:** Enforcement stops but habits remain, self-extraction persists
-**Process:** See Drift Type 7 (Algorithm Shutdown â†’ Internalized Piton)
+**Process:** See Drift Type 7 (Algorithm Shutdown → Internalized Piton)
 **Example:** Surveillance ended, privacy-destroying behavior continues
 
-**Terminal State 4: Collapse â†’ Piton** (Less Common)
+**Terminal State 4: Collapse → Piton** (Less Common)
 
 **Outcome:** Enforcement fails, extraction mechanism breaks, zombie remains
-**Process:** Power loss â†’ enforcement impossible â†’ extraction stops â†’ structure persists
+**Process:** Power loss → enforcement impossible → extraction stops → structure persists
 **Example:** Regulatory capture after deregulation (gatekeeping power gone, structure remains)
 
 ---
 
 ### E. Scaffolds: Two Terminal States
 
-**Terminal State 1: Success â†’ Dissolution** (Intended Outcome)
+**Terminal State 1: Success → Dissolution** (Intended Outcome)
 
 **Outcome:** Purpose complete, structure dismantled, no residue
 **Requirements:**
@@ -1387,13 +1387,13 @@ Functions as Rope in legal and moral contexts (coordinates responsibility attrib
 - Dissolution: Commission disbanded
 - Success: No zombie remains
 
-**Terminal State 2: Failure â†’ Piton** (Common)
+**Terminal State 2: Failure → Piton** (Common)
 
 **Outcome:** Sunset ignored, temporary becomes permanent zombie
 **Process:** See Drift Type 5 (Sunset Violation)
 **Example:** Emergency powers not rescinded, Thailand Senate veto retention
 
-**Variant:** Failure â†’ Snare (rare)
+**Variant:** Failure → Snare (rare)
 - Temporary support becomes permanent extraction
 - Example: Provisional government becomes dictatorship
 - Worse than Piton (active extraction, not just zombie)
@@ -1469,22 +1469,22 @@ Functions as Rope in legal and moral contexts (coordinates responsibility attrib
 **Negotiable Patterns (Rope):**
 - Genesis: Habit formation for self-coordination
 - Maturation: Active maintenance required
-- Degradation: â†’ Hybrid Pattern (extraction added) or â†’ Abandoned Camp (function lost)
+- Degradation: → Hybrid Pattern (extraction added) or → Abandoned Camp (function lost)
 
 **Hybrid Patterns (Tangled Rope):**
 - Genesis: Designed (perfectionism learned) or Degraded (people-pleasing accumulates extraction)
 - Maturation: Constant tension (serves AND harms)
-- Degradation: â†’ Self-Extraction (coordination lost) or â†’ Abandoned Camp (both fail)
+- Degradation: → Self-Extraction (coordination lost) or → Abandoned Camp (both fail)
 
 **Self-Extraction (Snare):**
 - Genesis: Power asymmetry internalized (trauma response) or Clarity Fetish developed
 - Maturation: Self-policing, naturalization ("this is just who I am")
-- Degradation: â†’ Abandoned Camp (enforcement internalized then forgotten)
+- Degradation: → Abandoned Camp (enforcement internalized then forgotten)
 
 **Developmental Supports (Scaffold):**
-- Genesis: Transition need (childhood â†’ adulthood, crisis â†’ stability)
+- Genesis: Transition need (childhood → adulthood, crisis → stability)
 - Maturation: Time-limited, purpose-driven
-- Degradation: â†’ Abandoned Camp (sunset violated, childhood strategy persists into adulthood)
+- Degradation: → Abandoned Camp (sunset violated, childhood strategy persists into adulthood)
 
 **Abandoned Camps (Piton):**
 - Genesis: Result of degradation (no direct creation)
@@ -1495,7 +1495,7 @@ Functions as Rope in legal and moral contexts (coordinates responsibility attrib
 
 ```
 Genesis (Scaffold, childhood):
-- tâ‚€ = Early childhood
+- t₀ = Early childhood
 - Function: Protect boundaries when assertion skills absent
 - Designed to be outgrown
 
@@ -1509,7 +1509,7 @@ Degradation Option 1 (Success):
 - Anger no longer needed for boundaries
 - Scaffold dissolves cleanly
 
-Degradation Option 2 (Failure â†’ Abandoned Camp):
+Degradation Option 2 (Failure → Abandoned Camp):
 - Adulthood reached, assertion never learned
 - Anger persists as primary boundary mechanism
 - Zombie: Childhood strategy in adult context
@@ -1529,22 +1529,22 @@ Terminal (Abandoned Camp):
 **Ropes:** Relationship norms, mutual aid
 - Genesis: Coordination need recognized
 - Maturation: Active maintenance (reciprocity balanced)
-- Degradation: â†’ Tangled Rope (one-sided extraction) or â†’ Piton (relationship dead but maintained)
+- Degradation: → Tangled Rope (one-sided extraction) or → Piton (relationship dead but maintained)
 
 **Tangled Ropes:** Most modern relationships
 - Genesis: Designed hybrid (family expectations coordinate AND extract) or Degraded (friendship becomes one-sided)
 - Maturation: Unstable (reform pressure vs. acceptance)
-- Degradation: â†’ Snare (coordination lost, pure extraction) or â†’ Piton (both functions fail, zombie relationship)
+- Degradation: → Snare (coordination lost, pure extraction) or → Piton (both functions fail, zombie relationship)
 
 **Snares:** Abusive relationships, exploitative norms
 - Genesis: Power asymmetry + extraction design
 - Maturation: Enforcement (guilt, economic dependence, social pressure)
-- Degradation: â†’ Piton (enforcement fails but habits remain - internalized abuse)
+- Degradation: → Piton (enforcement fails but habits remain - internalized abuse)
 
 **Scaffolds:** Mentor relationships, transition support
 - Genesis: Developmental need
 - Maturation: Time-limited support
-- Degradation: â†’ Piton (sunset violated, dependency created) or â†’ Snare (exploitation added)
+- Degradation: → Piton (sunset violated, dependency created) or → Snare (exploitation added)
 
 **Pitons:** Dead friendships, obsolete obligations
 - Terminal: Clearing (honest "this doesn't serve either of us") or Indefinite (maintain from guilt)
@@ -1553,22 +1553,22 @@ Terminal (Abandoned Camp):
 
 ```
 Genesis (Rope):
-- tâ‚€ = Meeting, mutual interest
+- t₀ = Meeting, mutual interest
 - Function: Emotional support, shared activities
-- Îµ(tâ‚€) â‰ˆ 0.08 (reciprocal exchange)
+- ε(t₀) ≈ 0.08 (reciprocal exchange)
 
 Maturation (Rope):
 - Sustained reciprocity
 - Mutual benefit
 - Low extraction
 
-Degradation Path 1 (â†’ Tangled Rope):
+Degradation Path 1 (→ Tangled Rope):
 - Life changes (one person advances, other stagnates)
 - Extraction accumulates (one gives, other takes)
-- Îµ increases (0.08 â†’ 0.44)
+- ε increases (0.08 → 0.44)
 - Still some coordination (shared history)
 
-Degradation Path 2 (â†’ Piton):
+Degradation Path 2 (→ Piton):
 - Geographic distance, life divergence
 - Coordination function lost (nothing in common)
 - Extraction absent (no one benefits)
@@ -1589,22 +1589,22 @@ Terminal (Piton):
 **Ropes:** Functional democratic institutions
 - Genesis: Constitutional design, electoral reform
 - Maturation: Active maintenance, refinement
-- Degradation: â†’ Tangled Rope (extraction accumulates) or â†’ Piton (function obsolete)
+- Degradation: → Tangled Rope (extraction accumulates) or → Piton (function obsolete)
 
 **Tangled Ropes:** Most functioning democracies (60%+)
 - Genesis: Designed hybrid (federalism coordinates + rural overrepresentation) or Degraded (gerrymandering added)
 - Maturation: Unstable equilibrium (reform vs. beneficiary defense)
-- Degradation: â†’ Snare (coordination lost - democratic theater) or â†’ Piton (both fail - defunct institution)
+- Degradation: → Snare (coordination lost - democratic theater) or → Piton (both fail - defunct institution)
 
 **Snares:** Authoritarian mechanisms, gerrymandering, judicial gatekeeping
 - Genesis: Power concentration + extraction design
 - Maturation: Enforcement (judicial dissolution, alternative suppression)
-- Degradation: â†’ Piton (regime change, enforcement fails)
+- Degradation: → Piton (regime change, enforcement fails)
 
 **Scaffolds:** Transitional governments, constitutional conventions, occupation governments
 - Genesis: Regime transition
 - Maturation: Time-limited governance
-- Degradation: â†’ Piton (sunset violated - Thailand Senate) or â†’ Snare (provisional government becomes dictatorship)
+- Degradation: → Piton (sunset violated - Thailand Senate) or → Snare (provisional government becomes dictatorship)
 
 **Pitons:** Obsolete electoral mechanisms, defunct institutions
 - Terminal: Reform (eliminate) or Indefinite (maintain from tradition)
@@ -1613,22 +1613,22 @@ Terminal (Piton):
 
 ```
 Genesis (Tangled Rope? Contested):
-- tâ‚€ = 1787 (Constitutional Convention)
+- t₀ = 1787 (Constitutional Convention)
 - Claimed function: Prevent direct democracy (elite filter)
 - Actual function: Slave state power preservation
-- Îµ(tâ‚€) â‰ˆ 0.48 (moderate-high extraction from inception)
+- ε(t₀) ≈ 0.48 (moderate-high extraction from inception)
 
 Maturation (Tangled Rope):
-- Function shift: Elite filter â†’ federalism justification
+- Function shift: Elite filter → federalism justification
 - Coordination: State-based system (arguably)
 - Extraction: Rural overrepresentation, swing state concentration
-- Îµ(t_maturation) â‰ˆ 0.52 (stable hybrid)
+- ε(t_maturation) ≈ 0.52 (stable hybrid)
 
 Degradation (Contested Classification):
 - Current debate: Tangled Rope vs. Piton?
 - Federalism defenders: Still Tangled Rope (coordinates states + extracts equality)
 - Popular vote advocates: Now Piton (federalism justification empty, swing state concentration arbitrary)
-- Îµ(t_present) â‰ˆ 0.58 (high extraction from powerless perspective)
+- ε(t_present) ≈ 0.58 (high extraction from powerless perspective)
 
 Terminal (Pending):
 - Reform Option 1: National Popular Vote Interstate Compact (functional elimination)
@@ -1648,9 +1648,9 @@ Terminal (Pending):
 - Rapid iteration possible
 
 **Examples:**
-- Social media platforms: Genesis â†’ Degradation in 5-10 years
-- Startup governance: Scaffold â†’ Piton in months (if sunset ignored)
-- Tech stack choices: Rope â†’ Piton as quickly as 1-2 years (environment shifts)
+- Social media platforms: Genesis → Degradation in 5-10 years
+- Startup governance: Scaffold → Piton in months (if sunset ignored)
+- Tech stack choices: Rope → Piton as quickly as 1-2 years (environment shifts)
 
 **Implications:**
 - Require active monitoring (degradation rapid)
@@ -1667,9 +1667,9 @@ Terminal (Pending):
 - Social conventions
 
 **Examples:**
-- Academic publishing: Rope â†’ Tangled Rope over 30-40 years (1970s-2010s)
-- Workplace norms: Genesis â†’ Degradation over 20-50 years
-- Professional licensing: Rope â†’ Tangled Rope over generations
+- Academic publishing: Rope → Tangled Rope over 30-40 years (1970s-2010s)
+- Workplace norms: Genesis → Degradation over 20-50 years
+- Professional licensing: Rope → Tangled Rope over generations
 
 **Implications:**
 - Degradation visible but gradual
@@ -1686,7 +1686,7 @@ Terminal (Pending):
 - Civilizational patterns
 
 **Examples:**
-- Electoral systems: Genesis â†’ Degradation over centuries
+- Electoral systems: Genesis → Degradation over centuries
 - Gender roles: Snare naturalization over millennia
 - Constitutional provisions: Stable for centuries or until revolution
 
@@ -1706,7 +1706,7 @@ Terminal (Pending):
 **Actions:**
 - Ropes: Build in low extraction, refinement mechanisms
 - Scaffolds: Explicit sunset clauses, clear completion criteria
-- Tangled Ropes: If designed hybrid, minimize extraction (Îµ < 0.40)
+- Tangled Ropes: If designed hybrid, minimize extraction (ε < 0.40)
 
 **Example:** Designing democratic institution
 - Build in proportionality (reduce wasted votes)
@@ -1719,14 +1719,14 @@ Terminal (Pending):
 
 **Opportunity:** Prevent degradation before drift events
 **Actions:**
-- Monitor Îµ (watch for extraction accumulation)
+- Monitor ε (watch for extraction accumulation)
 - Detect metric substitution early (proxy becoming goal)
 - Reform while still Rope (easier than after Tangled Rope)
 
 **Example:** Open-source governance
 - Watch for corporate capture (extraction accumulation)
 - Preserve community control (prevent metric substitution)
-- Maintain reciprocity (contributor â†’ beneficiary balance)
+- Maintain reciprocity (contributor → beneficiary balance)
 
 **Network-aware maintenance:** Intervention on an isolated constraint may fail if its network is contaminated. Before maintaining or reforming a constraint, check its neighbors' structural health. If a degrading neighbor is contaminating the target constraint (Network Drift, Type 11), intervening on the target alone is treating symptoms — the contamination will flow back. Effective maintenance sometimes requires addressing the neighbor first, or simultaneously. Example: Reforming employment contracts while the housing market remains predatory may produce no felt improvement for workers, because the housing Snare contaminates the employment Rope regardless of contract terms. Network-aware intervention asks: *Where is the contamination coming from, and what's the minimum network repair that makes target intervention stick?*
 
@@ -1780,7 +1780,7 @@ Terminal (Pending):
 
 ### Pattern 1: The Value Alignment Drift
 
-**Sequence:** Rope â†’ Tangled Rope â†’ Snare â†’ I-Piton
+**Sequence:** Rope → Tangled Rope → Snare → I-Piton
 
 **Mechanism:**
 1. Coordination mechanism created (Rope)
@@ -1790,7 +1790,7 @@ Terminal (Pending):
 5. Coordination lost, proxy optimization harms original value (Snare)
 6. Algorithm/mechanism shut off, habits persist (I-Piton)
 
-**Example:** Social media (connection â†’ engagement metrics â†’ attention extraction â†’ internalized compulsion)
+**Example:** Social media (connection → engagement metrics → attention extraction → internalized compulsion)
 
 **Prevention:**
 - Resist metric substitution (maintain value focus)
@@ -1801,7 +1801,7 @@ Terminal (Pending):
 
 ### Pattern 2: The Scaffold Calcification
 
-**Sequence:** Scaffold â†’ Piton (or â†’ Snare if extraction added)
+**Sequence:** Scaffold → Piton (or → Snare if extraction added)
 
 **Mechanism:**
 1. Temporary support created with sunset
@@ -1823,7 +1823,7 @@ Terminal (Pending):
 
 ### Pattern 3: The Extraction Capture
 
-**Sequence:** Rope â†’ Tangled Rope â†’ Snare
+**Sequence:** Rope → Tangled Rope → Snare
 
 **Mechanism:**
 1. Clean coordination mechanism (Rope)
@@ -1845,7 +1845,7 @@ Terminal (Pending):
 
 ### Pattern 4: The Environmental Obsolescence
 
-**Sequence:** Rope â†’ Piton (direct, no Tangled phase)
+**Sequence:** Rope → Piton (direct, no Tangled phase)
 
 **Mechanism:**
 1. Coordination functioning (Rope)
@@ -1898,8 +1898,8 @@ Terminal (Pending):
 - `limitations.md` - Empirical failure modes, verification architecture
 
 **Applied Domains:**
-- `psychology.md` - Internal constraint lifecycles (Substrate â†’ Abandoned Camps)
-- `sociology.md` - Relational constraint lifecycles (Ropes â†’ Pitons in relationships)
+- `psychology.md` - Internal constraint lifecycles (Substrate → Abandoned Camps)
+- `sociology.md` - Relational constraint lifecycles (Ropes → Pitons in relationships)
 - `politics.md` - Institutional lifecycles (electoral systems, democratic degradation)
 
 **Empirical Validation:**

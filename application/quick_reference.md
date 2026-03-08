@@ -39,16 +39,16 @@
 
 ---
 
-## Four Categories
+## Six Categories
 
 | Type | Definition | Response | Example |
 |------|------------|----------|---------|
 | **Mountain** | Natural constraint (physics, logic, biology) | Accept, conserve energy, navigate | Thermodynamics, need for water, 2+2=4 |
 | **Rope** | Coordination mechanism, broadly beneficial | Maintain, improve, replace if better exists | Traffic lights, TCP/IP, meeting schedules |
+| **Tangled Rope** | Coordination + extraction hybrid | Reform: preserve coordination, cut extraction | Carbon credits, healthcare systems |
 | **Snare** | Extractive structure serving specific interests | Expose, resist, dismantle where possible | Rent-seeking regulations, artificial scarcity |
 | **Scaffold** | Temporary support for transition | Use temporarily, dismantle when done | Training wheels, construction scaffold |
-
-**Hybrid:** **Tangled Rope** = Rope (coordination core) + Snare (extraction layer). Reform to preserve coordination while removing extraction.
+| **Piton** | Lost function, persists through inertia | Bypass, eliminate | Dead letter laws, obsolete procedures |
 
 ---
 
@@ -128,6 +128,13 @@ Every classification requires specifying your position:
 ✗ Don't throw out coordination with extraction  
 ✗ Don't defend extraction because coordination exists
 
+### For Pitons:
+✓ Identify lost function (what did this used to do?)  
+✓ Calculate maintenance cost vs. remaining value  
+✓ Build coalition around "this no longer works"  
+✗ Don't confuse inertia with necessity  
+✗ Don't waste political capital — this is administrative reform, not revolution
+
 ---
 
 ## Detection Patterns
@@ -200,6 +207,7 @@ Every classification requires specifying your position:
 - Mixed beneficiary patterns → likely Tangled Rope
 - Claims of naturalness + clear beneficiaries → suspect False Mountain
 - Bureaucratic persistence + no winners → suspect Piton
+- Coordination function present but degrading → check purity (track over time)
 
 ### Low Confidence → Omega Variable:
 Mark as **Ω** (unresolved) and specify what information would resolve it:
@@ -217,8 +225,8 @@ Mark as **Ω** (unresolved) and specify what information would resolve it:
 
 - **Powerless:** 1.5× more extraction (trapped, limited options)
 - **Moderate:** 1.0× baseline (some navigation ability)
-- **Powerful:** 0.7× less extraction (strategic navigation)
-- **Organized:** 0.5× less extraction (collective action)
+- **Powerful:** 0.6× less extraction (strategic navigation)
+- **Organized:** 0.4× less extraction (collective action)
 - **Institutional:** Often net beneficiaries (extraction flows toward them)
 
 **Implication:** Same constraint feels different at different power levels. Both experiences are objectively true.
@@ -238,10 +246,10 @@ Mark as **Ω** (unresolved) and specify what information would resolve it:
 - **core.md** - Compressed introduction (~3,000 words)
 - **epistemology.md** - Complete methodology and Six-Test Battery
 - **applied_guide.md** - Extended decision trees and case studies
-- **validation_report.md** - Empirical evidence (467 constraints, 0% collision rate)
+- **validation_report.md** - Empirical evidence (691 constraints, 0% collision rate)
 
 ---
 
-**Deferential Realism Quick Reference v3.2**  
+**Deferential Realism Quick Reference v4.1**  
 **Print size: 2 pages (front and back)**  
 **Word count: ~1,000 words**

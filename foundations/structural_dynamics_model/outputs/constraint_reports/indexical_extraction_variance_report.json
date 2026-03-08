@@ -1,0 +1,50 @@
+{
+  "constraint_id": "indexical_extraction_variance",
+  "iteration_round": null,
+  "verdict": "YELLOW",
+  "subsystems_checked": [
+    12,
+    12
+  ],
+  "tensions": [
+    {
+      "subsystem": "abductive",
+      "code": "abductive_tension",
+      "detail": "abductive_tension([trigger(epistemic_trap,0.78,restricted_view_divergence,genuine)])"
+    }
+  ],
+  "tension_count": 1,
+  "expected_conflicts": [
+    {
+      "subsystem": "dirac",
+      "code": "pre_post_override_divergence"
+    }
+  ],
+  "convergent_rejections": "none",
+  "classification": {
+    "claimed_type": "mountain",
+    "classified_type": "mountain",
+    "mismatch": false,
+    "confidence": 0.95,
+    "confidence_band": "deep",
+    "rival_type": "rope",
+    "rival_p": 0.01,
+    "boundary": "mountain->rope",
+    "psi": null,
+    "psi_label": null
+  },
+  "hard_disagreement": null,
+  "drift_events": [
+    {
+      "severity": "watch",
+      "type": "purity_drift"
+    }
+  ],
+  "mandatrophy_gap": null,
+  "structural_signature": "natural_law",
+  "purity": {
+    "value": 0.976,
+    "band": "pristine"
+  },
+  "post_synthesis_flags": []
+}

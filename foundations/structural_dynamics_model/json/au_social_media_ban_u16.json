@@ -1,0 +1,210 @@
+{
+  "header": {
+    "constraint_id": "au_social_media_ban_u16",
+    "version": "1.0",
+    "generated_date": "2026-02-26",
+    "status": "ACTIVE",
+    "measurement_id_prefix": "ausm"
+  },
+  "base_properties": {
+    "extractiveness": 0.52,
+    "suppression": 0.65,
+    "theater_ratio": 0.58,
+    "claimed_type": "tangled_rope",
+    "human_readable": "Australian Under-16 Social Media Ban",
+    "topic_domain": "social_technological/regulatory",
+    "requires_active_enforcement": true,
+    "beneficiaries": [
+      "child_development_advocates",
+      "platform_liability_managers",
+      "government_youth_protection_agencies"
+    ],
+    "victims": [
+      "underage_users",
+      "open_internet_access_principle",
+      "platform_innovation_capacity"
+    ],
+    "mandatrophy_resolved": false
+  },
+  "perspectives": [
+    {
+      "classification_type": "snare",
+      "agent_power": "powerless",
+      "time_horizon": "biographical",
+      "exit_options": "trapped",
+      "spatial_scope": "national",
+      "label": "The Under-16 User",
+      "comment": "PERSPECTIVE 1: THE UNDER-16 USER (SNARE) \u2014 Cannot exit the ban through legitimate means. Age-gating is technically enforced; fake accounts violate terms of service; international VPNs are unreliable and carry legal/safety risks. The user bears full cost of exclusion from social coordination, peer networks, and information access. No alternatives mandated by the state. Maximum suppression \u2014 participation is criminalized at both user and platform level."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "moderate",
+      "time_horizon": "biographical",
+      "exit_options": "constrained",
+      "spatial_scope": "national",
+      "label": "The Youth Digital Rights Community",
+      "comment": "PERSPECTIVE 2: YOUTH DIGITAL RIGHTS COMMUNITY (TANGLED ROPE) \u2014 Constrained by legal barriers to advocacy and social coordination, but benefits from the constraint's stated protective intent. Advocates for youth autonomy face suppression of their organizational platforms (the very social media being banned). Can organize through traditional media and legal channels but faces resource barriers. Mixed extraction and coordination function."
+    },
+    {
+      "classification_type": "rope",
+      "agent_power": "institutional",
+      "time_horizon": "immediate",
+      "exit_options": "arbitrage",
+      "spatial_scope": "national",
+      "label": "Government Youth Protection Agency",
+      "comment": "PERSPECTIVE 3: GOVERNMENT YOUTH PROTECTION AGENCY (ROPE) \u2014 Primary beneficiary. The ban solves a coordination problem: how to reduce minors' exposure to algorithmic harms without requiring individual parental judgment at scale. Agency experiences the constraint as enabling its mandate, not extracting from it. Has arbitrage options (can modify enforcement, can sunset the law). Net beneficiary of the constraint structure."
+    },
+    {
+      "classification_type": "scaffold",
+      "agent_power": "organized",
+      "time_horizon": "generational",
+      "exit_options": "mobile",
+      "spatial_scope": "national",
+      "label": "Age-Appropriate Digital Alternative Platforms",
+      "comment": "PERSPECTIVE 4: AGE-APPROPRIATE DIGITAL ALTERNATIVE PLATFORMS (SCAFFOLD) \u2014 Organized actors (youth-focused platforms, parental-control services, curated networks) see the ban as temporary coordination with a sunset: if age-appropriate alternatives mature and gain user adoption, the crude binary ban (allowed/not allowed) becomes unnecessary. The constraint creates market opportunity for alternatives. Organized agents have exit options (develop compliant platforms, lobby for refined thresholds). Has sunset logic if alternatives reach critical mass."
+    },
+    {
+      "classification_type": "tangled_rope",
+      "agent_power": "institutional",
+      "time_horizon": "immediate",
+      "exit_options": "constrained",
+      "spatial_scope": "global",
+      "label": "Social Media Platforms",
+      "comment": "PERSPECTIVE 5: SOCIAL MEDIA PLATFORMS (TANGLED ROPE) \u2014 Constrained by compliance costs and liability exposure, but also benefits from regulation-driven competitive moat (age verification is a fixed cost that smaller competitors cannot absorb). Global platforms face conflicting mandates: Australian age-verification law, EU GDPR/DMA requirements, US free-speech litigation, and Chinese surveillance frameworks. Extraction runs in multiple directions simultaneously. Primary costs: age-verification infrastructure, reduced advertising revenue from under-16 segment, liability for enforcement failure. Primary benefits: reduced content moderation burden for youth harm, legal safe harbor, competitive advantage."
+    },
+    {
+      "classification_type": "piton",
+      "agent_power": "institutional",
+      "time_horizon": "civilizational",
+      "exit_options": "arbitrage",
+      "spatial_scope": "national",
+      "label": "Media Literacy Education System",
+      "comment": "PERSPECTIVE 6: MEDIA LITERACY EDUCATION SYSTEM (PITON) \u2014 The stated rationale for the ban partly displaces responsibility from education institutions to legal enforcement. Media literacy programs, digital citizenship curricula, and parental guidance frameworks are the functional alternative to a blanket ban, but these approaches require sustained investment and institutional commitment. The ban creates theater around youth protection while educational infrastructure atrophies. Theater ratio reflects that compliance signaling (platform age-gating) substitutes for actual skill building. Degraded alternative mechanism persists through inertia."
+    },
+    {
+      "classification_type": "mountain",
+      "agent_power": "analytical",
+      "time_horizon": "civilizational",
+      "exit_options": "analytical",
+      "spatial_scope": "universal",
+      "label": "The Developmental Neuroscience View",
+      "comment": "PERSPECTIVE 7: DEVELOPMENTAL NEUROSCIENCE VIEW (MOUNTAIN) \u2014 From a neuroscientific perspective, adolescent vulnerability to algorithmic addiction and social comparison has an irreducible biological basis: prefrontal cortex development (delayed until mid-20s), heightened dopamine sensitivity, and social-brain reorganization during puberty are not contingent on policy or technology design. A blanket ban naturalizes these biological constraints as universal law. However, the structural data reveal contingency: different jurisdictions achieve different developmental outcomes with different regulatory approaches (EU age minimums at 13-16 with consent; South Korea with education-based approaches; US with negligible restrictions). The mountain classification is a false summit \u2014 biology is necessary but not sufficient for the policy choice."
+    }
+  ],
+  "omegas": [
+    {
+      "id": "age_verification_technical_sufficiency",
+      "question": "Can age-verification systems reliably distinguish U16 from 16+ users without creating surveillance infrastructure or enabling identity fraud?",
+      "resolution_mechanism": "Technical audits of proposed age-verification protocols (government ID scanning, facial recognition, device-based attestation); comparison with existing systems (payment processors, age-gated content platforms); measurement of false-positive/false-negative rates",
+      "impact": "If verification is reliable and non-invasive: constraint is enforceable and primarily a coordination/snare hybrid. If verification requires surveillance or enables fraud: constraint becomes a snare for users (privacy cost) and platforms (liability cost), with theater masking failure.",
+      "confidence": "high",
+      "type_class": "empirical",
+      "description": "Technical reliability of age-verification mechanisms"
+    },
+    {
+      "id": "comparative_developmental_harm",
+      "question": "Does the developmental harm prevented by the ban (reduced algorithmic addiction exposure) exceed the developmental harm caused by social isolation and peer-network exclusion for U16 users?",
+      "resolution_mechanism": "Longitudinal studies comparing cohorts in jurisdictions with/without similar bans; measurement of mental health outcomes, peer integration, and academic performance over 5+ years; analysis of alternative harm pathways (offline social pressures, offline substance use)",
+      "impact": "If prevented harm > caused harm: constraint is justified as protective (rope/scaffold perspective is structural). If caused harm \u2265 prevented harm: constraint is net extraction masked as protection (snare/piton perspective dominates).",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Comparative developmental outcomes with and without the ban"
+    },
+    {
+      "id": "regulatory_arbitrage_stability",
+      "question": "Will the Australian ban persist as a stable national policy, or will it degrade into regulatory arbitrage (users migrate to international VPNs, platforms create compliance theater while actual enforcement fails)?",
+      "resolution_mechanism": "Measurement of VPN adoption rates among Australian minors post-implementation; comparison of platforms' compliance costs to enforcement penalties; survey of platform internal enforcement budgets vs actual user age distribution in Australia",
+      "impact": "If stable enforcement: constraint is tangled_rope (coordination + extraction). If regulatory arbitrage succeeds: constraint degrades into piton (theater maintained by institutional inertia despite functional failure).",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Stability of Australian regulatory enforcement against arbitrage"
+    },
+    {
+      "id": "alternative_platform_adoption_threshold",
+      "question": "At what user-adoption rate for age-appropriate alternatives does the crude binary ban become replaceable with refined threshold-based access?",
+      "resolution_mechanism": "Analysis of existing age-appropriate platform adoption curves (Snapchat pre-2015, TikTok in regulated markets); measurement of network-effect lock-in; comparison with educational/parental-control platform uptake rates",
+      "impact": "If alternatives reach 30%+ of U16 population: scaffold sunset becomes realistic within 5-10 years. If adoption stalls: scaffold classification is aspirational, not structural.",
+      "confidence": "medium",
+      "type_class": "empirical",
+      "description": "Critical mass threshold for age-appropriate alternative platform adoption"
+    },
+    {
+      "id": "mandatrophy_resolution",
+      "question": "Is this constraint a genuine coordination mechanism (protecting minors from algorithmic harm) that requires extraction (suppressing access) as a side effect, or pure extraction (controlling youth digital autonomy) falsely framed as protection?",
+      "resolution_mechanism": "Comparative analysis: (1) effectiveness of the ban in reducing documented algorithmic harms vs other regulatory approaches (UK Age Appropriate Design Code, EU Digital Services Act transparency requirements); (2) alignment of enforcement with stated protective goals vs misalignment indicating capture by parental-control industry; (3) measurement of actual youth harm reduction vs theater (compliance signaling without behavioral change)",
+      "impact": "If genuine coordination: tangled_rope classification is stable. If pure extraction: constraint should reclassify to snare, and the state's coordination rationale is false summit.",
+      "confidence": "high",
+      "type_class": "empirical",
+      "description": "Whether protection rationale is genuine coordination or false legitimation of extraction"
+    }
+  ],
+  "measurements": [
+    {
+      "metric": "base_extractiveness",
+      "time_point": 0,
+      "value": 0.35
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 2,
+      "value": 0.45
+    },
+    {
+      "metric": "base_extractiveness",
+      "time_point": 5,
+      "value": 0.52
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 0,
+      "value": 0.42
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 2,
+      "value": 0.5
+    },
+    {
+      "metric": "theater_ratio",
+      "time_point": 5,
+      "value": 0.58
+    }
+  ],
+  "interval": {
+    "start": 0,
+    "end": 5
+  },
+  "commentary": {
+    "narrative_context": "The Australian Under-16 Social Media Ban represents a conflict between child protection (a legitimate coordination problem) and digital autonomy (a structural right). The constraint exhibits the core mandatrophy: is the state using age-gating enforcement to solve a real developmental harm problem, or is it using child-protection rhetoric to justify technological control over youth access to peer coordination networks? The extractiveness value (0.52) reflects genuine mixed function \u2014 the ban does reduce exposure to algorithmic addiction and some documented harms, but it also suppresses peer network access, information discovery, and youth voice in digital spaces. The suppression value (0.65) reflects high coercive content: the ban is mandatory, affects a legally defined population without individual consent capacity, and criminalized at both user and platform level. The theater ratio (0.58) indicates that compliance signaling (age-gating infrastructure) partially substitutes for effective alternative provision (media literacy, parental guidance, youth-appropriate platform design). The ban creates an institutional bifurcation: global platforms must implement Australian-specific enforcement, while domestic educational alternatives remain underfunded.",
+    "key_agents": [
+      "Under-16 Users: Primary victims (powerless/trapped) \u2014 bear full exclusion cost with no exit options; criminalized participation via fake accounts or VPNs",
+      "Child Development Advocates: Primary beneficiary (institutional/arbitrage) \u2014 frame the ban as protective; have flexibility to modify or sunset the law",
+      "Social Media Platforms: Secondary institutional actor (institutional/constrained) \u2014 face compliance costs and liability exposure, but also gain competitive moat from fixed-cost age-verification infrastructure",
+      "Youth Digital Rights Community: Secondary victim (moderate/constrained) \u2014 constrained by suppression of their advocacy platforms; benefits from stated protection intent",
+      "Age-Appropriate Platform Providers: Organized beneficiary (organized/mobile) \u2014 see the ban as creating market opportunity for alternatives; have exit options through platform development",
+      "Media Literacy Education System: Degraded alternative mechanism (institutional/arbitrage) \u2014 functionally displaced by the ban; persists through inertia",
+      "Analytical Observer: Civilizational view (analytical/analytical) \u2014 assesses whether biology justifies the policy choice or whether regulatory arbitrage will degrade enforcement"
+    ],
+    "logic_rationale": "Extractiveness (0.52): Moderate-high. The ban extracts from under-16 users (full exclusion from mainstream social coordination), but the extraction is not maximal because the constraint has a legitimate protective function (documented algorithmic addiction harms, social comparison effects). The value reflects that extraction is coupled with stated benefit provision (child protection). Suppression (0.65): High. The ban is mandatory, age-defined, criminalized at user and platform level, and has no built-in appeal mechanism for individual circumstances. Users cannot negotiate exceptions; platforms cannot negotiate selective compliance. However, suppression is not absolute because workarounds (international VPNs, fake accounts) exist and are technically accessible to motivated users. Theater ratio (0.58): Moderate-high. The primary mechanism (age-gating infrastructure) is performance-oriented: platforms implement compliance systems to demonstrate lawfulness, but actual effectiveness depends on technical sophistication of verification and user motivation to evade. Media literacy and youth-appropriate design (alternative functional mechanisms) remain underfunded. Theater is rising (t=0 to t=5) as compliance becomes more formalized and actual protective function depends more on sustained investment in education/alternatives.",
+    "perspectival_gap": "This constraint exhibits maximum perspectival divergence. The powerless user sees snare (pure extraction). The institutional beneficiary sees rope (pure coordination). The organized alternative provider sees scaffold (temporary with sunset). The platforms see tangled rope (mixed). The degraded educational system sees itself as piton (inertial). The false mountain (developmental neuroscience view) naturalizes the policy when alternatives exist. The gap reflects fundamental misalignment: the constraint solves a real problem (algorithmic harm) but creates new problems (peer exclusion, privacy surveillance, regulatory arbitrage). No single perspective captures the full structure. Convergence would require either (a) a genuinely age-appropriate alternative that sunset-able, or (b) abandonment of the protection rationale in favor of explicit autonomy control.",
+    "directionality_logic": "Directionality (d) derives from agent power, exit options, and beneficiary/victim status. Under-16 users: powerless + trapped \u2192 d \u2248 0.95 \u2192 f(d) \u2248 1.42 \u2192 high experienced extraction. Government agency: institutional + arbitrage \u2192 d \u2248 0.00 \u2192 f(d) \u2248 -0.12 \u2192 negative experienced extraction (benefits). Platforms: institutional + constrained \u2192 d \u2248 0.40 \u2192 f(d) \u2248 0.40 \u2192 moderate extraction (compliance costs outweigh liability reduction). Youth advocates: moderate + constrained \u2192 d \u2248 0.65 \u2192 f(d) \u2248 1.00 \u2192 moderate extraction (suppression of advocacy infrastructure). Alternative platforms: organized + mobile \u2192 d \u2248 0.20 \u2192 f(d) \u2248 0.10 \u2192 low extraction (have exit options and market opportunity). Media literacy system: institutional + arbitrage \u2192 d \u2248 0.35 \u2192 f(d) \u2248 0.30 \u2192 low extraction (inertia, not active suppression, but functional displacement). The scope modifier \u03c3(S) = 1.0 (national, not global) because Australian enforcement is legally sovereign but globally networked platforms constrain effectiveness.",
+    "mandatrophy_analysis": "UNRESOLVED MANDATROPHY. This constraint faces the core mandatrophy: framing a binary ban (allowed/not allowed) as a 'protection measure' when the actual mechanism is suppression of autonomy. The analytical resolution requires comparing three scenarios: (1) If the ban genuinely reduces documented developmental harm (algorithmic addiction, social comparison effects) AND media literacy/age-appropriate alternatives are funded at comparable scale: tangled_rope is the correct stable classification \u2014 extraction is justified as a side effect of necessary coordination. (2) If the ban reduces some harms but causes greater harms (social isolation, peer exclusion, regulatory arbitrage creating privacy infrastructure): the constraint should reclassify to snare \u2014 the protection rationale is false, and the actual function is autonomy control. (3) If enforcement degrades into regulatory arbitrage (widespread VPN adoption, platform compliance theater without actual enforcement): the constraint degrades to piton (maintained by institutional inertia despite functional failure). The current evidence suggests scenario 1 is partially true (documented algorithm harms are real) but scenario 2 is also partially true (social isolation harm data is emerging). Mandatrophy resolution requires 5+ years of developmental outcome data from Australian cohorts compared to other jurisdictions with different regulatory approaches."
+  },
+  "boltzmann": {
+    "coordination_type": "enforcement_mechanism"
+  },
+  "network": {
+    "affects_constraints": [
+      "algorithmic_addiction_capture_u16",
+      "youth_privacy_surveillance_infrastructure",
+      "peer_network_access_constraint_adolescent"
+    ],
+    "dual_formulation_note": "The ban decomposes into three linked structural constraints: (1) algorithmic_addiction_capture_u16 (\u03b5=0.35, rope) \u2014 the protective goal, legitimate coordination; (2) youth_privacy_surveillance_infrastructure (\u03b5=0.62, snare) \u2014 the age-verification enforcement mechanism, creates new harms; (3) peer_network_access_constraint_adolescent (\u03b5=0.58, tangled_rope) \u2014 the collateral cost of exclusion from coordination networks. This story models the ban itself (enforcement mechanism layer); the linked constraints model the layered extraction beneath."
+  },
+  "directionality_overrides": [
+    {
+      "power_atom": "institutional",
+      "d_value": 0.35
+    }
+  ]
+}

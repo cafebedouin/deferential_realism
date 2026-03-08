@@ -1,0 +1,3210 @@
+{
+  "metadata": {
+    "generated": "2026-02-23 21:35:34",
+    "script": "python/coordination_vitality_diagnostic.py",
+    "sources": [
+      "outputs/enriched_pipeline.json",
+      "prolog/testsets/*.pl"
+    ],
+    "population": {
+      "scaffold_count": 21,
+      "piton_count": 95
+    },
+    "prolog_coverage": {
+      "files_parsed": 1151,
+      "coordination_type_count": 834,
+      "sunset_clause_count": 53
+    },
+    "keyword_sets": {
+      "institutional_tokens": 81,
+      "individual_tokens": 70,
+      "collective_tokens": 40,
+      "abstract_tokens": 33
+    }
+  },
+  "step1_beneficiary_analysis": {
+    "population_stats": {
+      "total_atoms": 125,
+      "type_distribution": {
+        "institutional_actor": 70,
+        "ambiguous": 22,
+        "collective_actor": 14,
+        "abstract_entity": 10,
+        "individual_actor": 9
+      },
+      "by_claimed_type": {
+        "piton": {
+          "institutional_actor": 60,
+          "ambiguous": 18,
+          "collective_actor": 9,
+          "abstract_entity": 8,
+          "individual_actor": 2
+        },
+        "scaffold": {
+          "institutional_actor": 10,
+          "individual_actor": 7,
+          "collective_actor": 5,
+          "ambiguous": 4,
+          "abstract_entity": 2
+        }
+      },
+      "dominant_by_claimed_type": {
+        "piton": {
+          "institutional_actor": 60,
+          "ambiguous": 17,
+          "abstract_entity": 8,
+          "collective_actor": 8,
+          "individual_actor": 2
+        },
+        "scaffold": {
+          "institutional_actor": 7,
+          "individual_actor": 5,
+          "collective_actor": 5,
+          "ambiguous": 3,
+          "abstract_entity": 1
+        }
+      },
+      "intercepted_dominant_dist": {
+        "institutional_actor": 64,
+        "ambiguous": 18,
+        "collective_actor": 9,
+        "abstract_entity": 8,
+        "individual_actor": 2
+      },
+      "passing_dominant_dist": {
+        "individual_actor": 5,
+        "collective_actor": 4,
+        "institutional_actor": 3,
+        "ambiguous": 2,
+        "abstract_entity": 1
+      },
+      "intercepted_count": 101,
+      "passing_count": 15
+    },
+    "ambiguous_atoms": [
+      {
+        "constraint": "altruistic_misery_paradox_2026",
+        "atom": "social_circle"
+      },
+      {
+        "constraint": "artificial_scarcity_scaffold",
+        "atom": "system_beneficiaries"
+      },
+      {
+        "constraint": "asymmetric_burden_distribution",
+        "atom": "central_beneficiary"
+      },
+      {
+        "constraint": "boundary_protocol",
+        "atom": "the_voyager"
+      },
+      {
+        "constraint": "cinderella_midnight_deadline",
+        "atom": "the_prince"
+      },
+      {
+        "constraint": "communal_narcissism_social_trap",
+        "atom": "charismatic_communal_narcissist"
+      },
+      {
+        "constraint": "cultural_refragmentation_2026",
+        "atom": "authoritarian_tribalism"
+      },
+      {
+        "constraint": "fmt_oncology_2026",
+        "atom": "oncological_microbiome_research"
+      },
+      {
+        "constraint": "maintenance_capacity_shortfall",
+        "atom": "expansionist_developer"
+      },
+      {
+        "constraint": "milano_cortina_2026",
+        "atom": "global_civilization"
+      },
+      {
+        "constraint": "moltbook_breach_2026",
+        "atom": "malicious_script_actors"
+      },
+      {
+        "constraint": "narcissistic_ego_maintenance",
+        "atom": "narcissists_self_image"
+      },
+      {
+        "constraint": "rule_update_failure",
+        "atom": "system_maintainers"
+      },
+      {
+        "constraint": "second_order_unintended_consequences",
+        "atom": "system_optimizer"
+      },
+      {
+        "constraint": "ship_of_theseus",
+        "atom": "legal_frameworks"
+      },
+      {
+        "constraint": "ship_of_theseus",
+        "atom": "pragmatists"
+      },
+      {
+        "constraint": "ulysses_cyclops_1904",
+        "atom": "irish_nationalism"
+      },
+      {
+        "constraint": "ulysses_eumaeus_1904",
+        "atom": "social_charity"
+      },
+      {
+        "constraint": "ulysses_lestrygonians_1904",
+        "atom": "social_hierarchy"
+      },
+      {
+        "constraint": "ulysses_nausicaa_1904",
+        "atom": "sentimental_press"
+      },
+      {
+        "constraint": "ulysses_scylla_1904",
+        "atom": "dublin_intelligentsia"
+      },
+      {
+        "constraint": "ulysses_sirens_1904",
+        "atom": "the_sirens"
+      }
+    ],
+    "prolog_coverage": {
+      "covered": 116,
+      "total": 116,
+      "pct": 100.0
+    },
+    "sample_classifications": [
+      {
+        "constraint": "academic_fashion_modernism_2026",
+        "atom": "academic_institutions",
+        "actor_type": "institutional_actor",
+        "matched_tokens": [
+          "institutions"
+        ]
+      },
+      {
+        "constraint": "acip_hep_b_infant_mandate",
+        "atom": "vaccine_manufacturers",
+        "actor_type": "institutional_actor",
+        "matched_tokens": [
+          "manufacturers"
+        ]
+      },
+      {
+        "constraint": "adversarial_truth_decay",
+        "atom": "influence_architects",
+        "actor_type": "institutional_actor",
+        "matched_tokens": [
+          "architects"
+        ]
+      },
+      {
+        "constraint": "agent_opt_2026",
+        "atom": "policy_elites",
+        "actor_type": "institutional_actor",
+        "matched_tokens": [
+          "elites"
+        ]
+      },
+      {
+        "constraint": "ai_superpowers_2026",
+        "atom": "chief_ai_officers",
+        "actor_type": "institutional_actor",
+        "matched_tokens": [
+          "officers"
+        ]
+      },
+      {
+        "constraint": "algorithmic_epistemic_capture",
+        "atom": "attention_platforms",
+        "actor_type": "institutional_actor",
+        "matched_tokens": [
+          "platforms"
+        ]
+      },
+      {
+        "constraint": "alignment_tax_tradeoff",
+        "atom": "raw_capability_providers",
+        "actor_type": "institutional_actor",
+        "matched_tokens": [
+          "providers"
+        ]
+      },
+      {
+        "constraint": "alternative_sovereignty_scaffold",
+        "atom": "decentralized_network_users",
+        "actor_type": "individual_actor",
+        "matched_tokens": [
+          "users"
+        ]
+      },
+      {
+        "constraint": "altruistic_misery_paradox_2026",
+        "atom": "social_circle",
+        "actor_type": "ambiguous",
+        "matched_tokens": []
+      },
+      {
+        "constraint": "anticipatory_capacity_failure",
+        "atom": "efficiency_optimized_systems",
+        "actor_type": "abstract_entity",
+        "matched_tokens": [
+          "efficiency"
+        ]
+      }
+    ]
+  },
+  "step2_victim_analysis": {
+    "population_stats": {
+      "total_atoms": 116,
+      "type_distribution": {
+        "individual_actor": 64,
+        "ambiguous": 17,
+        "abstract_entity": 13,
+        "collective_actor": 13,
+        "institutional_actor": 9
+      },
+      "by_claimed_type": {
+        "piton": {
+          "individual_actor": 57,
+          "ambiguous": 14,
+          "collective_actor": 11,
+          "abstract_entity": 10,
+          "institutional_actor": 5
+        },
+        "scaffold": {
+          "individual_actor": 7,
+          "institutional_actor": 4,
+          "ambiguous": 3,
+          "abstract_entity": 3,
+          "collective_actor": 2
+        }
+      },
+      "dominant_by_claimed_type": {
+        "piton": {
+          "individual_actor": 56,
+          "ambiguous": 14,
+          "collective_actor": 11,
+          "abstract_entity": 9,
+          "institutional_actor": 5
+        },
+        "scaffold": {
+          "individual_actor": 7,
+          "ambiguous": 5,
+          "institutional_actor": 4,
+          "abstract_entity": 3,
+          "collective_actor": 2
+        }
+      }
+    },
+    "ambiguous_atoms": [
+      {
+        "constraint": "ai_superpowers_2026",
+        "atom": "conservative_cios"
+      },
+      {
+        "constraint": "anticipatory_capacity_failure",
+        "atom": "strategic_planners"
+      },
+      {
+        "constraint": "artificial_snow_2026",
+        "atom": "regional_water_reserves"
+      },
+      {
+        "constraint": "epstein_honeytrap",
+        "atom": "compromised_associates"
+      },
+      {
+        "constraint": "hegemonic_entropy_2026",
+        "atom": "fragmented_middle_class"
+      },
+      {
+        "constraint": "kjv_linguistic_residue",
+        "atom": "speakers_of_non_standard_dialects"
+      },
+      {
+        "constraint": "manganese_catalysis_2026",
+        "atom": "precious_metal_cartels"
+      },
+      {
+        "constraint": "milano_cortina_2026",
+        "atom": "none"
+      },
+      {
+        "constraint": "minnesota_sovereignty_2026",
+        "atom": "minnesota_civic_order"
+      },
+      {
+        "constraint": "narrative_engineering_2026",
+        "atom": "sensationalist_media_outlets"
+      },
+      {
+        "constraint": "nuclear_order_2026",
+        "atom": "non_combatant_populations"
+      },
+      {
+        "constraint": "second_order_unintended_consequences",
+        "atom": "policy_participant"
+      },
+      {
+        "constraint": "ship_of_theseus",
+        "atom": "believers_in_original_identity"
+      },
+      {
+        "constraint": "taxonomy_drift",
+        "atom": "non_categorical_subject"
+      },
+      {
+        "constraint": "ulysses_ithaca_1904",
+        "atom": "human_emotion"
+      },
+      {
+        "constraint": "ulysses_nausicaa_1904",
+        "atom": "gerty_macdowell"
+      },
+      {
+        "constraint": "ulysses_oxen_1904",
+        "atom": "mina_purefoy"
+      }
+    ],
+    "prolog_coverage": {
+      "covered": 114,
+      "total": 116,
+      "pct": 98.3
+    },
+    "sample_classifications": [
+      {
+        "constraint": "academic_fashion_modernism_2026",
+        "atom": "individual_scholars",
+        "actor_type": "individual_actor",
+        "matched_tokens": [
+          "individual"
+        ]
+      },
+      {
+        "constraint": "acip_hep_b_infant_mandate",
+        "atom": "low_risk_infants_and_parents",
+        "actor_type": "individual_actor",
+        "matched_tokens": [
+          "low"
+        ]
+      },
+      {
+        "constraint": "adversarial_truth_decay",
+        "atom": "information_consumers",
+        "actor_type": "individual_actor",
+        "matched_tokens": [
+          "consumers"
+        ]
+      },
+      {
+        "constraint": "agent_opt_2026",
+        "atom": "social_cohesion",
+        "actor_type": "abstract_entity",
+        "matched_tokens": [
+          "cohesion"
+        ]
+      },
+      {
+        "constraint": "ai_superpowers_2026",
+        "atom": "conservative_cios",
+        "actor_type": "ambiguous",
+        "matched_tokens": []
+      },
+      {
+        "constraint": "algorithmic_epistemic_capture",
+        "atom": "digital_consumers",
+        "actor_type": "individual_actor",
+        "matched_tokens": [
+          "consumers"
+        ]
+      },
+      {
+        "constraint": "alignment_tax_tradeoff",
+        "atom": "safety_engineers",
+        "actor_type": "collective_actor",
+        "matched_tokens": [
+          "engineers"
+        ]
+      },
+      {
+        "constraint": "alternative_sovereignty_scaffold",
+        "atom": "legacy_state_institutions",
+        "actor_type": "institutional_actor",
+        "matched_tokens": [
+          "state",
+          "institutions",
+          "legacy"
+        ]
+      },
+      {
+        "constraint": "altruistic_misery_paradox_2026",
+        "atom": "self_sacrificing_individual",
+        "actor_type": "individual_actor",
+        "matched_tokens": [
+          "individual"
+        ]
+      },
+      {
+        "constraint": "anticipatory_capacity_failure",
+        "atom": "strategic_planners",
+        "actor_type": "ambiguous",
+        "matched_tokens": []
+      }
+    ]
+  },
+  "step3_cross_reference": {
+    "proxy1_asymmetry": {
+      "by_claimed_type": {
+        "piton": {
+          "n": 95,
+          "mean": 0.573684,
+          "median": 1.0,
+          "std": 0.512827,
+          "min": -1.0,
+          "max": 1.0,
+          "q25": 0.0,
+          "q75": 1.0
+        },
+        "scaffold": {
+          "n": 21,
+          "mean": 0.1746,
+          "median": 0.0,
+          "std": 0.63927,
+          "min": -1.0,
+          "max": 1.0,
+          "q25": 0.0,
+          "q75": 1.0
+        }
+      },
+      "persistence_pattern_count": 64,
+      "functional_pattern_count": 4,
+      "neutral_count": 48,
+      "total": 116
+    },
+    "proxy2_tr_epsilon": {
+      "theatrical_persistence": {
+        "count": 60,
+        "pct": 51.7,
+        "epsilon_stats": {
+          "n": 60,
+          "mean": 0.662833,
+          "median": 0.735,
+          "std": 0.214461,
+          "min": 0.15,
+          "max": 0.92,
+          "q25": 0.51,
+          "q75": 0.84
+        },
+        "ids": [
+          "academic_fashion_modernism_2026",
+          "acip_hep_b_infant_mandate",
+          "adversarial_truth_decay",
+          "agent_opt_2026",
+          "algorithmic_epistemic_capture"
+        ]
+      },
+      "theatrical_function": {
+        "count": 35,
+        "pct": 30.2,
+        "epsilon_stats": {
+          "n": 35,
+          "mean": 0.572286,
+          "median": 0.55,
+          "std": 0.216572,
+          "min": 0.03,
+          "max": 0.89,
+          "q25": 0.48,
+          "q75": 0.75
+        },
+        "ids": [
+          "altruistic_misery_paradox_2026",
+          "anticipatory_capacity_failure",
+          "art_market_decoupling",
+          "artificial_snow_2026",
+          "asymmetric_burden_distribution"
+        ]
+      },
+      "active_persistence": {
+        "count": 7,
+        "pct": 6.0,
+        "epsilon_stats": {
+          "n": 7,
+          "mean": 0.368571,
+          "median": 0.35,
+          "std": 0.156061,
+          "min": 0.2,
+          "max": 0.64,
+          "q25": 0.2,
+          "q75": 0.52
+        },
+        "ids": [
+          "ai_superpowers_2026",
+          "finnish_ubi_experiment",
+          "isa_education_scaffold",
+          "mit_tfus_2026",
+          "portugal_ad_stability_2026"
+        ]
+      },
+      "active_function": {
+        "count": 14,
+        "pct": 12.1,
+        "epsilon_stats": {
+          "n": 14,
+          "mean": 0.190714,
+          "median": 0.165,
+          "std": 0.128922,
+          "min": 0.0,
+          "max": 0.48,
+          "q25": 0.1,
+          "q75": 0.25
+        },
+        "ids": [
+          "alternative_sovereignty_scaffold",
+          "artificial_scarcity_scaffold",
+          "asean_ceasefire_2011",
+          "boundary_protocol",
+          "canada_goose_realignment_2026"
+        ]
+      }
+    },
+    "proxy3_rae_beneficiary": {
+      "enforced_persistence": {
+        "count": 50,
+        "pct": 43.1,
+        "epsilon_stats": {
+          "n": 50,
+          "mean": 0.6844,
+          "median": 0.75,
+          "std": 0.191459,
+          "min": 0.2,
+          "max": 0.92,
+          "q25": 0.51,
+          "q75": 0.84
+        }
+      },
+      "enforced_function": {
+        "count": 30,
+        "pct": 25.9,
+        "epsilon_stats": {
+          "n": 30,
+          "mean": 0.568333,
+          "median": 0.535,
+          "std": 0.212086,
+          "min": 0.04,
+          "max": 0.89,
+          "q25": 0.48,
+          "q75": 0.75
+        }
+      },
+      "emergent_persistence": {
+        "count": 17,
+        "pct": 14.7,
+        "epsilon_stats": {
+          "n": 17,
+          "mean": 0.478235,
+          "median": 0.52,
+          "std": 0.254471,
+          "min": 0.15,
+          "max": 0.85,
+          "q25": 0.22,
+          "q75": 0.68
+        }
+      },
+      "emergent_function": {
+        "count": 19,
+        "pct": 16.4,
+        "epsilon_stats": {
+          "n": 19,
+          "mean": 0.297368,
+          "median": 0.18,
+          "std": 0.243523,
+          "min": 0.0,
+          "max": 0.72,
+          "q25": 0.11,
+          "q75": 0.48
+        }
+      }
+    },
+    "sample_asymmetry": {
+      "academic_fashion_modernism_2026": {
+        "asymmetry": 1.0,
+        "ben_inst_frac": 1.0,
+        "vic_inst_frac": 0.0
+      },
+      "acip_hep_b_infant_mandate": {
+        "asymmetry": 1.0,
+        "ben_inst_frac": 1.0,
+        "vic_inst_frac": 0.0
+      },
+      "adversarial_truth_decay": {
+        "asymmetry": 1.0,
+        "ben_inst_frac": 1.0,
+        "vic_inst_frac": 0.0
+      },
+      "agent_opt_2026": {
+        "asymmetry": 1.0,
+        "ben_inst_frac": 1.0,
+        "vic_inst_frac": 0.0
+      },
+      "ai_superpowers_2026": {
+        "asymmetry": 1.0,
+        "ben_inst_frac": 1.0,
+        "vic_inst_frac": 0.0
+      },
+      "algorithmic_epistemic_capture": {
+        "asymmetry": 1.0,
+        "ben_inst_frac": 1.0,
+        "vic_inst_frac": 0.0
+      },
+      "alignment_tax_tradeoff": {
+        "asymmetry": 1.0,
+        "ben_inst_frac": 1.0,
+        "vic_inst_frac": 0.0
+      },
+      "alternative_sovereignty_scaffold": {
+        "asymmetry": -1.0,
+        "ben_inst_frac": 0.0,
+        "vic_inst_frac": 1.0
+      },
+      "altruistic_misery_paradox_2026": {
+        "asymmetry": 0.0,
+        "ben_inst_frac": 0.0,
+        "vic_inst_frac": 0.0
+      },
+      "anticipatory_capacity_failure": {
+        "asymmetry": 0.0,
+        "ben_inst_frac": 0.0,
+        "vic_inst_frac": 0.0
+      }
+    }
+  },
+  "step4_scaffold_assessment": {
+    "per_scaffold": [
+      {
+        "id": "ai_superpowers_2026",
+        "human_readable": "The Sino-American AI Implementation Gap",
+        "epsilon": 0.64,
+        "suppression": 0.7,
+        "theater_ratio": 0.45,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "ambiguous",
+        "has_sunset_clause": true,
+        "coordination_type": null,
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "risk_score": 2,
+        "risk_band": "medium",
+        "risk_signals": [
+          "institutional_beneficiary",
+          "epsilon_exceeds_ceiling"
+        ]
+      },
+      {
+        "id": "alternative_sovereignty_scaffold",
+        "human_readable": "The Decentralized Parallel",
+        "epsilon": 0.22,
+        "suppression": 0.35,
+        "theater_ratio": 0.1,
+        "dominant_beneficiary_type": "individual_actor",
+        "dominant_victim_type": "institutional_actor",
+        "has_sunset_clause": true,
+        "coordination_type": "global_infrastructure",
+        "requires_active_enforcement": true,
+        "intercepted": false,
+        "risk_score": 0,
+        "risk_band": "low",
+        "risk_signals": []
+      },
+      {
+        "id": "artificial_scarcity_scaffold",
+        "human_readable": "The Resource-Migration Scaffold",
+        "epsilon": 0.48,
+        "suppression": 0.75,
+        "theater_ratio": 0.2,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "individual_actor",
+        "has_sunset_clause": true,
+        "coordination_type": "resource_allocation",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "risk_score": 1,
+        "risk_band": "low",
+        "risk_signals": [
+          "epsilon_exceeds_ceiling"
+        ]
+      },
+      {
+        "id": "asean_ceasefire_2011",
+        "human_readable": "2011 ASEAN-mediated Thai-Cambodian Ceasefire Agreement",
+        "epsilon": 0.15,
+        "suppression": 0.25,
+        "theater_ratio": 0.2,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "collective_actor",
+        "has_sunset_clause": true,
+        "coordination_type": "enforcement_mechanism",
+        "requires_active_enforcement": true,
+        "intercepted": false,
+        "risk_score": 1,
+        "risk_band": "low",
+        "risk_signals": [
+          "enforcement_mechanism_coord"
+        ]
+      },
+      {
+        "id": "boundary_protocol",
+        "human_readable": "The Self-Enforced Boundary Protocol",
+        "epsilon": 0.0,
+        "suppression": 0.1,
+        "theater_ratio": 0.05,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "ambiguous",
+        "has_sunset_clause": true,
+        "coordination_type": "information_standard",
+        "requires_active_enforcement": false,
+        "intercepted": false,
+        "risk_score": 0,
+        "risk_band": "low",
+        "risk_signals": []
+      },
+      {
+        "id": "canada_goose_realignment_2026",
+        "human_readable": "Canada Goose Strategic Realignment Under New Leadership (2026)",
+        "epsilon": 0.25,
+        "suppression": 0.15,
+        "theater_ratio": 0.6,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "ambiguous",
+        "has_sunset_clause": true,
+        "coordination_type": "resource_allocation",
+        "requires_active_enforcement": false,
+        "intercepted": false,
+        "risk_score": 0,
+        "risk_band": "low",
+        "risk_signals": []
+      },
+      {
+        "id": "cinderella_midnight_deadline",
+        "human_readable": "The Fairy Godmother's Midnight Deadline",
+        "epsilon": 0.1,
+        "suppression": 0.9,
+        "theater_ratio": 0.12,
+        "dominant_beneficiary_type": "individual_actor",
+        "dominant_victim_type": "individual_actor",
+        "has_sunset_clause": true,
+        "coordination_type": "resource_allocation",
+        "requires_active_enforcement": false,
+        "intercepted": false,
+        "risk_score": 0,
+        "risk_band": "low",
+        "risk_signals": []
+      },
+      {
+        "id": "coffee_cardiovascular_2026",
+        "human_readable": "The Caffeine Paradox Realignment",
+        "epsilon": 0.12,
+        "suppression": 0.4,
+        "theater_ratio": 0.1,
+        "dominant_beneficiary_type": "individual_actor",
+        "dominant_victim_type": "abstract_entity",
+        "has_sunset_clause": true,
+        "coordination_type": null,
+        "requires_active_enforcement": false,
+        "intercepted": false,
+        "risk_score": 0,
+        "risk_band": "low",
+        "risk_signals": []
+      },
+      {
+        "id": "erasmus_rejoining_scaffold",
+        "human_readable": "UK's potential re-entry into the EU Erasmus+ student exchange program",
+        "epsilon": 0.28,
+        "suppression": 0.2,
+        "theater_ratio": 0.25,
+        "dominant_beneficiary_type": "individual_actor",
+        "dominant_victim_type": "individual_actor",
+        "has_sunset_clause": true,
+        "coordination_type": "resource_allocation",
+        "requires_active_enforcement": true,
+        "intercepted": false,
+        "risk_score": 0,
+        "risk_band": "low",
+        "risk_signals": []
+      },
+      {
+        "id": "finnish_ubi_experiment",
+        "human_readable": "Finnish Basic Income Experiment (2017-2018)",
+        "epsilon": 0.2,
+        "suppression": 0.35,
+        "theater_ratio": 0.15,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "has_sunset_clause": true,
+        "coordination_type": "resource_allocation",
+        "requires_active_enforcement": true,
+        "intercepted": false,
+        "risk_score": 1,
+        "risk_band": "low",
+        "risk_signals": [
+          "institutional_beneficiary"
+        ]
+      },
+      {
+        "id": "fmt_oncology_2026",
+        "human_readable": "FMT Immunotherapy Realignment",
+        "epsilon": 0.18,
+        "suppression": 0.45,
+        "theater_ratio": 0.12,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "abstract_entity",
+        "has_sunset_clause": true,
+        "coordination_type": null,
+        "requires_active_enforcement": false,
+        "intercepted": false,
+        "risk_score": 0,
+        "risk_band": "low",
+        "risk_signals": []
+      },
+      {
+        "id": "ice_memory_archive",
+        "human_readable": "The imperative to create a global ice core archive before glaciers melt.",
+        "epsilon": 0.1,
+        "suppression": 0.95,
+        "theater_ratio": 0.05,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "collective_actor",
+        "has_sunset_clause": true,
+        "coordination_type": "global_infrastructure",
+        "requires_active_enforcement": false,
+        "intercepted": false,
+        "risk_score": 0,
+        "risk_band": "low",
+        "risk_signals": []
+      },
+      {
+        "id": "isa_education_scaffold",
+        "human_readable": "Income Share Agreement (ISA) Funding for Education",
+        "epsilon": 0.42,
+        "suppression": 0.45,
+        "theater_ratio": 0.2,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "has_sunset_clause": true,
+        "coordination_type": "resource_allocation",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "risk_score": 2,
+        "risk_band": "medium",
+        "risk_signals": [
+          "institutional_beneficiary",
+          "epsilon_exceeds_ceiling"
+        ]
+      },
+      {
+        "id": "maha_recovery_2026",
+        "human_readable": "The MAHA Initiative (Great American Recovery)",
+        "epsilon": 0.42,
+        "suppression": 0.35,
+        "theater_ratio": 0.65,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "institutional_actor",
+        "has_sunset_clause": true,
+        "coordination_type": null,
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "risk_score": 1,
+        "risk_band": "low",
+        "risk_signals": [
+          "epsilon_exceeds_ceiling"
+        ]
+      },
+      {
+        "id": "manganese_catalysis_2026",
+        "human_readable": "Manganese-Formate Fuel Pathway",
+        "epsilon": 0.18,
+        "suppression": 0.25,
+        "theater_ratio": 0.08,
+        "dominant_beneficiary_type": "abstract_entity",
+        "dominant_victim_type": "ambiguous",
+        "has_sunset_clause": true,
+        "coordination_type": null,
+        "requires_active_enforcement": false,
+        "intercepted": false,
+        "risk_score": 0,
+        "risk_band": "low",
+        "risk_signals": []
+      },
+      {
+        "id": "mit_tfus_2026",
+        "human_readable": "MIT tFUS Causal Consciousness Roadmap",
+        "epsilon": 0.52,
+        "suppression": 0.84,
+        "theater_ratio": 0.12,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "abstract_entity",
+        "has_sunset_clause": true,
+        "coordination_type": null,
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "risk_score": 2,
+        "risk_band": "medium",
+        "risk_signals": [
+          "institutional_beneficiary",
+          "epsilon_exceeds_ceiling"
+        ]
+      },
+      {
+        "id": "narrative_engineering_2026",
+        "human_readable": "The Narrative Engineering Stabilization Signal",
+        "epsilon": 0.15,
+        "suppression": 0.45,
+        "theater_ratio": 0.05,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "ambiguous",
+        "has_sunset_clause": true,
+        "coordination_type": null,
+        "requires_active_enforcement": false,
+        "intercepted": false,
+        "risk_score": 0,
+        "risk_band": "low",
+        "risk_signals": []
+      },
+      {
+        "id": "portugal_ad_stability_2026",
+        "human_readable": "The AD Minority Government Stability (The \"Presidential\" Scaffold)",
+        "epsilon": 0.35,
+        "suppression": 0.45,
+        "theater_ratio": 0.3,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "has_sunset_clause": true,
+        "coordination_type": "enforcement_mechanism",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "risk_score": 3,
+        "risk_band": "high",
+        "risk_signals": [
+          "institutional_beneficiary",
+          "enforcement_mechanism_coord",
+          "epsilon_exceeds_ceiling"
+        ]
+      },
+      {
+        "id": "rn_proteus_adoption",
+        "human_readable": "Royal Navy's adoption of the Leonardo Proteus uncrewed helicopter",
+        "epsilon": 0.2,
+        "suppression": 0.35,
+        "theater_ratio": 0.15,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "has_sunset_clause": true,
+        "coordination_type": "resource_allocation",
+        "requires_active_enforcement": true,
+        "intercepted": false,
+        "risk_score": 1,
+        "risk_band": "low",
+        "risk_signals": [
+          "institutional_beneficiary"
+        ]
+      },
+      {
+        "id": "silklink_2026",
+        "human_readable": "SilkLink Syria-Saudi Telecom Project",
+        "epsilon": 0.25,
+        "suppression": 0.4,
+        "theater_ratio": 0.15,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "institutional_actor",
+        "has_sunset_clause": true,
+        "coordination_type": null,
+        "requires_active_enforcement": false,
+        "intercepted": false,
+        "risk_score": 1,
+        "risk_band": "low",
+        "risk_signals": [
+          "institutional_beneficiary"
+        ]
+      },
+      {
+        "id": "swift_piton_snap",
+        "human_readable": "The Great Decoupling",
+        "epsilon": 0.04,
+        "suppression": 0.1,
+        "theater_ratio": 0.05,
+        "dominant_beneficiary_type": "individual_actor",
+        "dominant_victim_type": "institutional_actor",
+        "has_sunset_clause": true,
+        "coordination_type": "global_infrastructure",
+        "requires_active_enforcement": true,
+        "intercepted": false,
+        "risk_score": 0,
+        "risk_band": "low",
+        "risk_signals": []
+      }
+    ],
+    "summary": {
+      "total": 21,
+      "high_risk": 1,
+      "medium_risk": 3,
+      "low_risk": 17,
+      "intercepted_count": 6,
+      "sunset_clause_count": 21,
+      "coord_type_coverage": 13
+    }
+  },
+  "step5_degradation_assessment": {
+    "summary": {
+      "total": 95,
+      "terminal": 70,
+      "degrading": 16,
+      "transitional": 9
+    },
+    "signal_frequency": {
+      "high_theater_ratio": 95,
+      "requires_active_enforcement": 71,
+      "institutional_beneficiary": 60,
+      "individual_victim": 56
+    },
+    "metric_stats_by_classification": {
+      "terminal": {
+        "count": 70,
+        "epsilon": {
+          "n": 70,
+          "mean": 0.653714,
+          "median": 0.7,
+          "std": 0.200208,
+          "min": 0.15,
+          "max": 0.92,
+          "q25": 0.5,
+          "q75": 0.84
+        },
+        "suppression": {
+          "n": 70,
+          "mean": 0.719571,
+          "median": 0.75,
+          "std": 0.158488,
+          "min": 0.1,
+          "max": 0.96,
+          "q25": 0.65,
+          "q75": 0.82
+        },
+        "theater_ratio": {
+          "n": 70,
+          "mean": 0.847,
+          "median": 0.85,
+          "std": 0.069,
+          "min": 0.72,
+          "max": 0.99,
+          "q25": 0.8,
+          "q75": 0.9
+        },
+        "intercepted_count": 70
+      },
+      "degrading": {
+        "count": 16,
+        "epsilon": {
+          "n": 16,
+          "mean": 0.660625,
+          "median": 0.69,
+          "std": 0.183455,
+          "min": 0.3,
+          "max": 0.85,
+          "q25": 0.55,
+          "q75": 0.85
+        },
+        "suppression": {
+          "n": 16,
+          "mean": 0.6775,
+          "median": 0.725,
+          "std": 0.241286,
+          "min": 0.1,
+          "max": 0.95,
+          "q25": 0.65,
+          "q75": 0.89
+        },
+        "theater_ratio": {
+          "n": 16,
+          "mean": 0.8525,
+          "median": 0.865,
+          "std": 0.082727,
+          "min": 0.74,
+          "max": 0.98,
+          "q25": 0.76,
+          "q75": 0.94
+        },
+        "intercepted_count": 16
+      },
+      "transitional": {
+        "count": 9,
+        "epsilon": {
+          "n": 9,
+          "mean": 0.385556,
+          "median": 0.35,
+          "std": 0.267918,
+          "min": 0.03,
+          "max": 0.72,
+          "q25": 0.12,
+          "q75": 0.72
+        },
+        "suppression": {
+          "n": 9,
+          "mean": 0.335556,
+          "median": 0.3,
+          "std": 0.271748,
+          "min": 0.04,
+          "max": 0.85,
+          "q25": 0.08,
+          "q75": 0.55
+        },
+        "theater_ratio": {
+          "n": 9,
+          "mean": 0.846667,
+          "median": 0.85,
+          "std": 0.069921,
+          "min": 0.78,
+          "max": 0.98,
+          "q25": 0.78,
+          "q75": 0.85
+        },
+        "intercepted_count": 9
+      }
+    },
+    "intercepted_by_classification": {
+      "terminal": 70,
+      "degrading": 16,
+      "transitional": 9
+    },
+    "passing_by_classification": {},
+    "all_pitons": [
+      {
+        "id": "academic_fashion_modernism_2026",
+        "epsilon": 0.68,
+        "suppression": 0.78,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "acip_hep_b_infant_mandate",
+        "epsilon": 0.18,
+        "suppression": 0.55,
+        "theater_ratio": 0.75,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "adversarial_truth_decay",
+        "epsilon": 0.89,
+        "suppression": 0.78,
+        "theater_ratio": 0.94,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "agent_opt_2026",
+        "epsilon": 0.7,
+        "suppression": 0.65,
+        "theater_ratio": 0.74,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "abstract_entity",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "algorithmic_epistemic_capture",
+        "epsilon": 0.85,
+        "suppression": 0.74,
+        "theater_ratio": 0.82,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "alignment_tax_tradeoff",
+        "epsilon": 0.84,
+        "suppression": 0.62,
+        "theater_ratio": 0.76,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "collective_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "altruistic_misery_paradox_2026",
+        "epsilon": 0.62,
+        "suppression": 0.68,
+        "theater_ratio": 0.75,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "anticipatory_capacity_failure",
+        "epsilon": 0.83,
+        "suppression": 0.71,
+        "theater_ratio": 0.9,
+        "dominant_beneficiary_type": "abstract_entity",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "art_market_decoupling",
+        "epsilon": 0.84,
+        "suppression": 0.75,
+        "theater_ratio": 0.92,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "artificial_snow_2026",
+        "epsilon": 0.48,
+        "suppression": 0.3,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "abstract_entity",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 1,
+        "classification": "transitional",
+        "signals": [
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "asymmetric_burden_distribution",
+        "epsilon": 0.89,
+        "suppression": 0.81,
+        "theater_ratio": 0.86,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "asymmetric_computational_difficulty",
+        "epsilon": 0.85,
+        "suppression": 0.7,
+        "theater_ratio": 0.75,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "collective_actor",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "atrophied_optimization_piton",
+        "epsilon": 0.48,
+        "suppression": 0.8,
+        "theater_ratio": 0.95,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "attention_as_bottleneck_resource",
+        "epsilon": 0.87,
+        "suppression": 0.76,
+        "theater_ratio": 0.84,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "autonomous_toolchain_sprawl",
+        "epsilon": 0.84,
+        "suppression": 0.68,
+        "theater_ratio": 0.79,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "boiled_pineapple_trend_2026",
+        "epsilon": 0.55,
+        "suppression": 0.6,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "boom_bust_path_dependency",
+        "epsilon": 0.22,
+        "suppression": 0.08,
+        "theater_ratio": 0.78,
+        "dominant_beneficiary_type": "individual_actor",
+        "dominant_victim_type": "abstract_entity",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 1,
+        "classification": "transitional",
+        "signals": [
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "bureaucratic_self_preservation",
+        "epsilon": 0.72,
+        "suppression": 0.8,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "capability_eval_overhang",
+        "epsilon": 0.83,
+        "suppression": 0.64,
+        "theater_ratio": 0.86,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "institutional_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "citation_collapse_dynamics",
+        "epsilon": 0.86,
+        "suppression": 0.75,
+        "theater_ratio": 0.92,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "collective_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "clawderberg_recursive_slop",
+        "epsilon": 0.85,
+        "suppression": 0.4,
+        "theater_ratio": 0.95,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "abstract_entity",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "communal_narcissism_social_trap",
+        "epsilon": 0.78,
+        "suppression": 0.65,
+        "theater_ratio": 0.88,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "coordination_attack_vulnerability",
+        "epsilon": 0.85,
+        "suppression": 0.76,
+        "theater_ratio": 0.91,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "collective_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "corporate_social_responsibility_theater",
+        "epsilon": 0.55,
+        "suppression": 0.65,
+        "theater_ratio": 0.8,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "crisis_signal_saturation",
+        "epsilon": 0.89,
+        "suppression": 0.82,
+        "theater_ratio": 0.93,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "cultural_refragmentation_2026",
+        "epsilon": 0.72,
+        "suppression": 0.85,
+        "theater_ratio": 0.78,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "abstract_entity",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 1,
+        "classification": "transitional",
+        "signals": [
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "elite_capture_2026",
+        "epsilon": 0.78,
+        "suppression": 0.82,
+        "theater_ratio": 0.94,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "abstract_entity",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "epstein_espionage_2026",
+        "epsilon": 0.68,
+        "suppression": 0.91,
+        "theater_ratio": 0.76,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "institutional_actor",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "epstein_files_2026",
+        "epsilon": 0.65,
+        "suppression": 0.89,
+        "theater_ratio": 0.78,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "abstract_entity",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "epstein_honeytrap",
+        "epsilon": 0.92,
+        "suppression": 0.88,
+        "theater_ratio": 0.82,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "erised_expectation",
+        "epsilon": 0.65,
+        "suppression": 0.7,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "fiscal_dominance_trap",
+        "epsilon": 0.87,
+        "suppression": 0.72,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "france_cordon_sanitaire_2026",
+        "epsilon": 0.42,
+        "suppression": 0.65,
+        "theater_ratio": 0.82,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "global_economic_anxiety_2026",
+        "epsilon": 0.68,
+        "suppression": 0.72,
+        "theater_ratio": 0.75,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "gold_piton_2026",
+        "epsilon": 0.2,
+        "suppression": 0.1,
+        "theater_ratio": 0.94,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "hegemonic_entropy_2026",
+        "epsilon": 0.72,
+        "suppression": 0.55,
+        "theater_ratio": 0.78,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 1,
+        "classification": "transitional",
+        "signals": [
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "hoa_covenants",
+        "epsilon": 0.55,
+        "suppression": 0.3,
+        "theater_ratio": 0.75,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "hollow_state_syndrome",
+        "epsilon": 0.87,
+        "suppression": 0.73,
+        "theater_ratio": 0.94,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "huang_expectation_resilience_2026",
+        "epsilon": 0.75,
+        "suppression": 0.65,
+        "theater_ratio": 0.82,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "institutional_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "infrastructure_interoperability_decay",
+        "epsilon": 0.86,
+        "suppression": 0.78,
+        "theater_ratio": 0.91,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "institutional_memory_loss",
+        "epsilon": 0.84,
+        "suppression": 0.73,
+        "theater_ratio": 0.91,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "institutional_trust_decay",
+        "epsilon": 0.68,
+        "suppression": 0.55,
+        "theater_ratio": 0.88,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "invisible_infrastructure_dependency",
+        "epsilon": 0.87,
+        "suppression": 0.82,
+        "theater_ratio": 0.91,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "juvenile_underclass_2026",
+        "epsilon": 0.75,
+        "suppression": 0.9,
+        "theater_ratio": 0.8,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "kjv_linguistic_residue",
+        "epsilon": 0.11,
+        "suppression": 0.2,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 1,
+        "classification": "transitional",
+        "signals": [
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "legacy_system_technical_debt",
+        "epsilon": 0.03,
+        "suppression": 0.04,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "abstract_entity",
+        "dominant_victim_type": "abstract_entity",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 1,
+        "classification": "transitional",
+        "signals": [
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "legal_formalism_overhang",
+        "epsilon": 0.83,
+        "suppression": 0.74,
+        "theater_ratio": 0.92,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "legitimacy_without_effectiveness",
+        "epsilon": 0.75,
+        "suppression": 0.82,
+        "theater_ratio": 0.91,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "litchfield_sensitive_locations_2026",
+        "epsilon": 0.78,
+        "suppression": 0.94,
+        "theater_ratio": 0.88,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "maintenance_capacity_shortfall",
+        "epsilon": 0.85,
+        "suppression": 0.73,
+        "theater_ratio": 0.9,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "mco_unit_system_discontinuity",
+        "epsilon": 0.3,
+        "suppression": 0.1,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "collective_actor",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "memetic_fitness_vs_truth",
+        "epsilon": 0.86,
+        "suppression": 0.75,
+        "theater_ratio": 0.88,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "meta_governance_overload",
+        "epsilon": 0.82,
+        "suppression": 0.75,
+        "theater_ratio": 0.94,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "collective_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "milano_cortina_2026",
+        "epsilon": 0.12,
+        "suppression": 0.05,
+        "theater_ratio": 0.98,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 1,
+        "classification": "transitional",
+        "signals": [
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "minnesota_sovereignty_2026",
+        "epsilon": 0.68,
+        "suppression": 0.92,
+        "theater_ratio": 0.75,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "moltbook_agent_theater",
+        "epsilon": 0.7,
+        "suppression": 0.45,
+        "theater_ratio": 0.9,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "institutional_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "moltbook_breach_2026",
+        "epsilon": 0.72,
+        "suppression": 0.65,
+        "theater_ratio": 0.95,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "abstract_entity",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 1,
+        "classification": "transitional",
+        "signals": [
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "narcissistic_ego_maintenance",
+        "epsilon": 0.75,
+        "suppression": 0.6,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "institutional_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "notary_ink_dependency",
+        "epsilon": 0.35,
+        "suppression": 0.88,
+        "theater_ratio": 0.92,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "collective_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "nuclear_order_2026",
+        "epsilon": 0.55,
+        "suppression": 0.88,
+        "theater_ratio": 0.72,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "other_peoples_troubles_2026",
+        "epsilon": 0.75,
+        "suppression": 0.8,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "policy_lag_catastrophe",
+        "epsilon": 0.88,
+        "suppression": 0.76,
+        "theater_ratio": 0.82,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "abstract_entity",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "prestige_signal_inflation",
+        "epsilon": 0.81,
+        "suppression": 0.7,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "collective_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "procedural_compliance_theater",
+        "epsilon": 0.58,
+        "suppression": 0.75,
+        "theater_ratio": 0.88,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "railway_gauge_standard",
+        "epsilon": 0.3,
+        "suppression": 0.2,
+        "theater_ratio": 0.75,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "collective_actor",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "riot_incentive_loop_2026",
+        "epsilon": 0.82,
+        "suppression": 0.85,
+        "theater_ratio": 0.9,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "rule_update_failure",
+        "epsilon": 0.72,
+        "suppression": 0.58,
+        "theater_ratio": 0.75,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "second_order_unintended_consequences",
+        "epsilon": 0.85,
+        "suppression": 0.73,
+        "theater_ratio": 0.9,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "shadow_pricing_failure",
+        "epsilon": 0.82,
+        "suppression": 0.75,
+        "theater_ratio": 0.72,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "collective_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ship_of_theseus",
+        "epsilon": 0.35,
+        "suppression": 0.3,
+        "theater_ratio": 0.8,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 1,
+        "classification": "transitional",
+        "signals": [
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "structural_extraction_without_actor",
+        "epsilon": 0.78,
+        "suppression": 0.65,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "swift_legacy_piton",
+        "epsilon": 0.49,
+        "suppression": 0.9,
+        "theater_ratio": 0.75,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "collective_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "taxonomy_drift",
+        "epsilon": 0.76,
+        "suppression": 0.62,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "temporal_scarcity",
+        "epsilon": 0.15,
+        "suppression": 0.35,
+        "theater_ratio": 0.72,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "trajans_bridge_lifecycle",
+        "epsilon": 0.18,
+        "suppression": 0.2,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "ulysses_aeolus_1904",
+        "epsilon": 0.51,
+        "suppression": 0.75,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_calypso_1904",
+        "epsilon": 0.47,
+        "suppression": 0.6,
+        "theater_ratio": 0.75,
+        "dominant_beneficiary_type": "individual_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_circe_1904",
+        "epsilon": 0.58,
+        "suppression": 0.9,
+        "theater_ratio": 0.99,
+        "dominant_beneficiary_type": "abstract_entity",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_cyclops_1904",
+        "epsilon": 0.54,
+        "suppression": 0.88,
+        "theater_ratio": 0.92,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_eumaeus_1904",
+        "epsilon": 0.47,
+        "suppression": 0.7,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_hades_1904",
+        "epsilon": 0.49,
+        "suppression": 0.95,
+        "theater_ratio": 0.88,
+        "dominant_beneficiary_type": "collective_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_ithaca_1904",
+        "epsilon": 0.46,
+        "suppression": 0.95,
+        "theater_ratio": 0.95,
+        "dominant_beneficiary_type": "abstract_entity",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_lestrygonians_1904",
+        "epsilon": 0.5,
+        "suppression": 0.8,
+        "theater_ratio": 0.75,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_lotus_1904",
+        "epsilon": 0.48,
+        "suppression": 0.7,
+        "theater_ratio": 0.85,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_nausicaa_1904",
+        "epsilon": 0.49,
+        "suppression": 0.75,
+        "theater_ratio": 0.88,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_oxen_1904",
+        "epsilon": 0.55,
+        "suppression": 0.95,
+        "theater_ratio": 0.98,
+        "dominant_beneficiary_type": "abstract_entity",
+        "dominant_victim_type": "ambiguous",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 2,
+        "classification": "degrading",
+        "signals": [
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_penelope_1904",
+        "epsilon": 0.5,
+        "suppression": 0.96,
+        "theater_ratio": 0.97,
+        "dominant_beneficiary_type": "abstract_entity",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_proteus_1904",
+        "epsilon": 0.52,
+        "suppression": 0.85,
+        "theater_ratio": 0.72,
+        "dominant_beneficiary_type": "abstract_entity",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_rocks_1904",
+        "epsilon": 0.48,
+        "suppression": 0.75,
+        "theater_ratio": 0.82,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_school_1904",
+        "epsilon": 0.49,
+        "suppression": 0.72,
+        "theater_ratio": 0.78,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_scylla_1904",
+        "epsilon": 0.5,
+        "suppression": 0.7,
+        "theater_ratio": 0.9,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_sirens_1904",
+        "epsilon": 0.53,
+        "suppression": 0.82,
+        "theater_ratio": 0.89,
+        "dominant_beneficiary_type": "ambiguous",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "ulysses_tower_1904",
+        "epsilon": 0.48,
+        "suppression": 0.65,
+        "theater_ratio": 0.82,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      },
+      {
+        "id": "womens_sizing_chaos",
+        "epsilon": 0.22,
+        "suppression": 0.65,
+        "theater_ratio": 0.8,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": false,
+        "intercepted": true,
+        "terminal_score": 3,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio"
+        ]
+      },
+      {
+        "id": "world_factbook_sunset_2026",
+        "epsilon": 0.7,
+        "suppression": 0.85,
+        "theater_ratio": 0.72,
+        "dominant_beneficiary_type": "institutional_actor",
+        "dominant_victim_type": "individual_actor",
+        "requires_active_enforcement": true,
+        "intercepted": true,
+        "terminal_score": 4,
+        "classification": "terminal",
+        "signals": [
+          "institutional_beneficiary",
+          "individual_victim",
+          "high_theater_ratio",
+          "requires_active_enforcement"
+        ]
+      }
+    ]
+  },
+  "step6_scaffold_lifecycle": {
+    "per_scaffold": [
+      {
+        "id": "ai_superpowers_2026",
+        "human_readable": "The Sino-American AI Implementation Gap",
+        "epsilon": 0.64,
+        "lifecycle": "calcifying",
+        "temporary_score": 1,
+        "calcified_score": 2,
+        "temporary_signals": [
+          "has_sunset_clause"
+        ],
+        "calcified_signals": [
+          "institutional_beneficiary",
+          "epsilon_exceeds_ceiling"
+        ],
+        "intercepted": true
+      },
+      {
+        "id": "alternative_sovereignty_scaffold",
+        "human_readable": "The Decentralized Parallel",
+        "epsilon": 0.22,
+        "lifecycle": "genuinely_temporary",
+        "temporary_score": 4,
+        "calcified_score": 0,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "non_institutional_beneficiary",
+          "epsilon_within_ceiling",
+          "coord_type_global_infrastructure"
+        ],
+        "calcified_signals": [],
+        "intercepted": false
+      },
+      {
+        "id": "artificial_scarcity_scaffold",
+        "human_readable": "The Resource-Migration Scaffold",
+        "epsilon": 0.48,
+        "lifecycle": "likely_temporary",
+        "temporary_score": 2,
+        "calcified_score": 1,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "coord_type_resource_allocation"
+        ],
+        "calcified_signals": [
+          "epsilon_exceeds_ceiling"
+        ],
+        "intercepted": true
+      },
+      {
+        "id": "asean_ceasefire_2011",
+        "human_readable": "2011 ASEAN-mediated Thai-Cambodian Ceasefire Agreement",
+        "epsilon": 0.15,
+        "lifecycle": "genuinely_temporary",
+        "temporary_score": 3,
+        "calcified_score": 1,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "non_institutional_beneficiary",
+          "epsilon_within_ceiling"
+        ],
+        "calcified_signals": [
+          "enforcement_mechanism_coord"
+        ],
+        "intercepted": false
+      },
+      {
+        "id": "boundary_protocol",
+        "human_readable": "The Self-Enforced Boundary Protocol",
+        "epsilon": 0.0,
+        "lifecycle": "likely_temporary",
+        "temporary_score": 2,
+        "calcified_score": 0,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "epsilon_within_ceiling"
+        ],
+        "calcified_signals": [],
+        "intercepted": false
+      },
+      {
+        "id": "canada_goose_realignment_2026",
+        "human_readable": "Canada Goose Strategic Realignment Under New Leadership (2026)",
+        "epsilon": 0.25,
+        "lifecycle": "genuinely_temporary",
+        "temporary_score": 4,
+        "calcified_score": 0,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "non_institutional_beneficiary",
+          "epsilon_within_ceiling",
+          "coord_type_resource_allocation"
+        ],
+        "calcified_signals": [],
+        "intercepted": false
+      },
+      {
+        "id": "cinderella_midnight_deadline",
+        "human_readable": "The Fairy Godmother's Midnight Deadline",
+        "epsilon": 0.1,
+        "lifecycle": "genuinely_temporary",
+        "temporary_score": 4,
+        "calcified_score": 0,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "non_institutional_beneficiary",
+          "epsilon_within_ceiling",
+          "coord_type_resource_allocation"
+        ],
+        "calcified_signals": [],
+        "intercepted": false
+      },
+      {
+        "id": "coffee_cardiovascular_2026",
+        "human_readable": "The Caffeine Paradox Realignment",
+        "epsilon": 0.12,
+        "lifecycle": "genuinely_temporary",
+        "temporary_score": 3,
+        "calcified_score": 0,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "non_institutional_beneficiary",
+          "epsilon_within_ceiling"
+        ],
+        "calcified_signals": [],
+        "intercepted": false
+      },
+      {
+        "id": "erasmus_rejoining_scaffold",
+        "human_readable": "UK's potential re-entry into the EU Erasmus+ student exchange program",
+        "epsilon": 0.28,
+        "lifecycle": "genuinely_temporary",
+        "temporary_score": 4,
+        "calcified_score": 0,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "non_institutional_beneficiary",
+          "epsilon_within_ceiling",
+          "coord_type_resource_allocation"
+        ],
+        "calcified_signals": [],
+        "intercepted": false
+      },
+      {
+        "id": "finnish_ubi_experiment",
+        "human_readable": "Finnish Basic Income Experiment (2017-2018)",
+        "epsilon": 0.2,
+        "lifecycle": "genuinely_temporary",
+        "temporary_score": 3,
+        "calcified_score": 1,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "epsilon_within_ceiling",
+          "coord_type_resource_allocation"
+        ],
+        "calcified_signals": [
+          "institutional_beneficiary"
+        ],
+        "intercepted": false
+      },
+      {
+        "id": "fmt_oncology_2026",
+        "human_readable": "FMT Immunotherapy Realignment",
+        "epsilon": 0.18,
+        "lifecycle": "likely_temporary",
+        "temporary_score": 2,
+        "calcified_score": 0,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "epsilon_within_ceiling"
+        ],
+        "calcified_signals": [],
+        "intercepted": false
+      },
+      {
+        "id": "ice_memory_archive",
+        "human_readable": "The imperative to create a global ice core archive before glaciers melt.",
+        "epsilon": 0.1,
+        "lifecycle": "genuinely_temporary",
+        "temporary_score": 4,
+        "calcified_score": 0,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "non_institutional_beneficiary",
+          "epsilon_within_ceiling",
+          "coord_type_global_infrastructure"
+        ],
+        "calcified_signals": [],
+        "intercepted": false
+      },
+      {
+        "id": "isa_education_scaffold",
+        "human_readable": "Income Share Agreement (ISA) Funding for Education",
+        "epsilon": 0.42,
+        "lifecycle": "ambiguous_lifecycle",
+        "temporary_score": 2,
+        "calcified_score": 2,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "coord_type_resource_allocation"
+        ],
+        "calcified_signals": [
+          "institutional_beneficiary",
+          "epsilon_exceeds_ceiling"
+        ],
+        "intercepted": true
+      },
+      {
+        "id": "maha_recovery_2026",
+        "human_readable": "The MAHA Initiative (Great American Recovery)",
+        "epsilon": 0.42,
+        "lifecycle": "likely_temporary",
+        "temporary_score": 2,
+        "calcified_score": 1,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "non_institutional_beneficiary"
+        ],
+        "calcified_signals": [
+          "epsilon_exceeds_ceiling"
+        ],
+        "intercepted": true
+      },
+      {
+        "id": "manganese_catalysis_2026",
+        "human_readable": "Manganese-Formate Fuel Pathway",
+        "epsilon": 0.18,
+        "lifecycle": "genuinely_temporary",
+        "temporary_score": 3,
+        "calcified_score": 0,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "non_institutional_beneficiary",
+          "epsilon_within_ceiling"
+        ],
+        "calcified_signals": [],
+        "intercepted": false
+      },
+      {
+        "id": "mit_tfus_2026",
+        "human_readable": "MIT tFUS Causal Consciousness Roadmap",
+        "epsilon": 0.52,
+        "lifecycle": "calcifying",
+        "temporary_score": 1,
+        "calcified_score": 2,
+        "temporary_signals": [
+          "has_sunset_clause"
+        ],
+        "calcified_signals": [
+          "institutional_beneficiary",
+          "epsilon_exceeds_ceiling"
+        ],
+        "intercepted": true
+      },
+      {
+        "id": "narrative_engineering_2026",
+        "human_readable": "The Narrative Engineering Stabilization Signal",
+        "epsilon": 0.15,
+        "lifecycle": "genuinely_temporary",
+        "temporary_score": 3,
+        "calcified_score": 0,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "non_institutional_beneficiary",
+          "epsilon_within_ceiling"
+        ],
+        "calcified_signals": [],
+        "intercepted": false
+      },
+      {
+        "id": "portugal_ad_stability_2026",
+        "human_readable": "The AD Minority Government Stability (The \"Presidential\" Scaffold)",
+        "epsilon": 0.35,
+        "lifecycle": "calcified",
+        "temporary_score": 1,
+        "calcified_score": 3,
+        "temporary_signals": [
+          "has_sunset_clause"
+        ],
+        "calcified_signals": [
+          "institutional_beneficiary",
+          "epsilon_exceeds_ceiling",
+          "enforcement_mechanism_coord"
+        ],
+        "intercepted": true
+      },
+      {
+        "id": "rn_proteus_adoption",
+        "human_readable": "Royal Navy's adoption of the Leonardo Proteus uncrewed helicopter",
+        "epsilon": 0.2,
+        "lifecycle": "genuinely_temporary",
+        "temporary_score": 3,
+        "calcified_score": 1,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "epsilon_within_ceiling",
+          "coord_type_resource_allocation"
+        ],
+        "calcified_signals": [
+          "institutional_beneficiary"
+        ],
+        "intercepted": false
+      },
+      {
+        "id": "silklink_2026",
+        "human_readable": "SilkLink Syria-Saudi Telecom Project",
+        "epsilon": 0.25,
+        "lifecycle": "likely_temporary",
+        "temporary_score": 2,
+        "calcified_score": 1,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "epsilon_within_ceiling"
+        ],
+        "calcified_signals": [
+          "institutional_beneficiary"
+        ],
+        "intercepted": false
+      },
+      {
+        "id": "swift_piton_snap",
+        "human_readable": "The Great Decoupling",
+        "epsilon": 0.04,
+        "lifecycle": "genuinely_temporary",
+        "temporary_score": 4,
+        "calcified_score": 0,
+        "temporary_signals": [
+          "has_sunset_clause",
+          "non_institutional_beneficiary",
+          "epsilon_within_ceiling",
+          "coord_type_global_infrastructure"
+        ],
+        "calcified_signals": [],
+        "intercepted": false
+      }
+    ],
+    "summary": {
+      "total": 21,
+      "genuinely_temporary": 12,
+      "likely_temporary": 5,
+      "ambiguous_lifecycle": 1,
+      "calcifying": 2,
+      "calcified": 1
+    }
+  },
+  "step7_verdict": {
+    "piton_verdict": {
+      "total": 95,
+      "intercepted": 95,
+      "passing": 0,
+      "terminal": 70,
+      "degrading": 16,
+      "transitional": 9,
+      "dead_coordination_frac": 0.9053,
+      "active_coordination_frac": 0.0947
+    },
+    "scaffold_verdict": {
+      "total": 21,
+      "intercepted": 6,
+      "genuinely_temporary": 17,
+      "calcified": 3,
+      "temporary_frac": 0.8095,
+      "calcification_frac": 0.1429
+    },
+    "cross_type": {
+      "beneficiary_type_by_interception": {
+        "intercepted": {
+          "institutional_actor": 64,
+          "ambiguous": 18,
+          "abstract_entity": 8,
+          "collective_actor": 9,
+          "individual_actor": 2
+        },
+        "passing": {
+          "individual_actor": 5,
+          "collective_actor": 4,
+          "ambiguous": 2,
+          "institutional_actor": 3,
+          "abstract_entity": 1
+        }
+      },
+      "intercepted_asymmetry_stats": {
+        "n": 101,
+        "mean": 0.569307,
+        "median": 1.0,
+        "std": 0.531343,
+        "min": -1.0,
+        "max": 1.0,
+        "q25": 0.0,
+        "q75": 1.0
+      },
+      "passing_asymmetry_stats": {
+        "n": 15,
+        "mean": 0.04444,
+        "median": 0.0,
+        "std": 0.528681,
+        "min": -1.0,
+        "max": 1.0,
+        "q25": 0.0,
+        "q75": 0.3333
+      }
+    },
+    "key_findings": [
+      "90.5% of pitons show dead/degrading coordination (terminal+degrading). The ontology may need a wider piton definition or an 'extractive piton' subtype.",
+      "81.0% of scaffolds appear genuinely temporary. The scaffold extraction ceiling may be too low for legitimate transition costs.",
+      "Proxy 2 (TR\u00d7beneficiary-type): 60 constraints show 'theatrical persistence' (high-TR + institutional beneficiary) vs 35 showing 'theatrical function'. The theatrical persistence pattern dominates."
+    ],
+    "recommendations": [
+      "Consider an 'extractive piton' subtype for high-epsilon pitons with dead coordination \u2014 these differ from classic low-extraction pitons.",
+      "Consider adding 'coordination vitality' as a formal axis in the taxonomy. The binary has_coordination_function gate misses the functional/persistence distinction that this diagnostic reveals."
+    ]
+  }
+}
