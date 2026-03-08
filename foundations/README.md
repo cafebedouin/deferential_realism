@@ -4,8 +4,8 @@
 
 ## Start Here
 
-**[core_v4_1.md](core_v4_1.md)** (~5,000 words) - Current compressed introduction to the framework
-- Six constraint categories (Mountain, Rope, Tangled Rope, Snare, Scaffold, Piton)
+**[core_v4.2.md](core_v4.2.md)** (~5,000 words) - Current compressed introduction to the framework
+- Seven constraint categories (Mountain, Rope, Tangled Rope, Snare, Scaffold, Piton, Naturalized)
 - Four indexical parameters (WHO, WHEN, WHERE, HOW_MUCH)
 - Power-scaling mechanism
 - One worked example (carbon credits from multiple perspectives)
@@ -86,6 +86,14 @@ Threshold values and decision boundaries:
 ### **[logic_index.md](logic_index.md)**
 Navigation index for the logic layer:
 - Maps concepts to their locations across logic.md, logic_extensions.md, and logic_thresholds.md
+
+### **[prolog_v6.2.md](prolog_v6.2.md)** (formal mathematical framework)
+Axioms and consequences of observer-dependent classification:
+- Presheaf formalization (classification as functor on observer contexts)
+- Three-layer separation: axioms, theorems, empirical observations
+- Power-modulated perception as core hypothesis
+- Institutional observer spectral weight (97%)
+- Cross-corpus convergence validation
 
 ### **[metrics_as_routing.md](metrics_as_routing.md)**
 Epistemological clarification of framework metrics:
@@ -168,9 +176,9 @@ Institutional constraint navigation:
 
 ## Applied Practice
 
-Located in [`application/`](application/)
+Located in [`../application/`](../application/)
 
-### **[application/applied_guide.md](application/applied_guide.md)** (~6,700 words)
+### **[application/applied_guide.md](../application/applied_guide.md)** (~6,700 words)
 Practical classification manual:
 - Decision trees for real-world classification
 - Common misclassifications and corrections
@@ -178,34 +186,34 @@ Practical classification manual:
 - Case studies from multiple domains
 - When to act vs. investigate vs. observe
 
-### **[tools/uke_suite/claims_evaluator.md](tools/uke_suite/claims_evaluator.md)** (UKE_DR Protocol)
+### **[tools/uke_suite/claims_evaluator.md](../tools/uke_suite/claims_evaluator.md)** (UKE_DR Protocol)
 Reality-check for recommendations and proposals:
 - Post-generation audit tool
 - Detects fantasy recommendations ignoring constraints
 - Prevents advocacy disguised as analysis
 - Pipeline: Draft → Claims Evaluation → Revision
 
-### **[tools/uke_suite/diagnostic_evaluator.md](tools/uke_suite/diagnostic_evaluator.md)** (Constraint Evaluator v2.0)
+### **[tools/uke_suite/diagnostic_evaluator.md](../tools/uke_suite/diagnostic_evaluator.md)** (Constraint Evaluator v2.0)
 Mathematical stress testing:
 - Force narratives to survive numerical confrontation
 - Expose rationalization, hallucination, miracles
 - Gauge stance: math as resistance, not scenery
 - τ_fail boundary testing protocols
 
-### **[application/beliefs/individual_belief_battery.md](application/beliefs/individual_belief_battery.md)** (~7,500 words)
+### **[application/beliefs/individual_belief_battery.md](../application/beliefs/individual_belief_battery.md)** (~7,500 words)
 Practical epistemology for finite agents:
 - **Tier 0 (Theory):** Universal truths independent of position
 - **Tier 1 (Practice):** Indexed beliefs for individuals
   - Default context: moderate power, biographical timescale, mobile, national scope
   - 50+ practical questions with Prolog specifications
 - Extensible to organizational/institutional contexts
-- Executable Prolog implementation: [`application/structural_dynamics_model/prolog/belief_battery/`](application/structural_dynamics_model/prolog/belief_battery/)
+- Executable Prolog implementation: [`structural_dynamics_model/prolog/belief_battery/`](structural_dynamics_model/prolog/belief_battery/)
 
 ---
 
 ## Application: Narrative Transform
 
-Located in [`application/narrative_transform/`](application/narrative_transform/)
+Located in [`../application/narrative_transform/`](../application/narrative_transform/)
 
 A 6-stage AI pipeline for extracting constraint structures from existing stories and generating new narratives in completely different settings that preserve the underlying dynamics.
 
@@ -221,20 +229,20 @@ A 6-stage AI pipeline for extracting constraint structures from existing stories
 
 **Key Innovation:** Stage 4 receives only the formalized constraint structure, never the original story. The resulting narrative must be unrecognizable from the source while preserving its constraint dynamics.
 
-**Example workflow:** [narrative_transform_example.md](application/narrative_transform/example/narrative_transform_example.md)
+**Example workflow:** [narrative_transform_example.md](../application/narrative_transform/example/narrative_transform_example.md)
 
-**Generated stories:** [`stories/`](application/narrative_transform/stories/)
+**Generated stories:** [`stories/`](../application/narrative_transform/stories/)
 - `blood_silver.md` - Constraint structure transplanted to new setting
 - `faint_blue.md` (+ variants) - Multiple perspective explorations
 - `rotation_seven.md`, `the_calm.md` - Additional transformations
 
-**Full protocol:** [uke_narrative_v1.1.md](application/narrative_transform/uke_narrative_v1.1.md) (~100KB)
+**Full protocol:** [uke_narrative_v1.1.md](../application/narrative_transform/uke_narrative_v1.1.md) (~100KB)
 
 ---
 
 ## Application: Structural Dynamics Model
 
-Located in [`application/structural_dynamics_model/`](application/structural_dynamics_model/)
+Located in [`structural_dynamics_model/`](structural_dynamics_model/)
 
 A reproducible constraint analysis compiler that transforms domain descriptions into formal structural classifications and falsifiable predictions.
 
@@ -249,34 +257,34 @@ A reproducible constraint analysis compiler that transforms domain descriptions 
 **Key Innovation:** Every stage executes published specifications. Reproducible reasoning, not black-box prompting.
 
 **Components:**
-- [`prolog/`](application/structural_dynamics_model/prolog/) - Symbolic reasoning engine
+- [`prolog/`](structural_dynamics_model/prolog/) - Symbolic reasoning engine
   - `drl_core.pl` - Context-indexed constraint classification
   - `validation_suite.pl` - 7-step audit protocol (primary entry point)
   - `structural_signatures.pl` - Natural law vs. constructed constraint detection
-  - `testsets/` - 80+ formalized domain analyses
-  - [`belief_battery/`](application/structural_dynamics_model/prolog/belief_battery/) - Personal belief audit system (40 questions)
-- [`prompts/`](application/structural_dynamics_model/prompts/) - Layer 1 generation spec (60 pages)
-- [`protocols/`](application/structural_dynamics_model/protocols/) - Layer 3 synthesis spec (UKE_W v1.0)
-- [`python/`](application/structural_dynamics_model/python/) - Orchestration and analysis tools
-- [`examples/`](application/structural_dynamics_model/examples/) - Compiled essays and audit outputs
+  - `testsets/` - 993 formalized domain analyses
+  - [`belief_battery/`](structural_dynamics_model/prolog/belief_battery/) - Personal belief audit system (40 questions)
+- [`prompts/`](structural_dynamics_model/prompts/) - Layer 1 generation spec (60 pages)
+- [`protocols/`](structural_dynamics_model/protocols/) - Layer 3 synthesis spec (UKE_W v2.1)
+- [`python/`](structural_dynamics_model/python/) - Orchestration and analysis tools
+- [`examples/`](structural_dynamics_model/examples/) - Compiled essays and audit outputs
 
 **Domains tested:** Finance (Lehman, Blackstone), governance (elections, HOA, tax code), protocols (Ergo, RFC), history (medieval church, KJV), algorithms (TSP, Gale-Shapley), organizational dynamics, mathematics, and more.
 
 **Quick start:**
 ```bash
-cd application/structural_dynamics_model/prolog
-swipl -g "[validation_suite]"
+cd structural_dynamics_model/prolog
+swipl -g "[stack], [validation_suite]"
 ```
 
-**Documentation:** [README.md](application/structural_dynamics_model/README.md), [quick_start.md](application/structural_dynamics_model/quick_start.md)
+**Documentation:** [README.md](structural_dynamics_model/README.md), [quick_start.md](structural_dynamics_model/quick_start.md)
 
 ---
 
 ## Validation
 
-Located in [`validation/`](validation/)
+Located in [`../validation/`](../validation/)
 
-### **[validation_report.md](validation/validation_report.md)**
+### **[validation_report.md](../validation/validation_report.md)**
 Complete empirical analysis of 1,023 constraint scenarios:
 - **0% collision rate** - Index sufficiency confirmed
 - **79% observer-dependent** - Only 21% classify identically across all positions
@@ -287,14 +295,14 @@ Complete empirical analysis of 1,023 constraint scenarios:
 - Parser vulnerability findings (Mountain naturalization, WHO assignment, cultural narrative embedding)
 - Confidence levels and limitations
 
-### **[data/](validation/data/)**
+### **[data/](../validation/data/)**
 Raw validation corpus:
 - `corpus_data.json` - 1,023 classified constraints
 - `structured_analysis.json` - Processed analysis
 - `output.txt` - Full classification outputs
 - `gap_report.json` - Coverage gaps and missing domains
 
-### **[analysis/](validation/analysis/)**
+### **[analysis/](../validation/analysis/)**
 Supporting validation analysis:
 - `index_sufficiency.md` - 0% collision rate across 35 domains
 - `variance_analysis.md` - Observer-dependence distribution
@@ -307,24 +315,24 @@ Supporting validation analysis:
 
 ## Archived & Legacy Documents
 
-Located in [`docs/`](docs/)
+Located in [`../docs/`](../docs/)
 
 These reference documents show where Deferential Realism originated, and are kept for historical purposes.
 
-### **[docs/core_concepts/omega_variables.md](docs/core_concepts/omega_variables.md)** (~1,200 words)
+### **[docs/core_concepts/omega_variables.md](../docs/core_concepts/omega_variables.md)** (~1,200 words)
 Framework for identifying reasoning blockers:
 - Three types: Empirical (Ω_E), Conceptual (Ω_C), Preference (Ω_P)
 - Distinguishes data needs from definitional needs from value judgments
 - Protocol for routing blockers to appropriate resolution
 - Structural convergence principle
 
-### **[docs/core_concepts/indexical_relativity.md](docs/core_concepts/indexical_relativity.md)** (~100 words)
+### **[docs/core_concepts/indexical_relativity.md](../docs/core_concepts/indexical_relativity.md)** (~100 words)
 Core innovation origin:
 - Classifications relative to WHO/WHEN/WHERE/HOW_MUCH
 - Not relativism: each indexed claim is objectively true/false
 - Medieval Church example (Mountain for serf, Snare for historian, Rope for Pope)
 
-### **[docs/archive/mck_v1.6.md](docs/archive/mck_v1.6.md)** (~750 words)
+### **[docs/archive/mck_v1.6.md](../docs/archive/mck_v1.6.md)** (~750 words)
 Verified Kernel protocol:
 - Grounding protocol (distinguish observable from constructed)
 - Multi-perspective mandate
@@ -332,13 +340,13 @@ Verified Kernel protocol:
 - Omega variable marking
 - Dignity and reality invariants
 
-### **[docs/uke/uke_protocol_framing_guide.md](docs/uke/uke_protocol_framing_guide.md)** (~900 words)
+### **[docs/uke/uke_protocol_framing_guide.md](../docs/uke/uke_protocol_framing_guide.md)** (~900 words)
 Routing vs. truth clarification:
 - UKE metrics are routing mechanisms, not truth measurements
 - Decision interfaces for consistent comparison
 - Protocol triggering based on confidence thresholds
 
-### **[docs/technical/debugging_philosophy.md](docs/technical/debugging_philosophy.md)** (~40KB)
+### **[docs/technical/debugging_philosophy.md](../docs/technical/debugging_philosophy.md)** (~40KB)
 Predecessor framework for identifying reasoning error types:
 - Systematic approach to philosophical debugging
 - Error taxonomy and correction protocols
@@ -411,10 +419,10 @@ Predecessor framework for identifying reasoning error types:
 ## How to Engage
 
 ### If the framework makes sense:
-1. Start with [`core_v4_1.md`](core_v4_1.md) for compression
+1. Start with [`core_v4.2.md`](core_v4.2.md) for compression
 2. Read [`epistemology.md`](epistemology.md) for depth
-3. Apply [`application/applied_guide.md`](application/applied_guide.md) to your domain
-4. Check [`validation/validation_report.md`](validation/validation_report.md) for empirical grounding
+3. Apply [`../application/applied_guide.md`](../application/applied_guide.md) to your domain
+4. Check [`../validation/validation_report.md`](../validation/validation_report.md) for empirical grounding
 5. Explore domain-specific foundations ([logic](logic.md), [logic_extensions](logic_extensions.md), [metaphysics](metaphysics.md), [ethics](ethics.md), [aesthetics](aesthetics.md))
 
 ### If you have critiques:
@@ -425,18 +433,18 @@ Predecessor framework for identifying reasoning error types:
 5. See [`epistemology.md`](epistemology.md) Section VI (Known Limitations) and Section VIII (Epistemic Position)
 
 ### If you want to apply it:
-1. Use [`application/applied_guide.md`](application/applied_guide.md) decision trees
-2. Run the [Structural Dynamics Model](application/structural_dynamics_model/) for formal analysis
-3. Try [Narrative Transform](application/narrative_transform/) for creative constraint transposition
-4. Run [`tools/uke_suite/claims_evaluator.md`](tools/uke_suite/claims_evaluator.md) on recommendations to detect constraint-blindness
-5. Use [`tools/uke_suite/diagnostic_evaluator.md`](tools/uke_suite/diagnostic_evaluator.md) to stress-test narratives with math
-6. Adapt [`application/beliefs/individual_belief_battery.md`](application/beliefs/individual_belief_battery.md) to your context
+1. Use [`../application/applied_guide.md`](../application/applied_guide.md) decision trees
+2. Run the [Structural Dynamics Model](structural_dynamics_model/) for formal analysis
+3. Try [Narrative Transform](../application/narrative_transform/) for creative constraint transposition
+4. Run [`../tools/uke_suite/claims_evaluator.md`](../tools/uke_suite/claims_evaluator.md) on recommendations to detect constraint-blindness
+5. Use [`../tools/uke_suite/diagnostic_evaluator.md`](../tools/uke_suite/diagnostic_evaluator.md) to stress-test narratives with math
+6. Adapt [`../application/beliefs/individual_belief_battery.md`](../application/beliefs/individual_belief_battery.md) to your context
 
 ---
 
 ## Status
 
-**Framework version:** 4.1 (February 2026)
+**Framework version:** 4.2 (March 2026)
 
 **Corpus validation:**
 - 1,023 constraints analyzed across 35+ domains
@@ -446,30 +454,32 @@ Predecessor framework for identifying reasoning error types:
 - 44% institutional dissenter pattern
 - Domain patterns confirmed (social vs. technical extraction rates)
 
-**v4.0 → v4.1 additions:**
+**v4.0 → v4.2 additions:**
 - Structural physics layer (Boltzmann compliance, purity scoring, network contamination)
 - Drift types 8–11 (coupling, Boltzmann floor, purity, network)
 - FNL/FCR formal detection signatures
 - Metrics-as-routing epistemological reframe
 - 1,023-constraint corpus (expanded from 467)
+- 993 formalized testsets in the Structural Dynamics Model (expanded from 80+)
 - Institutional dissenter finding (44%)
 - Observer-dependence finding (79%)
+- Naturalized constraint type added (7th category)
 - All domain files updated with structural physics integration
 
-**Framework stability:** Core structure (6 categories + 4 indices + power-scaling) is internally coherent and empirically grounded within the analyzed corpus.
+**Framework stability:** Core structure (7 categories + 4 indices + power-scaling) is internally coherent and empirically grounded within the analyzed corpus.
 
 **External validation:** Peer review and independent replication ongoing.
 
 **Known limitations:** Corpus is exploratory (not statistically representative), classification assumes accurate information access, power modifiers may need contextual adjustment, timing predictions untested, framework provides disambiguation (not normative guidance).
 
-See [`validation/validation_report.md`](validation/validation_report.md) for complete methodology, findings, and confidence levels.
+See [`../validation/validation_report.md`](../validation/validation_report.md) for complete methodology, findings, and confidence levels.
 
 ---
 
 ## Installation
 
 ### For Reading/Study
-No installation required. Start with [`core_v4_1.md`](core_v4_1.md).
+No installation required. Start with [`core_v4.2.md`](core_v4.2.md).
 
 ### For Running the Validation Suite
 ```bash
@@ -478,18 +488,18 @@ sudo apt install python3 swi-prolog  # Ubuntu/Debian
 brew install python3 swi-prolog       # macOS
 
 # Run validation
-cd application/structural_dynamics_model/scripts
-./run_tests.sh
+cd structural_dynamics_model/prolog
+swipl -g "[stack], [validation_suite], run_dynamic_suite, halt" -t "halt(1)"
 ```
 
 ### For Full LLM Pipeline (Optional)
 ```bash
-pip install -r tools/streamlit/requirements.txt
+pip install -r ../tools/streamlit/requirements.txt
 export ANTHROPIC_API_KEY="your-key"
 export GOOGLE_API_KEY="your-key"
 ```
 
-See [`tools/streamlit/requirements.txt`](tools/streamlit/requirements.txt) for details.
+See [`../tools/streamlit/requirements.txt`](../tools/streamlit/requirements.txt) for details.
 
 ---
 
@@ -508,7 +518,7 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines on:
 See [`CITATION.md`](CITATION.md) for BibTeX and text citation formats.
 
 Quick citation:
-> cafebedouin. (2026). *Deferential Realism: An Indexed Epistemology for Constraint Classification* (Version 4.1). https://github.com/cafebedouin/deferential_realism
+> cafebedouin. (2026). *Deferential Realism: An Indexed Epistemology for Constraint Classification* (Version 4.2). https://github.com/cafebedouin/deferential_realism
 
 ---
 
@@ -520,6 +530,6 @@ Quick citation:
 
 ---
 
-**Deferential Realism v4.1**  
-**Empirically Grounded**  
-**February 2026**
+**Deferential Realism v4.2**
+**Empirically Grounded**
+**March 2026**

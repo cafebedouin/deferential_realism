@@ -14,17 +14,17 @@ This directory contains practical tools for applying the Deferential Realism fra
 
 ### Major Subsystems
 
-#### [structural_dynamics_model/](structural_dynamics_model/)
-**Reproducible Constraint Analysis Compiler**
+#### [Structural Dynamics Model](../foundations/structural_dynamics_model/)
+**Reproducible Constraint Analysis Compiler** (canonical location: `foundations/structural_dynamics_model/`)
 
 A 4-layer AI pipeline that transforms domain descriptions into formal structural classifications and falsifiable predictions:
 - Layer 1: Structural extraction (Gemini) → Prolog models
 - Layer 2: Logical validation (SWI-Prolog) → Audit reports
 - Layer 3: Narrative synthesis (Claude) → Evidence-backed essays
 
-Contains: Prolog reasoning engine, 80+ domain testsets, generation prompts, synthesis protocols, Python orchestration.
+Contains: 76 Prolog modules, 993 domain testsets, generation prompts, synthesis protocols, Python orchestration.
 
-See [structural_dynamics_model/README.md](structural_dynamics_model/README.md) for full documentation.
+See [foundations/structural_dynamics_model/README.md](../foundations/structural_dynamics_model/README.md) for full documentation.
 
 #### [narrative_transform/](narrative_transform/)
 **Constraint Structure Transposition Pipeline**

@@ -16,7 +16,7 @@ $ ./compile "HOA architectural covenants"
          → Signature: constructed_constraint
          → Gap: individual sees "none", institutional sees "rope"
 
-[Layer 3] Claude executes UKE_W v1.0 protocol (2-5min)
+[Layer 3] Claude executes UKE_W v2.1 protocol (2-5min)
          → Evidence: 70% new construction, 5-6% value premium
          → Prediction: Legislative caps will expand
          → Omegas: property_value_correlation, board_motivation
@@ -24,7 +24,7 @@ $ ./compile "HOA architectural covenants"
 ✓ Complete: hoa_analysis.md
 ```
 
-**Tested on 80+ domains.** Same specifications analyze Colombian elections, Blackstone tax structures, medieval church hegemony, cryptocurrency protocols, and Shannon entropy limits.
+**Tested on 993 domains.** Same specifications analyze Colombian elections, Blackstone tax structures, medieval church hegemony, cryptocurrency protocols, and Shannon entropy limits.
 
 ---
 
@@ -53,7 +53,7 @@ The difference isn't just speed—it's **reproducibility**. Every transformation
 **Designed reasoning infrastructure:**
 
 **Deferential Realism (DR)** - Core epistemology
-- Five constraint types (Mountain/Rope/Tangled Rope/Snare/Piton)
+- Seven constraint types (Mountain/Rope/Tangled Rope/Snare/Scaffold/Piton/Naturalized)
 - Indexical relativity (WHO/WHEN/WHERE/HOW MUCH)
 - Omega variables (irreducible reasoning blockers: Ω_E/Ω_C/Ω_P)
 - Multi-level analysis (structural/organizational/class/individual)
@@ -68,7 +68,7 @@ The difference isn't just speed—it's **reproducibility**. Every transformation
 
 **Compilation Specifications** - Formal protocols
 - 60-page Prolog generation prompt (Layer 1 spec)
-- UKE_W v1.0 essay synthesis protocol (Layer 3 spec)
+- UKE_W v2.1 essay synthesis protocol (Layer 3 spec)
 - Quality gates and validation criteria
 
 ### Layer 1: Structural Extraction (Gemini, ~60 seconds)
@@ -106,12 +106,12 @@ Actions:
 
 Actions:
 1. Run: `python domain_priors.py` in ./prolog/testsets/
-2. Add list to the end of domain_priors.p1 in ./prolog/
+2. Add list to the end of domain_priors.pl in ./prolog/
 3. Run `python validation_test_suite.py` in ./prolog/ (if running everything in testsets)
-4. Bash: `swifl`
-5. Swifl: `[v3_1_stack].`
-6. Swifl: `[validation_suite].` or
-6. Swifl: `run_scenario('./testsets/filename.pl', filename).
+4. Bash: `swipl`
+5. Swipl: `[stack].`
+6. Swipl: `[validation_suite].` or
+6. Swipl: `run_scenario('./testsets/filename.pl', filename).
 
 **Input:** Prolog model from Layer 1 (may contain syntax errors)  
 **Process:** Seven-step audit protocol
@@ -149,7 +149,7 @@ Analysis for: hoa_architectural_covenants
 1. Give Claude Prolog Input File, Prolog Output, other model input (Perplexity search) and uke_w
 2. Claude generates report
 
-**Executes:** `UKE_W v1.0` protocol
+**Executes:** `UKE_W v2.1` protocol
 
 **Input:** Layer 2 audit summary + web search results  
 **Process:** Evidence-anchored interpretation following formal specification
@@ -185,7 +185,7 @@ Analysis for: hoa_architectural_covenants
 
 ```markdown
 [UKE_META]
-protocol: UKE_W v1.0
+protocol: UKE_W v2.1
 substrate: hoa_covenants.pl | DR-Audit Executive Summary
 voice: Critical Essayist
 mode: sharp
@@ -236,8 +236,8 @@ Stakes: ✓ Specific (legislative caps) + Consequential (autonomy erosion)
 
 1. **Published Specifications**
    - Layer 1: 60-page prompt template (`constraint_story_generation_prompt.md`)
-   - Layer 2: Prolog validation logic (`validation_suite.pl`, `drl_core.pl`)
-   - Layer 3: UKE_W protocol (`uke_w.md`)
+   - Layer 2: Prolog validation logic (`validation_suite.pl`, `drl_core.pl`, 76 modules total)
+   - Layer 3: UKE_W protocol (`uke_write_v2.1.md`)
 
 2. **Explicit Constraints**
    - Layer 1 must generate valid Prolog (checked by Layer 2)
@@ -247,7 +247,7 @@ Stakes: ✓ Specific (legislative caps) + Consequential (autonomy erosion)
 3. **Testable Outputs**
    - Prolog models include test suites (prove indexical variance)
    - Essays include falsification criteria (predictions can be proven wrong)
-   - All 80+ examples available for inspection
+   - All examples available for inspection
 
 ### Human Role
 
@@ -267,138 +267,53 @@ The AIs execute your specifications. You ensure correctness.
 ```
 structural_dynamics_model/
 ├── README.md
-├── constraint_bridge.pl
-├── constraint_indexing.pl
-├── constraint_instances.pl
-├── data_verification.pl
-├── domain_priors.pl
-├── drl_core.pl
-├── drl_modal_logic.pl
-├── intent_engine.pl
-├── narrative_ontology.pl
-├── pattern_analysis.pl
-├── python_build_suite.py
-├── python_test_suite.py
-├── report_generator.pl
-├── scenario_manager.pl
-├── structural_signatures.pl
-├── test_harness.pl
-├── test_index.pl
-├── testsets
-│   ├── 26usc469.pl
-│   ├── 26usc469_real_estate_exemption.pl
-│   ├── ai_evaluators_matching.pl
-│   ├── automatic_enrollment_defaults.pl
-│   ├── biological_curiosity.pl
-│   ├── blackstone_carried_interest_taxation.pl
-│   ├── blackstone_conflicts_of_interest.pl
-│   ├── blackstone_smd_control.pl
-│   ├── blackstone_tax_receiveable_agreement.pl
-│   ├── carbon_credit_markets_2026.pl
-│   ├── choice_architecture_design.pl
-│   ├── cloudflare_dual_class_asymmetry.pl
-│   ├── coinbase_crypto_volatility.pl
-│   ├── coinbase_regulatory_uncertainty.pl
-│   ├── college_admissions_market.pl
-│   ├── columbia_2026_elections - Copy.pl:Zone.Identifier
-│   ├── columbia_2026_elections.pl
-│   ├── copyleft_viral_licensing.pl
-│   ├── copyright_protection.pl
-│   ├── couples_residency_match.pl
-│   ├── creative_commons_licensing.pl
-│   ├── dark_patterns_manipulation.pl
-│   ├── dead_sea_effect.md
-│   ├── deferential_realism_core.pl
-│   ├── domain_priors.py
-│   ├── ergo_advanced_mechanisms.pl
-│   ├── ergo_autolykos_asic_resistance.pl
-│   ├── ergo_dexy_gold_protocol.pl
-│   ├── ergo_lets_protocol.pl
-│   ├── ergo_mixer_protocol.pl
-│   ├── ergo_nipopows.pl
-│   ├── ergo_rosen_bridge_protocol.pl
-│   ├── ergo_sig_usd_protocol.pl
-│   ├── ergo_storage_rent_mechanism.pl
-│   ├── exploration_vs_exploitation.pl
-│   ├── fair_use_doctrine.pl
-│   ├── fix_citations.sh
-│   ├── gale_shapley.pl
-│   ├── genetic_algorithms_evolution.pl
-│   ├── gita_kurukshetra.pl
-│   ├── golden_handcuffs.pl
-│   ├── hamiltonian_path_complexity.pl
-│   ├── hammurabi.pl
-│   ├── heuristic_optimization.pl
-│   ├── hoa_covenants.pl
-│   ├── information_foraging_theory.pl
-│   ├── institutional_mutation_domestication.pl
-│   ├── kidney_exchange_market.pl
-│   ├── kjv_great_awakening.pl
-│   ├── kjv_linguistic_residue.pl
-│   ├── kjv_puritan_new_world_exit.pl
-│   ├── kjv_textual_authority.pl
-│   ├── lehman_repo_105.pl
-│   ├── local_vs_global_optima.pl
-│   ├── marriage_problem.pl
-│   ├── matching_markets_general.pl
-│   ├── max_flow.pl
-│   ├── medical_residency_match.pl
-│   ├── medieval_church_hegomony.pl
-│   ├── non_compete_agreements.pl
-│   ├── permissive_software_licensing.pl
-│   ├── public_domain_commons.pl
-│   ├── relativity_of_simultaneity.pl
-│   ├── relativity_physical_invariance.pl
-│   ├── rfc9293_interoperability.pl
-│   ├── rfc9293_state_machine.pl
-│   ├── rotation_seven_black_soil.pl
-│   ├── rotation_seven_isolation.pl
-│   ├── rotation_seven_kubo_ranking.pl
-│   ├── s1_airbnb.pl
-│   ├── s1_visa.pl
-│   ├── s1_visa_judgment_sharing_agreement.pl
-│   ├── shannon_entropy_limit.pl
-│   ├── silicon_lexicon_overload.pl
-│   ├── skills_based_hiring.pl
-│   ├── sludge_bureaucratic_friction.pl
-│   ├── sts86_ascent_checklist.pl
-│   ├── trade_secret_law.pl
-│   ├── traveling_salesperson_problem.pl
-│   └── validator.py
-├── uke_dr_bridge.pl
-├── v3_1_coercion_projection.pl
-├── v3_1_config.pl
-├── v3_1_data_repair.pl
-├── v3_1_stack.pl
-├── v_3_2_signature_config.pl
-└── validation_suite.pl
+├── quick_start.md
+├── AUDIT.md
+├── CLAUDE.md
 │
-├── prompts/
-│   └── constraint_story_generation_prompt.md  # Layer 1 specification (60 pages)
+├── prolog/                            # Symbolic reasoning engine (76 modules)
+│   ├── stack.pl                       # Module loader (load this first)
+│   ├── drl_core.pl                    # Context-indexed constraint classification
+│   ├── validation_suite.pl            # 7-step audit protocol (primary entry point)
+│   ├── config.pl                      # Single source of truth for parameters
+│   ├── structural_signatures.pl       # Natural law vs. constructed constraint detection
+│   ├── drl_boltzmann_analysis.pl      # Boltzmann compliance testing
+│   ├── drl_purity_network.pl          # Purity scoring and network contamination
+│   ├── drl_lifecycle.pl               # Constraint lifecycle modeling
+│   ├── drl_counterfactual.pl          # Counterfactual analysis
+│   ├── drift_events.pl                # Drift event detection (types 1-11)
+│   ├── testsets/                      # 993 formalized domain analyses
+│   ├── belief_battery/                # Personal belief audit system
+│   └── [60+ additional modules]
 │
-├── protocols/
-│   └── uke_w.md                       # Layer 3 specification (UKE_W v1.0)
+├── prompts/                           # Layer 1 specifications
+│   ├── constraint_story_generation_prompt.md  # Prolog generation spec (60 pages)
+│   └── constraint_story_template.pl   # Template for generated models
 │
-├── python/
-│   ├── validator.py                   # Pipeline orchestration
-│   └── domain_priors.py               # Prior extraction utilities
+├── protocols/                         # Layer 3 specifications
+│   ├── uke_write_v2.1.md             # Current synthesis protocol (UKE_W v2.1)
+│   └── opacity_test_protocol_v1.1.md # Opacity testing protocol
 │
-├── scripts/
-│   └── [Shell utilities for batch processing]
+├── python/                            # Orchestration and analysis tools
+│   ├── run_pipeline.py               # Pipeline orchestration
+│   ├── linter.py                     # Testset linting (import as library)
+│   ├── config_sensitivity_sweep.py   # Parameter sensitivity analysis
+│   └── [40+ analysis and utility scripts]
 │
-├── docs/
-│   ├── deferential_realism_core.md    # DR framework documentation
-│   ├── omega_variables.md             # Reasoning blocker taxonomy
-│   ├── indexical_relativity.md        # Multi-perspective theory
-│   └── [Additional documentation]
+├── scripts/                           # Shell utilities for batch processing
 │
-└── examples/
-    └── [Compiled analysis essays from Layer 3]
+├── examples/                          # Compiled essays and audit outputs
+│
+├── agent/                             # Agent integration
+│
+├── audit/                             # Audit data and results
+│
+└── json/                              # JSON data exports
 ```
 
 ---
 
-## Evidence: 80+ Compiled Domains
+## Evidence: 993 Compiled Domains
 
 The compiler has been tested on radically different constraint types:
 
@@ -504,7 +419,7 @@ Structural claim: Constitutional term limit (Mountain) + runoff math (Snare) + c
 ## Known Limitations
 
 ### Methodological
-- **Not peer-reviewed:** Framework developed through internal iteration (80+ test cases), not academic validation
+- **Not peer-reviewed:** Framework developed through internal iteration (993 test cases), not academic validation
 - **Domain dependency:** Requires sufficient structural description (won't work on purely aesthetic/emotional domains)
 - **Measurement boundaries:** High extraction + low transparency = lowest certainty (fundamental, not fixable)
 
@@ -556,7 +471,7 @@ This is **research infrastructure under active development**, not production sof
 
 - **"Rewrite in Python"** - Misses the point (Prolog's logic programming enables auto-repair + validation)
 - **"Just use LLM directly"** - Loses formal specification (no reproducibility guarantee)
-- **"Add more constraint types"** - Complexity inflation (current five types sufficient)
+- **"Add more constraint types"** - Complexity inflation (current seven types sufficient)
 - **"Make it user-friendly"** - Premature (validate methodology before UX)
 
 ### Contribution Process
@@ -581,31 +496,31 @@ If this methodology proves useful:
            Four-Layer AI Collaboration},
   year = {2026},
   publisher = {GitHub},
-  url = {https://github.com/cafebedouin/structural_dynamics_model},
+  url = {https://github.com/cafebedouin/deferential_realism},
   note = {Framework: Deferential Realism (DR). 
           Implementation: Prolog + Gemini + Claude. 
-          Testing: 80+ domains (2025-2026).}
+          Testing: 993 domains (2025-2026).}
 }
 ```
 
 **Framework:** Deferential Realism (indexical epistemology, constraint taxonomy)  
 **Layer 1:** Gemini executing 60-page Prolog generation prompt  
 **Layer 2:** SWI-Prolog validation suite (auto-repair + DR-Audit)  
-**Layer 3:** Claude executing UKE_W v1.0 synthesis protocol
+**Layer 3:** Claude executing UKE_W v2.1 synthesis protocol
 
 ---
 
 ## Roadmap
 
 ### Short-Term (Q1-Q2 2026)
-- ✓ Complete 80+ domain compilations
+- ✓ Complete 993 domain compilations (910/910 passing)
 - ⧖ Track Colombia 2026 election predictions (falsification test)
 - ⧖ Monitor HOA legislative trends (2026-2028)
 - ⧗ Automate full pipeline (single command: domain → essay)
 - ⧗ External peer review and replication
 
 ### Medium-Term (Q3-Q4 2026)
-- ⧗ Expand to 150+ domains (increase coverage)
+- ✓ Expand to 993 domains (coverage achieved)
 - ⧗ Cross-cultural validation (non-Western constraint structures)
 - ⧗ Real-time policy analysis interface (analyze as you read)
 - ⧗ Comparative framework study (DR vs. Marxist/game-theoretic/etc.)
@@ -637,7 +552,7 @@ For those interested in the epistemological grounding:
 ### Why Indices Are Necessary
 Without explicit WHO/WHEN/WHERE/HOW MUCH specification, "What type of constraint is this?" collapses into equivocation. Same statement can be true for multiple index-sets → unindexed answer is logically incomplete.
 
-### Five Constraint Types
+### Seven Constraint Types
 
 | Type | Origin | Maintenance | Strategy |
 |------|--------|-------------|----------|
@@ -645,7 +560,9 @@ Without explicit WHO/WHEN/WHERE/HOW MUCH specification, "What type of constraint
 | **Rope** | Coordination need | Active (energy input) | Maintain, reform carefully |
 | **Tangled Rope** | Rope + captured extraction | Active (mixed incentives) | Reform (remove extraction, preserve coordination) |
 | **Snare** | Power concentration | Active (enforcement) | Replace, cut, exit |
+| **Scaffold** | Temporary need | Active (time-limited) | Use temporarily, dismantle when done |
 | **Piton** | Institutional inertia | Passive (coordination failure) | Bypass, coordinate removal |
+| **Naturalized** | Constructed → perceived natural | Passive (cultural embedding) | Expose constructed origin |
 
 ### Omega Variables: Reasoning Blockers
 
@@ -680,18 +597,16 @@ See `docs/` directory:
 
 ## Status & Contact
 
-**Current State:** Internal validation complete, 80+ domains tested, awaiting external replication and falsification tracking
+**Current State:** Internal validation complete, 993 domains tested (910/910 passing), awaiting external replication and falsification tracking
 
 **Specifications Published:**
 - Layer 1: `prompts/constraint_story_generation_prompt.md` (60 pages)
-- Layer 2: `prolog/validation_suite.pl` + `drl_core.pl`
-- Layer 3: `protocols/uke_w.md` (UKE_W v1.0)
+- Layer 2: `prolog/validation_suite.pl` + `drl_core.pl` (76 Prolog modules, 170 config params)
+- Layer 3: `protocols/uke_write_v2.1.md` (UKE_W v2.1)
 
 **Next Milestone:** Colombia 2026 election results (May-June 2026) provide first major falsification test
 
-**Contact:** [Your preferred contact method]
-
-**Last Updated:** January 19, 2026
+**Last Updated:** March 2026
 
 ---
 
@@ -706,9 +621,9 @@ If you improve the methodology, consider publishing your refinements so others c
 ---
 
 **Built by:** Human framework design + AI compilation execution  
-**Tested on:** 80+ domains spanning finance, governance, protocols, history, algorithms  
+**Tested on:** 993 domains spanning finance, governance, protocols, history, algorithms  
 **Falsifiable:** Colombia 2026 predictions, HOA legislation trends  
-**Reproducible:** All specifications published, all 80+ examples available
+**Reproducible:** All specifications published, all examples available
 
 *Reasoning infrastructure for structural constraint analysis.*
 
